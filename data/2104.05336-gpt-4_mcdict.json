@@ -1,0 +1,1664 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Top children according to the policy for each node"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Batch size"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum bounds"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of times an action has been chosen from a state"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Statistic representing the value of taking an action"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of simulations"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of possible actions"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Action"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Action at time step t"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Batch index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyper-parameters for the Adam optimizer"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_puct"
+                        ],
+                        "arity": 0,
+                        "description": "Tunable constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scaling factor"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Minimum bounds"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Base of the natural logarithm"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token cost"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Beam size"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metric"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of candidate sentences"
+                    }
+                ]
+            }
+        },
+        "6f": {
+            "_surface": {
+                "text": "o",
+                "unicode_name": "LATIN SMALL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unopened node"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of the 'nucleus' of the distribution"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i"
+                        ],
+                        "arity": 0,
+                        "description": "Possible translation prefix at time step t"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "State at time step t"
+                    },
+                    {
+                        "affixes": [
+                            "_o"
+                        ],
+                        "arity": 0,
+                        "description": "Unopened node"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time step"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax distribution for the value loss"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input sequence"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "System’s output"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of tokens"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Candidate sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ground truth output"
+                    },
+                    {
+                        "affixes": [
+                            "^x"
+                        ],
+                        "arity": 0,
+                        "description": "Candidate sentence"
+                    },
+                    {
+                        "affixes": [
+                            "^t"
+                        ],
+                        "arity": 0,
+                        "description": "Token at time step t"
+                    }
+                ]
+            }
+        },
+        "4b4c": {
+            "_surface": {
+                "text": "KL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6273": {
+            "_surface": {
+                "text": "bs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Internal score"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Score for a candidate"
+                    }
+                ]
+            }
+        },
+        "6973": {
+            "_surface": {
+                "text": "is",
+                "unicode_name": "is"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_unexplored"
+                        ],
+                        "arity": 0,
+                        "description": "Boolean indicating whether a node is unexplored"
+                    },
+                    {
+                        "affixes": [
+                            "_root"
+                        ],
+                        "arity": 0,
+                        "description": "Boolean indicating whether a node is root"
+                    }
+                ]
+            }
+        },
+        "7062": {
+            "_surface": {
+                "text": "pb",
+                "unicode_name": "pb"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_c_init"
+                        ],
+                        "arity": 0,
+                        "description": "Initialization parameter for prior belief"
+                    }
+                ]
+            }
+        },
+        "7354": {
+            "_surface": {
+                "text": "sT",
+                "unicode_name": "sT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Terminal state"
+                    }
+                ]
+            }
+        },
+        "7964": {
+            "_surface": {
+                "text": "yd",
+                "unicode_name": "yd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dual-headed network"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contribution factor"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linear combination weight"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight of the value in the score"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalisation temperature parameter"
+                    }
+                ]
+            }
+        },
+        "cf80": {
+            "_surface": {
+                "text": "π",
+                "unicode_name": "GREEK SMALL LETTER PI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model policy"
+                    },
+                    {
+                        "affixes": [
+                            "_τ"
+                        ],
+                        "arity": 0,
+                        "description": "Temperature-adjusted policy"
+                    }
+                ]
+            }
+        },
+        "cf84": {
+            "_surface": {
+                "text": "τ",
+                "unicode_name": "GREEK SMALL LETTER TAU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logits temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature applied to the model likelihoods before sampling"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature parameter"
+                    }
+                ]
+            }
+        },
+        "cfb5": {
+            "_surface": {
+                "text": "ϵ",
+                "unicode_name": "GREEK LUNATE EPSILON SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyper-parameter for the Adam optimizer"
+                    }
+                ]
+            }
+        },
+        "444b4c": {
+            "_surface": {
+                "text": "DKL",
+                "unicode_name": "DKL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kullback-Leibler divergence"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm function"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum function"
+                    }
+                ]
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Minimum function"
+                    }
+                ]
+            }
+        },
+        "6e6f74": {
+            "_surface": {
+                "text": "not",
+                "unicode_name": "not"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_root_mask_int"
+                        ],
+                        "arity": 0,
+                        "description": "Integer mask for non-root nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_root_mask"
+                        ],
+                        "arity": 0,
+                        "description": "Mask for non-root nodes"
+                    }
+                ]
+            }
+        },
+        "6e756d": {
+            "_surface": {
+                "text": "num",
+                "unicode_name": "num"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_layers"
+                        ],
+                        "arity": 0,
+                        "description": "Number of attention layers in the encoder and decoder"
+                    }
+                ]
+            }
+        },
+        "726177": {
+            "_surface": {
+                "text": "raw",
+                "unicode_name": "raw"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_states"
+                        ],
+                        "arity": 0,
+                        "description": "Unprocessed states"
+                    }
+                ]
+            }
+        },
+        "73696d": {
+            "_surface": {
+                "text": "sim",
+                "unicode_name": "sim"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Current simulation"
+                    }
+                ]
+            }
+        },
+        "737570": {
+            "_surface": {
+                "text": "sup"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cf8064": {
+            "_surface": {
+                "text": "πd",
+                "unicode_name": "πd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Policy"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    }
+                ]
+            }
+        },
+        "e28493": {
+            "_surface": {
+                "text": "ℓ",
+                "unicode_name": "SCRIPT SMALL L"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "L2 loss"
+                    }
+                ]
+            }
+        },
+        "e284ac": {
+            "_surface": {
+                "text": "ℬ",
+                "unicode_name": "SCRIPT CAPITAL B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of value buckets"
+                    }
+                ]
+            }
+        },
+        "31652d36": {
+            "_surface": {
+                "text": "1e-6",
+                "unicode_name": "1e-6"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Small constant to avoid division by zero"
+                    }
+                ]
+            }
+        },
+        "62c2af69": {
+            "_surface": {
+                "text": "b¯i",
+                "unicode_name": "b¯i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average value in each bucket"
+                    }
+                ]
+            }
+        },
+        "6c656166": {
+            "_surface": {
+                "text": "leaf",
+                "unicode_name": "leaf"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_indices"
+                        ],
+                        "arity": 0,
+                        "description": "Indices of leaf nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_values"
+                        ],
+                        "arity": 0,
+                        "description": "Values of leaf nodes"
+                    }
+                ]
+            }
+        },
+        "6e657874": {
+            "_surface": {
+                "text": "next",
+                "unicode_name": "next"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_node_index"
+                        ],
+                        "arity": 0,
+                        "description": "Index of the next node"
+                    },
+                    {
+                        "affixes": [
+                            "_states"
+                        ],
+                        "arity": 0,
+                        "description": "Next states of nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_state"
+                        ],
+                        "arity": 0,
+                        "description": "Next state of a node"
+                    }
+                ]
+            }
+        },
+        "6e6f6465": {
+            "_surface": {
+                "text": "node",
+                "unicode_name": "node"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_indices"
+                        ],
+                        "arity": 0,
+                        "description": "Indices of nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_policy_score"
+                        ],
+                        "arity": 0,
+                        "description": "Policy score of the node"
+                    },
+                    {
+                        "affixes": [
+                            "_value_score"
+                        ],
+                        "arity": 0,
+                        "description": "Value score of the node"
+                    },
+                    {
+                        "affixes": [
+                            "_uct_score"
+                        ],
+                        "arity": 0,
+                        "description": "UCT score of the node"
+                    },
+                    {
+                        "affixes": [
+                            "_index"
+                        ],
+                        "arity": 0,
+                        "description": "Index of a node"
+                    }
+                ]
+            }
+        },
+        "70756374": {
+            "_surface": {
+                "text": "puct"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logits temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tunable constant"
+                    }
+                ]
+            }
+        },
+        "726f6f74": {
+            "_surface": {
+                "text": "root",
+                "unicode_name": "root"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_index"
+                        ],
+                        "arity": 0,
+                        "description": "Index of the root node"
+                    },
+                    {
+                        "affixes": [
+                            "_mask"
+                        ],
+                        "arity": 0,
+                        "description": "Mask for root nodes"
+                    }
+                ]
+            }
+        },
+        "e2849276": {
+            "_surface": {
+                "text": "ℒv",
+                "unicode_name": "ℒv"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Regular value loss"
+                    }
+                ]
+            }
+        },
+        "f09d929c": {
+            "_surface": {
+                "text": "𝒜",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Action space"
+                    }
+                ]
+            }
+        },
+        "f09d929f": {
+            "_surface": {
+                "text": "𝒟",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distillation loss between the final layer of both pathways"
+                    }
+                ]
+            }
+        },
+        "f09d92b1": {
+            "_surface": {
+                "text": "𝒱",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vocabulary of tokens"
+                    }
+                ]
+            }
+        },
+        "f09d92b3": {
+            "_surface": {
+                "text": "𝒳",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all possible sequences"
+                    }
+                ]
+            }
+        },
+        "f09d92b4": {
+            "_surface": {
+                "text": "𝒴",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all possible sequences"
+                    }
+                ]
+            }
+        },
+        "6370756374": {
+            "_surface": {
+                "text": "cpuct",
+                "unicode_name": "cpuct"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multiplicative constant in the UCT formula"
+                    }
+                ]
+            }
+        },
+        "64656e7365": {
+            "_surface": {
+                "text": "dense",
+                "unicode_name": "dense"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_visit_counts"
+                        ],
+                        "arity": 0,
+                        "description": "Mapped back action representation"
+                    },
+                    {
+                        "affixes": [
+                            "_actions"
+                        ],
+                        "arity": 0,
+                        "description": "Dense actions for network computation"
+                    }
+                ]
+            }
+        },
+        "6465707468": {
+            "_surface": {
+                "text": "depth",
+                "unicode_name": "depth"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth of the tree"
+                    }
+                ]
+            }
+        },
+        "7072696f72": {
+            "_surface": {
+                "text": "prior",
+                "unicode_name": "prior"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prior probabilities"
+                    },
+                    {
+                        "affixes": [
+                            "_topk_indices"
+                        ],
+                        "arity": 0,
+                        "description": "Indices of the top k logits"
+                    }
+                ]
+            }
+        },
+        "73656c662e": {
+            "_surface": {
+                "text": "self.",
+                "unicode_name": "self."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_root_fun"
+                        ],
+                        "arity": 0,
+                        "description": "Function to evaluate the root"
+                    },
+                    {
+                        "affixes": [
+                            "_adaptive_min_values"
+                        ],
+                        "arity": 0,
+                        "description": "Adaptive minimum values"
+                    },
+                    {
+                        "affixes": [
+                            "_adaptive_max_values"
+                        ],
+                        "arity": 0,
+                        "description": "Adaptive maximum values"
+                    },
+                    {
+                        "affixes": [
+                            "_create_node"
+                        ],
+                        "arity": 0,
+                        "description": "Function to create a new node"
+                    },
+                    {
+                        "affixes": [
+                            "_num_simulations"
+                        ],
+                        "arity": 0,
+                        "description": "Number of simulations"
+                    },
+                    {
+                        "affixes": [
+                            "_children_visits"
+                        ],
+                        "arity": 0,
+                        "description": "Visits to the children nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_num_actions"
+                        ],
+                        "arity": 0,
+                        "description": "Number of possible actions"
+                    },
+                    {
+                        "affixes": [
+                            "_batch_range"
+                        ],
+                        "arity": 0,
+                        "description": "Range of the batch"
+                    },
+                    {
+                        "affixes": [
+                            "_topk_mapping"
+                        ],
+                        "arity": 0,
+                        "description": "Mapping of the top k actions"
+                    },
+                    {
+                        "affixes": [
+                            "_batch_size"
+                        ],
+                        "arity": 0,
+                        "description": "Batch size"
+                    },
+                    {
+                        "affixes": [
+                            "_children_index"
+                        ],
+                        "arity": 0,
+                        "description": "Indices of the children nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_children_prior"
+                        ],
+                        "arity": 0,
+                        "description": "Prior probabilities of the children nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_children_values"
+                        ],
+                        "arity": 0,
+                        "description": "Values of the children nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_visit_counts"
+                        ],
+                        "arity": 0,
+                        "description": "Number of visits to each node"
+                    },
+                    {
+                        "affixes": [
+                            "_pb_c_init"
+                        ],
+                        "arity": 0,
+                        "description": "Initialization parameter for prior belief"
+                    },
+                    {
+                        "affixes": [
+                            "_parents"
+                        ],
+                        "arity": 0,
+                        "description": "Parent nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_action_from_parents"
+                        ],
+                        "arity": 0,
+                        "description": "Action from parent nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_depth"
+                        ],
+                        "arity": 0,
+                        "description": "Depth of the tree"
+                    },
+                    {
+                        "affixes": [
+                            "_num_sparse_actions"
+                        ],
+                        "arity": 0,
+                        "description": "Number of sparse actions"
+                    },
+                    {
+                        "affixes": [
+                            "_values"
+                        ],
+                        "arity": 0,
+                        "description": "Values of nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_raw_values"
+                        ],
+                        "arity": 0,
+                        "description": "Raw values of nodes"
+                    },
+                    {
+                        "affixes": [
+                            "_is_terminal"
+                        ],
+                        "arity": 0,
+                        "description": "Boolean indicating whether a node is terminal"
+                    },
+                    {
+                        "affixes": [
+                            "_states"
+                        ],
+                        "arity": 0,
+                        "description": "States of nodes"
+                    }
+                ]
+            }
+        },
+        "cf80737570": {
+            "_surface": {
+                "text": "πsup",
+                "unicode_name": "πsup"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Supervised policy model"
+                    }
+                ]
+            }
+        },
+        "e284927663": {
+            "_surface": {
+                "text": "ℒvc",
+                "unicode_name": "ℒvc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value loss on the cheating pathway"
+                    }
+                ]
+            }
+        },
+        "e28492cf80": {
+            "_surface": {
+                "text": "ℒπ",
+                "unicode_name": "ℒπ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Regular policy loss"
+                    }
+                ]
+            }
+        },
+        "f09d92b12b": {
+            "_surface": {
+                "text": "𝒱+",
+                "unicode_name": "𝒱+"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all possible sequences of tokens"
+                    }
+                ]
+            }
+        },
+        "6172676d6178": {
+            "_surface": {
+                "text": "argmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator that finds the argument that gives the maximum value of a function"
+                    }
+                ]
+            }
+        },
+        "637265617465": {
+            "_surface": {
+                "text": "create",
+                "unicode_name": "create"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_node"
+                        ],
+                        "arity": 0,
+                        "description": "Function to create a new node"
+                    }
+                ]
+            }
+        },
+        "737461746573": {
+            "_surface": {
+                "text": "states",
+                "unicode_name": "states"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "States of the nodes"
+                    }
+                ]
+            }
+        },
+        "76616c756573": {
+            "_surface": {
+                "text": "values",
+                "unicode_name": "values"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Values of nodes"
+                    }
+                ]
+            }
+        },
+        "616374696f6e73": {
+            "_surface": {
+                "text": "actions",
+                "unicode_name": "actions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Selected actions"
+                    }
+                ]
+            }
+        },
+        "706172656e7473": {
+            "_surface": {
+                "text": "parents",
+                "unicode_name": "parents"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parent nodes"
+                    }
+                ]
+            }
+        },
+        "6261636b77617264": {
+            "_surface": {
+                "text": "backward",
+                "unicode_name": "backward"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function to backpropagate the values"
+                    }
+                ]
+            }
+        },
+        "657870616e646564": {
+            "_surface": {
+                "text": "expanded",
+                "unicode_name": "expanded"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_node_is_terminal"
+                        ],
+                        "arity": 0,
+                        "description": "Boolean indicating whether the expanded node is terminal"
+                    }
+                ]
+            }
+        },
+        "70726576696f7573": {
+            "_surface": {
+                "text": "previous",
+                "unicode_name": "previous"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_node_is_terminal"
+                        ],
+                        "arity": 0,
+                        "description": "Boolean indicating whether the previous node is terminal"
+                    }
+                ]
+            }
+        },
+        "73656c662e756374": {
+            "_surface": {
+                "text": "self.uct",
+                "unicode_name": "self.uct"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_select_action"
+                        ],
+                        "arity": 0,
+                        "description": "Function to select action using UCT"
+                    }
+                ]
+            }
+        },
+        "6e702e6d6178696d756d": {
+            "_surface": {
+                "text": "np.maximum",
+                "unicode_name": "np.maximum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function to find the maximum"
+                    }
+                ]
+            }
+        },
+        "6e702e6d696e696d756d": {
+            "_surface": {
+                "text": "np.minimum",
+                "unicode_name": "np.minimum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function to find the minimum"
+                    }
+                ]
+            }
+        },
+        "6e756d5f6c6179657273": {
+            "_surface": {
+                "text": "num_layers"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73656c662e64656e7365": {
+            "_surface": {
+                "text": "self.dense",
+                "unicode_name": "self.dense"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_visit_counts"
+                        ],
+                        "arity": 0,
+                        "description": "Function to map back the sparse action representation"
+                    }
+                ]
+            }
+        },
+        "73656c662e6261636b77617264": {
+            "_surface": {
+                "text": "self.backward",
+                "unicode_name": "self.backward"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function to backpropagate the values"
+                    }
+                ]
+            }
+        },
+        "6e702e617267706172746974696f6e": {
+            "_surface": {
+                "text": "np.argpartition",
+                "unicode_name": "np.argpartition"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function to partition the array"
+                    }
+                ]
+            }
+        }
+    }
+}

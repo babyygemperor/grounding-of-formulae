@@ -1,0 +1,329 @@
+{
+    "_author": "TheBloke/StableBeluga2-70B-GPTQ",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Geometric mean"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance function"
+                    },
+                    {
+                        "affixes": [
+                            "_L"
+                        ],
+                        "arity": 0,
+                        "description": "Local neighborhood change"
+                    },
+                    {
+                        "affixes": [
+                            "_L_𝐬_i_t_𝐬_i_t+1"
+                        ],
+                        "arity": 0,
+                        "description": "Local neighborhood change (d_L(𝐬_i_t,𝐬_i_t+1))"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of nearest neighbors"
+                    },
+                    {
+                        "affixes": [
+                            "_25"
+                        ],
+                        "arity": 0,
+                        "description": "Number of nearest neighbors (k=25)"
+                    },
+                    {
+                        "affixes": [
+                            "_10_50"
+                        ],
+                        "arity": 0,
+                        "description": "Range of k (k in [10,50])"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time point"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word"
+                    }
+                ]
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second-order similarity vector"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second-order vector"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Second-order similarity vector"
+                    },
+                    {
+                        "affixes": [
+                            "_i_t"
+                        ],
+                        "arity": 0,
+                        "description": "Second-order similarity vector at time t"
+                    },
+                    {
+                        "affixes": [
+                            "_i_t+1"
+                        ],
+                        "arity": 0,
+                        "description": "Second-order similarity vector at time t+1"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector representation"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of nearest neighbors"
+                    }
+                ]
+            }
+        },
+        "6e6f756e73": {
+            "_surface": {
+                "text": "nouns",
+                "unicode_name": "nouns"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nouns"
+                    }
+                ]
+            }
+        },
+        "7665726273": {
+            "_surface": {
+                "text": "verbs",
+                "unicode_name": "verbs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Verbs"
+                    }
+                ]
+            }
+        },
+        "636f732d73696d": {
+            "_surface": {
+                "text": "cos-sim",
+                "unicode_name": "cos-sim"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarity"
+                    }
+                ]
+            }
+        },
+        "636f732d64697374": {
+            "_surface": {
+                "text": "cos-dist",
+                "unicode_name": "cos-dist"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine distance"
+                    },
+                    {
+                        "affixes": [
+                            "_𝐬_i"
+                        ],
+                        "arity": 0,
+                        "description": "Cosine distance of second-order similarity vector"
+                    }
+                ]
+            }
+        },
+        "48616d696c746f6e20657420616c2e": {
+            "_surface": {
+                "text": "Hamilton et al.",
+                "unicode_name": "Hamilton et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Citation"
+                    }
+                ]
+            }
+        },
+        "5475726e657920616e642050616e74656c": {
+            "_surface": {
+                "text": "Turney and Pantel",
+                "unicode_name": "Turney and Pantel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2010"
+                        ],
+                        "arity": 0,
+                        "description": "Citation"
+                    }
+                ]
+            }
+        },
+        "6c696e656172206d69786564206d6f64656c20617070726f616368": {
+            "_surface": {
+                "text": "linear mixed model approach",
+                "unicode_name": "linear mixed model approach"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Statistical methodology"
+                    }
+                ]
+            }
+        }
+    }
+}

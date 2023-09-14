@@ -1,0 +1,1468 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[CLS]"
+                        ],
+                        "arity": 0,
+                        "description": "Token representation used to score the candidate sentences"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i_j"
+                        ],
+                        "arity": 0,
+                        "description": "Shortest path distance between word i and j"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance matrix"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_Q"
+                        ],
+                        "arity": 0,
+                        "description": "New parameters for queries"
+                    },
+                    {
+                        "affixes": [
+                            "_l_K"
+                        ],
+                        "arity": 0,
+                        "description": "New parameters for keys"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of vector representations"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keys"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of encoder layers"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Number of layers in GAT"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Masking matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_i_j"
+                        ],
+                        "arity": 0,
+                        "description": "Mask for i,j"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output of the syntax-augmented attention function"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Queries"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_d_model"
+                        ],
+                        "arity": 0,
+                        "description": "Space of real numbers of dimension d_model"
+                    },
+                    {
+                        "affixes": [
+                            "_n×k_d_g"
+                        ],
+                        "arity": 0,
+                        "description": "Space of real numbers of dimension n×k_d_g"
+                    },
+                    {
+                        "affixes": [
+                            "_n×d_g"
+                        ],
+                        "arity": 0,
+                        "description": "Space of real numbers of dimension n×d_g"
+                    },
+                    {
+                        "affixes": [
+                            "_d_k_d_g×d_k"
+                        ],
+                        "arity": 0,
+                        "description": "Space of real numbers of dimension d_k_d_g×d_k"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transpose operator"
+                    }
+                ]
+            }
+        },
+        "55": {
+            "_surface": {
+                "text": "U",
+                "unicode_name": "LATIN CAPITAL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vocabulary size"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Values"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_e"
+                        ],
+                        "arity": 0,
+                        "description": "Token embedding matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_p"
+                        ],
+                        "arity": 0,
+                        "description": "Position embedding matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_lQ"
+                        ],
+                        "arity": 0,
+                        "description": "Parameter matrix for queries"
+                    },
+                    {
+                        "affixes": [
+                            "_lK"
+                        ],
+                        "arity": 0,
+                        "description": "Parameter matrix for keys"
+                    },
+                    {
+                        "affixes": [
+                            "_lV"
+                        ],
+                        "arity": 0,
+                        "description": "Parameter matrix for values"
+                    },
+                    {
+                        "affixes": [
+                            "_o"
+                        ],
+                        "arity": 0,
+                        "description": "Parameter matrix for output projection"
+                    },
+                    {
+                        "affixes": [
+                            "_pos"
+                        ],
+                        "arity": 0,
+                        "description": "Part-of-tag embedding matrix"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_model"
+                        ],
+                        "arity": 0,
+                        "description": "Encoder output dimension"
+                    },
+                    {
+                        "affixes": [
+                            "_k"
+                        ],
+                        "arity": 0,
+                        "description": "Dimension of keys"
+                    },
+                    {
+                        "affixes": [
+                            "_v"
+                        ],
+                        "arity": 0,
+                        "description": "Dimension of values"
+                    },
+                    {
+                        "affixes": [
+                            "_θ_1(g_i, g_j)^2"
+                        ],
+                        "arity": 0,
+                        "description": "Squared distance between g_i and g_j"
+                    },
+                    {
+                        "affixes": [
+                            "_θ(g_i, g_j)"
+                        ],
+                        "arity": 0,
+                        "description": "Squared distance between g_i and g_j"
+                    },
+                    {
+                        "affixes": [
+                            "_θ_2(g_i)"
+                        ],
+                        "arity": 0,
+                        "description": "Squared vector norm of g_i"
+                    },
+                    {
+                        "affixes": [
+                            "_g"
+                        ],
+                        "arity": 0,
+                        "description": "Dimension of the GAT output"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Vector representation of word i"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Vector representation of word n"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention heads"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vectors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of attention heads"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word in the dependency graph"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word in the dependency graph"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of attention heads employed"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of attention heads in GAT"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of tokens in the sequence"
+                    }
+                ]
+            }
+        },
+        "6f": {
+            "_surface": {
+                "text": "o",
+                "unicode_name": "LATIN SMALL LETTER O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Significance level for t-test"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absolute position sequence"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Text sequences in the training corpus"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input token sequence"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Words in the input sequence"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of vectors"
+                    }
+                ]
+            }
+        },
+        "5141": {
+            "_surface": {
+                "text": "QA",
+                "unicode_name": "QA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Question and Answering task"
+                    }
+                ]
+            }
+        },
+        "5765": {
+            "_surface": {
+                "text": "We",
+                "unicode_name": "We"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embedding layer"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight for the tree structure prediction loss"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight of the tree structure prediction loss"
+                    }
+                ]
+            }
+        },
+        "ceb4": {
+            "_surface": {
+                "text": "δ",
+                "unicode_name": "GREEK SMALL LETTER DELTA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance between words in the dependency graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyper-parameter tuned for the model"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_1"
+                        ],
+                        "arity": 0,
+                        "description": "Linear transformation for computing squared distances"
+                    },
+                    {
+                        "affixes": [
+                            "_2"
+                        ],
+                        "arity": 0,
+                        "description": "Linear transformation for computing squared vector norms"
+                    }
+                ]
+            }
+        },
+        "322e34": {
+            "_surface": {
+                "text": "2.4",
+                "unicode_name": "2.4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section discussing pre-training GAT on the 17 target languages"
+                    }
+                ]
+            }
+        },
+        "474154": {
+            "_surface": {
+                "text": "GAT",
+                "unicode_name": "GAT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph attention network"
+                    }
+                ]
+            }
+        },
+        "474e4e": {
+            "_surface": {
+                "text": "GNN",
+                "unicode_name": "GNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph neural networks used to encode the dependency graph structure of the input sequences"
+                    }
+                ]
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_θ_1"
+                        ],
+                        "arity": 0,
+                        "description": "Minimization over θ_1"
+                    }
+                ]
+            }
+        },
+        "706f73": {
+            "_surface": {
+                "text": "pos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Part-of-speech tags of the words"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss"
+                    },
+                    {
+                        "affixes": [
+                            "_task"
+                        ],
+                        "arity": 0,
+                        "description": "Task-specific loss"
+                    },
+                    {
+                        "affixes": [
+                            "_dist"
+                        ],
+                        "arity": 0,
+                        "description": "Tree distance prediction loss"
+                    },
+                    {
+                        "affixes": [
+                            "_depth"
+                        ],
+                        "arity": 0,
+                        "description": "Tree depth prediction loss"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of real numbers"
+                    }
+                ]
+            }
+        },
+        "e2889e": {
+            "_surface": {
+                "text": "∞",
+                "unicode_name": "INFINITY"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infinity"
+                    }
+                ]
+            }
+        },
+        "64697374": {
+            "_surface": {
+                "text": "dist"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(w_i, w_j)"
+                        ],
+                        "arity": 0,
+                        "description": "Tree distance between words w_i and w_j"
+                    }
+                ]
+            }
+        },
+        "6d544f50": {
+            "_surface": {
+                "text": "mTOP",
+                "unicode_name": "mTOP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark used for evaluation"
+                    }
+                ]
+            }
+        },
+        "7461736b": {
+            "_surface": {
+                "text": "task"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92a2": {
+            "_surface": {
+                "text": "𝒢",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_0"
+                        ],
+                        "arity": 0,
+                        "description": "Input matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_l"
+                        ],
+                        "arity": 0,
+                        "description": "Output representations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output representations of GAT"
+                    }
+                ]
+            }
+        },
+        "f09d92aa": {
+            "_surface": {
+                "text": "𝒪",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output of the attention function"
+                    }
+                ]
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Query and key matrices"
+                    }
+                ]
+            }
+        },
+        "45712e2035": {
+            "_surface": {
+                "text": "Eq. 5",
+                "unicode_name": "Eq. 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation showing the modification of attention heads in mBERT"
+                    }
+                ]
+            }
+        },
+        "6465707468": {
+            "_surface": {
+                "text": "depth"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d42455254": {
+            "_surface": {
+                "text": "mBERT",
+                "unicode_name": "mBERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model fine-tuned on pre-processed datasets"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c": {
+            "_surface": {
+                "text": "model"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table summarizing the evaluation task benchmark datasets and evaluation metrics"
+                    }
+                ]
+            }
+        },
+        "5461626c652032": {
+            "_surface": {
+                "text": "Table 2",
+                "unicode_name": "Table 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table presenting experiment results to compare mBERT and syntax-augmented mBERT"
+                    }
+                ]
+            }
+        },
+        "5461626c652033": {
+            "_surface": {
+                "text": "Table 3",
+                "unicode_name": "Table 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table presenting results for PAWS-X and MLQA"
+                    }
+                ]
+            }
+        },
+        "6d415449532b2b": {
+            "_surface": {
+                "text": "mATIS++",
+                "unicode_name": "mATIS++"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark used for evaluation"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "4669677572652032": {
+            "_surface": {
+                "text": "Figure 2",
+                "unicode_name": "Figure 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure illustrating the generalized cross-lingual transfer setting"
+                    }
+                ]
+            }
+        },
+        "4669677572652034": {
+            "_surface": {
+                "text": "Figure 4",
+                "unicode_name": "Figure 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure showing performance improvements across languages"
+                    }
+                ]
+            }
+        },
+        "417474656e74696f6e": {
+            "_surface": {
+                "text": "Attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scaled dot-product attention function"
+                    }
+                ]
+            }
+        },
+        "48616f72616e204c69": {
+            "_surface": {
+                "text": "Haoran Li",
+                "unicode_name": "Haoran Li"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researcher"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5544506970652e363636": {
+            "_surface": {
+                "text": "UDPipe.666",
+                "unicode_name": "UDPipe.666"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tool used for pre-processing datasets"
+                    }
+                ]
+            }
+        },
+        "42455254206d6f64656c73": {
+            "_surface": {
+                "text": "BERT models",
+                "unicode_name": "BERT models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Models trained for the task"
+                    }
+                ]
+            }
+        },
+        "e280a17b61696d65656c69": {
+            "_surface": {
+                "text": "‡{aimeeli",
+                "unicode_name": "‡{aimeeli"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",mehdad}@fb.com"
+                        ],
+                        "arity": 0,
+                        "description": "Email"
+                    },
+                    {
+                        "affixes": [
+                            ",mehdad}@fb.com"
+                        ],
+                        "arity": 0,
+                        "description": "Contact"
+                    }
+                ]
+            }
+        },
+        "4b61692d576569204368616e67": {
+            "_surface": {
+                "text": "Kai-Wei Chang",
+                "unicode_name": "Kai-Wei Chang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researcher"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c6577697320657420616c2e20": {
+            "_surface": {
+                "text": "Lewis et al. ",
+                "unicode_name": "Lewis et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference for the generalized cross-lingual transfer setting"
+                    }
+                ]
+            }
+        },
+        "53517541442064617461736574": {
+            "_surface": {
+                "text": "SQuAD dataset",
+                "unicode_name": "SQuAD dataset"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset used for training and validation"
+                    }
+                ]
+            }
+        },
+        "596173686172204d6568646164": {
+            "_surface": {
+                "text": "Yashar Mehdad",
+                "unicode_name": "Yashar Mehdad"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researcher"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "e280a07b7761736961686d6164": {
+            "_surface": {
+                "text": "†{wasiahmad",
+                "unicode_name": "†{wasiahmad"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",kwchang}@cs.ucla.edu"
+                        ],
+                        "arity": 0,
+                        "description": "Email"
+                    },
+                    {
+                        "affixes": [
+                            ",kwchang}@cs.ucla.edu"
+                        ],
+                        "arity": 0,
+                        "description": "Contact"
+                    }
+                ]
+            }
+        },
+        "e280a146616365626f6f6b204149": {
+            "_surface": {
+                "text": "‡Facebook AI",
+                "unicode_name": "‡Facebook AI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Institution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation"
+                    }
+                ]
+            }
+        },
+        "56617377616e6920657420616c2e20": {
+            "_surface": {
+                "text": "Vaswani et al. ",
+                "unicode_name": "Vaswani et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference for the self-attention mechanism"
+                    }
+                ]
+            }
+        },
+        "5761736920556464696e2041686d6164": {
+            "_surface": {
+                "text": "Wasi Uddin Ahmad",
+                "unicode_name": "Wasi Uddin Ahmad"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researcher"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "585452454d45206672616d65776f726b": {
+            "_surface": {
+                "text": "XTREME framework",
+                "unicode_name": "XTREME framework"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework extended for the task"
+                    }
+                ]
+            }
+        },
+        "5374616e7a6120516920657420616c2e20": {
+            "_surface": {
+                "text": "Stanza Qi et al. ",
+                "unicode_name": "Stanza Qi et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Universal parser used for collecting part-of-speech tags and the dependency structure of the input sequences"
+                    }
+                ]
+            }
+        },
+        "4275676c696172656c6c6f20616e64204f6b617a616b6920": {
+            "_surface": {
+                "text": "Bugliarello and Okazaki ",
+                "unicode_name": "Bugliarello and Okazaki "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference suggesting scaling attention weights based on dependency structure"
+                    }
+                ]
+            }
+        },
+        "4741542056656c69c48d6b6f7669c48720657420616c2e20": {
+            "_surface": {
+                "text": "GAT Veličković et al. ",
+                "unicode_name": "GAT Veličković et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Graph attention networks used to encode the dependency graph structure of the input sequences"
+                    }
+                ]
+            }
+        },
+        "556e6976657273616c206c616e67756167652073796e746178": {
+            "_surface": {
+                "text": "Universal language syntax",
+                "unicode_name": "Universal language syntax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntax used for cross-lingual transfer"
+                    }
+                ]
+            }
+        },
+        "e280a0556e6976657273697479206f662043616c69666f726e6961": {
+            "_surface": {
+                "text": "†University of California",
+                "unicode_name": "†University of California"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Los Angeles"
+                        ],
+                        "arity": 0,
+                        "description": "Institution"
+                    },
+                    {
+                        "affixes": [
+                            ", Los Angeles"
+                        ],
+                        "arity": 0,
+                        "description": "Affiliation"
+                    }
+                ]
+            }
+        },
+        "55445069706520537472616b6120616e6420537472616b6f76c3a120": {
+            "_surface": {
+                "text": "UDPipe Straka and Straková ",
+                "unicode_name": "UDPipe Straka and Straková "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Universal parser used for collecting part-of-speech tags and the dependency structure of the input sequences"
+                    }
+                ]
+            }
+        },
+        "5461736b2d6f7269656e7465642053656d616e7469632050617273696e67": {
+            "_surface": {
+                "text": "Task-oriented Semantic Parsing",
+                "unicode_name": "Task-oriented Semantic Parsing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation task that predicts the intent of a user utterance and fills the corresponding slots"
+                    }
+                ]
+            }
+        }
+    }
+}

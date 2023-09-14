@@ -1,0 +1,185 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Global measure of semantic change"
+                    },
+                    {
+                        "affixes": [
+                            "_L"
+                        ],
+                        "arity": 0,
+                        "description": "Local neighborhood measure of semantic change"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of nearest neighbors"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time point"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word"
+                    }
+                ]
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second-order similarity vector"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector representation of a word at a given time point"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_k"
+                        ],
+                        "arity": 0,
+                        "description": "Set of k nearest-neighbors of a word at a given time point"
+                    }
+                ]
+            }
+        },
+        "636f732d64697374": {
+            "_surface": {
+                "text": "cos-dist",
+                "unicode_name": "cos-dist"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine distance"
+                    }
+                ]
+            }
+        }
+    }
+}

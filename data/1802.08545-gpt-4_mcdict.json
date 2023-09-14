@@ -1,0 +1,1324 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[ ]"
+                        ],
+                        "arity": 0,
+                        "description": "Indexing operator"
+                    }
+                ]
+            }
+        },
+        "2b": {
+            "_surface": {
+                "text": "+",
+                "unicode_name": "PLUS SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sum operator"
+                    }
+                ]
+            }
+        },
+        "30": {
+            "_surface": {
+                "text": "0",
+                "unicode_name": "DIGIT ZERO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial value for iteration"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "No-fork outcome"
+                    }
+                ]
+            }
+        },
+        "31": {
+            "_surface": {
+                "text": "1",
+                "unicode_name": "DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Start of a range"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yes-fork outcome"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model over the top category"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model over the bottom category"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum depth of derivation fragments"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth of the DB-PCFG model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of possible depths in the DB-PCFG model"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model over the fork decision"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iteration"
+                    }
+                ]
+            }
+        },
+        "4a": {
+            "_surface": {
+                "text": "J",
+                "unicode_name": "LATIN CAPITAL LETTER J"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model over the join decision"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parent symbols"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of non-terminal categories in the DB-PCFG model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of non-terminal categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of category labels"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for left child in tree structures"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preterminal labels"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preterminal category label"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for right child in tree structures"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of time steps"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vocabulary of observed words"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Category label of the top sign of the deepest derivation fragment"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Left siblings in tree structures"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Top sign of a derivation fragment"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Top categories of derivation fragments"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bottom sign of category"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bottom categories of derivation fragments"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Right children in tree structures"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bottom sign of a derivation fragment"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Category label of the bottom sign of the deepest derivation fragment"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parent symbols"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum depth of derivation fragments"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth of derivation fragments"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Boolean variables for decisions to 'fork out' derivation fragments"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fork decision"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for Kronecker delta function"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Boolean variables for decisions to 'join in' derivation fragments"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Join decision"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preterminal labels"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preterminal"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Significance value in permutation test"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preterminal category label"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of hidden states"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Side"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Side-specific distributions"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time steps"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Each time step"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of observed word tokens"
+                    }
+                ]
+            }
+        },
+        "2d31": {
+            "_surface": {
+                "text": "-1",
+                "unicode_name": "-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Previous time step"
+                    }
+                ]
+            }
+        },
+        "2e2e": {
+            "_surface": {
+                "text": "..",
+                "unicode_name": ".."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Range operator"
+                    }
+                ]
+            }
+        },
+        "6131": {
+            "_surface": {
+                "text": "a1",
+                "unicode_name": "a1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic center-embedding corpus"
+                    }
+                ]
+            }
+        },
+        "6231": {
+            "_surface": {
+                "text": "b1",
+                "unicode_name": "b1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic center-embedding corpus"
+                    }
+                ]
+            }
+        },
+        "6331": {
+            "_surface": {
+                "text": "c1",
+                "unicode_name": "c1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic center-embedding corpus"
+                    }
+                ]
+            }
+        },
+        "c2af": {
+            "_surface": {
+                "text": "¯",
+                "unicode_name": "MACRON"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deepest non-empty derivation fragment"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyper-parameter of the DB-PCFG model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symmetric parameter for Dirichlet distribution"
+                    }
+                ]
+            }
+        },
+        "ceb4": {
+            "_surface": {
+                "text": "δ",
+                "unicode_name": "GREEK SMALL LETTER DELTA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kronecker delta function"
+                    }
+                ]
+            }
+        },
+        "ceb7": {
+            "_surface": {
+                "text": "η",
+                "unicode_name": "GREEK SMALL LETTER ETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node address"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth-specific sub-model"
+                    }
+                ]
+            }
+        },
+        "cf84": {
+            "_surface": {
+                "text": "τ",
+                "unicode_name": "GREEK SMALL LETTER TAU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bounded PCFG trees"
+                    }
+                ]
+            }
+        },
+        "cf88": {
+            "_surface": {
+                "text": "ψ",
+                "unicode_name": "GREEK SMALL LETTER PSI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function for bottom category of the deepest derivation fragment"
+                    }
+                ]
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function for top category of the deepest derivation fragment"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transform from an unbounded grammar to a bounded grammar"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deterministic indicator function"
+                    }
+                ]
+            }
+        },
+        "613530": {
+            "_surface": {
+                "text": "a50",
+                "unicode_name": "a50"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic center-embedding corpus"
+                    }
+                ]
+            }
+        },
+        "623530": {
+            "_surface": {
+                "text": "b50",
+                "unicode_name": "b50"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic center-embedding corpus"
+                    }
+                ]
+            }
+        },
+        "633530": {
+            "_surface": {
+                "text": "c50",
+                "unicode_name": "c50"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the synthetic center-embedding corpus"
+                    }
+                ]
+            }
+        },
+        "646566": {
+            "_surface": {
+                "text": "def",
+                "unicode_name": "def"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Definition operator"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum function"
+                    }
+                ]
+            }
+        },
+        "e288a3": {
+            "_surface": {
+                "text": "∣",
+                "unicode_name": "DIVIDES"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Given operator"
+                    }
+                ]
+            }
+        },
+        "e28aa4": {
+            "_surface": {
+                "text": "⊤",
+                "unicode_name": "DOWN TACK"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transpose operator"
+                    }
+                ]
+            }
+        },
+        "e28aa5": {
+            "_surface": {
+                "text": "⊥",
+                "unicode_name": "UP TACK"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Empty derivation fragment"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial value"
+                    }
+                ]
+            }
+        },
+        "e28b85": {
+            "_surface": {
+                "text": "⋅",
+                "unicode_name": "DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multiplication operator"
+                    }
+                ]
+            }
+        },
+        "e28bae": {
+            "_surface": {
+                "text": "⋮",
+                "unicode_name": "VERTICAL ELLIPSIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continuation operator"
+                    }
+                ]
+            }
+        },
+        "e28baf": {
+            "_surface": {
+                "text": "⋯",
+                "unicode_name": "MIDLINE HORIZONTAL ELLIPSIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continuation operator"
+                    }
+                ]
+            }
+        },
+        "e28bb1": {
+            "_surface": {
+                "text": "⋱",
+                "unicode_name": "DOWN RIGHT DIAGONAL ELLIPSIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continuation operator"
+                    }
+                ]
+            }
+        },
+        "3d646566": {
+            "_surface": {
+                "text": "=def",
+                "unicode_name": "=def"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Definition operator"
+                    }
+                ]
+            }
+        },
+        "64696167": {
+            "_surface": {
+                "text": "diag"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diagonalization of a vector"
+                    }
+                ]
+            }
+        },
+        "f09d9082": {
+            "_surface": {
+                "text": "𝐂",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Grammar rule applications"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Counts of grammar rule applications"
+                    }
+                ]
+            }
+        },
+        "f09d9084": {
+            "_surface": {
+                "text": "𝐄",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_d"
+                        ],
+                        "arity": 0,
+                        "description": "Expected counts of categories"
+                    },
+                    {
+                        "affixes": [
+                            "_d+"
+                        ],
+                        "arity": 0,
+                        "description": "Sum of expected counts of categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expected counts of categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth-specific left-corner expectations"
+                    }
+                ]
+            }
+        },
+        "f09d9086": {
+            "_surface": {
+                "text": "𝐆",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of binary rule probabilities"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth-specific grammar"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transition model over hidden states"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Grammar"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unbounded grammar"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Side-and depth-specific grammars"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth-bounded grammar"
+                    },
+                    {
+                        "affixes": [
+                            "_D"
+                        ],
+                        "arity": 0,
+                        "description": "Depth-bounded model"
+                    },
+                    {
+                        "affixes": [
+                            "_s,d"
+                        ],
+                        "arity": 0,
+                        "description": "Side- and depth-specific grammar"
+                    },
+                    {
+                        "affixes": [
+                            "_L,d"
+                        ],
+                        "arity": 0,
+                        "description": "Left-side sibling depth-specific grammar"
+                    },
+                    {
+                        "affixes": [
+                            "_R,d"
+                        ],
+                        "arity": 0,
+                        "description": "Right-side sibling depth-specific grammar"
+                    }
+                ]
+            }
+        },
+        "f09d908b": {
+            "_surface": {
+                "text": "𝐋",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lexical observation model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of unary rule probabilities"
+                    }
+                ]
+            }
+        },
+        "f09d908c": {
+            "_surface": {
+                "text": "𝐌",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Compiled transition model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transition model over hidden states"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix for Kronecker product"
+                    }
+                ]
+            }
+        },
+        "f09d908d": {
+            "_surface": {
+                "text": "𝐍",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix for Kronecker product"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_s,d"
+                        ],
+                        "arity": 0,
+                        "description": "Side- and depth-specific containment likelihood"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Containment likelihood"
+                    },
+                    {
+                        "affixes": [
+                            "_L,d"
+                        ],
+                        "arity": 0,
+                        "description": "Left-side sibling containment likelihood"
+                    },
+                    {
+                        "affixes": [
+                            "_R,d"
+                        ],
+                        "arity": 0,
+                        "description": "Right-side sibling containment likelihood"
+                    }
+                ]
+            }
+        },
+        "f09d90af": {
+            "_surface": {
+                "text": "𝐯",
+                "unicode_name": "MATHEMATICAL BOLD SMALL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forward distribution over hidden states"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector"
+                    }
+                ]
+            }
+        },
+        "f09d96af": {
+            "_surface": {
+                "text": "𝖯",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized probabilities"
+                    }
+                ]
+            }
+        },
+        "f09d9f8f": {
+            "_surface": {
+                "text": "𝟏",
+                "unicode_name": "MATHEMATICAL BOLD DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector of ones"
+                    }
+                ]
+            }
+        },
+        "44314b3135": {
+            "_surface": {
+                "text": "D1K15",
+                "unicode_name": "D1K15"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Configuration of the DB-PCFG model with depth 1 and 15 non-terminal categories"
+                    }
+                ]
+            }
+        },
+        "f09d908644": {
+            "_surface": {
+                "text": "𝐆D",
+                "unicode_name": "𝐆D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Derived bounded grammar"
+                    }
+                ]
+            }
+        },
+        "4d756c74696e6f6d": {
+            "_surface": {
+                "text": "Multinom"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multinomial distribution"
+                    }
+                ]
+            }
+        },
+        "4469726963686c6574": {
+            "_surface": {
+                "text": "Dirichlet"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dirichlet distribution"
+                    }
+                ]
+            }
+        }
+    }
+}

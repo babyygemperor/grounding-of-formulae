@@ -1,0 +1,787 @@
+{
+    "_author": "TheBloke/StableBeluga2-70B-GPTQ",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scaling factor"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Base hyperparameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperparameter B"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalization constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of sentences in the corpus"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scale hyperparameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperparameter S"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Exponential base"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Position of token in source sentence"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Position of token in target sentence"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of words in target sentence"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of words in source sentence"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight assigned to target token"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Weight assigned to target token"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source sentence"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ground-truth token"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target sentence"
+                    }
+                ]
+            }
+        },
+        "6c73": {
+            "_surface": {
+                "text": "ls"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cfb5": {
+            "_surface": {
+                "text": "ϵ",
+                "unicode_name": "GREEK LUNATE EPSILON SYMBOL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "424d49": {
+            "_surface": {
+                "text": "BMI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BMI"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bilingual Mutual Information"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bilingual MIcro-blog dataset"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "424c4555": {
+            "_surface": {
+                "text": "BLEU",
+                "unicode_name": "BLEU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bilingual Evaluation Understudy"
+                    }
+                ]
+            }
+        },
+        "4d544c44": {
+            "_surface": {
+                "text": "MTLD",
+                "unicode_name": "MTLD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of textual lexical diversity"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Position of token in source sentence"
+                    }
+                ]
+            }
+        },
+        "f09d90b1": {
+            "_surface": {
+                "text": "𝐱",
+                "unicode_name": "MATHEMATICAL BOLD SMALL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source language"
+                    }
+                ]
+            }
+        },
+        "f09d90b2": {
+            "_surface": {
+                "text": "𝐲",
+                "unicode_name": "MATHEMATICAL BOLD SMALL Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Translation history"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target language"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target token"
+                    }
+                ]
+            }
+        },
+        "436f756e74": {
+            "_surface": {
+                "text": "Count"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Frequency count"
+                    }
+                ]
+            }
+        },
+        "456e2d4465": {
+            "_surface": {
+                "text": "En-De",
+                "unicode_name": "En-De"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "English-to-German task"
+                    }
+                ]
+            }
+        },
+        "574d543134": {
+            "_surface": {
+                "text": "WMT14",
+                "unicode_name": "WMT14"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Workshop on Machine Translation 2014"
+                    }
+                ]
+            }
+        },
+        "574d543139": {
+            "_surface": {
+                "text": "WMT19",
+                "unicode_name": "WMT19"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Workshop on Machine Translation 2019"
+                    }
+                ]
+            }
+        },
+        "5a682d456e": {
+            "_surface": {
+                "text": "Zh-En",
+                "unicode_name": "Zh-En"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chinese-to-English task"
+                    }
+                ]
+            }
+        },
+        "456e2d4465207461736b": {
+            "_surface": {
+                "text": "En-De task",
+                "unicode_name": "En-De task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "English to German translation task"
+                    }
+                ]
+            }
+        },
+        "47616f20657420616c2e": {
+            "_surface": {
+                "text": "Gao et al.",
+                "unicode_name": "Gao et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Smoothing methods guided by prior or posterior knowledge of training data"
+                    }
+                ]
+            }
+        },
+        "477520657420616c2e20": {
+            "_surface": {
+                "text": "Gu et al. ",
+                "unicode_name": "Gu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Exponential and Chi-Square objectives by Gu et al."
+                    }
+                ]
+            }
+        },
+        "5a682d456e207461736b": {
+            "_surface": {
+                "text": "Zh-En task",
+                "unicode_name": "Zh-En task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chinese to English translation task"
+                    }
+                ]
+            }
+        },
+        "676f6c64656e20746f6b656e": {
+            "_surface": {
+                "text": "golden token",
+                "unicode_name": "golden token"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correct translation of a word or phrase"
+                    }
+                ]
+            }
+        },
+        "6e6577737465737432303133": {
+            "_surface": {
+                "text": "newstest2013",
+                "unicode_name": "newstest2013"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Newstest 2013 dataset"
+                    }
+                ]
+            }
+        },
+        "6e6577737465737432303134": {
+            "_surface": {
+                "text": "newstest2014",
+                "unicode_name": "newstest2014"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Newstest 2014 dataset"
+                    }
+                ]
+            }
+        },
+        "6e6577737465737432303138": {
+            "_surface": {
+                "text": "newstest2018",
+                "unicode_name": "newstest2018"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Newstest 2018 dataset"
+                    }
+                ]
+            }
+        },
+        "6e6577737465737432303139": {
+            "_surface": {
+                "text": "newstest2019",
+                "unicode_name": "newstest2019"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Newstest 2019 dataset"
+                    }
+                ]
+            }
+        },
+        "5065726579726120657420616c2e": {
+            "_surface": {
+                "text": "Pereyra et al.",
+                "unicode_name": "Pereyra et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "Smoothing methods guided by prior or posterior knowledge of training data"
+                    }
+                ]
+            }
+        },
+        "56617377616e6920657420616c2e20": {
+            "_surface": {
+                "text": "Vaswani et al. ",
+                "unicode_name": "Vaswani et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Transformer model by Vaswani et al."
+                    }
+                ]
+            }
+        },
+        "6c6162656c20736d6f6f7468696e67": {
+            "_surface": {
+                "text": "label smoothing",
+                "unicode_name": "label smoothing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Regularization method to avoid overfitting"
+                    }
+                ]
+            }
+        },
+        "6c65786963616c20646976657273697479": {
+            "_surface": {
+                "text": "lexical diversity",
+                "unicode_name": "lexical diversity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variety of words used in translation"
+                    }
+                ]
+            }
+        },
+        "7472616e736c6174696f6e207461736b73": {
+            "_surface": {
+                "text": "translation tasks",
+                "unicode_name": "translation tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "English to German translation task and Chinese to English translation task"
+                    }
+                ]
+            }
+        },
+        "63726f73732d656e74726f7079206c6f7373": {
+            "_surface": {
+                "text": "cross-entropy loss",
+                "unicode_name": "cross-entropy loss"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function used in label smoothing"
+                    }
+                ]
+            }
+        },
+        "574d54313420456e2d4465207465737420736574": {
+            "_surface": {
+                "text": "WMT14 En-De test set",
+                "unicode_name": "WMT14 En-De test set"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Test set for English to German translation"
+                    }
+                ]
+            }
+        },
+        "574d543139205a682d456e207465737420736574": {
+            "_surface": {
+                "text": "WMT19 Zh-En test set",
+                "unicode_name": "WMT19 Zh-En test set"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Test set for Chinese to English translation"
+                    }
+                ]
+            }
+        },
+        "616461707469766520747261696e696e67206f626a656374697665": {
+            "_surface": {
+                "text": "adaptive training objective",
+                "unicode_name": "adaptive training objective"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Objective that adjusts learning granularity dynamically"
+                    }
+                ]
+            }
+        },
+        "62696c696e6775616c206d757475616c20696e666f726d6174696f6e": {
+            "_surface": {
+                "text": "bilingual mutual information",
+                "unicode_name": "bilingual mutual information"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of learning difficulty for each target token"
+                    }
+                ]
+            }
+        },
+        "746f6b656e2d6c6576656c20616461707469766520747261696e696e67": {
+            "_surface": {
+                "text": "token-level adaptive training",
+                "unicode_name": "token-level adaptive training"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method that adjusts the loss function of the model by token weighting"
+                    }
+                ]
+            }
+        }
+    }
+}

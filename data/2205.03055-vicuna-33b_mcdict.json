@@ -1,0 +1,4354 @@
+{
+    "_author": "TheBloke/Vicuna-33B-1-3-SuperHOT-8K-GPTQ",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "3c": {
+            "_surface": {
+                "text": "<",
+                "unicode_name": "LESS-THAN SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Less than"
+                    }
+                ]
+            }
+        },
+        "3d": {
+            "_surface": {
+                "text": "=",
+                "unicode_name": "EQUALS SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equal to"
+                    }
+                ]
+            }
+        },
+        "3e": {
+            "_surface": {
+                "text": ">",
+                "unicode_name": "GREATER-THAN SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greater than"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "and"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "and"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "and"
+                    }
+                ]
+            }
+        },
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class to be recognized"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classes for task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classes"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Discrete"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Incremental object detection"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Discrete"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Incremental object detection"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Discrete"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Incremental object detection"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Convolution"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "in"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "in"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "in"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of layers"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    }
+                ]
+            }
+        },
+        "55": {
+            "_surface": {
+                "text": "U",
+                "unicode_name": "LATIN CAPITAL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input images"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input images"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input images"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "annotations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "annotations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "annotations"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Old task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tasks"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "New task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tasks"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Category"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output"
+                    }
+                ]
+            }
+        },
+        "7c": {
+            "_surface": {
+                "text": "|",
+                "unicode_name": "VERTICAL LINE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absolute value"
+                    }
+                ]
+            }
+        },
+        "3131": {
+            "_surface": {
+                "text": "11",
+                "unicode_name": "11"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pascal VOC dataset"
+                    }
+                ]
+            }
+        },
+        "3134": {
+            "_surface": {
+                "text": "14",
+                "unicode_name": "14"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KITTI dataset"
+                    }
+                ]
+            }
+        },
+        "3135": {
+            "_surface": {
+                "text": "15",
+                "unicode_name": "15"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kitchen dataset"
+                    }
+                ]
+            }
+        },
+        "3233": {
+            "_surface": {
+                "text": "23",
+                "unicode_name": "23"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference for class-incremental object detection"
+                    }
+                ]
+            }
+        },
+        "3330": {
+            "_surface": {
+                "text": "30",
+                "unicode_name": "30"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "COCO dataset"
+                    }
+                ]
+            }
+        },
+        "3334": {
+            "_surface": {
+                "text": "34",
+                "unicode_name": "34"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference for task-incremental object detection"
+                    }
+                ]
+            }
+        },
+        "4242": {
+            "_surface": {
+                "text": "BB",
+                "unicode_name": "BB"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binbin Yang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binbin Yang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binbin Yang"
+                    }
+                ]
+            }
+        },
+        "434c": {
+            "_surface": {
+                "text": "CL",
+                "unicode_name": "CL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changlin Li"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changlin Li"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changlin Li"
+                    }
+                ]
+            }
+        },
+        "4853": {
+            "_surface": {
+                "text": "HS",
+                "unicode_name": "HS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Han Shi"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Han Shi"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Han Shi"
+                    }
+                ]
+            }
+        },
+        "4858": {
+            "_surface": {
+                "text": "HX",
+                "unicode_name": "HX"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hang Xu"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hang Xu"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hang Xu"
+                    }
+                ]
+            }
+        },
+        "4949": {
+            "_surface": {
+                "text": "II",
+                "unicode_name": "II"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "AAII, UTS"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "AAII, UTS"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "AAII, UTS"
+                    }
+                ]
+            }
+        },
+        "4c49": {
+            "_surface": {
+                "text": "LI",
+                "unicode_name": "LI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    }
+                ]
+            }
+        },
+        "4c4c": {
+            "_surface": {
+                "text": "LL",
+                "unicode_name": "LL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    }
+                ]
+            }
+        },
+        "524c": {
+            "_surface": {
+                "text": "RL",
+                "unicode_name": "RL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ReLER"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ReLER"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ReLER"
+                    }
+                ]
+            }
+        },
+        "535a": {
+            "_surface": {
+                "text": "SZ",
+                "unicode_name": "SZ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shen Zhao"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shen Zhao"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shen Zhao"
+                    }
+                ]
+            }
+        },
+        "5843": {
+            "_surface": {
+                "text": "XC",
+                "unicode_name": "XC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xinchi Deng"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xinchi Deng"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xinchi Deng"
+                    }
+                ]
+            }
+        },
+        "584c": {
+            "_surface": {
+                "text": "XL",
+                "unicode_name": "XL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    }
+                ]
+            }
+        },
+        "5859": {
+            "_surface": {
+                "text": "XY",
+                "unicode_name": "XY"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    }
+                ]
+            }
+        },
+        "742b": {
+            "_surface": {
+                "text": "t+",
+                "unicode_name": "t+"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subclass"
+                    }
+                ]
+            }
+        },
+        "c2b0": {
+            "_surface": {
+                "text": "°",
+                "unicode_name": "DEGREE SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gradient"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "ceb7": {
+            "_surface": {
+                "text": "η",
+                "unicode_name": "GREEK SMALL LETTER ETA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "312b31": {
+            "_surface": {
+                "text": "1+1",
+                "unicode_name": "1+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Incremental training task"
+                    }
+                ]
+            }
+        },
+        "434c52": {
+            "_surface": {
+                "text": "CLR",
+                "unicode_name": "CLR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changlin Li"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changlin Li"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changlin Li"
+                    }
+                ]
+            }
+        },
+        "47575a": {
+            "_surface": {
+                "text": "GWZ",
+                "unicode_name": "GWZ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gengwei Zhang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gengwei Zhang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gengwei Zhang"
+                    }
+                ]
+            }
+        },
+        "48484c": {
+            "_surface": {
+                "text": "HHL",
+                "unicode_name": "HHL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Huawei Noah's Ark Lab"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Huawei Noah's Ark Lab"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Huawei Noah's Ark Lab"
+                    }
+                ]
+            }
+        },
+        "4c494e": {
+            "_surface": {
+                "text": "LIN",
+                "unicode_name": "LIN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Liang Lin"
+                    }
+                ]
+            }
+        },
+        "4d5345": {
+            "_surface": {
+                "text": "MSE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean square error"
+                    }
+                ]
+            }
+        },
+        "564f43": {
+            "_surface": {
+                "text": "VOC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pascal VOC dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "VOC tasks"
+                    }
+                ]
+            }
+        },
+        "58594c": {
+            "_surface": {
+                "text": "XYL",
+                "unicode_name": "XYL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xiaodan Liang"
+                    }
+                ]
+            }
+        },
+        "594154": {
+            "_surface": {
+                "text": "YAT",
+                "unicode_name": "YAT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "59434c": {
+            "_surface": {
+                "text": "YCL",
+                "unicode_name": "YCL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "595355": {
+            "_surface": {
+                "text": "YSU",
+                "unicode_name": "YSU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "5a4757": {
+            "_surface": {
+                "text": "ZGW",
+                "unicode_name": "ZGW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zhang Gengwei"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zhang Gengwei"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zhang Gengwei"
+                    }
+                ]
+            }
+        },
+        "5a4841": {
+            "_surface": {
+                "text": "ZHA",
+                "unicode_name": "ZHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shen Zhao"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shen Zhao"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shen Zhao"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e2848c": {
+            "_surface": {
+                "text": "ℌ",
+                "unicode_name": "BLACK-LETTER CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class-to-task correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correlation"
+                    }
+                ]
+            }
+        },
+        "e2848e": {
+            "_surface": {
+                "text": "ℎ",
+                "unicode_name": "PLANCK CONSTANT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Aggregation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set/collection"
+                    }
+                ]
+            }
+        },
+        "e28490": {
+            "_surface": {
+                "text": "ℐ",
+                "unicode_name": "SCRIPT CAPITAL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Aggregation/sum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average/mean"
+                    }
+                ]
+            }
+        },
+        "e28491": {
+            "_surface": {
+                "text": "ℑ",
+                "unicode_name": "BLACK-LETTER CAPITAL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Category"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class/category"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gated convolution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class-to-task correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modules"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variables"
+                    }
+                ]
+            }
+        },
+        "e28494": {
+            "_surface": {
+                "text": "℔",
+                "unicode_name": "L B BAR SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating mechanism"
+                    }
+                ]
+            }
+        },
+        "e28495": {
+            "_surface": {
+                "text": "ℕ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diversity loss"
+                    }
+                ]
+            }
+        },
+        "e28499": {
+            "_surface": {
+                "text": "ℙ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating mechanism proposed in 3.2"
+                    }
+                ]
+            }
+        },
+        "e2849a": {
+            "_surface": {
+                "text": "ℚ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Collection"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating mechanism degradation"
+                    }
+                ]
+            }
+        },
+        "e2849b": {
+            "_surface": {
+                "text": "ℛ",
+                "unicode_name": "SCRIPT CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task-to-task correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prototypical task correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating diversity controller"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight for diversity loss"
+                    }
+                ]
+            }
+        },
+        "e2849c": {
+            "_surface": {
+                "text": "ℜ",
+                "unicode_name": "BLACK-LETTER CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task-to-task correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correlation"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e284a6": {
+            "_surface": {
+                "text": "Ω",
+                "unicode_name": "OHM SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Integral"
+                    }
+                ]
+            }
+        },
+        "e28792": {
+            "_surface": {
+                "text": "⇒",
+                "unicode_name": "RIGHTWARDS DOUBLE ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Implies"
+                    }
+                ]
+            }
+        },
+        "e28888": {
+            "_surface": {
+                "text": "∈",
+                "unicode_name": "ELEMENT OF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of a set"
+                    }
+                ]
+            }
+        },
+        "e28891": {
+            "_surface": {
+                "text": "∑",
+                "unicode_name": "N-ARY SUMMATION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summation"
+                    }
+                ]
+            }
+        },
+        "e288a3": {
+            "_surface": {
+                "text": "∣",
+                "unicode_name": "DIVIDES"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mod"
+                    }
+                ]
+            }
+        },
+        "e288b4": {
+            "_surface": {
+                "text": "∴",
+                "unicode_name": "THEREFORE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Causal"
+                    }
+                ]
+            }
+        },
+        "e288b6": {
+            "_surface": {
+                "text": "∶",
+                "unicode_name": "RATIO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sparse"
+                    }
+                ]
+            }
+        },
+        "e28988": {
+            "_surface": {
+                "text": "≈",
+                "unicode_name": "ALMOST EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approximately"
+                    }
+                ]
+            }
+        },
+        "e289a4": {
+            "_surface": {
+                "text": "≤",
+                "unicode_name": "LESS-THAN OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Less than or equal to"
+                    }
+                ]
+            }
+        },
+        "e289a5": {
+            "_surface": {
+                "text": "≥",
+                "unicode_name": "GREATER-THAN OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greater than or equal to"
+                    }
+                ]
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel-wise multiplication"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel-wise multiplication"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel-wise multiplication"
+                    }
+                ]
+            }
+        },
+        "e28aa8": {
+            "_surface": {
+                "text": "⊨",
+                "unicode_name": "TRUE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Satisfies"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Implied by"
+                    }
+                ]
+            }
+        },
+        "312b3130": {
+            "_surface": {
+                "text": "1+10",
+                "unicode_name": "1+10"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Incremental training task"
+                    }
+                ]
+            }
+        },
+        "312b3135": {
+            "_surface": {
+                "text": "1+15",
+                "unicode_name": "1+15"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Incremental training task"
+                    }
+                ]
+            }
+        },
+        "312b3139": {
+            "_surface": {
+                "text": "1+19",
+                "unicode_name": "1+19"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Incremental training task"
+                    }
+                ]
+            }
+        },
+        "434f434f": {
+            "_surface": {
+                "text": "COCO",
+                "unicode_name": "COCO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "COCO dataset"
+                    }
+                ]
+            }
+        },
+        "44617461": {
+            "_surface": {
+                "text": "Data",
+                "unicode_name": "Data"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    }
+                ]
+            }
+        },
+        "47575a52": {
+            "_surface": {
+                "text": "GWZR",
+                "unicode_name": "GWZR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gengwei Zhang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gengwei Zhang"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gengwei Zhang"
+                    }
+                ]
+            }
+        },
+        "476f616c": {
+            "_surface": {
+                "text": "Goal",
+                "unicode_name": "Goal"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object detector"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object detector"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object detector"
+                    }
+                ]
+            }
+        },
+        "53595355": {
+            "_surface": {
+                "text": "SYSU",
+                "unicode_name": "SYSU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "536f6674": {
+            "_surface": {
+                "text": "Soft",
+                "unicode_name": "Soft"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dynamic soft gates"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dynamic soft gates"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dynamic soft gates"
+                    }
+                ]
+            }
+        },
+        "5461736b": {
+            "_surface": {
+                "text": "Task",
+                "unicode_name": "Task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    }
+                ]
+            }
+        },
+        "59434c59": {
+            "_surface": {
+                "text": "YCLY",
+                "unicode_name": "YCLY"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "59535559": {
+            "_surface": {
+                "text": "YSUY",
+                "unicode_name": "YSUY"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "7461736b": {
+            "_surface": {
+                "text": "task",
+                "unicode_name": "task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task Correlation Guided Gating Diversity"
+                    }
+                ]
+            }
+        },
+        "f09d908c": {
+            "_surface": {
+                "text": "𝐌",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized prototypical correlation matrix"
+                    }
+                ]
+            }
+        },
+        "f09d9286": {
+            "_surface": {
+                "text": "𝒆",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL E"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d9287": {
+            "_surface": {
+                "text": "𝒇",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feature maps"
+                    }
+                ]
+            }
+        },
+        "f09d9288": {
+            "_surface": {
+                "text": "𝒈",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "binary gates"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "binary gate values"
+                    },
+                    {
+                        "affixes": [
+                            "^l_t"
+                        ],
+                        "arity": 0,
+                        "description": "binary gate values for layer l at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c"
+                        ],
+                        "arity": 0,
+                        "description": "binary gate values for channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_t+1"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at layer l at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_t+1+1"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at layer l at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_t+1+2"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at layer l at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_t+1+…"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at layer l at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1+1"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1+2"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1+…"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1+…+1"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1+…+2"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1+…+…"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1+…+…+1"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    },
+                    {
+                        "affixes": [
+                            "^l_c+1+…+…+2"
+                        ],
+                        "arity": 0,
+                        "description": "next channel gate values at channel gates of the lth layer at time t"
+                    }
+                ]
+            }
+        },
+        "f09d9291": {
+            "_surface": {
+                "text": "𝒑",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL P"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d9295": {
+            "_surface": {
+                "text": "𝒕",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d94bc": {
+            "_surface": {
+                "text": "𝔼",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Indicator function"
+                    }
+                ]
+            }
+        },
+        "f09d9580": {
+            "_surface": {
+                "text": "𝕀",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "indicator function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "indicator function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "indicator function"
+                    }
+                ]
+            }
+        },
+        "f09d9587": {
+            "_surface": {
+                "text": "𝕇",
+                "unicode_name": "𝕇"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "gated convolution"
+                    }
+                ]
+            }
+        },
+        "f09d9a9d": {
+            "_surface": {
+                "text": "𝚝",
+                "unicode_name": "MATHEMATICAL MONOSPACE SMALL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gated modules"
+                    }
+                ]
+            }
+        },
+        "f09d9fb1": {
+            "_surface": {
+                "text": "𝟱",
+                "unicode_name": "MATHEMATICAL SANS-SERIF BOLD DIGIT FIVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fb2": {
+            "_surface": {
+                "text": "𝟲",
+                "unicode_name": "MATHEMATICAL SANS-SERIF BOLD DIGIT SIX"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fb3": {
+            "_surface": {
+                "text": "𝟳",
+                "unicode_name": "MATHEMATICAL SANS-SERIF BOLD DIGIT SEVEN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fb4": {
+            "_surface": {
+                "text": "𝟴",
+                "unicode_name": "MATHEMATICAL SANS-SERIF BOLD DIGIT EIGHT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fb5": {
+            "_surface": {
+                "text": "𝟵",
+                "unicode_name": "MATHEMATICAL SANS-SERIF BOLD DIGIT NINE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fb6": {
+            "_surface": {
+                "text": "𝟶",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT ZERO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fb7": {
+            "_surface": {
+                "text": "𝟷",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fb8": {
+            "_surface": {
+                "text": "𝟸",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fb9": {
+            "_surface": {
+                "text": "𝟹",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT THREE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fba": {
+            "_surface": {
+                "text": "𝟺",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT FOUR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fbb": {
+            "_surface": {
+                "text": "𝟻",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT FIVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fbd": {
+            "_surface": {
+                "text": "𝟽",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT SEVEN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fbe": {
+            "_surface": {
+                "text": "𝟾",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT EIGHT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "f09d9fbf": {
+            "_surface": {
+                "text": "𝟿",
+                "unicode_name": "MATHEMATICAL MONOSPACE DIGIT NINE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "3c7c747c3e": {
+            "_surface": {
+                "text": "<|t|>",
+                "unicode_name": "<|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "time"
+                    }
+                ]
+            }
+        },
+        "484b555354": {
+            "_surface": {
+                "text": "HKUST",
+                "unicode_name": "HKUST"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The Hong Kong University of Science and Technology"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The Hong Kong University of Science and Technology"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The Hong Kong University of Science and Technology"
+                    }
+                ]
+            }
+        },
+        "4b49545449": {
+            "_surface": {
+                "text": "KITTI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KITTI dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KITTI tasks"
+                    }
+                ]
+            }
+        },
+        "52454c4552": {
+            "_surface": {
+                "text": "RELER",
+                "unicode_name": "RELER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "AAII, UTS"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "AAII, UTS"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "AAII, UTS"
+                    }
+                ]
+            }
+        },
+        "5461736b73": {
+            "_surface": {
+                "text": "Tasks",
+                "unicode_name": "Tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    }
+                ]
+            }
+        },
+        "595355434c": {
+            "_surface": {
+                "text": "YSUCL",
+                "unicode_name": "YSUCL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "6761746564": {
+            "_surface": {
+                "text": "gated",
+                "unicode_name": "gated"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating Mechanism"
+                    }
+                ]
+            }
+        },
+        "6c6561726e": {
+            "_surface": {
+                "text": "learn",
+                "unicode_name": "learn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "New task learning"
+                    }
+                ]
+            }
+        },
+        "7368617265": {
+            "_surface": {
+                "text": "share",
+                "unicode_name": "share"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Knowledge sharing among tasks"
+                    }
+                ]
+            }
+        },
+        "7461736b73": {
+            "_surface": {
+                "text": "tasks",
+                "unicode_name": "tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Previous and new tasks"
+                    }
+                ]
+            }
+        },
+        "3c7cce947c3e": {
+            "_surface": {
+                "text": "<|Δ|>",
+                "unicode_name": "<|Δ|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    }
+                ]
+            }
+        },
+        "476174696e67": {
+            "_surface": {
+                "text": "Gating",
+                "unicode_name": "Gating"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating mechanism"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating mechanism"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating mechanism"
+                    }
+                ]
+            }
+        },
+        "4d6f64656c73": {
+            "_surface": {
+                "text": "Models",
+                "unicode_name": "Models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "models"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "models"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "models"
+                    }
+                ]
+            }
+        },
+        "59434c595355": {
+            "_surface": {
+                "text": "YCLYSU",
+                "unicode_name": "YCLYSU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "59535559434c": {
+            "_surface": {
+                "text": "YSUYCL",
+                "unicode_name": "YSUYCL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "66726f7a656e": {
+            "_surface": {
+                "text": "frozen",
+                "unicode_name": "frozen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unchangeable channel weights"
+                    }
+                ]
+            }
+        },
+        "676174696e67": {
+            "_surface": {
+                "text": "gating",
+                "unicode_name": "gating"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mechanism proposed in 3.2"
+                    }
+                ]
+            }
+        },
+        "6d6f64756c65": {
+            "_surface": {
+                "text": "module",
+                "unicode_name": "module"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sub-models' weights"
+                    }
+                ]
+            }
+        },
+        "3c7c637c3e2b31": {
+            "_surface": {
+                "text": "<|c|>+1",
+                "unicode_name": "<|c|>+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next channel"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next channel"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next channel"
+                    }
+                ]
+            }
+        },
+        "3c7c6c7c3e2b31": {
+            "_surface": {
+                "text": "<|l|>+1",
+                "unicode_name": "<|l|>+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next layer"
+                    }
+                ]
+            }
+        },
+        "3c7c777c3e2b31": {
+            "_surface": {
+                "text": "<|w|>+1",
+                "unicode_name": "<|w|>+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next word"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next word"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "next word"
+                    }
+                ]
+            }
+        },
+        "44617461736574": {
+            "_surface": {
+                "text": "Dataset",
+                "unicode_name": "Dataset"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dataset"
+                    }
+                ]
+            }
+        },
+        "44796e616d6963": {
+            "_surface": {
+                "text": "Dynamic",
+                "unicode_name": "Dynamic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dynamic inference"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dynamic inference"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "dynamic inference"
+                    }
+                ]
+            }
+        },
+        "486973746f7279": {
+            "_surface": {
+                "text": "History",
+                "unicode_name": "History"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "historical data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "historical data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "historical data"
+                    }
+                ]
+            }
+        },
+        "4b69746368656e": {
+            "_surface": {
+                "text": "Kitchen",
+                "unicode_name": "Kitchen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kitchen dataset"
+                    }
+                ]
+            }
+        },
+        "50726f626c656d": {
+            "_surface": {
+                "text": "Problem",
+                "unicode_name": "Problem"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Problem"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Problem"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Problem"
+                    }
+                ]
+            }
+        },
+        "59434c59535559": {
+            "_surface": {
+                "text": "YCLYSUY",
+                "unicode_name": "YCLYSUY"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "59535559434c59": {
+            "_surface": {
+                "text": "YSUYCLY",
+                "unicode_name": "YSUYCLY"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "646f6d61696e73": {
+            "_surface": {
+                "text": "domains",
+                "unicode_name": "domains"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Differences between tasks"
+                    }
+                ]
+            }
+        },
+        "656e74726f7079": {
+            "_surface": {
+                "text": "entropy",
+                "unicode_name": "entropy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diversity loss <|ℒ|><|𝑑𝑖𝑣𝑒𝑟𝑠𝑖𝑡𝑦|>"
+                    }
+                ]
+            }
+        },
+        "3c7cf09d92af7c3e": {
+            "_surface": {
+                "text": "<|𝒯|>",
+                "unicode_name": "<|𝒯|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "tasks"
+                    }
+                ]
+            }
+        },
+        "3c7cf09d92b07c3e": {
+            "_surface": {
+                "text": "<|𝒰|>",
+                "unicode_name": "<|𝒰|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "datasets"
+                    }
+                ]
+            }
+        },
+        "4465746563746f72": {
+            "_surface": {
+                "text": "Detector",
+                "unicode_name": "Detector"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object detector"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object detector"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object detector"
+                    }
+                ]
+            }
+        },
+        "4772616469656e74": {
+            "_surface": {
+                "text": "Gradient",
+                "unicode_name": "Gradient"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "optimization"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "optimization"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "optimization"
+                    }
+                ]
+            }
+        },
+        "547261696e696e67": {
+            "_surface": {
+                "text": "Training",
+                "unicode_name": "Training"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "training time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "training time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "training time"
+                    }
+                ]
+            }
+        },
+        "59535559434c5953": {
+            "_surface": {
+                "text": "YSUYCLYS",
+                "unicode_name": "YSUYCLYS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "6368616e6e656c73": {
+            "_surface": {
+                "text": "channels",
+                "unicode_name": "channels"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Frozen and learnable channel weights"
+                    }
+                ]
+            }
+        },
+        "f09d9198f09d9191": {
+            "_surface": {
+                "text": "𝑘𝑑"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "436f6e74696e75616c": {
+            "_surface": {
+                "text": "Continual",
+                "unicode_name": "Continual"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "continual image classification"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continual Object Detection"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "continual image classification"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continual Object Detection"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "continual image classification"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continual Object Detection"
+                    }
+                ]
+            }
+        },
+        "496e666572656e6365": {
+            "_surface": {
+                "text": "Inference",
+                "unicode_name": "Inference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "static binary gates"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "static binary gates"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "static binary gates"
+                    }
+                ]
+            }
+        },
+        "59434c595355595355": {
+            "_surface": {
+                "text": "YCLYSUYSU",
+                "unicode_name": "YCLYSUYSU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "59535559434c595359": {
+            "_surface": {
+                "text": "YSUYCLYSY",
+                "unicode_name": "YSUYCLYSY"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "646976657273697479": {
+            "_surface": {
+                "text": "diversity",
+                "unicode_name": "diversity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel gates activation"
+                    }
+                ]
+            }
+        },
+        "6578636c7573697665": {
+            "_surface": {
+                "text": "exclusive",
+                "unicode_name": "exclusive"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unique knowledge compared to existing"
+                    }
+                ]
+            }
+        },
+        "6b6e6f776c65646765": {
+            "_surface": {
+                "text": "knowledge",
+                "unicode_name": "knowledge"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stored in sub-models' weights"
+                    }
+                ]
+            }
+        },
+        "726574726965766564": {
+            "_surface": {
+                "text": "retrieved",
+                "unicode_name": "retrieved"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "By binary gates"
+                    }
+                ]
+            }
+        },
+        "7375622d6d6f64656c": {
+            "_surface": {
+                "text": "sub-model",
+                "unicode_name": "sub-model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "New task's sub-model"
+                    }
+                ]
+            }
+        },
+        "3c7c437c3e3c7c747c3e": {
+            "_surface": {
+                "text": "<|C|><|t|>",
+                "unicode_name": "<|C|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "set of categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object of interests"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "class embeddings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "class concatenation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "set of categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object of interests"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "class embeddings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "class concatenation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "set of categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "object of interests"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "class embeddings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "class concatenation"
+                    }
+                ]
+            }
+        },
+        "3c7c587c3e3c7c747c3e": {
+            "_surface": {
+                "text": "<|X|><|t|>",
+                "unicode_name": "<|X|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input images"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input images"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input images"
+                    }
+                ]
+            }
+        },
+        "3c7c597c3e3c7c747c3e": {
+            "_surface": {
+                "text": "<|Y|><|t|>",
+                "unicode_name": "<|Y|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "annotations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "annotations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "annotations"
+                    }
+                ]
+            }
+        },
+        "43617465676f72696573": {
+            "_surface": {
+                "text": "Categories",
+                "unicode_name": "Categories"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "categories"
+                    }
+                ]
+            }
+        },
+        "4368616c6c656e676573": {
+            "_surface": {
+                "text": "Challenges",
+                "unicode_name": "Challenges"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Challenges"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Challenges"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Challenges"
+                    }
+                ]
+            }
+        },
+        "44697363726574697a65": {
+            "_surface": {
+                "text": "Discretize",
+                "unicode_name": "Discretize"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "binary gates"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "binary gates"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "binary gates"
+                    }
+                ]
+            }
+        },
+        "53657175656e7469616c": {
+            "_surface": {
+                "text": "Sequential",
+                "unicode_name": "Sequential"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "sequential tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "sequential tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "sequential tasks"
+                    }
+                ]
+            }
+        },
+        "6261636b67726f756e64": {
+            "_surface": {
+                "text": "background",
+                "unicode_name": "background"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backgrounds in images"
+                    }
+                ]
+            }
+        },
+        "646f6d61696e20676170": {
+            "_surface": {
+                "text": "domain gap",
+                "unicode_name": "domain gap"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task differences"
+                    }
+                ]
+            }
+        },
+        "666f726567726f756e64": {
+            "_surface": {
+                "text": "foreground",
+                "unicode_name": "foreground"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Objects in images"
+                    }
+                ]
+            }
+        },
+        "6f627365727661626c65": {
+            "_surface": {
+                "text": "observable",
+                "unicode_name": "observable"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Aware knowledge sharing"
+                    }
+                ]
+            }
+        },
+        "4d6574686f646f6c6f6779": {
+            "_surface": {
+                "text": "Methodology",
+                "unicode_name": "Methodology"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Methodology"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Methodology"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Methodology"
+                    }
+                ]
+            }
+        },
+        "59535559434c5953595355": {
+            "_surface": {
+                "text": "YSUYCLYSYSU",
+                "unicode_name": "YSUYCLYSYSU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sun Yat-sen University"
+                    }
+                ]
+            }
+        },
+        "6465677261646174696f6e": {
+            "_surface": {
+                "text": "degradation",
+                "unicode_name": "degradation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance decrease"
+                    }
+                ]
+            }
+        },
+        "696e616374697661746564": {
+            "_surface": {
+                "text": "inactivated",
+                "unicode_name": "inactivated"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learnable channel weights"
+                    }
+                ]
+            }
+        },
+        "436174617374726f70686963": {
+            "_surface": {
+                "text": "Catastrophic",
+                "unicode_name": "Catastrophic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Catastrophic Forgetting"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Catastrophic Forgetting"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Catastrophic Forgetting"
+                    }
+                ]
+            }
+        },
+        "636174617374726f70686963": {
+            "_surface": {
+                "text": "catastrophic",
+                "unicode_name": "catastrophic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forgetting in continual object detection"
+                    }
+                ]
+            }
+        },
+        "f09d91a3f09d918ef09d9199": {
+            "_surface": {
+                "text": "𝑣𝑎𝑙"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "3c7c467c3e3c7c6c7c3e3c7c747c3e": {
+            "_surface": {
+                "text": "<|F|><|l|><|t|>",
+                "unicode_name": "<|F|><|l|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "output of convolution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "output of convolution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "output of convolution"
+                    }
+                ]
+            }
+        },
+        "3c7c477c3e3c7c6c7c3e3c7c747c3e": {
+            "_surface": {
+                "text": "<|G|><|l|><|t|>",
+                "unicode_name": "<|G|><|l|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel gates of the lth layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel gates of the lth layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel gates of the lth layer"
+                    }
+                ]
+            }
+        },
+        "3c7c677c3e3c7c6c7c3e3c7c637c3e": {
+            "_surface": {
+                "text": "<|g|><|l|><|c|>",
+                "unicode_name": "<|g|><|l|><|c|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel gate for the lth layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel gate for the lth layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "channel gate for the lth layer"
+                    }
+                ]
+            }
+        },
+        "3c7c677c3e3c7c6c7c3e3c7c747c3e": {
+            "_surface": {
+                "text": "<|g|><|l|><|t|>",
+                "unicode_name": "<|g|><|l|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task embedding 𝒆"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task embedding 𝒆"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task embedding 𝒆"
+                    }
+                ]
+            }
+        },
+        "3c7cf09d92867c3e3c7cf09d92957c3e": {
+            "_surface": {
+                "text": "<|𝒆|><|𝒕|>",
+                "unicode_name": "<|𝒆|><|𝒕|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "learned task embedding 𝒆"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "learned task embedding 𝒆"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "learned task embedding 𝒆"
+                    }
+                ]
+            }
+        },
+        "3c7cf09d92877c3e3c7c6c7c3e3c7c747c3e": {
+            "_surface": {
+                "text": "<|𝒇|><|l|><|t|>",
+                "unicode_name": "<|𝒇|><|l|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input feature maps of gated convolution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input feature maps of gated convolution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input feature maps of gated convolution"
+                    }
+                ]
+            }
+        },
+        "616374697661746564206368616e6e656c73": {
+            "_surface": {
+                "text": "activated channels",
+                "unicode_name": "activated channels"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Count"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel activation"
+                    }
+                ]
+            }
+        },
+        "3c7cf09d92877c3e3c7c6c7c3e2b313c7c747c3e": {
+            "_surface": {
+                "text": "<|𝒇|><|l|>+1<|t|>",
+                "unicode_name": "<|𝒇|><|l|>+1<|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "element-wise plus one"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "element-wise plus one"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "element-wise plus one"
+                    }
+                ]
+            }
+        },
+        "f09d9a9df09d9a8af09d9a9cf09d9a94f09d9fb7": {
+            "_surface": {
+                "text": "𝚝𝚊𝚜𝚔𝟷",
+                "unicode_name": "𝚝𝚊𝚜𝚔𝟷"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gates"
+                    }
+                ]
+            }
+        },
+        "f09d9a9df09d9a8af09d9a9cf09d9a94f09d9fb8": {
+            "_surface": {
+                "text": "𝚝𝚊𝚜𝚔𝟸",
+                "unicode_name": "𝚝𝚊𝚜𝚔𝟸"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inherited gates"
+                    }
+                ]
+            }
+        },
+        "f09d91a0f09d919df09d918ef09d919ff09d91a0f09d9196f09d91a1": {
+            "_surface": {
+                "text": "𝑠𝑝𝑎𝑟𝑠𝑖𝑡",
+                "unicode_name": "𝑠𝑝𝑎𝑟𝑠𝑖𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sparse gradient"
+                    }
+                ]
+            }
+        },
+        "f09d91a0f09d919df09d918ef09d919ff09d91a0f09d9196f09d91a1f09d91a6": {
+            "_surface": {
+                "text": "𝑠𝑝𝑎𝑟𝑠𝑖𝑡𝑦"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of variables"
+                    }
+                ]
+            }
+        },
+        "f09d9191f09d9196f09d91a3f09d9192f09d919ff09d91a0f09d9196f09d91a1f09d91a6": {
+            "_surface": {
+                "text": "𝑑𝑖𝑣𝑒𝑟𝑠𝑖𝑡𝑦"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of variables"
+                    }
+                ]
+            }
+        }
+    }
+}

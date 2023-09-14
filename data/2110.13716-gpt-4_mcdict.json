@@ -1,0 +1,1617 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Specific hidden concept i"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden Concept"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Specific hidden concept"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden Concept"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Top N Predictions"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of top predictions considered for Precision@N"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{t}"
+                        ],
+                        "arity": 0,
+                        "description": "Features of n stocks at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_{t}"
+                        ],
+                        "arity": 0,
+                        "description": "Stock Features"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{j}"
+                        ],
+                        "arity": 0,
+                        "description": "Specific predefined concept j"
+                    },
+                    {
+                        "affixes": [
+                            "_{j}"
+                        ],
+                        "arity": 0,
+                        "description": "Predefined Concept"
+                    },
+                    {
+                        "affixes": [
+                            "_{k}"
+                        ],
+                        "arity": 0,
+                        "description": "Specific predefined concept k"
+                    },
+                    {
+                        "affixes": [
+                            "_{k}"
+                        ],
+                        "arity": 0,
+                        "description": "Predefined Concept"
+                    },
+                    {
+                        "affixes": [
+                            "_k"
+                        ],
+                        "arity": 0,
+                        "description": "Specific predefined concept k"
+                    },
+                    {
+                        "affixes": [
+                            "_k"
+                        ],
+                        "arity": 0,
+                        "description": "Predefined Concept"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{p}"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [
+                            "_{p}"
+                        ],
+                        "arity": 0,
+                        "description": "Weight Matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_e"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [
+                            "_e"
+                        ],
+                        "arity": 0,
+                        "description": "Weight Matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_u"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [
+                            "_u"
+                        ],
+                        "arity": 0,
+                        "description": "Weight Matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_s0"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [
+                            "_s0"
+                        ],
+                        "arity": 0,
+                        "description": "Weight Matrix"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight Matrix"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{t},0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial Stock Embeddings"
+                    },
+                    {
+                        "affixes": [
+                            "_{t},0"
+                        ],
+                        "arity": 0,
+                        "description": "Matrix of initial embeddings of all stocks at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_{t},j"
+                        ],
+                        "arity": 0,
+                        "description": "Input of Module for all Stocks"
+                    },
+                    {
+                        "affixes": [
+                            "_{t},j"
+                        ],
+                        "arity": 0,
+                        "description": "Matrix of inputs of the j-th module for all stocks at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^{t},j"
+                        ],
+                        "arity": 0,
+                        "description": "Backcast Output for all Stocks"
+                    },
+                    {
+                        "affixes": [
+                            "^{t},j"
+                        ],
+                        "arity": 0,
+                        "description": "Matrix of backcast outputs of the j-th module for all stocks at date t"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^{t},j"
+                        ],
+                        "arity": 0,
+                        "description": "Forecast Output for all Stocks"
+                    },
+                    {
+                        "affixes": [
+                            "^{t},j"
+                        ],
+                        "arity": 0,
+                        "description": "Matrix of forecast outputs of the j-th module for all stocks at date t"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{p}"
+                        ],
+                        "arity": 0,
+                        "description": "Bias"
+                    },
+                    {
+                        "affixes": [
+                            "_{p}"
+                        ],
+                        "arity": 0,
+                        "description": "Bias of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [
+                            "_e"
+                        ],
+                        "arity": 0,
+                        "description": "Bias"
+                    },
+                    {
+                        "affixes": [
+                            "_e"
+                        ],
+                        "arity": 0,
+                        "description": "Bias of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [
+                            "_u"
+                        ],
+                        "arity": 0,
+                        "description": "Bias"
+                    },
+                    {
+                        "affixes": [
+                            "_u"
+                        ],
+                        "arity": 0,
+                        "description": "Bias of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [
+                            "_s0"
+                        ],
+                        "arity": 0,
+                        "description": "Bias"
+                    },
+                    {
+                        "affixes": [
+                            "_s0"
+                        ],
+                        "arity": 0,
+                        "description": "Bias of the fully-connected layer"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Market Capitalization"
+                    },
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Market capitalization of stock i at date t"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Change rate of the stock price of stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Stock Price Trend"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden Dimension"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden dimension of the 2-layer GRU network"
+                    },
+                    {
+                        "affixes": [
+                            "_it"
+                        ],
+                        "arity": 0,
+                        "description": "Ground Truth Stock Trend"
+                    },
+                    {
+                        "affixes": [
+                            "_it"
+                        ],
+                        "arity": 0,
+                        "description": "Actual stock trend of stock i at date t"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_kt,0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial Representation"
+                    },
+                    {
+                        "affixes": [
+                            "_kt,0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial representation of the predefined concept T_k at date t"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Specific stock"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stock"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Concept Index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Specific hidden concept"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of a specific predefined or hidden concept"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden Concept"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of Stock Features"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the historical stock prices and volume data"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of predefined concepts considered"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of Predefined Concepts"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of Hidden Concepts"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of Stocks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Assumed number of hidden concepts"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of stocks considered"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Prediction for the stock future trend d_{it} of stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Stock Trend Prediction"
+                    },
+                    {
+                        "affixes": [
+                            "_it"
+                        ],
+                        "arity": 0,
+                        "description": "Stock Trend Prediction"
+                    },
+                    {
+                        "affixes": [
+                            "_it"
+                        ],
+                        "arity": 0,
+                        "description": "Prediction for the stock future trend d_it of stock i at date t"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{1t}, s_{2t}, ..., s_{nt}"
+                        ],
+                        "arity": 0,
+                        "description": "Individual Stock Features"
+                    },
+                    {
+                        "affixes": [
+                            "_{1t}, s_{2t}, ..., s_{nt}"
+                        ],
+                        "arity": 0,
+                        "description": "Features of individual stocks at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Shared Information"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Shared information of the stocks correlated with the predefined concepts at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Shared information of predefined concepts from the stock embeddings x_it,0"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Date"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Specific date"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial embedding of hidden concept i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial Hidden Concept Embedding"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_kit,0"
+                        ],
+                        "arity": 0,
+                        "description": "Cosine similarity between each stock embedding x_it,0 and each predefined concept T_k’s initial representation e_kt,0"
+                    },
+                    {
+                        "affixes": [
+                            "_kit,0"
+                        ],
+                        "arity": 0,
+                        "description": "Cosine Similarity"
+                    },
+                    {
+                        "affixes": [
+                            "_ikt,1"
+                        ],
+                        "arity": 0,
+                        "description": "Cosine similarity between the stock embedding x_it,0 and the predefined concept T_k’s representation e_kt,1"
+                    },
+                    {
+                        "affixes": [
+                            "_ikt,1"
+                        ],
+                        "arity": 0,
+                        "description": "Cosine Similarity"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{it},0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial embedding of stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_{it},0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial Stock Embedding"
+                    },
+                    {
+                        "affixes": [
+                            "_{it},j"
+                        ],
+                        "arity": 0,
+                        "description": "Input of Module"
+                    },
+                    {
+                        "affixes": [
+                            "_{it},j"
+                        ],
+                        "arity": 0,
+                        "description": "Input of the j-th module for stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^{i}_{t},j"
+                        ],
+                        "arity": 0,
+                        "description": "Backcast output of the j-th module for stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^{i}_{t},j"
+                        ],
+                        "arity": 0,
+                        "description": "Backcast Output"
+                    },
+                    {
+                        "affixes": [
+                            "_it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial embedding of stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Initial Stock Embedding"
+                    },
+                    {
+                        "affixes": [
+                            "_tt,1"
+                        ],
+                        "arity": 0,
+                        "description": "Input of Hidden Concept Module"
+                    },
+                    {
+                        "affixes": [
+                            "_tt,1"
+                        ],
+                        "arity": 0,
+                        "description": "Input of the hidden concept module at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Backcast output of the predefined concept module for stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Backcast Output"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Shared Information"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Shared information of predefined concepts from the stock embeddings x_it,0"
+                    },
+                    {
+                        "affixes": [
+                            "^it,1"
+                        ],
+                        "arity": 0,
+                        "description": "Backcast output of the hidden concept module for stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^it,1"
+                        ],
+                        "arity": 0,
+                        "description": "Backcast Output"
+                    },
+                    {
+                        "affixes": [
+                            "_it,2"
+                        ],
+                        "arity": 0,
+                        "description": "Input of Individual Information Module"
+                    },
+                    {
+                        "affixes": [
+                            "_it,2"
+                        ],
+                        "arity": 0,
+                        "description": "Input of the individual information module for stock i at date t"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{it},0, y_{it},1, y_{it},2"
+                        ],
+                        "arity": 0,
+                        "description": "Outputs of the three modules used for the final prediction"
+                    },
+                    {
+                        "affixes": [
+                            "_{it},0, y_{it},1, y_{it},2"
+                        ],
+                        "arity": 0,
+                        "description": "Forecast Outputs"
+                    },
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Information Extracted"
+                    },
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Information extracted in step 2 for stock i at date t"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Outputs of the predefined concept module used for the final prediction"
+                    },
+                    {
+                        "affixes": [
+                            "^it,0"
+                        ],
+                        "arity": 0,
+                        "description": "Forecast Outputs"
+                    },
+                    {
+                        "affixes": [
+                            "^it,1"
+                        ],
+                        "arity": 0,
+                        "description": "Outputs of the hidden concept module used for the final prediction"
+                    },
+                    {
+                        "affixes": [
+                            "^it,1"
+                        ],
+                        "arity": 0,
+                        "description": "Forecast Outputs"
+                    },
+                    {
+                        "affixes": [
+                            "^it,2"
+                        ],
+                        "arity": 0,
+                        "description": "Outputs of the individual information module used for the final prediction"
+                    },
+                    {
+                        "affixes": [
+                            "^it,2"
+                        ],
+                        "arity": 0,
+                        "description": "Forecast Outputs"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Labels"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Stock trend labels of all stocks on each day"
+                    },
+                    {
+                        "affixes": [
+                            "^t"
+                        ],
+                        "arity": 0,
+                        "description": "Stock trend predictions of all stocks on each day"
+                    },
+                    {
+                        "affixes": [
+                            "^t"
+                        ],
+                        "arity": 0,
+                        "description": "Predictions"
+                    }
+                ]
+            }
+        },
+        "4352": {
+            "_surface": {
+                "text": "CR"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4943": {
+            "_surface": {
+                "text": "IC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information Coefficient"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pearson correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "6230": {
+            "_surface": {
+                "text": "b0",
+                "unicode_name": "b0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias of the fully-connected layer"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{kit},0"
+                        ],
+                        "arity": 0,
+                        "description": "Weight from the stock i to the predefined concept T_{k} at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_{kit},0"
+                        ],
+                        "arity": 0,
+                        "description": "Contribution Weight"
+                    },
+                    {
+                        "affixes": [
+                            "_kit,0"
+                        ],
+                        "arity": 0,
+                        "description": "Contribution Weight"
+                    },
+                    {
+                        "affixes": [
+                            "_kit,0"
+                        ],
+                        "arity": 0,
+                        "description": "Weight from the stock i to the predefined concept T_k at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_kit,1"
+                        ],
+                        "arity": 0,
+                        "description": "Aggregated weight after normalizing the cosine similarity v_kit,0 using the softmax function"
+                    },
+                    {
+                        "affixes": [
+                            "_kit,1"
+                        ],
+                        "arity": 0,
+                        "description": "Aggregated Weight"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_ikt"
+                        ],
+                        "arity": 0,
+                        "description": "Aggregated weight from concept representations e_kt,1 to the stock i"
+                    },
+                    {
+                        "affixes": [
+                            "_ikt"
+                        ],
+                        "arity": 0,
+                        "description": "Aggregated Weight"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_kit,0"
+                        ],
+                        "arity": 0,
+                        "description": "Cosine similarity between the stock i and the hidden concept H_k"
+                    },
+                    {
+                        "affixes": [
+                            "_kit,0"
+                        ],
+                        "arity": 0,
+                        "description": "Cosine Similarity"
+                    },
+                    {
+                        "affixes": [
+                            "_t,0"
+                        ],
+                        "arity": 0,
+                        "description": "Weights matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_t,0"
+                        ],
+                        "arity": 0,
+                        "description": "Weights matrix in the hidden concept module"
+                    }
+                ]
+            }
+        },
+        "475255": {
+            "_surface": {
+                "text": "GRU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A type of recurrent neural network used to encode the stock features"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gated Recurrent Unit"
+                    }
+                ]
+            }
+        },
+        "4d5345": {
+            "_surface": {
+                "text": "MSE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean Squared Error"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function used to measure the average of the squares of the errors"
+                    }
+                ]
+            }
+        },
+        "626630": {
+            "_surface": {
+                "text": "bf0",
+                "unicode_name": "bf0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias of the fully-connected layer"
+                    }
+                ]
+            }
+        },
+        "626632": {
+            "_surface": {
+                "text": "bf2",
+                "unicode_name": "bf2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias of the fully-connected layer"
+                    }
+                ]
+            }
+        },
+        "657870": {
+            "_surface": {
+                "text": "exp"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "776630": {
+            "_surface": {
+                "text": "wf0",
+                "unicode_name": "wf0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight Matrix"
+                    }
+                ]
+            }
+        },
+        "776632": {
+            "_surface": {
+                "text": "wf2",
+                "unicode_name": "wf2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix of the fully-connected layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight Matrix"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean squared error (MSE) loss function used to optimize the HIST framework"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    }
+                ]
+            }
+        },
+        "e284b3": {
+            "_surface": {
+                "text": "ℳ",
+                "unicode_name": "SCRIPT CAPITAL M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_kt"
+                        ],
+                        "arity": 0,
+                        "description": "Set of stocks that connect to the concept H_k"
+                    },
+                    {
+                        "affixes": [
+                            "_kt"
+                        ],
+                        "arity": 0,
+                        "description": "Related Stocks"
+                    }
+                ]
+            }
+        },
+        "52616e6b": {
+            "_surface": {
+                "text": "Rank"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "636f7272": {
+            "_surface": {
+                "text": "corr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pearson Correlation Coefficient"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A measure of the linear correlation between two variables"
+                    }
+                ]
+            }
+        },
+        "72616e6b": {
+            "_surface": {
+                "text": "rank"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92a2": {
+            "_surface": {
+                "text": "𝒢",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Predefined Concept Set"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Set of all predefined concepts at date t"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{kt}"
+                        ],
+                        "arity": 0,
+                        "description": "Related Stocks"
+                    },
+                    {
+                        "affixes": [
+                            "_{kt}"
+                        ],
+                        "arity": 0,
+                        "description": "Set of stocks that related to the concept T_{k} at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_kt"
+                        ],
+                        "arity": 0,
+                        "description": "Related Stocks"
+                    },
+                    {
+                        "affixes": [
+                            "_kt"
+                        ],
+                        "arity": 0,
+                        "description": "Set of stocks that related to the concept T_k at date t"
+                    }
+                ]
+            }
+        },
+        "f09d92ae": {
+            "_surface": {
+                "text": "𝒮",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Features of n stocks at date t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Stock Features"
+                    }
+                ]
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training Set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of dates in the training set"
+                    }
+                ]
+            }
+        },
+        "5072696365": {
+            "_surface": {
+                "text": "Price"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Stock Price"
+                    },
+                    {
+                        "affixes": [
+                            "_{it}"
+                        ],
+                        "arity": 0,
+                        "description": "Price of stock i at date t"
+                    }
+                ]
+            }
+        },
+        "436f73696e65": {
+            "_surface": {
+                "text": "Cosine"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "72616e6b2079": {
+            "_surface": {
+                "text": "rank y",
+                "unicode_name": "rank y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Rank of labels"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Ranks of the stock trend labels of all stocks on each day"
+                    },
+                    {
+                        "affixes": [
+                            "^t"
+                        ],
+                        "arity": 0,
+                        "description": "Ranks of the stock trend predictions of all stocks on each day"
+                    },
+                    {
+                        "affixes": [
+                            "^t"
+                        ],
+                        "arity": 0,
+                        "description": "Rank of predictions"
+                    }
+                ]
+            }
+        },
+        "52616e6b204943": {
+            "_surface": {
+                "text": "Rank IC",
+                "unicode_name": "Rank IC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rank Information Coefficient"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spearman’s rank correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "4c65616b7952654c55": {
+            "_surface": {
+                "text": "LeakyReLU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Activation Function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "An activation function used in the neural network"
+                    }
+                ]
+            }
+        },
+        "507265636973696f6e404e": {
+            "_surface": {
+                "text": "Precision@N",
+                "unicode_name": "Precision@N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proportion of top N predictions on each day with the positive label"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Precision at N"
+                    }
+                ]
+            }
+        },
+        "63757272656e74206361706974616c": {
+            "_surface": {
+                "text": "current capital"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "696e697469616c206361707469616c": {
+            "_surface": {
+                "text": "initial captial"
+            },
+            "identifiers": {
+                "default": []
+            }
+        }
+    }
+}

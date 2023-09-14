@@ -1,0 +1,2348 @@
+{
+    "_author": "gpt-3.5-turbo",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Autocorrelation function"
+                    },
+                    {
+                        "affixes": [
+                            "(τ)"
+                        ],
+                        "arity": 0,
+                        "description": "Correlation function"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Integration domain"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "External input term for neuron i"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input intensity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input strength"
+                    }
+                ]
+            }
+        },
+        "4a": {
+            "_surface": {
+                "text": "J",
+                "unicode_name": "LATIN CAPITAL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i_j"
+                        ],
+                        "arity": 0,
+                        "description": "Network connectivity matrix element"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Network connectivity matrix element"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Network connectivity matrix row"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Network connectivity matrix column"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of units in the network"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of interconnected neurons"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of neurons"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Derivative operator"
+                    },
+                    {
+                        "affixes": [
+                            ", e, f"
+                        ],
+                        "arity": 0,
+                        "description": "Different states of the network"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input frequency"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gain parameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input amplitude"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gain parameter of the network"
+                    },
+                    {
+                        "affixes": [
+                            ", h, i"
+                        ],
+                        "arity": 0,
+                        "description": "Different states of the network"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input amplitude"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable for units in the network"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable for units in the network"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_0"
+                        ],
+                        "arity": 0,
+                        "description": "Fixed background rate"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized firing rate"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Activation variable for neuron i"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Activation variable"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gaussian random variable"
+                    }
+                ]
+            }
+        },
+        "4853": {
+            "_surface": {
+                "text": "HS",
+                "unicode_name": "HS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "487a": {
+            "_surface": {
+                "text": "Hz",
+                "unicode_name": "Hz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hertz"
+                    }
+                ]
+            }
+        },
+        "4b52": {
+            "_surface": {
+                "text": "KR",
+                "unicode_name": "KR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c41": {
+            "_surface": {
+                "text": "LA",
+                "unicode_name": "LA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "7230": {
+            "_surface": {
+                "text": "r0",
+                "unicode_name": "r0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input parameter"
+                    }
+                ]
+            }
+        },
+        "7a31": {
+            "_surface": {
+                "text": "z1",
+                "unicode_name": "z1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gaussian random variable"
+                    }
+                ]
+            }
+        },
+        "7a32": {
+            "_surface": {
+                "text": "z2",
+                "unicode_name": "z2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gaussian random variable"
+                    }
+                ]
+            }
+        },
+        "7a33": {
+            "_surface": {
+                "text": "z3",
+                "unicode_name": "z3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gaussian random variable"
+                    }
+                ]
+            }
+        },
+        "cb99": {
+            "_surface": {
+                "text": "˙",
+                "unicode_name": "DOT ABOVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Derivative with respect to time"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Delta"
+                    },
+                    {
+                        "affixes": [
+                            "(0)"
+                        ],
+                        "arity": 0,
+                        "description": "Initial position"
+                    },
+                    {
+                        "affixes": [
+                            "(τ)"
+                        ],
+                        "arity": 0,
+                        "description": "Current position"
+                    }
+                ]
+            }
+        },
+        "ceb4": {
+            "_surface": {
+                "text": "δ",
+                "unicode_name": "GREEK SMALL LETTER DELTA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kronecker delta"
+                    }
+                ]
+            }
+        },
+        "ceb7": {
+            "_surface": {
+                "text": "η",
+                "unicode_name": "GREEK SMALL LETTER ETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gaussian random variable"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Phase for neuron i"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Phase"
+                    }
+                ]
+            }
+        },
+        "cf80": {
+            "_surface": {
+                "text": "π",
+                "unicode_name": "GREEK SMALL LETTER PI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pi (mathematical constant)"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cf84": {
+            "_surface": {
+                "text": "τ",
+                "unicode_name": "GREEK SMALL LETTER TAU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_r"
+                        ],
+                        "arity": 0,
+                        "description": "Single-neuron time constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time interval"
+                    }
+                ]
+            }
+        },
+        "cf89": {
+            "_surface": {
+                "text": "ω",
+                "unicode_name": "GREEK SMALL LETTER OMEGA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stimulus frequency"
+                    }
+                ]
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(x_i)"
+                        ],
+                        "arity": 0,
+                        "description": "Saturating monotonic function of total synaptic input for neuron i"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Saturating monotonic function of total synaptic input"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Saturating monotonic function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average value"
+                    }
+                ]
+            }
+        },
+        "636f73": {
+            "_surface": {
+                "text": "cos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Cosine function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine function"
+                    }
+                ]
+            }
+        },
+        "657870": {
+            "_surface": {
+                "text": "exp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Exponential function"
+                    }
+                ]
+            }
+        },
+        "73676e": {
+            "_surface": {
+                "text": "sgn",
+                "unicode_name": "sgn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sign function"
+                    }
+                ]
+            }
+        },
+        "e2889e": {
+            "_surface": {
+                "text": "∞",
+                "unicode_name": "INFINITY"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infinity"
+                    }
+                ]
+            }
+        },
+        "642f6474": {
+            "_surface": {
+                "text": "d/dt",
+                "unicode_name": "d/dt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Derivative with respect to time"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    }
+                ]
+            }
+        },
+        "4b2e204865": {
+            "_surface": {
+                "text": "K. He",
+                "unicode_name": "K. He"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "532e205775": {
+            "_surface": {
+                "text": "S. Wu",
+                "unicode_name": "S. Wu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "cf836f7363": {
+            "_surface": {
+                "text": "σosc",
+                "unicode_name": "σosc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Signal amplitude"
+                    }
+                ]
+            }
+        },
+        "cf836f736332": {
+            "_surface": {
+                "text": "σosc2",
+                "unicode_name": "σosc2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Signal component variance"
+                    }
+                ]
+            }
+        },
+        "e29fa8e29fa9": {
+            "_surface": {
+                "text": "⟨⟩",
+                "unicode_name": "⟨⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time average"
+                    }
+                ]
+            }
+        },
+        "422e4d2e205975": {
+            "_surface": {
+                "text": "B.M. Yu",
+                "unicode_name": "B.M. Yu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "432e204b6f6368": {
+            "_surface": {
+                "text": "C. Koch",
+                "unicode_name": "C. Koch"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "466967732e2032": {
+            "_surface": {
+                "text": "Figs. 2",
+                "unicode_name": "Figs. 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 2"
+                    }
+                ]
+            }
+        },
+        "502e204b617261": {
+            "_surface": {
+                "text": "P. Kara",
+                "unicode_name": "P. Kara"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", P. Reinagel and R.C. Reid"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "cf836368616f73": {
+            "_surface": {
+                "text": "σchaos",
+                "unicode_name": "σchaos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Noise amplitude"
+                    }
+                ]
+            }
+        },
+        "466967732e203165": {
+            "_surface": {
+                "text": "Figs. 1e",
+                "unicode_name": "Figs. 1e"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 1e"
+                    }
+                ]
+            }
+        },
+        "466967732e203166": {
+            "_surface": {
+                "text": "Figs. 1f",
+                "unicode_name": "Figs. 1f"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 1f"
+                    }
+                ]
+            }
+        },
+        "466967732e203362": {
+            "_surface": {
+                "text": "Figs. 3b",
+                "unicode_name": "Figs. 3b"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 3b"
+                    }
+                ]
+            }
+        },
+        "487a2072616e6765": {
+            "_surface": {
+                "text": "Hz range",
+                "unicode_name": "Hz range"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Frequency range"
+                    }
+                ]
+            }
+        },
+        "492e204c616d706c": {
+            "_surface": {
+                "text": "I. Lampl",
+                "unicode_name": "I. Lampl"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b2e2052616a616e": {
+            "_surface": {
+                "text": "K. Rajan",
+                "unicode_name": "K. Rajan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d2e204672616e7a": {
+            "_surface": {
+                "text": "M. Franz",
+                "unicode_name": "M. Franz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d2e205a68616e67": {
+            "_surface": {
+                "text": "M. Zhang",
+                "unicode_name": "M. Zhang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "522e2042726f776e": {
+            "_surface": {
+                "text": "R. Brown",
+                "unicode_name": "R. Brown"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "532e492e20527975": {
+            "_surface": {
+                "text": "S.I. Ryu",
+                "unicode_name": "S.I. Ryu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5a2e204875616e67": {
+            "_surface": {
+                "text": "Z. Huang",
+                "unicode_name": "Z. Huang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "cf836368616f7332": {
+            "_surface": {
+                "text": "σchaos2",
+                "unicode_name": "σchaos2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Noise component variance"
+                    }
+                ]
+            }
+        },
+        "412e20417269656c69": {
+            "_surface": {
+                "text": "A. Arieli",
+                "unicode_name": "A. Arieli"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "412e2052656e617274": {
+            "_surface": {
+                "text": "A. Renart",
+                "unicode_name": "A. Renart"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", J. de la Rocha, P. Bartho, L. Hollender, N. Parga, A. Reyes and K.D. Harris"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "422e20486169646572": {
+            "_surface": {
+                "text": "B. Haider",
+                "unicode_name": "B. Haider"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", A. Duque, A.R. Hasenstaub, Y. Yu and D.A. McCormick"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "452e536368c3b66c6c": {
+            "_surface": {
+                "text": "E.Schöll",
+                "unicode_name": "E.Schöll"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "472e205765726e6572": {
+            "_surface": {
+                "text": "G. Werner",
+                "unicode_name": "G. Werner"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "492e4d2e2046696e6e": {
+            "_surface": {
+                "text": "I.M. Finn",
+                "unicode_name": "I.M. Finn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "492e5a2e204b697373": {
+            "_surface": {
+                "text": "I.Z. Kiss",
+                "unicode_name": "I.Z. Kiss"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a2e204b7572746873": {
+            "_surface": {
+                "text": "J. Kurths",
+                "unicode_name": "J. Kurths"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e2e204272756e656c": {
+            "_surface": {
+                "text": "N. Brunel",
+                "unicode_name": "N. Brunel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e6575726f6e203237": {
+            "_surface": {
+                "text": "Neuron 27",
+                "unicode_name": "Neuron 27"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4e6575726f6e203535": {
+            "_surface": {
+                "text": "Neuron 55",
+                "unicode_name": "Neuron 55"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "412e204165727473656e": {
+            "_surface": {
+                "text": "A. Aertsen",
+                "unicode_name": "A. Aertsen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "412e20537465726b696e": {
+            "_surface": {
+                "text": "A. Sterkin",
+                "unicode_name": "A. Sterkin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "412e532e2045636b6572": {
+            "_surface": {
+                "text": "A.S. Ecker",
+                "unicode_name": "A.S. Ecker"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", P. Berens, G.A. Keliris, M. Bethge, N.K. Logothetis and A.S. Tolias"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "412e542e205374616d70": {
+            "_surface": {
+                "text": "A.T. Stamp",
+                "unicode_name": "A.T. Stamp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "442e2046657273746572": {
+            "_surface": {
+                "text": "D. Ferster",
+                "unicode_name": "D. Ferster"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "492e204e617568617573": {
+            "_surface": {
+                "text": "I. Nauhaus",
+                "unicode_name": "I. Nauhaus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", L. Busse, M. Carandini and D.L. Ringach"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4c2e204b6f6361726576": {
+            "_surface": {
+                "text": "L. Kocarev",
+                "unicode_name": "L. Kocarev"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d2e562e205465696368": {
+            "_surface": {
+                "text": "M.V. Teich",
+                "unicode_name": "M.V. Teich"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", IEEE Trans. of BioMed. Eng. 36"
+                        ],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "412e2043726973616e7469": {
+            "_surface": {
+                "text": "A. Crisanti",
+                "unicode_name": "A. Crisanti"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "412e204772696e76616c64": {
+            "_surface": {
+                "text": "A. Grinvald",
+                "unicode_name": "A. Grinvald"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "472e562e204f7369706f76": {
+            "_surface": {
+                "text": "G.V. Osipov",
+                "unicode_name": "G.V. Osipov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a2e20416e646572736f6e": {
+            "_surface": {
+                "text": "J. Anderson",
+                "unicode_name": "J. Anderson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", I. Lampl, I. Reichova, M. Carandini and D. Ferster"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4a2e4c2e20487564736f6e": {
+            "_surface": {
+                "text": "J.L. Hudson",
+                "unicode_name": "J.L. Hudson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b2e562e205368656e6f79": {
+            "_surface": {
+                "text": "K.V. Shenoy",
+                "unicode_name": "K.V. Shenoy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c2e204d6f6c6765646579": {
+            "_surface": {
+                "text": "L. Molgedey",
+                "unicode_name": "L. Molgedey"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c2e462e204162626f7474": {
+            "_surface": {
+                "text": "L.F. Abbott",
+                "unicode_name": "L.F. Abbott"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e2e4a2e20507269656265": {
+            "_surface": {
+                "text": "N.J. Priebe",
+                "unicode_name": "N.J. Priebe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "502e452e204c617468616d": {
+            "_surface": {
+                "text": "P.E. Latham",
+                "unicode_name": "P.E. Latham"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", B.J. Richmond, P.G. Nelson and S. Nirenberg"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "536369656e636520333237": {
+            "_surface": {
+                "text": "Science 327",
+                "unicode_name": "Science 327"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "542e2046756a696d6f746f": {
+            "_surface": {
+                "text": "T. Fujimoto",
+                "unicode_name": "T. Fujimoto"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "572e522e20536f66746b79": {
+            "_surface": {
+                "text": "W.R. Softky",
+                "unicode_name": "W.R. Softky"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "472e2053616e7468616e616d": {
+            "_surface": {
+                "text": "G. Santhanam",
+                "unicode_name": "G. Santhanam"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "482e2053616b616775636869": {
+            "_surface": {
+                "text": "H. Sakaguchi",
+                "unicode_name": "H. Sakaguchi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "482e4a2e20536f6d6d657273": {
+            "_surface": {
+                "text": "H.J. Sommers",
+                "unicode_name": "H.J. Sommers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a2e4a2e20436f6c6c696e73": {
+            "_surface": {
+                "text": "J.J. Collins",
+                "unicode_name": "J.J. Collins"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d2e20436172616e64696e69": {
+            "_surface": {
+                "text": "M. Carandini",
+                "unicode_name": "M. Carandini"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "504c6f532042696f6c2e2039": {
+            "_surface": {
+                "text": "PLoS Biol. 9",
+                "unicode_name": "PLoS Biol. 9"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "5072696e6365746f6e204e4a": {
+            "_surface": {
+                "text": "Princeton NJ",
+                "unicode_name": "Princeton NJ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "412e532e2050696b6f76736b79": {
+            "_surface": {
+                "text": "A.S. Pikovsky",
+                "unicode_name": "A.S. Pikovsky"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "452e204d2e204d61796e617264": {
+            "_surface": {
+                "text": "E. M. Maynard",
+                "unicode_name": "E. M. Maynard"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", N. G. Hatsopoulos, C. L. Ojakangas, B. D. Acuna, J. N. Sanes, R. A. Normann and J. P. Donoghue"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "482e472e205363687573746572": {
+            "_surface": {
+                "text": "H.G. Schuster",
+                "unicode_name": "H.G. Schuster"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a2e462e204d69746368656c6c": {
+            "_surface": {
+                "text": "J.F. Mitchell",
+                "unicode_name": "J.F. Mitchell"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a2e4a2e205265796e6f6c6473": {
+            "_surface": {
+                "text": "J.J. Reynolds",
+                "unicode_name": "J.J. Reynolds"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a2e532e20416e646572736f6e": {
+            "_surface": {
+                "text": "J.S. Anderson",
+                "unicode_name": "J.S. Anderson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b2e412e2053756e6462657267": {
+            "_surface": {
+                "text": "K.A. Sundberg",
+                "unicode_name": "K.A. Sundberg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "442e432e2047696c6c6573706965": {
+            "_surface": {
+                "text": "D.C. Gillespie",
+                "unicode_name": "D.C. Gillespie"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "482e20536f6d706f6c696e736b79": {
+            "_surface": {
+                "text": "H. Sompolinsky",
+                "unicode_name": "H. Sompolinsky"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a204e6575726f7363692e203139": {
+            "_surface": {
+                "text": "J Neurosci. 19",
+                "unicode_name": "J Neurosci. 19"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4a2e205363687563686861726474": {
+            "_surface": {
+                "text": "J. Schuchhardt",
+                "unicode_name": "J. Schuchhardt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d2e472e20526f73656e626c756d": {
+            "_surface": {
+                "text": "M.G. Rosenblum",
+                "unicode_name": "M.G. Rosenblum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e2e20426572746368696e676572": {
+            "_surface": {
+                "text": "N. Bertchinger",
+                "unicode_name": "N. Bertchinger"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "552d736861706564206375727665": {
+            "_surface": {
+                "text": "U-shaped curve",
+                "unicode_name": "U-shaped curve"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Curve shape"
+                    }
+                ]
+            }
+        },
+        "432e432e482e20506574657273656e": {
+            "_surface": {
+                "text": "C.C.H. Petersen",
+                "unicode_name": "C.C.H. Petersen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", T.T.G Hahn, M. Mehta, A. Grinvald and B. Sakmann"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4a2e204e6575726f7363692e203238": {
+            "_surface": {
+                "text": "J. Neurosci. 28",
+                "unicode_name": "J. Neurosci. 28"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4d2e4d2e204368757263686c616e64": {
+            "_surface": {
+                "text": "M.M. Churchland",
+                "unicode_name": "M.M. Churchland"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "542e204e61747363686cc3a4676572": {
+            "_surface": {
+                "text": "T. Natschläger",
+                "unicode_name": "T. Natschläger"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "432e2076616e20567265657377696a6b": {
+            "_surface": {
+                "text": "C. van Vreeswijk",
+                "unicode_name": "C. van Vreeswijk"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e61742e204e6575726f7363692e2033": {
+            "_surface": {
+                "text": "Nat. Neurosci. 3",
+                "unicode_name": "Nat. Neurosci. 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "562e422e204d6f756e74636173746c65": {
+            "_surface": {
+                "text": "V.B. Mountcastle",
+                "unicode_name": "V.B. Mountcastle"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c796170756e6f76206578706f6e656e74": {
+            "_surface": {
+                "text": "Lyapunov exponent",
+                "unicode_name": "Lyapunov exponent"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of sensitivity to initial conditions"
+                    }
+                ]
+            }
+        },
+        "53776172747a20466f756e646174696f6e": {
+            "_surface": {
+                "text": "Swartz Foundation",
+                "unicode_name": "Swartz Foundation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Funding source"
+                    }
+                ]
+            }
+        },
+        "572e2053756e20616e6420592e2044616e": {
+            "_surface": {
+                "text": "W. Sun and Y. Dan",
+                "unicode_name": "W. Sun and Y. Dan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Proc. Natl. Acad. Sci. (USA) 106"
+                        ],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4a2e204e6575726f70687973696f6c2e203934": {
+            "_surface": {
+                "text": "J. Neurophysiol. 94",
+                "unicode_name": "J. Neurophysiol. 94"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4a2e204e6575726f70687973696f6c2e203937": {
+            "_surface": {
+                "text": "J. Neurophysiol. 97",
+                "unicode_name": "J. Neurophysiol. 97"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4e6174757265204e6575726f7363692e203132": {
+            "_surface": {
+                "text": "Nature Neurosci. 12",
+                "unicode_name": "Nature Neurosci. 12"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4e6174757265204e6575726f7363692e203133": {
+            "_surface": {
+                "text": "Nature Neurosci. 13",
+                "unicode_name": "Nature Neurosci. 13"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4d63446f6e6e656c6c20466f756e646174696f6e": {
+            "_surface": {
+                "text": "McDonnell Foundation",
+                "unicode_name": "McDonnell Foundation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Funding source"
+                    }
+                ]
+            }
+        },
+        "5072696e6365746f6e20556e6976657273697479": {
+            "_surface": {
+                "text": "Princeton University",
+                "unicode_name": "Princeton University"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    }
+                ]
+            }
+        },
+        "4d2e412e20536d69746820616e6420412e204b6f686e": {
+            "_surface": {
+                "text": "M.A. Smith and A. Kohn",
+                "unicode_name": "M.A. Smith and A. Kohn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4d2e4d2e204368757263686c616e6420657420616c2e": {
+            "_surface": {
+                "text": "M.M. Churchland et al.",
+                "unicode_name": "M.M. Churchland et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4361726c20496361686e204c61626f7261746f72696573": {
+            "_surface": {
+                "text": "Carl Icahn Laboratories",
+                "unicode_name": "Carl Icahn Laboratories"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Address"
+                    }
+                ]
+            }
+        },
+        "49737261656c20536369656e636520466f756e646174696f6e": {
+            "_surface": {
+                "text": "Israel Science Foundation",
+                "unicode_name": "Israel Science Foundation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Funding source"
+                    }
+                ]
+            }
+        },
+        "4a2e412e2048656e72696520616e6420522e20536861706c6579": {
+            "_surface": {
+                "text": "J.A. Henrie and R. Shapley",
+                "unicode_name": "J.A. Henrie and R. Shapley"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "50726f632e204e61746c2e20416361642e205363692e2055534120313030": {
+            "_surface": {
+                "text": "Proc. Natl. Acad. Sci. USA 100",
+                "unicode_name": "Proc. Natl. Acad. Sci. USA 100"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "4e4948204469726563746f72e28099732050696f6e65657220417761726420": {
+            "_surface": {
+                "text": "NIH Director’s Pioneer Award ",
+                "unicode_name": "NIH Director’s Pioneer Award "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(5-DP1-OD114-02)"
+                        ],
+                        "arity": 0,
+                        "description": "Funding source"
+                    }
+                ]
+            }
+        },
+        "4e494820526f61646d617020666f72204d65646963616c205265736561726368": {
+            "_surface": {
+                "text": "NIH Roadmap for Medical Research",
+                "unicode_name": "NIH Roadmap for Medical Research"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Research program"
+                    }
+                ]
+            }
+        },
+        "53776172747a2043656e7465727320617420436f6c756d62696120616e642048617276617264": {
+            "_surface": {
+                "text": "Swartz Centers at Columbia and Harvard",
+                "unicode_name": "Swartz Centers at Columbia and Harvard"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Research centers"
+                    }
+                ]
+            }
+        },
+        "4e6174696f6e616c20536369656e636520466f756e646174696f6e206772616e742049424e2d30323335343633": {
+            "_surface": {
+                "text": "National Science Foundation grant IBN-0235463",
+                "unicode_name": "National Science Foundation grant IBN-0235463"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Funding source"
+                    }
+                ]
+            }
+        },
+        "4c65776973205369676c657220496e7374697475746520666f7220496e7465677261746976652047656e6f6d696373": {
+            "_surface": {
+                "text": "Lewis Sigler Institute for Integrative Genomics",
+                "unicode_name": "Lewis Sigler Institute for Integrative Genomics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Institute"
+                    }
+                ]
+            }
+        }
+    }
+}

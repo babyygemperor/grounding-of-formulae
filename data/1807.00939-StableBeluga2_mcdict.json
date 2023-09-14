@@ -1,0 +1,386 @@
+{
+    "_author": "TheBloke/StableBeluga2-70B-GPTQ",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "31": {
+            "_surface": {
+                "text": "1",
+                "unicode_name": "DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant 1"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of time steps"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of days in the series"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Day offset"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time step"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pattern number in comparison"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight factor"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First signal"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector of time series data (stock transaction volume)"
+                    },
+                    {
+                        "affixes": [
+                            "[n]"
+                        ],
+                        "arity": 0,
+                        "description": "Value of x at time step n"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second signal"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector of time series data (stock transaction volume)"
+                    },
+                    {
+                        "affixes": [
+                            "[n]"
+                        ],
+                        "arity": 0,
+                        "description": "Value of y at time step n"
+                    }
+                ]
+            }
+        },
+        "2d31": {
+            "_surface": {
+                "text": "-1",
+                "unicode_name": "-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant -1"
+                    }
+                ]
+            }
+        },
+        "4e4343": {
+            "_surface": {
+                "text": "NCC",
+                "unicode_name": "NCC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized Cross Correlation"
+                    }
+                ]
+            }
+        },
+        "4e4352": {
+            "_surface": {
+                "text": "NCR",
+                "unicode_name": "NCR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized Cross-Correlation"
+                    }
+                ]
+            }
+        },
+        "646179": {
+            "_surface": {
+                "text": "day"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Day in the time series"
+                    }
+                ]
+            }
+        },
+        "73756d": {
+            "_surface": {
+                "text": "sum",
+                "unicode_name": "sum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summation operator"
+                    }
+                ]
+            }
+        },
+        "436f7272": {
+            "_surface": {
+                "text": "Corr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cross-Correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cross-correlation"
+                    }
+                ]
+            }
+        },
+        "78636f7272": {
+            "_surface": {
+                "text": "xcorr",
+                "unicode_name": "xcorr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Built-in Matlab feature for normalized cross-correlation"
+                    }
+                ]
+            }
+        },
+        "77696e646f77": {
+            "_surface": {
+                "text": "window",
+                "unicode_name": "window"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_size"
+                        ],
+                        "arity": 0,
+                        "description": "Size of the window"
+                    }
+                ]
+            }
+        },
+        "4669677572652037": {
+            "_surface": {
+                "text": "Figure 7",
+                "unicode_name": "Figure 7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Anomalous time series (window-based)"
+                    }
+                ]
+            }
+        },
+        "4669677572652038": {
+            "_surface": {
+                "text": "Figure 8",
+                "unicode_name": "Figure 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "NCR (window-based)"
+                    }
+                ]
+            }
+        },
+        "4669677572652039": {
+            "_surface": {
+                "text": "Figure 9",
+                "unicode_name": "Figure 9"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Anomalous time series (day based)"
+                    }
+                ]
+            }
+        },
+        "4c53544d20524e4e": {
+            "_surface": {
+                "text": "LSTM RNN",
+                "unicode_name": "LSTM RNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-Term Memory Recurrent Neural Network"
+                    }
+                ]
+            }
+        },
+        "414e4f4d414c4f5553": {
+            "_surface": {
+                "text": "ANOMALOUS",
+                "unicode_name": "ANOMALOUS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Anomaly Detection Algorithm"
+                    }
+                ]
+            }
+        },
+        "436f72722d6e6f726d": {
+            "_surface": {
+                "text": "Corr-norm"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "466967757265203130": {
+            "_surface": {
+                "text": "Figure 10",
+                "unicode_name": "Figure 10"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "NCR (day based)"
+                    }
+                ]
+            }
+        },
+        "77696e646f775f73697a65": {
+            "_surface": {
+                "text": "window_size"
+            },
+            "identifiers": {
+                "default": []
+            }
+        }
+    }
+}

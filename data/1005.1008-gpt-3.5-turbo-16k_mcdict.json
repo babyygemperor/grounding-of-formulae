@@ -1,0 +1,2962 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "32": {
+            "_surface": {
+                "text": "2",
+                "unicode_name": "DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number 2"
+                    }
+                ]
+            }
+        },
+        "34": {
+            "_surface": {
+                "text": "4",
+                "unicode_name": "DIGIT FOUR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number 4"
+                    }
+                ]
+            }
+        },
+        "35": {
+            "_surface": {
+                "text": "5",
+                "unicode_name": "DIGIT FIVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number 5"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Blue supergiants"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Blue supergiants"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnitude"
+                    }
+                ]
+            }
+        },
+        "4a": {
+            "_surface": {
+                "text": "J",
+                "unicode_name": "LATIN CAPITAL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Near-IR wavelength"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnitude"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bolometric luminosity"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mass of stars"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnitude"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of wavelength channels"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of data points"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Number of non-zero weights"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolution"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_eff"
+                        ],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnitude"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "CNO abundances"
+                    }
+                ]
+            }
+        },
+        "5a": {
+            "_surface": {
+                "text": "Z",
+                "unicode_name": "LATIN CAPITAL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metal content"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i,obs"
+                        ],
+                        "arity": 0,
+                        "description": "Observed flux at each wavelength channel"
+                    },
+                    {
+                        "affixes": [
+                            "_i,mod"
+                        ],
+                        "arity": 0,
+                        "description": "Model flux at each wavelength channel"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral channel"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for model"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of model parameters being fitted"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of parameters in the model"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Geometrical thickness"
+                    }
+                ]
+            }
+        },
+        "434e": {
+            "_surface": {
+                "text": "CN",
+                "unicode_name": "CN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "CN processed abundance type"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cyanide (CN) molecule"
+                    }
+                ]
+            }
+        },
+        "434f": {
+            "_surface": {
+                "text": "CO",
+                "unicode_name": "CO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Carbon monoxide (CO) molecule"
+                    }
+                ]
+            }
+        },
+        "4844": {
+            "_surface": {
+                "text": "HD",
+                "unicode_name": "HD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star"
+                    }
+                ]
+            }
+        },
+        "4952": {
+            "_surface": {
+                "text": "IR",
+                "unicode_name": "IR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infrared"
+                    }
+                ]
+            }
+        },
+        "4b30": {
+            "_surface": {
+                "text": "K0",
+                "unicode_name": "K0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral type"
+                    }
+                ]
+            }
+        },
+        "4d34": {
+            "_surface": {
+                "text": "M4",
+                "unicode_name": "M4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral type"
+                    }
+                ]
+            }
+        },
+        "4d67": {
+            "_surface": {
+                "text": "Mg",
+                "unicode_name": "Mg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnesium"
+                    }
+                ]
+            }
+        },
+        "4f48": {
+            "_surface": {
+                "text": "OH",
+                "unicode_name": "OH"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hydroxyl (OH) molecule"
+                    }
+                ]
+            }
+        },
+        "5369": {
+            "_surface": {
+                "text": "Si",
+                "unicode_name": "Si"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Silicon"
+                    }
+                ]
+            }
+        },
+        "5469": {
+            "_surface": {
+                "text": "Ti",
+                "unicode_name": "Ti"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Titanium"
+                    }
+                ]
+            }
+        },
+        "6e75": {
+            "_surface": {
+                "text": "nu",
+                "unicode_name": "nu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of degrees of freedom"
+                    }
+                ]
+            }
+        },
+        "7374": {
+            "_surface": {
+                "text": "st",
+                "unicode_name": "st"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard abundance type"
+                    }
+                ]
+            }
+        },
+        "c2b1": {
+            "_surface": {
+                "text": "±",
+                "unicode_name": "PLUS-MINUS SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Plus-minus symbol"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alpha"
+                    }
+                ]
+            }
+        },
+        "ceb5": {
+            "_surface": {
+                "text": "ε",
+                "unicode_name": "GREEK SMALL LETTER EPSILON"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Experimental uncertainty"
+                    }
+                ]
+            }
+        },
+        "cebc": {
+            "_surface": {
+                "text": "μ",
+                "unicode_name": "GREEK SMALL LETTER MU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Micrometer"
+                    }
+                ]
+            }
+        },
+        "cebd": {
+            "_surface": {
+                "text": "ν",
+                "unicode_name": "GREEK SMALL LETTER NU"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cebe": {
+            "_surface": {
+                "text": "ξ",
+                "unicode_name": "GREEK SMALL LETTER XI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Microturbulence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Microturbulence velocity"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cf87": {
+            "_surface": {
+                "text": "χ",
+                "unicode_name": "GREEK SMALL LETTER CHI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^2_2"
+                        ],
+                        "arity": 0,
+                        "description": "Chi-squared value at 2 times the minimum chi-squared"
+                    },
+                    {
+                        "affixes": [
+                            "^2_4"
+                        ],
+                        "arity": 0,
+                        "description": "Chi-squared value at 4 times the minimum chi-squared"
+                    },
+                    {
+                        "affixes": [
+                            "^2_0.5"
+                        ],
+                        "arity": 0,
+                        "description": "Chi-squared value at 0.5 times the minimum chi-squared"
+                    },
+                    {
+                        "affixes": [
+                            "^2"
+                        ],
+                        "arity": 0,
+                        "description": "Chi-squared value"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chi-squared value"
+                    }
+                ]
+            }
+        },
+        "342e31": {
+            "_surface": {
+                "text": "4.1",
+                "unicode_name": "4.1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number 4.1"
+                    }
+                ]
+            }
+        },
+        "342e32": {
+            "_surface": {
+                "text": "4.2",
+                "unicode_name": "4.2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number 4.2"
+                    }
+                ]
+            }
+        },
+        "434e4f": {
+            "_surface": {
+                "text": "CNO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Carbon-Nitrogen-Oxygen"
+                    }
+                ]
+            }
+        },
+        "48324f": {
+            "_surface": {
+                "text": "H2O",
+                "unicode_name": "H2O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Water (H2O) molecule"
+                    }
+                ]
+            }
+        },
+        "484949": {
+            "_surface": {
+                "text": "HII",
+                "unicode_name": "HII"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ionized hydrogen"
+                    }
+                ]
+            }
+        },
+        "486572": {
+            "_surface": {
+                "text": "Her",
+                "unicode_name": "Her"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star"
+                    }
+                ]
+            }
+        },
+        "496162": {
+            "_surface": {
+                "text": "Iab",
+                "unicode_name": "Iab"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral type"
+                    }
+                ]
+            }
+        },
+        "4c5445": {
+            "_surface": {
+                "text": "LTE",
+                "unicode_name": "LTE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Local thermodynamic equilibrium"
+                    }
+                ]
+            }
+        },
+        "4d7063": {
+            "_surface": {
+                "text": "Mpc",
+                "unicode_name": "Mpc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Megaparsecs"
+                    }
+                ]
+            }
+        },
+        "4d7972": {
+            "_surface": {
+                "text": "Myr",
+                "unicode_name": "Myr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Million years"
+                    }
+                ]
+            }
+        },
+        "4f7269": {
+            "_surface": {
+                "text": "Ori",
+                "unicode_name": "Ori"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star"
+                    }
+                ]
+            }
+        },
+        "525347": {
+            "_surface": {
+                "text": "RSG",
+                "unicode_name": "RSG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Red Supergiant"
+                    }
+                ]
+            }
+        },
+        "534e52": {
+            "_surface": {
+                "text": "SNR",
+                "unicode_name": "SNR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Signal-to-noise ratio"
+                    }
+                ]
+            }
+        },
+        "58c2af": {
+            "_surface": {
+                "text": "X¯",
+                "unicode_name": "X¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted mean of a physical property"
+                    }
+                ]
+            }
+        },
+        "636869": {
+            "_surface": {
+                "text": "chi",
+                "unicode_name": "chi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^2"
+                        ],
+                        "arity": 0,
+                        "description": "Chi-squared value"
+                    }
+                ]
+            }
+        },
+        "646578": {
+            "_surface": {
+                "text": "dex",
+                "unicode_name": "dex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithmic unit"
+                    }
+                ]
+            }
+        },
+        "656666": {
+            "_surface": {
+                "text": "eff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "666974": {
+            "_surface": {
+                "text": "fit",
+                "unicode_name": "fit"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Quality of fit"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d6f64": {
+            "_surface": {
+                "text": "mod"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6f6273": {
+            "_surface": {
+                "text": "obs"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cebc6d": {
+            "_surface": {
+                "text": "μm",
+                "unicode_name": "μm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Micrometer"
+                    }
+                ]
+            }
+        },
+        "cebe7c": {
+            "_surface": {
+                "text": "ξ|",
+                "unicode_name": "ξ|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Microturbulent velocities"
+                    }
+                ]
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Solar mass"
+                    }
+                ]
+            }
+        },
+        "32303030": {
+            "_surface": {
+                "text": "2000",
+                "unicode_name": "2000"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number 2000"
+                    }
+                ]
+            }
+        },
+        "36303030": {
+            "_surface": {
+                "text": "6000",
+                "unicode_name": "6000"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number 6000"
+                    }
+                ]
+            }
+        },
+        "494e5355": {
+            "_surface": {
+                "text": "INSU",
+                "unicode_name": "INSU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Institut National des Sciences de l'Univers"
+                    }
+                ]
+            }
+        },
+        "49525446": {
+            "_surface": {
+                "text": "IRTF",
+                "unicode_name": "IRTF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infrared Telescope Facility"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infrared spectroscopic library"
+                    }
+                ]
+            }
+        },
+        "4b4d4f53": {
+            "_surface": {
+                "text": "KMOS",
+                "unicode_name": "KMOS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infrared multi-object spectrograph"
+                    }
+                ]
+            }
+        },
+        "4d312e35": {
+            "_surface": {
+                "text": "M1.5",
+                "unicode_name": "M1.5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral type"
+                    }
+                ]
+            }
+        },
+        "4ee280b2": {
+            "_surface": {
+                "text": "N′",
+                "unicode_name": "N′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of non-zero weights"
+                    }
+                ]
+            }
+        },
+        "504e5053": {
+            "_surface": {
+                "text": "PNPS",
+                "unicode_name": "PNPS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Programme National de Physique Stellaire"
+                    }
+                ]
+            }
+        },
+        "52534773": {
+            "_surface": {
+                "text": "RSGs",
+                "unicode_name": "RSGs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Red Supergiants"
+                    }
+                ]
+            }
+        },
+        "54656666": {
+            "_surface": {
+                "text": "Teff",
+                "unicode_name": "Teff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "62657374": {
+            "_surface": {
+                "text": "best"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Best fitting model"
+                    }
+                ]
+            }
+        },
+        "696e6974": {
+            "_surface": {
+                "text": "init"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "77e1b5a2": {
+            "_surface": {
+                "text": "wᵢ",
+                "unicode_name": "wᵢ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weights calculated from the chi-squared value"
+                    }
+                ]
+            }
+        },
+        "78e1b5a2": {
+            "_surface": {
+                "text": "xᵢ",
+                "unicode_name": "xᵢ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Physical property in model i"
+                    }
+                ]
+            }
+        },
+        "ce94cf87": {
+            "_surface": {
+                "text": "Δχ",
+                "unicode_name": "Δχ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^2"
+                        ],
+                        "arity": 0,
+                        "description": "Parameter governing how many models are used in the computation of the physical parameters"
+                    }
+                ]
+            }
+        },
+        "452d454c54": {
+            "_surface": {
+                "text": "E-ELT",
+                "unicode_name": "E-ELT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "European Extremely Large Telescope"
+                    }
+                ]
+            }
+        },
+        "4d41524353": {
+            "_surface": {
+                "text": "MARCS",
+                "unicode_name": "MARCS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model atmosphere grid"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model atmospheres"
+                    }
+                ]
+            }
+        },
+        "4d7c7c4a7c": {
+            "_surface": {
+                "text": "M||J|",
+                "unicode_name": "M||J|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absolute magnitude in the J band"
+                    }
+                ]
+            }
+        },
+        "506c657a20": {
+            "_surface": {
+                "text": "Plez ",
+                "unicode_name": "Plez "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2008)"
+                        ],
+                        "arity": 0,
+                        "description": "Researcher"
+                    }
+                ]
+            }
+        },
+        "566972676f": {
+            "_surface": {
+                "text": "Virgo",
+                "unicode_name": "Virgo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Galaxy cluster"
+                    }
+                ]
+            }
+        },
+        "6c6f67205a": {
+            "_surface": {
+                "text": "log Z",
+                "unicode_name": "log Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metallicity"
+                    }
+                ]
+            }
+        },
+        "7369676d61": {
+            "_surface": {
+                "text": "sigma",
+                "unicode_name": "sigma"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Uncertainty in the flux at each wavelength channel"
+                    }
+                ]
+            }
+        },
+        "cf8358c2af": {
+            "_surface": {
+                "text": "σX¯",
+                "unicode_name": "σX¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Uncertainty of the weighted mean of a physical property"
+                    }
+                ]
+            }
+        },
+        "302e31646578": {
+            "_surface": {
+                "text": "0.1dex",
+                "unicode_name": "0.1dex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Precision"
+                    }
+                ]
+            }
+        },
+        "322d33303030": {
+            "_surface": {
+                "text": "2-3000",
+                "unicode_name": "2-3000"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolution range"
+                    }
+                ]
+            }
+        },
+        "4665e2808969": {
+            "_surface": {
+                "text": "Fe i",
+                "unicode_name": "Fe i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron (Fe) ion"
+                    }
+                ]
+            }
+        },
+        "4669672e2031": {
+            "_surface": {
+                "text": "Fig. 1",
+                "unicode_name": "Fig. 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 1"
+                    }
+                ]
+            }
+        },
+        "4669672e2032": {
+            "_surface": {
+                "text": "Fig. 2",
+                "unicode_name": "Fig. 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 2"
+                    }
+                ]
+            }
+        },
+        "4669672e2033": {
+            "_surface": {
+                "text": "Fig. 3",
+                "unicode_name": "Fig. 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 3"
+                    }
+                ]
+            }
+        },
+        "4669672e2034": {
+            "_surface": {
+                "text": "Fig. 4",
+                "unicode_name": "Fig. 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 4"
+                    }
+                ]
+            }
+        },
+        "4669672e2035": {
+            "_surface": {
+                "text": "Fig. 5",
+                "unicode_name": "Fig. 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 5"
+                    }
+                ]
+            }
+        },
+        "466f726e6178": {
+            "_surface": {
+                "text": "Fornax",
+                "unicode_name": "Fornax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Galaxy cluster"
+                    }
+                ]
+            }
+        },
+        "4d67e2808969": {
+            "_surface": {
+                "text": "Mg i",
+                "unicode_name": "Mg i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnesium (Mg) ion"
+                    }
+                ]
+            }
+        },
+        "507570706973": {
+            "_surface": {
+                "text": "Puppis",
+                "unicode_name": "Puppis"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Galaxy cluster"
+                    }
+                ]
+            }
+        },
+        "527c33303030": {
+            "_surface": {
+                "text": "R|3000",
+                "unicode_name": "R|3000"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Resolutions greater than 3000"
+                    }
+                ]
+            }
+        },
+        "5369e2808969": {
+            "_surface": {
+                "text": "Si i",
+                "unicode_name": "Si i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Silicon (Si) ion"
+                    }
+                ]
+            }
+        },
+        "5469e2808969": {
+            "_surface": {
+                "text": "Ti i",
+                "unicode_name": "Ti i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Titanium (Ti) ion"
+                    }
+                ]
+            }
+        },
+        "6c6f677c5a7c": {
+            "_surface": {
+                "text": "log|Z|",
+                "unicode_name": "log|Z|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metal content"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metallicity"
+                    }
+                ]
+            }
+        },
+        "6c6f677c677c": {
+            "_surface": {
+                "text": "log|g|",
+                "unicode_name": "log|g|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surface gravity"
+                    }
+                ]
+            }
+        },
+        "c2b1302e3134": {
+            "_surface": {
+                "text": "±0.14",
+                "unicode_name": "±0.14"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation"
+                    }
+                ]
+            }
+        },
+        "45534f20564c54": {
+            "_surface": {
+                "text": "ESO VLT",
+                "unicode_name": "ESO VLT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "European Southern Observatory Very Large Telescope"
+                    }
+                ]
+            }
+        },
+        "4d4f5346495245": {
+            "_surface": {
+                "text": "MOSFIRE",
+                "unicode_name": "MOSFIRE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multi-Object Spectrometer for Infra-Red Exploration"
+                    }
+                ]
+            }
+        },
+        "4f7269676c6961": {
+            "_surface": {
+                "text": "Origlia",
+                "unicode_name": "Origlia"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", L., Ranalli, P., Comastri, A., & Maiolino, R. 2004, ApJ, 606, 862"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "527c3d33303030": {
+            "_surface": {
+                "text": "R|=3000",
+                "unicode_name": "R|=3000"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolution of 3000"
+                    }
+                ]
+            }
+        },
+        "527c3d36303030": {
+            "_surface": {
+                "text": "R|=6000",
+                "unicode_name": "R|=6000"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolution of 6000"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 1"
+                    }
+                ]
+            }
+        },
+        "547c7c6566667c": {
+            "_surface": {
+                "text": "T||eff|",
+                "unicode_name": "T||eff|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a15a": {
+            "_surface": {
+                "text": "log⁡Z",
+                "unicode_name": "log⁡Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metallicity"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167": {
+            "_surface": {
+                "text": "log⁡g",
+                "unicode_name": "log⁡g"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surface gravity"
+                    }
+                ]
+            }
+        },
+        "312e313839cebc6d": {
+            "_surface": {
+                "text": "1.189μm",
+                "unicode_name": "1.189μm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "1.189 micrometer"
+                    }
+                ]
+            }
+        },
+        "312e313938cebc6d": {
+            "_surface": {
+                "text": "1.198μm",
+                "unicode_name": "1.198μm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "1.198 micrometer"
+                    }
+                ]
+            }
+        },
+        "45726964616e7573": {
+            "_surface": {
+                "text": "Eridanus",
+                "unicode_name": "Eridanus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Galaxy cluster"
+                    }
+                ]
+            }
+        },
+        "46652d67726f7570": {
+            "_surface": {
+                "text": "Fe-group",
+                "unicode_name": "Fe-group"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron-group elements"
+                    }
+                ]
+            }
+        },
+        "c2b1302e32646578": {
+            "_surface": {
+                "text": "±0.2dex",
+                "unicode_name": "±0.2dex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Experimental errors"
+                    }
+                ]
+            }
+        },
+        "c2b1302e35646578": {
+            "_surface": {
+                "text": "±0.5dex",
+                "unicode_name": "±0.5dex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Experimental errors"
+                    }
+                ]
+            }
+        },
+        "ce947c7ccf877c32": {
+            "_surface": {
+                "text": "Δ||χ|2",
+                "unicode_name": "Δ||χ|2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameter"
+                    }
+                ]
+            }
+        },
+        "ceb12d67726f7570": {
+            "_surface": {
+                "text": "α-group",
+                "unicode_name": "α-group"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alpha-group elements"
+                    }
+                ]
+            }
+        },
+        "484420333339303334": {
+            "_surface": {
+                "text": "HD 339034",
+                "unicode_name": "HD 339034"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star"
+                    }
+                ]
+            }
+        },
+        "527c3d322d33303030": {
+            "_surface": {
+                "text": "R|=2-3000",
+                "unicode_name": "R|=2-3000"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolutions of 2-3000"
+                    }
+                ]
+            }
+        },
+        "536563742e20342e32": {
+            "_surface": {
+                "text": "Sect. 4.2",
+                "unicode_name": "Sect. 4.2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section 4.2"
+                    }
+                ]
+            }
+        },
+        "5520657420616c2e20": {
+            "_surface": {
+                "text": "U et al. ",
+                "unicode_name": "U et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "6b6d2073e281bbc2b9": {
+            "_surface": {
+                "text": "km s⁻¹",
+                "unicode_name": "km s⁻¹"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kilometers per second"
+                    }
+                ]
+            }
+        },
+        "6c6f677ce281a15a7c": {
+            "_surface": {
+                "text": "log|⁡Z|",
+                "unicode_name": "log|⁡Z|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metal content"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Extremely insensitive to T||eff|"
+                    }
+                ]
+            }
+        },
+        "c2b1302e3235646578": {
+            "_surface": {
+                "text": "±0.25dex",
+                "unicode_name": "±0.25dex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Grid points"
+                    }
+                ]
+            }
+        },
+        "42656e20446176696573": {
+            "_surface": {
+                "text": "Ben Davies",
+                "unicode_name": "Ben Davies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b75647269747a6b6920": {
+            "_surface": {
+                "text": "Kudritzki ",
+                "unicode_name": "Kudritzki "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2010)"
+                        ],
+                        "arity": 0,
+                        "description": "Researcher"
+                    }
+                ]
+            }
+        },
+        "4d7c7c4a7ce289883139": {
+            "_surface": {
+                "text": "M||J|≈19",
+                "unicode_name": "M||J|≈19"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Limiting magnitude of approximately 19 in the J band"
+                    }
+                ]
+            }
+        },
+        "4d7c7c4a7ce289883232": {
+            "_surface": {
+                "text": "M||J|≈22",
+                "unicode_name": "M||J|≈22"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Limiting magnitude of approximately 22 in the J band"
+                    }
+                ]
+            }
+        },
+        "4d7c7c4a7ce289883330": {
+            "_surface": {
+                "text": "M||J|≈30",
+                "unicode_name": "M||J|≈30"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Limiting magnitude of approximately 30 in the J band"
+                    }
+                ]
+            }
+        },
+        "322d34206b6d20737c2d31": {
+            "_surface": {
+                "text": "2-4 km s|-1",
+                "unicode_name": "2-4 km s|-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Range of microturbulent velocities"
+                    }
+                ]
+            }
+        },
+        "46652f48e289882b302e31": {
+            "_surface": {
+                "text": "Fe/H≈+0.1",
+                "unicode_name": "Fe/H≈+0.1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approximately equal to +0.1"
+                    }
+                ]
+            }
+        },
+        "4849492d726567696f6e73": {
+            "_surface": {
+                "text": "HII-regions",
+                "unicode_name": "HII-regions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ionized hydrogen regions"
+                    }
+                ]
+            }
+        },
+        "567c2d497ce28988322e30": {
+            "_surface": {
+                "text": "V|-I|≈2.0",
+                "unicode_name": "V|-I|≈2.0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Color difference between V and I magnitudes is approximately 2.0"
+                    }
+                ]
+            }
+        },
+        "4361727220657420616c2e20": {
+            "_surface": {
+                "text": "Carr et al. ",
+                "unicode_name": "Carr et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2000)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "43756e686120657420616c2e": {
+            "_surface": {
+                "text": "Cunha et al.",
+                "unicode_name": "Cunha et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    },
+                    {
+                        "affixes": [
+                            ", 2007"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "6c6f677ce281a1677c302e30": {
+            "_surface": {
+                "text": "log|⁡g|0.0",
+                "unicode_name": "log|⁡g|0.0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Very low surface gravities"
+                    }
+                ]
+            }
+        },
+        "322d34206b6d2073e281bbc2b9": {
+            "_surface": {
+                "text": "2-4 km s⁻¹",
+                "unicode_name": "2-4 km s⁻¹"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Range of microturbulent velocities"
+                    }
+                ]
+            }
+        },
+        "322d34e280896b6d20737c2d31": {
+            "_surface": {
+                "text": "2-4 km s|-1",
+                "unicode_name": "2-4 km s|-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Range of microturbulent velocities"
+                    }
+                ]
+            }
+        },
+        "43756e686120657420616c2e20": {
+            "_surface": {
+                "text": "Cunha et al. ",
+                "unicode_name": "Cunha et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "44617669657320657420616c2e": {
+            "_surface": {
+                "text": "Davies et al.",
+                "unicode_name": "Davies et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    },
+                    {
+                        "affixes": [
+                            ", 2009b"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4d415243532070726f6a656374": {
+            "_surface": {
+                "text": "MARCS project",
+                "unicode_name": "MARCS project"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model Atmosphere Reflectivity Code System project"
+                    }
+                ]
+            }
+        },
+        "5261796e657220657420616c2e": {
+            "_surface": {
+                "text": "Rayner et al.",
+                "unicode_name": "Rayner et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "44617669657320657420616c2e20": {
+            "_surface": {
+                "text": "Davies et al. ",
+                "unicode_name": "Davies et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009a)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    },
+                    {
+                        "affixes": [
+                            "(2009b)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4c616d6265727420657420616c2e": {
+            "_surface": {
+                "text": "Lambert et al.",
+                "unicode_name": "Lambert et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "5261796e657220657420616c2e20": {
+            "_surface": {
+                "text": "Rayner et al. ",
+                "unicode_name": "Rayner et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "5363687761727a736368696c6420": {
+            "_surface": {
+                "text": "Schwarzschild ",
+                "unicode_name": "Schwarzschild "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1975)"
+                        ],
+                        "arity": 0,
+                        "description": "Researcher"
+                    }
+                ]
+            }
+        },
+        "57616c6c61636520657420616c2e": {
+            "_surface": {
+                "text": "Wallace et al.",
+                "unicode_name": "Wallace et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "302e30352d302e326465782f6b7063": {
+            "_surface": {
+                "text": "0.05-0.2dex/kpc",
+                "unicode_name": "0.05-0.2dex/kpc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Abundance gradient"
+                    }
+                ]
+            }
+        },
+        "4162756e64616e6365207479706573": {
+            "_surface": {
+                "text": "Abundance types",
+                "unicode_name": "Abundance types"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Types of abundance"
+                    }
+                ]
+            }
+        },
+        "427265736f6c696e20657420616c2e": {
+            "_surface": {
+                "text": "Bresolin et al.",
+                "unicode_name": "Bresolin et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "446f6e616c6420462e204669676572": {
+            "_surface": {
+                "text": "Donald F. Figer",
+                "unicode_name": "Donald F. Figer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4761726e65747420657420616c2e20": {
+            "_surface": {
+                "text": "Garnett et al. ",
+                "unicode_name": "Garnett et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1997)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4c616d6265727420657420616c2e20": {
+            "_surface": {
+                "text": "Lambert et al. ",
+                "unicode_name": "Lambert et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1984)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4c616d62657274206574c2a0616c2e": {
+            "_surface": {
+                "text": "Lambert et al.",
+                "unicode_name": "Lambert et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4c6576657371756520657420616c2e": {
+            "_surface": {
+                "text": "Levesque et al.",
+                "unicode_name": "Levesque et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2005"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4f7269676c696120657420616c2e20": {
+            "_surface": {
+                "text": "Origlia et al. ",
+                "unicode_name": "Origlia et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2004)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "546566662d6c6f675a20706c616e65": {
+            "_surface": {
+                "text": "Teff-logZ plane",
+                "unicode_name": "Teff-logZ plane"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Plane of effective temperature and metallicity"
+                    }
+                ]
+            }
+        },
+        "57616c6c61636520657420616c2e20": {
+            "_surface": {
+                "text": "Wallace et al. ",
+                "unicode_name": "Wallace et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2000)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "57616c6c616365206574c2a0616c2e": {
+            "_surface": {
+                "text": "Wallace et al.",
+                "unicode_name": "Wallace et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "322d345c75323030396b6d20737c2d31": {
+            "_surface": {
+                "text": "2-4\\u2009km s|-1",
+                "unicode_name": "2-4\\u2009km s|-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Range of microturbulent velocities"
+                    }
+                ]
+            }
+        },
+        "322e38c2b1302e35206b6d20737c2d31": {
+            "_surface": {
+                "text": "2.8±0.5 km s|-1",
+                "unicode_name": "2.8±0.5 km s|-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average microturbulent velocity"
+                    }
+                ]
+            }
+        },
+        "427265736f6c696e20657420616c2e20": {
+            "_surface": {
+                "text": "Bresolin et al. ",
+                "unicode_name": "Bresolin et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4a6f7373656c696e202620506c657a20": {
+            "_surface": {
+                "text": "Josselin & Plez ",
+                "unicode_name": "Josselin & Plez "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4b65776c6579202620456c6c69736f6e": {
+            "_surface": {
+                "text": "Kewley & Ellison",
+                "unicode_name": "Kewley & Ellison"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4c6576657371756520657420616c2e20": {
+            "_surface": {
+                "text": "Levesque et al. ",
+                "unicode_name": "Levesque et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2005)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4d65796e65742026204d616564657220": {
+            "_surface": {
+                "text": "Meynet & Maeder ",
+                "unicode_name": "Meynet & Maeder "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2000)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "43686961766173736120657420616c2e20": {
+            "_surface": {
+                "text": "Chiavassa et al. ",
+                "unicode_name": "Chiavassa et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "47757374616673736f6e20657420616c2e": {
+            "_surface": {
+                "text": "Gustafsson et al.",
+                "unicode_name": "Gustafsson et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4b65776c6579202620456c6c69736f6e20": {
+            "_surface": {
+                "text": "Kewley & Ellison ",
+                "unicode_name": "Kewley & Ellison "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2008)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4b75647269747a6b6920657420616c2e20": {
+            "_surface": {
+                "text": "Kudritzki et al. ",
+                "unicode_name": "Kudritzki et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2008)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "4d7c7c4a7ce288bc2d3820746f202d3131": {
+            "_surface": {
+                "text": "M||J|∼-8 to -11",
+                "unicode_name": "M||J|∼-8 to -11"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absolute magnitudes ranging from -8 to -11 in the J band"
+                    }
+                ]
+            }
+        },
+        "4d7c7c4a7ce289882d3820746f202d3131": {
+            "_surface": {
+                "text": "M||J|≈-8 to -11",
+                "unicode_name": "M||J|≈-8 to -11"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absolute magnitudes ranging from -8 to -11 in the J band"
+                    }
+                ]
+            }
+        },
+        "66697474696e672070726f636564757265": {
+            "_surface": {
+                "text": "fitting procedure",
+                "unicode_name": "fitting procedure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fitting procedure"
+                    }
+                ]
+            }
+        },
+        "322e38c2b1302e35206b6d2073e281bbc2b9": {
+            "_surface": {
+                "text": "2.8±0.5 km s⁻¹",
+                "unicode_name": "2.8±0.5 km s⁻¹"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average microturbulent velocity"
+                    }
+                ]
+            }
+        },
+        "322e38c2b1302e35e280896b6d20737c2d31": {
+            "_surface": {
+                "text": "2.8±0.5 km s|-1",
+                "unicode_name": "2.8±0.5 km s|-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average microturbulent velocity"
+                    }
+                ]
+            }
+        },
+        "47757374616673736f6e20657420616c2e20": {
+            "_surface": {
+                "text": "Gustafsson et al. ",
+                "unicode_name": "Gustafsson et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2008)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "546566662d6c6f67e281a15a20706c616e65": {
+            "_surface": {
+                "text": "Teff-log⁡Z plane",
+                "unicode_name": "Teff-log⁡Z plane"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Plane of effective temperature and metallicity"
+                    }
+                ]
+            }
+        },
+        "48756d7068726579732026204d63456c726f7920": {
+            "_surface": {
+                "text": "Humphreys & McElroy ",
+                "unicode_name": "Humphreys & McElroy "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1984)"
+                        ],
+                        "arity": 0,
+                        "description": "Researchers"
+                    }
+                ]
+            }
+        },
+        "526f6c662d5065746572204b75647269747a6b69": {
+            "_surface": {
+                "text": "Rolf-Peter Kudritzki",
+                "unicode_name": "Rolf-Peter Kudritzki"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "322e38c2b1302e355c75323030396b6d20737c2d31": {
+            "_surface": {
+                "text": "2.8±0.5\\u2009km s|-1",
+                "unicode_name": "2.8±0.5\\u2009km s|-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average microturbulent velocity"
+                    }
+                ]
+            }
+        },
+        "5461626c65204c4142454c3a7461623a617665726573756c7473": {
+            "_surface": {
+                "text": "Table LABEL:tab:averesults",
+                "unicode_name": "Table LABEL:tab:averesults"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table LABEL:tab:averesults"
+                    }
+                ]
+            }
+        }
+    }
+}

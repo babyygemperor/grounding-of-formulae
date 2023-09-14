@@ -1,0 +1,1155 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[-1,1]"
+                        ],
+                        "arity": 0,
+                        "description": "Range of parameters"
+                    },
+                    {
+                        "affixes": [
+                            "[-1,1]"
+                        ],
+                        "arity": 0,
+                        "description": "Range used in the experiments"
+                    },
+                    {
+                        "affixes": [
+                            "[0,1]"
+                        ],
+                        "arity": 0,
+                        "description": "Range of parameters"
+                    },
+                    {
+                        "affixes": [
+                            "[0,1]"
+                        ],
+                        "arity": 0,
+                        "description": "Range used in the experiments"
+                    },
+                    {
+                        "affixes": [
+                            "[-0.5,0.5]"
+                        ],
+                        "arity": 0,
+                        "description": "Range of parameters"
+                    },
+                    {
+                        "affixes": [
+                            "[-0.5,0.5]"
+                        ],
+                        "arity": 0,
+                        "description": "Range used in the experiments"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rule combining the individual predictions"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer in Deep Neural Network"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of days in the test sample"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of units"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Indicator function"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time period"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nonlinear activation function"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden layer"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for each modality"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Return prediction"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Daily close-to-close return of KO at time t+1"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "One day-ahead return prediction"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "One day-ahead return prediction"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Day"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feature"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prediction"
+                    }
+                ]
+            }
+        },
+        "444a": {
+            "_surface": {
+                "text": "DJ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dow Jones Industrial Average index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "US stock market"
+                    }
+                ]
+            }
+        },
+        "4b4f": {
+            "_surface": {
+                "text": "KO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KOSPI index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "South Korean stock market"
+                    }
+                ]
+            }
+        },
+        "4b52": {
+            "_surface": {
+                "text": "KR"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c48": {
+            "_surface": {
+                "text": "LH",
+                "unicode_name": "LH"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final hidden layer"
+                    }
+                ]
+            }
+        },
+        "4e41": {
+            "_surface": {
+                "text": "NA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "NASDAQ index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "US stock market"
+                    }
+                ]
+            }
+        },
+        "5350": {
+            "_surface": {
+                "text": "SP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard and Poor’s 500 index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "US stock market"
+                    }
+                ]
+            }
+        },
+        "5553": {
+            "_surface": {
+                "text": "US"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "US stock market"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intercept"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slope"
+                    }
+                ]
+            }
+        },
+        "ceb5": {
+            "_surface": {
+                "text": "ε",
+                "unicode_name": "GREEK SMALL LETTER EPSILON"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Random disturbance"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight to combine the prediction values from the KO and US data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mixing parameter"
+                    }
+                ]
+            }
+        },
+        "4d5345": {
+            "_surface": {
+                "text": "MSE",
+                "unicode_name": "MSE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean Squared Error"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure for the experiments"
+                    }
+                ]
+            }
+        },
+        "4e4153": {
+            "_surface": {
+                "text": "NAS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "NASDAQ index"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum value"
+                    }
+                ]
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Minimum value"
+                    }
+                ]
+            }
+        },
+        "6f7574": {
+            "_surface": {
+                "text": "out"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output layer"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Real number"
+                    }
+                ]
+            }
+        },
+        "44485443": {
+            "_surface": {
+                "text": "DHTC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Daytime, High-to-Close return"
+                    }
+                ]
+            }
+        },
+        "444c5443": {
+            "_surface": {
+                "text": "DLTC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Daytime, Low-to-Close return"
+                    }
+                ]
+            }
+        },
+        "444e4e31": {
+            "_surface": {
+                "text": "DNN1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deep Neural Network 1"
+                    }
+                ]
+            }
+        },
+        "444e4e32": {
+            "_surface": {
+                "text": "DNN2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deep Neural Network 2"
+                    }
+                ]
+            }
+        },
+        "444e4e33": {
+            "_surface": {
+                "text": "DNN3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deep Neural Network 3"
+                    }
+                ]
+            }
+        },
+        "444f5443": {
+            "_surface": {
+                "text": "DOTC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Daytime, Open-to-Close return"
+                    }
+                ]
+            }
+        },
+        "444f544f": {
+            "_surface": {
+                "text": "DOTO"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4f435443": {
+            "_surface": {
+                "text": "OCTC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Overnight, Close-to-Close return"
+                    }
+                ]
+            }
+        },
+        "4f4f5443": {
+            "_surface": {
+                "text": "OOTC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Overnight, Open-to-Close return"
+                    }
+                ]
+            }
+        },
+        "4f70656e": {
+            "_surface": {
+                "text": "Open"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "576f7574": {
+            "_surface": {
+                "text": "Wout",
+                "unicode_name": "Wout"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weights of the output layer"
+                    }
+                ]
+            }
+        },
+        "f09d91be": {
+            "_surface": {
+                "text": "𝑾",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "f09d9282": {
+            "_surface": {
+                "text": "𝒂",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector"
+                    }
+                ]
+            }
+        },
+        "f09d9283": {
+            "_surface": {
+                "text": "𝒃",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias vector"
+                    }
+                ]
+            }
+        },
+        "f09d9299": {
+            "_surface": {
+                "text": "𝒙",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feature vector extracted from trading data at time t"
+                    }
+                ]
+            }
+        },
+        "436c6f7365": {
+            "_surface": {
+                "text": "Close"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4869676874": {
+            "_surface": {
+                "text": "Hight"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "747261696e": {
+            "_surface": {
+                "text": "train"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training set"
+                    }
+                ]
+            }
+        },
+        "f09d928248": {
+            "_surface": {
+                "text": "𝒂H",
+                "unicode_name": "𝒂H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit in the final hidden layer"
+                    }
+                ]
+            }
+        },
+        "f09d928230444e4e33": {
+            "_surface": {
+                "text": "𝒂0DNN3",
+                "unicode_name": "𝒂0DNN3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input feature vector of DNN3"
+                    }
+                ]
+            }
+        },
+        "f09d928248444e4e31": {
+            "_surface": {
+                "text": "𝒂HDNN1",
+                "unicode_name": "𝒂HDNN1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Units of DNN1"
+                    }
+                ]
+            }
+        },
+        "f09d928248444e4e32": {
+            "_surface": {
+                "text": "𝒂HDNN2",
+                "unicode_name": "𝒂HDNN2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Units of DNN2"
+                    }
+                ]
+            }
+        },
+        "45787074732e20312d33": {
+            "_surface": {
+                "text": "Expts. 1-3",
+                "unicode_name": "Expts. 1-3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Experiments 1 to 3"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Three different experiments conducted"
+                    }
+                ]
+            }
+        },
+        "302e343932c2b1302e303239": {
+            "_surface": {
+                "text": "0.492±0.029",
+                "unicode_name": "0.492±0.029"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Overall hit ratio of the DJ-only DNN"
+                    }
+                ]
+            }
+        },
+        "302e343936c2b1302e303233": {
+            "_surface": {
+                "text": "0.496±0.023",
+                "unicode_name": "0.496±0.023"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Overall hit ratio of the SP-Only DNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    }
+                ]
+            }
+        },
+        "302e343936c2b1302e303236": {
+            "_surface": {
+                "text": "0.496±0.026",
+                "unicode_name": "0.496±0.026"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hit ratios of the late fusion for KO and DJ fusion"
+                    }
+                ]
+            }
+        },
+        "302e343937c2b1302e303234": {
+            "_surface": {
+                "text": "0.497±0.024",
+                "unicode_name": "0.497±0.024"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Overall hit ratio of the NA-Only DNN"
+                    }
+                ]
+            }
+        },
+        "302e343938c2b1302e303231": {
+            "_surface": {
+                "text": "0.498±0.021",
+                "unicode_name": "0.498±0.021"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hit ratios of the late fusion for KO and NA fusion"
+                    }
+                ]
+            }
+        },
+        "302e343939c2b1302e303234": {
+            "_surface": {
+                "text": "0.499±0.024",
+                "unicode_name": "0.499±0.024"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hit ratios of the late fusion for KO and SP fusion"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    }
+                ]
+            }
+        },
+        "302e343939c2b1302e303238": {
+            "_surface": {
+                "text": "0.499±0.028",
+                "unicode_name": "0.499±0.028"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Overall hit ratio of the KO-Only DNN"
+                    }
+                ]
+            }
+        },
+        "302e353834c2b1302e303139": {
+            "_surface": {
+                "text": "0.584±0.019",
+                "unicode_name": "0.584±0.019"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean hit ratio of early fusion for KO and NA features"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    }
+                ]
+            }
+        },
+        "302e353835c2b1302e303237": {
+            "_surface": {
+                "text": "0.585±0.027",
+                "unicode_name": "0.585±0.027"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean hit ratio of early fusion for KO and DJ features"
+                    }
+                ]
+            }
+        },
+        "302e353935c2b1302e303133": {
+            "_surface": {
+                "text": "0.595±0.013",
+                "unicode_name": "0.595±0.013"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean hit ratio of intermediate fusion for KO and NA features"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    }
+                ]
+            }
+        },
+        "302e353937c2b1302e303239": {
+            "_surface": {
+                "text": "0.597±0.029",
+                "unicode_name": "0.597±0.029"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean hit ratio of intermediate fusion for KO and SP features"
+                    }
+                ]
+            }
+        },
+        "302e363030c2b1302e303232": {
+            "_surface": {
+                "text": "0.600±0.022",
+                "unicode_name": "0.600±0.022"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean hit ratio of intermediate fusion for KO and DJ features"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    }
+                ]
+            }
+        },
+        "302e363036c2b1302e303131": {
+            "_surface": {
+                "text": "0.606±0.011",
+                "unicode_name": "0.606±0.011"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean hit ratio of early fusion for KO and SP features"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance measure"
+                    }
+                ]
+            }
+        }
+    }
+}

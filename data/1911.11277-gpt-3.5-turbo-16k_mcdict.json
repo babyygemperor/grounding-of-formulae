@@ -1,0 +1,5975 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[C/H]"
+                        ],
+                        "arity": 0,
+                        "description": "Carbon-to-hydrogen ratio"
+                    },
+                    {
+                        "affixes": [
+                            "[Fe/H]"
+                        ],
+                        "arity": 0,
+                        "description": "Iron-to-hydrogen ratio"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Multiplication"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Exponentiation"
+                    }
+                ]
+            }
+        },
+        "2b": {
+            "_surface": {
+                "text": "+",
+                "unicode_name": "PLUS SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Addition"
+                    }
+                ]
+            }
+        },
+        "2d": {
+            "_surface": {
+                "text": "-",
+                "unicode_name": "HYPHEN-MINUS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subtraction"
+                    }
+                ]
+            }
+        },
+        "2f": {
+            "_surface": {
+                "text": "/",
+                "unicode_name": "SOLIDUS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Division"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section B"
+                    }
+                ]
+            }
+        },
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Carbon"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sameshima, H."
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hydrogen"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H band"
+                    }
+                ]
+            }
+        },
+        "4a": {
+            "_surface": {
+                "text": "J",
+                "unicode_name": "LATIN CAPITAL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J band"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kelvin"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matsunaga, N."
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Resolution"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yttrium"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y band"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y⁢J-band"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y\\u2062J-band"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ikeda, Y."
+                    }
+                ]
+            }
+        },
+        "5a": {
+            "_surface": {
+                "text": "Z",
+                "unicode_name": "LATIN CAPITAL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Atomic number"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "atomic number Z"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linear trend coefficient"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Broadening"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linear trend intercept"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Speed of light"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equivalent width"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depths"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line depths"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Errors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted standard deviation of residuals"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "f"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Flux"
+                    },
+                    {
+                        "affixes": [
+                            "(λc)"
+                        ],
+                        "arity": 0,
+                        "description": "Flux at line center"
+                    },
+                    {
+                        "affixes": [
+                            "_syn"
+                        ],
+                        "arity": 0,
+                        "description": "Counts of digitized synthetic spectra"
+                    },
+                    {
+                        "affixes": [
+                            "_obs"
+                        ],
+                        "arity": 0,
+                        "description": "Counts of observed spectra after velocity offset correction"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "g"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gravitational acceleration"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gravity"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Meter"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_org"
+                        ],
+                        "arity": 0,
+                        "description": "Pixel-by-pixel ratio between observed and synthetic spectra"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Broadening"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "3233": {
+            "_surface": {
+                "text": "23",
+                "unicode_name": "23"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "23"
+                    }
+                ]
+            }
+        },
+        "4261": {
+            "_surface": {
+                "text": "Ba",
+                "unicode_name": "Ba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Barium"
+                    }
+                ]
+            }
+        },
+        "432e": {
+            "_surface": {
+                "text": "C.",
+                "unicode_name": "C."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "434e": {
+            "_surface": {
+                "text": "CN",
+                "unicode_name": "CN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cyanogen"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cyanide"
+                    }
+                ]
+            }
+        },
+        "4365": {
+            "_surface": {
+                "text": "Ce",
+                "unicode_name": "Ce"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ce"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element with atomic number 58"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cerium"
+                    }
+                ]
+            }
+        },
+        "4375": {
+            "_surface": {
+                "text": "Cu",
+                "unicode_name": "Cu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Copper"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cu"
+                    }
+                ]
+            }
+        },
+        "4479": {
+            "_surface": {
+                "text": "Dy",
+                "unicode_name": "Dy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dysprosium"
+                    }
+                ]
+            }
+        },
+        "4550": {
+            "_surface": {
+                "text": "EP",
+                "unicode_name": "EP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Excitation potential"
+                    }
+                ]
+            }
+        },
+        "4572": {
+            "_surface": {
+                "text": "Er",
+                "unicode_name": "Er"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Erbium"
+                    }
+                ]
+            }
+        },
+        "4575": {
+            "_surface": {
+                "text": "Eu",
+                "unicode_name": "Eu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element with atomic number 63"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Eu"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Europium"
+                    }
+                ]
+            }
+        },
+        "4665": {
+            "_surface": {
+                "text": "Fe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron"
+                    }
+                ]
+            }
+        },
+        "4743": {
+            "_surface": {
+                "text": "GC"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4761": {
+            "_surface": {
+                "text": "Ga",
+                "unicode_name": "Ga"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gallium"
+                    }
+                ]
+            }
+        },
+        "4765": {
+            "_surface": {
+                "text": "Ge",
+                "unicode_name": "Ge"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Germanium"
+                    }
+                ]
+            }
+        },
+        "4c61": {
+            "_surface": {
+                "text": "La",
+                "unicode_name": "La"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "La"
+                    }
+                ]
+            }
+        },
+        "4d2e": {
+            "_surface": {
+                "text": "M.",
+                "unicode_name": "M."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e64": {
+            "_surface": {
+                "text": "Nd",
+                "unicode_name": "Nd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nd"
+                    }
+                ]
+            }
+        },
+        "4e69": {
+            "_surface": {
+                "text": "Ni",
+                "unicode_name": "Ni"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ni"
+                    }
+                ]
+            }
+        },
+        "522e": {
+            "_surface": {
+                "text": "R.",
+                "unicode_name": "R."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "532e": {
+            "_surface": {
+                "text": "S.",
+                "unicode_name": "S."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "536d": {
+            "_surface": {
+                "text": "Sm",
+                "unicode_name": "Sm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Samarium"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element with atomic number 62"
+                    }
+                ]
+            }
+        },
+        "5372": {
+            "_surface": {
+                "text": "Sr",
+                "unicode_name": "Sr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Strontium"
+                    }
+                ]
+            }
+        },
+        "542e": {
+            "_surface": {
+                "text": "T.",
+                "unicode_name": "T."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5468": {
+            "_surface": {
+                "text": "Th",
+                "unicode_name": "Th"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Thorium"
+                    }
+                ]
+            }
+        },
+        "5a6e": {
+            "_surface": {
+                "text": "Zn",
+                "unicode_name": "Zn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zinc"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zn"
+                    }
+                ]
+            }
+        },
+        "5a72": {
+            "_surface": {
+                "text": "Zr",
+                "unicode_name": "Zr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zirconium"
+                    }
+                ]
+            }
+        },
+        "5a7c": {
+            "_surface": {
+                "text": "Z|",
+                "unicode_name": "Z|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Atomic number"
+                    }
+                ]
+            }
+        },
+        "647c": {
+            "_surface": {
+                "text": "d|",
+                "unicode_name": "d|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth"
+                    }
+                ]
+            }
+        },
+        "6b6d": {
+            "_surface": {
+                "text": "km",
+                "unicode_name": "km"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kilometer"
+                    }
+                ]
+            }
+        },
+        "7662": {
+            "_surface": {
+                "text": "vb",
+                "unicode_name": "vb"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Width of vb"
+                    }
+                ]
+            }
+        },
+        "7769": {
+            "_surface": {
+                "text": "wi",
+                "unicode_name": "wi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_f"
+                        ],
+                        "arity": 0,
+                        "description": "Weight term for flux"
+                    },
+                    {
+                        "affixes": [
+                            "_λ"
+                        ],
+                        "arity": 0,
+                        "description": "Weight term for wavelength"
+                    }
+                ]
+            }
+        },
+        "c2b1": {
+            "_surface": {
+                "text": "±",
+                "unicode_name": "PLUS-MINUS SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Plus-minus"
+                    }
+                ]
+            }
+        },
+        "c385": {
+            "_surface": {
+                "text": "Å",
+                "unicode_name": "LATIN CAPITAL LETTER A WITH RING ABOVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Angstrom"
+                    }
+                ]
+            }
+        },
+        "ce9b": {
+            "_surface": {
+                "text": "Λ",
+                "unicode_name": "GREEK CAPITAL LETTER LAMDA"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Indicator measuring absorption of target lines"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observed values"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alpha"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Blends"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Estimate of the blend"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Factor compensating effects of stellar metallicity and line width"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength"
+                    }
+                ]
+            }
+        },
+        "cebc": {
+            "_surface": {
+                "text": "μ",
+                "unicode_name": "GREEK SMALL LETTER MU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength"
+                    }
+                ]
+            }
+        },
+        "cebe": {
+            "_surface": {
+                "text": "ξ",
+                "unicode_name": "GREEK SMALL LETTER XI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Microturbulence"
+                    }
+                ]
+            }
+        },
+        "cf87": {
+            "_surface": {
+                "text": "χ",
+                "unicode_name": "GREEK SMALL LETTER CHI"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cfb5": {
+            "_surface": {
+                "text": "ϵ",
+                "unicode_name": "GREEK LUNATE EPSILON SYMBOL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "412641": {
+            "_surface": {
+                "text": "A&A",
+                "unicode_name": "A&A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A&A"
+                    }
+                ]
+            }
+        },
+        "41704a": {
+            "_surface": {
+                "text": "ApJ",
+                "unicode_name": "ApJ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ApJ"
+                    },
+                    {
+                        "affixes": [
+                            ", 102, 43"
+                        ],
+                        "arity": 0,
+                        "description": "ApJ, 102, 43"
+                    },
+                    {
+                        "affixes": [
+                            ", 863, L27"
+                        ],
+                        "arity": 0,
+                        "description": "ApJ, 863, L27"
+                    },
+                    {
+                        "affixes": [
+                            ", 878, 125"
+                        ],
+                        "arity": 0,
+                        "description": "ApJ, 878, 125"
+                    }
+                ]
+            }
+        },
+        "432069": {
+            "_surface": {
+                "text": "C i",
+                "unicode_name": "C i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Carbon i"
+                    }
+                ]
+            }
+        },
+        "485244": {
+            "_surface": {
+                "text": "HRD",
+                "unicode_name": "HRD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hertzsprung-Russell diagram"
+                    }
+                ]
+            }
+        },
+        "616972": {
+            "_surface": {
+                "text": "air",
+                "unicode_name": "air"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Air wavelength"
+                    }
+                ]
+            }
+        },
+        "646578": {
+            "_surface": {
+                "text": "dex",
+                "unicode_name": "dex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decimal exponent"
+                    }
+                ]
+            }
+        },
+        "656666": {
+            "_surface": {
+                "text": "eff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "657870": {
+            "_surface": {
+                "text": "exp"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm"
+                    }
+                ]
+            }
+        },
+        "6d6163": {
+            "_surface": {
+                "text": "mac"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Macroturbulence"
+                    }
+                ]
+            }
+        },
+        "6f6273": {
+            "_surface": {
+                "text": "obs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observed"
+                    }
+                ]
+            }
+        },
+        "6f7267": {
+            "_surface": {
+                "text": "org"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73796e": {
+            "_surface": {
+                "text": "syn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Synthetic"
+                    }
+                ]
+            }
+        },
+        "ce9b31": {
+            "_surface": {
+                "text": "Λ1",
+                "unicode_name": "Λ1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength step corresponding to velocity of 15 km s-1"
+                    }
+                ]
+            }
+        },
+        "ce9b32": {
+            "_surface": {
+                "text": "Λ2",
+                "unicode_name": "Λ2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength step corresponding to velocity of 100 km s-1"
+                    }
+                ]
+            }
+        },
+        "cebb63": {
+            "_surface": {
+                "text": "λc",
+                "unicode_name": "λc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line center wavelength"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line wavelength"
+                    }
+                ]
+            }
+        },
+        "cebb69": {
+            "_surface": {
+                "text": "λi",
+                "unicode_name": "λi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adjacent pixels"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pixel wavelength"
+                    }
+                ]
+            }
+        },
+        "cebc6d": {
+            "_surface": {
+                "text": "μm",
+                "unicode_name": "μm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Micrometer"
+                    }
+                ]
+            }
+        },
+        "cf8732": {
+            "_surface": {
+                "text": "χ2",
+                "unicode_name": "χ2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sum of squared residuals"
+                    }
+                ]
+            }
+        },
+        "e280a0": {
+            "_surface": {
+                "text": "†",
+                "unicode_name": "DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Denotes the target lines excluded"
+                    }
+                ]
+            }
+        },
+        "e281a1": {
+            "_surface": {
+                "text": "⁡",
+                "unicode_name": "FUNCTION APPLICATION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    }
+                ]
+            }
+        },
+        "e281a2": {
+            "_surface": {
+                "text": "⁢",
+                "unicode_name": "INVISIBLE TIMES"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multiplication"
+                    }
+                ]
+            }
+        },
+        "e281a3": {
+            "_surface": {
+                "text": "⁣",
+                "unicode_name": "INVISIBLE SEPARATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Denotes subtraction"
+                    }
+                ]
+            }
+        },
+        "e28792": {
+            "_surface": {
+                "text": "⇒",
+                "unicode_name": "RIGHTWARDS DOUBLE ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Implies"
+                    }
+                ]
+            }
+        },
+        "e28794": {
+            "_surface": {
+                "text": "⇔",
+                "unicode_name": "LEFT RIGHT DOUBLE ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "If and only if"
+                    }
+                ]
+            }
+        },
+        "e28885": {
+            "_surface": {
+                "text": "∅",
+                "unicode_name": "EMPTY SET"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Empty set"
+                    }
+                ]
+            }
+        },
+        "e28886": {
+            "_surface": {
+                "text": "∆",
+                "unicode_name": "INCREMENT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Change"
+                    }
+                ]
+            }
+        },
+        "e28888": {
+            "_surface": {
+                "text": "∈",
+                "unicode_name": "ELEMENT OF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of a set"
+                    }
+                ]
+            }
+        },
+        "e28891": {
+            "_surface": {
+                "text": "∑",
+                "unicode_name": "N-ARY SUMMATION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summation"
+                    }
+                ]
+            }
+        },
+        "e2889a": {
+            "_surface": {
+                "text": "√",
+                "unicode_name": "SQUARE ROOT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Square root"
+                    }
+                ]
+            }
+        },
+        "e288bc": {
+            "_surface": {
+                "text": "∼",
+                "unicode_name": "TILDE OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approximately"
+                    }
+                ]
+            }
+        },
+        "e28983": {
+            "_surface": {
+                "text": "≃",
+                "unicode_name": "ASYMPTOTICALLY EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approximately equal to"
+                    }
+                ]
+            }
+        },
+        "e28988": {
+            "_surface": {
+                "text": "≈",
+                "unicode_name": "ALMOST EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approximately equal to"
+                    }
+                ]
+            }
+        },
+        "e289a0": {
+            "_surface": {
+                "text": "≠",
+                "unicode_name": "NOT EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not equal to"
+                    }
+                ]
+            }
+        },
+        "e289a1": {
+            "_surface": {
+                "text": "≡",
+                "unicode_name": "IDENTICAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equivalent to"
+                    }
+                ]
+            }
+        },
+        "e289a4": {
+            "_surface": {
+                "text": "≤",
+                "unicode_name": "LESS-THAN OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Less than or equal to"
+                    }
+                ]
+            }
+        },
+        "e289a5": {
+            "_surface": {
+                "text": "≥",
+                "unicode_name": "GREATER-THAN OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greater than or equal to"
+                    }
+                ]
+            }
+        },
+        "e289b2": {
+            "_surface": {
+                "text": "≲",
+                "unicode_name": "LESS-THAN OR EQUIVALENT TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Less than or equal to"
+                    }
+                ]
+            }
+        },
+        "e28a86": {
+            "_surface": {
+                "text": "⊆",
+                "unicode_name": "SUBSET OF OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of a set"
+                    }
+                ]
+            }
+        },
+        "31393236": {
+            "_surface": {
+                "text": "1926",
+                "unicode_name": "1926"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "31393237": {
+            "_surface": {
+                "text": "1927",
+                "unicode_name": "1927"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "41704a53": {
+            "_surface": {
+                "text": "ApJS",
+                "unicode_name": "ApJS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "journal ApJS"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ApJS"
+                    },
+                    {
+                        "affixes": [
+                            ", 106, 165"
+                        ],
+                        "arity": 0,
+                        "description": "ApJS, 106, 165"
+                    }
+                ]
+            }
+        },
+        "4368656e": {
+            "_surface": {
+                "text": "Chen",
+                "unicode_name": "Chen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "46652069": {
+            "_surface": {
+                "text": "Fe i",
+                "unicode_name": "Fe i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron i"
+                    }
+                ]
+            }
+        },
+        "46652f48": {
+            "_surface": {
+                "text": "Fe/H",
+                "unicode_name": "Fe/H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron-to-hydrogen ratio"
+                    }
+                ]
+            }
+        },
+        "47652069": {
+            "_surface": {
+                "text": "Ge i",
+                "unicode_name": "Ge i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Germanium ion"
+                    }
+                ]
+            }
+        },
+        "49524146": {
+            "_surface": {
+                "text": "IRAF",
+                "unicode_name": "IRAF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IRAF (Tody, 1986, 1993)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IRAF"
+                    }
+                ]
+            }
+        },
+        "4a69616e": {
+            "_surface": {
+                "text": "Jian",
+                "unicode_name": "Jian"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jian et al."
+                    }
+                ]
+            }
+        },
+        "4b55525a": {
+            "_surface": {
+                "text": "KURZ",
+                "unicode_name": "KURZ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KURZ"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kurucz line list"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Compilation by R. Kurucz"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "the compilation by R. Kurucz (KURZ)"
+                    }
+                ]
+            }
+        },
+        "4c75636b": {
+            "_surface": {
+                "text": "Luck",
+                "unicode_name": "Luck"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. E. Luck 2018, AJ, 156, 171"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "& Lambert, D. L. 1985, ApJ, 298, 782"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. E. Luck"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. E. Luck & Lambert, D. L. 2011, AJ, 142, 136"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. E. Luck 2014, AJ, 147, 137"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Luck (2014)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. E. Luck, Andrievsky, S. M., Kovtyukh, V. V., et al. 2011, AJ, 142, 51"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Luck, 2018"
+                    }
+                ]
+            }
+        },
+        "4d423939": {
+            "_surface": {
+                "text": "MB99",
+                "unicode_name": "MB99"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "MB99"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Meléndez & Barbuy (1999)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model B atmosphere"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Meléndez & Barbuy (1999; hereinafter referred to as MB99)"
+                    }
+                ]
+            }
+        },
+        "4d4f4f47": {
+            "_surface": {
+                "text": "MOOG",
+                "unicode_name": "MOOG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "MOOG (February 2017 version; Sneden et al., 2012)"
+                    }
+                ]
+            }
+        },
+        "5041534a": {
+            "_surface": {
+                "text": "PASJ",
+                "unicode_name": "PASJ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 69, 102"
+                        ],
+                        "arity": 0,
+                        "description": "PASJ, 69, 102"
+                    }
+                ]
+            }
+        },
+        "5061726b": {
+            "_surface": {
+                "text": "Park",
+                "unicode_name": "Park"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "C. Park"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jaffe, D. T., Yuk, I.-S., et al. 2014, Proc. SPIE, 9147, 91471D"
+                    }
+                ]
+            }
+        },
+        "53692069": {
+            "_surface": {
+                "text": "Si i",
+                "unicode_name": "Si i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Silicon i"
+                    }
+                ]
+            }
+        },
+        "54656666": {
+            "_surface": {
+                "text": "Teff",
+                "unicode_name": "Teff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "56414c44": {
+            "_surface": {
+                "text": "VALD",
+                "unicode_name": "VALD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "VALD"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vienna Atomic Line Database"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vienna Atomic Line Database (VALD; Ryabchikova et al., 2015)"
+                    }
+                ]
+            }
+        },
+        "59206969": {
+            "_surface": {
+                "text": "Y ii",
+                "unicode_name": "Y ii"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yttrium ion"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y ii"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yttrium"
+                    }
+                ]
+            }
+        },
+        "5a6e2069": {
+            "_surface": {
+                "text": "Zn i",
+                "unicode_name": "Zn i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zinc ion"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zn i"
+                    }
+                ]
+            }
+        },
+        "5a722069": {
+            "_surface": {
+                "text": "Zr i",
+                "unicode_name": "Zr i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zr i"
+                    }
+                ]
+            }
+        },
+        "646f6273": {
+            "_surface": {
+                "text": "dobs",
+                "unicode_name": "dobs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depths measured with fobs"
+                    }
+                ]
+            }
+        },
+        "6473796e": {
+            "_surface": {
+                "text": "dsyn",
+                "unicode_name": "dsyn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depths measured with fsyn"
+                    }
+                ]
+            }
+        },
+        "696e7374": {
+            "_surface": {
+                "text": "inst"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6f6767": {
+            "_surface": {
+                "text": "logg",
+                "unicode_name": "logg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surface gravity"
+                    }
+                ]
+            }
+        },
+        "766d6163": {
+            "_surface": {
+                "text": "vmac",
+                "unicode_name": "vmac"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Macroturbulence"
+                    }
+                ]
+            }
+        },
+        "4152412641": {
+            "_surface": {
+                "text": "ARA&A",
+                "unicode_name": "ARA&A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ARA&A"
+                    }
+                ]
+            }
+        },
+        "4261206969": {
+            "_surface": {
+                "text": "Ba ii",
+                "unicode_name": "Ba ii"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ba ii"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Barium ii"
+                    }
+                ]
+            }
+        },
+        "427573736f": {
+            "_surface": {
+                "text": "Busso",
+                "unicode_name": "Busso"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4365206969": {
+            "_surface": {
+                "text": "Ce ii",
+                "unicode_name": "Ce ii"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cerium ion"
+                    }
+                ]
+            }
+        },
+        "43756e6861": {
+            "_surface": {
+                "text": "Cunha",
+                "unicode_name": "Cunha"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4479206969": {
+            "_surface": {
+                "text": "Dy ii",
+                "unicode_name": "Dy ii"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dy ii"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dysprosium ion"
+                    }
+                ]
+            }
+        },
+        "4575206969": {
+            "_surface": {
+                "text": "Eu ii",
+                "unicode_name": "Eu ii"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Eu ii"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Europium ii"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Europium ion"
+                    }
+                ]
+            }
+        },
+        "4749414e4f": {
+            "_surface": {
+                "text": "GIANO",
+                "unicode_name": "GIANO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "GIANO"
+                    }
+                ]
+            }
+        },
+        "4c61206969": {
+            "_surface": {
+                "text": "La ii",
+                "unicode_name": "La ii"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lanthanum ion"
+                    }
+                ]
+            }
+        },
+        "4d4e524153": {
+            "_surface": {
+                "text": "MNRAS",
+                "unicode_name": "MNRAS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "MNRAS"
+                    },
+                    {
+                        "affixes": [
+                            ", 432, 769"
+                        ],
+                        "arity": 0,
+                        "description": "MNRAS, 432, 769"
+                    },
+                    {
+                        "affixes": [
+                            ", 473, 4993"
+                        ],
+                        "arity": 0,
+                        "description": "MNRAS, 473, 4993"
+                    },
+                    {
+                        "affixes": [
+                            ", 402, 956"
+                        ],
+                        "arity": 0,
+                        "description": "MNRAS, 402, 956"
+                    }
+                ]
+            }
+        },
+        "4f6c697661": {
+            "_surface": {
+                "text": "Oliva",
+                "unicode_name": "Oliva"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Origlia, L., Maiolino, R., et al. 2012, Proc. SPIE, 8446, 84463T"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "E. Oliva"
+                    }
+                ]
+            }
+        },
+        "5079524146": {
+            "_surface": {
+                "text": "PyRAF",
+                "unicode_name": "PyRAF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "PyRAF (Science Software Branch at STScI 2012)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "PyRAF"
+                    }
+                ]
+            }
+        },
+        "526f616368": {
+            "_surface": {
+                "text": "Roach",
+                "unicode_name": "Roach"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "1942, ApJ, 96, 272"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "F. E. Roach"
+                    }
+                ]
+            }
+        },
+        "536d206969": {
+            "_surface": {
+                "text": "Sm ii",
+                "unicode_name": "Sm ii"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sm ii"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Samarium ion"
+                    }
+                ]
+            }
+        },
+        "5372206969": {
+            "_surface": {
+                "text": "Sr ii",
+                "unicode_name": "Sr ii"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Strontium ion"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Strontium ii"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sr ii"
+                    }
+                ]
+            }
+        },
+        "7472656e64": {
+            "_surface": {
+                "text": "trend",
+                "unicode_name": "trend"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trend"
+                    }
+                ]
+            }
+        },
+        "76696e7374": {
+            "_surface": {
+                "text": "vinst",
+                "unicode_name": "vinst"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instrumental line width"
+                    }
+                ]
+            }
+        },
+        "76e281a262": {
+            "_surface": {
+                "text": "v⁢b",
+                "unicode_name": "v⁢b"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Width of vb"
+                    }
+                ]
+            }
+        },
+        "ceb16f6273": {
+            "_surface": {
+                "text": "αobs",
+                "unicode_name": "αobs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption in observed spectra"
+                    }
+                ]
+            }
+        },
+        "ceb173796e": {
+            "_surface": {
+                "text": "αsyn",
+                "unicode_name": "αsyn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption in synthetic spectra"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Synthetic alpha value"
+                    }
+                ]
+            }
+        },
+        "ceb26f6273": {
+            "_surface": {
+                "text": "βobs",
+                "unicode_name": "βobs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Blend in observed spectra"
+                    }
+                ]
+            }
+        },
+        "ceb273796e": {
+            "_surface": {
+                "text": "βsyn",
+                "unicode_name": "βsyn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Blend in synthetic spectra"
+                    }
+                ]
+            }
+        },
+        "e281bbc2b9": {
+            "_surface": {
+                "text": "⁻¹",
+                "unicode_name": "⁻¹"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inverse"
+                    }
+                ]
+            }
+        },
+        "412ec2a0482e": {
+            "_surface": {
+                "text": "A. H.",
+                "unicode_name": "A. H."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "41504f474545": {
+            "_surface": {
+                "text": "APOGEE",
+                "unicode_name": "APOGEE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "APOGEE survey"
+                    }
+                ]
+            }
+        },
+        "422ec2a0502e": {
+            "_surface": {
+                "text": "B. P.",
+                "unicode_name": "B. P."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "427572726973": {
+            "_surface": {
+                "text": "Burris",
+                "unicode_name": "Burris"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "435249524553": {
+            "_surface": {
+                "text": "CRIRES",
+                "unicode_name": "CRIRES"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "CRIRES"
+                    }
+                ]
+            }
+        },
+        "436166666175": {
+            "_surface": {
+                "text": "Caffau",
+                "unicode_name": "Caffau"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "442ec2a0542e": {
+            "_surface": {
+                "text": "D. T.",
+                "unicode_name": "D. T."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "48616d616e6f": {
+            "_surface": {
+                "text": "Hamano",
+                "unicode_name": "Hamano"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WINERED pipeline"
+                    }
+                ]
+            }
+        },
+        "48656b6b6572": {
+            "_surface": {
+                "text": "Hekker",
+                "unicode_name": "Hekker"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hekker & Meléndez (2007)"
+                    }
+                ]
+            }
+        },
+        "494752494e53": {
+            "_surface": {
+                "text": "IGRINS",
+                "unicode_name": "IGRINS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IGRINS"
+                    }
+                ]
+            }
+        },
+        "4b757275637a": {
+            "_surface": {
+                "text": "Kurucz",
+                "unicode_name": "Kurucz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. L. Kurucz"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kurucz CD-ROM 13, ATLAS 9 Stellar Atmosphere Programs and 2 km/s Grid (Cambridge: SAO)"
+                    }
+                ]
+            }
+        },
+        "4e6174757265": {
+            "_surface": {
+                "text": "Nature",
+                "unicode_name": "Nature"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nature"
+                    }
+                ]
+            }
+        },
+        "4f747375626f": {
+            "_surface": {
+                "text": "Otsubo",
+                "unicode_name": "Otsubo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Otsubo"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ikeda, Y., Kobayashi, N., et al. 2016, Proc. SPIE, 9908, 990879"
+                    }
+                ]
+            }
+        },
+        "532ec2a04d2e": {
+            "_surface": {
+                "text": "S. M.",
+                "unicode_name": "S. M."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "542ec2a0442e": {
+            "_surface": {
+                "text": "T. D.",
+                "unicode_name": "T. D."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "54682d2d4172": {
+            "_surface": {
+                "text": "Th--Ar",
+                "unicode_name": "Th--Ar"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Thorium-Argon"
+                    }
+                ]
+            }
+        },
+        "572ec2a0532e": {
+            "_surface": {
+                "text": "W. S.",
+                "unicode_name": "W. S."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5ae289a53239": {
+            "_surface": {
+                "text": "Z≥29",
+                "unicode_name": "Z≥29"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Atomic number greater than or equal to 29"
+                    }
+                ]
+            }
+        },
+        "657420616c2e": {
+            "_surface": {
+                "text": "et al.",
+                "unicode_name": "et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "et al."
+                    }
+                ]
+            }
+        },
+        "6769616e7473": {
+            "_surface": {
+                "text": "giants",
+                "unicode_name": "giants"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "giants"
+                    }
+                ]
+            }
+        },
+        "73e281bbc2b9": {
+            "_surface": {
+                "text": "s⁻¹",
+                "unicode_name": "s⁻¹"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Per second"
+                    }
+                ]
+            }
+        },
+        "76616375756d": {
+            "_surface": {
+                "text": "vacuum",
+                "unicode_name": "vacuum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vacuum wavelength"
+                    }
+                ]
+            }
+        },
+        "e281a3e280a0": {
+            "_surface": {
+                "text": "⁣†",
+                "unicode_name": "⁣†"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Denotes the target lines excluded"
+                    }
+                ]
+            }
+        },
+        "4173706c756e64": {
+            "_surface": {
+                "text": "Asplund",
+                "unicode_name": "Asplund"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Asplund et al. (2009)"
+                    }
+                ]
+            }
+        },
+        "434e206c696e65": {
+            "_surface": {
+                "text": "CN line",
+                "unicode_name": "CN line"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cyanide line"
+                    }
+                ]
+            }
+        },
+        "46472d74797065": {
+            "_surface": {
+                "text": "FG-type",
+                "unicode_name": "FG-type"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "FG-type dwarfs"
+                    }
+                ]
+            }
+        },
+        "4b6172616b6173": {
+            "_surface": {
+                "text": "Karakas",
+                "unicode_name": "Karakas"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", & Lattanzio (2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Karakas"
+                    },
+                    {
+                        "affixes": [
+                            ", & Lattanzio (2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Lattanzio"
+                    }
+                ]
+            }
+        },
+        "4b757275637a20": {
+            "_surface": {
+                "text": "Kurucz ",
+                "unicode_name": "Kurucz "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1993)"
+                        ],
+                        "arity": 0,
+                        "description": "Kurucz"
+                    }
+                ]
+            }
+        },
+        "4c656d61736c65": {
+            "_surface": {
+                "text": "Lemasle",
+                "unicode_name": "Lemasle"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "B. Lemasle"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "François, P., Genovali, K., et al. 2013, A&A, 558, A31"
+                    }
+                ]
+            }
+        },
+        "4f7269676c6961": {
+            "_surface": {
+                "text": "Origlia",
+                "unicode_name": "Origlia"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Oliva, E., Sanna, N., et al. 2016, A&A, 585, A14"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Oliva, E., Maiolino, R., et al. 2013, A&A, 560, A46"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "L. Origlia"
+                    }
+                ]
+            }
+        },
+        "52657669736564": {
+            "_surface": {
+                "text": "Revised",
+                "unicode_name": "Revised"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Date revised"
+                    }
+                ]
+            }
+        },
+        "536369656e6365": {
+            "_surface": {
+                "text": "Science",
+                "unicode_name": "Science"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Science"
+                    }
+                ]
+            }
+        },
+        "5461626c652032": {
+            "_surface": {
+                "text": "Table 2",
+                "unicode_name": "Table 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption lines identified in the observed spectra"
+                    }
+                ]
+            }
+        },
+        "5461626c652033": {
+            "_surface": {
+                "text": "Table 3",
+                "unicode_name": "Table 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption lines not predicted by the synthetic spectra"
+                    }
+                ]
+            }
+        },
+        "547c7c6566667c": {
+            "_surface": {
+                "text": "T||eff|",
+                "unicode_name": "T||eff|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "57494e45524544": {
+            "_surface": {
+                "text": "WINERED",
+                "unicode_name": "WINERED"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WINERED spectrograph"
+                    }
+                ]
+            }
+        },
+        "626c656e646564": {
+            "_surface": {
+                "text": "blended",
+                "unicode_name": "blended"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Blended"
+                    }
+                ]
+            }
+        },
+        "64e281a273796e": {
+            "_surface": {
+                "text": "d⁢syn",
+                "unicode_name": "d⁢syn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Synthetic depth"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a166": {
+            "_surface": {
+                "text": "log⁡f",
+                "unicode_name": "log⁡f"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of f"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167": {
+            "_surface": {
+                "text": "log⁡g",
+                "unicode_name": "log⁡g"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of g"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surface gravity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of surface gravity"
+                    }
+                ]
+            }
+        },
+        "6f70746963616c": {
+            "_surface": {
+                "text": "optical",
+                "unicode_name": "optical"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "optical"
+                    }
+                ]
+            }
+        },
+        "c3966e65686167": {
+            "_surface": {
+                "text": "Önehag",
+                "unicode_name": "Önehag"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Heiter, U., Gustafsson, B., et al. 2012, A&A, 542, A33"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Önehag"
+                    }
+                ]
+            }
+        },
+        "4163636570746564": {
+            "_surface": {
+                "text": "Accepted",
+                "unicode_name": "Accepted"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Date accepted"
+                    }
+                ]
+            }
+        },
+        "44c3a96bc3a16e79": {
+            "_surface": {
+                "text": "Dékány",
+                "unicode_name": "Dékány"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4669677572652035": {
+            "_surface": {
+                "text": "Figure 5",
+                "unicode_name": "Figure 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption lines that were not predicted in the synthetic spectra"
+                    }
+                ]
+            }
+        },
+        "4a6f686e736f6e20": {
+            "_surface": {
+                "text": "Johnson ",
+                "unicode_name": "Johnson "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1975)"
+                        ],
+                        "arity": 0,
+                        "description": "Johnson"
+                    }
+                ]
+            }
+        },
+        "4d616a6577736b69": {
+            "_surface": {
+                "text": "Majewski",
+                "unicode_name": "Majewski"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schiavon, R. P., Frinchaboy, P. M., et al. 2017, AJ, 154, 94"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. R. Majewski"
+                    }
+                ]
+            }
+        },
+        "4d656c656e64657a": {
+            "_surface": {
+                "text": "Melendez",
+                "unicode_name": "Melendez"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "& Barbuy, B. 1999, ApJS, 124, 527"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J. Meléndez"
+                    }
+                ]
+            }
+        },
+        "5265636569766564": {
+            "_surface": {
+                "text": "Received",
+                "unicode_name": "Received"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Date received"
+                    }
+                ]
+            }
+        },
+        "636174616c6f6773": {
+            "_surface": {
+                "text": "catalogs",
+                "unicode_name": "catalogs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "three catalogs"
+                    }
+                ]
+            }
+        },
+        "64612053696c7661": {
+            "_surface": {
+                "text": "da Silva",
+                "unicode_name": "da Silva"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69736f746f706573": {
+            "_surface": {
+                "text": "isotopes",
+                "unicode_name": "isotopes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Isotopes"
+                    }
+                ]
+            }
+        },
+        "6f62736572766564": {
+            "_surface": {
+                "text": "observed",
+                "unicode_name": "observed"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observed spectra"
+                    }
+                ]
+            }
+        },
+        "76e281a2696e7374": {
+            "_surface": {
+                "text": "v⁢inst",
+                "unicode_name": "v⁢inst"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instrumental line width"
+                    }
+                ]
+            }
+        },
+        "44e280994f72617a69": {
+            "_surface": {
+                "text": "D’Orazi",
+                "unicode_name": "D’Orazi"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "46474b207479706573": {
+            "_surface": {
+                "text": "FGK types",
+                "unicode_name": "FGK types"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "FGK types"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b6820": {
+            "_surface": {
+                "text": "Kovtyukh ",
+                "unicode_name": "Kovtyukh "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Kovtyukh"
+                    }
+                ]
+            }
+        },
+        "4c756e647176697374": {
+            "_surface": {
+                "text": "Lundqvist",
+                "unicode_name": "Lundqvist"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wahlgren, G. M., & Hill, V. 2007, A&A, 463, 693"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Lundqvist"
+                    }
+                ]
+            }
+        },
+        "4c797562696d6b6f76": {
+            "_surface": {
+                "text": "Lyubimkov",
+                "unicode_name": "Lyubimkov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lambert, D. L., Korotin, S. A., et al. 2015, MNRAS, 446, 3447"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "L. S. Lyubimkov"
+                    }
+                ]
+            }
+        },
+        "4d617473756e616761": {
+            "_surface": {
+                "text": "Matsunaga",
+                "unicode_name": "Matsunaga"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "N. Matsunaga"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bono, G., Chen, X., et al. 2018, Space Sci. Rev., 214, 74"
+                    }
+                ]
+            }
+        },
+        "4d6357696c6c69616d": {
+            "_surface": {
+                "text": "McWilliam",
+                "unicode_name": "McWilliam"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "1997, ARA&A, 35, 503"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "McWilliam, 1997"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. McWilliam"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A., Wallerstein, G., & Mottini, M. 2013, ApJ, 778, 149"
+                    }
+                ]
+            }
+        },
+        "522e204b757275637a": {
+            "_surface": {
+                "text": "R. Kurucz",
+                "unicode_name": "R. Kurucz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "the compilation by R. Kurucz"
+                    }
+                ]
+            }
+        },
+        "53616d657368696d61": {
+            "_surface": {
+                "text": "Sameshima",
+                "unicode_name": "Sameshima"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H. Sameshima"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matsunaga, N., Kobayashi, N., et al. 2018b"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matsunaga, N., Kobayashi, N., et al. 2018a, PASP, 130, 74502"
+                    }
+                ]
+            }
+        },
+        "5473756a696d6f746f": {
+            "_surface": {
+                "text": "Tsujimoto",
+                "unicode_name": "Tsujimoto"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tsujimoto, & Baba, 2019"
+                    }
+                ]
+            }
+        },
+        "646574656374696f6e": {
+            "_surface": {
+                "text": "detection",
+                "unicode_name": "detection"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Detection"
+                    }
+                ]
+            }
+        },
+        "6b696c6f6e6f766165": {
+            "_surface": {
+                "text": "kilonovae",
+                "unicode_name": "kilonovae"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kilonovae"
+                    }
+                ]
+            }
+        },
+        "6c6f677ce281a1667c": {
+            "_surface": {
+                "text": "log|⁡f|",
+                "unicode_name": "log|⁡f|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of f"
+                    }
+                ]
+            }
+        },
+        "6c6f677ce281a1677c": {
+            "_surface": {
+                "text": "log|⁡g|",
+                "unicode_name": "log|⁡g|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of g"
+                    }
+                ]
+            }
+        },
+        "722d70726f63657373": {
+            "_surface": {
+                "text": "r-process",
+                "unicode_name": "r-process"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rapid neutron capture process"
+                    }
+                ]
+            }
+        },
+        "732d70726f63657373": {
+            "_surface": {
+                "text": "s-process",
+                "unicode_name": "s-process"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slow neutron capture process"
+                    }
+                ]
+            }
+        },
+        "73796e746865746963": {
+            "_surface": {
+                "text": "synthetic",
+                "unicode_name": "synthetic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Synthesized spectra"
+                    }
+                ]
+            }
+        },
+        "31303133332e3520c385": {
+            "_surface": {
+                "text": "10133.5 Å",
+                "unicode_name": "10133.5 Å"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fe i line at 10133.5 Å"
+                    }
+                ]
+            }
+        },
+        "31303433342e3020c385": {
+            "_surface": {
+                "text": "10434.0 Å",
+                "unicode_name": "10434.0 Å"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unidentified line at 10434.0 Å"
+                    }
+                ]
+            }
+        },
+        "31303437362e3520c385": {
+            "_surface": {
+                "text": "10476.5 Å",
+                "unicode_name": "10476.5 Å"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "CN line at 10476.5 Å"
+                    }
+                ]
+            }
+        },
+        "31323635382e3920c385": {
+            "_surface": {
+                "text": "12658.9 Å",
+                "unicode_name": "12658.9 Å"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nickel i lines at 12655.38 Å and 12655.60 Å"
+                    }
+                ]
+            }
+        },
+        "42617474697374696e69": {
+            "_surface": {
+                "text": "Battistini",
+                "unicode_name": "Battistini"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Battistini, & Bensby, 2016"
+                    }
+                ]
+            }
+        },
+        "43686f6a6e6f77736b69": {
+            "_surface": {
+                "text": "Chojnowski",
+                "unicode_name": "Chojnowski"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "44697363757373696f6e": {
+            "_surface": {
+                "text": "Discussion",
+                "unicode_name": "Discussion"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Discussion (Section 4.1)"
+                    }
+                ]
+            }
+        },
+        "4a6920657420616c2e20": {
+            "_surface": {
+                "text": "Ji et al. ",
+                "unicode_name": "Ji et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Ji"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Chiti"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Frebel"
+                    }
+                ]
+            }
+        },
+        "50726f632e2053504945": {
+            "_surface": {
+                "text": "Proc. SPIE",
+                "unicode_name": "Proc. SPIE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 733"
+                        ],
+                        "arity": 0,
+                        "description": "Proc. SPIE, 733"
+                    }
+                ]
+            }
+        },
+        "576176656c656e677468": {
+            "_surface": {
+                "text": "Wavelength",
+                "unicode_name": "Wavelength"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "μ"
+                    }
+                ]
+            }
+        },
+        "6162756e64616e636573": {
+            "_surface": {
+                "text": "abundances",
+                "unicode_name": "abundances"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Abundances"
+                    }
+                ]
+            }
+        },
+        "6469736b207374617273": {
+            "_surface": {
+                "text": "disk stars",
+                "unicode_name": "disk stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Disk stars"
+                    }
+                ]
+            }
+        },
+        "69726f6e2067726f7570": {
+            "_surface": {
+                "text": "iron group",
+                "unicode_name": "iron group"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "the iron group"
+                    }
+                ]
+            }
+        },
+        "31303133342e323120c385": {
+            "_surface": {
+                "text": "10134.21 Å",
+                "unicode_name": "10134.21 Å"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fe i line at 10134.21 Å"
+                    }
+                ]
+            }
+        },
+        "434e2031323436302e3833": {
+            "_surface": {
+                "text": "CN 12460.83",
+                "unicode_name": "CN 12460.83"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cyanide at 12460.83 Å"
+                    }
+                ]
+            }
+        },
+        "4757e28089313730383137": {
+            "_surface": {
+                "text": "GW 170817",
+                "unicode_name": "GW 170817"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "GW 170817"
+                    }
+                ]
+            }
+        },
+        "4844e28089313934303933": {
+            "_surface": {
+                "text": "HD 194093",
+                "unicode_name": "HD 194093"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Object"
+                    }
+                ]
+            }
+        },
+        "4844e28089323034383637": {
+            "_surface": {
+                "text": "HD 204867",
+                "unicode_name": "HD 204867"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Object"
+                    }
+                ]
+            }
+        },
+        "4c75636b20657420616c2e": {
+            "_surface": {
+                "text": "Luck et al.",
+                "unicode_name": "Luck et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Luck et al., 2011"
+                    }
+                ]
+            }
+        },
+        "527961626368696b6f7661": {
+            "_surface": {
+                "text": "Ryabchikova",
+                "unicode_name": "Ryabchikova"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Piskunov, N., Kurucz, R. L., et al. 2015, Phys. Scr, 90, 054005"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Piskunov, N., Pakhomov, Y., et al. 2016, MNRAS, 456, 1221"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "T. Ryabchikova"
+                    }
+                ]
+            }
+        },
+        "59e281a24a2062616e6473": {
+            "_surface": {
+                "text": "Y⁢J bands",
+                "unicode_name": "Y⁢J bands"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y⁢J bands"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167e281a266": {
+            "_surface": {
+                "text": "log⁡g⁢f",
+                "unicode_name": "log⁡g⁢f"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value of logarithm of gf"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "log⁡g⁢f"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a1ceb16f6273": {
+            "_surface": {
+                "text": "log⁡αobs",
+                "unicode_name": "log⁡αobs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of observed absorption"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a1ceb173796e": {
+            "_surface": {
+                "text": "log⁡αsyn",
+                "unicode_name": "log⁡αsyn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of synthetic absorption"
+                    }
+                ]
+            }
+        },
+        "73757065726769616e7473": {
+            "_surface": {
+                "text": "supergiants",
+                "unicode_name": "supergiants"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "supergiants"
+                    }
+                ]
+            }
+        },
+        "31303437352e32393520c385": {
+            "_surface": {
+                "text": "10475.295 Å",
+                "unicode_name": "10475.295 Å"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "CN line at 10475.295 Å"
+                    }
+                ]
+            }
+        },
+        "3130e28093333030204d7972": {
+            "_surface": {
+                "text": "10–300 Myr",
+                "unicode_name": "10–300 Myr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "10–300 Myr"
+                    }
+                ]
+            }
+        },
+        "4163746120417374726f6e2e": {
+            "_surface": {
+                "text": "Acta Astron.",
+                "unicode_name": "Acta Astron."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 68, 315"
+                        ],
+                        "arity": 0,
+                        "description": "Acta Astron., 68, 315"
+                    }
+                ]
+            }
+        },
+        "42c3b663656b20546f706375": {
+            "_surface": {
+                "text": "Böcek Topcu",
+                "unicode_name": "Böcek Topcu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "44656c6761646f204d656e61": {
+            "_surface": {
+                "text": "Delgado Mena",
+                "unicode_name": "Delgado Mena"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4772617920657420616c2e20": {
+            "_surface": {
+                "text": "Gray et al. ",
+                "unicode_name": "Gray et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2001)"
+                        ],
+                        "arity": 0,
+                        "description": "Graham"
+                    },
+                    {
+                        "affixes": [
+                            "(2001)"
+                        ],
+                        "arity": 0,
+                        "description": "Hoyt"
+                    },
+                    {
+                        "affixes": [
+                            "(2001)"
+                        ],
+                        "arity": 0,
+                        "description": "Gray"
+                    }
+                ]
+            }
+        },
+        "496e74726f64756374696f6e": {
+            "_surface": {
+                "text": "Introduction",
+                "unicode_name": "Introduction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Introduction"
+                    }
+                ]
+            }
+        },
+        "4a6920262046726562656c20": {
+            "_surface": {
+                "text": "Ji & Frebel ",
+                "unicode_name": "Ji & Frebel "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Ji"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Frebel"
+                    }
+                ]
+            }
+        },
+        "4b6f6e646f20657420616c2e": {
+            "_surface": {
+                "text": "Kondo et al.",
+                "unicode_name": "Kondo et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kondo et al., 2019"
+                    }
+                ]
+            }
+        },
+        "4e20692031323436312e3235": {
+            "_surface": {
+                "text": "N i 12461.25",
+                "unicode_name": "N i 12461.25"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nitrogen i at 12461.25 Å"
+                    }
+                ]
+            }
+        },
+        "5320692031303633352e3937": {
+            "_surface": {
+                "text": "S i 10635.97",
+                "unicode_name": "S i 10635.97"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sulfur i at 10635.97 Å"
+                    }
+                ]
+            }
+        },
+        "636f6e747269627574696f6e": {
+            "_surface": {
+                "text": "contribution",
+                "unicode_name": "contribution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contribution"
+                    }
+                ]
+            }
+        },
+        "657420616c2ec2a032303137": {
+            "_surface": {
+                "text": "et al. 2017",
+                "unicode_name": "et al. 2017"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "c2b1333030206b6d20732d31": {
+            "_surface": {
+                "text": "±300 km s-1",
+                "unicode_name": "±300 km s-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Width for objects with Teff < 5200 K"
+                    }
+                ]
+            }
+        },
+        "4162626f747420657420616c2e": {
+            "_surface": {
+                "text": "Abbott et al.",
+                "unicode_name": "Abbott et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Abbott et al., 2017"
+                    }
+                ]
+            }
+        },
+        "42757272697320657420616c2e": {
+            "_surface": {
+                "text": "Burris et al.",
+                "unicode_name": "Burris et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Burris et al., 2000"
+                    }
+                ]
+            }
+        },
+        "436120692031303531362e3134": {
+            "_surface": {
+                "text": "Ca i 10516.14",
+                "unicode_name": "Ca i 10516.14"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Calcium i at 10516.14 Å (EP=4.74 eV, log⁡g⁢f=-0.52 dex)"
+                    }
+                ]
+            }
+        },
+        "466520692031303435322e3735": {
+            "_surface": {
+                "text": "Fe i 10452.75",
+                "unicode_name": "Fe i 10452.75"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron i at 10452.75 Å (EP=3.88 eV)"
+                    }
+                ]
+            }
+        },
+        "47726179202620546f6e657220": {
+            "_surface": {
+                "text": "Gray & Toner ",
+                "unicode_name": "Gray & Toner "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1986)"
+                        ],
+                        "arity": 0,
+                        "description": "Toner"
+                    },
+                    {
+                        "affixes": [
+                            "(1986)"
+                        ],
+                        "arity": 0,
+                        "description": "Gray"
+                    }
+                ]
+            }
+        },
+        "486972616920657420616c2e20": {
+            "_surface": {
+                "text": "Hirai et al. ",
+                "unicode_name": "Hirai et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Wanajo"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Saito"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Hirai"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Ishimaru"
+                    }
+                ]
+            }
+        },
+        "496b65646120657420616c2e20": {
+            "_surface": {
+                "text": "Ikeda et al. ",
+                "unicode_name": "Ikeda et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Kobayashi"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Ikeda"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Kondo"
+                    }
+                ]
+            }
+        },
+        "4b6f6e646f20657420616c2e20": {
+            "_surface": {
+                "text": "Kondo et al. ",
+                "unicode_name": "Kondo et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Kondo"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Fukue"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Matsunaga"
+                    }
+                ]
+            }
+        },
+        "53696567656c20657420616c2e": {
+            "_surface": {
+                "text": "Siegel et al.",
+                "unicode_name": "Siegel et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Siegel et al., 2019"
+                    }
+                ]
+            }
+        },
+        "536d6172747420657420616c2e": {
+            "_surface": {
+                "text": "Smartt et al.",
+                "unicode_name": "Smartt et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Smartt et al., 2017"
+                    }
+                ]
+            }
+        },
+        "536e6564656e20657420616c2e": {
+            "_surface": {
+                "text": "Sneden et al.",
+                "unicode_name": "Sneden et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sneden et al., 2008"
+                    }
+                ]
+            }
+        },
+        "54616e616b6120657420616c2e": {
+            "_surface": {
+                "text": "Tanaka et al.",
+                "unicode_name": "Tanaka et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tanaka et al., 2017"
+                    }
+                ]
+            }
+        },
+        "546920692031303133332e3339": {
+            "_surface": {
+                "text": "Ti i 10133.39",
+                "unicode_name": "Ti i 10133.39"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Titanium i at 10133.39 Å"
+                    }
+                ]
+            }
+        },
+        "56414c4420616e64204b55525a": {
+            "_surface": {
+                "text": "VALD and KURZ",
+                "unicode_name": "VALD and KURZ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "VALD and KURZ line lists"
+                    }
+                ]
+            }
+        },
+        "61746f6d6963206e756d626572": {
+            "_surface": {
+                "text": "atomic number",
+                "unicode_name": "atomic number"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "atomic number"
+                    }
+                ]
+            }
+        },
+        "7370656374726f677261706873": {
+            "_surface": {
+                "text": "spectrographs",
+                "unicode_name": "spectrographs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Recently developed spectrographs"
+                    }
+                ]
+            }
+        },
+        "c2b131303030206b6d20732d31": {
+            "_surface": {
+                "text": "±1000 km s-1",
+                "unicode_name": "±1000 km s-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Width for objects with Teff = 5200 K"
+                    }
+                ]
+            }
+        },
+        "44756666617520657420616c2e20": {
+            "_surface": {
+                "text": "Duffau et al. ",
+                "unicode_name": "Duffau et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Sbordone"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Caffau"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Duffau"
+                    }
+                ]
+            }
+        },
+        "46474b2d74797065207374617273": {
+            "_surface": {
+                "text": "FGK-type stars",
+                "unicode_name": "FGK-type stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "FGK-type stars"
+                    }
+                ]
+            }
+        },
+        "48616d70656c20657420616c2e20": {
+            "_surface": {
+                "text": "Hampel et al. ",
+                "unicode_name": "Hampel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Meyer"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Hampel"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Lugaro"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Stancliffe"
+                    }
+                ]
+            }
+        },
+        "48756272696720657420616c2e20": {
+            "_surface": {
+                "text": "Hubrig et al. ",
+                "unicode_name": "Hubrig et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2012)"
+                        ],
+                        "arity": 0,
+                        "description": "Hubrig"
+                    },
+                    {
+                        "affixes": [
+                            "(2012)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2012)"
+                        ],
+                        "arity": 0,
+                        "description": "Castelli"
+                    },
+                    {
+                        "affixes": [
+                            "(2012)"
+                        ],
+                        "arity": 0,
+                        "description": "Gonzalez"
+                    }
+                ]
+            }
+        },
+        "4a2e204368656d2e20506879732e": {
+            "_surface": {
+                "text": "J. Chem. Phys.",
+                "unicode_name": "J. Chem. Phys."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J. Chem. Phys."
+                    }
+                ]
+            }
+        },
+        "4a6f6672c3a920657420616c2e20": {
+            "_surface": {
+                "text": "Jofré et al. ",
+                "unicode_name": "Jofré et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Heiter"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Jofré"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Worley"
+                    }
+                ]
+            }
+        },
+        "4b616575666c20657420616c2e20": {
+            "_surface": {
+                "text": "Kaeufl et al. ",
+                "unicode_name": "Kaeufl et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2004)"
+                        ],
+                        "arity": 0,
+                        "description": "Ballester"
+                    },
+                    {
+                        "affixes": [
+                            "(2004)"
+                        ],
+                        "arity": 0,
+                        "description": "Biereichel"
+                    },
+                    {
+                        "affixes": [
+                            "(2004)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2004)"
+                        ],
+                        "arity": 0,
+                        "description": "Kaeufl"
+                    }
+                ]
+            }
+        },
+        "4c75636b2026204c616d62657274": {
+            "_surface": {
+                "text": "Luck & Lambert",
+                "unicode_name": "Luck & Lambert"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Luck, & Lambert, 2011"
+                    }
+                ]
+            }
+        },
+        "4d6720692031323435362e393335": {
+            "_surface": {
+                "text": "Mg i 12456.935",
+                "unicode_name": "Mg i 12456.935"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnesium i at 12456.935 Å"
+                    }
+                ]
+            }
+        },
+        "43616e646964617465206c696e6573": {
+            "_surface": {
+                "text": "Candidate lines",
+                "unicode_name": "Candidate lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Candidate lines"
+                    }
+                ]
+            }
+        },
+        "47656e6f76616c6920657420616c2e": {
+            "_surface": {
+                "text": "Genovali et al.",
+                "unicode_name": "Genovali et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Genovali et al., 2014"
+                    }
+                ]
+            }
+        },
+        "47726174746f6e20657420616c2e20": {
+            "_surface": {
+                "text": "Gratton et al. ",
+                "unicode_name": "Gratton et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Carretta"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Gratton"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Tosi"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Bragaglia"
+                    }
+                ]
+            }
+        },
+        "57494e455245442073706563747261": {
+            "_surface": {
+                "text": "WINERED spectra",
+                "unicode_name": "WINERED spectra"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WINERED spectra"
+                    }
+                ]
+            }
+        },
+        "64612053696c766120657420616c2e": {
+            "_surface": {
+                "text": "da Silva et al.",
+                "unicode_name": "da Silva et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "da Silva et al., 2016"
+                    }
+                ]
+            }
+        },
+        "6c6f6767e281a2662076616c756573": {
+            "_surface": {
+                "text": "logg⁢f values",
+                "unicode_name": "logg⁢f values"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Values of logarithm of gf"
+                    }
+                ]
+            }
+        },
+        "6e657574726f6e2d63617074757265": {
+            "_surface": {
+                "text": "neutron-capture",
+                "unicode_name": "neutron-capture"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "neutron-capture"
+                    }
+                ]
+            }
+        },
+        "416e6472656173656e20657420616c2e": {
+            "_surface": {
+                "text": "Andreasen et al.",
+                "unicode_name": "Andreasen et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Andreasen et al., 2016"
+                    }
+                ]
+            }
+        },
+        "47656e6f76616c6920657420616c2e20": {
+            "_surface": {
+                "text": "Genovali et al. ",
+                "unicode_name": "Genovali et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Genovali"
+                    },
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Bono"
+                    },
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Lemasle"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b6820657420616c2e20": {
+            "_surface": {
+                "text": "Kovtyukh et al. ",
+                "unicode_name": "Kovtyukh et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2003)"
+                        ],
+                        "arity": 0,
+                        "description": "Belik"
+                    },
+                    {
+                        "affixes": [
+                            "(2003)"
+                        ],
+                        "arity": 0,
+                        "description": "Kovtyukh"
+                    },
+                    {
+                        "affixes": [
+                            "(2003)"
+                        ],
+                        "arity": 0,
+                        "description": "Gorlova"
+                    },
+                    {
+                        "affixes": [
+                            "(2003)"
+                        ],
+                        "arity": 0,
+                        "description": "Soubiran"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Kovtyukh"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Belik"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Mishenina"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Bienaymé"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Soubiran"
+                    }
+                ]
+            }
+        },
+        "4d617473756e61676120657420616c2e": {
+            "_surface": {
+                "text": "Matsunaga et al.",
+                "unicode_name": "Matsunaga et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matsunaga et al., 2018"
+                    }
+                ]
+            }
+        },
+        "4e617475726520417374726f6e6f6d79": {
+            "_surface": {
+                "text": "Nature Astronomy",
+                "unicode_name": "Nature Astronomy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nature Astronomy"
+                    }
+                ]
+            }
+        },
+        "54616e69677563686920657420616c2e": {
+            "_surface": {
+                "text": "Taniguchi et al.",
+                "unicode_name": "Taniguchi et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Taniguchi et al. (2018)"
+                    }
+                ]
+            }
+        },
+        "57494e4552454420706970656c696e65": {
+            "_surface": {
+                "text": "WINERED pipeline",
+                "unicode_name": "WINERED pipeline"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WINERED pipeline (Hamano et al., in preparation)"
+                    }
+                ]
+            }
+        },
+        "6162736f727074696f6e206c696e6573": {
+            "_surface": {
+                "text": "absorption lines",
+                "unicode_name": "absorption lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "the absorption lines in the infrared range"
+                    }
+                ]
+            }
+        },
+        "46652069206c696e6520696e204d423939": {
+            "_surface": {
+                "text": "Fe i line in MB99",
+                "unicode_name": "Fe i line in MB99"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron i line in MB99"
+                    }
+                ]
+            }
+        },
+        "486f746f6b657a616b6120657420616c2e": {
+            "_surface": {
+                "text": "Hotokezaka et al.",
+                "unicode_name": "Hotokezaka et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hotokezaka et al., 2018"
+                    }
+                ]
+            }
+        },
+        "736f6c6172206d6574616c6c6963697479": {
+            "_surface": {
+                "text": "solar metallicity",
+                "unicode_name": "solar metallicity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Solar metallicity"
+                    }
+                ]
+            }
+        },
+        "73796e7468657469632073706563747261": {
+            "_surface": {
+                "text": "synthetic spectra",
+                "unicode_name": "synthetic spectra"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "synthetic spectra"
+                    }
+                ]
+            }
+        },
+        "46474b20737065637472616c207479706573": {
+            "_surface": {
+                "text": "FGK spectral types",
+                "unicode_name": "FGK spectral types"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "FGK spectral types"
+                    }
+                ]
+            }
+        },
+        "486f746f6b657a616b6120657420616c2e20": {
+            "_surface": {
+                "text": "Hotokezaka et al. ",
+                "unicode_name": "Hotokezaka et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Beniamini"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Piran"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Hotokezaka"
+                    }
+                ]
+            }
+        },
+        "4d656cc3a96e64657a202620426172627579": {
+            "_surface": {
+                "text": "Meléndez & Barbuy",
+                "unicode_name": "Meléndez & Barbuy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "the list published in 1999 by Meléndez & Barbuy"
+                    }
+                ]
+            }
+        },
+        "57494e45524544207265736f6c7574696f6e": {
+            "_surface": {
+                "text": "WINERED resolution",
+                "unicode_name": "WINERED resolution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WINERED resolution"
+                    }
+                ]
+            }
+        },
+        "6368656d6963616c2065766f6c7574696f6e": {
+            "_surface": {
+                "text": "chemical evolution",
+                "unicode_name": "chemical evolution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chemical evolution"
+                    }
+                ]
+            }
+        },
+        "6772617669746174696f6e616c2077617665": {
+            "_surface": {
+                "text": "gravitational wave",
+                "unicode_name": "gravitational wave"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gravitational wave"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167e281a2662076616c756573": {
+            "_surface": {
+                "text": "log⁡g⁢f values",
+                "unicode_name": "log⁡g⁢f values"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Values of logarithm of gf"
+                    }
+                ]
+            }
+        },
+        "6e2d6361707475726520656c656d656e7473": {
+            "_surface": {
+                "text": "n-capture elements",
+                "unicode_name": "n-capture elements"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "n-capture elements"
+                    }
+                ]
+            }
+        },
+        "44656c6761646f204d656e6120657420616c2e": {
+            "_surface": {
+                "text": "Delgado Mena et al.",
+                "unicode_name": "Delgado Mena et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Delgado Mena et al., 2017"
+                    }
+                ]
+            }
+        },
+        "48617373656c717569737420657420616c2e20": {
+            "_surface": {
+                "text": "Hasselquist et al. ",
+                "unicode_name": "Hasselquist et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Cunha"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Hasselquist"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Shetrone"
+                    }
+                ]
+            }
+        },
+        "48656b6b65722026204d656cc3a96e64657a20": {
+            "_surface": {
+                "text": "Hekker & Meléndez ",
+                "unicode_name": "Hekker & Meléndez "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Hekker"
+                    },
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Meléndez"
+                    }
+                ]
+            }
+        },
+        "73686f7274657220776176656c656e67746873": {
+            "_surface": {
+                "text": "shorter wavelengths",
+                "unicode_name": "shorter wavelengths"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "spectra in shorter wavelengths"
+                    }
+                ]
+            }
+        },
+        "6e657574726f6e2073746172206d657267657273": {
+            "_surface": {
+                "text": "neutron star mergers",
+                "unicode_name": "neutron star mergers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neutron star mergers"
+                    }
+                ]
+            }
+        },
+        "4b697474205065616b20536f6c61722041746c6173": {
+            "_surface": {
+                "text": "Kitt Peak Solar Atlas",
+                "unicode_name": "Kitt Peak Solar Atlas"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kitt Peak Solar Atlas; Wallace et al., 1996"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b68202620416e6472696576736b79": {
+            "_surface": {
+                "text": "Kovtyukh & Andrievsky",
+                "unicode_name": "Kovtyukh & Andrievsky"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kovtyukh & Andrievsky (1999)"
+                    }
+                ]
+            }
+        },
+        "43657068656964207661726961626c65207374617273": {
+            "_surface": {
+                "text": "Cepheid variable stars",
+                "unicode_name": "Cepheid variable stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cepheid variable stars"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b68202620416e6472696576736b7920": {
+            "_surface": {
+                "text": "Kovtyukh & Andrievsky ",
+                "unicode_name": "Kovtyukh & Andrievsky "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1999)"
+                        ],
+                        "arity": 0,
+                        "description": "Kovtyukh"
+                    },
+                    {
+                        "affixes": [
+                            "(1999)"
+                        ],
+                        "arity": 0,
+                        "description": "Andrievsky"
+                    }
+                ]
+            }
+        },
+        "696e697469616c206d6173732066756e6374696f6e73": {
+            "_surface": {
+                "text": "initial mass functions",
+                "unicode_name": "initial mass functions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial mass functions"
+                    }
+                ]
+            }
+        },
+        "706f74656e7469616c20636f6e747269627574696f6e": {
+            "_surface": {
+                "text": "potential contribution",
+                "unicode_name": "potential contribution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Potential contribution"
+                    }
+                ]
+            }
+        },
+        "696e7465727374656c6c617220657874696e6374696f6e": {
+            "_surface": {
+                "text": "interstellar extinction",
+                "unicode_name": "interstellar extinction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "interstellar extinction"
+                    }
+                ]
+            }
+        },
+        "6e6561722d696e66726172656420776176656c656e67746873": {
+            "_surface": {
+                "text": "near-infrared wavelengths",
+                "unicode_name": "near-infrared wavelengths"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "for the near-infrared wavelengths"
+                    }
+                ]
+            }
+        },
+        "6f62736572766174696f6e616c20636f6e73747261696e7473": {
+            "_surface": {
+                "text": "observational constraints",
+                "unicode_name": "observational constraints"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observational constraints"
+                    }
+                ]
+            }
+        },
+        "47616c6163746963206368656d6963616c2065766f6c7574696f6e": {
+            "_surface": {
+                "text": "Galactic chemical evolution",
+                "unicode_name": "Galactic chemical evolution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Galactic chemical evolution"
+                    }
+                ]
+            }
+        },
+        "5669656e6e612041746f6d6963204c696e65204461746162617365": {
+            "_surface": {
+                "text": "Vienna Atomic Line Database",
+                "unicode_name": "Vienna Atomic Line Database"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vienna Atomic Line Database (VALD)"
+                    }
+                ]
+            }
+        },
+        "656c656374726f6d61676e6574696320636f756e74657270617274": {
+            "_surface": {
+                "text": "electromagnetic counterpart",
+                "unicode_name": "electromagnetic counterpart"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Electromagnetic counterpart"
+                    }
+                ]
+            }
+        },
+        "6e6561722d696e66726172656420646961676e6f73746963206c696e6573": {
+            "_surface": {
+                "text": "near-infrared diagnostic lines",
+                "unicode_name": "near-infrared diagnostic lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Near-infrared diagnostic lines"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a1ceb16f6273e281a2e28892e281a26c6f67e281a1ceb173796e": {
+            "_surface": {
+                "text": "log⁡αobs⁢−⁢log⁡αsyn",
+                "unicode_name": "log⁡αobs⁢−⁢log⁡αsyn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference between logarithm of observed and synthetic absorption"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167e281a26620676976656e20696e20746865206c696e65206c69737473": {
+            "_surface": {
+                "text": "log⁡g⁢f given in the line lists",
+                "unicode_name": "log⁡g⁢f given in the line lists"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value of logarithm of gf given in the line lists"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a1ceb16f6273e281a2e28892e281a26c6f67e281a1ceb173796ee2898330": {
+            "_surface": {
+                "text": "log⁡αobs⁢−⁢log⁡αsyn≃0",
+                "unicode_name": "log⁡αobs⁢−⁢log⁡αsyn≃0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approximately equal to 0"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167e281a2662076616c75657320676976656e20696e20746865206c696e65206c69737473": {
+            "_surface": {
+                "text": "log⁡g⁢f values given in the line lists",
+                "unicode_name": "log⁡g⁢f values given in the line lists"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Values of logarithm of gf given in the line lists"
+                    }
+                ]
+            }
+        },
+        "4d4f4f473a204c5445206c696e6520616e616c7973697320616e6420737065637472756d2073796e746865736973": {
+            "_surface": {
+                "text": "MOOG: LTE line analysis and spectrum synthesis",
+                "unicode_name": "MOOG: LTE line analysis and spectrum synthesis"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Astrophysics Source Code Library (ascl:1202.009)"
+                        ],
+                        "arity": 0,
+                        "description": "MOOG"
+                    }
+                ]
+            }
+        },
+        "417374726f6e6f6d6963616c204461746120416e616c7973697320536f66747761726520616e642053797374656d73204949": {
+            "_surface": {
+                "text": "Astronomical Data Analysis Software and Systems II",
+                "unicode_name": "Astronomical Data Analysis Software and Systems II"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 173"
+                        ],
+                        "arity": 0,
+                        "description": "Astronomical Data Analysis Software and Systems II, 173"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167e281a26620676976656e20696e20746865206c696e65206c6973747320726570726f647563652074686520646570746873206f66207369676e69666963616e74206c696e6573": {
+            "_surface": {
+                "text": "log⁡g⁢f given in the line lists reproduce the depths of significant lines",
+                "unicode_name": "log⁡g⁢f given in the line lists reproduce the depths of significant lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value of logarithm of gf given in the line lists reproduce the depths of significant lines"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167e281a26620676976656e20696e20746865206c696e65206c6973747320726570726f647563652074686520646570746873206f66207369676e69666963616e74206c696e6573e2898330": {
+            "_surface": {
+                "text": "log⁡g⁢f given in the line lists reproduce the depths of significant lines≃0",
+                "unicode_name": "log⁡g⁢f given in the line lists reproduce the depths of significant lines≃0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value of logarithm of gf given in the line lists reproduce the depths of significant lines approximately equal to 0"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167e281a2662076616c75657320676976656e20696e20746865206c696e65206c6973747320726570726f647563652074686520646570746873206f66207369676e69666963616e74206c696e6573": {
+            "_surface": {
+                "text": "log⁡g⁢f values given in the line lists reproduce the depths of significant lines",
+                "unicode_name": "log⁡g⁢f values given in the line lists reproduce the depths of significant lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Values of logarithm of gf given in the line lists reproduce the depths of significant lines"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167e281a2662076616c75657320676976656e20696e20746865206c696e65206c6973747320726570726f647563652074686520646570746873206f66207369676e69666963616e74206c696e6573e2898330": {
+            "_surface": {
+                "text": "log⁡g⁢f values given in the line lists reproduce the depths of significant lines≃0",
+                "unicode_name": "log⁡g⁢f values given in the line lists reproduce the depths of significant lines≃0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Values of logarithm of gf given in the line lists reproduce the depths of significant lines approximately equal to 0"
+                    }
+                ]
+            }
+        },
+        "5461626c65203220696e64696361746573207468617420746865206d6561737572656420646570746873206469666665722066726f6d2074686f73652070726564696374656420776974682074686520676976656e206c6f67e281a167e281a26620627920e288bc302e3320646578206f72206d6f7265": {
+            "_surface": {
+                "text": "Table 2 indicates that the measured depths differ from those predicted with the given log⁡g⁢f by ∼0.3 dex or more",
+                "unicode_name": "Table 2 indicates that the measured depths differ from those predicted with the given log⁡g⁢f by ∼0.3 dex or more"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measured depths differ from those predicted with the given logarithm of gf by approximately 0.3 dex or more"
+                    }
+                ]
+            }
+        }
+    }
+}

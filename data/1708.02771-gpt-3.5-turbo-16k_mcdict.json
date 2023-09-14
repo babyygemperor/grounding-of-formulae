@@ -1,0 +1,4854 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "30": {
+            "_surface": {
+                "text": "0",
+                "unicode_name": "DIGIT ZERO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "32": {
+            "_surface": {
+                "text": "2",
+                "unicode_name": "DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[Ni(CN)4]"
+                        ],
+                        "arity": 0,
+                        "description": "Nickel complex"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Avogadro constant"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnetic field"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy difference"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic potential energy"
+                    },
+                    {
+                        "affixes": [
+                            "(k)"
+                        ],
+                        "arity": 0,
+                        "description": "Elastic potential energy"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of temperature"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of lattice"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of molecules"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Particle number"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of particles"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spin states"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radius"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spin state"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radii"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Volume"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Enthalpy"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Degree of degeneracy"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entropy or degeneracy"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entropy"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of molecule"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Boltzmann constant"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "System length"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of hexahedron"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pseudo spin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spin state of molecule i"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "434e": {
+            "_surface": {
+                "text": "CN",
+                "unicode_name": "CN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cyanide"
+                    }
+                ]
+            }
+        },
+        "4430": {
+            "_surface": {
+                "text": "D0",
+                "unicode_name": "D0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "4530": {
+            "_surface": {
+                "text": "E0",
+                "unicode_name": "E0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Free energy of noninteracting molecules"
+                    }
+                ]
+            }
+        },
+        "4665": {
+            "_surface": {
+                "text": "Fe",
+                "unicode_name": "Fe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(pyridine)2 [Ag(CN)2]2 rodrigues"
+                        ],
+                        "arity": 0,
+                        "description": "Fe(pyridine)2 [Ag(CN)2]2 rodrigues"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transition metal"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron"
+                    },
+                    {
+                        "affixes": [
+                            "(3-methylpyridine)2[Ni(CN)4]"
+                        ],
+                        "arity": 0,
+                        "description": "Iron(3-methylpyridine)2[Ni(CN)4]"
+                    }
+                ]
+            }
+        },
+        "4853": {
+            "_surface": {
+                "text": "HS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "High spin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "High spin state"
+                    }
+                ]
+            }
+        },
+        "4953": {
+            "_surface": {
+                "text": "IS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intermediate spin state"
+                    }
+                ]
+            }
+        },
+        "4c53": {
+            "_surface": {
+                "text": "LS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Low spin state"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Low spin"
+                    }
+                ]
+            }
+        },
+        "4c7c": {
+            "_surface": {
+                "text": "L|",
+                "unicode_name": "L|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of lattice"
+                    }
+                ]
+            }
+        },
+        "4e7c": {
+            "_surface": {
+                "text": "N|",
+                "unicode_name": "N|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of molecules"
+                    }
+                ]
+            }
+        },
+        "507c": {
+            "_surface": {
+                "text": "P|",
+                "unicode_name": "P|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure"
+                    }
+                ]
+            }
+        },
+        "5331": {
+            "_surface": {
+                "text": "S1",
+                "unicode_name": "S1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Area of hexahedron"
+                    }
+                ]
+            }
+        },
+        "5332": {
+            "_surface": {
+                "text": "S2",
+                "unicode_name": "S2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Area of hexahedron"
+                    }
+                ]
+            }
+        },
+        "5630": {
+            "_surface": {
+                "text": "V0",
+                "unicode_name": "V0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized volume"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sum of molecular volume"
+                    }
+                ]
+            }
+        },
+        "567c": {
+            "_surface": {
+                "text": "V|",
+                "unicode_name": "V|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Volume"
+                    }
+                ]
+            }
+        },
+        "5750": {
+            "_surface": {
+                "text": "WP",
+                "unicode_name": "WP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wajnflasz-Pick model"
+                    }
+                ]
+            }
+        },
+        "577c": {
+            "_surface": {
+                "text": "W|",
+                "unicode_name": "W|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Enthalpy"
+                    }
+                ]
+            }
+        },
+        "677c": {
+            "_surface": {
+                "text": "g|",
+                "unicode_name": "g|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entropy or degeneracy"
+                    }
+                ]
+            }
+        },
+        "697c": {
+            "_surface": {
+                "text": "i|",
+                "unicode_name": "i|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of molecule"
+                    }
+                ]
+            }
+        },
+        "6a7c": {
+            "_surface": {
+                "text": "j|",
+                "unicode_name": "j|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of molecule"
+                    }
+                ]
+            }
+        },
+        "6b4a": {
+            "_surface": {
+                "text": "kJ"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6e": {
+            "_surface": {
+                "text": "ln"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural logarithm"
+                    }
+                ]
+            }
+        },
+        "6e6d": {
+            "_surface": {
+                "text": "nm"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e6e": {
+            "_surface": {
+                "text": "nn"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7374": {
+            "_surface": {
+                "text": "st"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Phase"
+                    }
+                ]
+            }
+        },
+        "737c": {
+            "_surface": {
+                "text": "s|",
+                "unicode_name": "s|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pseudo spin"
+                    }
+                ]
+            }
+        },
+        "787c": {
+            "_surface": {
+                "text": "x|",
+                "unicode_name": "x|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "797c": {
+            "_surface": {
+                "text": "y|",
+                "unicode_name": "y|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "7a7c": {
+            "_surface": {
+                "text": "z|",
+                "unicode_name": "z|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Crossover"
+                    }
+                ]
+            }
+        },
+        "417549": {
+            "_surface": {
+                "text": "AuI",
+                "unicode_name": "AuI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gold (I)"
+                    }
+                ]
+            }
+        },
+        "447c30": {
+            "_surface": {
+                "text": "D|0",
+                "unicode_name": "D|0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant D0"
+                    }
+                ]
+            }
+        },
+        "4d5061": {
+            "_surface": {
+                "text": "MPa"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "517569": {
+            "_surface": {
+                "text": "Qui",
+                "unicode_name": "Qui"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "E. W. Muller"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y. Qui"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "P. Gütlich"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H. Spiering"
+                    }
+                ]
+            }
+        },
+        "524853": {
+            "_surface": {
+                "text": "RHS",
+                "unicode_name": "RHS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radius of high spin state"
+                    }
+                ]
+            }
+        },
+        "524c53": {
+            "_surface": {
+                "text": "RLS",
+                "unicode_name": "RLS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radius of low spin state"
+                    }
+                ]
+            }
+        },
+        "53434f": {
+            "_surface": {
+                "text": "SCO",
+                "unicode_name": "SCO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spin-crossover"
+                    }
+                ]
+            }
+        },
+        "567c30": {
+            "_surface": {
+                "text": "V|0",
+                "unicode_name": "V|0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized volume"
+                    }
+                ]
+            }
+        },
+        "577374": {
+            "_surface": {
+                "text": "Wst",
+                "unicode_name": "Wst"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Enthalpy of phase"
+                    }
+                ]
+            }
+        },
+        "6b7c31": {
+            "_surface": {
+                "text": "k|1",
+                "unicode_name": "k|1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant k1"
+                    }
+                ]
+            }
+        },
+        "6b7c32": {
+            "_surface": {
+                "text": "k|2",
+                "unicode_name": "k|2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant k2"
+                    }
+                ]
+            }
+        },
+        "6d6f6c": {
+            "_surface": {
+                "text": "mol"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e4853": {
+            "_surface": {
+                "text": "nHS",
+                "unicode_name": "nHS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fraction of high spin state"
+                    }
+                ]
+            }
+        },
+        "6e6e6e": {
+            "_surface": {
+                "text": "nnn"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "72756e": {
+            "_surface": {
+                "text": "run",
+                "unicode_name": "run"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iteration of the process"
+                    }
+                ]
+            }
+        },
+        "ce9457": {
+            "_surface": {
+                "text": "ΔW",
+                "unicode_name": "ΔW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy difference"
+                    }
+                ]
+            }
+        },
+        "ce9465": {
+            "_surface": {
+                "text": "Δe",
+                "unicode_name": "Δe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy level difference"
+                    }
+                ]
+            }
+        },
+        "e2848b": {
+            "_surface": {
+                "text": "ℋ",
+                "unicode_name": "SCRIPT CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "On-site term"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "e29fa8": {
+            "_surface": {
+                "text": "⟨",
+                "unicode_name": "MATHEMATICAL LEFT ANGLE BRACKET"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2⋅R⋅i)³⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Average of cube volume"
+                    },
+                    {
+                        "affixes": [
+                            "(VHS−VIS)⋅P⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Product of volume difference and pressure"
+                    },
+                    {
+                        "affixes": [
+                            "(E⋅k⋅IS)−(E⋅k⋅HS)⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Average of energy difference between spin states"
+                    },
+                    {
+                        "affixes": [
+                            "(VLS−VIS)⋅P⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Product of volume difference and pressure"
+                    },
+                    {
+                        "affixes": [
+                            "(E⋅k⋅IS)−(E⋅k⋅LS)⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Average of energy difference between spin states"
+                    }
+                ]
+            }
+        },
+        "46654949": {
+            "_surface": {
+                "text": "FeII",
+                "unicode_name": "FeII"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron (II)"
+                    },
+                    {
+                        "affixes": [
+                            "(ethyl nicotinate)2[AuI(CN)2]2 sugaya"
+                        ],
+                        "arity": 0,
+                        "description": "FeII(ethyl nicotinate)2[AuI(CN)2]2 sugaya"
+                    }
+                ]
+            }
+        },
+        "4d435373": {
+            "_surface": {
+                "text": "MCSs",
+                "unicode_name": "MCSs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Monte Carlo steps"
+                    }
+                ]
+            }
+        },
+        "63616765": {
+            "_surface": {
+                "text": "cage",
+                "unicode_name": "cage"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cage"
+                    }
+                ]
+            }
+        },
+        "7ce29fa8": {
+            "_surface": {
+                "text": "|⟨",
+                "unicode_name": "|⟨"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(VHS−VIS)⋅P⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Product of volume difference and pressure"
+                    },
+                    {
+                        "affixes": [
+                            "(E⋅k⋅IS)−(E⋅k⋅HS)⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Average of energy difference between spin states"
+                    },
+                    {
+                        "affixes": [
+                            "(VLS−VIS)⋅P⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Product of volume difference and pressure"
+                    },
+                    {
+                        "affixes": [
+                            "(E⋅k⋅IS)−(E⋅k⋅LS)⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Average of energy difference between spin states"
+                    }
+                ]
+            }
+        },
+        "e2848b7c": {
+            "_surface": {
+                "text": "ℋ|",
+                "unicode_name": "ℋ|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "f09d9289": {
+            "_surface": {
+                "text": "𝒉",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Height of hexahedron"
+                    }
+                ]
+            }
+        },
+        "f09d928a": {
+            "_surface": {
+                "text": "𝒊",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of molecule"
+                    }
+                ]
+            }
+        },
+        "f09d928b": {
+            "_surface": {
+                "text": "𝒋",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of molecule"
+                    }
+                ]
+            }
+        },
+        "f09d928d": {
+            "_surface": {
+                "text": "𝒍",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of hexahedron"
+                    }
+                ]
+            }
+        },
+        "f09d9293": {
+            "_surface": {
+                "text": "𝒓",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location of molecules"
+                    }
+                ]
+            }
+        },
+        "f09d9299": {
+            "_surface": {
+                "text": "𝒙",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "f09d929a": {
+            "_surface": {
+                "text": "𝒚",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "f09d929b": {
+            "_surface": {
+                "text": "𝒛",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "4b6f6e6967": {
+            "_surface": {
+                "text": "Konig",
+                "unicode_name": "Konig"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in size"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "E. Konig"
+                    }
+                ]
+            }
+        },
+        "50e281a256": {
+            "_surface": {
+                "text": "P⁢V",
+                "unicode_name": "P⁢V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product of pressure and volume"
+                    }
+                ]
+            }
+        },
+        "50e28b8556": {
+            "_surface": {
+                "text": "P⋅V",
+                "unicode_name": "P⋅V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product of pressure and volume"
+                    }
+                ]
+            }
+        },
+        "536f726169": {
+            "_surface": {
+                "text": "Sorai",
+                "unicode_name": "Sorai"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Seki"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Sorai"
+                    }
+                ]
+            }
+        },
+        "6e636f6d6d": {
+            "_surface": {
+                "text": "ncomm",
+                "unicode_name": "ncomm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Actuators"
+                    }
+                ]
+            }
+        },
+        "7365747570": {
+            "_surface": {
+                "text": "setup",
+                "unicode_name": "setup"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Setup"
+                    }
+                ]
+            }
+        },
+        "736f726169": {
+            "_surface": {
+                "text": "sorai",
+                "unicode_name": "sorai"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Phenomenological studies"
+                    }
+                ]
+            }
+        },
+        "e2848b7c30": {
+            "_surface": {
+                "text": "ℋ|0",
+                "unicode_name": "ℋ|0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Noninteracting part of the Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "f09d92937c": {
+            "_surface": {
+                "text": "𝒓|",
+                "unicode_name": "𝒓|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location of molecules"
+                    }
+                ]
+            }
+        },
+        "f09d92997c": {
+            "_surface": {
+                "text": "𝒙|",
+                "unicode_name": "𝒙|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "f09d929a7c": {
+            "_surface": {
+                "text": "𝒚|",
+                "unicode_name": "𝒚|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "f09d929b7c": {
+            "_surface": {
+                "text": "𝒛|",
+                "unicode_name": "𝒛|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "3130304d5061": {
+            "_surface": {
+                "text": "100MPa",
+                "unicode_name": "100MPa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure"
+                    }
+                ]
+            }
+        },
+        "4669672e2033": {
+            "_surface": {
+                "text": "Fig. 3",
+                "unicode_name": "Fig. 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 3"
+                    }
+                ]
+            }
+        },
+        "4669672e2034": {
+            "_surface": {
+                "text": "Fig. 4",
+                "unicode_name": "Fig. 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 4"
+                    }
+                ]
+            }
+        },
+        "4669672e2036": {
+            "_surface": {
+                "text": "Fig. 6",
+                "unicode_name": "Fig. 6"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 6"
+                    }
+                ]
+            }
+        },
+        "476172636961": {
+            "_surface": {
+                "text": "Garcia",
+                "unicode_name": "Garcia"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J.P. Ader"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Buzdin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y. Meudesoif"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Guillot"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "O. Kahn"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y. Garcia"
+                    }
+                ]
+            }
+        },
+        "4b696d757261": {
+            "_surface": {
+                "text": "Kimura",
+                "unicode_name": "Kimura"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Kimura"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "G. E. Matsubayashi"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K. Kindo"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Nakano"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y. Narumi"
+                    }
+                ]
+            }
+        },
+        "526f74617275": {
+            "_surface": {
+                "text": "Rotaru",
+                "unicode_name": "Rotaru"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J. Linares"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J. Nasser"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Stancu"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Rotaru"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "E. Codjovi"
+                    }
+                ]
+            }
+        },
+        "527c7c48537c": {
+            "_surface": {
+                "text": "R||HS|",
+                "unicode_name": "R||HS|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radius of high spin state"
+                    }
+                ]
+            }
+        },
+        "527c7c4c537c": {
+            "_surface": {
+                "text": "R||LS|",
+                "unicode_name": "R||LS|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radius of low spin state"
+                    }
+                ]
+            }
+        },
+        "626f6e6e6574": {
+            "_surface": {
+                "text": "bonnet",
+                "unicode_name": "bonnet"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SCO materials"
+                    }
+                ]
+            }
+        },
+        "6b6f736f7365": {
+            "_surface": {
+                "text": "kosose",
+                "unicode_name": "kosose"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SCO materials"
+                    }
+                ]
+            }
+        },
+        "6d6f6c6e6172": {
+            "_surface": {
+                "text": "molnar",
+                "unicode_name": "molnar"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SCO materials"
+                    }
+                ]
+            }
+        },
+        "6d7572706879": {
+            "_surface": {
+                "text": "murphy",
+                "unicode_name": "murphy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SCO materials"
+                    }
+                ]
+            }
+        },
+        "6f726967696e": {
+            "_surface": {
+                "text": "origin",
+                "unicode_name": "origin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Origin"
+                    }
+                ]
+            }
+        },
+        "737567617961": {
+            "_surface": {
+                "text": "sugaya",
+                "unicode_name": "sugaya"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SCO materials"
+                    }
+                ]
+            }
+        },
+        "e29fa8e29fa9": {
+            "_surface": {
+                "text": "⟨⟩",
+                "unicode_name": "⟨⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average"
+                    }
+                ]
+            }
+        },
+        "4c696e61726573": {
+            "_surface": {
+                "text": "Linares",
+                "unicode_name": "Linares"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "F. Varret"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K. Boukheddaden"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J. Linares"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H. Spiering"
+                    }
+                ]
+            }
+        },
+        "4e697368696e6f": {
+            "_surface": {
+                "text": "Nishino",
+                "unicode_name": "Nishino"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Nishino"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K. Boukheddaden"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y. Konishi"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Miyashita"
+                    }
+                ]
+            }
+        },
+        "507ce281a2567c": {
+            "_surface": {
+                "text": "P|⁢V|",
+                "unicode_name": "P|⁢V|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product of pressure and volume"
+                    }
+                ]
+            }
+        },
+        "50e281a2567374": {
+            "_surface": {
+                "text": "P⁢Vst",
+                "unicode_name": "P⁢Vst"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product of pressure and volume of phase"
+                    }
+                ]
+            }
+        },
+        "626f6e6e657432": {
+            "_surface": {
+                "text": "bonnet2",
+                "unicode_name": "bonnet2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SCO materials"
+                    }
+                ]
+            }
+        },
+        "6b7c312f6b7c32": {
+            "_surface": {
+                "text": "k|1/k|2",
+                "unicode_name": "k|1/k|2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio of k1 and k2"
+                    }
+                ]
+            }
+        },
+        "72656c61786564": {
+            "_surface": {
+                "text": "relaxed",
+                "unicode_name": "relaxed"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adjusted or settled"
+                    }
+                ]
+            }
+        },
+        "e29fa856e29fa9": {
+            "_surface": {
+                "text": "⟨V⟩",
+                "unicode_name": "⟨V⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of volume"
+                    }
+                ]
+            }
+        },
+        "47c3bc746c696368": {
+            "_surface": {
+                "text": "Gütlich",
+                "unicode_name": "Gütlich"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "P. Gütlich"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H. Spiering"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Hauser"
+                    }
+                ]
+            }
+        },
+        "4953207068617365": {
+            "_surface": {
+                "text": "IS phase",
+                "unicode_name": "IS phase"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intermediate spin phase"
+                    }
+                ]
+            }
+        },
+        "4953207374617465": {
+            "_surface": {
+                "text": "IS state",
+                "unicode_name": "IS state"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intermediate spin state"
+                    }
+                ]
+            }
+        },
+        "4d6f7269746f6d6f": {
+            "_surface": {
+                "text": "Moritomo",
+                "unicode_name": "Moritomo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y. Ohishi"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Takata"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y. Moritomo"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Kuriki"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K. Kato"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H. Tokoro"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Sakata"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "E. Nishibori"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Ohkoshi"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K. Hashimoto"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Hanawa"
+                    }
+                ]
+            }
+        },
+        "502e2047616d657a": {
+            "_surface": {
+                "text": "P. Gamez",
+                "unicode_name": "P. Gamez"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5368657068657264": {
+            "_surface": {
+                "text": "Shepherd",
+                "unicode_name": "Shepherd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "L. Salmon"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "C. M. Quintero"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "I. A. Gural’skiy"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Bousseksou"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "G. Molnár"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Tricard"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H. J. Shepherd"
+                    }
+                ]
+            }
+        },
+        "53746f6c65726975": {
+            "_surface": {
+                "text": "Stoleriu",
+                "unicode_name": "Stoleriu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "C. Enachescu"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Hauser"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Stancu"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "L. Stoleriu"
+                    }
+                ]
+            }
+        },
+        "5750206d6f64656c": {
+            "_surface": {
+                "text": "WP model",
+                "unicode_name": "WP model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wajnflasz-Pick model"
+                    }
+                ]
+            }
+        },
+        "62696c6179657273": {
+            "_surface": {
+                "text": "bilayers",
+                "unicode_name": "bilayers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bilayers"
+                    }
+                ]
+            }
+        },
+        "636c656d656e7473": {
+            "_surface": {
+                "text": "clements",
+                "unicode_name": "clements"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SCO materials"
+                    }
+                ]
+            }
+        },
+        "656e7468616c7079": {
+            "_surface": {
+                "text": "enthalpy",
+                "unicode_name": "enthalpy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Enthalpy"
+                    }
+                ]
+            }
+        },
+        "6c6e7ce281a1677c": {
+            "_surface": {
+                "text": "ln|⁡g|",
+                "unicode_name": "ln|⁡g|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural logarithm of g"
+                    }
+                ]
+            }
+        },
+        "7072657373757265": {
+            "_surface": {
+                "text": "pressure",
+                "unicode_name": "pressure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Applied pressure"
+                    }
+                ]
+            }
+        },
+        "e2848b7c7c6e6e7c": {
+            "_surface": {
+                "text": "ℋ||nn|",
+                "unicode_name": "ℋ||nn|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hamiltonian term for nearest neighbor interactions"
+                    }
+                ]
+            }
+        },
+        "e29fa85630e29fa9": {
+            "_surface": {
+                "text": "⟨V0⟩",
+                "unicode_name": "⟨V0⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of normalized volume"
+                    }
+                ]
+            }
+        },
+        "f09d9293f09d928a": {
+            "_surface": {
+                "text": "𝒓𝒊",
+                "unicode_name": "𝒓𝒊"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Position vector of molecule j"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized locations of molecules"
+                    }
+                ]
+            }
+        },
+        "f09d9299f09d929a": {
+            "_surface": {
+                "text": "𝒙𝒚",
+                "unicode_name": "𝒙𝒚"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coordinate plane"
+                    }
+                ]
+            }
+        },
+        "446563757274696e73": {
+            "_surface": {
+                "text": "Decurtins",
+                "unicode_name": "Decurtins"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "C. P. Köhler"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "P. Gütlich"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Decurtins"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Hauser"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H. Spiering"
+                    }
+                ]
+            }
+        },
+        "456e61636865736375": {
+            "_surface": {
+                "text": "Enachescu",
+                "unicode_name": "Enachescu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Hauser"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Stancu"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "L. Stoleriu"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Miyashita"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Nishino"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "C. Enachescu"
+                    }
+                ]
+            }
+        },
+        "4d6979617368697461": {
+            "_surface": {
+                "text": "Miyashita",
+                "unicode_name": "Miyashita"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y. Konishi"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K. Boukheddaden"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Nishino"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Miyashita"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "F. Varret"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H Tokoro"
+                    }
+                ]
+            }
+        },
+        "532e20426f6e6e6574": {
+            "_surface": {
+                "text": "S. Bonnet",
+                "unicode_name": "S. Bonnet"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "57616a6e666c61737a": {
+            "_surface": {
+                "text": "Wajnflasz",
+                "unicode_name": "Wajnflasz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J. Wajnflasz"
+                    }
+                ]
+            }
+        },
+        "616e6e65616c696e67": {
+            "_surface": {
+                "text": "annealing",
+                "unicode_name": "annealing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Heat treatment"
+                    }
+                ]
+            }
+        },
+        "617665726167696e67": {
+            "_surface": {
+                "text": "averaging",
+                "unicode_name": "averaging"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Taking the average"
+                    }
+                ]
+            }
+        },
+        "646973636172646564": {
+            "_surface": {
+                "text": "discarded",
+                "unicode_name": "discarded"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Excluded or removed"
+                    }
+                ]
+            }
+        },
+        "64697374616e636573": {
+            "_surface": {
+                "text": "distances",
+                "unicode_name": "distances"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distances between nearest neighbor sites"
+                    }
+                ]
+            }
+        },
+        "6d6f6c6563756c6573": {
+            "_surface": {
+                "text": "molecules",
+                "unicode_name": "molecules"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Molecules"
+                    }
+                ]
+            }
+        },
+        "7363696f7274696e6f": {
+            "_surface": {
+                "text": "sciortino",
+                "unicode_name": "sciortino"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SCO materials"
+                    }
+                ]
+            }
+        },
+        "737472756374757265": {
+            "_surface": {
+                "text": "structure",
+                "unicode_name": "structure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Arrangement or configuration"
+                    }
+                ]
+            }
+        },
+        "e2848b7c7c6e6e6e7c": {
+            "_surface": {
+                "text": "ℋ||nnn|",
+                "unicode_name": "ℋ||nnn|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hamiltonian term for next nearest neighbor interactions"
+                    }
+                ]
+            }
+        },
+        "e29fa84ee28b856c6e": {
+            "_surface": {
+                "text": "⟨N⋅ln",
+                "unicode_name": "⟨N⋅ln"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(g)²⋅T⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Average of N times natural logarithm of g squared times T"
+                    }
+                ]
+            }
+        },
+        "e29fa86e4853e29fa9": {
+            "_surface": {
+                "text": "⟨nHS⟩",
+                "unicode_name": "⟨nHS⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of high spin fraction"
+                    }
+                ]
+            }
+        },
+        "412e204c2e205370656b": {
+            "_surface": {
+                "text": "A. L. Spek",
+                "unicode_name": "A. L. Spek"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "426f757373656b736f75": {
+            "_surface": {
+                "text": "Bousseksou",
+                "unicode_name": "Bousseksou"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J.P. Tuchagues"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "C. Consejo"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. L. Boillot"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Goiran"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K. Boukheddaden"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Bousseksou"
+                    }
+                ]
+            }
+        },
+        "472e204d6f6c6ec3a172": {
+            "_surface": {
+                "text": "G. Molnár",
+                "unicode_name": "G. Molnár"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a2e2052656564696a6b": {
+            "_surface": {
+                "text": "J. Reedijk",
+                "unicode_name": "J. Reedijk"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "506879732e205265762e": {
+            "_surface": {
+                "text": "Phys. Rev.",
+                "unicode_name": "Phys. Rev."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "5265666572656e636573": {
+            "_surface": {
+                "text": "References",
+                "unicode_name": "References"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "References"
+                    }
+                ]
+            }
+        },
+        "5a696d6d65726d616e6e": {
+            "_surface": {
+                "text": "Zimmermann",
+                "unicode_name": "Zimmermann"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "E. König"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. Zimmermann"
+                    }
+                ]
+            }
+        },
+        "63616c63756c61746564": {
+            "_surface": {
+                "text": "calculated",
+                "unicode_name": "calculated"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Determined or computed"
+                    }
+                ]
+            }
+        },
+        "7472616e736974696f6e": {
+            "_surface": {
+                "text": "transition",
+                "unicode_name": "transition"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Change or conversion"
+                    }
+                ]
+            }
+        },
+        "7ce29fa84ee28b856c6e": {
+            "_surface": {
+                "text": "|⟨N⋅ln",
+                "unicode_name": "|⟨N⋅ln"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(g)²⋅T⟩"
+                        ],
+                        "arity": 0,
+                        "description": "Average of N times natural logarithm of g squared times T"
+                    }
+                ]
+            }
+        },
+        "e29fa8e2848b30e29fa9": {
+            "_surface": {
+                "text": "⟨ℋ0⟩",
+                "unicode_name": "⟨ℋ0⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of noninteracting Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "4368656d2e20506879732e": {
+            "_surface": {
+                "text": "Chem. Phys.",
+                "unicode_name": "Chem. Phys."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "4853206672616374696f6e": {
+            "_surface": {
+                "text": "HS fraction",
+                "unicode_name": "HS fraction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fraction of high spin state"
+                    }
+                ]
+            }
+        },
+        "48532f4c53207374617465": {
+            "_surface": {
+                "text": "HS/LS state",
+                "unicode_name": "HS/LS state"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "High spin/low spin state"
+                    }
+                ]
+            }
+        },
+        "48616d696c746f6e69616e": {
+            "_surface": {
+                "text": "Hamiltonian",
+                "unicode_name": "Hamiltonian"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "4a2e20506879732e204920": {
+            "_surface": {
+                "text": "J. Phys. I ",
+                "unicode_name": "J. Phys. I "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(France)"
+                        ],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "4a2e20532e20436f737461": {
+            "_surface": {
+                "text": "J. S. Costa",
+                "unicode_name": "J. S. Costa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b73656e6f666f6e746f76": {
+            "_surface": {
+                "text": "Ksenofontov",
+                "unicode_name": "Ksenofontov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "G. Levchenko"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "V. Escax"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "V. Ksenofontov"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "P. Gütlich"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A. Bleuzen"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "S. Reiman"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M. Verdaguer"
+                    }
+                ]
+            }
+        },
+        "4d2e2048616c63726f7720": {
+            "_surface": {
+                "text": "M. Halcrow ",
+                "unicode_name": "M. Halcrow "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(eds.)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "62617269313937326c6f77": {
+            "_surface": {
+                "text": "bari1972low",
+                "unicode_name": "bari1972low"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic interactions"
+                    }
+                ]
+            }
+        },
+        "636f6f7264696e61746573": {
+            "_surface": {
+                "text": "coordinates",
+                "unicode_name": "coordinates"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Positions or locations"
+                    }
+                ]
+            }
+        },
+        "657175696c69627269756d": {
+            "_surface": {
+                "text": "equilibrium",
+                "unicode_name": "equilibrium"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stable state"
+                    }
+                ]
+            }
+        },
+        "6672656520656e65726779": {
+            "_surface": {
+                "text": "free energy",
+                "unicode_name": "free energy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Thermodynamic potential"
+                    }
+                ]
+            }
+        },
+        "6d65616e2076616c756573": {
+            "_surface": {
+                "text": "mean values",
+                "unicode_name": "mean values"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average values"
+                    }
+                ]
+            }
+        },
+        "736c696d616e6932303133": {
+            "_surface": {
+                "text": "slimani2013",
+                "unicode_name": "slimani2013"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "74656d7065726174757265": {
+            "_surface": {
+                "text": "temperature",
+                "unicode_name": "temperature"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature"
+                    }
+                ]
+            }
+        },
+        "e29fa850e281a256e29fa9": {
+            "_surface": {
+                "text": "⟨P⁢V⟩",
+                "unicode_name": "⟨P⁢V⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of pressure times volume"
+                    }
+                ]
+            }
+        },
+        "e29fa850e28b8556e29fa9": {
+            "_surface": {
+                "text": "⟨P⋅V⟩",
+                "unicode_name": "⟨P⋅V⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of pressure times volume"
+                    }
+                ]
+            }
+        },
+        "e29fa8737c7c697ce29fa9": {
+            "_surface": {
+                "text": "⟨s||i|⟩",
+                "unicode_name": "⟨s||i|⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of spin states"
+                    }
+                ]
+            }
+        },
+        "e29fa8e2848b6e6ee29fa9": {
+            "_surface": {
+                "text": "⟨ℋnn⟩",
+                "unicode_name": "⟨ℋnn⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of Hamiltonian for nearest neighbor interactions"
+                    }
+                ]
+            }
+        },
+        "414e4e4e49206d6f64656c73": {
+            "_surface": {
+                "text": "ANNNI models",
+                "unicode_name": "ANNNI models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Axially Nearest-Neighbor Ising models"
+                    }
+                ]
+            }
+        },
+        "426f756b686564646164656e": {
+            "_surface": {
+                "text": "Boukheddaden",
+                "unicode_name": "Boukheddaden"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "F. Varret"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K. Boukheddaden"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "B. Hôo"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "I. Shteto"
+                    }
+                ]
+            }
+        },
+        "4368656d2e204d617465722e": {
+            "_surface": {
+                "text": "Chem. Mater.",
+                "unicode_name": "Chem. Mater."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "447c302f6c6e7ce281a1677c": {
+            "_surface": {
+                "text": "D|0/ln|⁡g|",
+                "unicode_name": "D|0/ln|⁡g|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio of constants"
+                    }
+                ]
+            }
+        },
+        "4e6577204a2e204368656d2e": {
+            "_surface": {
+                "text": "New J. Chem.",
+                "unicode_name": "New J. Chem."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "506879732e205265762e2042": {
+            "_surface": {
+                "text": "Phys. Rev. B",
+                "unicode_name": "Phys. Rev. B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "636f6c6f72206f6e6c696e65": {
+            "_surface": {
+                "text": "color online",
+                "unicode_name": "color online"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representation in color"
+                    }
+                ]
+            }
+        },
+        "e29fa8e2848b6e6e6ee29fa9": {
+            "_surface": {
+                "text": "⟨ℋnnn⟩",
+                "unicode_name": "⟨ℋnnn⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of Hamiltonian for next nearest neighbor interactions"
+                    }
+                ]
+            }
+        },
+        "412e20426f757373656b736f75": {
+            "_surface": {
+                "text": "A. Bousseksou",
+                "unicode_name": "A. Bousseksou"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4368656d2e20436f6d6d756e2e": {
+            "_surface": {
+                "text": "Chem. Commun.",
+                "unicode_name": "Chem. Commun."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "44616c746f6e205472616e732e": {
+            "_surface": {
+                "text": "Dalton Trans.",
+                "unicode_name": "Dalton Trans."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "4d2e20412e20536965676c6572": {
+            "_surface": {
+                "text": "M. A. Siegler",
+                "unicode_name": "M. A. Siegler"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "656c6173746963206d6f64656c": {
+            "_surface": {
+                "text": "elastic model",
+                "unicode_name": "elastic model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic model"
+                    }
+                ]
+            }
+        },
+        "656e65726779206c6576656c73": {
+            "_surface": {
+                "text": "energy levels",
+                "unicode_name": "energy levels"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Levels of energy"
+                    }
+                ]
+            }
+        },
+        "666572726f6d61676e65746963": {
+            "_surface": {
+                "text": "ferromagnetic",
+                "unicode_name": "ferromagnetic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ferromagnetic"
+                    }
+                ]
+            }
+        },
+        "68696768207072657373757265": {
+            "_surface": {
+                "text": "high pressure",
+                "unicode_name": "high pressure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elevated pressure"
+                    }
+                ]
+            }
+        },
+        "7068617365206469616772616d": {
+            "_surface": {
+                "text": "phase diagram",
+                "unicode_name": "phase diagram"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diagram showing different phases"
+                    }
+                ]
+            }
+        },
+        "70726573656e74207374756479": {
+            "_surface": {
+                "text": "present study",
+                "unicode_name": "present study"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Present study"
+                    }
+                ]
+            }
+        },
+        "70726576696f757320776f726b": {
+            "_surface": {
+                "text": "previous work",
+                "unicode_name": "previous work"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Previous study"
+                    }
+                ]
+            }
+        },
+        "73797374656d20766f6c756d65": {
+            "_surface": {
+                "text": "system volume",
+                "unicode_name": "system volume"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Volume of the system"
+                    }
+                ]
+            }
+        },
+        "e29fa8737c7c697ce29fa92b31": {
+            "_surface": {
+                "text": "⟨s||i|⟩+1",
+                "unicode_name": "⟨s||i|⟩+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of spin states plus one"
+                    }
+                ]
+            }
+        },
+        "4a2e204170706c2e20506879732e": {
+            "_surface": {
+                "text": "J. Appl. Phys.",
+                "unicode_name": "J. Appl. Phys."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "4b6f6e6973686920657420616c2e": {
+            "_surface": {
+                "text": "Konishi et al.",
+                "unicode_name": "Konishi et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Konishi et al."
+                    }
+                ]
+            }
+        },
+        "656c617374696320656e65726779": {
+            "_surface": {
+                "text": "elastic energy",
+                "unicode_name": "elastic energy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy associated with deformation"
+                    }
+                ]
+            }
+        },
+        "707265737375726520757020746f": {
+            "_surface": {
+                "text": "pressure up to",
+                "unicode_name": "pressure up to"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Applied pressure up to"
+                    }
+                ]
+            }
+        },
+        "726f746172753230303873697a65": {
+            "_surface": {
+                "text": "rotaru2008size",
+                "unicode_name": "rotaru2008size"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic model"
+                    }
+                ]
+            }
+        },
+        "e29fa84430e28b854ec2b2e29fa9": {
+            "_surface": {
+                "text": "⟨D0⋅N²⟩",
+                "unicode_name": "⟨D0⋅N²⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product of constant D0 and N squared"
+                    }
+                ]
+            }
+        },
+        "4575722e20506879732e204a2e2042": {
+            "_surface": {
+                "text": "Eur. Phys. J. B",
+                "unicode_name": "Eur. Phys. J. B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "506879732e205265762e2042203838": {
+            "_surface": {
+                "text": "Phys. Rev. B 88",
+                "unicode_name": "Phys. Rev. B 88"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "636f6f6c696e672070726f63657373": {
+            "_surface": {
+                "text": "cooling process",
+                "unicode_name": "cooling process"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of cooling"
+                    }
+                ]
+            }
+        },
+        "68656174696e672070726f63657373": {
+            "_surface": {
+                "text": "heating process",
+                "unicode_name": "heating process"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of heating"
+                    }
+                ]
+            }
+        },
+        "6d6174657269616c20766f6c756d65": {
+            "_surface": {
+                "text": "material volume",
+                "unicode_name": "material volume"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Material volume"
+                    }
+                ]
+            }
+        },
+        "7061657a32303136656c6173746963": {
+            "_surface": {
+                "text": "paez2016elastic",
+                "unicode_name": "paez2016elastic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "707265737375726520656666656374": {
+            "_surface": {
+                "text": "pressure effect",
+                "unicode_name": "pressure effect"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure effect"
+                    }
+                ]
+            }
+        },
+        "7ce29fa84430e28b854ec2b2e29fa9": {
+            "_surface": {
+                "text": "|⟨D0⋅N²⟩",
+                "unicode_name": "|⟨D0⋅N²⟩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product of constant D0 and N squared"
+                    }
+                ]
+            }
+        },
+        "332d6d657468796c7079726964696e65": {
+            "_surface": {
+                "text": "3-methylpyridine",
+                "unicode_name": "3-methylpyridine"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Methylpyridine"
+                    }
+                ]
+            }
+        },
+        "41636b6e6f776c656467656d656e7473": {
+            "_surface": {
+                "text": "Acknowledgements",
+                "unicode_name": "Acknowledgements"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Acknowledgements"
+                    }
+                ]
+            }
+        },
+        "4a2e20506879732e204368656d2e2042": {
+            "_surface": {
+                "text": "J. Phys. Chem. B",
+                "unicode_name": "J. Phys. Chem. B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "576f726c6420536369656e7469666963": {
+            "_surface": {
+                "text": "World Scientific",
+                "unicode_name": "World Scientific"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publisher"
+                    }
+                ]
+            }
+        },
+        "657468796c206e69636f74696e617465": {
+            "_surface": {
+                "text": "ethyl nicotinate",
+                "unicode_name": "ethyl nicotinate"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ethyl nicotinate"
+                    }
+                ]
+            }
+        },
+        "696e646570656e64656e742072756e73": {
+            "_surface": {
+                "text": "independent runs",
+                "unicode_name": "independent runs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Separate iterations"
+                    }
+                ]
+            }
+        },
+        "6b6f6e69736869323030386d6f6e7465": {
+            "_surface": {
+                "text": "konishi2008monte",
+                "unicode_name": "konishi2008monte"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic model"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c20616e64206d6574686f64": {
+            "_surface": {
+                "text": "model and method",
+                "unicode_name": "model and method"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model and method"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c20706172616d6574657273": {
+            "_surface": {
+                "text": "model parameters",
+                "unicode_name": "model parameters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameters of the model"
+                    }
+                ]
+            }
+        },
+        "e29fa8737c7c697ce29fa92b31292f32": {
+            "_surface": {
+                "text": "⟨s||i|⟩+1)/2",
+                "unicode_name": "⟨s||i|⟩+1)/2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of spin states plus one divided by two"
+                    }
+                ]
+            }
+        },
+        "4368656d2e20506879732e204c6574742e": {
+            "_surface": {
+                "text": "Chem. Phys. Lett.",
+                "unicode_name": "Chem. Phys. Lett."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "4853e280934c532063726f73736f766572": {
+            "_surface": {
+                "text": "HS–LS crossover",
+                "unicode_name": "HS–LS crossover"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transition from high spin to low spin"
+                    }
+                ]
+            }
+        },
+        "4a2e20416d2e204368656d2e20536f632e": {
+            "_surface": {
+                "text": "J. Am. Chem. Soc.",
+                "unicode_name": "J. Am. Chem. Soc."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "616e7469666572726f6d61676e65746963": {
+            "_surface": {
+                "text": "antiferromagnetic",
+                "unicode_name": "antiferromagnetic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Antiferromagnetic"
+                    }
+                ]
+            }
+        },
+        "65787465726e616c207072657373757265": {
+            "_surface": {
+                "text": "external pressure",
+                "unicode_name": "external pressure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "External pressure"
+                    }
+                ]
+            }
+        },
+        "6e697368696e6f3230303773696d706c65": {
+            "_surface": {
+                "text": "nishino2007simple",
+                "unicode_name": "nishino2007simple"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic interactions"
+                    }
+                ]
+            }
+        },
+        "6e6f726d616c697a656420766f6c756d65": {
+            "_surface": {
+                "text": "normalized volume",
+                "unicode_name": "normalized volume"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Volume normalized to molecular volumes"
+                    }
+                ]
+            }
+        },
+        "72656c6174697665206c6f636174696f6e": {
+            "_surface": {
+                "text": "relative location",
+                "unicode_name": "relative location"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Position in relation to each other"
+                    }
+                ]
+            }
+        },
+        "57616a6e666c61737a20616e64205069636b": {
+            "_surface": {
+                "text": "Wajnflasz and Pick",
+                "unicode_name": "Wajnflasz and Pick"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. Pick"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J. Wajnflasz"
+                    }
+                ]
+            }
+        },
+        "656666656374697665207072657373757265": {
+            "_surface": {
+                "text": "effective pressure",
+                "unicode_name": "effective pressure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure that affects the structure"
+                    }
+                ]
+            }
+        },
+        "6b7c7c427ce281a2547c7c637ce281a2727c": {
+            "_surface": {
+                "text": "k||B|⁢T||c|⁢r|",
+                "unicode_name": "k||B|⁢T||c|⁢r|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Crossover temperature formula"
+                    }
+                ]
+            }
+        },
+        "7374727563747572616c2066656174757265": {
+            "_surface": {
+                "text": "structural feature",
+                "unicode_name": "structural feature"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Structural feature"
+                    }
+                ]
+            }
+        },
+        "e29fa8507ce281a2567ce29fa9207465726d": {
+            "_surface": {
+                "text": "⟨P|⁢V|⟩ term",
+                "unicode_name": "⟨P|⁢V|⟩ term"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product of pressure and volume"
+                    }
+                ]
+            }
+        },
+        "4261726920616e642053697661726469657265": {
+            "_surface": {
+                "text": "Bari and Sivardiere",
+                "unicode_name": "Bari and Sivardiere"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "R. A. Bari"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J. Sivardiere"
+                    }
+                ]
+            }
+        },
+        "4368656d2e20506879732e204c6574742e2033": {
+            "_surface": {
+                "text": "Chem. Phys. Lett. 3",
+                "unicode_name": "Chem. Phys. Lett. 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "4d6f6e7465204361726c6f2070726f63657373": {
+            "_surface": {
+                "text": "Monte Carlo process",
+                "unicode_name": "Monte Carlo process"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Simulation process"
+                    }
+                ]
+            }
+        },
+        "706879736963616c207175616e746974696573": {
+            "_surface": {
+                "text": "physical quantities",
+                "unicode_name": "physical quantities"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measurements"
+                    }
+                ]
+            }
+        },
+        "73746f6c6572697532303038656c6173746963": {
+            "_surface": {
+                "text": "stoleriu2008elastic",
+                "unicode_name": "stoleriu2008elastic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic model"
+                    }
+                ]
+            }
+        },
+        "7a696d6d65726d616e6e313937376d6f64656c": {
+            "_surface": {
+                "text": "zimmermann1977model",
+                "unicode_name": "zimmermann1977model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic interactions"
+                    }
+                ]
+            }
+        },
+        "656e6163686573637532303130636c7573746572": {
+            "_surface": {
+                "text": "enachescu2010cluster",
+                "unicode_name": "enachescu2010cluster"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Local lattice distortion"
+                    }
+                ]
+            }
+        },
+        "7072696d61727920656e65726779207363616c65": {
+            "_surface": {
+                "text": "primary energy scale",
+                "unicode_name": "primary energy scale"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Main energy scale"
+                    }
+                ]
+            }
+        },
+        "72656c61786174696f6e2070726f636573736573": {
+            "_surface": {
+                "text": "relaxation processes",
+                "unicode_name": "relaxation processes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Processes to reach equilibrium"
+                    }
+                ]
+            }
+        },
+        "416e6765772e204368656d2e20496e742e2045642e": {
+            "_surface": {
+                "text": "Angew. Chem. Int. Ed.",
+                "unicode_name": "Angew. Chem. Int. Ed."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "636c6173736963616c207370696e206d6f64656c73": {
+            "_surface": {
+                "text": "classical spin models",
+                "unicode_name": "classical spin models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classical spin models"
+                    }
+                ]
+            }
+        },
+        "63726f73736f7665722074656d7065726174757265": {
+            "_surface": {
+                "text": "crossover temperature",
+                "unicode_name": "crossover temperature"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature at which a crossover occurs"
+                    }
+                ]
+            }
+        },
+        "646f75626c652d6c6179657265642073797374656d": {
+            "_surface": {
+                "text": "double-layered system",
+                "unicode_name": "double-layered system"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Double-layered system"
+                    }
+                ]
+            }
+        },
+        "6d6f6c6563756c617220617272616e67656d656e74": {
+            "_surface": {
+                "text": "molecular arrangement",
+                "unicode_name": "molecular arrangement"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spatial arrangement of molecules"
+                    }
+                ]
+            }
+        },
+        "74656d706572617475726520766172696174696f6e": {
+            "_surface": {
+                "text": "temperature variation",
+                "unicode_name": "temperature variation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Change in temperature"
+                    }
+                ]
+            }
+        },
+        "7374727563747572616c20696e73746162696c697479": {
+            "_surface": {
+                "text": "structural instability",
+                "unicode_name": "structural instability"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instability in the structure"
+                    }
+                ]
+            }
+        },
+        "4a2e204a656674696320616e6420412e20486175736572": {
+            "_surface": {
+                "text": "J. Jeftic and A. Hauser",
+                "unicode_name": "J. Jeftic and A. Hauser"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "6175726f7068696c696320696e746572616374696f6e73": {
+            "_surface": {
+                "text": "aurophilic interactions",
+                "unicode_name": "aurophilic interactions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Aurophilic interactions"
+                    }
+                ]
+            }
+        },
+        "696e7465722d6c617965722048532d4c53207061697273": {
+            "_surface": {
+                "text": "inter-layer HS-LS pairs",
+                "unicode_name": "inter-layer HS-LS pairs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pairs of high spin and low spin molecules in different layers"
+                    }
+                ]
+            }
+        },
+        "646961676f6e616c207374726970652067656f6d65747279": {
+            "_surface": {
+                "text": "diagonal stripe geometry",
+                "unicode_name": "diagonal stripe geometry"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Geometric pattern with diagonal stripes"
+                    }
+                ]
+            }
+        },
+        "646f75626c652d6c617965726564206d6174657269616c73": {
+            "_surface": {
+                "text": "double-layered materials",
+                "unicode_name": "double-layered materials"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Double-layered materials"
+                    }
+                ]
+            }
+        },
+        "737175617265206c61747469636520737472756374757265": {
+            "_surface": {
+                "text": "square lattice structure",
+                "unicode_name": "square lattice structure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Square lattice structure"
+                    }
+                ]
+            }
+        },
+        "4a2e20506879732e3a20436f6e64656e732e204d6174746572": {
+            "_surface": {
+                "text": "J. Phys.: Condens. Matter",
+                "unicode_name": "J. Phys.: Condens. Matter"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "61746f6d2d70686f6e6f6e20636f75706c696e67206d6f64656c": {
+            "_surface": {
+                "text": "atom-phonon coupling model",
+                "unicode_name": "atom-phonon coupling model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Atom-phonon coupling model"
+                    }
+                ]
+            }
+        },
+        "636f6e66696775726174696f6e206f66206d6f6c6563756c6573": {
+            "_surface": {
+                "text": "configuration of molecules",
+                "unicode_name": "configuration of molecules"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Arrangement of molecules"
+                    }
+                ]
+            }
+        },
+        "74776f2d73746570206f72206d756c74692d737465702053434f": {
+            "_surface": {
+                "text": "two-step or multi-step SCO",
+                "unicode_name": "two-step or multi-step SCO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Two-step or multi-step spin-crossover"
+                    }
+                ]
+            }
+        },
+        "73717561726520736861706564204853207375626c617474696365": {
+            "_surface": {
+                "text": "square shaped HS sublattice",
+                "unicode_name": "square shaped HS sublattice"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Square shaped high spin sublattice"
+                    }
+                ]
+            }
+        },
+        "7765616b6c7920636f75706c656420646f75626c65206c6179657273": {
+            "_surface": {
+                "text": "weakly coupled double layers",
+                "unicode_name": "weakly coupled double layers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Double layers weakly connected"
+                    }
+                ]
+            }
+        },
+        "67656f6d6574726963616c6c792066727573747261746564206f6e6573": {
+            "_surface": {
+                "text": "geometrically frustrated ones",
+                "unicode_name": "geometrically frustrated ones"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Geometrically frustrated interactions"
+                    }
+                ]
+            }
+        },
+        "696e7465722d7375626c61747469636520696e746572616374696f6e73": {
+            "_surface": {
+                "text": "inter-sublattice interactions",
+                "unicode_name": "inter-sublattice interactions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inter-sublattice interactions"
+                    }
+                ]
+            }
+        },
+        "502e2047c3bc746c69636820616e6420482e20412e20476f6f6477696e20": {
+            "_surface": {
+                "text": "P. Gütlich and H. A. Goodwin ",
+                "unicode_name": "P. Gütlich and H. A. Goodwin "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(eds)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "657175696c69627269756d2072656c617469766520706f736974696f6e73": {
+            "_surface": {
+                "text": "equilibrium relative positions",
+                "unicode_name": "equilibrium relative positions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equilibrium relative positions"
+                    }
+                ]
+            }
+        },
+        "7374727563747572616c2074687265652d64696d656e73696f6e616c697479": {
+            "_surface": {
+                "text": "structural three-dimensionality",
+                "unicode_name": "structural three-dimensionality"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Three-dimensional structure"
+                    }
+                ]
+            }
+        },
+        "68657861676f6e616c206f7220747269616e67756c6172206c61747469636573": {
+            "_surface": {
+                "text": "hexagonal or triangular lattices",
+                "unicode_name": "hexagonal or triangular lattices"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hexagonal or triangular lattices"
+                    }
+                ]
+            }
+        },
+        "74776f2064696d656e73696f6e616c206c61747469636520737472756374757265": {
+            "_surface": {
+                "text": "two dimensional lattice structure",
+                "unicode_name": "two dimensional lattice structure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lattice structure in two dimensions"
+                    }
+                ]
+            }
+        },
+        "74776f2064696d656e73696f6e616c206c61796572656420737472756374757265": {
+            "_surface": {
+                "text": "two dimensional layered structure",
+                "unicode_name": "two dimensional layered structure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Structure with layers in two dimensions"
+                    }
+                ]
+            }
+        },
+        "6e657874206e656172657374206e65696768626f7220696e746572616374696f6e73": {
+            "_surface": {
+                "text": "next nearest neighbor interactions",
+                "unicode_name": "next nearest neighbor interactions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Next nearest neighbor interactions"
+                    }
+                ]
+            }
+        },
+        "74687265652064696d656e73696f6e616c2063756269632d6c696b65206c617474696365": {
+            "_surface": {
+                "text": "three dimensional cubic-like lattice",
+                "unicode_name": "three dimensional cubic-like lattice"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lattice with cubic-like structure"
+                    }
+                ]
+            }
+        },
+        "617869616c6c792073747269706564206f72206469736f726465726564207370696e20737461746573": {
+            "_surface": {
+                "text": "axially striped or disordered spin states",
+                "unicode_name": "axially striped or disordered spin states"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Axially striped or disordered spin states"
+                    }
+                ]
+            }
+        },
+        "6e657874206e656172657374206e65696768626f7220656c617374696320696e746572616374696f6e73": {
+            "_surface": {
+                "text": "next nearest neighbor elastic interactions",
+                "unicode_name": "next nearest neighbor elastic interactions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Next nearest neighbor elastic interactions"
+                    }
+                ]
+            }
+        },
+        "656c6173746963206d6f64656c20687962726964697a65642077697468204973696e6720696e746572616374696f6e": {
+            "_surface": {
+                "text": "elastic model hybridized with Ising interaction",
+                "unicode_name": "elastic model hybridized with Ising interaction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic model hybridized with Ising interaction"
+                    }
+                ]
+            }
+        }
+    }
+}

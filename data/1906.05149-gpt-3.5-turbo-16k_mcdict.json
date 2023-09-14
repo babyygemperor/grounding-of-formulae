@@ -1,0 +1,2373 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of hidden layers"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias vector"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linear transformation"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden layer"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of hidden layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vector"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Timestep"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word embeddings"
+                    }
+                ]
+            }
+        },
+        "7c": {
+            "_surface": {
+                "text": "|",
+                "unicode_name": "VERTICAL LINE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "**"
+                        ],
+                        "arity": 0,
+                        "description": "Exponentiation operator"
+                    }
+                ]
+            }
+        },
+        "4261": {
+            "_surface": {
+                "text": "Ba",
+                "unicode_name": "Ba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Adam: A method for stochastic optimization"
+                    }
+                ]
+            }
+        },
+        "4c4d": {
+            "_surface": {
+                "text": "LM",
+                "unicode_name": "LM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "4c7c": {
+            "_surface": {
+                "text": "L|",
+                "unicode_name": "L|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of hidden layers"
+                    }
+                ]
+            }
+        },
+        "577c": {
+            "_surface": {
+                "text": "W|",
+                "unicode_name": "W|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "617c": {
+            "_surface": {
+                "text": "a|",
+                "unicode_name": "a|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average"
+                    }
+                ]
+            }
+        },
+        "627c": {
+            "_surface": {
+                "text": "b|",
+                "unicode_name": "b|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias vector"
+                    }
+                ]
+            }
+        },
+        "667c": {
+            "_surface": {
+                "text": "f|",
+                "unicode_name": "f|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linear transformation"
+                    }
+                ]
+            }
+        },
+        "677c": {
+            "_surface": {
+                "text": "g|",
+                "unicode_name": "g|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embedding"
+                    }
+                ]
+            }
+        },
+        "697c": {
+            "_surface": {
+                "text": "i|",
+                "unicode_name": "i|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of hidden layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "727c": {
+            "_surface": {
+                "text": "r|",
+                "unicode_name": "r|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vector"
+                    }
+                ]
+            }
+        },
+        "767c": {
+            "_surface": {
+                "text": "v|",
+                "unicode_name": "v|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector"
+                    }
+                ]
+            }
+        },
+        "777c": {
+            "_surface": {
+                "text": "w|",
+                "unicode_name": "w|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word embeddings"
+                    }
+                ]
+            }
+        },
+        "cf81": {
+            "_surface": {
+                "text": "ρ",
+                "unicode_name": "GREEK SMALL LETTER RHO"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "333030": {
+            "_surface": {
+                "text": "300",
+                "unicode_name": "300"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of word embeddings"
+                    }
+                ]
+            }
+        },
+        "424e43": {
+            "_surface": {
+                "text": "BNC",
+                "unicode_name": "BNC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "British National corpus"
+                    }
+                ]
+            }
+        },
+        "45726b": {
+            "_surface": {
+                "text": "Erk",
+                "unicode_name": "Erk"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Erk"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the paper Vector space models of word meaning and phrase meaning: A survey"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the paper What is word meaning, really? (and how can distributional models help us describe it?)"
+                    }
+                ]
+            }
+        },
+        "4c4d7c": {
+            "_surface": {
+                "text": "LM|",
+                "unicode_name": "LM|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "636f73": {
+            "_surface": {
+                "text": "cos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine function"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum function"
+                    }
+                ]
+            }
+        },
+        "c2b131": {
+            "_surface": {
+                "text": "±1",
+                "unicode_name": "±1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Plus or minus 1"
+                    }
+                ]
+            }
+        },
+        "cf817c": {
+            "_surface": {
+                "text": "ρ|",
+                "unicode_name": "ρ|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pearson's correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "e28692": {
+            "_surface": {
+                "text": "→",
+                "unicode_name": "RIGHTWARDS ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Arrow operator"
+                    }
+                ]
+            }
+        },
+        "31393836": {
+            "_surface": {
+                "text": "1986",
+                "unicode_name": "1986"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year of the book Lexical semantics"
+                    }
+                ]
+            }
+        },
+        "31393937": {
+            "_surface": {
+                "text": "1997",
+                "unicode_name": "1997"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year of the paper Long short-term memory"
+                    }
+                ]
+            }
+        },
+        "32303038": {
+            "_surface": {
+                "text": "2008",
+                "unicode_name": "2008"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year of the paper A structured vector space model for word meaning in context"
+                    }
+                ]
+            }
+        },
+        "32303130": {
+            "_surface": {
+                "text": "2010",
+                "unicode_name": "2010"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year of the paper What is word meaning, really? (and how can distributional models help us describe it?)"
+                    }
+                ]
+            }
+        },
+        "32303132": {
+            "_surface": {
+                "text": "2012",
+                "unicode_name": "2012"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year of the paper Vector space models of word meaning and phrase meaning: A survey"
+                    }
+                ]
+            }
+        },
+        "32303134": {
+            "_surface": {
+                "text": "2014",
+                "unicode_name": "2014"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year of the paper Adam: A method for stochastic optimization"
+                    }
+                ]
+            }
+        },
+        "32303135": {
+            "_surface": {
+                "text": "2015",
+                "unicode_name": "2015"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year of the paper An empirical exploration of recurrent network architectures"
+                    }
+                ]
+            }
+        },
+        "4571732e": {
+            "_surface": {
+                "text": "Eqs.",
+                "unicode_name": "Eqs."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equations"
+                    }
+                ]
+            }
+        },
+        "45726b7c": {
+            "_surface": {
+                "text": "Erk|",
+                "unicode_name": "Erk|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Erk"
+                    }
+                ]
+            }
+        },
+        "45782e20": {
+            "_surface": {
+                "text": "Ex. ",
+                "unicode_name": "Ex. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(4)"
+                        ],
+                        "arity": 0,
+                        "description": "Example 4"
+                    },
+                    {
+                        "affixes": [
+                            "(5)"
+                        ],
+                        "arity": 0,
+                        "description": "Example 5"
+                    },
+                    {
+                        "affixes": [
+                            "(6)"
+                        ],
+                        "arity": 0,
+                        "description": "Example 6"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long-Term Memory"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long-Short Term Memory"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "636f737c": {
+            "_surface": {
+                "text": "cos|",
+                "unicode_name": "cos|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine function"
+                    }
+                ]
+            }
+        },
+        "63747874": {
+            "_surface": {
+                "text": "ctxt"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d61787c": {
+            "_surface": {
+                "text": "max|",
+                "unicode_name": "max|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum function"
+                    }
+                ]
+            }
+        },
+        "7461686e": {
+            "_surface": {
+                "text": "tahn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    }
+                ]
+            }
+        },
+        "c2b1317c": {
+            "_surface": {
+                "text": "±1|",
+                "unicode_name": "±1|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Plus or minus 1"
+                    }
+                ]
+            }
+        },
+        "e286927c": {
+            "_surface": {
+                "text": "→|",
+                "unicode_name": "→|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Arrow operator"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Type of input"
+                    }
+                ]
+            }
+        },
+        "f09d90a8": {
+            "_surface": {
+                "text": "𝐨",
+                "unicode_name": "MATHEMATICAL BOLD SMALL O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90ab": {
+            "_surface": {
+                "text": "𝐫",
+                "unicode_name": "MATHEMATICAL BOLD SMALL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target representation"
+                    }
+                ]
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average embedding of substitute words"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word embedding"
+                    }
+                ]
+            }
+        },
+        "f09d96ad": {
+            "_surface": {
+                "text": "𝖭",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backward LSTM"
+                    }
+                ]
+            }
+        },
+        "f09d96af": {
+            "_surface": {
+                "text": "𝖯",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forward LSTM"
+                    }
+                ]
+            }
+        },
+        "436f636f73": {
+            "_surface": {
+                "text": "Cocos",
+                "unicode_name": "Cocos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper A comparison of context-sensitive models for lexical substitution"
+                    }
+                ]
+            }
+        },
+        "4372757365": {
+            "_surface": {
+                "text": "Cruse",
+                "unicode_name": "Cruse"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the book Lexical semantics"
+                    }
+                ]
+            }
+        },
+        "45712e2037": {
+            "_surface": {
+                "text": "Eq. 7",
+                "unicode_name": "Eq. 7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation 7"
+                    }
+                ]
+            }
+        },
+        "4c53544d7c": {
+            "_surface": {
+                "text": "LSTM|",
+                "unicode_name": "LSTM|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long-Term Memory"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long-Short Term Memory"
+                    }
+                ]
+            }
+        },
+        "4c65656368": {
+            "_surface": {
+                "text": "Leech",
+                "unicode_name": "Leech"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the book"
+                    }
+                ]
+            }
+        },
+        "506164c3b3": {
+            "_surface": {
+                "text": "Padó",
+                "unicode_name": "Padó"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper A structured vector space model for word meaning in context"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Padó"
+                    }
+                ]
+            }
+        },
+        "637478747c": {
+            "_surface": {
+                "text": "ctxt|",
+                "unicode_name": "ctxt|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context"
+                    }
+                ]
+            }
+        },
+        "74616e687c": {
+            "_surface": {
+                "text": "tanh|",
+                "unicode_name": "tanh|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    }
+                ]
+            }
+        },
+        "f09d90a17c": {
+            "_surface": {
+                "text": "𝐡|",
+                "unicode_name": "𝐡|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states"
+                    }
+                ]
+            }
+        },
+        "f09d90ac7c": {
+            "_surface": {
+                "text": "𝐬|",
+                "unicode_name": "𝐬|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Substitute word"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Average embedding of substitute words"
+                    }
+                ]
+            }
+        },
+        "f09d90b074": {
+            "_surface": {
+                "text": "𝐰t",
+                "unicode_name": "𝐰t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input word at timestep t"
+                    }
+                ]
+            }
+        },
+        "f09d90b07c": {
+            "_surface": {
+                "text": "𝐰|",
+                "unicode_name": "𝐰|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input word"
+                    }
+                ]
+            }
+        },
+        "4261726f6e69": {
+            "_surface": {
+                "text": "Baroni",
+                "unicode_name": "Baroni"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Introducing and evaluating ukWac, a very large web-derived corpus of English"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Vector space models of word meaning and phrase meaning: A survey"
+                    }
+                ]
+            }
+        },
+        "45712e20377c": {
+            "_surface": {
+                "text": "Eq. 7|",
+                "unicode_name": "Eq. 7|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation 7"
+                    }
+                ]
+            }
+        },
+        "4669672e2031": {
+            "_surface": {
+                "text": "Fig. 1",
+                "unicode_name": "Fig. 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 1"
+                    }
+                ]
+            }
+        },
+        "4669672e2032": {
+            "_surface": {
+                "text": "Fig. 2",
+                "unicode_name": "Fig. 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 2"
+                    }
+                ]
+            }
+        },
+        "4875706b6573": {
+            "_surface": {
+                "text": "Hupkes",
+                "unicode_name": "Hupkes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the paper Visualisation and 'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure"
+                    }
+                ]
+            }
+        },
+        "4b696e676d61": {
+            "_surface": {
+                "text": "Kingma",
+                "unicode_name": "Kingma"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Adam: A method for stochastic optimization"
+                    }
+                ]
+            }
+        },
+        "4b72656d6572": {
+            "_surface": {
+                "text": "Kremer",
+                "unicode_name": "Kremer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kremer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper What substitutes tell us-analysis of an 'all-words' lexical substitution corpus"
+                    }
+                ]
+            }
+        },
+        "4c6578537562": {
+            "_surface": {
+                "text": "LexSub",
+                "unicode_name": "LexSub"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lexical Substitution data"
+                    }
+                ]
+            }
+        },
+        "506164c3b37c": {
+            "_surface": {
+                "text": "Padó|",
+                "unicode_name": "Padó|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Padó"
+                    }
+                ]
+            }
+        },
+        "636f73696e65": {
+            "_surface": {
+                "text": "cosine",
+                "unicode_name": "cosine"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarity"
+                    }
+                ]
+            }
+        },
+        "6d617267696e": {
+            "_surface": {
+                "text": "margin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Margin"
+                    }
+                ]
+            }
+        },
+        "4b72656d65727c": {
+            "_surface": {
+                "text": "Kremer|",
+                "unicode_name": "Kremer|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kremer"
+                    }
+                ]
+            }
+        },
+        "4c65785375627c": {
+            "_surface": {
+                "text": "LexSub|",
+                "unicode_name": "LexSub|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lexical Substitution data"
+                    }
+                ]
+            }
+        },
+        "4e617669676c69": {
+            "_surface": {
+                "text": "Navigli",
+                "unicode_name": "Navigli"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Navigli"
+                    }
+                ]
+            }
+        },
+        "50616c6977616c": {
+            "_surface": {
+                "text": "Paliwal",
+                "unicode_name": "Paliwal"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Paliwal"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 1"
+                    }
+                ]
+            }
+        },
+        "5461626c652032": {
+            "_surface": {
+                "text": "Table 2",
+                "unicode_name": "Table 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 2"
+                    }
+                ]
+            }
+        },
+        "5461626c652033": {
+            "_surface": {
+                "text": "Table 3",
+                "unicode_name": "Table 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 3"
+                    }
+                ]
+            }
+        },
+        "636f73696e6573": {
+            "_surface": {
+                "text": "cosines",
+                "unicode_name": "cosines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarities"
+                    }
+                ]
+            }
+        },
+        "636f737ce281a1": {
+            "_surface": {
+                "text": "cos|⁡",
+                "unicode_name": "cos|⁡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarity"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "4669677572652032": {
+            "_surface": {
+                "text": "Figure 2",
+                "unicode_name": "Figure 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 2"
+                    }
+                ]
+            }
+        },
+        "4d63436172746879": {
+            "_surface": {
+                "text": "McCarthy",
+                "unicode_name": "McCarthy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "McCarthy"
+                    }
+                ]
+            }
+        },
+        "4e617669676c697c": {
+            "_surface": {
+                "text": "Navigli|",
+                "unicode_name": "Navigli|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Navigli"
+                    }
+                ]
+            }
+        },
+        "5363687573746572": {
+            "_surface": {
+                "text": "Schuster",
+                "unicode_name": "Schuster"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schuster"
+                    }
+                ]
+            }
+        },
+        "736f66746d61787c": {
+            "_surface": {
+                "text": "softmax|",
+                "unicode_name": "softmax|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "466572726172657369": {
+            "_surface": {
+                "text": "Ferraresi",
+                "unicode_name": "Ferraresi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Introducing and evaluating ukWac, a very large web-derived corpus of English"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the paper Introducing and evaluating ukWac, a very large web-derived corpus of English"
+                    }
+                ]
+            }
+        },
+        "47756c6f7264617661": {
+            "_surface": {
+                "text": "Gulordava",
+                "unicode_name": "Gulordava"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the paper Colorless green recurrent networks dream hierarchically"
+                    }
+                ]
+            }
+        },
+        "4d634361727468797c": {
+            "_surface": {
+                "text": "McCarthy|",
+                "unicode_name": "McCarthy|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "McCarthy"
+                    }
+                ]
+            }
+        },
+        "5a616e636865747461": {
+            "_surface": {
+                "text": "Zanchetta",
+                "unicode_name": "Zanchetta"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Introducing and evaluating ukWac, a very large web-derived corpus of English"
+                    }
+                ]
+            }
+        },
+        "f09d90a17c7c747c31": {
+            "_surface": {
+                "text": "𝐡||t|1",
+                "unicode_name": "𝐡||t|1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states at timestep 1"
+                    }
+                ]
+            }
+        },
+        "f09d90b026f09d90ac": {
+            "_surface": {
+                "text": "𝐰&𝐬",
+                "unicode_name": "𝐰&𝐬"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average embedding of substitute words and target word"
+                    }
+                ]
+            }
+        },
+        "486f6368726569746572": {
+            "_surface": {
+                "text": "Hochreiter",
+                "unicode_name": "Hochreiter"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hochreiter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Long short-term memory"
+                    }
+                ]
+            }
+        },
+        "4a6f7a65666f7769637a": {
+            "_surface": {
+                "text": "Jozefowicz",
+                "unicode_name": "Jozefowicz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the paper An empirical exploration of recurrent network architectures"
+                    }
+                ]
+            }
+        },
+        "54616c204c696e7a656e": {
+            "_surface": {
+                "text": "Tal Linzen",
+                "unicode_name": "Tal Linzen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Colorless green recurrent networks dream hierarchically"
+                    },
+                    {
+                        "affixes": [
+                            ", Emmanuel Dupoux, and Yoav Goldberg. 2016."
+                        ],
+                        "arity": 0,
+                        "description": "Tal Linzen, Emmanuel Dupoux, and Yoav Goldberg. 2016."
+                    }
+                ]
+            }
+        },
+        "64617461706f696e7473": {
+            "_surface": {
+                "text": "datapoints",
+                "unicode_name": "datapoints"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data points"
+                    }
+                ]
+            }
+        },
+        "3630302f3630302f333030": {
+            "_surface": {
+                "text": "600/600/300",
+                "unicode_name": "600/600/300"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sizes of hidden layers"
+                    }
+                ]
+            }
+        },
+        "4164616d205061737a6b65": {
+            "_surface": {
+                "text": "Adam Paszke",
+                "unicode_name": "Adam Paszke"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. 2017."
+                        ],
+                        "arity": 0,
+                        "description": "Adam Paszke, Sam Gross, Soumith Chintala, Gregory Chanan, Edward Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, and Adam Lerer. 2017."
+                    }
+                ]
+            }
+        },
+        "476172c3ad20536f6c6572": {
+            "_surface": {
+                "text": "Garí Soler",
+                "unicode_name": "Garí Soler"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the paper A comparison of context-sensitive models for lexical substitution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper A comparison of context-sensitive models for lexical substitution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Garí Soler"
+                    }
+                ]
+            }
+        },
+        "4c697520657420616c2e20": {
+            "_surface": {
+                "text": "Liu et al. ",
+                "unicode_name": "Liu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Liu et al. (2019)"
+                    }
+                ]
+            }
+        },
+        "5363686d69646875626572": {
+            "_surface": {
+                "text": "Schmidhuber",
+                "unicode_name": "Schmidhuber"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schmidhuber"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Long short-term memory"
+                    }
+                ]
+            }
+        },
+        "636f6e636174656e617465": {
+            "_surface": {
+                "text": "concatenate",
+                "unicode_name": "concatenate"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Concatenation operation"
+                    }
+                ]
+            }
+        },
+        "64617461706f696e74737c": {
+            "_surface": {
+                "text": "datapoints|",
+                "unicode_name": "datapoints|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data points"
+                    }
+                ]
+            }
+        },
+        "70726f6265207461736b73": {
+            "_surface": {
+                "text": "probe tasks",
+                "unicode_name": "probe tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation tasks"
+                    }
+                ]
+            }
+        },
+        "476172c3ad20536f6c65727c": {
+            "_surface": {
+                "text": "Garí Soler|",
+                "unicode_name": "Garí Soler|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Garí Soler"
+                    }
+                ]
+            }
+        },
+        "4e656c736f6e2046204c6975": {
+            "_surface": {
+                "text": "Nelson F Liu",
+                "unicode_name": "Nelson F Liu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Matt Gardner, Yonatan Belinkov, Matthew Peters, and Noah A Smith. 2019."
+                        ],
+                        "arity": 0,
+                        "description": "Nelson F Liu, Matt Gardner, Yonatan Belinkov, Matthew Peters, and Noah A Smith. 2019."
+                    }
+                ]
+            }
+        },
+        "4f72656e204d656c616d7564": {
+            "_surface": {
+                "text": "Oren Melamud",
+                "unicode_name": "Oren Melamud"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Jacob Goldberger, and Ido Dagan. 2016."
+                        ],
+                        "arity": 0,
+                        "description": "Oren Melamud, Jacob Goldberger, and Ido Dagan. 2016."
+                    }
+                ]
+            }
+        },
+        "636f6e636174656e6174657c": {
+            "_surface": {
+                "text": "concatenate|",
+                "unicode_name": "concatenate|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Concatenation operation"
+                    }
+                ]
+            }
+        },
+        "70726f6265207461736b737c": {
+            "_surface": {
+                "text": "probe tasks|",
+                "unicode_name": "probe tasks|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation tasks"
+                    }
+                ]
+            }
+        },
+        "45646f75617264204772617665": {
+            "_surface": {
+                "text": "Edouard Grave",
+                "unicode_name": "Edouard Grave"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Colorless green recurrent networks dream hierarchically"
+                    }
+                ]
+            }
+        },
+        "536172612056656c64686f656e": {
+            "_surface": {
+                "text": "Sara Veldhoen",
+                "unicode_name": "Sara Veldhoen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Visualisation and 'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure"
+                    }
+                ]
+            }
+        },
+        "536d616c6c20657420616c2e20": {
+            "_surface": {
+                "text": "Small et al. ",
+                "unicode_name": "Small et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2013)"
+                        ],
+                        "arity": 0,
+                        "description": "Small et al. (2013)"
+                    }
+                ]
+            }
+        },
+        "53746566616e20546861746572": {
+            "_surface": {
+                "text": "Stefan Thater",
+                "unicode_name": "Stefan Thater"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper What substitutes tell us-analysis of an 'all-words' lexical substitution corpus"
+                    },
+                    {
+                        "affixes": [
+                            ", Hagen Fürstenau, and Manfred Pinkal. 2011."
+                        ],
+                        "arity": 0,
+                        "description": "Stefan Thater, Hagen Fürstenau, and Manfred Pinkal. 2011."
+                    }
+                ]
+            }
+        },
+        "44696575776b65204875706b6573": {
+            "_surface": {
+                "text": "Dieuwke Hupkes",
+                "unicode_name": "Dieuwke Hupkes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the paper Visualisation and 'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure"
+                    }
+                ]
+            }
+        },
+        "496c796120537574736b65766572": {
+            "_surface": {
+                "text": "Ilya Sutskever",
+                "unicode_name": "Ilya Sutskever"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper An empirical exploration of recurrent network architectures"
+                    }
+                ]
+            }
+        },
+        "4c696e7a656e20657420616c2e20": {
+            "_surface": {
+                "text": "Linzen et al. ",
+                "unicode_name": "Linzen et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Linzen et al. (2016)"
+                    }
+                ]
+            }
+        },
+        "4d61747468657720506574657273": {
+            "_surface": {
+                "text": "Matthew Peters",
+                "unicode_name": "Matthew Peters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. 2018."
+                        ],
+                        "arity": 0,
+                        "description": "Matthew Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, and Luke Zettlemoyer. 2018."
+                    }
+                ]
+            }
+        },
+        "5061737a6b6520657420616c2e20": {
+            "_surface": {
+                "text": "Paszke et al. ",
+                "unicode_name": "Paszke et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Paszke et al. (2017)"
+                    }
+                ]
+            }
+        },
+        "50657465727320657420616c2e20": {
+            "_surface": {
+                "text": "Peters et al. ",
+                "unicode_name": "Peters et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Peters et al. (2018)"
+                    }
+                ]
+            }
+        },
+        "53746576656e204c20536d616c6c": {
+            "_surface": {
+                "text": "Steven L Small",
+                "unicode_name": "Steven L Small"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Garrison W Cottrell, and Michael K Tanenhaus. 2013."
+                        ],
+                        "arity": 0,
+                        "description": "Steven L Small, Garrison W Cottrell, and Michael K Tanenhaus. 2013."
+                    }
+                ]
+            }
+        },
+        "54686174657220657420616c2e20": {
+            "_surface": {
+                "text": "Thater et al. ",
+                "unicode_name": "Thater et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2011)"
+                        ],
+                        "arity": 0,
+                        "description": "Thater et al. (2011)"
+                    }
+                ]
+            }
+        },
+        "57696c6c656d205a756964656d61": {
+            "_surface": {
+                "text": "Willem Zuidema",
+                "unicode_name": "Willem Zuidema"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Visualisation and 'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure"
+                    }
+                ]
+            }
+        },
+        "4d656c616d756420657420616c2e20": {
+            "_surface": {
+                "text": "Melamud et al. ",
+                "unicode_name": "Melamud et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Melamud et al. (2016)"
+                    }
+                ]
+            }
+        },
+        "576f6a6369656368205a6172656d6261": {
+            "_surface": {
+                "text": "Wojciech Zaremba",
+                "unicode_name": "Wojciech Zaremba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper An empirical exploration of recurrent network architectures"
+                    }
+                ]
+            }
+        },
+        "53696c766961204265726e617264696e69": {
+            "_surface": {
+                "text": "Silvia Bernardini",
+                "unicode_name": "Silvia Bernardini"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper Introducing and evaluating ukWac, a very large web-derived corpus of English"
+                    }
+                ]
+            }
+        },
+        "6f75742d6f662d766f636162756c617279": {
+            "_surface": {
+                "text": "out-of-vocabulary",
+                "unicode_name": "out-of-vocabulary"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Out-of-vocabulary words"
+                    }
+                ]
+            }
+        },
+        "412e31204c616e6775616765206d6f64656c": {
+            "_surface": {
+                "text": "A.1 Language model",
+                "unicode_name": "A.1 Language model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A.1 Language model"
+                    }
+                ]
+            }
+        },
+        "617ce281a2767ce281a2677c7c637478747c": {
+            "_surface": {
+                "text": "a|⁢v|⁢g||ctxt|",
+                "unicode_name": "a|⁢v|⁢g||ctxt|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average of word embeddings of a 10-word window around the target word"
+                    }
+                ]
+            }
+        },
+        "4d617269616e6e61204170696469616e616b69": {
+            "_surface": {
+                "text": "Marianna Apidianaki",
+                "unicode_name": "Marianna Apidianaki"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper A comparison of context-sensitive models for lexical substitution"
+                    }
+                ]
+            }
+        },
+        "5765737465726120616e6420426f6c65646120": {
+            "_surface": {
+                "text": "Westera and Boleda ",
+                "unicode_name": "Westera and Boleda "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Westera and Boleda (2019)"
+                    }
+                ]
+            }
+        },
+        "43687269732043616c6c69736f6e2d4275726368": {
+            "_surface": {
+                "text": "Chris Callison-Burch",
+                "unicode_name": "Chris Callison-Burch"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Co-author of the paper A comparison of context-sensitive models for lexical substitution"
+                    }
+                ]
+            }
+        },
+        "4d69746368656c6c20616e64204c617061746120": {
+            "_surface": {
+                "text": "Mitchell and Lapata ",
+                "unicode_name": "Mitchell and Lapata "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2010)"
+                        ],
+                        "arity": 0,
+                        "description": "Mitchell and Lapata (2010)"
+                    }
+                ]
+            }
+        },
+        "4d6343617274687920616e64204e617669676c6920": {
+            "_surface": {
+                "text": "McCarthy and Navigli ",
+                "unicode_name": "McCarthy and Navigli "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "McCarthy and Navigli (2009)"
+                    }
+                ]
+            }
+        },
+        "536368757374657220616e642050616c6977616c20": {
+            "_surface": {
+                "text": "Schuster and Paliwal ",
+                "unicode_name": "Schuster and Paliwal "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1997)"
+                        ],
+                        "arity": 0,
+                        "description": "Schuster and Paliwal (1997)"
+                    }
+                ]
+            }
+        },
+        "4a656666204d69746368656c6c20616e64204d6972656c6c61204c61706174612e20323031302e": {
+            "_surface": {
+                "text": "Jeff Mitchell and Mirella Lapata. 2010.",
+                "unicode_name": "Jeff Mitchell and Mirella Lapata. 2010."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jeff Mitchell and Mirella Lapata. 2010."
+                    }
+                ]
+            }
+        },
+        "4d61747468696a73205765737465726120616e642047656d6d6120426f6c6564612e20323031392e": {
+            "_surface": {
+                "text": "Matthijs Westera and Gemma Boleda. 2019.",
+                "unicode_name": "Matthijs Westera and Gemma Boleda. 2019."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matthijs Westera and Gemma Boleda. 2019."
+                    }
+                ]
+            }
+        },
+        "4469616e61204d6343617274687920616e6420526f626572746f204e617669676c692e20323030392e": {
+            "_surface": {
+                "text": "Diana McCarthy and Roberto Navigli. 2009.",
+                "unicode_name": "Diana McCarthy and Roberto Navigli. 2009."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diana McCarthy and Roberto Navigli. 2009."
+                    }
+                ]
+            }
+        },
+        "4d696b6520536368757374657220616e64204b756c646970204b2050616c6977616c2e20313939372e": {
+            "_surface": {
+                "text": "Mike Schuster and Kuldip K Paliwal. 1997.",
+                "unicode_name": "Mike Schuster and Kuldip K Paliwal. 1997."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mike Schuster and Kuldip K Paliwal. 1997."
+                    }
+                ]
+            }
+        }
+    }
+}

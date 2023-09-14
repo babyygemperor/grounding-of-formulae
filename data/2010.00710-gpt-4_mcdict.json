@@ -1,0 +1,675 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Squared-L2 distance"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of tokens in the source sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chinese-English"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature parameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature upsampling"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "English-Chinese"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Squared-L2 distance"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function mapping input to intermediate representation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "High-dimensional representation of the entire translation context"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of the token in the target sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-nearest neighbor"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of keys for in-domain data in the domain adaptation experiments"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-nearest neighbors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of nearest neighbors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of neighbors while searching clusters"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-nearest neighbor machine translation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of neighbors retrieved per query"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-nearest-neighbor machine translation (kNN-MT)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of neighbors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-nearest neighbor language model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of clusters for in-domain data in the domain adaptation experiments"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of keys for learning cluster centroids"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distribution over the vocabulary"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of domains jointly"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of best reranking"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of attention heads"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of neighbors retrieved per query"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of neighbors similar to n-grams in the source"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of tokens of WMT’19 training data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of beams"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of neighbors from the News Commentary and Common Crawl subsets of WMT’19 data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "N-grams"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of domains"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of layers in both the encoder and decoder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of neighbors from a datastore containing billions of items"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of clusters"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of updates"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output distribution for each token in the target sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input sequence of tokens in a source language"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output sequence of tokens in a target language"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Test input"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source at test time"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Generated tokens"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output distribution over the vocabulary at test time"
+                    }
+                ]
+            }
+        },
+        "4d54": {
+            "_surface": {
+                "text": "MT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Machine translation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Base model distribution"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lambda parameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Interpolation parameter"
+                    }
+                ]
+            }
+        },
+        "657870": {
+            "_surface": {
+                "text": "exp"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6b4e4e": {
+            "_surface": {
+                "text": "kNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-nearest neighbor"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distribution over the vocabulary"
+                    }
+                ]
+            }
+        },
+        "e280a0": {
+            "_surface": {
+                "text": "†",
+                "unicode_name": "DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stanford University"
+                    }
+                ]
+            }
+        },
+        "e280a1": {
+            "_surface": {
+                "text": "‡",
+                "unicode_name": "DOUBLE DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Facebook AI Research"
+                    }
+                ]
+            }
+        },
+        "f09d92a6": {
+            "_surface": {
+                "text": "𝒦",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of keys in the datastore"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Datastore key set"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K nearest neighbors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Retrieved set from the datastore"
+                    }
+                ]
+            }
+        },
+        "f09d92ae": {
+            "_surface": {
+                "text": "𝒮",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source language tokens"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallel text collection"
+                    }
+                ]
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target language tokens"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallel text collection"
+                    }
+                ]
+            }
+        },
+        "f09d92b1": {
+            "_surface": {
+                "text": "𝒱",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of values in the datastore"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Datastore value set"
+                    }
+                ]
+            }
+        },
+        "6b4e4e2d4c4d": {
+            "_surface": {
+                "text": "kNN-LM",
+                "unicode_name": "kNN-LM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-nearest neighbor language model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "6b4e4e2d4d54": {
+            "_surface": {
+                "text": "kNN-MT",
+                "unicode_name": "kNN-MT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-nearest neighbor machine translation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final distribution"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,549 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expectation operator"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_m"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden dimension for MSA representation"
+                    },
+                    {
+                        "affixes": [
+                            "_z"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden dimension for pair representation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden dimension for pair representation"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean in Welford algorithm"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_r"
+                        ],
+                        "arity": 0,
+                        "description": "Number of residues in the input"
+                    },
+                    {
+                        "affixes": [
+                            "_s"
+                        ],
+                        "arity": 0,
+                        "description": "Number of sequences processed in the MSA stack"
+                    },
+                    {
+                        "affixes": [
+                            "_head"
+                        ],
+                        "arity": 0,
+                        "description": "Number of attention heads"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of devices or layers or residues"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of layers or residues"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vectors"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vectors"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Exponential function"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for elements in a set"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for elements in a set"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of data points"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input data"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized data"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension to which vectors are projected in Outer Product Mean"
+                    }
+                ]
+            }
+        },
+        "4131": {
+            "_surface": {
+                "text": "A1",
+                "unicode_name": "A1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix divided column-wise across N devices"
+                    }
+                ]
+            }
+        },
+        "4132": {
+            "_surface": {
+                "text": "A2",
+                "unicode_name": "A2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix divided column-wise across N devices"
+                    }
+                ]
+            }
+        },
+        "416e": {
+            "_surface": {
+                "text": "An",
+                "unicode_name": "An"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix divided column-wise across N devices"
+                    }
+                ]
+            }
+        },
+        "5831": {
+            "_surface": {
+                "text": "X1",
+                "unicode_name": "X1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vectors divided across N devices"
+                    }
+                ]
+            }
+        },
+        "586e": {
+            "_surface": {
+                "text": "Xn",
+                "unicode_name": "Xn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vectors divided across N devices"
+                    }
+                ]
+            }
+        },
+        "5931": {
+            "_surface": {
+                "text": "Y1",
+                "unicode_name": "Y1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vectors resulting from parallel matrix multiplications"
+                    }
+                ]
+            }
+        },
+        "5932": {
+            "_surface": {
+                "text": "Y2",
+                "unicode_name": "Y2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vectors resulting from parallel matrix multiplications"
+                    }
+                ]
+            }
+        },
+        "596e": {
+            "_surface": {
+                "text": "Yn",
+                "unicode_name": "Yn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vectors resulting from parallel matrix multiplications"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias in Layer Normalization"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scale in Layer Normalization"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation in Welford algorithm"
+                    }
+                ]
+            }
+        },
+        "cfb5": {
+            "_surface": {
+                "text": "ϵ",
+                "unicode_name": "GREEK LUNATE EPSILON SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Small constant for numerical stability"
+                    }
+                ]
+            }
+        },
+        "566172": {
+            "_surface": {
+                "text": "Var"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variance operator"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function that returns the maximum value in a set"
+                    }
+                ]
+            }
+        },
+        "4d65616e": {
+            "_surface": {
+                "text": "Mean"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68656164": {
+            "_surface": {
+                "text": "head"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73697a656f66": {
+            "_surface": {
+                "text": "sizeof"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of data type"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function that normalizes input into a probability distribution"
+                    }
+                ]
+            }
+        },
+        "42466c6f61743136": {
+            "_surface": {
+                "text": "BFloat16"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "16-bit floating point number format"
+                    }
+                ]
+            }
+        }
+    }
+}

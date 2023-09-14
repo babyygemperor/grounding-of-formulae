@@ -1,0 +1,1880 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[x|]"
+                        ],
+                        "arity": 0,
+                        "description": "Equivalence class of x in R"
+                    },
+                    {
+                        "affixes": [
+                            "[x]"
+                        ],
+                        "arity": 0,
+                        "description": "Equivalence class of x in R"
+                    }
+                ]
+            }
+        },
+        "31": {
+            "_surface": {
+                "text": "1",
+                "unicode_name": "DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Property"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of X"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Frame"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Relational model"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Augmented model"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Property"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "(P1), (P2), (P3)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of subsets of X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise set"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equivalence relation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binary relation"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Property"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of states"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State a"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State b"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State c"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State d"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proposition"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Economic recovery proposition"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information source"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Translation"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Valuation"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of X"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in M*"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in M*"
+                    }
+                ]
+            }
+        },
+        "4553": {
+            "_surface": {
+                "text": "ES",
+                "unicode_name": "ES"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Interaction between expertise and soundness"
+                    }
+                ]
+            }
+        },
+        "5031": {
+            "_surface": {
+                "text": "P1",
+                "unicode_name": "P1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Property"
+                    }
+                ]
+            }
+        },
+        "5032": {
+            "_surface": {
+                "text": "P2",
+                "unicode_name": "P2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Property"
+                    }
+                ]
+            }
+        },
+        "5033": {
+            "_surface": {
+                "text": "P3",
+                "unicode_name": "P3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Property"
+                    }
+                ]
+            }
+        },
+        "507c": {
+            "_surface": {
+                "text": "P|",
+                "unicode_name": "P|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise set"
+                    }
+                ]
+            }
+        },
+        "c2ac": {
+            "_surface": {
+                "text": "¬",
+                "unicode_name": "NOT SIGN"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Negation operator"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximally 𝖫𝖲𝖠-consistent subset of ℒ𝖲𝖠"
+                    }
+                ]
+            }
+        },
+        "cea0": {
+            "_surface": {
+                "text": "Π",
+                "unicode_name": "GREEK CAPITAL LETTER PI"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Partition of X"
+                    }
+                ]
+            }
+        },
+        "cf86": {
+            "_surface": {
+                "text": "φ",
+                "unicode_name": "GREEK SMALL LETTER PHI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Formula in ℒ𝖲𝖠"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Formula"
+                    }
+                ]
+            }
+        },
+        "cf88": {
+            "_surface": {
+                "text": "ψ",
+                "unicode_name": "GREEK SMALL LETTER PSI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Formula"
+                    }
+                ]
+            }
+        },
+        "496e63": {
+            "_surface": {
+                "text": "Inc",
+                "unicode_name": "Inc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Imply necessitation for 𝖲"
+                    }
+                ]
+            }
+        },
+        "4d4353": {
+            "_surface": {
+                "text": "MCS",
+                "unicode_name": "MCS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximally 𝖫𝖲𝖠-consistent subsets"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language"
+                    }
+                ]
+            }
+        },
+        "e284ac": {
+            "_surface": {
+                "text": "ℬ",
+                "unicode_name": "SCRIPT CAPITAL B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of X"
+                    }
+                ]
+            }
+        },
+        "e284b0": {
+            "_surface": {
+                "text": "ℰ",
+                "unicode_name": "SCRIPT CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of equivalence relations over X"
+                    }
+                ]
+            }
+        },
+        "e284b3": {
+            "_surface": {
+                "text": "ℳ",
+                "unicode_name": "SCRIPT CAPITAL M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise model"
+                    }
+                ]
+            }
+        },
+        "e28692": {
+            "_surface": {
+                "text": "→",
+                "unicode_name": "RIGHTWARDS ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Implication operator"
+                    }
+                ]
+            }
+        },
+        "e28694": {
+            "_surface": {
+                "text": "↔",
+                "unicode_name": "LEFT RIGHT ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logical equivalence operator"
+                    }
+                ]
+            }
+        },
+        "e28792": {
+            "_surface": {
+                "text": "⇒",
+                "unicode_name": "RIGHTWARDS DOUBLE ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Implication operator"
+                    }
+                ]
+            }
+        },
+        "e28794": {
+            "_surface": {
+                "text": "⇔",
+                "unicode_name": "LEFT RIGHT DOUBLE ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "If and only if operator"
+                    }
+                ]
+            }
+        },
+        "e28885": {
+            "_surface": {
+                "text": "∅",
+                "unicode_name": "EMPTY SET"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Empty set"
+                    }
+                ]
+            }
+        },
+        "e28888": {
+            "_surface": {
+                "text": "∈",
+                "unicode_name": "ELEMENT OF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of a set"
+                    }
+                ]
+            }
+        },
+        "e28889": {
+            "_surface": {
+                "text": "∉",
+                "unicode_name": "NOT AN ELEMENT OF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not an element of a set"
+                    }
+                ]
+            }
+        },
+        "e2888e": {
+            "_surface": {
+                "text": "∎",
+                "unicode_name": "END OF PROOF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "End of proof symbol"
+                    }
+                ]
+            }
+        },
+        "e28896": {
+            "_surface": {
+                "text": "∖",
+                "unicode_name": "SET MINUS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set difference operator"
+                    }
+                ]
+            }
+        },
+        "e288a8": {
+            "_surface": {
+                "text": "∨",
+                "unicode_name": "LOGICAL OR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logical OR operator"
+                    }
+                ]
+            }
+        },
+        "e288aa": {
+            "_surface": {
+                "text": "∪",
+                "unicode_name": "UNION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Union operator"
+                    }
+                ]
+            }
+        },
+        "e289a1": {
+            "_surface": {
+                "text": "≡",
+                "unicode_name": "IDENTICAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equivalence operator"
+                    }
+                ]
+            }
+        },
+        "e28a86": {
+            "_surface": {
+                "text": "⊆",
+                "unicode_name": "SUBSET OF OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of a set"
+                    }
+                ]
+            }
+        },
+        "e28aa2": {
+            "_surface": {
+                "text": "⊢",
+                "unicode_name": "RIGHT TACK"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Provable in"
+                    }
+                ]
+            }
+        },
+        "e28aa4": {
+            "_surface": {
+                "text": "⊤",
+                "unicode_name": "DOWN TACK"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "True value"
+                    }
+                ]
+            }
+        },
+        "e28aa5": {
+            "_surface": {
+                "text": "⊥",
+                "unicode_name": "UP TACK"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "False value"
+                    }
+                ]
+            }
+        },
+        "e28aa8": {
+            "_surface": {
+                "text": "⊨",
+                "unicode_name": "TRUE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Satisfaction relation"
+                    }
+                ]
+            }
+        },
+        "e28b82": {
+            "_surface": {
+                "text": "⋂",
+                "unicode_name": "N-ARY INTERSECTION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intersection operator"
+                    }
+                ]
+            }
+        },
+        "e28b83": {
+            "_surface": {
+                "text": "⋃",
+                "unicode_name": "N-ARY UNION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Union operator"
+                    }
+                ]
+            }
+        },
+        "c2accf86": {
+            "_surface": {
+                "text": "¬φ",
+                "unicode_name": "¬φ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Negation of formula φ"
+                    }
+                ]
+            }
+        },
+        "f09d929c": {
+            "_surface": {
+                "text": "𝒜",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92ab": {
+            "_surface": {
+                "text": "𝒫",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Power set"
+                    }
+                ]
+            }
+        },
+        "f09d96a0": {
+            "_surface": {
+                "text": "𝖠",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Negation operator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Universal modality"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Dual operator corresponding to 𝖠"
+                    },
+                    {
+                        "affixes": [
+                            "^𝖲φ¬φ"
+                        ],
+                        "arity": 0,
+                        "description": "Dual operator corresponding to Soundness of formula φ"
+                    }
+                ]
+            }
+        },
+        "f09d96a4": {
+            "_surface": {
+                "text": "𝖤",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator for expertise"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise operator"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Dual operator corresponding to 𝖤"
+                    }
+                ]
+            }
+        },
+        "f09d96aa": {
+            "_surface": {
+                "text": "𝖪",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Epistemic logic"
+                    }
+                ]
+            }
+        },
+        "f09d96ab": {
+            "_surface": {
+                "text": "𝖫",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logic for expertise frames"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logic of 𝖫 for ℒ𝖲𝖠 without axiom (ES)"
+                    }
+                ]
+            }
+        },
+        "f09d96b2": {
+            "_surface": {
+                "text": "𝖲",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Soundness operator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator for soundness"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Dual operator corresponding to 𝖲"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Abbreviation for ¬𝖲¬"
+                    }
+                ]
+            }
+        },
+        "f09d96b3": {
+            "_surface": {
+                "text": "𝖳",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trust operator"
+                    }
+                ]
+            }
+        },
+        "35f09d96a0": {
+            "_surface": {
+                "text": "5𝖠",
+                "unicode_name": "5𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KT5 axiom for 𝖠"
+                    }
+                ]
+            }
+        },
+        "35f09d96b2": {
+            "_surface": {
+                "text": "5𝖲",
+                "unicode_name": "5𝖲"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KT5 axiom for 𝖲"
+                    }
+                ]
+            }
+        },
+        "4bf09d96a0": {
+            "_surface": {
+                "text": "K𝖠",
+                "unicode_name": "K𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KT5 axiom for 𝖠"
+                    }
+                ]
+            }
+        },
+        "4bf09d96b2": {
+            "_surface": {
+                "text": "K𝖲",
+                "unicode_name": "K𝖲"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KT5 axiom for 𝖲"
+                    }
+                ]
+            }
+        },
+        "52f09d96a0": {
+            "_surface": {
+                "text": "R𝖠",
+                "unicode_name": "R𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equivalence relation on X"
+                    }
+                ]
+            }
+        },
+        "52f09d96b2": {
+            "_surface": {
+                "text": "R𝖲",
+                "unicode_name": "R𝖲"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equivalence relation on X"
+                    }
+                ]
+            }
+        },
+        "54f09d96a0": {
+            "_surface": {
+                "text": "T𝖠",
+                "unicode_name": "T𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KT5 axiom for 𝖠"
+                    }
+                ]
+            }
+        },
+        "54f09d96b2": {
+            "_surface": {
+                "text": "T𝖲",
+                "unicode_name": "T𝖲"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KT5 axiom for 𝖲"
+                    }
+                ]
+            }
+        },
+        "72e281a270": {
+            "_surface": {
+                "text": "r⁢p",
+                "unicode_name": "r⁢p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Report of economic recovery and health proposition"
+                    }
+                ]
+            }
+        },
+        "72e28b8570": {
+            "_surface": {
+                "text": "r⋅p",
+                "unicode_name": "r⋅p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "r and p"
+                    }
+                ]
+            }
+        },
+        "787c527c79": {
+            "_surface": {
+                "text": "x|R|y",
+                "unicode_name": "x|R|y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relation between x and y in R"
+                    }
+                ]
+            }
+        },
+        "e28aa8cf86": {
+            "_surface": {
+                "text": "⊨φ",
+                "unicode_name": "⊨φ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "φ is true in M for all x"
+                    }
+                ]
+            }
+        },
+        "c2ace281a270": {
+            "_surface": {
+                "text": "¬⁢p",
+                "unicode_name": "¬⁢p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not a health proposition"
+                    }
+                ]
+            }
+        },
+        "e28aa8617567": {
+            "_surface": {
+                "text": "⊨aug",
+                "unicode_name": "⊨aug"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Satisfaction relation between augmented models and ℒ𝖲𝖠 formulas"
+                    }
+                ]
+            }
+        },
+        "f09d96a4cf88": {
+            "_surface": {
+                "text": "𝖤ψ",
+                "unicode_name": "𝖤ψ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise on formula ψ"
+                    }
+                ]
+            }
+        },
+        "4e6563f09d96a0": {
+            "_surface": {
+                "text": "Nec𝖠",
+                "unicode_name": "Nec𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Necessitation rule for 𝖠"
+                    }
+                ]
+            }
+        },
+        "72e28b85c2ac70": {
+            "_surface": {
+                "text": "r⋅¬p",
+                "unicode_name": "r⋅¬p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "r and Not p"
+                    }
+                ]
+            }
+        },
+        "c2ac72e28b8570": {
+            "_surface": {
+                "text": "¬r⋅p",
+                "unicode_name": "¬r⋅p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not r and p"
+                    }
+                ]
+            }
+        },
+        "725c753230363270": {
+            "_surface": {
+                "text": "r\\u2062p",
+                "unicode_name": "r\\u2062p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Report of economic recovery and health proposition"
+                    }
+                ]
+            }
+        },
+        "c2acf09d96a4cf86": {
+            "_surface": {
+                "text": "¬𝖤φ",
+                "unicode_name": "¬𝖤φ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not expertise on formula φ"
+                    }
+                ]
+            }
+        },
+        "f09d96a0f09d96a4": {
+            "_surface": {
+                "text": "𝖠𝖤"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d96a4cf86cf88": {
+            "_surface": {
+                "text": "𝖤φψ",
+                "unicode_name": "𝖤φψ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise on formula φ and ψ"
+                    }
+                ]
+            }
+        },
+        "f09d96a4e281a272": {
+            "_surface": {
+                "text": "𝖤⁢r",
+                "unicode_name": "𝖤⁢r"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise on economic recovery proposition"
+                    }
+                ]
+            }
+        },
+        "f09d96a4f09d96a4": {
+            "_surface": {
+                "text": "𝖤𝖤"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Double expertise operator"
+                    }
+                ]
+            }
+        },
+        "f09d96aaf09d96a0": {
+            "_surface": {
+                "text": "𝖪𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Epistemic logic"
+                    }
+                ]
+            }
+        },
+        "f09d96b2f09d96a0": {
+            "_surface": {
+                "text": "𝖲𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise operator"
+                    }
+                ]
+            }
+        },
+        "c2ac5c753230363270": {
+            "_surface": {
+                "text": "¬\\u2062p",
+                "unicode_name": "¬\\u2062p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not a health proposition"
+                    }
+                ]
+            }
+        },
+        "c2ac72e28b85c2ac70": {
+            "_surface": {
+                "text": "¬r⋅¬p",
+                "unicode_name": "¬r⋅¬p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not r and Not p"
+                    }
+                ]
+            }
+        },
+        "e288a5cf86e288a54d": {
+            "_surface": {
+                "text": "∥φ∥M",
+                "unicode_name": "∥φ∥M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of states at which φ is true in M"
+                    }
+                ]
+            }
+        },
+        "f09d96a4e281a2cf86": {
+            "_surface": {
+                "text": "𝖤⁢φ",
+                "unicode_name": "𝖤⁢φ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise on formula φ"
+                    }
+                ]
+            }
+        },
+        "f09d96a4e281a2cf88": {
+            "_surface": {
+                "text": "𝖤⁢ψ",
+                "unicode_name": "𝖤⁢ψ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise on formula ψ"
+                    }
+                ]
+            }
+        },
+        "f09d96b2e281a2cf86": {
+            "_surface": {
+                "text": "𝖲⁢φ",
+                "unicode_name": "𝖲⁢φ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Soundness of formula φ"
+                    }
+                ]
+            }
+        },
+        "507ce286a6527c7c507c": {
+            "_surface": {
+                "text": "P|↦R||P|",
+                "unicode_name": "P|↦R||P|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bijection from P to ℰ"
+                    }
+                ]
+            }
+        },
+        "787ce281a2527c7c797c": {
+            "_surface": {
+                "text": "x|⁢R||y|",
+                "unicode_name": "x|⁢R||y|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relation between x and y in R"
+                    }
+                ]
+            }
+        },
+        "e28492f09d96aaf09d96a0": {
+            "_surface": {
+                "text": "ℒ𝖪𝖠",
+                "unicode_name": "ℒ𝖪𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Epistemic logic"
+                    }
+                ]
+            }
+        },
+        "e28492f09d96b2f09d96a0": {
+            "_surface": {
+                "text": "ℒ𝖲𝖠",
+                "unicode_name": "ℒ𝖲𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fragment of ℒ without the 𝖤 modality"
+                    }
+                ]
+            }
+        },
+        "f09d96a45c753230363272": {
+            "_surface": {
+                "text": "𝖤\\u2062r",
+                "unicode_name": "𝖤\\u2062r"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise on economic recovery proposition"
+                    }
+                ]
+            }
+        },
+        "c2acf09d96a4cf86c2accf86": {
+            "_surface": {
+                "text": "¬𝖤φ¬φ",
+                "unicode_name": "¬𝖤φ¬φ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not expertise on formula φ and ¬φ"
+                    }
+                ]
+            }
+        },
+        "f09d96a45c7532303632cf86": {
+            "_surface": {
+                "text": "𝖤\\u2062φ",
+                "unicode_name": "𝖤\\u2062φ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise on formula φ"
+                    }
+                ]
+            }
+        },
+        "f09d96abf09d96b2f09d96a0": {
+            "_surface": {
+                "text": "𝖫𝖲𝖠",
+                "unicode_name": "𝖫𝖲𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logic of 𝖫 for ℒ𝖲𝖠 without axiom (ES)"
+                    }
+                ]
+            }
+        },
+        "f09d96b25c7532303632cf86": {
+            "_surface": {
+                "text": "𝖲\\u2062φ",
+                "unicode_name": "𝖲\\u2062φ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Soundness of formula φ"
+                    }
+                ]
+            }
+        },
+        "c2ace281a2f09d96a4e281a270": {
+            "_surface": {
+                "text": "¬⁢𝖤⁢p",
+                "unicode_name": "¬⁢𝖤⁢p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not an expert on health proposition p"
+                    }
+                ]
+            }
+        },
+        "c2ace281a2f09d96a4e281a272": {
+            "_surface": {
+                "text": "¬⁢𝖤⁢r",
+                "unicode_name": "¬⁢𝖤⁢r"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not an expert on economic recovery proposition"
+                    }
+                ]
+            }
+        },
+        "f09d96a4e281a2cf86e281a2cf88": {
+            "_surface": {
+                "text": "𝖤⁢φ⁢ψ",
+                "unicode_name": "𝖤⁢φ⁢ψ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise on formula φ and ψ"
+                    }
+                ]
+            }
+        },
+        "f09d96aff09d978bf09d9788f09d9789": {
+            "_surface": {
+                "text": "𝖯𝗋𝗈𝗉"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of propositions"
+                    }
+                ]
+            }
+        },
+        "c2ace281a2f09d96a4e281a272e281a270": {
+            "_surface": {
+                "text": "¬⁢𝖤⁢r⁢p",
+                "unicode_name": "¬⁢𝖤⁢r⁢p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not an expert on economic recovery and health proposition"
+                    }
+                ]
+            }
+        },
+        "c2ac5c7532303632f09d96a45c753230363270": {
+            "_surface": {
+                "text": "¬\\u2062𝖤\\u2062p",
+                "unicode_name": "¬\\u2062𝖤\\u2062p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not an expert on health proposition p"
+                    }
+                ]
+            }
+        },
+        "c2ac5c7532303632f09d96a45c753230363272": {
+            "_surface": {
+                "text": "¬\\u2062𝖤\\u2062r",
+                "unicode_name": "¬\\u2062𝖤\\u2062r"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not an expert on economic recovery proposition"
+                    }
+                ]
+            }
+        },
+        "c2ac5c7532303632f09d96a45c7532303632725c753230363270": {
+            "_surface": {
+                "text": "¬\\u2062𝖤\\u2062r\\u2062p",
+                "unicode_name": "¬\\u2062𝖤\\u2062r\\u2062p"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Not an expert on economic recovery and health proposition"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,3756 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transpose operator"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index a"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index b"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimensionality of weight matrices"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention weight"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index j"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index k"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimensionality of weight matrices"
+                    }
+                ]
+            }
+        },
+        "6f": {
+            "_surface": {
+                "text": "o",
+                "unicode_name": "LATIN SMALL LETTER O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sigmoid function"
+                    }
+                ]
+            }
+        },
+        "475255": {
+            "_surface": {
+                "text": "GRU",
+                "unicode_name": "GRU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gated Recurrent Unit"
+                    }
+                ]
+            }
+        },
+        "4d4c50": {
+            "_surface": {
+                "text": "MLP",
+                "unicode_name": "MLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multilayer perceptron"
+                    }
+                ]
+            }
+        },
+        "4e4c49": {
+            "_surface": {
+                "text": "NLI",
+                "unicode_name": "NLI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural Language Inference"
+                    }
+                ]
+            }
+        },
+        "4f4f56": {
+            "_surface": {
+                "text": "OOV",
+                "unicode_name": "OOV"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Out-of-vocabulary words"
+                    }
+                ]
+            }
+        },
+        "657870": {
+            "_surface": {
+                "text": "exp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Exponential function"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e28493": {
+            "_surface": {
+                "text": "ℓ",
+                "unicode_name": "SCRIPT SMALL L"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimensionality of embedding vector"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element-wise multiplication"
+                    }
+                ]
+            }
+        },
+        "436f5252": {
+            "_surface": {
+                "text": "CoRR",
+                "unicode_name": "CoRR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", abs/1409.0473, 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    },
+                    {
+                        "affixes": [
+                            ", abs/1508.01211, 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "4542494d": {
+            "_surface": {
+                "text": "EBIM",
+                "unicode_name": "EBIM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Enhanced BiLSTM Inference Model"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM",
+                "unicode_name": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "534e4c49": {
+            "_surface": {
+                "text": "SNLI",
+                "unicode_name": "SNLI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stanford Natural Language Inference"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    }
+                ]
+            }
+        },
+        "f09d9094": {
+            "_surface": {
+                "text": "𝐔",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix U"
+                    }
+                ]
+            }
+        },
+        "f09d9096": {
+            "_surface": {
+                "text": "𝐖",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix W"
+                    }
+                ]
+            }
+        },
+        "f09d909a": {
+            "_surface": {
+                "text": "𝐚",
+                "unicode_name": "MATHEMATICAL BOLD SMALL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Premise"
+                    }
+                ]
+            }
+        },
+        "f09d909b": {
+            "_surface": {
+                "text": "𝐛",
+                "unicode_name": "MATHEMATICAL BOLD SMALL B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hypothesis"
+                    }
+                ]
+            }
+        },
+        "f09d909c": {
+            "_surface": {
+                "text": "𝐜",
+                "unicode_name": "MATHEMATICAL BOLD SMALL C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory cell vector c"
+                    }
+                ]
+            }
+        },
+        "f09d909f": {
+            "_surface": {
+                "text": "𝐟",
+                "unicode_name": "MATHEMATICAL BOLD SMALL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forget gate vector f"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden state vector h"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index i"
+                    }
+                ]
+            }
+        },
+        "f09d90a5": {
+            "_surface": {
+                "text": "𝐥",
+                "unicode_name": "MATHEMATICAL BOLD SMALL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimensionality of embedding vector"
+                    }
+                ]
+            }
+        },
+        "f09d90a6": {
+            "_surface": {
+                "text": "𝐦",
+                "unicode_name": "MATHEMATICAL BOLD SMALL M"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90a8": {
+            "_surface": {
+                "text": "𝐨",
+                "unicode_name": "MATHEMATICAL BOLD SMALL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output gate vector o"
+                    }
+                ]
+            }
+        },
+        "f09d90ad": {
+            "_surface": {
+                "text": "𝐭",
+                "unicode_name": "MATHEMATICAL BOLD SMALL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word position t"
+                    }
+                ]
+            }
+        },
+        "f09d90ae": {
+            "_surface": {
+                "text": "𝐮",
+                "unicode_name": "MATHEMATICAL BOLD SMALL U"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90af": {
+            "_surface": {
+                "text": "𝐯",
+                "unicode_name": "MATHEMATICAL BOLD SMALL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vector v"
+                    }
+                ]
+            }
+        },
+        "f09d90b1": {
+            "_surface": {
+                "text": "𝐱",
+                "unicode_name": "MATHEMATICAL BOLD SMALL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vector x"
+                    }
+                ]
+            }
+        },
+        "f09d9199": {
+            "_surface": {
+                "text": "𝑙",
+                "unicode_name": "MATHEMATICAL ITALIC SMALL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimensionality of embedding vector"
+                    }
+                ]
+            }
+        },
+        "f09d91a6": {
+            "_surface": {
+                "text": "𝑦",
+                "unicode_name": "MATHEMATICAL ITALIC SMALL Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logic relationship between premise and hypothesis"
+                    }
+                ]
+            }
+        },
+        "38332e3625": {
+            "_surface": {
+                "text": "83.6%",
+                "unicode_name": "83.6%"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance after removing BiLSTM from soft alignment"
+                    }
+                ]
+            }
+        },
+        "38382e3125": {
+            "_surface": {
+                "text": "88.1%",
+                "unicode_name": "88.1%"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance after replacing syntactic tree-LSTM with full tree-LSTM"
+                    }
+                ]
+            }
+        },
+        "f09d909c7c": {
+            "_surface": {
+                "text": "𝐜|",
+                "unicode_name": "𝐜|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fixed-length vector obtained by pooling and concatenating the vectors"
+                    }
+                ]
+            }
+        },
+        "f09d90af7c": {
+            "_surface": {
+                "text": "𝐯|",
+                "unicode_name": "𝐯|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fixed-length vector obtained by pooling and concatenating the vectors"
+                    }
+                ]
+            }
+        },
+        "42694c53544d": {
+            "_surface": {
+                "text": "BiLSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional LSTM"
+                    }
+                ]
+            }
+        },
+        "496e2041434c": {
+            "_surface": {
+                "text": "In ACL",
+                "unicode_name": "In ACL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "4c697374656e": {
+            "_surface": {
+                "text": "Listen",
+                "unicode_name": "Listen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", attend and spell"
+                        ],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        },
+        "f09d909a7c7e": {
+            "_surface": {
+                "text": "𝐚|~",
+                "unicode_name": "𝐚|~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mimic vector"
+                    }
+                ]
+            }
+        },
+        "f09d909b7c7e": {
+            "_surface": {
+                "text": "𝐛|~",
+                "unicode_name": "𝐛|~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mimic vector"
+                    }
+                ]
+            }
+        },
+        "f09d90af7c31": {
+            "_surface": {
+                "text": "𝐯|1",
+                "unicode_name": "𝐯|1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",i|"
+                        ],
+                        "arity": 0,
+                        "description": "Vector obtained from BiLSTM for premise subcomponent inference"
+                    },
+                    {
+                        "affixes": [
+                            ",ave"
+                        ],
+                        "arity": 0,
+                        "description": "Average pooling vector for premise subcomponent inference"
+                    },
+                    {
+                        "affixes": [
+                            ",max"
+                        ],
+                        "arity": 0,
+                        "description": "Max pooling vector for premise subcomponent inference"
+                    }
+                ]
+            }
+        },
+        "f09d90af7c32": {
+            "_surface": {
+                "text": "𝐯|2",
+                "unicode_name": "𝐯|2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",j|"
+                        ],
+                        "arity": 0,
+                        "description": "Vector obtained from BiLSTM for hypothesis subcomponent inference"
+                    },
+                    {
+                        "affixes": [
+                            ",ave"
+                        ],
+                        "arity": 0,
+                        "description": "Average pooling vector for hypothesis subcomponent inference"
+                    },
+                    {
+                        "affixes": [
+                            ",max"
+                        ],
+                        "arity": 0,
+                        "description": "Max pooling vector for hypothesis subcomponent inference"
+                    }
+                ]
+            }
+        },
+        "496e204e495053": {
+            "_surface": {
+                "text": "In NIPS",
+                "unicode_name": "In NIPS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table showing model performance on SNLI dataset"
+                    }
+                ]
+            }
+        },
+        "5461626c652032": {
+            "_surface": {
+                "text": "Table 2",
+                "unicode_name": "Table 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table showing ablation performance of models"
+                    }
+                ]
+            }
+        },
+        "64726f706f7574": {
+            "_surface": {
+                "text": "dropout",
+                "unicode_name": "dropout"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Regularization technique for preventing overfitting"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax",
+                "unicode_name": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "766563746f7273": {
+            "_surface": {
+                "text": "vectors",
+                "unicode_name": "vectors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector representations"
+                    }
+                ]
+            }
+        },
+        "f09d909a7cc2af": {
+            "_surface": {
+                "text": "𝐚|¯",
+                "unicode_name": "𝐚|¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context dependent representation vector"
+                    }
+                ]
+            }
+        },
+        "f09d909b7cc2af": {
+            "_surface": {
+                "text": "𝐛|¯",
+                "unicode_name": "𝐛|¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context dependent representation vector"
+                    }
+                ]
+            }
+        },
+        "f09d909c7c747c": {
+            "_surface": {
+                "text": "𝐜|t|",
+                "unicode_name": "𝐜|t|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory cell at position t"
+                    }
+                ]
+            }
+        },
+        "f09d90a17c747c": {
+            "_surface": {
+                "text": "𝐡|t|",
+                "unicode_name": "𝐡|t|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden state at position t"
+                    }
+                ]
+            }
+        },
+        "f09d90a27c747c": {
+            "_surface": {
+                "text": "𝐢|t|",
+                "unicode_name": "𝐢|t|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input gate at position t"
+                    }
+                ]
+            }
+        },
+        "f09d90a87c747c": {
+            "_surface": {
+                "text": "𝐨|t|",
+                "unicode_name": "𝐨|t|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output gate at position t"
+                    }
+                ]
+            }
+        },
+        "f09d90ae7c747c": {
+            "_surface": {
+                "text": "𝐮|t|",
+                "unicode_name": "𝐮|t|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory cell at position t"
+                    }
+                ]
+            }
+        },
+        "f09d90b17c747c": {
+            "_surface": {
+                "text": "𝐱|t|",
+                "unicode_name": "𝐱|t|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vector at position t"
+                    }
+                ]
+            }
+        },
+        "4431342d31313632": {
+            "_surface": {
+                "text": "D14-1162",
+                "unicode_name": "D14-1162"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "496e20454d4e4c50": {
+            "_surface": {
+                "text": "In EMNLP",
+                "unicode_name": "In EMNLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "496e20494a434149": {
+            "_surface": {
+                "text": "In IJCAI",
+                "unicode_name": "In IJCAI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "656e73656d626c65": {
+            "_surface": {
+                "text": "ensemble",
+                "unicode_name": "ensemble"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Combining multiple models for better performance"
+                    }
+                ]
+            }
+        },
+        "f09d909a7c7e697c": {
+            "_surface": {
+                "text": "𝐚|~i|",
+                "unicode_name": "𝐚|~i|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mimic vector"
+                    }
+                ]
+            }
+        },
+        "f09d909af09d9196": {
+            "_surface": {
+                "text": "𝐚𝑖",
+                "unicode_name": "𝐚𝑖"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embedding of premise"
+                    }
+                ]
+            }
+        },
+        "f09d909b7c7e6a7c": {
+            "_surface": {
+                "text": "𝐛|~j|",
+                "unicode_name": "𝐛|~j|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mimic vector"
+                    }
+                ]
+            }
+        },
+        "f09d909bf09d9197": {
+            "_surface": {
+                "text": "𝐛𝑗",
+                "unicode_name": "𝐛𝑗"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embedding of hypothesis"
+                    }
+                ]
+            }
+        },
+        "f09d909f7c747c4c": {
+            "_surface": {
+                "text": "𝐟|t|L",
+                "unicode_name": "𝐟|t|L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Left forget gate at position t"
+                    }
+                ]
+            }
+        },
+        "f09d909f7c747c52": {
+            "_surface": {
+                "text": "𝐟|t|R",
+                "unicode_name": "𝐟|t|R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Right forget gate at position t"
+                    }
+                ]
+            }
+        },
+        "f09d90a67c7c617c": {
+            "_surface": {
+                "text": "𝐦||a|",
+                "unicode_name": "𝐦||a|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mimic vector"
+                    }
+                ]
+            }
+        },
+        "f09d90a67c7c627c": {
+            "_surface": {
+                "text": "𝐦||b|",
+                "unicode_name": "𝐦||b|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mimic vector"
+                    }
+                ]
+            }
+        },
+        "4b656c76696e205875": {
+            "_surface": {
+                "text": "Kelvin Xu",
+                "unicode_name": "Kelvin Xu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "5169616e204368656e": {
+            "_surface": {
+                "text": "Qian Chen",
+                "unicode_name": "Qian Chen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Xiao-Dan Zhu, Zhen-Hua Ling, Si Wei, and Hui Jiang"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "587520657420616c2e": {
+            "_surface": {
+                "text": "Xu et al.",
+                "unicode_name": "Xu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "73756d6d6174696f6e": {
+            "_surface": {
+                "text": "summation",
+                "unicode_name": "summation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adding the values together"
+                    }
+                ]
+            }
+        },
+        "74726565206e6f6465": {
+            "_surface": {
+                "text": "tree node",
+                "unicode_name": "tree node"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node in a tree"
+                    }
+                ]
+            }
+        },
+        "747265652d4c53544d": {
+            "_surface": {
+                "text": "tree-LSTM",
+                "unicode_name": "tree-LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tree-based Long Short-Term Memory"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tree structure for each sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binary tree-LSTM"
+                    }
+                ]
+            }
+        },
+        "f09d909a7cc2af697c": {
+            "_surface": {
+                "text": "𝐚|¯i|",
+                "unicode_name": "𝐚|¯i|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context dependent representation vector"
+                    }
+                ]
+            }
+        },
+        "f09d909a7ef09d90a2": {
+            "_surface": {
+                "text": "𝐚~𝐢",
+                "unicode_name": "𝐚~𝐢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized premise vector"
+                    }
+                ]
+            }
+        },
+        "f09d909b7cc2af6a7c": {
+            "_surface": {
+                "text": "𝐛|¯j|",
+                "unicode_name": "𝐛|¯j|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context dependent representation vector"
+                    }
+                ]
+            }
+        },
+        "f09d909b7ef09d90a3": {
+            "_surface": {
+                "text": "𝐛~𝐣",
+                "unicode_name": "𝐛~𝐣"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized hypothesis vector"
+                    }
+                ]
+            }
+        },
+        "424c45552073636f7265": {
+            "_surface": {
+                "text": "BLEU score",
+                "unicode_name": "BLEU score"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for machine translation"
+                    }
+                ]
+            }
+        },
+        "486f6e6779752047756f": {
+            "_surface": {
+                "text": "Hongyu Guo",
+                "unicode_name": "Hongyu Guo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "4a696e67204a69616e67": {
+            "_surface": {
+                "text": "Jing Jiang",
+                "unicode_name": "Jing Jiang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "4c697520657420616c2e": {
+            "_surface": {
+                "text": "Liu et al.",
+                "unicode_name": "Liu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4d6163436172746e6579": {
+            "_surface": {
+                "text": "MacCartney",
+                "unicode_name": "MacCartney"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2009"
+                        ],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "4d6f7520657420616c2e": {
+            "_surface": {
+                "text": "Mou et al.",
+                "unicode_name": "Mou et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "5279616e204b69726f73": {
+            "_surface": {
+                "text": "Ryan Kiros",
+                "unicode_name": "Ryan Kiros"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "587520657420616c2e20": {
+            "_surface": {
+                "text": "Xu et al. ",
+                "unicode_name": "Xu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2015]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "5a687520657420616c2e": {
+            "_surface": {
+                "text": "Zhu et al.",
+                "unicode_name": "Zhu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "f09d90a17c747c2d314c": {
+            "_surface": {
+                "text": "𝐡|t|-1L",
+                "unicode_name": "𝐡|t|-1L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden vector of left child at position t-1"
+                    }
+                ]
+            }
+        },
+        "f09d90a17c747c2d3152": {
+            "_surface": {
+                "text": "𝐡|t|-1R",
+                "unicode_name": "𝐡|t|-1R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden vector of right child at position t-1"
+                    }
+                ]
+            }
+        },
+        "4164616d206d6574686f64": {
+            "_surface": {
+                "text": "Adam method",
+                "unicode_name": "Adam method"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimization method for training"
+                    }
+                ]
+            }
+        },
+        "4368616e20657420616c2e": {
+            "_surface": {
+                "text": "Chan et al.",
+                "unicode_name": "Chan et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4368656e20657420616c2e": {
+            "_surface": {
+                "text": "Chen et al.",
+                "unicode_name": "Chen et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "436f6e636c7573696f6e73": {
+            "_surface": {
+                "text": "Conclusions",
+                "unicode_name": "Conclusions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section of the text discussing the findings"
+                    }
+                ]
+            }
+        },
+        "4542494d206d6f64656c20": {
+            "_surface": {
+                "text": "EBIM model ",
+                "unicode_name": "EBIM model "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(14)"
+                        ],
+                        "arity": 0,
+                        "description": "Enhanced BiLSTM Inference Model with model number 14"
+                    }
+                ]
+            }
+        },
+        "4571756174696f6e203230": {
+            "_surface": {
+                "text": "Equation 20",
+                "unicode_name": "Equation 20"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation for calculating input gate"
+                    }
+                ]
+            }
+        },
+        "4571756174696f6e203231": {
+            "_surface": {
+                "text": "Equation 21",
+                "unicode_name": "Equation 21"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation for calculating left forget gate"
+                    }
+                ]
+            }
+        },
+        "4571756174696f6e203232": {
+            "_surface": {
+                "text": "Equation 22",
+                "unicode_name": "Equation 22"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation for calculating right forget gate"
+                    }
+                ]
+            }
+        },
+        "4571756174696f6e203233": {
+            "_surface": {
+                "text": "Equation 23",
+                "unicode_name": "Equation 23"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation for calculating output gate"
+                    }
+                ]
+            }
+        },
+        "4571756174696f6e203234": {
+            "_surface": {
+                "text": "Equation 24",
+                "unicode_name": "Equation 24"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation for calculating memory cell"
+                    }
+                ]
+            }
+        },
+        "4571756174696f6e203235": {
+            "_surface": {
+                "text": "Equation 25",
+                "unicode_name": "Equation 25"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation for calculating hidden state"
+                    }
+                ]
+            }
+        },
+        "4571756174696f6e203236": {
+            "_surface": {
+                "text": "Equation 26",
+                "unicode_name": "Equation 26"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equation for calculating parent node hidden vector"
+                    }
+                ]
+            }
+        },
+        "5275736820657420616c2e": {
+            "_surface": {
+                "text": "Rush et al.",
+                "unicode_name": "Rush et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "5869616f64616e205a6875": {
+            "_surface": {
+                "text": "Xiaodan Zhu",
+                "unicode_name": "Xiaodan Zhu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "5a687520657420616c2e20": {
+            "_surface": {
+                "text": "Zhu et al. ",
+                "unicode_name": "Zhu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2015]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "6265737420726573756c74": {
+            "_surface": {
+                "text": "best result",
+                "unicode_name": "best result"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Highest performance achieved"
+                    }
+                ]
+            }
+        },
+        "6d617820706f6f6c696e67": {
+            "_surface": {
+                "text": "max pooling",
+                "unicode_name": "max pooling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pooling technique for selecting maximum values from vectors"
+                    }
+                ]
+            }
+        },
+        "706172656e74206e6f6465": {
+            "_surface": {
+                "text": "parent node",
+                "unicode_name": "parent node"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node formed by merging two adjacent words"
+                    }
+                ]
+            }
+        },
+        "42696e6172697a6174696f6e": {
+            "_surface": {
+                "text": "Binarization",
+                "unicode_name": "Binarization"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of converting non-binary tree into a binary tree"
+                    }
+                ]
+            }
+        },
+        "4368616e20657420616c2e20": {
+            "_surface": {
+                "text": "Chan et al. ",
+                "unicode_name": "Chan et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2015]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4368656e20657420616c2e20": {
+            "_surface": {
+                "text": "Chen et al. ",
+                "unicode_name": "Chen et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2016]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4368656e6720657420616c2e": {
+            "_surface": {
+                "text": "Cheng et al.",
+                "unicode_name": "Cheng et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4c6569204a696d6d79204261": {
+            "_surface": {
+                "text": "Lei Jimmy Ba",
+                "unicode_name": "Lei Jimmy Ba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "534e4c492064617461736574": {
+            "_surface": {
+                "text": "SNLI dataset",
+                "unicode_name": "SNLI dataset"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for natural language inference"
+                    }
+                ]
+            }
+        },
+        "57696c6c69616d204368616e": {
+            "_surface": {
+                "text": "William Chan",
+                "unicode_name": "William Chan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Navdeep Jaitly, Quoc Viet Le, and Oriol Vinyals"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "426f776d616e20657420616c2e": {
+            "_surface": {
+                "text": "Bowman et al.",
+                "unicode_name": "Bowman et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4368656e6720657420616c2e20": {
+            "_surface": {
+                "text": "Cheng et al. ",
+                "unicode_name": "Cheng et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2016]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4a616e2043686f726f77736b69": {
+            "_surface": {
+                "text": "Jan Chorowski",
+                "unicode_name": "Jan Chorowski"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Dzmitry Bahdanau, Dmitriy Serdyuk, KyungHyun Cho, and Yoshua Bengio"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4b696e676d6120616e64204261": {
+            "_surface": {
+                "text": "Kingma and Ba",
+                "unicode_name": "Kingma and Ba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4b79756e674879756e2043686f": {
+            "_surface": {
+                "text": "KyungHyun Cho",
+                "unicode_name": "KyungHyun Cho"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "506172696b6820657420616c2e": {
+            "_surface": {
+                "text": "Parikh et al.",
+                "unicode_name": "Parikh et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "5368756f68616e672057616e67": {
+            "_surface": {
+                "text": "Shuohang Wang",
+                "unicode_name": "Shuohang Wang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "596f736875612042656e67696f": {
+            "_surface": {
+                "text": "Yoshua Bengio",
+                "unicode_name": "Yoshua Bengio"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "6162732f313431322e36393830": {
+            "_surface": {
+                "text": "abs/1412.6980",
+                "unicode_name": "abs/1412.6980"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "70616464696e6720776f726473": {
+            "_surface": {
+                "text": "padding words",
+                "unicode_name": "padding words"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Words inserted in nodes when there are not enough leaves to form a full tree"
+                    }
+                ]
+            }
+        },
+        "426f776d616e20657420616c2e20": {
+            "_surface": {
+                "text": "Bowman et al. ",
+                "unicode_name": "Bowman et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2015]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    },
+                    {
+                        "affixes": [
+                            "[2016]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4a69616e70656e67204368656e67": {
+            "_surface": {
+                "text": "Jianpeng Cheng",
+                "unicode_name": "Jianpeng Cheng"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Li Dong, and Mirella Lapata"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4b696e676d6120616e6420426120": {
+            "_surface": {
+                "text": "Kingma and Ba ",
+                "unicode_name": "Kingma and Ba "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2014]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "534e4c492062656e63686d61726b": {
+            "_surface": {
+                "text": "SNLI benchmark",
+                "unicode_name": "SNLI benchmark"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark dataset for natural language inference"
+                    }
+                ]
+            }
+        },
+        "56656e64726f7620657420616c2e": {
+            "_surface": {
+                "text": "Vendrov et al.",
+                "unicode_name": "Vendrov et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "57616e6720616e64204a69616e67": {
+            "_surface": {
+                "text": "Wang and Jiang",
+                "unicode_name": "Wang and Jiang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "6162732f313530392e3036363634": {
+            "_surface": {
+                "text": "abs/1509.06664",
+                "unicode_name": "abs/1509.06664"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "6162732f313531312e3036333631": {
+            "_surface": {
+                "text": "abs/1511.06361",
+                "unicode_name": "abs/1511.06361"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "6162732f313630352e3039303930": {
+            "_surface": {
+                "text": "abs/1605.09090",
+                "unicode_name": "abs/1605.09090"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "6162732f313630362e3031393333": {
+            "_surface": {
+                "text": "abs/1606.01933",
+                "unicode_name": "abs/1606.01933"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "6162732f313630372e3034333135": {
+            "_surface": {
+                "text": "abs/1607.04315",
+                "unicode_name": "abs/1607.04315"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "6162732f313630372e3034343932": {
+            "_surface": {
+                "text": "abs/1607.04492",
+                "unicode_name": "abs/1607.04492"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "61646a6163656e7420776f726473": {
+            "_surface": {
+                "text": "adjacent words",
+                "unicode_name": "adjacent words"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Two words in a sentence that are next to each other"
+                    }
+                ]
+            }
+        },
+        "66756c6c20747265652d4c53544d": {
+            "_surface": {
+                "text": "full tree-LSTM",
+                "unicode_name": "full tree-LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tree-based Long Short-Term Memory without encoding parsing information"
+                    }
+                ]
+            }
+        },
+        "736f667420616c69676e6d656e74": {
+            "_surface": {
+                "text": "soft alignment",
+                "unicode_name": "soft alignment"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alignment between two sequences"
+                    }
+                ]
+            }
+        },
+        "747265652d626173656420434e4e": {
+            "_surface": {
+                "text": "tree-based CNN",
+                "unicode_name": "tree-based CNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Convolutional Neural Network for tree-based data"
+                    }
+                ]
+            }
+        },
+        "f09d909a7cc2af2df09d909a7c7e": {
+            "_surface": {
+                "text": "𝐚|¯-𝐚|~",
+                "unicode_name": "𝐚|¯-𝐚|~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference between context dependent representation vector and mimic vector"
+                    }
+                ]
+            }
+        },
+        "f09d909b7cc2af2df09d909b7c7e": {
+            "_surface": {
+                "text": "𝐛|¯-𝐛|~",
+                "unicode_name": "𝐛|¯-𝐛|~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference between context dependent representation vector and mimic vector"
+                    }
+                ]
+            }
+        },
+        "42616864616e617520657420616c2e": {
+            "_surface": {
+                "text": "Bahdanau et al.",
+                "unicode_name": "Bahdanau et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "506172696e617a20536f6268616e69": {
+            "_surface": {
+                "text": "Parinaz Sobhani",
+                "unicode_name": "Parinaz Sobhani"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "57616e6720616e64204a69616e6720": {
+            "_surface": {
+                "text": "Wang and Jiang ",
+                "unicode_name": "Wang and Jiang "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2015]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "6176657261676520706f6f6c696e67": {
+            "_surface": {
+                "text": "average pooling",
+                "unicode_name": "average pooling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pooling technique for summarizing vectors"
+                    }
+                ]
+            }
+        },
+        "696e7472612d617474656e74696f6e": {
+            "_surface": {
+                "text": "intra-attention",
+                "unicode_name": "intra-attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention mechanism within a single sequence"
+                    }
+                ]
+            }
+        },
+        "747265652d4c53544d20626c6f636b": {
+            "_surface": {
+                "text": "tree-LSTM block",
+                "unicode_name": "tree-LSTM block"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Implementation of a tree node using a tree-LSTM"
+                    }
+                ]
+            }
+        },
+        "776f726420656d62656464696e6773": {
+            "_surface": {
+                "text": "word embeddings",
+                "unicode_name": "word embeddings"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector representations of words"
+                    }
+                ]
+            }
+        },
+        "42616864616e617520657420616c2e20": {
+            "_surface": {
+                "text": "Bahdanau et al. ",
+                "unicode_name": "Bahdanau et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2014]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "42696e61727920747265652d4c53544d": {
+            "_surface": {
+                "text": "Binary tree-LSTM",
+                "unicode_name": "Binary tree-LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tree structure for each sentence"
+                    }
+                ]
+            }
+        },
+        "43686f726f77736b6920657420616c2e": {
+            "_surface": {
+                "text": "Chorowski et al.",
+                "unicode_name": "Chorowski et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "447a6d697472792042616864616e6175": {
+            "_surface": {
+                "text": "Dzmitry Bahdanau",
+                "unicode_name": "Dzmitry Bahdanau"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", KyungHyun Cho, and Yoshua Bengio"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "5269636861726420532e205a656d656c": {
+            "_surface": {
+                "text": "Richard S. Zemel",
+                "unicode_name": "Richard S. Zemel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "53616d75656c20522e20426f776d616e": {
+            "_surface": {
+                "text": "Samuel R. Bowman",
+                "unicode_name": "Samuel R. Bowman"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Gabor Angeli, Christopher Potts, and Christopher D. Manning"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    },
+                    {
+                        "affixes": [
+                            ", Jon Gauthier, Abhinav Rastogi, Raghav Gupta, Christopher D. Manning, and Christopher Potts"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "66756c6c2062696e6172792074726565": {
+            "_surface": {
+                "text": "full binary tree",
+                "unicode_name": "full binary tree"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binary tree where each node has either 0 or 2 children"
+                    }
+                ]
+            }
+        },
+        "6e2d6172792074726565206d6f64656c": {
+            "_surface": {
+                "text": "n-ary tree model",
+                "unicode_name": "n-ary tree model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for full n-ary trees"
+                    }
+                ]
+            }
+        },
+        "f09d909a7cc2afe28a99f09d909a7c7e": {
+            "_surface": {
+                "text": "𝐚|¯⊙𝐚|~",
+                "unicode_name": "𝐚|¯⊙𝐚|~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element-wise multiplication between context dependent representation vector and mimic vector"
+                    }
+                ]
+            }
+        },
+        "f09d909b7cc2afe28a99f09d909b7c7e": {
+            "_surface": {
+                "text": "𝐛|¯⊙𝐛|~",
+                "unicode_name": "𝐛|¯⊙𝐛|~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element-wise multiplication between context dependent representation vector and mimic vector"
+                    }
+                ]
+            }
+        },
+        "43686f726f77736b6920657420616c2e20": {
+            "_surface": {
+                "text": "Chorowski et al. ",
+                "unicode_name": "Chorowski et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2015]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4b6c65696e20616e64204d616e6e696e67": {
+            "_surface": {
+                "text": "Klein and Manning",
+                "unicode_name": "Klein and Manning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2003"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4d756e6b6864616c616920616e64205975": {
+            "_surface": {
+                "text": "Munkhdalai and Yu",
+                "unicode_name": "Munkhdalai and Yu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016b"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2016a"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "50656e6e696e67746f6e20657420616c2e": {
+            "_surface": {
+                "text": "Pennington et al.",
+                "unicode_name": "Pennington et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4161726f6e20432e20436f757276696c6c65": {
+            "_surface": {
+                "text": "Aaron C. Courville",
+                "unicode_name": "Aaron C. Courville"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "476c6f7665203834304220766563746f7273": {
+            "_surface": {
+                "text": "Glove 840B vectors",
+                "unicode_name": "Glove 840B vectors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained word embeddings"
+                    }
+                ]
+            }
+        },
+        "4e657572616c20436f6d7075746174696f6e": {
+            "_surface": {
+                "text": "Neural Computation",
+                "unicode_name": "Neural Computation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", (8):1735–1780, 1997"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "726f6f742068696464656e20737461746573": {
+            "_surface": {
+                "text": "root hidden states",
+                "unicode_name": "root hidden states"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states of the root node in a tree-LSTM"
+                    }
+                ]
+            }
+        },
+        "76657279207374726f6e672073797374656d": {
+            "_surface": {
+                "text": "very strong system",
+                "unicode_name": "very strong system"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model with high performance"
+                    }
+                ]
+            }
+        },
+        "4261726b657220616e64204a61636f62736f6e": {
+            "_surface": {
+                "text": "Barker and Jacobson",
+                "unicode_name": "Barker and Jacobson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2007"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "526f636b74c3a4736368656c20657420616c2e": {
+            "_surface": {
+                "text": "Rocktäschel et al.",
+                "unicode_name": "Rocktäschel et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "636f6e7374697475656e637920706172736572": {
+            "_surface": {
+                "text": "constituency parser",
+                "unicode_name": "constituency parser"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Producer of tree structure for each sentence"
+                    }
+                ]
+            }
+        },
+        "73796e74616374696320747265652d4c53544d": {
+            "_surface": {
+                "text": "syntactic tree-LSTM",
+                "unicode_name": "syntactic tree-LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tree-based Long Short-Term Memory with syntactic information"
+                    }
+                ]
+            }
+        },
+        "747261696e20616e6420746573742064617461": {
+            "_surface": {
+                "text": "train and test data",
+                "unicode_name": "train and test data"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for training and testing"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training and testing dataset"
+                    }
+                ]
+            }
+        },
+        "4261726b657220616e64204a61636f62736f6e20": {
+            "_surface": {
+                "text": "Barker and Jacobson ",
+                "unicode_name": "Barker and Jacobson "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[2007]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "5275736c616e2053616c616b68757464696e6f76": {
+            "_surface": {
+                "text": "Ruslan Salakhutdinov",
+                "unicode_name": "Ruslan Salakhutdinov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "696e666572656e636520636f6d706f736974696f6e": {
+            "_surface": {
+                "text": "inference composition",
+                "unicode_name": "inference composition"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Combining information in the inference step"
+                    }
+                ]
+            }
+        },
+        "6e657572616c206e6574776f726b206d6f64656c73": {
+            "_surface": {
+                "text": "neural network models",
+                "unicode_name": "neural network models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Models based on neural networks"
+                    }
+                ]
+            }
+        },
+        "72656375727369766520636f6d706f736974696f6e": {
+            "_surface": {
+                "text": "recursive composition",
+                "unicode_name": "recursive composition"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Combining information recursively"
+                    }
+                ]
+            }
+        },
+        "73796e74616374696320696e666f726d6174696f6e": {
+            "_surface": {
+                "text": "syntactic information",
+                "unicode_name": "syntactic information"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information related to sentence structure"
+                    }
+                ]
+            }
+        },
+        "4c6f6e672073686f72742d7465726d206d656d6f7279": {
+            "_surface": {
+                "text": "Long short-term memory",
+                "unicode_name": "Long short-term memory"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        },
+        "4d6163436172746e657920616e64204d616e6e696e67": {
+            "_surface": {
+                "text": "MacCartney and Manning",
+                "unicode_name": "MacCartney and Manning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2008"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "737562636f6d706f6e656e7420696e666572656e6365": {
+            "_surface": {
+                "text": "subcomponent inference",
+                "unicode_name": "subcomponent inference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inference at the subcomponent level"
+                    }
+                ]
+            }
+        },
+        "44697265637420436f6d706f736974696f6e616c697479": {
+            "_surface": {
+                "text": "Direct Compositionality",
+                "unicode_name": "Direct Compositionality"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a book"
+                    }
+                ]
+            }
+        },
+        "4f78666f726420556e6976657273697479205072657373": {
+            "_surface": {
+                "text": "Oxford University Press",
+                "unicode_name": "Oxford University Press"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2007"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a book"
+                    }
+                ]
+            }
+        },
+        "636c617373696669636174696f6e206163637572616379": {
+            "_surface": {
+                "text": "classification accuracy",
+                "unicode_name": "classification accuracy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for model performance"
+                    }
+                ]
+            }
+        },
+        "7265637572736976652061726368697465637475726573": {
+            "_surface": {
+                "text": "recursive architectures",
+                "unicode_name": "recursive architectures"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Architectures that involve recursive operations"
+                    }
+                ]
+            }
+        },
+        "496e707574206761746520617420706f736974696f6e2074": {
+            "_surface": {
+                "text": "Input gate at position t",
+                "unicode_name": "Input gate at position t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input gate at position t"
+                    }
+                ]
+            }
+        },
+        "4d656d6f72792063656c6c20617420706f736974696f6e2074": {
+            "_surface": {
+                "text": "Memory cell at position t",
+                "unicode_name": "Memory cell at position t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory cell at position t"
+                    }
+                ]
+            }
+        },
+        "4f7574707574206761746520617420706f736974696f6e2074": {
+            "_surface": {
+                "text": "Output gate at position t",
+                "unicode_name": "Output gate at position t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output gate at position t"
+                    }
+                ]
+            }
+        },
+        "48696464656e20737461746520617420706f736974696f6e2074": {
+            "_surface": {
+                "text": "Hidden state at position t",
+                "unicode_name": "Hidden state at position t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden state at position t"
+                    }
+                ]
+            }
+        },
+        "496e70757420766563746f7220617420706f736974696f6e2074": {
+            "_surface": {
+                "text": "Input vector at position t",
+                "unicode_name": "Input vector at position t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vector at position t"
+                    }
+                ]
+            }
+        },
+        "73657175656e7469616c20696e666572656e6365206d6f64656c": {
+            "_surface": {
+                "text": "sequential inference model",
+                "unicode_name": "sequential inference model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model that processes sentences sequentially"
+                    }
+                ]
+            }
+        },
+        "486f636872656974657220616e64205363686d6964687562657220": {
+            "_surface": {
+                "text": "Hochreiter and Schmidhuber ",
+                "unicode_name": "Hochreiter and Schmidhuber "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[1997]"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "666565642d666f7277617264206e657572616c206e6574776f726b": {
+            "_surface": {
+                "text": "feed-forward neural network",
+                "unicode_name": "feed-forward neural network"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural network without recurrent connections"
+                    }
+                ]
+            }
+        },
+        "6e61747572616c206c616e677561676520696e666572656e636520": {
+            "_surface": {
+                "text": "natural language inference ",
+                "unicode_name": "natural language inference "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(NLI) problem"
+                        ],
+                        "arity": 0,
+                        "description": "Problem of determining the logical relationship between two sentences"
+                    }
+                ]
+            }
+        },
+        "6465636f6d706f7361626c6520617474656e74696f6e206d6f64656c": {
+            "_surface": {
+                "text": "decomposable attention model",
+                "unicode_name": "decomposable attention model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention model without word-order information"
+                    }
+                ]
+            }
+        },
+        "73657175656e7469616c204c53544d2d6261736564206d6f64656c73": {
+            "_surface": {
+                "text": "sequential LSTM-based models",
+                "unicode_name": "sequential LSTM-based models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Models based on LSTM that process sequences sequentially"
+                    }
+                ]
+            }
+        },
+        "66696e616c206176657261676520616e64206d617820706f6f6c696e67": {
+            "_surface": {
+                "text": "final average and max pooling",
+                "unicode_name": "final average and max pooling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pooling technique used in the model"
+                    }
+                ]
+            }
+        },
+        "4c65667420666f72676574206761746520617420706f736974696f6e2074": {
+            "_surface": {
+                "text": "Left forget gate at position t",
+                "unicode_name": "Left forget gate at position t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Left forget gate at position t"
+                    }
+                ]
+            }
+        },
+        "6d756c74692d636c6173732063726f73732d656e74726f7079206c6f7373": {
+            "_surface": {
+                "text": "multi-class cross-entropy loss",
+                "unicode_name": "multi-class cross-entropy loss"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function for multi-class classification"
+                    }
+                ]
+            }
+        },
+        "526967687420666f72676574206761746520617420706f736974696f6e2074": {
+            "_surface": {
+                "text": "Right forget gate at position t",
+                "unicode_name": "Right forget gate at position t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Right forget gate at position t"
+                    }
+                ]
+            }
+        },
+        "6172586976207072657072696e742061725869763a313630312e3036373333": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:1601.06733",
+                "unicode_name": "arXiv preprint arXiv:1601.06733"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Publication details of a paper"
+                    }
+                ]
+            }
+        },
+        "456e68616e6365642042694c53544d20496e666572656e6365204d6f64656c20": {
+            "_surface": {
+                "text": "Enhanced BiLSTM Inference Model ",
+                "unicode_name": "Enhanced BiLSTM Inference Model "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(EBIM)"
+                        ],
+                        "arity": 0,
+                        "description": "Name of the model"
+                    }
+                ]
+            }
+        },
+        "532e20486f636872656974657220616e64204a2e205363686d69646875626572": {
+            "_surface": {
+                "text": "S. Hochreiter and J. Schmidhuber",
+                "unicode_name": "S. Hochreiter and J. Schmidhuber"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "646976657273697479206265747765656e207468652074776f206d6f64656c73": {
+            "_surface": {
+                "text": "diversity between the two models",
+                "unicode_name": "diversity between the two models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in predictions between two models"
+                    }
+                ]
+            }
+        },
+        "4368726973204261726b657220616e64205061756c696e65204a61636f62736f6e": {
+            "_surface": {
+                "text": "Chris Barker and Pauline Jacobson",
+                "unicode_name": "Chris Barker and Pauline Jacobson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "44696d656e73696f6e616c697479206f6620776569676874206d61747269636573": {
+            "_surface": {
+                "text": "Dimensionality of weight matrices",
+                "unicode_name": "Dimensionality of weight matrices"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimensionality of weight matrices"
+                    }
+                ]
+            }
+        },
+        "44696d656e73696f6e616c697479206f6620656d62656464696e6720766563746f72": {
+            "_surface": {
+                "text": "Dimensionality of embedding vector",
+                "unicode_name": "Dimensionality of embedding vector"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimensionality of embedding vector"
+                    }
+                ]
+            }
+        },
+        "446965646572696b20502e204b696e676d6120616e64204c6569204a696d6d79204261": {
+            "_surface": {
+                "text": "Diederik P. Kingma and Lei Jimmy Ba",
+                "unicode_name": "Diederik P. Kingma and Lei Jimmy Ba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "646966666572656e636520616e6420656c656d656e742d776973652070726f64756374": {
+            "_surface": {
+                "text": "difference and element-wise product",
+                "unicode_name": "difference and element-wise product"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operations used in subcomponent inference collection"
+                    }
+                ]
+            }
+        },
+        "696e7465722d73656e74656e636520617474656e74696f6e2d6261736564206d6f64656c": {
+            "_surface": {
+                "text": "inter-sentence attention-based model",
+                "unicode_name": "inter-sentence attention-based model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model focusing on attention between sentences"
+                    }
+                ]
+            }
+        },
+        "696e636f72706f726174696e672073796e74616374696320706172736520696e666f726d6174696f6e": {
+            "_surface": {
+                "text": "incorporating syntactic parse information",
+                "unicode_name": "incorporating syntactic parse information"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adding syntactic parse information to the model"
+                    }
+                ]
+            }
+        },
+        "4164616d3a2041206d6574686f6420666f722073746f63686173746963206f7074696d697a6174696f6e": {
+            "_surface": {
+                "text": "Adam: A method for stochastic optimization",
+                "unicode_name": "Adam: A method for stochastic optimization"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        },
+        "64657369676e696e6720646966666572656e74207479706573206f66206d656d6f727920626c6f636b73": {
+            "_surface": {
+                "text": "designing different types of memory blocks",
+                "unicode_name": "designing different types of memory blocks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Creating memory blocks based on tree node topology"
+                    }
+                ]
+            }
+        },
+        "48696464656e20766563746f72206f66206c656674206368696c6420617420706f736974696f6e20742d31": {
+            "_surface": {
+                "text": "Hidden vector of left child at position t-1",
+                "unicode_name": "Hidden vector of left child at position t-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden vector of left child at position t-1"
+                    }
+                ]
+            }
+        },
+        "48696464656e20766563746f72206f66207269676874206368696c6420617420706f736974696f6e20742d31": {
+            "_surface": {
+                "text": "Hidden vector of right child at position t-1",
+                "unicode_name": "Hidden vector of right child at position t-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden vector of right child at position t-1"
+                    }
+                ]
+            }
+        },
+        "417474656e74696f6e2d6261736564206d6f64656c7320666f7220737065656368207265636f676e6974696f6e": {
+            "_surface": {
+                "text": "Attention-based models for speech recognition",
+                "unicode_name": "Attention-based models for speech recognition"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        },
+        "6578706c696369746c7920636f6e7369646572696e67207265637572736976652061726368697465637475726573": {
+            "_surface": {
+                "text": "explicitly considering recursive architectures",
+                "unicode_name": "explicitly considering recursive architectures"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Taking into account architectures that involve recursion"
+                    }
+                ]
+            }
+        },
+        "537461636b2d6175676d656e746564205061727365722d496e746572707265746572204e657572616c204e6574776f726b20": {
+            "_surface": {
+                "text": "Stack-augmented Parser-Interpreter Neural Network ",
+                "unicode_name": "Stack-augmented Parser-Interpreter Neural Network "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(SPINN)"
+                        ],
+                        "arity": 0,
+                        "description": "Model combining parsing and interpretation"
+                    }
+                ]
+            }
+        },
+        "4c6f6e672073686f72742d7465726d206d656d6f72792d6e6574776f726b7320666f72206d616368696e652072656164696e67": {
+            "_surface": {
+                "text": "Long short-term memory-networks for machine reading",
+                "unicode_name": "Long short-term memory-networks for machine reading"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        },
+        "4469737472616374696f6e2d6261736564206e657572616c206e6574776f726b7320666f72206d6f64656c696e6720646f63756d656e74": {
+            "_surface": {
+                "text": "Distraction-based neural networks for modeling document",
+                "unicode_name": "Distraction-based neural networks for modeling document"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        },
+        "41206661737420756e6966696564206d6f64656c20666f722070617273696e6720616e642073656e74656e636520756e6465727374616e64696e67": {
+            "_surface": {
+                "text": "A fast unified model for parsing and sentence understanding",
+                "unicode_name": "A fast unified model for parsing and sentence understanding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        },
+        "41206c6172676520616e6e6f746174656420636f7270757320666f72206c6561726e696e67206e61747572616c206c616e677561676520696e666572656e6365": {
+            "_surface": {
+                "text": "A large annotated corpus for learning natural language inference",
+                "unicode_name": "A large annotated corpus for learning natural language inference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        },
+        "4e657572616c206d616368696e65207472616e736c6174696f6e206279206a6f696e746c79206c6561726e696e6720746f20616c69676e20616e64207472616e736c617465": {
+            "_surface": {
+                "text": "Neural machine translation by jointly learning to align and translate",
+                "unicode_name": "Neural machine translation by jointly learning to align and translate"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of a paper"
+                    }
+                ]
+            }
+        }
+    }
+}

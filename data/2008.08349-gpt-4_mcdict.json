@@ -1,0 +1,1226 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Anchor set"
+                    }
+                ]
+            }
+        },
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Clique in a graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximal clique in the graph G"
+                    },
+                    {
+                        "affixes": [
+                            "_m_a_x"
+                        ],
+                        "arity": 0,
+                        "description": "Maximal clique in G"
+                    },
+                    {
+                        "affixes": [
+                            "_+"
+                        ],
+                        "arity": 0,
+                        "description": "New arising maximal clique C_+"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dominating set of a graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domination polynomial"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of edges in a graph"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chordal graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cograph"
+                    },
+                    {
+                        "affixes": [
+                            "_v_i_+1_…_v_n"
+                        ],
+                        "arity": 0,
+                        "description": "Graph with vertices v_i_+1, …, v_n"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Indices of vertices"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subdivision of a graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Single vertex graph"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of the periphery"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Different possibilities of M"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Periphery set"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighborhood of a vertex or a set of vertices"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set in the local neighborhood 𝒩"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Path on four vertices"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Periphery of a clique"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Periphery polynomial"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unique path in the host tree to all ℓ leaves"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Periphery polynomial of G"
+                    },
+                    {
+                        "affixes": [
+                            "_G_+_C_+"
+                        ],
+                        "arity": 0,
+                        "description": "Periphery polynomial of G_+_C_+"
+                    },
+                    {
+                        "affixes": [
+                            "_G_+_C_m_a_x"
+                        ],
+                        "arity": 0,
+                        "description": "Periphery polynomial of G_+_C_m_a_x"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Path"
+                    },
+                    {
+                        "affixes": [
+                            "_C"
+                        ],
+                        "arity": 0,
+                        "description": "Unknown"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Split graph"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Host tree"
+                    },
+                    {
+                        "affixes": [
+                            "_w"
+                        ],
+                        "arity": 0,
+                        "description": "Tree representing w in the subtree configuration"
+                    }
+                ]
+            }
+        },
+        "55": {
+            "_surface": {
+                "text": "U",
+                "unicode_name": "LATIN CAPITAL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of vertices of a graph"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of vertices in a graph"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of vertices in a graph"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "All subsets Y⊆V"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of the anchor set A"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of the clique C"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Element of the clique C"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Element of the clique C"
+                    },
+                    {
+                        "affixes": [
+                            "_k"
+                        ],
+                        "arity": 0,
+                        "description": "Element of the clique C"
+                    },
+                    {
+                        "affixes": [
+                            "_m"
+                        ],
+                        "arity": 0,
+                        "description": "Element of the clique C"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance function"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fixed integer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Degree of a vertex in a graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Anchor width of a graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cardinality of a set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of a dominating set"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of a clique"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of vertices in a graph"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unknown"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unknown"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex in a graph"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex in the clique C"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex in a graph"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Vertex representing M on P_i"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Vertex in the graph"
+                    },
+                    {
+                        "affixes": [
+                            "_C"
+                        ],
+                        "arity": 0,
+                        "description": "Vertex in the host tree which corresponds to the clique C of G"
+                    },
+                    {
+                        "affixes": [
+                            "_c"
+                        ],
+                        "arity": 0,
+                        "description": "Unknown"
+                    },
+                    {
+                        "affixes": [
+                            "_w"
+                        ],
+                        "arity": 0,
+                        "description": "Closest vertex v_w to v_C on the path P_i of the corresponding tree T_w"
+                    },
+                    {
+                        "affixes": [
+                            "_ℓ"
+                        ],
+                        "arity": 0,
+                        "description": "Unknown"
+                    },
+                    {
+                        "affixes": [
+                            "_-m"
+                        ],
+                        "arity": 0,
+                        "description": "Vertex in the graph"
+                    },
+                    {
+                        "affixes": [
+                            "_0"
+                        ],
+                        "arity": 0,
+                        "description": "Vertex in the graph"
+                    },
+                    {
+                        "affixes": [
+                            "_m"
+                        ],
+                        "arity": 0,
+                        "description": "Vertex in the graph"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element from the periphery"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable in a polynomial"
+                    }
+                ]
+            }
+        },
+        "7b": {
+            "_surface": {
+                "text": "{",
+                "unicode_name": "LEFT CURLY BRACKET"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "436d": {
+            "_surface": {
+                "text": "Cm",
+                "unicode_name": "Cm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Clique in the graph with vertices in m"
+                    }
+                ]
+            }
+        },
+        "4531": {
+            "_surface": {
+                "text": "E1",
+                "unicode_name": "E1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of edges in the first graph"
+                    }
+                ]
+            }
+        },
+        "4532": {
+            "_surface": {
+                "text": "E2",
+                "unicode_name": "E2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of edges in the second graph"
+                    }
+                ]
+            }
+        },
+        "4731": {
+            "_surface": {
+                "text": "G1",
+                "unicode_name": "G1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First graph"
+                    }
+                ]
+            }
+        },
+        "4732": {
+            "_surface": {
+                "text": "G2",
+                "unicode_name": "G2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second graph"
+                    }
+                ]
+            }
+        },
+        "5031": {
+            "_surface": {
+                "text": "P1",
+                "unicode_name": "P1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First proposition"
+                    }
+                ]
+            }
+        },
+        "5032": {
+            "_surface": {
+                "text": "P2",
+                "unicode_name": "P2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second proposition"
+                    }
+                ]
+            }
+        },
+        "5631": {
+            "_surface": {
+                "text": "V1",
+                "unicode_name": "V1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of vertices in the first graph"
+                    }
+                ]
+            }
+        },
+        "5632": {
+            "_surface": {
+                "text": "V2",
+                "unicode_name": "V2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of vertices in the second graph"
+                    }
+                ]
+            }
+        },
+        "7631": {
+            "_surface": {
+                "text": "v1",
+                "unicode_name": "v1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex in the first graph"
+                    }
+                ]
+            }
+        },
+        "7632": {
+            "_surface": {
+                "text": "v2",
+                "unicode_name": "v2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex in the second graph"
+                    }
+                ]
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function in the proposition"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Function in G"
+                    }
+                ]
+            }
+        },
+        "617267": {
+            "_surface": {
+                "text": "arg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Argument function"
+                    }
+                ]
+            }
+        },
+        "646567": {
+            "_surface": {
+                "text": "deg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Degree of a vertex"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum function"
+                    }
+                ]
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Minimum function"
+                    }
+                ]
+            }
+        },
+        "e28493": {
+            "_surface": {
+                "text": "ℓ",
+                "unicode_name": "SCRIPT SMALL L"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leafage of a graph"
+                    }
+                ]
+            }
+        },
+        "e28495": {
+            "_surface": {
+                "text": "ℕ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of natural numbers"
+                    }
+                ]
+            }
+        },
+        "e284b1": {
+            "_surface": {
+                "text": "ℱ",
+                "unicode_name": "SCRIPT CAPITAL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of sets"
+                    }
+                ]
+            }
+        },
+        "e28885": {
+            "_surface": {
+                "text": "∅",
+                "unicode_name": "EMPTY SET"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Empty set"
+                    }
+                ]
+            }
+        },
+        "e289ba": {
+            "_surface": {
+                "text": "≺",
+                "unicode_name": "PRECEDES"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Less than symbol"
+                    }
+                ]
+            }
+        },
+        "436d6178": {
+            "_surface": {
+                "text": "Cmax",
+                "unicode_name": "Cmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximal clique containing C"
+                    }
+                ]
+            }
+        },
+        "f09d929c": {
+            "_surface": {
+                "text": "𝒜",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of all anchor sets of a clique"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of all anchor sets of a graph"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Family of all anchor sets of G"
+                    },
+                    {
+                        "affixes": [
+                            "_G_+_C_+"
+                        ],
+                        "arity": 0,
+                        "description": "Family of all anchor sets of G_+_C_+"
+                    },
+                    {
+                        "affixes": [
+                            "_G_+_C_m_a_x"
+                        ],
+                        "arity": 0,
+                        "description": "Family of all anchor sets of G_+_C_m_a_x"
+                    }
+                ]
+            }
+        },
+        "f09d929f": {
+            "_surface": {
+                "text": "𝒟",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of all dominating sets of a graph"
+                    }
+                ]
+            }
+        },
+        "f09d92a2": {
+            "_surface": {
+                "text": "𝒢",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class of graphs"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class of the complement graphs of 𝒢"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighborhood complex of a graph"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood complex of G"
+                    },
+                    {
+                        "affixes": [
+                            "_G_C_▷_v"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood set of the graph G_C_▷_v"
+                    },
+                    {
+                        "affixes": [
+                            "_G_C"
+                        ],
+                        "arity": 0,
+                        "description": "Number of elements in 𝒩_G_C"
+                    }
+                ]
+            }
+        },
+        "f09d92aa": {
+            "_surface": {
+                "text": "𝒪",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Big O notation"
+                    }
+                ]
+            }
+        },
+        "f09d92ab": {
+            "_surface": {
+                "text": "𝒫",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of periphery sets"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Generating function of G"
+                    }
+                ]
+            }
+        },
+        "f09d92b3": {
+            "_surface": {
+                "text": "𝒳",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of sets X"
+                    }
+                ]
+            }
+        }
+    }
+}

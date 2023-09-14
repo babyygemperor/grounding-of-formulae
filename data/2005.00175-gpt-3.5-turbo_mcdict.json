@@ -1,0 +1,1730 @@
+{
+    "_author": "gpt-3.5-turbo",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise Model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Relational model"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Secondary learner"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input text embedding"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binary relation on X"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Threshold"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of states"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input text"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Action"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Predicted Q"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Action value"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "T-test"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Valuation"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Associated value"
+                    }
+                ]
+            }
+        },
+        "4c4d": {
+            "_surface": {
+                "text": "LM",
+                "unicode_name": "LM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language models"
+                    }
+                ]
+            }
+        },
+        "c397": {
+            "_surface": {
+                "text": "×",
+                "unicode_name": "MULTIPLICATION SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cartesian product operator"
+                    }
+                ]
+            }
+        },
+        "ce9b": {
+            "_surface": {
+                "text": "Λ",
+                "unicode_name": "GREEK CAPITAL LETTER LAMDA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Perplexity difference"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Beta"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial parameterization of the language model"
+                    }
+                ]
+            }
+        },
+        "cf80": {
+            "_surface": {
+                "text": "π",
+                "unicode_name": "GREEK SMALL LETTER PI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Policy"
+                    }
+                ]
+            }
+        },
+        "cf86": {
+            "_surface": {
+                "text": "φ",
+                "unicode_name": "GREEK SMALL LETTER PHI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Formula in 𝖪𝖠"
+                    }
+                ]
+            }
+        },
+        "434446": {
+            "_surface": {
+                "text": "CDF",
+                "unicode_name": "CDF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cumulative Distribution Function"
+                    }
+                ]
+            }
+        },
+        "44514e": {
+            "_surface": {
+                "text": "DQN",
+                "unicode_name": "DQN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deep Q-Network"
+                    }
+                ]
+            }
+        },
+        "494746": {
+            "_surface": {
+                "text": "IGF",
+                "unicode_name": "IGF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information gain filtration"
+                    }
+                ]
+            }
+        },
+        "4d5345": {
+            "_surface": {
+                "text": "MSE",
+                "unicode_name": "MSE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean Squared Error"
+                    }
+                ]
+            }
+        },
+        "534744": {
+            "_surface": {
+                "text": "SGD",
+                "unicode_name": "SGD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stochastic Gradient Descent"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{𝖪𝖠}"
+                        ],
+                        "arity": 0,
+                        "description": "Set of formulas"
+                    }
+                ]
+            }
+        },
+        "e28692": {
+            "_surface": {
+                "text": "→",
+                "unicode_name": "RIGHTWARDS ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function or implication operator"
+                    }
+                ]
+            }
+        },
+        "e28794": {
+            "_surface": {
+                "text": "⇔",
+                "unicode_name": "LEFT RIGHT DOUBLE ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "If and only if operator"
+                    }
+                ]
+            }
+        },
+        "e28888": {
+            "_surface": {
+                "text": "∈",
+                "unicode_name": "ELEMENT OF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of a set"
+                    }
+                ]
+            }
+        },
+        "e28988": {
+            "_surface": {
+                "text": "≈",
+                "unicode_name": "ALMOST EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Almost equal to"
+                    }
+                ]
+            }
+        },
+        "e28a86": {
+            "_surface": {
+                "text": "⊆",
+                "unicode_name": "SUBSET OF OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of a set"
+                    }
+                ]
+            }
+        },
+        "e28aa8": {
+            "_surface": {
+                "text": "⊨",
+                "unicode_name": "TRUE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Satisfaction relation"
+                    }
+                ]
+            }
+        },
+        "4164616d": {
+            "_surface": {
+                "text": "Adam",
+                "unicode_name": "Adam"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A method for stochastic optimization"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adam optimization algorithm"
+                    }
+                ]
+            }
+        },
+        "42657274": {
+            "_surface": {
+                "text": "Bert",
+                "unicode_name": "Bert"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-training of deep bidirectional transformers for language understanding"
+                    }
+                ]
+            }
+        },
+        "49494746": {
+            "_surface": {
+                "text": "IIGF",
+                "unicode_name": "IIGF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iterated infomation gain filtration"
+                    }
+                ]
+            }
+        },
+        "536b6970": {
+            "_surface": {
+                "text": "Skip",
+                "unicode_name": "Skip"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Skip value"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Skipping"
+                    }
+                ]
+            }
+        },
+        "6c656674": {
+            "_surface": {
+                "text": "left",
+                "unicode_name": "left"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Actual sequence from corpus"
+                    }
+                ]
+            }
+        },
+        "736b6970": {
+            "_surface": {
+                "text": "skip",
+                "unicode_name": "skip"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Skip"
+                    }
+                ]
+            }
+        },
+        "f09d929f": {
+            "_surface": {
+                "text": "𝒟",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training dataset for secondary learner"
+                    }
+                ]
+            }
+        },
+        "f09d92aa": {
+            "_surface": {
+                "text": "𝒪",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Objective set"
+                    }
+                ]
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d96a0": {
+            "_surface": {
+                "text": "𝖠",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator A"
+                    }
+                ]
+            }
+        },
+        "f09d96aa": {
+            "_surface": {
+                "text": "𝖪",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator K"
+                    }
+                ]
+            }
+        },
+        "4750542d32": {
+            "_surface": {
+                "text": "GPT-2",
+                "unicode_name": "GPT-2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "GPT-2 byte-pair embeddings"
+                    }
+                ]
+            }
+        },
+        "49e281a247": {
+            "_surface": {
+                "text": "I⁢G",
+                "unicode_name": "I⁢G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information gain"
+                    }
+                ]
+            }
+        },
+        "6172586976": {
+            "_surface": {
+                "text": "arXiv",
+                "unicode_name": "arXiv"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint"
+                    }
+                ]
+            }
+        },
+        "7269676874": {
+            "_surface": {
+                "text": "right",
+                "unicode_name": "right"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Random sequence with uniform word probabilities"
+                    }
+                ]
+            }
+        },
+        "ceb8e280b2": {
+            "_surface": {
+                "text": "θ′",
+                "unicode_name": "θ′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameterization of the new language model after backpropogating"
+                    }
+                ]
+            }
+        },
+        "6d6964646c65": {
+            "_surface": {
+                "text": "middle",
+                "unicode_name": "middle"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Random sequence with preserved word probabilities"
+                    }
+                ]
+            }
+        },
+        "666f7220616c6c": {
+            "_surface": {
+                "text": "for all",
+                "unicode_name": "for all"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Universal quantifier"
+                    }
+                ]
+            }
+        },
+        "4261636b70726f70": {
+            "_surface": {
+                "text": "Backprop",
+                "unicode_name": "Backprop"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backpropagation"
+                    }
+                ]
+            }
+        },
+        "4669677572652031": {
+            "_surface": {
+                "text": "Figure 1",
+                "unicode_name": "Figure 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learning the New Unigram Frequency Distribtion Constitutes Most of the Benefit of Finetuning"
+                    }
+                ]
+            }
+        },
+        "4669677572652035": {
+            "_surface": {
+                "text": "Figure 5",
+                "unicode_name": "Figure 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 5"
+                    }
+                ]
+            }
+        },
+        "4669677572652038": {
+            "_surface": {
+                "text": "Figure 8",
+                "unicode_name": "Figure 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 8"
+                    }
+                ]
+            }
+        },
+        "6261636b70726f70": {
+            "_surface": {
+                "text": "backprop",
+                "unicode_name": "backprop"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backprop"
+                    }
+                ]
+            }
+        },
+        "7465737420736574": {
+            "_surface": {
+                "text": "test set",
+                "unicode_name": "test set"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Test set"
+                    }
+                ]
+            }
+        },
+        "7468726573686f6c64": {
+            "_surface": {
+                "text": "threshold",
+                "unicode_name": "threshold"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Threshold"
+                    }
+                ]
+            }
+        },
+        "417070656e6469782041": {
+            "_surface": {
+                "text": "Appendix A",
+                "unicode_name": "Appendix A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Appendix A"
+                    }
+                ]
+            }
+        },
+        "66696e6574756e696e67": {
+            "_surface": {
+                "text": "finetuning",
+                "unicode_name": "finetuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Finetuning"
+                    }
+                ]
+            }
+        },
+        "6e65787420746f6b656e": {
+            "_surface": {
+                "text": "next token",
+                "unicode_name": "next token"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Next token"
+                    }
+                ]
+            }
+        },
+        "706172616d6574657273": {
+            "_surface": {
+                "text": "parameters",
+                "unicode_name": "parameters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameters"
+                    }
+                ]
+            }
+        },
+        "706572706c6578697479": {
+            "_surface": {
+                "text": "perplexity",
+                "unicode_name": "perplexity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Perplexity"
+                    }
+                ]
+            }
+        },
+        "4875746820657420616c2e": {
+            "_surface": {
+                "text": "Huth et al.",
+                "unicode_name": "Huth et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alexander G Huth, Wendy A De Heer, Thomas L Griffiths, Frédéric E Theunissen, and Jack L Gallant"
+                    }
+                ]
+            }
+        },
+        "4d6e696820657420616c2e": {
+            "_surface": {
+                "text": "Mnih et al.",
+                "unicode_name": "Mnih et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller"
+                    }
+                ]
+            }
+        },
+        "636f7272656c6174696f6e": {
+            "_surface": {
+                "text": "correlation",
+                "unicode_name": "correlation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correlation"
+                    }
+                ]
+            }
+        },
+        "73696e676c652073746570": {
+            "_surface": {
+                "text": "single step",
+                "unicode_name": "single step"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Single step"
+                    }
+                ]
+            }
+        },
+        "766172696162696c697479": {
+            "_surface": {
+                "text": "variability",
+                "unicode_name": "variability"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variability"
+                    }
+                ]
+            }
+        },
+        "446f64676520657420616c2e": {
+            "_surface": {
+                "text": "Dodge et al.",
+                "unicode_name": "Dodge et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jesse Dodge, Gabriel Ilharco, Roy Schwartz, Ali Farhadi, Hannaneh Hajishirzi, and Noah Smith"
+                    }
+                ]
+            }
+        },
+        "4465766c696e20657420616c2e": {
+            "_surface": {
+                "text": "Devlin et al.",
+                "unicode_name": "Devlin et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova"
+                    }
+                ]
+            }
+        },
+        "4b696e676d6120616e64204261": {
+            "_surface": {
+                "text": "Kingma and Ba",
+                "unicode_name": "Kingma and Ba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diederik P Kingma and Jimmy Ba"
+                    }
+                ]
+            }
+        },
+        "4c4d2066696e6574756e696e67": {
+            "_surface": {
+                "text": "LM finetuning",
+                "unicode_name": "LM finetuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model finetuning"
+                    }
+                ]
+            }
+        },
+        "52656464697420636f72707573": {
+            "_surface": {
+                "text": "Reddit corpus",
+                "unicode_name": "Reddit corpus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Corpus"
+                    }
+                ]
+            }
+        },
+        "6261636b70726f706167617465": {
+            "_surface": {
+                "text": "backpropagate",
+                "unicode_name": "backpropagate"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backpropagate"
+                    }
+                ]
+            }
+        },
+        "6c6f73732066756e6374696f6e": {
+            "_surface": {
+                "text": "loss function",
+                "unicode_name": "loss function"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    }
+                ]
+            }
+        },
+        "526164666f726420657420616c2e": {
+            "_surface": {
+                "text": "Radford et al.",
+                "unicode_name": "Radford et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever"
+                    }
+                ]
+            }
+        },
+        "6c616e6775616765206d6f64656c": {
+            "_surface": {
+                "text": "language model",
+                "unicode_name": "language model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "5374727562656c6c20657420616c2e": {
+            "_surface": {
+                "text": "Strubell et al.",
+                "unicode_name": "Strubell et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Emma Strubell, Ananya Ganesh, and Andrew McCallum"
+                    }
+                ]
+            }
+        },
+        "696e666f726d61746976656e657373": {
+            "_surface": {
+                "text": "informativeness",
+                "unicode_name": "informativeness"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Informativeness"
+                    }
+                ]
+            }
+        },
+        "7465737420706572706c6578697479": {
+            "_surface": {
+                "text": "test perplexity",
+                "unicode_name": "test perplexity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Perplexity"
+                    }
+                ]
+            }
+        },
+        "747261696e696e6720636f72707573": {
+            "_surface": {
+                "text": "training corpus",
+                "unicode_name": "training corpus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training corpus"
+                    }
+                ]
+            }
+        },
+        "486f7761726420616e64205275646572": {
+            "_surface": {
+                "text": "Howard and Ruder",
+                "unicode_name": "Howard and Ruder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jeremy Howard and Sebastian Ruder"
+                    }
+                ]
+            }
+        },
+        "6561726c792064617461206f72646572": {
+            "_surface": {
+                "text": "early data order",
+                "unicode_name": "early data order"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data order"
+                    }
+                ]
+            }
+        },
+        "6772616469656e742064657363656e74": {
+            "_surface": {
+                "text": "gradient descent",
+                "unicode_name": "gradient descent"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gradient descent"
+                    }
+                ]
+            }
+        },
+        "747261696e696e67206578616d706c65": {
+            "_surface": {
+                "text": "training example",
+                "unicode_name": "training example"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training example"
+                    }
+                ]
+            }
+        },
+        "f09d96aff09d978bf09d9788f09d9789": {
+            "_surface": {
+                "text": "𝖯𝗋𝗈𝗉",
+                "unicode_name": "𝖯𝗋𝗈𝗉"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of propositions"
+                    }
+                ]
+            }
+        },
+        "333220746f6b656e20636f6e7465787473": {
+            "_surface": {
+                "text": "32 token contexts",
+                "unicode_name": "32 token contexts"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contexts"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c20706572666f726d616e6365": {
+            "_surface": {
+                "text": "model performance",
+                "unicode_name": "model performance"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance"
+                    }
+                ]
+            }
+        },
+        "7365636f6e64617279206c6561726e6572": {
+            "_surface": {
+                "text": "secondary learner",
+                "unicode_name": "secondary learner"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Secondary learner"
+                    }
+                ]
+            }
+        },
+        "6c6f772d6c6576656c206665617475726573": {
+            "_surface": {
+                "text": "low-level features",
+                "unicode_name": "low-level features"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unigram frequency"
+                    }
+                ]
+            }
+        },
+        "6172746966696369616c2073657175656e636573": {
+            "_surface": {
+                "text": "artificial sequences",
+                "unicode_name": "artificial sequences"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Artificial examples"
+                    }
+                ]
+            }
+        },
+        "6e657720747261696e696e67206578616d706c65": {
+            "_surface": {
+                "text": "new training example",
+                "unicode_name": "new training example"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "New training example"
+                    }
+                ]
+            }
+        },
+        "70616972206f66206f62736572766174696f6e73": {
+            "_surface": {
+                "text": "pair of observations",
+                "unicode_name": "pair of observations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observations"
+                    }
+                ]
+            }
+        },
+        "756e696772616d2070726f626162696c6974696573": {
+            "_surface": {
+                "text": "unigram probabilities",
+                "unicode_name": "unigram probabilities"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word probabilities"
+                    }
+                ]
+            }
+        },
+        "7265616c206578616d706c652073657175656e636573": {
+            "_surface": {
+                "text": "real example sequences",
+                "unicode_name": "real example sequences"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Real examples"
+                    }
+                ]
+            }
+        },
+        "72616e646f6d6c792073616d706c65642062617463686573": {
+            "_surface": {
+                "text": "randomly sampled batches",
+                "unicode_name": "randomly sampled batches"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Batches"
+                    }
+                ]
+            }
+        },
+        "6c616e6775616765206d6f64656c20706172616d6574657273": {
+            "_surface": {
+                "text": "language model parameters",
+                "unicode_name": "language model parameters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameters"
+                    }
+                ]
+            }
+        },
+        "756e69666f726d6c792073616d706c696e6720746f6b656e73": {
+            "_surface": {
+                "text": "uniformly sampling tokens",
+                "unicode_name": "uniformly sampling tokens"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Uniform sampling"
+                    }
+                ]
+            }
+        },
+        "6f7264657265642073657175656e6365206f6620746f6b656e73": {
+            "_surface": {
+                "text": "ordered sequence of tokens",
+                "unicode_name": "ordered sequence of tokens"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ordered sequence"
+                    }
+                ]
+            }
+        },
+        "72616e646f6d6c792073616d706c6564206669727374206261746368": {
+            "_surface": {
+                "text": "randomly sampled first batch",
+                "unicode_name": "randomly sampled first batch"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First batch"
+                    }
+                ]
+            }
+        },
+        "6f6e652d686f742070726f626162696c69747920646973747269627574696f6e": {
+            "_surface": {
+                "text": "one-hot probability distribution",
+                "unicode_name": "one-hot probability distribution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "One-hot distribution"
+                    }
+                ]
+            }
+        },
+        "6e6f726d616c697a656420696e666f726d61746976656e657373206d6574726963": {
+            "_surface": {
+                "text": "normalized informativeness metric",
+                "unicode_name": "normalized informativeness metric"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Q-value"
+                    }
+                ]
+            }
+        },
+        "636f6e646974696f6e616c2070726f626162696c69747920646973747269627574696f6e": {
+            "_surface": {
+                "text": "conditional probability distribution",
+                "unicode_name": "conditional probability distribution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution"
+                    }
+                ]
+            }
+        },
+        "46696e652d74756e696e6720707265747261696e6564206c616e6775616765206d6f64656c73": {
+            "_surface": {
+                "text": "Fine-tuning pretrained language models",
+                "unicode_name": "Fine-tuning pretrained language models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight initializations, data orders, and early stopping"
+                    }
+                ]
+            }
+        },
+        "506c6179696e6720617461726920776974682064656570207265696e666f7263656d656e74206c6561726e696e67": {
+            "_surface": {
+                "text": "Playing atari with deep reinforcement learning",
+                "unicode_name": "Playing atari with deep reinforcement learning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint arXiv:1312.5602"
+                    }
+                ]
+            }
+        },
+        "4c616e6775616765206d6f64656c732061726520756e73757065727669736564206d756c74697461736b206c6561726e657273": {
+            "_surface": {
+                "text": "Language models are unsupervised multitask learners",
+                "unicode_name": "Language models are unsupervised multitask learners"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "OpenAI Blog, 1(8)"
+                    }
+                ]
+            }
+        },
+        "456e6572677920616e6420706f6c69637920636f6e73696465726174696f6e7320666f722064656570206c6561726e696e6720696e206e6c70": {
+            "_surface": {
+                "text": "Energy and policy considerations for deep learning in nlp",
+                "unicode_name": "Energy and policy considerations for deep learning in nlp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint"
+                    }
+                ]
+            }
+        },
+        "556e6976657273616c206c616e6775616765206d6f64656c2066696e652d74756e696e6720666f72207465787420636c617373696669636174696f6e": {
+            "_surface": {
+                "text": "Universal language model fine-tuning for text classification",
+                "unicode_name": "Universal language model fine-tuning for text classification"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint arXiv:1801.06146"
+                    }
+                ]
+            }
+        },
+        "4e61747572616c207370656563682072657665616c73207468652073656d616e746963206d61707320746861742074696c652068756d616e20636572656272616c20636f72746578": {
+            "_surface": {
+                "text": "Natural speech reveals the semantic maps that tile human cerebral cortex",
+                "unicode_name": "Natural speech reveals the semantic maps that tile human cerebral cortex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nature, 532(7600):453–458"
+                    }
+                ]
+            }
+        }
+    }
+}

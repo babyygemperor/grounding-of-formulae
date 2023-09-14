@@ -1,0 +1,4171 @@
+{
+    "_author": "gpt-3.5-turbo",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of slots"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reranking score"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden layer index"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6f": {
+            "_surface": {
+                "text": "o",
+                "unicode_name": "LATIN SMALL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of missing slots"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of redundant slots"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reading gate"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time step"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token"
+                    }
+                ]
+            }
+        },
+        "4441": {
+            "_surface": {
+                "text": "DA",
+                "unicode_name": "DA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue Act"
+                    }
+                ]
+            }
+        },
+        "4456": {
+            "_surface": {
+                "text": "DV",
+                "unicode_name": "DV"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "David Vandyke"
+                    }
+                ]
+            }
+        },
+        "4662": {
+            "_surface": {
+                "text": "Fb",
+                "unicode_name": "Fb"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(θ)"
+                        ],
+                        "arity": 0,
+                        "description": "Cost from the backward reranker"
+                    }
+                ]
+            }
+        },
+        "4666": {
+            "_surface": {
+                "text": "Ff",
+                "unicode_name": "Ff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(θ)"
+                        ],
+                        "arity": 0,
+                        "description": "Cost from the forward generator"
+                    }
+                ]
+            }
+        },
+        "4c65": {
+            "_surface": {
+                "text": "Le",
+                "unicode_name": "Le"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Quoc V. Le"
+                    }
+                ]
+            }
+        },
+        "5453": {
+            "_surface": {
+                "text": "TS",
+                "unicode_name": "TS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tsung-Hsien Wen"
+                    }
+                ]
+            }
+        },
+        "554b": {
+            "_surface": {
+                "text": "UK",
+                "unicode_name": "UK"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "United Kingdom"
+                    }
+                ]
+            }
+        },
+        "6c32": {
+            "_surface": {
+                "text": "l2",
+                "unicode_name": "l2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "L2 regularisation term"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trade-off weights"
+                    }
+                ]
+            }
+        },
+        "ceb7": {
+            "_surface": {
+                "text": "η",
+                "unicode_name": "GREEK SMALL LETTER ETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tradeoff constant"
+                    }
+                ]
+            }
+        },
+        "cebe": {
+            "_surface": {
+                "text": "ξ",
+                "unicode_name": "GREEK SMALL LETTER XI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sigmoid function"
+                    }
+                ]
+            }
+        },
+        "41434c": {
+            "_surface": {
+                "text": "ACL",
+                "unicode_name": "ACL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Association for Computational Linguistics"
+                    }
+                ]
+            }
+        },
+        "414d54": {
+            "_surface": {
+                "text": "AMT",
+                "unicode_name": "AMT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Amazon Mechanical Turk"
+                    }
+                ]
+            }
+        },
+        "444173": {
+            "_surface": {
+                "text": "DAs",
+                "unicode_name": "DAs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distinct dialogue acts"
+                    }
+                ]
+            }
+        },
+        "455252": {
+            "_surface": {
+                "text": "ERR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slot error rate"
+                    }
+                ]
+            }
+        },
+        "4c4d73": {
+            "_surface": {
+                "text": "LMs",
+                "unicode_name": "LMs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language models"
+                    }
+                ]
+            }
+        },
+        "4e4c47": {
+            "_surface": {
+                "text": "NLG",
+                "unicode_name": "NLG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural Language Generation"
+                    }
+                ]
+            }
+        },
+        "4e6579": {
+            "_surface": {
+                "text": "Ney",
+                "unicode_name": "Ney"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hermann Ney"
+                    }
+                ]
+            }
+        },
+        "53414e": {
+            "_surface": {
+                "text": "SAN",
+                "unicode_name": "SAN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "San Francisco"
+                    }
+                ]
+            }
+        },
+        "534453": {
+            "_surface": {
+                "text": "SDS",
+                "unicode_name": "SDS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spoken Dialogue System"
+                    }
+                ]
+            }
+        },
+        "534c54": {
+            "_surface": {
+                "text": "SLT",
+                "unicode_name": "SLT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spoken Language Technology"
+                    }
+                ]
+            }
+        },
+        "686463": {
+            "_surface": {
+                "text": "hdc",
+                "unicode_name": "hdc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Handcrafted generator"
+                    }
+                ]
+            }
+        },
+        "6b4e4e": {
+            "_surface": {
+                "text": "kNN",
+                "unicode_name": "kNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "k-nearest neighbour"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e28891": {
+            "_surface": {
+                "text": "∑",
+                "unicode_name": "N-ARY SUMMATION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summation"
+                    }
+                ]
+            }
+        },
+        "e288bc": {
+            "_surface": {
+                "text": "∼",
+                "unicode_name": "TILDE OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approximately equal to"
+                    }
+                ]
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elementwise multiplication"
+                    }
+                ]
+            }
+        },
+        "35322e34": {
+            "_surface": {
+                "text": "52.4",
+                "unicode_name": "52.4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Numerical value"
+                    }
+                ]
+            }
+        },
+        "36322e33": {
+            "_surface": {
+                "text": "62.3",
+                "unicode_name": "62.3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Numerical value"
+                    }
+                ]
+            }
+        },
+        "36342e33": {
+            "_surface": {
+                "text": "64.3",
+                "unicode_name": "64.3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Numerical value"
+                    }
+                ]
+            }
+        },
+        "424c4555": {
+            "_surface": {
+                "text": "BLEU",
+                "unicode_name": "BLEU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BLEU-4 metric"
+                    }
+                ]
+            }
+        },
+        "436f5252": {
+            "_surface": {
+                "text": "CoRR",
+                "unicode_name": "CoRR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Computer Research Repository"
+                    }
+                ]
+            }
+        },
+        "49454545": {
+            "_surface": {
+                "text": "IEEE",
+                "unicode_name": "IEEE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Institute of Electrical and Electronics Engineers"
+                    }
+                ]
+            }
+        },
+        "4a414952": {
+            "_surface": {
+                "text": "JAIR",
+                "unicode_name": "JAIR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal of Artificial Intelligence Research"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM",
+                "unicode_name": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-term Memory"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    }
+                ]
+            }
+        },
+        "f09d9096": {
+            "_surface": {
+                "text": "𝐖",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "f09d909c": {
+            "_surface": {
+                "text": "𝐜",
+                "unicode_name": "MATHEMATICAL BOLD SMALL C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cell value"
+                    }
+                ]
+            }
+        },
+        "f09d909d": {
+            "_surface": {
+                "text": "𝐝",
+                "unicode_name": "MATHEMATICAL BOLD SMALL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue act"
+                    }
+                ]
+            }
+        },
+        "f09d909f": {
+            "_surface": {
+                "text": "𝐟",
+                "unicode_name": "MATHEMATICAL BOLD SMALL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forget gate"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Recurrent hidden layer"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input gate"
+                    }
+                ]
+            }
+        },
+        "f09d90a8": {
+            "_surface": {
+                "text": "𝐨",
+                "unicode_name": "MATHEMATICAL BOLD SMALL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output gate"
+                    }
+                ]
+            }
+        },
+        "f09d90a9": {
+            "_surface": {
+                "text": "𝐩",
+                "unicode_name": "MATHEMATICAL BOLD SMALL P"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90ab": {
+            "_surface": {
+                "text": "𝐫",
+                "unicode_name": "MATHEMATICAL BOLD SMALL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reading gate"
+                    }
+                ]
+            }
+        },
+        "f09d90ad": {
+            "_surface": {
+                "text": "𝐭",
+                "unicode_name": "MATHEMATICAL BOLD SMALL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time step"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token at time t"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token"
+                    }
+                ]
+            }
+        },
+        "f09d90b2": {
+            "_surface": {
+                "text": "𝐲",
+                "unicode_name": "MATHEMATICAL BOLD SMALL Y"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90b9": {
+            "_surface": {
+                "text": "𝐹",
+                "unicode_name": "MATHEMATICAL ITALIC CAPITAL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(θ)"
+                        ],
+                        "arity": 0,
+                        "description": "Modified cost function"
+                    }
+                ]
+            }
+        },
+        "f09d9191": {
+            "_surface": {
+                "text": "𝑑",
+                "unicode_name": "MATHEMATICAL ITALIC SMALL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Control vector"
+                    }
+                ]
+            }
+        },
+        "f09d919b": {
+            "_surface": {
+                "text": "𝑛",
+                "unicode_name": "MATHEMATICAL ITALIC SMALL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension"
+                    }
+                ]
+            }
+        },
+        "f09d91a1": {
+            "_surface": {
+                "text": "𝑡",
+                "unicode_name": "MATHEMATICAL ITALIC SMALL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time step"
+                    }
+                ]
+            }
+        },
+        "f09d91a4": {
+            "_surface": {
+                "text": "𝑤",
+                "unicode_name": "MATHEMATICAL ITALIC SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight"
+                    }
+                ]
+            }
+        },
+        "f09d9bbc": {
+            "_surface": {
+                "text": "𝛼",
+                "unicode_name": "MATHEMATICAL ITALIC SMALL ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer-wise constant"
+                    }
+                ]
+            }
+        },
+        "f09d9c8e": {
+            "_surface": {
+                "text": "𝜎",
+                "unicode_name": "MATHEMATICAL ITALIC SMALL SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sigmoid function"
+                    }
+                ]
+            }
+        },
+        "2b64656570": {
+            "_surface": {
+                "text": "+deep",
+                "unicode_name": "+deep"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deep version of SC-LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deep version of sc-lstm"
+                    }
+                ]
+            }
+        },
+        "454d4e4c50": {
+            "_surface": {
+                "text": "EMNLP",
+                "unicode_name": "EMNLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference on EMNLP"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference on Empirical Methods in Natural Language Processing"
+                    }
+                ]
+            }
+        },
+        "476c6f7665": {
+            "_surface": {
+                "text": "Glove",
+                "unicode_name": "Glove"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Global vectors for word representation"
+                    }
+                ]
+            }
+        },
+        "4c656d6f6e": {
+            "_surface": {
+                "text": "Lemon",
+                "unicode_name": "Lemon"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Oliver Lemon"
+                    }
+                ]
+            }
+        },
+        "4d61726765": {
+            "_surface": {
+                "text": "Marge",
+                "unicode_name": "Marge"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matthew Marge"
+                    }
+                ]
+            }
+        },
+        "506f6d6470": {
+            "_surface": {
+                "text": "Pomdp",
+                "unicode_name": "Pomdp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Partially Observable Markov Decision Process"
+                    }
+                ]
+            }
+        },
+        "5374656e74": {
+            "_surface": {
+                "text": "Stent",
+                "unicode_name": "Stent"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Amanda Stent"
+                    }
+                ]
+            }
+        },
+        "f09d909677": {
+            "_surface": {
+                "text": "𝐖w",
+                "unicode_name": "𝐖w"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword detector weights"
+                    }
+                ]
+            }
+        },
+        "f09d909d54": {
+            "_surface": {
+                "text": "𝐝T",
+                "unicode_name": "𝐝T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DA vector at the last word index T"
+                    }
+                ]
+            }
+        },
+        "f09d909d74": {
+            "_surface": {
+                "text": "𝐝t",
+                "unicode_name": "𝐝t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DA vector at time t"
+                    }
+                ]
+            }
+        },
+        "f09d90a974": {
+            "_surface": {
+                "text": "𝐩t",
+                "unicode_name": "𝐩t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Predicted word distribution"
+                    }
+                ]
+            }
+        },
+        "f09d90b274": {
+            "_surface": {
+                "text": "𝐲t",
+                "unicode_name": "𝐲t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Actual word distribution"
+                    }
+                ]
+            }
+        },
+        "f09d919130": {
+            "_surface": {
+                "text": "𝑑0",
+                "unicode_name": "𝑑0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Original DA 1-hot vector"
+                    }
+                ]
+            }
+        },
+        "477261766573": {
+            "_surface": {
+                "text": "Graves",
+                "unicode_name": "Graves"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2013"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "48696e746f6e": {
+            "_surface": {
+                "text": "Hinton",
+                "unicode_name": "Hinton"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Geoffrey Hinton"
+                    }
+                ]
+            }
+        },
+        "4b6169205975": {
+            "_surface": {
+                "text": "Kai Yu",
+                "unicode_name": "Kai Yu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b756b696368": {
+            "_surface": {
+                "text": "Kukich",
+                "unicode_name": "Kukich"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1987"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4d6f6c696e61": {
+            "_surface": {
+                "text": "Molina",
+                "unicode_name": "Molina"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Martin Molina"
+                    }
+                ]
+            }
+        },
+        "507261736164": {
+            "_surface": {
+                "text": "Prasad",
+                "unicode_name": "Prasad"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rashmi Prasad"
+                    }
+                ]
+            }
+        },
+        "526965736572": {
+            "_surface": {
+                "text": "Rieser",
+                "unicode_name": "Rieser"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Verena Rieser"
+                    }
+                ]
+            }
+        },
+        "546865616e6f": {
+            "_surface": {
+                "text": "Theano",
+                "unicode_name": "Theano"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Math expression compiler"
+                    }
+                ]
+            }
+        },
+        "57616c6b6572": {
+            "_surface": {
+                "text": "Walker",
+                "unicode_name": "Walker"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Marilyn Walker"
+                    }
+                ]
+            }
+        },
+        "696e666f726d": {
+            "_surface": {
+                "text": "inform",
+                "unicode_name": "inform"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue act type: inform"
+                    }
+                ]
+            }
+        },
+        "72656a656374": {
+            "_surface": {
+                "text": "reject",
+                "unicode_name": "reject"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue act type: reject"
+                    }
+                ]
+            }
+        },
+        "726e6e20772f": {
+            "_surface": {
+                "text": "rnn w/",
+                "unicode_name": "rnn w/"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "RNN with gates"
+                    }
+                ]
+            }
+        },
+        "446f6e67205975": {
+            "_surface": {
+                "text": "Dong Yu",
+                "unicode_name": "Dong Yu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c692044656e67": {
+            "_surface": {
+                "text": "Li Deng",
+                "unicode_name": "Li Deng"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d617274656e73": {
+            "_surface": {
+                "text": "Martens",
+                "unicode_name": "Martens"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "James Martens"
+                    }
+                ]
+            }
+        },
+        "50616c6977616c": {
+            "_surface": {
+                "text": "Paliwal",
+                "unicode_name": "Paliwal"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kuldip K Paliwal"
+                    }
+                ]
+            }
+        },
+        "53432d4c53544d": {
+            "_surface": {
+                "text": "SC-LSTM",
+                "unicode_name": "SC-LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Semantically controlled LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Semantically controlled Long Short-term Memory"
+                    }
+                ]
+            }
+        },
+        "5349476469616c": {
+            "_surface": {
+                "text": "SIGdial",
+                "unicode_name": "SIGdial"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Special Interest Group on Dialogue and Discourse"
+                    }
+                ]
+            }
+        },
+        "53696e67686169": {
+            "_surface": {
+                "text": "Singhai",
+                "unicode_name": "Singhai"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mohit Singhai"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 1"
+                    }
+                ]
+            }
+        },
+        "5461626c652033": {
+            "_surface": {
+                "text": "Table 3",
+                "unicode_name": "Table 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table number"
+                    }
+                ]
+            }
+        },
+        "56696e79616c73": {
+            "_surface": {
+                "text": "Vinyals",
+                "unicode_name": "Vinyals"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Oriol Vinyals"
+                    }
+                ]
+            }
+        },
+        "577565626b6572": {
+            "_surface": {
+                "text": "Wuebker",
+                "unicode_name": "Wuebker"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Joern Wuebker"
+                    }
+                ]
+            }
+        },
+        "636c6173736c6d": {
+            "_surface": {
+                "text": "classlm",
+                "unicode_name": "classlm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class-based LMs"
+                    }
+                ]
+            }
+        },
+        "636f6e6669726d": {
+            "_surface": {
+                "text": "confirm",
+                "unicode_name": "confirm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue act type: confirm"
+                    }
+                ]
+            }
+        },
+        "64726f706f7574": {
+            "_surface": {
+                "text": "dropout",
+                "unicode_name": "dropout"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dropout technique"
+                    }
+                ]
+            }
+        },
+        "6c73746d20772f": {
+            "_surface": {
+                "text": "lstm w/",
+                "unicode_name": "lstm w/"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "LSTM with gates"
+                    }
+                ]
+            }
+        },
+        "726e6e20772f6f": {
+            "_surface": {
+                "text": "rnn w/o",
+                "unicode_name": "rnn w/o"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "RNN without gates"
+                    }
+                ]
+            }
+        },
+        "73632d6c73746d": {
+            "_surface": {
+                "text": "sc-lstm",
+                "unicode_name": "sc-lstm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Single layer semantically controlled LSTM"
+                    }
+                ]
+            }
+        },
+        "e2849df09d919b": {
+            "_surface": {
+                "text": "ℝ𝑛",
+                "unicode_name": "ℝ𝑛"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Real number"
+                    }
+                ]
+            }
+        },
+        "416c6b686f756c69": {
+            "_surface": {
+                "text": "Alkhouli",
+                "unicode_name": "Alkhouli"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tamer Alkhouli"
+                    }
+                ]
+            }
+        },
+        "4669677572652033": {
+            "_surface": {
+                "text": "Figure 3",
+                "unicode_name": "Figure 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure number"
+                    }
+                ]
+            }
+        },
+        "5363687573746572": {
+            "_surface": {
+                "text": "Schuster",
+                "unicode_name": "Schuster"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mike Schuster"
+                    }
+                ]
+            }
+        },
+        "5461626c65c2a033": {
+            "_surface": {
+                "text": "Table 3",
+                "unicode_name": "Table 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table number"
+                    }
+                ]
+            }
+        },
+        "6c73746d20772f6f": {
+            "_surface": {
+                "text": "lstm w/o",
+                "unicode_name": "lstm w/o"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "LSTM without gates"
+                    }
+                ]
+            }
+        },
+        "f09d9083f09d90b4": {
+            "_surface": {
+                "text": "𝐃𝐴",
+                "unicode_name": "𝐃𝐴"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue act"
+                    }
+                ]
+            }
+        },
+        "f09d909cf09d90ad": {
+            "_surface": {
+                "text": "𝐜𝐭",
+                "unicode_name": "𝐜𝐭"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory cell at time t"
+                    }
+                ]
+            }
+        },
+        "f09d909ff09d91a1": {
+            "_surface": {
+                "text": "𝐟𝑡",
+                "unicode_name": "𝐟𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forget gate at time t"
+                    }
+                ]
+            }
+        },
+        "f09d90a1f09d90ad": {
+            "_surface": {
+                "text": "𝐡𝐭",
+                "unicode_name": "𝐡𝐭"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Recurrent hidden layer"
+                    }
+                ]
+            }
+        },
+        "f09d90a1f09d91a1": {
+            "_surface": {
+                "text": "𝐡𝑡",
+                "unicode_name": "𝐡𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Recurrent hidden layer at time t"
+                    }
+                ]
+            }
+        },
+        "f09d90a2f09d91a1": {
+            "_surface": {
+                "text": "𝐢𝑡",
+                "unicode_name": "𝐢𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input gate at time t"
+                    }
+                ]
+            }
+        },
+        "f09d90abf09d91a1": {
+            "_surface": {
+                "text": "𝐫𝑡",
+                "unicode_name": "𝐫𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Control cell at time t"
+                    }
+                ]
+            }
+        },
+        "f09d90b0f09d90ad": {
+            "_surface": {
+                "text": "𝐰𝐭",
+                "unicode_name": "𝐰𝐭"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Next token"
+                    }
+                ]
+            }
+        },
+        "f09d90b0f09d91a1": {
+            "_surface": {
+                "text": "𝐰𝑡",
+                "unicode_name": "𝐰𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token at time t"
+                    }
+                ]
+            }
+        },
+        "f09d9190f09d91a1": {
+            "_surface": {
+                "text": "𝑐𝑡",
+                "unicode_name": "𝑐𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proposed cell value at time t"
+                    }
+                ]
+            }
+        },
+        "f09d919cf09d91a1": {
+            "_surface": {
+                "text": "𝑜𝑡",
+                "unicode_name": "𝑜𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output gate at time t"
+                    }
+                ]
+            }
+        },
+        "f09d919ff09d91a1": {
+            "_surface": {
+                "text": "𝑟𝑡",
+                "unicode_name": "𝑟𝑡"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Retained information at time t"
+                    }
+                ]
+            }
+        },
+        "537574736b65766572": {
+            "_surface": {
+                "text": "Sutskever",
+                "unicode_name": "Sutskever"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ilya Sutskever"
+                    }
+                ]
+            }
+        },
+        "546f64642057617264": {
+            "_surface": {
+                "text": "Todd Ward",
+                "unicode_name": "Todd Ward"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "446f6e67686f204b696d": {
+            "_surface": {
+                "text": "Dongho Kim",
+                "unicode_name": "Dongho Kim"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "47726567205761796e65": {
+            "_surface": {
+                "text": "Greg Wayne",
+                "unicode_name": "Greg Wayne"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b72697a686576736b79": {
+            "_surface": {
+                "text": "Krizhevsky",
+                "unicode_name": "Krizhevsky"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alex Krizhevsky"
+                    }
+                ]
+            }
+        },
+        "4c69204665692d466569": {
+            "_surface": {
+                "text": "Li Fei-Fei",
+                "unicode_name": "Li Fei-Fei"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53726976617374617661": {
+            "_surface": {
+                "text": "Srivastava",
+                "unicode_name": "Srivastava"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nitish Srivastava"
+                    }
+                ]
+            }
+        },
+        "61747472696275746573": {
+            "_surface": {
+                "text": "attributes",
+                "unicode_name": "attributes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slots"
+                    }
+                ]
+            }
+        },
+        "6f6e746f6c6f67696573": {
+            "_surface": {
+                "text": "ontologies",
+                "unicode_name": "ontologies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Detailed ontologies"
+                    }
+                ]
+            }
+        },
+        "f09d90b0f09d90ad2b31": {
+            "_surface": {
+                "text": "𝐰𝐭+1",
+                "unicode_name": "𝐰𝐭+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Next token"
+                    }
+                ]
+            }
+        },
+        "4164616d20436865796572": {
+            "_surface": {
+                "text": "Adam Cheyer",
+                "unicode_name": "Adam Cheyer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "416c657820477261766573": {
+            "_surface": {
+                "text": "Alex Graves",
+                "unicode_name": "Alex Graves"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "416c69636520482e204f68": {
+            "_surface": {
+                "text": "Alice H. Oh",
+                "unicode_name": "Alice H. Oh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "47656f726765204461686c": {
+            "_surface": {
+                "text": "George Dahl",
+                "unicode_name": "George Dahl"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "486f7273742042756e6b65": {
+            "_surface": {
+                "text": "Horst Bunke",
+                "unicode_name": "Horst Bunke"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5261746e617061726b6869": {
+            "_surface": {
+                "text": "Ratnaparkhi",
+                "unicode_name": "Ratnaparkhi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adwait Ratnaparkhi"
+                    }
+                ]
+            }
+        },
+        "537465766520596f756e67": {
+            "_surface": {
+                "text": "Steve Young",
+                "unicode_name": "Steve Young"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53756e6465726d65796572": {
+            "_surface": {
+                "text": "Sundermeyer",
+                "unicode_name": "Sundermeyer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Martin Sundermeyer"
+                    }
+                ]
+            }
+        },
+        "416e6f6f702044656f726173": {
+            "_surface": {
+                "text": "Anoop Deoras",
+                "unicode_name": "Anoop Deoras"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "426c616b6520486f77616c64": {
+            "_surface": {
+                "text": "Blake Howald",
+                "unicode_name": "Blake Howald"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a61736f6e20576573746f6e": {
+            "_surface": {
+                "text": "Jason Weston",
+                "unicode_name": "Jason Weston"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b6172656e204b756b696368": {
+            "_surface": {
+                "text": "Karen Kukich",
+                "unicode_name": "Karen Kukich"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b6576696e204b6e69676874": {
+            "_surface": {
+                "text": "Kevin Knight",
+                "unicode_name": "Kevin Knight"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53616c696d20526f756b6f73": {
+            "_surface": {
+                "text": "Salim Roukos",
+                "unicode_name": "Salim Roukos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53696d6f6e204b65697a6572": {
+            "_surface": {
+                "text": "Simon Keizer",
+                "unicode_name": "Simon Keizer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5374656e7420657420616c2e": {
+            "_surface": {
+                "text": "Stent et al.",
+                "unicode_name": "Stent et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2005"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "54617261205361696e617468": {
+            "_surface": {
+                "text": "Tara Sainath",
+                "unicode_name": "Tara Sainath"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5765692d4a696e67205a6875": {
+            "_surface": {
+                "text": "Wei-Jing Zhu",
+                "unicode_name": "Wei-Jing Zhu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "686f74656c20646f6d61696e": {
+            "_surface": {
+                "text": "hotel domain",
+                "unicode_name": "hotel domain"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hotel domain"
+                    }
+                ]
+            }
+        },
+        "f09d918ef09d919bf09d9191": {
+            "_surface": {
+                "text": "𝑎𝑛𝑑",
+                "unicode_name": "𝑎𝑛𝑑"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elementwise multiplication"
+                    }
+                ]
+            }
+        },
+        "34204578706572696d656e7473": {
+            "_surface": {
+                "text": "4 Experiments",
+                "unicode_name": "4 Experiments"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section 4: Experiments"
+                    }
+                ]
+            }
+        },
+        "416e647265772053656e696f72": {
+            "_surface": {
+                "text": "Andrew Senior",
+                "unicode_name": "Andrew Senior"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "42656e67696f20657420616c2e": {
+            "_surface": {
+                "text": "Bengio et al.",
+                "unicode_name": "Bengio et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1994"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "47726176657320657420616c2e": {
+            "_surface": {
+                "text": "Graves et al.",
+                "unicode_name": "Graves et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2013a"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2013a"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2009"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2013b"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "48696e746f6e20657420616c2e": {
+            "_surface": {
+                "text": "Hinton et al.",
+                "unicode_name": "Hinton et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2012"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "49766f2044616e6968656c6b61": {
+            "_surface": {
+                "text": "Ivo Danihelka",
+                "unicode_name": "Ivo Danihelka"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a6f736570682054757269616e": {
+            "_surface": {
+                "text": "Joseph Turian",
+                "unicode_name": "Joseph Turian"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53432d4c53544d206d6f64656c": {
+            "_surface": {
+                "text": "SC-LSTM model",
+                "unicode_name": "SC-LSTM model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SC-LSTM model"
+                    }
+                ]
+            }
+        },
+        "53616c616b68757464696e6f76": {
+            "_surface": {
+                "text": "Salakhutdinov",
+                "unicode_name": "Salakhutdinov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ruslan Salakhutdinov"
+                    }
+                ]
+            }
+        },
+        "53616e204672616e636973636f": {
+            "_surface": {
+                "text": "San Francisco",
+                "unicode_name": "San Francisco"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target application location"
+                    }
+                ]
+            }
+        },
+        "596f736875612042656e67696f": {
+            "_surface": {
+                "text": "Yoshua Bengio",
+                "unicode_name": "Yoshua Bengio"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "646565702053432d4c53544d20": {
+            "_surface": {
+                "text": "deep SC-LSTM ",
+                "unicode_name": "deep SC-LSTM "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(+deep)"
+                        ],
+                        "arity": 0,
+                        "description": "Deep SC-LSTM system output"
+                    }
+                ]
+            }
+        },
+        "426c616973652054686f6d736f6e": {
+            "_surface": {
+                "text": "Blaise Thomson",
+                "unicode_name": "Blaise Thomson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4469646965722047757a7a6f6e69": {
+            "_surface": {
+                "text": "Didier Guzzoni",
+                "unicode_name": "Didier Guzzoni"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4672616e6b20536368696c646572": {
+            "_surface": {
+                "text": "Frank Schilder",
+                "unicode_name": "Frank Schilder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4761c5a169c48720657420616c2e": {
+            "_surface": {
+                "text": "Gašić et al.",
+                "unicode_name": "Gašić et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "47656f6666726579205a77656967": {
+            "_surface": {
+                "text": "Geoffrey Zweig",
+                "unicode_name": "Geoffrey Zweig"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a616d6573204265726773747261": {
+            "_surface": {
+                "text": "James Bergstra",
+                "unicode_name": "James Bergstra"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a616e20c48c65726e6f636bc3bd": {
+            "_surface": {
+                "text": "Jan Černocký",
+                "unicode_name": "Jan Černocký"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c756bc3a1c5a120427572676574": {
+            "_surface": {
+                "text": "Lukáš Burget",
+                "unicode_name": "Lukáš Burget"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6172637573204c697769636b69": {
+            "_surface": {
+                "text": "Marcus Liwicki",
+                "unicode_name": "Marcus Liwicki"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d617274696e20537a756d6d6572": {
+            "_surface": {
+                "text": "Martin Szummer",
+                "unicode_name": "Martin Szummer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d696b6f6c6f7620657420616c2e": {
+            "_surface": {
+                "text": "Mikolov et al.",
+                "unicode_name": "Mikolov et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2010"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2011a"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2011b"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4d696c696361204761c5a169c487": {
+            "_surface": {
+                "text": "Milica Gašić",
+                "unicode_name": "Milica Gašić"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e617664656570204a6169746c79": {
+            "_surface": {
+                "text": "Navdeep Jaitly",
+                "unicode_name": "Navdeep Jaitly"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "50616f6c6f2046726173636f6e69": {
+            "_surface": {
+                "text": "Paolo Frasconi",
+                "unicode_name": "Paolo Frasconi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "50617363616c204c616d626c696e": {
+            "_surface": {
+                "text": "Pascal Lamblin",
+                "unicode_name": "Pascal Lamblin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "506174726963652053696d617264": {
+            "_surface": {
+                "text": "Patrice Simard",
+                "unicode_name": "Patrice Simard"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5061747269636b204e677579656e": {
+            "_surface": {
+                "text": "Patrick Nguyen",
+                "unicode_name": "Patrick Nguyen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "52617669204b6f6e646164616469": {
+            "_surface": {
+                "text": "Ravi Kondadadi",
+                "unicode_name": "Ravi Kondadadi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "52617a76616e2050617363616e75": {
+            "_surface": {
+                "text": "Razvan Pascanu",
+                "unicode_name": "Razvan Pascanu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5269636861726420536f63686572": {
+            "_surface": {
+                "text": "Richard Socher",
+                "unicode_name": "Richard Socher"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5a6172656d626120657420616c2e": {
+            "_surface": {
+                "text": "Zaremba et al.",
+                "unicode_name": "Zaremba et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a paper"
+                    }
+                ]
+            }
+        },
+        "6465657020617070726f61636820": {
+            "_surface": {
+                "text": "deep approach ",
+                "unicode_name": "deep approach "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(+deep)"
+                        ],
+                        "arity": 0,
+                        "description": "Deep approach"
+                    }
+                ]
+            }
+        },
+        "416e6472656a204b61727061746879": {
+            "_surface": {
+                "text": "Andrej Karpathy",
+                "unicode_name": "Andrej Karpathy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "426572677374726120657420616c2e": {
+            "_surface": {
+                "text": "Bergstra et al.",
+                "unicode_name": "Bergstra et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2010"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "427269616e204b696e677362757279": {
+            "_surface": {
+                "text": "Brian Kingsbury",
+                "unicode_name": "Brian Kingsbury"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "44616e696c6f204d69726b6f766963": {
+            "_surface": {
+                "text": "Danilo Mirkovic",
+                "unicode_name": "Danilo Mirkovic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "47656f66667265792048696e746f6e": {
+            "_surface": {
+                "text": "Geoffrey Hinton",
+                "unicode_name": "Geoffrey Hinton"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4972656e65204c616e676b696c6465": {
+            "_surface": {
+                "text": "Irene Langkilde",
+                "unicode_name": "Irene Langkilde"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6169726573736520657420616c2e": {
+            "_surface": {
+                "text": "Mairesse et al.",
+                "unicode_name": "Mairesse et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2010"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4f6820616e64205275646e69636b79": {
+            "_surface": {
+                "text": "Oh and Rudnicky",
+                "unicode_name": "Oh and Rudnicky"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2000"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "506170696e656e6920657420616c2e": {
+            "_surface": {
+                "text": "Papineni et al.",
+                "unicode_name": "Papineni et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2002"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "526f6d616e20426572746f6c616d69": {
+            "_surface": {
+                "text": "Roman Bertolami",
+                "unicode_name": "Roman Bertolami"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "526f6e616e20436f6c6c6f62657274": {
+            "_surface": {
+                "text": "Ronan Collobert",
+                "unicode_name": "Ronan Collobert"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5365707020486f6368726569746572": {
+            "_surface": {
+                "text": "Sepp Hochreiter",
+                "unicode_name": "Sepp Hochreiter"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53746566616e204b6f6d6272696e6b": {
+            "_surface": {
+                "text": "Stefan Kombrink",
+                "unicode_name": "Stefan Kombrink"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "546f6dc3a1c5a1204d696b6f6c6f76": {
+            "_surface": {
+                "text": "Tomáš Mikolov",
+                "unicode_name": "Tomáš Mikolov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "57696c6c69616d20432e204d616e6e": {
+            "_surface": {
+                "text": "William C. Mann",
+                "unicode_name": "William C. Mann"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "747261696e696e6720636f72707573": {
+            "_surface": {
+                "text": "training corpus",
+                "unicode_name": "training corpus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training corpus"
+                    }
+                ]
+            }
+        },
+        "48656e646572736f6e20657420616c2e": {
+            "_surface": {
+                "text": "Henderson et al.",
+                "unicode_name": "Henderson et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4b6973686f726520506170696e656e69": {
+            "_surface": {
+                "text": "Kishore Papineni",
+                "unicode_name": "Kishore Papineni"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b6f6e64616461646920657420616c2e": {
+            "_surface": {
+                "text": "Kondadadi et al.",
+                "unicode_name": "Kondadadi et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2013"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4c617772656e63652043617665646f6e": {
+            "_surface": {
+                "text": "Lawrence Cavedon",
+                "unicode_name": "Lawrence Cavedon"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4f6c697669657220427265756c657578": {
+            "_surface": {
+                "text": "Olivier Breuleux",
+                "unicode_name": "Olivier Breuleux"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53432d4c53544d20617070726f616368": {
+            "_surface": {
+                "text": "SC-LSTM approach",
+                "unicode_name": "SC-LSTM approach"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SC-LSTM approach"
+                    }
+                ]
+            }
+        },
+        "53432d4c53544d2073797374656d7320": {
+            "_surface": {
+                "text": "SC-LSTM systems ",
+                "unicode_name": "SC-LSTM systems "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(sc-lstm & +deep)"
+                        ],
+                        "arity": 0,
+                        "description": "SC-LSTM systems"
+                    }
+                ]
+            }
+        },
+        "636c6173732d6261736564204c4d7320": {
+            "_surface": {
+                "text": "class-based LMs ",
+                "unicode_name": "class-based LMs "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(classlm)"
+                        ],
+                        "arity": 0,
+                        "description": "Class-based LMs"
+                    }
+                ]
+            }
+        },
+        "64656c65786963616c69736564204441": {
+            "_surface": {
+                "text": "delexicalised DA",
+                "unicode_name": "delexicalised DA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Delexicalised dialogue act"
+                    }
+                ]
+            }
+        },
+        "f09d9181f09d9181f09d9181f09d9181": {
+            "_surface": {
+                "text": "𝑁𝑁𝑁𝑁",
+                "unicode_name": "𝑁𝑁𝑁𝑁"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deep LSTM generator structure"
+                    }
+                ]
+            }
+        },
+        "436174686572696e6520427265736c696e": {
+            "_surface": {
+                "text": "Catherine Breslin",
+                "unicode_name": "Catherine Breslin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "46696c6970204a7572c48dc3adc48d656b": {
+            "_surface": {
+                "text": "Filip Jurčíček",
+                "unicode_name": "Filip Jurčíček"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a616e20482e20c48c65726e6f636bc3bd": {
+            "_surface": {
+                "text": "Jan H. Černocký",
+                "unicode_name": "Jan H. Černocký"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d616e6e20616e642054686f6d70736f6e": {
+            "_surface": {
+                "text": "Mann and Thompson",
+                "unicode_name": "Mann and Thompson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1988"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4d6172696c796e20412e2057616c6b6572": {
+            "_surface": {
+                "text": "Marilyn A. Walker",
+                "unicode_name": "Marilyn A. Walker"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6174746865772048656e646572736f6e": {
+            "_surface": {
+                "text": "Matthew Henderson",
+                "unicode_name": "Matthew Henderson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d696b6f6c6f7620616e64205a77656967": {
+            "_surface": {
+                "text": "Mikolov and Zweig",
+                "unicode_name": "Mikolov and Zweig"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2012"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "50656e6e696e67746f6e20657420616c2e": {
+            "_surface": {
+                "text": "Pennington et al.",
+                "unicode_name": "Pennington et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "506972726f7320547369616b6f756c6973": {
+            "_surface": {
+                "text": "Pirros Tsiakoulis",
+                "unicode_name": "Pirros Tsiakoulis"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53616e6a656576204b687564616e707572": {
+            "_surface": {
+                "text": "Sanjeev Khudanpur",
+                "unicode_name": "Sanjeev Khudanpur"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "56696e63656e742056616e686f75636b65": {
+            "_surface": {
+                "text": "Vincent Vanhoucke",
+                "unicode_name": "Vincent Vanhoucke"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "72657374617572616e7420646f6d61696e": {
+            "_surface": {
+                "text": "restaurant domain",
+                "unicode_name": "restaurant domain"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Restaurant domain"
+                    }
+                ]
+            }
+        },
+        "43686579657220616e642047757a7a6f6e69": {
+            "_surface": {
+                "text": "Cheyer and Guzzoni",
+                "unicode_name": "Cheyer and Guzzoni"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2007"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "44617669642057617264652d4661726c6579": {
+            "_surface": {
+                "text": "David Warde-Farley",
+                "unicode_name": "David Warde-Farley"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4571756174696f6e73203720616e64203132": {
+            "_surface": {
+                "text": "Equations 7 and 12",
+                "unicode_name": "Equations 7 and 12"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equations 7 and 12"
+                    }
+                ]
+            }
+        },
+        "4672616ec3a76f6973204d61697265737365": {
+            "_surface": {
+                "text": "François Mairesse",
+                "unicode_name": "François Mairesse"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4672c3a964c3a9726963204261737469656e": {
+            "_surface": {
+                "text": "Frédéric Bastien",
+                "unicode_name": "Frédéric Bastien"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a6566667265792050656e6e696e67746f6e": {
+            "_surface": {
+                "text": "Jeffrey Pennington",
+                "unicode_name": "Jeffrey Pennington"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6169726573736520616e6420596f756e67": {
+            "_surface": {
+                "text": "Mairesse and Young",
+                "unicode_name": "Mairesse and Young"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4d617274696e204b6172616669c383c2a174": {
+            "_surface": {
+                "text": "Martin KarafiÃ¡t",
+                "unicode_name": "Martin KarafiÃ¡t"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53616e64726120412e2054686f6d70736f6e": {
+            "_surface": {
+                "text": "Sandra A. Thompson",
+                "unicode_name": "Sandra A. Thompson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53756e6465726d6579657220657420616c2e": {
+            "_surface": {
+                "text": "Sundermeyer et al.",
+                "unicode_name": "Sundermeyer et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a paper"
+                    }
+                ]
+            }
+        },
+        "6469616c6f67756520616374207479706573": {
+            "_surface": {
+                "text": "dialogue act types",
+                "unicode_name": "dialogue act types"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "System dialogue act types"
+                    }
+                ]
+            }
+        },
+        "4368726973746f70686572204d616e6e696e67": {
+            "_surface": {
+                "text": "Christopher Manning",
+                "unicode_name": "Christopher Manning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4ac3bc7267656e205363686d69646875626572": {
+            "_surface": {
+                "text": "Jürgen Schmidhuber",
+                "unicode_name": "Jürgen Schmidhuber"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6169726573736520616e642057616c6b6572": {
+            "_surface": {
+                "text": "Mairesse and Walker",
+                "unicode_name": "Mairesse and Walker"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2011"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "53616e746961676f204665726ec3a16e64657a": {
+            "_surface": {
+                "text": "Santiago Fernández",
+                "unicode_name": "Santiago Fernández"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "416264656c2d7261686d616e204d6f68616d6564": {
+            "_surface": {
+                "text": "Abdel-rahman Mohamed",
+                "unicode_name": "Abdel-rahman Mohamed"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "436f6c6c6f6265727420616e6420576573746f6e": {
+            "_surface": {
+                "text": "Collobert and Weston",
+                "unicode_name": "Collobert and Weston"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2008"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4775696c6c61756d65204465736a617264696e73": {
+            "_surface": {
+                "text": "Guillaume Desjardins",
+                "unicode_name": "Guillaume Desjardins"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b6172706174687920616e64204665692d466569": {
+            "_surface": {
+                "text": "Karpathy and Fei-Fei",
+                "unicode_name": "Karpathy and Fei-Fei"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4c616e676b696c646520616e64204b6e69676874": {
+            "_surface": {
+                "text": "Langkilde and Knight",
+                "unicode_name": "Langkilde and Knight"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1998"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4d69726b6f76696320616e642043617665646f6e": {
+            "_surface": {
+                "text": "Mirkovic and Cavedon",
+                "unicode_name": "Mirkovic and Cavedon"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2011"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "536368757374657220616e642050616c6977616c": {
+            "_surface": {
+                "text": "Schuster and Paliwal",
+                "unicode_name": "Schuster and Paliwal"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1997"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a paper"
+                    }
+                ]
+            }
+        },
+        "f09d919bf09d919bf09d919bf09d919bf09d919b": {
+            "_surface": {
+                "text": "𝑛𝑛𝑛𝑛𝑛",
+                "unicode_name": "𝑛𝑛𝑛𝑛𝑛"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden layer"
+                    }
+                ]
+            }
+        },
+        "416c6578616e64657220492e205275646e69636b79": {
+            "_surface": {
+                "text": "Alexander I. Rudnicky",
+                "unicode_name": "Alexander I. Rudnicky"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "342e31204578706572696d656e74616c205365747570": {
+            "_surface": {
+                "text": "4.1 Experimental Setup",
+                "unicode_name": "4.1 Experimental Setup"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section 4.1: Experimental Setup"
+                    }
+                ]
+            }
+        },
+        "6269646972656374696f6e616c206e6574776f726b73": {
+            "_surface": {
+                "text": "bidirectional networks",
+                "unicode_name": "bidirectional networks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional networks"
+                    }
+                ]
+            }
+        },
+        "5461626c65204c4142454c3a7461623a7072656674657374": {
+            "_surface": {
+                "text": "Table LABEL:tab:preftest",
+                "unicode_name": "Table LABEL:tab:preftest"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table label"
+                    }
+                ]
+            }
+        },
+        "524e4e20776974682068657572697374696320676174657320": {
+            "_surface": {
+                "text": "RNN with heuristic gates ",
+                "unicode_name": "RNN with heuristic gates "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(rnn w/)"
+                        ],
+                        "arity": 0,
+                        "description": "RNN with heuristic gates"
+                    }
+                ]
+            }
+        },
+        "f09d9186f09d90b62df09d90bff09d9186f09d9187f09d9180": {
+            "_surface": {
+                "text": "𝑆𝐶-𝐿𝑆𝑇𝑀",
+                "unicode_name": "𝑆𝐶-𝐿𝑆𝑇𝑀"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Semantically Controlled LSTM"
+                    }
+                ]
+            }
+        },
+        "486f636872656974657220616e64205363686d69646875626572": {
+            "_surface": {
+                "text": "Hochreiter and Schmidhuber",
+                "unicode_name": "Hochreiter and Schmidhuber"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1997"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "5461626c65204c4142454c3a7461623a7175616c69747974657374": {
+            "_surface": {
+                "text": "Table LABEL:tab:qualitytest",
+                "unicode_name": "Table LABEL:tab:qualitytest"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table label"
+                    }
+                ]
+            }
+        },
+        "546f7368696261205265736561726368204575726f7065204c7464": {
+            "_surface": {
+                "text": "Toshiba Research Europe Ltd",
+                "unicode_name": "Toshiba Research Europe Ltd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Cambridge Research Laboratory"
+                        ],
+                        "arity": 0,
+                        "description": "Affiliation"
+                    }
+                ]
+            }
+        }
+    }
+}

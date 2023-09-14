@@ -1,0 +1,715 @@
+{
+    "_author": "TheBloke/StableBeluga2-70B-GPTQ",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of hidden layers"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias vector"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target representation"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vector"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Timestep"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word embeddings of the LM"
+                    }
+                ]
+            }
+        },
+        "cf81": {
+            "_surface": {
+                "text": "ρ",
+                "unicode_name": "GREEK SMALL LETTER RHO"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "636f73": {
+            "_surface": {
+                "text": "cos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarity function"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "45712e20": {
+            "_surface": {
+                "text": "Eq. ",
+                "unicode_name": "Eq. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(5)"
+                        ],
+                        "arity": 0,
+                        "description": "Equation 5"
+                    },
+                    {
+                        "affixes": [
+                            "(6)"
+                        ],
+                        "arity": 0,
+                        "description": "Equation 6"
+                    }
+                ]
+            }
+        },
+        "45782e20": {
+            "_surface": {
+                "text": "Ex. ",
+                "unicode_name": "Ex. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2)"
+                        ],
+                        "arity": 0,
+                        "description": "Example 2"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "63747874": {
+            "_surface": {
+                "text": "ctxt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context"
+                    }
+                ]
+            }
+        },
+        "7461686e": {
+            "_surface": {
+                "text": "tahn"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    }
+                ]
+            }
+        },
+        "f09d909a": {
+            "_surface": {
+                "text": "𝐚",
+                "unicode_name": "MATHEMATICAL BOLD SMALL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Angle brackets"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden state"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i+1"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t+1"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i-1"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t-1"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i+1_i"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t+1 and layer i"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i-1_i"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t-1 and layer i"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i+1_i_L"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t+1 and layer i with L hidden layers"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i-1_i_L"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t-1 and layer i with L hidden layers"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prediction"
+                    }
+                ]
+            }
+        },
+        "f09d90a4": {
+            "_surface": {
+                "text": "𝐤",
+                "unicode_name": "MATHEMATICAL BOLD SMALL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word&Sub"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i+1"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t+1"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i-1"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t-1"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i+1_i"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t+1 and layer i"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i-1_i"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t-1 and layer i"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i+1_i_L"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t+1 and layer i with L hidden layers"
+                    },
+                    {
+                        "affixes": [
+                            "_t_i-1_i_L"
+                        ],
+                        "arity": 0,
+                        "description": "Activation of hidden layer i at timestep t-1 and layer i with L hidden layers"
+                    }
+                ]
+            }
+        },
+        "f09d90a8": {
+            "_surface": {
+                "text": "𝐨",
+                "unicode_name": "MATHEMATICAL BOLD SMALL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output"
+                    }
+                ]
+            }
+        },
+        "f09d90ab": {
+            "_surface": {
+                "text": "𝐫",
+                "unicode_name": "MATHEMATICAL BOLD SMALL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output"
+                    }
+                ]
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average embedding of the substitute words"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sub"
+                    }
+                ]
+            }
+        },
+        "f09d90ad": {
+            "_surface": {
+                "text": "𝐭",
+                "unicode_name": "MATHEMATICAL BOLD SMALL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word embedding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word"
+                    }
+                ]
+            }
+        },
+        "f09d90bf": {
+            "_surface": {
+                "text": "𝐿",
+                "unicode_name": "MATHEMATICAL ITALIC CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of hidden layers"
+                    }
+                ]
+            }
+        },
+        "6d617267696e": {
+            "_surface": {
+                "text": "margin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Margin value"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 1"
+                    }
+                ]
+            }
+        },
+        "6c617965722031": {
+            "_surface": {
+                "text": "layer 1",
+                "unicode_name": "layer 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer 1"
+                    }
+                ]
+            }
+        },
+        "6c617965722032": {
+            "_surface": {
+                "text": "layer 2",
+                "unicode_name": "layer 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer 2"
+                    }
+                ]
+            }
+        },
+        "6c617965722033": {
+            "_surface": {
+                "text": "layer 3",
+                "unicode_name": "layer 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer 3"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d909cf09d90adf09d90b1f09d90ad": {
+            "_surface": {
+                "text": "𝐜𝐭𝐱𝐭",
+                "unicode_name": "𝐜𝐭𝐱𝐭"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contextual vector"
+                    }
+                ]
+            }
+        },
+        "4d6343617274687920616e64204e617669676c69": {
+            "_surface": {
+                "text": "McCarthy and Navigli",
+                "unicode_name": "McCarthy and Navigli"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2009"
+                        ],
+                        "arity": 0,
+                        "description": "Lexical Substitution data"
+                    }
+                ]
+            }
+        },
+        "f09d90adf09d909af09d909bf09d90a5f09d909e": {
+            "_surface": {
+                "text": "𝐭𝐚𝐛𝐥𝐞",
+                "unicode_name": "𝐭𝐚𝐛𝐥𝐞"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table"
+                    }
+                ]
+            }
+        },
+        "f09d909ff09d90a2f09d90a0f09d90aef09d90abf09d909e": {
+            "_surface": {
+                "text": "𝐟𝐢𝐠𝐮𝐫𝐞",
+                "unicode_name": "𝐟𝐢𝐠𝐮𝐫𝐞"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure"
+                    }
+                ]
+            }
+        }
+    }
+}

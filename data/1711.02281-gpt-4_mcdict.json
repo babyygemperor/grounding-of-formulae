@@ -1,0 +1,824 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function representing the optimal translation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Autoregressive machine translation model"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Key vector in attention mechanism"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum fertility value"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Query vector in attention mechanism"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Length of target sentence"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Length of source sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Length of output sentence"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value vector in attention mechanism"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source sentence"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output sentence"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimensionality of the vectors"
+                    },
+                    {
+                        "affixes": [
+                            "_{model}"
+                        ],
+                        "arity": 0,
+                        "description": "Dimensionality of the model"
+                    },
+                    {
+                        "affixes": [
+                            "_{hidden}"
+                        ],
+                        "arity": 0,
+                        "description": "Dimensionality of the hidden layer"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fertility sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fertility value"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Timestep index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel index"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{layer}"
+                        ],
+                        "arity": 0,
+                        "description": "Number of layers"
+                    },
+                    {
+                        "affixes": [
+                            "_{head}"
+                        ],
+                        "arity": 0,
+                        "description": "Number of heads in attention mechanism"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{𝒜ℛ}"
+                        ],
+                        "arity": 0,
+                        "description": "Autoregressive probability distribution"
+                    },
+                    {
+                        "affixes": [
+                            "_{𝒩𝒜}"
+                        ],
+                        "arity": 0,
+                        "description": "Non-autoregressive probability distribution"
+                    },
+                    {
+                        "affixes": [
+                            "_{L}"
+                        ],
+                        "arity": 0,
+                        "description": "Distribution of target sequence length"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Positional encoding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fertility neural network model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conditional probability distribution of each token"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Translation model"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proposal distribution"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time step"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of token"
+                    },
+                    {
+                        "affixes": [
+                            "_{warmup}"
+                        ],
+                        "arity": 0,
+                        "description": "Warmup steps for learning rate scheduler"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in source sentence"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the target sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in output sentence"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Latent variable"
+                    }
+                ]
+            }
+        },
+        "4250": {
+            "_surface": {
+                "text": "BP"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4654": {
+            "_surface": {
+                "text": "FT"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b44": {
+            "_surface": {
+                "text": "KD"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d4c": {
+            "_surface": {
+                "text": "ML"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "524c": {
+            "_surface": {
+                "text": "RL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model parameters"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight for fine-tuning loss"
+                    }
+                ]
+            }
+        },
+        "4e5044": {
+            "_surface": {
+                "text": "NPD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Noisy parallel decoding"
+                    }
+                ]
+            }
+        },
+        "524b4c": {
+            "_surface": {
+                "text": "RKL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "636f73": {
+            "_surface": {
+                "text": "cos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine function"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural logarithm"
+                    }
+                ]
+            }
+        },
+        "73696e": {
+            "_surface": {
+                "text": "sin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sine function"
+                    }
+                ]
+            }
+        },
+        "e280a0": {
+            "_surface": {
+                "text": "†",
+                "unicode_name": "DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation to The University of Hong Kong"
+                    }
+                ]
+            }
+        },
+        "e280a1": {
+            "_surface": {
+                "text": "‡",
+                "unicode_name": "DOUBLE DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation to Salesforce Research"
+                    }
+                ]
+            }
+        },
+        "e280a6": {
+            "_surface": {
+                "text": "…",
+                "unicode_name": "HORIZONTAL ELLIPSIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ellipsis, indicating continuation"
+                    }
+                ]
+            }
+        },
+        "e2848b": {
+            "_surface": {
+                "text": "ℋ",
+                "unicode_name": "SCRIPT CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entropy operator"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{ML}"
+                        ],
+                        "arity": 0,
+                        "description": "Maximum likelihood loss"
+                    },
+                    {
+                        "affixes": [
+                            "_{ML}"
+                        ],
+                        "arity": 0,
+                        "description": "Maximum Likelihood loss"
+                    },
+                    {
+                        "affixes": [
+                            "_{RKL}"
+                        ],
+                        "arity": 0,
+                        "description": "Loss term consisting of the reverse K-L divergence with the teacher output distribution"
+                    },
+                    {
+                        "affixes": [
+                            "_{FT}"
+                        ],
+                        "arity": 0,
+                        "description": "Fine-tuning loss"
+                    },
+                    {
+                        "affixes": [
+                            "_{RL}"
+                        ],
+                        "arity": 0,
+                        "description": "Reverse loss term"
+                    },
+                    {
+                        "affixes": [
+                            "_{BP}"
+                        ],
+                        "arity": 0,
+                        "description": "Backpropagation loss term"
+                    },
+                    {
+                        "affixes": [
+                            "_{KD}"
+                        ],
+                        "arity": 0,
+                        "description": "Knowledge distillation loss"
+                    }
+                ]
+            }
+        },
+        "e284a4": {
+            "_surface": {
+                "text": "ℤ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all integer numbers"
+                    }
+                ]
+            }
+        },
+        "e284b1": {
+            "_surface": {
+                "text": "ℱ",
+                "unicode_name": "SCRIPT CAPITAL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all fertility sequences"
+                    }
+                ]
+            }
+        },
+        "68656164": {
+            "_surface": {
+                "text": "head"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d94bc": {
+            "_surface": {
+                "text": "𝔼",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expectation operator"
+                    }
+                ]
+            }
+        },
+        "526f756e64": {
+            "_surface": {
+                "text": "Round"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rounding function"
+                    }
+                ]
+            }
+        },
+        "6c61796572": {
+            "_surface": {
+                "text": "layer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d6f64656c": {
+            "_surface": {
+                "text": "model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The model in use"
+                    }
+                ]
+            }
+        },
+        "6172676d6178": {
+            "_surface": {
+                "text": "argmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function returning the argument of the maximum"
+                    }
+                ]
+            }
+        },
+        "68696464656e": {
+            "_surface": {
+                "text": "hidden"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7761726d7570": {
+            "_surface": {
+                "text": "warmup"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "61766572616765": {
+            "_surface": {
+                "text": "average"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "f09d929ce2849b": {
+            "_surface": {
+                "text": "𝒜ℛ"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92a9f09d929c": {
+            "_surface": {
+                "text": "𝒩𝒜"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "417474656e74696f6e": {
+            "_surface": {
+                "text": "Attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention mechanism"
+                    }
+                ]
+            }
+        }
+    }
+}

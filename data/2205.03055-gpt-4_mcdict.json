@@ -1,0 +1,844 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Categories to be recognized at time t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Categories to be recognized for task t"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Categories to be recognized at time n"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Dataset for the t-th task"
+                    },
+                    {
+                        "affixes": [
+                            "_𝑣𝑎𝑙_t"
+                        ],
+                        "arity": 0,
+                        "description": "Validation set of the tth task"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Dataset for the ith task"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Dataset for the jth task"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_t"
+                        ],
+                        "arity": 0,
+                        "description": "Convolutional operation at the lth layer for task t"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l"
+                        ],
+                        "arity": 0,
+                        "description": "Gating module at the lth layer"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of layers"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input images for the t-th task"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Corresponding annotations for the t-th task"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l"
+                        ],
+                        "arity": 0,
+                        "description": "Number of channels in the lth layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel index"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_c_,_t"
+                        ],
+                        "arity": 0,
+                        "description": "Dynamic soft gate for the t-th task"
+                    },
+                    {
+                        "affixes": [
+                            "_l_c_,_t"
+                        ],
+                        "arity": 0,
+                        "description": "Channel gates of the lth layer for task t"
+                    },
+                    {
+                        "affixes": [
+                            "^_l_c_,_t"
+                        ],
+                        "arity": 0,
+                        "description": "Binary gate for the lth layer, cth channel, tth task"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l"
+                        ],
+                        "arity": 0,
+                        "description": "Height of the feature map in the lth layer"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer index"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_t"
+                        ],
+                        "arity": 0,
+                        "description": "Total number of previously inactivated channels in layer l reserved for task t"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task m"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task n"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_t"
+                        ],
+                        "arity": 0,
+                        "description": "Estimated ratio of the newly activated gates for task t in layer l"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Specific task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task t"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l"
+                        ],
+                        "arity": 0,
+                        "description": "Width of the feature map in the lth layer"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Random variable"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Random variable"
+                    }
+                ]
+            }
+        },
+        "467e": {
+            "_surface": {
+                "text": "F~",
+                "unicode_name": "F~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_-1_t"
+                        ],
+                        "arity": 0,
+                        "description": "Traditional convolutional operation without gated module for the lth layer, tth task"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_c_,_t"
+                        ],
+                        "arity": 0,
+                        "description": "Threshold for the lth layer, cth channel, tth task"
+                    }
+                ]
+            }
+        },
+        "ceb7": {
+            "_surface": {
+                "text": "η",
+                "unicode_name": "GREEK SMALL LETTER ETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyper-parameter threshold"
+                    }
+                ]
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating diversity controller (GDC)"
+                    }
+                ]
+            }
+        },
+        "4d5345": {
+            "_surface": {
+                "text": "MSE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean square error function"
+                    }
+                ]
+            }
+        },
+        "564f43": {
+            "_surface": {
+                "text": "VOC"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm function"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum function"
+                    }
+                ]
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Minimum function"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_𝑠𝑝𝑎𝑟𝑠𝑖𝑡𝑦"
+                        ],
+                        "arity": 0,
+                        "description": "Sparsity loss"
+                    },
+                    {
+                        "affixes": [
+                            "_𝑘𝑑"
+                        ],
+                        "arity": 0,
+                        "description": "Knowledge distillation loss"
+                    },
+                    {
+                        "affixes": [
+                            "_𝑑𝑖𝑣𝑒𝑟𝑠𝑖𝑡𝑦_l_,_t"
+                        ],
+                        "arity": 0,
+                        "description": "Diversity loss at the lth layer for task t"
+                    },
+                    {
+                        "affixes": [
+                            "_𝑑𝑖𝑣𝑒𝑟𝑠𝑖𝑡𝑦"
+                        ],
+                        "arity": 0,
+                        "description": "Diversity loss"
+                    }
+                ]
+            }
+        },
+        "e2849b": {
+            "_surface": {
+                "text": "ℛ",
+                "unicode_name": "SCRIPT CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function to define the class-to-task correlation"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of real numbers"
+                    }
+                ]
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel-wise multiplication operation"
+                    }
+                ]
+            }
+        },
+        "f09d908c": {
+            "_surface": {
+                "text": "𝐌",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_m→n"
+                        ],
+                        "arity": 0,
+                        "description": "Class-to-class prototypical correlation matrix between task m and task n"
+                    }
+                ]
+            }
+        },
+        "f09d9286": {
+            "_surface": {
+                "text": "𝒆",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Task embedding for the t-th task"
+                    }
+                ]
+            }
+        },
+        "f09d9287": {
+            "_surface": {
+                "text": "𝒇",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input feature map for the t-th task"
+                    },
+                    {
+                        "affixes": [
+                            "_l_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input feature map of the lth layer for task t"
+                    },
+                    {
+                        "affixes": [
+                            "_l+1_t"
+                        ],
+                        "arity": 0,
+                        "description": "Output feature map of gated convolution at the lth layer for task t"
+                    }
+                ]
+            }
+        },
+        "f09d9288": {
+            "_surface": {
+                "text": "𝒈",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^_l_t"
+                        ],
+                        "arity": 0,
+                        "description": "Binary gates for the lth layer, tth task"
+                    }
+                ]
+            }
+        },
+        "f09d9291": {
+            "_surface": {
+                "text": "𝒑",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i_t"
+                        ],
+                        "arity": 0,
+                        "description": "Prototype of the ith class for task t"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Prototype of the nth task"
+                    },
+                    {
+                        "affixes": [
+                            "_m"
+                        ],
+                        "arity": 0,
+                        "description": "Prototype of the mth task"
+                    }
+                ]
+            }
+        },
+        "f09d9295": {
+            "_surface": {
+                "text": "𝒕",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequential tasks"
+                    }
+                ]
+            }
+        },
+        "f09d94bc": {
+            "_surface": {
+                "text": "𝔼",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expectation operator"
+                    }
+                ]
+            }
+        },
+        "f09d9580": {
+            "_surface": {
+                "text": "𝕀",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Indicator function"
+                    }
+                ]
+            }
+        },
+        "4b49545449": {
+            "_surface": {
+                "text": "KITTI"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92877e": {
+            "_surface": {
+                "text": "𝒇~",
+                "unicode_name": "𝒇~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_l_t"
+                        ],
+                        "arity": 0,
+                        "description": "Feature map of teacher model for the lth layer, tth task"
+                    }
+                ]
+            }
+        },
+        "f09d9198f09d9191": {
+            "_surface": {
+                "text": "𝑘𝑑"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d91a3f09d918ef09d9199": {
+            "_surface": {
+                "text": "𝑣𝑎𝑙"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d91a0f09d919df09d918ef09d919ff09d91a0f09d9196f09d91a1f09d91a6": {
+            "_surface": {
+                "text": "𝑠𝑝𝑎𝑟𝑠𝑖𝑡𝑦"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d9191f09d9196f09d91a3f09d9192f09d919ff09d91a0f09d9196f09d91a1f09d91a6": {
+            "_surface": {
+                "text": "𝑑𝑖𝑣𝑒𝑟𝑠𝑖𝑡𝑦"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diversity loss"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,2722 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "23": {
+            "_surface": {
+                "text": "#",
+                "unicode_name": "NUMBER SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Count operator"
+                    }
+                ]
+            }
+        },
+        "30": {
+            "_surface": {
+                "text": "0",
+                "unicode_name": "DIGIT ZERO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reject decision"
+                    }
+                ]
+            }
+        },
+        "31": {
+            "_surface": {
+                "text": "1",
+                "unicode_name": "DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Accept decision"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WFA that computes f"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted finite automaton (WFA)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix A"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix B"
+                    }
+                ]
+            }
+        },
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix C"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Complexity class D1"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of decidable languages"
+                    },
+                    {
+                        "affixes": [
+                            "_2"
+                        ],
+                        "arity": 0,
+                        "description": "Two-layer decoder"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Encoder architecture"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hankel matrix"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix H"
+                    },
+                    {
+                        "affixes": [
+                            "_f"
+                        ],
+                        "arity": 0,
+                        "description": "Hankel matrix of function f"
+                    },
+                    {
+                        "affixes": [
+                            "_f2"
+                        ],
+                        "arity": 0,
+                        "description": "Hankel matrix of function f_2"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set I"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of indices for which key-query similarity is maximized"
+                    }
+                ]
+            }
+        },
+        "4a": {
+            "_surface": {
+                "text": "J",
+                "unicode_name": "LATIN CAPITAL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set J"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Image of f_k"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of keys K"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language L"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer normalization operation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decoder L"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of stacked layers in a deep RNN"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Encoder mapping Σ* to ℚ^k"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Encoder (either RNN or automata)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix M"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scalar multiplying the parameters θ"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Big O notation for asymptotic upper bounds"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Big O notation"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set P"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prefixes"
+                    },
+                    {
+                        "affixes": [
+                            "_A"
+                        ],
+                        "arity": 0,
+                        "description": "Set P_A"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of states of the machine"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Finite set of states in a CM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of states in a WFA"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Individual layer in a stacked RNN"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set S"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Suffixes"
+                    },
+                    {
+                        "affixes": [
+                            "_A"
+                        ],
+                        "arity": 0,
+                        "description": "Set S_A"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Stack value at time t"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Space complexity function"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of values V"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Image of f_v"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operations push, no-op, and pop"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol representing a character or a part of a sequence in a language"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "One of the enumerations of the strings in Σ*"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Character a"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol a in the language"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Symbol a at index i"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol representing a character or a part of a sequence in a language"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias of the linear thresholder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol b in the language"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Character b"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameter"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Symbol b at index j"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Update gate in an LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory vector in an LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Counter update function in a CM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Counter values after processing w"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Series c"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory vector in a QRNN"
+                    },
+                    {
+                        "affixes": [
+                            "_m"
+                        ],
+                        "arity": 0,
+                        "description": "Counter values after w_m"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Quantity c_t computed by the second layer of s-QRNN"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the input vector in an RNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the input vectors in a QRNN"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Quantity d_t computed by the first layer of s-QRNN"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mapping (embedding) from Σ to ℚ^d"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Quantity e_t computed by the first layer of s-QRNN"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forget gate in a QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function mapping Σ* to ℚ"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function mapping binary strings to their value"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forget gate in an LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of functions"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Gate term f_t that updates c_t"
+                    },
+                    {
+                        "affixes": [
+                            "_k"
+                        ],
+                        "arity": 0,
+                        "description": "Function f_k"
+                    },
+                    {
+                        "affixes": [
+                            "_v"
+                        ],
+                        "arity": 0,
+                        "description": "Function f_v"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Recurrent update function in an RNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameterized update function of an RNN"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State vector in an LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output states generated by each RNN layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Current state in an RNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State vector in a QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State vector in a GRU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of counters"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index i"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of the enumerations α and ω"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index or position in a sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input gate in an LSTM"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index or position in a sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index j"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index k"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the state vector in an LSTM, GRU, or QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Geometric k-stack"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the output space"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of counters in a CM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Window size of the counter machine"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum key-query similarity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Positive integer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Counter update value"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sampled uniformly between 0 and 32"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of occurrences"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input sequence length"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence length"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of occurrences of a and b"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural number"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Length of a sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol representing a number or a count in a sequence"
+                    }
+                ]
+            }
+        },
+        "6f": {
+            "_surface": {
+                "text": "o",
+                "unicode_name": "LATIN SMALL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output gate in an LSTM"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State in a CM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State in a WFA"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "State i in the set of states Q"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "State j in the set of states Q"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Series r"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Minimal representation of M’s internal configuration"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element to push into the stack"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Saturated network"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Series s"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Series t"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index t"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time step or position in a sequence"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Counter update function in a CM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "String u"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Update function u_t to c_t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Vector of counter update operations"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element v of set V"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "String v"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Window over the last w input tokens in a CM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Window length in a QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameter"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input tokens"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "String x"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prefix x"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable x"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Original input sequence to the first layer of an RNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "String in the input alphabet Σ"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input at time t"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Axis representing increasing space complexity in a hierarchy of state expressiveness for saturated RNNs and related models"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Gate term z_t that updates c_t"
+                    }
+                ]
+            }
+        },
+        "2361": {
+            "_surface": {
+                "text": "#a",
+                "unicode_name": "#a"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of occurrences of a"
+                    }
+                ]
+            }
+        },
+        "2362": {
+            "_surface": {
+                "text": "#b",
+                "unicode_name": "#b"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of occurrences of b"
+                    }
+                ]
+            }
+        },
+        "4431": {
+            "_surface": {
+                "text": "D1",
+                "unicode_name": "D1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of languages decidable by E with 𝐝1"
+                    }
+                ]
+            }
+        },
+        "4432": {
+            "_surface": {
+                "text": "D2",
+                "unicode_name": "D2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of languages decidable by E with a 2-layer decoder"
+                    }
+                ]
+            }
+        },
+        "616e": {
+            "_surface": {
+                "text": "an",
+                "unicode_name": "an"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "String of a's of length n"
+                    }
+                ]
+            }
+        },
+        "626e": {
+            "_surface": {
+                "text": "bn",
+                "unicode_name": "bn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "String of b's of length n"
+                    }
+                ]
+            }
+        },
+        "7731": {
+            "_surface": {
+                "text": "w1",
+                "unicode_name": "w1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence w1"
+                    }
+                ]
+            }
+        },
+        "7732": {
+            "_surface": {
+                "text": "w2",
+                "unicode_name": "w2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence w2"
+                    }
+                ]
+            }
+        },
+        "ce98": {
+            "_surface": {
+                "text": "Θ",
+                "unicode_name": "GREEK CAPITAL LETTER THETA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Asymptotic space complexity class"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Big Theta notation"
+                    }
+                ]
+            }
+        },
+        "cea0": {
+            "_surface": {
+                "text": "Π",
+                "unicode_name": "GREEK CAPITAL LETTER PI"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of paths producing a string x"
+                    }
+                ]
+            }
+        },
+        "cea3": {
+            "_surface": {
+                "text": "Σ",
+                "unicode_name": "GREEK CAPITAL LETTER SIGMA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alphabet of the machine"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Finite alphabet"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input alphabet"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Set of all possible strings over Σ"
+                    }
+                ]
+            }
+        },
+        "cea9": {
+            "_surface": {
+                "text": "Ω",
+                "unicode_name": "GREEK CAPITAL LETTER OMEGA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Big Omega notation"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "ceb4": {
+            "_surface": {
+                "text": "δ",
+                "unicode_name": "GREEK SMALL LETTER DELTA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State transition function in a CM"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameters of the encoder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameters of the RNN"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial state weights in a WFA"
+                    }
+                ]
+            }
+        },
+        "cf80": {
+            "_surface": {
+                "text": "π",
+                "unicode_name": "GREEK SMALL LETTER PI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distribution over the update operations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Path through a WFA"
+                    }
+                ]
+            }
+        },
+        "cf81": {
+            "_surface": {
+                "text": "ρ",
+                "unicode_name": "GREEK SMALL LETTER RHO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final state weights in a WFA"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sigmoid function used in RNNs"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Character σ"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Current input in a CM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of the alphabet Σ"
+                    }
+                ]
+            }
+        },
+        "cf84": {
+            "_surface": {
+                "text": "τ",
+                "unicode_name": "GREEK SMALL LETTER TAU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transition weights in a WFA"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element τ"
+                    }
+                ]
+            }
+        },
+        "cf89": {
+            "_surface": {
+                "text": "ω",
+                "unicode_name": "GREEK SMALL LETTER OMEGA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cfb5": {
+            "_surface": {
+                "text": "ϵ",
+                "unicode_name": "GREEK LUNATE EPSILON SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Empty string"
+                    }
+                ]
+            }
+        },
+        "574641": {
+            "_surface": {
+                "text": "WFA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted finite automata"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted finite automaton"
+                    }
+                ]
+            }
+        },
+        "657870": {
+            "_surface": {
+                "text": "exp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Exponential function"
+                    }
+                ]
+            }
+        },
+        "666978": {
+            "_surface": {
+                "text": "fix"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fix function"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm function"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum operator"
+                    }
+                ]
+            }
+        },
+        "e28495": {
+            "_surface": {
+                "text": "ℕ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of natural numbers"
+                    }
+                ]
+            }
+        },
+        "e2849a": {
+            "_surface": {
+                "text": "ℚ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of rational numbers"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of rational reals"
+                    }
+                ]
+            }
+        },
+        "e2849b": {
+            "_surface": {
+                "text": "ℛ",
+                "unicode_name": "SCRIPT CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set ℛ"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of rational series"
+                    }
+                ]
+            }
+        },
+        "e284a4": {
+            "_surface": {
+                "text": "ℤ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of integer numbers"
+                    }
+                ]
+            }
+        },
+        "e28885": {
+            "_surface": {
+                "text": "∅",
+                "unicode_name": "EMPTY SET"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol representing provably empty"
+                    }
+                ]
+            }
+        },
+        "e28888": {
+            "_surface": {
+                "text": "∈",
+                "unicode_name": "ELEMENT OF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of a set"
+                    }
+                ]
+            }
+        },
+        "e28898": {
+            "_surface": {
+                "text": "∘",
+                "unicode_name": "RING OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stacking two layers"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Arithmetic operation (either +, -, or ×)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Concatenation"
+                    }
+                ]
+            }
+        },
+        "e2889e": {
+            "_surface": {
+                "text": "∞",
+                "unicode_name": "INFINITY"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infinity"
+                    }
+                ]
+            }
+        },
+        "e28994": {
+            "_surface": {
+                "text": "≔",
+                "unicode_name": "COLON EQUALS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Assignment operator"
+                    }
+                ]
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element-wise multiplication operator"
+                    }
+                ]
+            }
+        },
+        "e28b85": {
+            "_surface": {
+                "text": "⋅",
+                "unicode_name": "DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dot product operator"
+                    }
+                ]
+            }
+        },
+        "52654c55": {
+            "_surface": {
+                "text": "ReLU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rectified Linear Unit function"
+                    }
+                ]
+            }
+        },
+        "616e626e": {
+            "_surface": {
+                "text": "anbn",
+                "unicode_name": "anbn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "String of a's of length n followed by b's of length n"
+                    }
+                ]
+            }
+        },
+        "72616e6b": {
+            "_surface": {
+                "text": "rank"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rank function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rank of a matrix"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function used in RNNs"
+                    }
+                ]
+            }
+        },
+        "f09d9080": {
+            "_surface": {
+                "text": "𝐀",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hankel sub-block"
+                    }
+                ]
+            }
+        },
+        "f09d9085": {
+            "_surface": {
+                "text": "𝐅",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of forget gate activations in a QRNN"
+                    }
+                ]
+            }
+        },
+        "f09d908a": {
+            "_surface": {
+                "text": "𝐊",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Keys up to time t"
+                    }
+                ]
+            }
+        },
+        "f09d908e": {
+            "_surface": {
+                "text": "𝐎",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of output gate activations in a QRNN"
+                    }
+                ]
+            }
+        },
+        "f09d9092": {
+            "_surface": {
+                "text": "𝐒",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stack"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Stack value at time t"
+                    }
+                ]
+            }
+        },
+        "f09d9094": {
+            "_surface": {
+                "text": "𝐔",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix in an RNN"
+                    }
+                ]
+            }
+        },
+        "f09d9095": {
+            "_surface": {
+                "text": "𝐕",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Values up to time t"
+                    }
+                ]
+            }
+        },
+        "f09d9096": {
+            "_surface": {
+                "text": "𝐖",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix in an RNN"
+                    },
+                    {
+                        "affixes": [
+                            "_h"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix W_h"
+                    },
+                    {
+                        "affixes": [
+                            "_c"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix W_c"
+                    }
+                ]
+            }
+        },
+        "f09d9097": {
+            "_surface": {
+                "text": "𝐗",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of input vectors in a QRNN"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Prefix of input vectors up to time t"
+                    }
+                ]
+            }
+        },
+        "f09d9099": {
+            "_surface": {
+                "text": "𝐙",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of update gate activations in a QRNN"
+                    }
+                ]
+            }
+        },
+        "f09d909c": {
+            "_surface": {
+                "text": "𝐜",
+                "unicode_name": "MATHEMATICAL BOLD SMALL C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory vector in an LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory vector in a QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Counter vector in a CM"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "LSTM state at time t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Encoding produced as a geometric-weighted sum of the stack contents"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Quantity c_t computed by the second layer of s-QRNN"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Counter values at time t"
+                    },
+                    {
+                        "affixes": [
+                            "_t-1"
+                        ],
+                        "arity": 0,
+                        "description": "Previous encoding"
+                    }
+                ]
+            }
+        },
+        "f09d909d": {
+            "_surface": {
+                "text": "𝐝",
+                "unicode_name": "MATHEMATICAL BOLD SMALL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decoder"
+                    }
+                ]
+            }
+        },
+        "f09d909e": {
+            "_surface": {
+                "text": "𝐞",
+                "unicode_name": "MATHEMATICAL BOLD SMALL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Encoder"
+                    }
+                ]
+            }
+        },
+        "f09d909f": {
+            "_surface": {
+                "text": "𝐟",
+                "unicode_name": "MATHEMATICAL BOLD SMALL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function f"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function mapping Σ* to ℚ^k"
+                    },
+                    {
+                        "affixes": [
+                            "_s"
+                        ],
+                        "arity": 0,
+                        "description": "Function that updates 𝐬_t"
+                    },
+                    {
+                        "affixes": [
+                            "_π"
+                        ],
+                        "arity": 0,
+                        "description": "Function that updates π_t"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State vector in an LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output states generated by each RNN layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Current state in an RNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State vector in a QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State vector in a GRU"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden state at time t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Quantity h_t computed by the first layer of s-QRNN"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Attention head h_t"
+                    },
+                    {
+                        "affixes": [
+                            "_t'"
+                        ],
+                        "arity": 0,
+                        "description": "Intermediate value h_t'"
+                    },
+                    {
+                        "affixes": [
+                            "_t0"
+                        ],
+                        "arity": 0,
+                        "description": "Intermediate value h_t0"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intermediate value"
+                    }
+                ]
+            }
+        },
+        "f09d90a4": {
+            "_surface": {
+                "text": "𝐤",
+                "unicode_name": "MATHEMATICAL BOLD SMALL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Key k_t"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Key k"
+                    }
+                ]
+            }
+        },
+        "f09d90a8": {
+            "_surface": {
+                "text": "𝐨",
+                "unicode_name": "MATHEMATICAL BOLD SMALL O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90aa": {
+            "_surface": {
+                "text": "𝐪",
+                "unicode_name": "MATHEMATICAL BOLD SMALL Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Query q_t"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Query q"
+                    }
+                ]
+            }
+        },
+        "f09d90ab": {
+            "_surface": {
+                "text": "𝐫",
+                "unicode_name": "MATHEMATICAL BOLD SMALL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reset gate in a GRU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function mapping Σ* to ℤ^k"
+                    }
+                ]
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Geometric k-stack RNN recurrent update"
+                    }
+                ]
+            }
+        },
+        "f09d90ad": {
+            "_surface": {
+                "text": "𝐭",
+                "unicode_name": "MATHEMATICAL BOLD SMALL T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90ae": {
+            "_surface": {
+                "text": "𝐮",
+                "unicode_name": "MATHEMATICAL BOLD SMALL U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "New memory calculation in a GRU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant vector u"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function mapping Σ* to ℤ^k"
+                    }
+                ]
+            }
+        },
+        "f09d90af": {
+            "_surface": {
+                "text": "𝐯",
+                "unicode_name": "MATHEMATICAL BOLD SMALL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant vector v"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Value v_t"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weights of the linear thresholder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Window length in a QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Window over the last w input tokens in a CM"
+                    }
+                ]
+            }
+        },
+        "f09d90b1": {
+            "_surface": {
+                "text": "𝐱",
+                "unicode_name": "MATHEMATICAL BOLD SMALL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vector in an RNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector embedding of an input element"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vector in an LSTM, GRU, or QRNN"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input sequence x_t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input embedding x_t"
+                    }
+                ]
+            }
+        },
+        "f09d90b3": {
+            "_surface": {
+                "text": "𝐳",
+                "unicode_name": "MATHEMATICAL BOLD SMALL Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Update gate in a QRNN"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Update gate in a GRU"
+                    }
+                ]
+            }
+        },
+        "f09d929c": {
+            "_surface": {
+                "text": "𝒜",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Counter Machine 𝒜"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Machine 𝒜"
+                    }
+                ]
+            }
+        },
+        "696d616765": {
+            "_surface": {
+                "text": "image"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d909d31": {
+            "_surface": {
+                "text": "𝐝1",
+                "unicode_name": "𝐝1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Single-layer linear decoder"
+                    }
+                ]
+            }
+        },
+        "f09d909d32": {
+            "_surface": {
+                "text": "𝐝2",
+                "unicode_name": "𝐝2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "2-layer linear decoder"
+                    }
+                ]
+            }
+        },
+        "616e626ecea3": {
+            "_surface": {
+                "text": "anbnΣ",
+                "unicode_name": "anbnΣ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Set of all possible strings starting with anbn"
+                    },
+                    {
+                        "affixes": [
+                            "*∪{ϵ}"
+                        ],
+                        "arity": 0,
+                        "description": "Set of all possible strings starting with anbn or the empty string"
+                    }
+                ]
+            }
+        },
+        "732d4c53544d": {
+            "_surface": {
+                "text": "s-LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Saturated LSTM"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequential Long Short Term Memory"
+                    }
+                ]
+            }
+        },
+        "732d51524e4e": {
+            "_surface": {
+                "text": "s-QRNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequential Quantum Recurrent Neural Network"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Saturated QRNN"
+                    }
+                ]
+            }
+        },
+        "6465636f646572": {
+            "_surface": {
+                "text": "decoder",
+                "unicode_name": "decoder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A function that decodes the output of a model"
+                    }
+                ]
+            }
+        }
+    }
+}

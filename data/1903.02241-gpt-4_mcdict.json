@@ -1,0 +1,641 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chemical element"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hydrogen"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise Model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of items or quantity"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio of wavelength to change in wavelength"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolution"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Physical quantity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Widths"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "EWs or reduced EWs"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equivalent width"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line strength indicator"
+                    }
+                ]
+            }
+        },
+        "5a": {
+            "_surface": {
+                "text": "Z",
+                "unicode_name": "LATIN CAPITAL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metallicity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proportion of star's mass composed of heavier elements"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slope of the trend"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of bootstrap samples"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [],
+                "roman": []
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Frequency"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Physical quantity"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Physical constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gravity"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for bootstrap samples"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Integer"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of time"
+                    }
+                ]
+            }
+        },
+        "4550": {
+            "_surface": {
+                "text": "EP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ionization potential"
+                    }
+                ]
+            }
+        },
+        "4665": {
+            "_surface": {
+                "text": "Fe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chemical element"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron"
+                    }
+                ]
+            }
+        },
+        "6b6d": {
+            "_surface": {
+                "text": "km"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kilometer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of length"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Delta"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol representing change or difference"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Blending index"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature factor"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Physical quantity"
+                    }
+                ]
+            }
+        },
+        "cebc": {
+            "_surface": {
+                "text": "μ",
+                "unicode_name": "GREEK SMALL LETTER MU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of length in the metric system"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Micrometer"
+                    }
+                ]
+            }
+        },
+        "cebe": {
+            "_surface": {
+                "text": "ξ",
+                "unicode_name": "GREEK SMALL LETTER XI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xi"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Microturbulence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Microturbulence parameter"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Confidence interval"
+                    }
+                ]
+            }
+        },
+        "cfb5": {
+            "_surface": {
+                "text": "ϵ",
+                "unicode_name": "GREEK LUNATE EPSILON SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Epsilon"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A constant representing a very small positive quantity"
+                    }
+                ]
+            }
+        },
+        "646578": {
+            "_surface": {
+                "text": "dex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of measurement for the logarithm of ratios in astronomy"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dex"
+                    }
+                ]
+            }
+        },
+        "656666": {
+            "_surface": {
+                "text": "eff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Describes the effectiveness of a quantity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective"
+                    }
+                ]
+            }
+        },
+        "657863": {
+            "_surface": {
+                "text": "exc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Excitation"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mathematical function"
+                    }
+                ]
+            }
+        },
+        "73796e": {
+            "_surface": {
+                "text": "syn"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e281a1": {
+            "_surface": {
+                "text": "⁡",
+                "unicode_name": "FUNCTION APPLICATION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function application"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator indicating that a function is being applied to a value"
+                    }
+                ]
+            }
+        },
+        "746f74616c": {
+            "_surface": {
+                "text": "total"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5c7532303631": {
+            "_surface": {
+                "text": "\\u2061",
+                "unicode_name": "\\u2061"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function application"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator indicating that a function is being applied to a value"
+                    }
+                ]
+            }
+        }
+    }
+}

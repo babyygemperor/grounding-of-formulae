@@ -1,0 +1,917 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "32": {
+            "_surface": {
+                "text": "2",
+                "unicode_name": "DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number 2"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_tgt"
+                        ],
+                        "arity": 0,
+                        "description": "Airmass of the target"
+                    },
+                    {
+                        "affixes": [
+                            "_std"
+                        ],
+                        "arity": 0,
+                        "description": "Airmass of the standard"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function of λ"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fluxes of a continuum-normalized spectrum before telluric correction"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric-corrected spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio of fluxes of a continuum-normalized spectrum after telluric correction"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fluxes of a continuum-normalized spectrum after telluric correction"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function of λ"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_std(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the telluric standard star"
+                    },
+                    {
+                        "affixes": [
+                            "_std'⁢(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Normalized intrinsic spectrum of the telluric standard star"
+                    },
+                    {
+                        "affixes": [
+                            "_std'⁢(λ)*P(λ)_fit"
+                        ],
+                        "arity": 0,
+                        "description": "Spectrum of the telluric standard star combining fitted intrinsic lines"
+                    },
+                    {
+                        "affixes": [
+                            "_tgt"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Stellar spectrum"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_std(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Observed spectrum of a telluric standard star"
+                    },
+                    {
+                        "affixes": [
+                            "_std'⁢(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Normalized observed spectrum of the telluric standard star"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observed continuum-normalized spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observed spectrum of the target"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Observed spectrum"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Instrumental profile"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instrumental profile"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Instrumental throughput"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instrumental throughput"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Resultant spectrum after dividing the observed spectrum by a synthetic spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolution"
+                    },
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Resultant spectrum after dividing the observed spectrum by a synthetic spectrum"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ;A_std)"
+                        ],
+                        "arity": 0,
+                        "description": "Telluric absorption imprinted in the spectrum of the telluric standard star"
+                    },
+                    {
+                        "affixes": [
+                            "(λ;A_tgt)"
+                        ],
+                        "arity": 0,
+                        "description": "Corrected telluric absorption spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Corrected telluric absorption spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ;A_std)"
+                        ],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum at the airmass of A_std"
+                    },
+                    {
+                        "affixes": [
+                            "(λ;A_std)*P(λ)_model"
+                        ],
+                        "arity": 0,
+                        "description": "Synthetic telluric absorption spectrum convolved with an instrumental profile"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric absorption term"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Synthetic telluric spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable in the partial correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable in the partial correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "5a": {
+            "_surface": {
+                "text": "Z",
+                "unicode_name": "LATIN CAPITAL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable in the partial correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient in the linear regression model"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient in the linear regression model"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient in the linear regression model"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surface gravity"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inclination angle"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "p-value"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Partial correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Speed of light"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Projected rotational velocity"
+                    }
+                ]
+            }
+        },
+        "2d31": {
+            "_surface": {
+                "text": "-1",
+                "unicode_name": "-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number -1"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Speed of light in km/s"
+                    }
+                ]
+            }
+        },
+        "414d": {
+            "_surface": {
+                "text": "AM"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4f32": {
+            "_surface": {
+                "text": "O2",
+                "unicode_name": "O2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Molecular oxygen"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Difference between the model and observation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference between the model and observation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength shift between the target and the standard"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effects other than the airmass ratio"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable in Eq. (6)"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Difference between the intrinsic and fitted spectra"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation of G(λ) at 0.45<F(λ)/G(λ)<0.55"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation for water vapor absorption"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation of the corrected flux"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference between the intrinsic and fitted spectra"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation for molecular oxygen absorption"
+                    }
+                ]
+            }
+        },
+        "48324f": {
+            "_surface": {
+                "text": "H2O",
+                "unicode_name": "H2O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Water vapor"
+                    }
+                ]
+            }
+        },
+        "656666": {
+            "_surface": {
+                "text": "eff"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "666974": {
+            "_surface": {
+                "text": "fit"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fitted value"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm"
+                    }
+                ]
+            }
+        },
+        "73696e": {
+            "_surface": {
+                "text": "sin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sine function"
+                    }
+                ]
+            }
+        },
+        "737464": {
+            "_surface": {
+                "text": "std"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "746774": {
+            "_surface": {
+                "text": "tgt"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "ce9474": {
+            "_surface": {
+                "text": "Δt",
+                "unicode_name": "Δt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in time in hours"
+                    }
+                ]
+            }
+        },
+        "e289b2": {
+            "_surface": {
+                "text": "≲",
+                "unicode_name": "LESS-THAN OR EQUIVALENT TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Less than or approximately equal to"
+                    }
+                ]
+            }
+        },
+        "e289b3": {
+            "_surface": {
+                "text": "≳",
+                "unicode_name": "GREATER-THAN OR EQUIVALENT TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greater than or approximately equal to"
+                    }
+                ]
+            }
+        },
+        "41746774": {
+            "_surface": {
+                "text": "Atgt",
+                "unicode_name": "Atgt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Airmass of the target"
+                    }
+                ]
+            }
+        },
+        "49737464": {
+            "_surface": {
+                "text": "Istd",
+                "unicode_name": "Istd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Normalized intrinsic spectrum of the telluric standard star"
+                    }
+                ]
+            }
+        },
+        "54656666": {
+            "_surface": {
+                "text": "Teff",
+                "unicode_name": "Teff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "ce94414d": {
+            "_surface": {
+                "text": "ΔAM",
+                "unicode_name": "ΔAM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in airmass"
+                    }
+                ]
+            }
+        },
+        "ce94cebb": {
+            "_surface": {
+                "text": "Δλ",
+                "unicode_name": "Δλ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Change in wavelength"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c": {
+            "_surface": {
+                "text": "model"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "476d6f64656c": {
+            "_surface": {
+                "text": "Gmodel",
+                "unicode_name": "Gmodel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model spectrum"
+                    }
+                ]
+            }
+        }
+    }
+}

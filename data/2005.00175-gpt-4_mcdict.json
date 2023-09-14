@@ -1,0 +1,521 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function representing the gain"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information Gain"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conditional probability distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Metric used to predict the 'informativeness' of each example"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized informativeness metric"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Secondary learner to approximate IG(X) given X"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_Skip"
+                        ],
+                        "arity": 0,
+                        "description": "Free threshold parameter for deciding which IG(X) values are sufficiently high to warrant backpropagation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Free threshold parameter for deciding which IG(X) values are sufficiently high to warrant backpropagation"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ordered sequence of tokens"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input text"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of actions: Backprop or Skip"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of examples"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of pairs in the training set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of pairs in the test set"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function used to decide whether to backpropagate or skip"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Threshold"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Next token"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token"
+                    }
+                ]
+            }
+        },
+        "4947": {
+            "_surface": {
+                "text": "IG",
+                "unicode_name": "IG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information Gain"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in perplexity measured against the objective set before and after training on a given example"
+                    }
+                ]
+            }
+        },
+        "ce9b": {
+            "_surface": {
+                "text": "Λ",
+                "unicode_name": "GREEK CAPITAL LETTER LAMDA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Perplexity of a given set of (sequence, next token) pairs"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial pretrained model parameters"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of parameters"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameterization of the language model"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Parameterization of the new language model after backpropogating"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Updated language model parameters"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Model parameters after one backpropagation step"
+                    }
+                ]
+            }
+        },
+        "cf80": {
+            "_surface": {
+                "text": "π",
+                "unicode_name": "GREEK SMALL LETTER PI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greedy policy applied during language model finetuning"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mathematical function"
+                    }
+                ]
+            }
+        },
+        "70cc85": {
+            "_surface": {
+                "text": "p̅",
+                "unicode_name": "p̅"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution that assigns all of its probability mass to the token y"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "One-hot probability distribution"
+                    }
+                ]
+            }
+        },
+        "ceb231": {
+            "_surface": {
+                "text": "β1",
+                "unicode_name": "β1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperparameter for Adam optimizer"
+                    }
+                ]
+            }
+        },
+        "ceb232": {
+            "_surface": {
+                "text": "β2",
+                "unicode_name": "β2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperparameter for Adam optimizer"
+                    }
+                ]
+            }
+        },
+        "e280a6": {
+            "_surface": {
+                "text": "…",
+                "unicode_name": "HORIZONTAL ELLIPSIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ellipsis"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Indicates an ongoing sequence or the rest of the elements in a set"
+                    }
+                ]
+            }
+        },
+        "f09d929f": {
+            "_surface": {
+                "text": "𝒟",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training dataset for the secondary learner"
+                    }
+                ]
+            }
+        },
+        "f09d92aa": {
+            "_surface": {
+                "text": "𝒪",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Held-out subset of training data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Objective set"
+                    }
+                ]
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of (sequence, next token) pairs"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Test set"
+                    }
+                ]
+            }
+        }
+    }
+}

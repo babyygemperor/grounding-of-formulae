@@ -1,0 +1,1071 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[x]_R"
+                        ],
+                        "arity": 0,
+                        "description": "Equivalence class of x in R"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Union of equivalence classes of R_P"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of P"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of X"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Element of A"
+                    },
+                    {
+                        "affixes": [
+                            "_x"
+                        ],
+                        "arity": 0,
+                        "description": "Intersection of all A in P such that x is in A"
+                    },
+                    {
+                        "affixes": [
+                            "_x"
+                        ],
+                        "arity": 0,
+                        "description": "Smallest set in P containing x"
+                    },
+                    {
+                        "affixes": [
+                            "_x"
+                        ],
+                        "arity": 0,
+                        "description": "Cell of Π containing x, i.e. the equivalence class of x in R_P"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of X"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Frame"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise frame"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index set"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise counterpart of M'"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Non-augmented model obtained from N' by simply dropping the R_{𝖠}' component"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Induced S5 model from M"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "S5 model"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "S5 model"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighbourhood function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Augmented model"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Generated sub-model"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all subsets of X satisfying (P1), (P2) and (P3)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise set"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Subset of P"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binary relation on X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equivalence relation on X"
+                    },
+                    {
+                        "affixes": [
+                            "_P"
+                        ],
+                        "arity": 0,
+                        "description": "Equivalence relation on X derived from P"
+                    },
+                    {
+                        "affixes": [
+                            "_P"
+                        ],
+                        "arity": 0,
+                        "description": "Corresponding equivalence relation on X"
+                    },
+                    {
+                        "affixes": [
+                            "_P"
+                        ],
+                        "arity": 0,
+                        "description": "Equivalence relation defined by the partition Π"
+                    },
+                    {
+                        "affixes": [
+                            "_{𝖠}"
+                        ],
+                        "arity": 0,
+                        "description": "Accessibility relations for 𝖠"
+                    },
+                    {
+                        "affixes": [
+                            "_{𝖲}^"
+                        ],
+                        "arity": 0,
+                        "description": "Accessibility relations for 𝖲^"
+                    },
+                    {
+                        "affixes": [
+                            "_{𝖲}^⊆R_{𝖠}"
+                        ],
+                        "arity": 0,
+                        "description": "Inclusion relation"
+                    },
+                    {
+                        "affixes": [
+                            "_{P} = R_{S}^"
+                        ],
+                        "arity": 0,
+                        "description": "Equivalence relation defined by the partition Π"
+                    },
+                    {
+                        "affixes": [
+                            "_{𝖠}'"
+                        ],
+                        "arity": 0,
+                        "description": "Restricted relation R_{𝖠}"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Actual state"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of states"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Subset of X"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of X"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of X"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of X"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of X"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural embedding of ℒ in ℒ_{𝖲𝖠}"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proposition"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Economic recovery"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Translation function from ℒ to ℒ_{𝖪𝖠}"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Valuation function"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Restricted valuation function"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Actual state"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Another actual state"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Another state"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Another actual state"
+                    }
+                ]
+            }
+        },
+        "c2ac": {
+            "_surface": {
+                "text": "¬",
+                "unicode_name": "NOT SIGN"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Negation operator"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all maximally 𝖫_{𝖲𝖠}-consistent subsets (MCS) of ℒ_{𝖲𝖠}"
+                    }
+                ]
+            }
+        },
+        "cea0": {
+            "_surface": {
+                "text": "Π",
+                "unicode_name": "GREEK CAPITAL LETTER PI"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Partition of X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all A_x for all x in X, subset of P"
+                    }
+                ]
+            }
+        },
+        "cf86": {
+            "_surface": {
+                "text": "φ",
+                "unicode_name": "GREEK SMALL LETTER PHI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Formula"
+                    }
+                ]
+            }
+        },
+        "cf88": {
+            "_surface": {
+                "text": "ψ",
+                "unicode_name": "GREEK SMALL LETTER PSI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Another formula"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language"
+                    },
+                    {
+                        "affixes": [
+                            "_{𝖪𝖠}"
+                        ],
+                        "arity": 0,
+                        "description": "Language with knowledge and universal modalities"
+                    },
+                    {
+                        "affixes": [
+                            "_{𝖲𝖠}"
+                        ],
+                        "arity": 0,
+                        "description": "Fragment of ℒ without the 𝖤 modality"
+                    }
+                ]
+            }
+        },
+        "e284b0": {
+            "_surface": {
+                "text": "ℰ",
+                "unicode_name": "SCRIPT CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of equivalence relations over X"
+                    }
+                ]
+            }
+        },
+        "e28692": {
+            "_surface": {
+                "text": "→",
+                "unicode_name": "RIGHTWARDS ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Implication operator"
+                    }
+                ]
+            }
+        },
+        "e28794": {
+            "_surface": {
+                "text": "⇔",
+                "unicode_name": "LEFT RIGHT DOUBLE ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "if and only if operator"
+                    }
+                ]
+            }
+        },
+        "e28885": {
+            "_surface": {
+                "text": "∅",
+                "unicode_name": "EMPTY SET"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Empty set"
+                    }
+                ]
+            }
+        },
+        "e289a1": {
+            "_surface": {
+                "text": "≡",
+                "unicode_name": "IDENTICAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logical equivalence"
+                    }
+                ]
+            }
+        },
+        "e28aa4": {
+            "_surface": {
+                "text": "⊤",
+                "unicode_name": "DOWN TACK"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tautology (always true)"
+                    }
+                ]
+            }
+        },
+        "e28aa5": {
+            "_surface": {
+                "text": "⊥",
+                "unicode_name": "UP TACK"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contradiction (always false)"
+                    }
+                ]
+            }
+        },
+        "e28aa8": {
+            "_surface": {
+                "text": "⊨",
+                "unicode_name": "TRUE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Semantic consequence (entailment)"
+                    }
+                ]
+            }
+        },
+        "e28b83": {
+            "_surface": {
+                "text": "⋃",
+                "unicode_name": "N-ARY UNION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Union operator"
+                    }
+                ]
+            }
+        },
+        "f09d929c": {
+            "_surface": {
+                "text": "𝒜",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92ab": {
+            "_surface": {
+                "text": "𝒫",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all expertise sets P"
+                    }
+                ]
+            }
+        },
+        "f09d96a0": {
+            "_surface": {
+                "text": "𝖠",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Interpreted via relational semantics"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Universal modality"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator A"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Dual operator of 𝖠"
+                    }
+                ]
+            }
+        },
+        "f09d96a4": {
+            "_surface": {
+                "text": "𝖤",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expertise operator"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Dual operator of 𝖤"
+                    }
+                ]
+            }
+        },
+        "f09d96aa": {
+            "_surface": {
+                "text": "𝖪",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Knowledge operator"
+                    }
+                ]
+            }
+        },
+        "f09d96ab": {
+            "_surface": {
+                "text": "𝖫",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Extension of the propositional calculus containing the axioms and inference rules"
+                    },
+                    {
+                        "affixes": [
+                            "_{𝖲𝖠}"
+                        ],
+                        "arity": 0,
+                        "description": "Complete for ℒ_{𝖲𝖠} with respect to expertise frames"
+                    }
+                ]
+            }
+        },
+        "f09d96b2": {
+            "_surface": {
+                "text": "𝖲",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Soundness operator"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Dual operator of 𝖲"
+                    }
+                ]
+            }
+        },
+        "f09d96b3": {
+            "_surface": {
+                "text": "𝖳",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trust operator"
+                    }
+                ]
+            }
+        },
+        "e28aa8617567": {
+            "_surface": {
+                "text": "⊨aug",
+                "unicode_name": "⊨aug"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Satisfaction relation between augmented models and ℒ_{𝖲𝖠} formulas"
+                    }
+                ]
+            }
+        },
+        "666f7220616c6c": {
+            "_surface": {
+                "text": "for all",
+                "unicode_name": "for all"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Universal quantifier"
+                    }
+                ]
+            }
+        },
+        "f09d96a0f09d96a4": {
+            "_surface": {
+                "text": "𝖠𝖤"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d96a4f09d96a4": {
+            "_surface": {
+                "text": "𝖤𝖤"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d96aaf09d96a0": {
+            "_surface": {
+                "text": "𝖪𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language with knowledge and universal modalities"
+                    }
+                ]
+            }
+        },
+        "f09d96b2f09d96a0": {
+            "_surface": {
+                "text": "𝖲𝖠"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e288a5cf86e288a54d": {
+            "_surface": {
+                "text": "∥φ∥M",
+                "unicode_name": "∥φ∥M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of states at which φ is true"
+                    }
+                ]
+            }
+        },
+        "f09d96aff09d978bf09d9788f09d9789": {
+            "_surface": {
+                "text": "𝖯𝗋𝗈𝗉"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of propositional variables"
+                    }
+                ]
+            }
+        }
+    }
+}

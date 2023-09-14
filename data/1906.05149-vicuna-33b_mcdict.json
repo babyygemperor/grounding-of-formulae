@@ -1,0 +1,2355 @@
+{
+    "_author": "TheBloke/Vicuna-33B-1-3-SuperHOT-8K-GPTQ",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "31": {
+            "_surface": {
+                "text": "1",
+                "unicode_name": "DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "1"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "initial learning rate"
+                    }
+                ]
+            }
+        },
+        "32": {
+            "_surface": {
+                "text": "2",
+                "unicode_name": "DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "2"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "batch size"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "hyperparameter"
+                    }
+                ]
+            }
+        },
+        "33": {
+            "_surface": {
+                "text": "3",
+                "unicode_name": "DIGIT THREE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "3"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "negative target"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "batch size"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "loss function"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Activations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Annotated words"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "a"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Current hidden states"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "g"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Human subjects"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "instance"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layers"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Predictive hidden states"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "result vector"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "result vector"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Substitute words"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Timestep"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target word"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector representations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "v"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word embeddings"
+                    }
+                ]
+            }
+        },
+        "3239": {
+            "_surface": {
+                "text": "29",
+                "unicode_name": "29"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "29"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "training epoch"
+                    }
+                ]
+            }
+        },
+        "3431": {
+            "_surface": {
+                "text": "41",
+                "unicode_name": "41"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "41"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "hyperparameter"
+                    }
+                ]
+            }
+        },
+        "3433": {
+            "_surface": {
+                "text": "43",
+                "unicode_name": "43"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "43"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "negative samples"
+                    }
+                ]
+            }
+        },
+        "3c3e": {
+            "_surface": {
+                "text": "<>",
+                "unicode_name": "<>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average embedding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Union of substitute words and target word"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average embedding of substitute words"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Top-10 neighbors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Words in context"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Paraphrases"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation benchmark"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Simple vector operations"
+                    }
+                ]
+            }
+        },
+        "4c4d": {
+            "_surface": {
+                "text": "LM",
+                "unicode_name": "LM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language Model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional LSTM"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lexical substituion data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lexical substitution data"
+                    }
+                ]
+            }
+        },
+        "cf81": {
+            "_surface": {
+                "text": "ρ",
+                "unicode_name": "GREEK SMALL LETTER RHO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pearson's ρ"
+                    }
+                ]
+            }
+        },
+        "45782e": {
+            "_surface": {
+                "text": "Ex.",
+                "unicode_name": "Ex."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1)"
+                        ],
+                        "arity": 0,
+                        "description": "Example sentence 1"
+                    },
+                    {
+                        "affixes": [
+                            "(2)"
+                        ],
+                        "arity": 0,
+                        "description": "Example sentence 2"
+                    }
+                ]
+            }
+        },
+        "627764": {
+            "_surface": {
+                "text": "bwd",
+                "unicode_name": "bwd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backward hidden states"
+                    }
+                ]
+            }
+        },
+        "636f73": {
+            "_surface": {
+                "text": "cos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "cosine function"
+                    }
+                ]
+            }
+        },
+        "667764": {
+            "_surface": {
+                "text": "fwd",
+                "unicode_name": "fwd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forward hidden states"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "45782e20": {
+            "_surface": {
+                "text": "Ex. ",
+                "unicode_name": "Ex. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1)"
+                        ],
+                        "arity": 0,
+                        "description": "Example sentence 1"
+                    },
+                    {
+                        "affixes": [
+                            "(2)"
+                        ],
+                        "arity": 0,
+                        "description": "Example sentence 2"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "63747874": {
+            "_surface": {
+                "text": "ctxt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "context"
+                    }
+                ]
+            }
+        },
+        "6e6f756e": {
+            "_surface": {
+                "text": "noun",
+                "unicode_name": "noun"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "noun"
+                    }
+                ]
+            }
+        },
+        "72656c79": {
+            "_surface": {
+                "text": "rely",
+                "unicode_name": "rely"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Heavily dependent on word embedding"
+                    }
+                ]
+            }
+        },
+        "73686564": {
+            "_surface": {
+                "text": "shed",
+                "unicode_name": "shed"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "shed"
+                    }
+                ]
+            }
+        },
+        "73686f77": {
+            "_surface": {
+                "text": "show",
+                "unicode_name": "show"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "show"
+                    }
+                ]
+            }
+        },
+        "7461686e": {
+            "_surface": {
+                "text": "tahn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "non-linearity"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7461736b": {
+            "_surface": {
+                "text": "task",
+                "unicode_name": "task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "task"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden state"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90a8": {
+            "_surface": {
+                "text": "𝐨",
+                "unicode_name": "MATHEMATICAL BOLD SMALL O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90ab": {
+            "_surface": {
+                "text": "𝐫",
+                "unicode_name": "MATHEMATICAL BOLD SMALL R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word embedding"
+                    }
+                ]
+            }
+        },
+        "f09d90ba": {
+            "_surface": {
+                "text": "𝐺",
+                "unicode_name": "MATHEMATICAL ITALIC CAPITAL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states"
+                    }
+                ]
+            }
+        },
+        "f09d9f90": {
+            "_surface": {
+                "text": "𝟐",
+                "unicode_name": "MATHEMATICAL BOLD DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input for LSTM"
+                    }
+                ]
+            }
+        },
+        "f09d9f91": {
+            "_surface": {
+                "text": "𝟑",
+                "unicode_name": "MATHEMATICAL BOLD DIGIT THREE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output for LSTM"
+                    }
+                ]
+            }
+        },
+        "f09d9f92": {
+            "_surface": {
+                "text": "𝟒",
+                "unicode_name": "MATHEMATICAL BOLD DIGIT FOUR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Forward LSTM"
+                    }
+                ]
+            }
+        },
+        "f09d9f93": {
+            "_surface": {
+                "text": "𝟓",
+                "unicode_name": "MATHEMATICAL BOLD DIGIT FIVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backward LSTM"
+                    }
+                ]
+            }
+        },
+        "f09d9f95": {
+            "_surface": {
+                "text": "𝟕",
+                "unicode_name": "MATHEMATICAL BOLD DIGIT SEVEN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linear transformation"
+                    }
+                ]
+            }
+        },
+        "f09d9f96": {
+            "_surface": {
+                "text": "𝟖",
+                "unicode_name": "MATHEMATICAL BOLD DIGIT EIGHT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax activation"
+                    }
+                ]
+            }
+        },
+        "f09d9f97": {
+            "_surface": {
+                "text": "𝟗",
+                "unicode_name": "MATHEMATICAL BOLD DIGIT NINE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word prediction"
+                    }
+                ]
+            }
+        },
+        "f09d9f98": {
+            "_surface": {
+                "text": "𝟘",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of hidden layers"
+                    }
+                ]
+            }
+        },
+        "f09d9f99": {
+            "_surface": {
+                "text": "𝟙",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word at timestep t"
+                    }
+                ]
+            }
+        },
+        "f09d9f9a": {
+            "_surface": {
+                "text": "𝟚",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Activation of hidden state"
+                    }
+                ]
+            }
+        },
+        "f09d9f9b": {
+            "_surface": {
+                "text": "𝟛",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK DIGIT THREE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output weight"
+                    }
+                ]
+            }
+        },
+        "f09d9f9c": {
+            "_surface": {
+                "text": "𝟜",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK DIGIT FOUR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Left context"
+                    }
+                ]
+            }
+        },
+        "f09d9f9d": {
+            "_surface": {
+                "text": "𝟝",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK DIGIT FIVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Right context"
+                    }
+                ]
+            }
+        },
+        "f09d9f9e": {
+            "_surface": {
+                "text": "𝟞",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK DIGIT SIX"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context2vec architecture"
+                    }
+                ]
+            }
+        },
+        "f09d9fa3": {
+            "_surface": {
+                "text": "𝟣",
+                "unicode_name": "MATHEMATICAL SANS-SERIF DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BiLSTM architecture"
+                    }
+                ]
+            }
+        },
+        "f09d9fa4": {
+            "_surface": {
+                "text": "𝟤",
+                "unicode_name": "MATHEMATICAL SANS-SERIF DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ELMo"
+                    }
+                ]
+            }
+        },
+        "f09d9fa5": {
+            "_surface": {
+                "text": "𝟥",
+                "unicode_name": "MATHEMATICAL SANS-SERIF DIGIT THREE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Predicting a word"
+                    }
+                ]
+            }
+        },
+        "f09d9fa6": {
+            "_surface": {
+                "text": "𝟦",
+                "unicode_name": "MATHEMATICAL SANS-SERIF DIGIT FOUR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Receiving a word"
+                    }
+                ]
+            }
+        },
+        "f09d9fa7": {
+            "_surface": {
+                "text": "𝟧",
+                "unicode_name": "MATHEMATICAL SANS-SERIF DIGIT FIVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Predicting both left and right context"
+                    }
+                ]
+            }
+        },
+        "f09d9fa8": {
+            "_surface": {
+                "text": "𝟨",
+                "unicode_name": "MATHEMATICAL SANS-SERIF DIGIT SIX"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Predicting one context"
+                    }
+                ]
+            }
+        },
+        "f09d9fa9": {
+            "_surface": {
+                "text": "𝟩",
+                "unicode_name": "MATHEMATICAL SANS-SERIF DIGIT SEVEN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summing activations"
+                    }
+                ]
+            }
+        },
+        "f09d9faa": {
+            "_surface": {
+                "text": "𝟪",
+                "unicode_name": "MATHEMATICAL SANS-SERIF DIGIT EIGHT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Applying softmax"
+                    }
+                ]
+            }
+        },
+        "666f637573": {
+            "_surface": {
+                "text": "focus",
+                "unicode_name": "focus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "focus"
+                    }
+                ]
+            }
+        },
+        "696e707574": {
+            "_surface": {
+                "text": "input",
+                "unicode_name": "input"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c": {
+            "_surface": {
+                "text": "model",
+                "unicode_name": "model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "model"
+                    }
+                ]
+            }
+        },
+        "73656e7365": {
+            "_surface": {
+                "text": "sense",
+                "unicode_name": "sense"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "sense"
+                    }
+                ]
+            }
+        },
+        "4c6578537562": {
+            "_surface": {
+                "text": "LexSub",
+                "unicode_name": "LexSub"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Large dataset by Kremer et al., 2014"
+                    }
+                ]
+            }
+        },
+        "5061737a6b65": {
+            "_surface": {
+                "text": "Paszke",
+                "unicode_name": "Paszke"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "author of reference"
+                    }
+                ]
+            }
+        },
+        "657870656374": {
+            "_surface": {
+                "text": "expect",
+                "unicode_name": "expect"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "expect"
+                    }
+                ]
+            }
+        },
+        "6c6179657273": {
+            "_surface": {
+                "text": "layers",
+                "unicode_name": "layers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "layers"
+                    }
+                ]
+            }
+        },
+        "6d617267696e": {
+            "_surface": {
+                "text": "margin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "margin"
+                    }
+                ]
+            }
+        },
+        "6f7574707574": {
+            "_surface": {
+                "text": "output",
+                "unicode_name": "output"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "output"
+                    }
+                ]
+            }
+        },
+        "737461746573": {
+            "_surface": {
+                "text": "states",
+                "unicode_name": "states"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "states"
+                    }
+                ]
+            }
+        },
+        "61737065637473": {
+            "_surface": {
+                "text": "aspects",
+                "unicode_name": "aspects"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "aspects"
+                    }
+                ]
+            }
+        },
+        "61766572616765": {
+            "_surface": {
+                "text": "average",
+                "unicode_name": "average"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "average"
+                    }
+                ]
+            }
+        },
+        "63617074757265": {
+            "_surface": {
+                "text": "capture",
+                "unicode_name": "capture"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "capture"
+                    }
+                ]
+            }
+        },
+        "636f6e63657074": {
+            "_surface": {
+                "text": "concept",
+                "unicode_name": "concept"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "concept"
+                    }
+                ]
+            }
+        },
+        "636f6e64756374": {
+            "_surface": {
+                "text": "conduct",
+                "unicode_name": "conduct"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "conduct"
+                    }
+                ]
+            }
+        },
+        "63757272656e74": {
+            "_surface": {
+                "text": "current",
+                "unicode_name": "current"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "current"
+                    }
+                ]
+            }
+        },
+        "64697665726765": {
+            "_surface": {
+                "text": "diverge",
+                "unicode_name": "diverge"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Different from word embedding"
+                    }
+                ]
+            }
+        },
+        "6578616d706c65": {
+            "_surface": {
+                "text": "example",
+                "unicode_name": "example"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "example"
+                    }
+                ]
+            }
+        },
+        "6c65786963616c": {
+            "_surface": {
+                "text": "lexical",
+                "unicode_name": "lexical"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lexical substituion data"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73756767657374": {
+            "_surface": {
+                "text": "suggest",
+                "unicode_name": "suggest"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "suggest"
+                    }
+                ]
+            }
+        },
+        "6265686176696f72": {
+            "_surface": {
+                "text": "behavior",
+                "unicode_name": "behavior"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "behavior"
+                    }
+                ]
+            }
+        },
+        "6d63636172746879": {
+            "_surface": {
+                "text": "mccarthy",
+                "unicode_name": "mccarthy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_navigli"
+                        ],
+                        "arity": 0,
+                        "description": "Lexical substitution data"
+                    }
+                ]
+            }
+        },
+        "70726f6475636564": {
+            "_surface": {
+                "text": "produced",
+                "unicode_name": "produced"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "produced"
+                    }
+                ]
+            }
+        },
+        "7265747269657665": {
+            "_surface": {
+                "text": "retrieve",
+                "unicode_name": "retrieve"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "retrieve"
+                    }
+                ]
+            }
+        },
+        "456d62656464696e67": {
+            "_surface": {
+                "text": "Embedding",
+                "unicode_name": "Embedding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representation of words"
+                    }
+                ]
+            }
+        },
+        "576f7264207461736b": {
+            "_surface": {
+                "text": "Word task",
+                "unicode_name": "Word task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task specific to word embeddings"
+                    }
+                ]
+            }
+        },
+        "616273747261637473": {
+            "_surface": {
+                "text": "abstracts",
+                "unicode_name": "abstracts"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "abstracts"
+                    }
+                ]
+            }
+        },
+        "616c69676e6d656e74": {
+            "_surface": {
+                "text": "alignment",
+                "unicode_name": "alignment"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Similarity between contextual and lexical representations"
+                    }
+                ]
+            }
+        },
+        "616d62696775697479": {
+            "_surface": {
+                "text": "ambiguity",
+                "unicode_name": "ambiguity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Morphosyntactic ambiguity"
+                    }
+                ]
+            }
+        },
+        "636f6e647563746564": {
+            "_surface": {
+                "text": "conducted",
+                "unicode_name": "conducted"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "conducted"
+                    }
+                ]
+            }
+        },
+        "656d62656464696e67": {
+            "_surface": {
+                "text": "embedding",
+                "unicode_name": "embedding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representation of words"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "embedding"
+                    }
+                ]
+            }
+        },
+        "65787472696e736963": {
+            "_surface": {
+                "text": "extrinsic",
+                "unicode_name": "extrinsic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "extrinsic"
+                    }
+                ]
+            }
+        },
+        "696e74656772617465": {
+            "_surface": {
+                "text": "integrate",
+                "unicode_name": "integrate"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "integrate"
+                    }
+                ]
+            }
+        },
+        "696e7472696e736963": {
+            "_surface": {
+                "text": "intrinsic",
+                "unicode_name": "intrinsic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "intrinsic"
+                    }
+                ]
+            }
+        },
+        "6d656368616e69736d": {
+            "_surface": {
+                "text": "mechanism",
+                "unicode_name": "mechanism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "mechanism"
+                    }
+                ]
+            }
+        },
+        "6f626a656374697665": {
+            "_surface": {
+                "text": "objective",
+                "unicode_name": "objective"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "objective"
+                    }
+                ]
+            }
+        },
+        "707265646963746564": {
+            "_surface": {
+                "text": "predicted",
+                "unicode_name": "predicted"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "predicted"
+                    }
+                ]
+            }
+        },
+        "726574726965766564": {
+            "_surface": {
+                "text": "retrieved",
+                "unicode_name": "retrieved"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Obtained from hidden states"
+                    }
+                ]
+            }
+        },
+        "6368616c6c656e676573": {
+            "_surface": {
+                "text": "challenges",
+                "unicode_name": "challenges"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Semantic distinctions"
+                    }
+                ]
+            }
+        },
+        "636f6e636c7573696f6e": {
+            "_surface": {
+                "text": "conclusion",
+                "unicode_name": "conclusion"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "conclusion"
+                    }
+                ]
+            }
+        },
+        "657863657074696f6e73": {
+            "_surface": {
+                "text": "exceptions",
+                "unicode_name": "exceptions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Models that don't meet or exceed the unsupervised baseline"
+                    }
+                ]
+            }
+        },
+        "6578706572696d656e74": {
+            "_surface": {
+                "text": "experiment",
+                "unicode_name": "experiment"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "experiment"
+                    }
+                ]
+            }
+        },
+        "66697273742063656c6c": {
+            "_surface": {
+                "text": "first cell",
+                "unicode_name": "first cell"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Comparison with the same representation"
+                    }
+                ]
+            }
+        },
+        "6879706f746865736973": {
+            "_surface": {
+                "text": "hypothesis",
+                "unicode_name": "hypothesis"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "hypothesis"
+                    }
+                ]
+            }
+        },
+        "70726f63657373696e67": {
+            "_surface": {
+                "text": "processing",
+                "unicode_name": "processing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "processing"
+                    }
+                ]
+            }
+        },
+        "73696d696c6172697479": {
+            "_surface": {
+                "text": "similarity",
+                "unicode_name": "similarity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Comparison of lexical and contextual vectors"
+                    }
+                ]
+            }
+        },
+        "61637469766174696f6e73": {
+            "_surface": {
+                "text": "activations",
+                "unicode_name": "activations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "activations"
+                    }
+                ]
+            }
+        },
+        "636f6e6a756e6374696f6e": {
+            "_surface": {
+                "text": "conjunction",
+                "unicode_name": "conjunction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "conjunction"
+                    }
+                ]
+            }
+        },
+        "636f6e73657175656e6365": {
+            "_surface": {
+                "text": "consequence",
+                "unicode_name": "consequence"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "consequence"
+                    }
+                ]
+            }
+        },
+        "636f6e74696e67656e6379": {
+            "_surface": {
+                "text": "contingency",
+                "unicode_name": "contingency"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "contingency"
+                    }
+                ]
+            }
+        },
+        "636f7272656c6174696f6e": {
+            "_surface": {
+                "text": "correlation",
+                "unicode_name": "correlation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pearson's ρ"
+                    }
+                ]
+            }
+        },
+        "6f62736572766174696f6e": {
+            "_surface": {
+                "text": "observation",
+                "unicode_name": "observation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "observation"
+                    }
+                ]
+            }
+        },
+        "706572666f726d616e6365": {
+            "_surface": {
+                "text": "performance",
+                "unicode_name": "performance"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "performance"
+                    }
+                ]
+            }
+        },
+        "70726f6265207461736b73": {
+            "_surface": {
+                "text": "probe tasks",
+                "unicode_name": "probe tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation tasks to measure the quality of the representations"
+                    }
+                ]
+            }
+        },
+        "70756e6374756174696f6e": {
+            "_surface": {
+                "text": "punctuation",
+                "unicode_name": "punctuation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Excluded items"
+                    }
+                ]
+            }
+        },
+        "6175746f2d656e636f646572": {
+            "_surface": {
+                "text": "auto-encoder",
+                "unicode_name": "auto-encoder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decoder in an auto-encoder for reconstruction of input"
+                    }
+                ]
+            }
+        },
+        "696e7075742d6f7574707574": {
+            "_surface": {
+                "text": "input-output",
+                "unicode_name": "input-output"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input-output"
+                    }
+                ]
+            }
+        },
+        "6f7574707574206c61796572": {
+            "_surface": {
+                "text": "output layer",
+                "unicode_name": "output layer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Last hidden layer before the output"
+                    }
+                ]
+            }
+        },
+        "72656c6174696f6e73686970": {
+            "_surface": {
+                "text": "relationship",
+                "unicode_name": "relationship"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "relationship"
+                    }
+                ]
+            }
+        },
+        "636f73696e652073636f726573": {
+            "_surface": {
+                "text": "cosine scores",
+                "unicode_name": "cosine scores"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarities between targets and baseline representations"
+                    }
+                ]
+            }
+        },
+        "68696464656e206c6179657273": {
+            "_surface": {
+                "text": "hidden layers",
+                "unicode_name": "hidden layers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states"
+                    }
+                ]
+            }
+        },
+        "31302d776f72642077696e646f77": {
+            "_surface": {
+                "text": "10-word window",
+                "unicode_name": "10-word window"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average embedding of word embeddings from a 10-word window around the target word"
+                    }
+                ]
+            }
+        },
+        "63757272656e74206c6179657273": {
+            "_surface": {
+                "text": "current layers",
+                "unicode_name": "current layers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Current hidden states"
+                    }
+                ]
+            }
+        },
+        "7265636f6e737472756374696e67": {
+            "_surface": {
+                "text": "reconstructing",
+                "unicode_name": "reconstructing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decoder in an auto-encoder for reconstruction of input"
+                    }
+                ]
+            }
+        },
+        "726570726573656e746174696f6e": {
+            "_surface": {
+                "text": "representation",
+                "unicode_name": "representation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "representation"
+                    }
+                ]
+            }
+        },
+        "756e646572737065636966696564": {
+            "_surface": {
+                "text": "underspecified",
+                "unicode_name": "underspecified"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "underspecified"
+                    }
+                ]
+            }
+        },
+        "636f6e7465787475616c207461736b": {
+            "_surface": {
+                "text": "contextual task",
+                "unicode_name": "contextual task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task specific to contextually relevant information"
+                    }
+                ]
+            }
+        },
+        "4d634361727468792d4e617669676c69": {
+            "_surface": {
+                "text": "McCarthy-Navigli",
+                "unicode_name": "McCarthy-Navigli"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lexical substitution data"
+                    }
+                ]
+            }
+        },
+        "6869676820706572666f726d616e6365": {
+            "_surface": {
+                "text": "high performance",
+                "unicode_name": "high performance"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "High accuracy in reconstructing word embedding"
+                    }
+                ]
+            }
+        },
+        "6c65737320726570726573656e746564": {
+            "_surface": {
+                "text": "less represented",
+                "unicode_name": "less represented"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lower frequency usage"
+                    }
+                ]
+            }
+        },
+        "6176657261676520656d62656464696e67": {
+            "_surface": {
+                "text": "average embedding",
+                "unicode_name": "average embedding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Union of substitute words and target word"
+                    }
+                ]
+            }
+        },
+        "636f73696e652073696d696c6172697479": {
+            "_surface": {
+                "text": "cosine similarity",
+                "unicode_name": "cosine similarity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarities between targets and baseline representations"
+                    }
+                ]
+            }
+        },
+        "6e656172657374206e65696768626f7273": {
+            "_surface": {
+                "text": "nearest neighbors",
+                "unicode_name": "nearest neighbors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representations predicted in the first current hidden layer"
+                    }
+                ]
+            }
+        },
+        "70726564696374697665206c6179657273": {
+            "_surface": {
+                "text": "predictive layers",
+                "unicode_name": "predictive layers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states for the next timestep"
+                    }
+                ]
+            }
+        },
+        "63757272656e742068696464656e20737461746573": {
+            "_surface": {
+                "text": "current hidden states",
+                "unicode_name": "current hidden states"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Current hidden states"
+                    }
+                ]
+            }
+        },
+        "756e7375706572766973656420626173656c696e6573": {
+            "_surface": {
+                "text": "unsupervised baselines",
+                "unicode_name": "unsupervised baselines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word embedding itself and average embedding of word embeddings from a 10-word window"
+                    }
+                ]
+            }
+        },
+        "636c656172657220636f6e7465787475616c2063756573": {
+            "_surface": {
+                "text": "clearer contextual cues",
+                "unicode_name": "clearer contextual cues"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Easier to discriminate"
+                    }
+                ]
+            }
+        },
+        "6f75742d6f662d766f636162756c61727920776f726473": {
+            "_surface": {
+                "text": "out-of-vocabulary words",
+                "unicode_name": "out-of-vocabulary words"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Excluded items"
+                    }
+                ]
+            }
+        },
+        "707265646963746976652068696464656e20737461746573": {
+            "_surface": {
+                "text": "predictive hidden states",
+                "unicode_name": "predictive hidden states"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden states for the next timestep"
+                    }
+                ]
+            }
+        }
+    }
+}

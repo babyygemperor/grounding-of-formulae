@@ -1,0 +1,1788 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "31": {
+            "_surface": {
+                "text": "1",
+                "unicode_name": "DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Department of Astronomy, School of Science, The University of Tokyo, Japan"
+                    }
+                ]
+            }
+        },
+        "32": {
+            "_surface": {
+                "text": "2",
+                "unicode_name": "DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Laboratory of Infrared High-resolution spectroscopy (LiH), Koyama Astronomical Observatory, Kyoto Sangyo University, Japan"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Interstellar extinction in the Y band"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "B band"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Value for a temporary pair ID"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Score of a set of line pairs"
+                    },
+                    {
+                        "affixes": [
+                            "_1"
+                        ],
+                        "arity": 0,
+                        "description": "Value for a temporary pair ID when considering smallest values"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard error in log g_LDR"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in log g_LDR"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hydrogen"
+                    }
+                ]
+            }
+        },
+        "4a": {
+            "_surface": {
+                "text": "J",
+                "unicode_name": "LATIN CAPITAL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "J band"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mass of the star"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "M band"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Numbers of the objects used for deriving the LDR relations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of these line pairs with LDR available"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of accepted measurements"
+                    },
+                    {
+                        "affixes": [
+                            "_pair"
+                        ],
+                        "arity": 0,
+                        "description": "Number of line pairs included in the set"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective Temperature"
+                    },
+                    {
+                        "affixes": [
+                            "_LDR"
+                        ],
+                        "arity": 0,
+                        "description": "Weighted means to estimate Temperature"
+                    },
+                    {
+                        "affixes": [
+                            "_eff"
+                        ],
+                        "arity": 0,
+                        "description": "Temperature dependency represented by β"
+                    },
+                    {
+                        "affixes": [
+                            "_cat"
+                        ],
+                        "arity": 0,
+                        "description": "Catalogue values of temperature"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "V band"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Y band"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient of the function"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient of the function"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient of the function"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth"
+                    },
+                    {
+                        "affixes": [
+                            "_low"
+                        ],
+                        "arity": 0,
+                        "description": "Depth of the low-EP line"
+                    },
+                    {
+                        "affixes": [
+                            "_high"
+                        ],
+                        "arity": 0,
+                        "description": "Depth of the high-EP line"
+                    },
+                    {
+                        "affixes": [
+                            "_Fei"
+                        ],
+                        "arity": 0,
+                        "description": "Depth of the FeI line"
+                    },
+                    {
+                        "affixes": [
+                            "_Feii"
+                        ],
+                        "arity": 0,
+                        "description": "Depth of the FeII line"
+                    },
+                    {
+                        "affixes": [
+                            "_Cai"
+                        ],
+                        "arity": 0,
+                        "description": "Depth of the CaI line"
+                    },
+                    {
+                        "affixes": [
+                            "_Caii"
+                        ],
+                        "arity": 0,
+                        "description": "Depth of the CaII line"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in yj"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in the measured LDR"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient used in the equations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Electron"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fitted relation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Oscillator strength"
+                    },
+                    {
+                        "affixes": [
+                            "(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Fitted relation"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surface gravity"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index varying from 1 to N"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index varying from 1 to N"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index varying from 1 to Nline"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line Depth Ratio (LDR)"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weights for least-square fitting"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature or logarithm of temperature"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "r or log r"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line Depth Ratio (LDR)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "r or log r"
+                    }
+                ]
+            }
+        },
+        "2d32": {
+            "_surface": {
+                "text": "-2",
+                "unicode_name": "-2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Negative power of 2 (used for units of measurement)"
+                    }
+                ]
+            }
+        },
+        "4665": {
+            "_surface": {
+                "text": "Fe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron"
+                    }
+                ]
+            }
+        },
+        "5469": {
+            "_surface": {
+                "text": "Ti",
+                "unicode_name": "Ti"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "LDR-based temperatures"
+                    }
+                ]
+            }
+        },
+        "566a": {
+            "_surface": {
+                "text": "Vj",
+                "unicode_name": "Vj"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Offset in wavelength"
+                    }
+                ]
+            }
+        },
+        "576a": {
+            "_surface": {
+                "text": "Wj",
+                "unicode_name": "Wj"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Full Width at Half Maximum (FWHM)"
+                    }
+                ]
+            }
+        },
+        "6431": {
+            "_surface": {
+                "text": "d1",
+                "unicode_name": "d1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth of the first line"
+                    }
+                ]
+            }
+        },
+        "6432": {
+            "_surface": {
+                "text": "d2",
+                "unicode_name": "d2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth of the second line"
+                    }
+                ]
+            }
+        },
+        "646a": {
+            "_surface": {
+                "text": "dj",
+                "unicode_name": "dj"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measured depth"
+                    }
+                ]
+            }
+        },
+        "6473": {
+            "_surface": {
+                "text": "ds"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "656a": {
+            "_surface": {
+                "text": "ej",
+                "unicode_name": "ej"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Depth error"
+                    }
+                ]
+            }
+        },
+        "6579": {
+            "_surface": {
+                "text": "ey",
+                "unicode_name": "ey"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in LDR"
+                    }
+                ]
+            }
+        },
+        "6b6d": {
+            "_surface": {
+                "text": "km"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kilometer"
+                    }
+                ]
+            }
+        },
+        "6c6e": {
+            "_surface": {
+                "text": "ln"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural logarithm"
+                    }
+                ]
+            }
+        },
+        "7769": {
+            "_surface": {
+                "text": "wi",
+                "unicode_name": "wi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weights for least-square fitting"
+                    }
+                ]
+            }
+        },
+        "7869": {
+            "_surface": {
+                "text": "xi",
+                "unicode_name": "xi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature or logarithm of temperature"
+                    }
+                ]
+            }
+        },
+        "7969": {
+            "_surface": {
+                "text": "yi",
+                "unicode_name": "yi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "LDR or logarithm of LDR"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in Tj"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in log g"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intercept of the fitted relation"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio of the T_eff dependency to the log g dependency"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slope of the fitted relation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio of the T_eff dependency to the log g dependency"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "LDR’s sensitivity to the surface gravity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient of the function"
+                    }
+                ]
+            }
+        },
+        "ceb4": {
+            "_surface": {
+                "text": "δ",
+                "unicode_name": "GREEK SMALL LETTER DELTA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Systematic error in the LDR-based log g"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Systematic error in the LDR-based log g"
+                    }
+                ]
+            }
+        },
+        "ceb5": {
+            "_surface": {
+                "text": "ε",
+                "unicode_name": "GREEK SMALL LETTER EPSILON"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in yj"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in x"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard error in log g_LDR"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in log g_LDR"
+                    },
+                    {
+                        "affixes": [
+                            "_T"
+                        ],
+                        "arity": 0,
+                        "description": "Error in T_LDR"
+                    },
+                    {
+                        "affixes": [
+                            "_T"
+                        ],
+                        "arity": 0,
+                        "description": "Error in temperature"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Standard error in log g_LDR"
+                    },
+                    {
+                        "affixes": [
+                            "_G"
+                        ],
+                        "arity": 0,
+                        "description": "Error in log g_LDR"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength"
+                    }
+                ]
+            }
+        },
+        "cebc": {
+            "_surface": {
+                "text": "μ",
+                "unicode_name": "GREEK SMALL LETTER MU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted means"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Micrometer"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted residual"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scatter around the relation"
+                    },
+                    {
+                        "affixes": [
+                            "_Teff,j"
+                        ],
+                        "arity": 0,
+                        "description": "Residual around each relation"
+                    },
+                    {
+                        "affixes": [
+                            "_log g"
+                        ],
+                        "arity": 0,
+                        "description": "Residual in logarithm of surface gravity for all the line pairs"
+                    },
+                    {
+                        "affixes": [
+                            "_Teff"
+                        ],
+                        "arity": 0,
+                        "description": "Residual in effective temperature for all the line pairs"
+                    },
+                    {
+                        "affixes": [
+                            "_y"
+                        ],
+                        "arity": 0,
+                        "description": "Residual around the relation where y is r or log r"
+                    }
+                ]
+            }
+        },
+        "436169": {
+            "_surface": {
+                "text": "Cai"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "466569": {
+            "_surface": {
+                "text": "Fei"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "495152": {
+            "_surface": {
+                "text": "IQR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(V)"
+                        ],
+                        "arity": 0,
+                        "description": "Interquartile range of the wavelength offset"
+                    },
+                    {
+                        "affixes": [
+                            "(W)"
+                        ],
+                        "arity": 0,
+                        "description": "Interquartile range of the FWHM"
+                    }
+                ]
+            }
+        },
+        "4c4452": {
+            "_surface": {
+                "text": "LDR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line Depth Ratio"
+                    }
+                ]
+            }
+        },
+        "532f4e": {
+            "_surface": {
+                "text": "S/N",
+                "unicode_name": "S/N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Signal to Noise ratio"
+                    }
+                ]
+            }
+        },
+        "616c6c": {
+            "_surface": {
+                "text": "all"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "All the atomic and molecular lines"
+                    }
+                ]
+            }
+        },
+        "636174": {
+            "_surface": {
+                "text": "cat"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Catalogue values"
+                    }
+                ]
+            }
+        },
+        "656666": {
+            "_surface": {
+                "text": "eff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective Temperature"
+                    }
+                ]
+            }
+        },
+        "677270": {
+            "_surface": {
+                "text": "grp"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm"
+                    }
+                ]
+            }
+        },
+        "6c6f77": {
+            "_surface": {
+                "text": "low"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6f626a": {
+            "_surface": {
+                "text": "obj"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6f6e65": {
+            "_surface": {
+                "text": "one"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "One of the four species (FeI, FeII, CaI and CaII)"
+                    }
+                ]
+            }
+        },
+        "6f7574": {
+            "_surface": {
+                "text": "out"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "All the atomic and molecular lines except one of the four species"
+                    }
+                ]
+            }
+        },
+        "74656c": {
+            "_surface": {
+                "text": "tel"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "776176": {
+            "_surface": {
+                "text": "wav"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted standard error"
+                    }
+                ]
+            }
+        },
+        "ce9447": {
+            "_surface": {
+                "text": "ΔG",
+                "unicode_name": "ΔG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in log g"
+                    }
+                ]
+            }
+        },
+        "ce9454": {
+            "_surface": {
+                "text": "ΔT",
+                "unicode_name": "ΔT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in temperature"
+                    }
+                ]
+            }
+        },
+        "cebb63": {
+            "_surface": {
+                "text": "λc",
+                "unicode_name": "λc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Central wavelength"
+                    }
+                ]
+            }
+        },
+        "cf8379": {
+            "_surface": {
+                "text": "σy",
+                "unicode_name": "σy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted residual"
+                    }
+                ]
+            }
+        },
+        "43616969": {
+            "_surface": {
+                "text": "Caii"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "44677270": {
+            "_surface": {
+                "text": "Dgrp",
+                "unicode_name": "Dgrp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighted mean of the deviation for each group"
+                    }
+                ]
+            }
+        },
+        "46656969": {
+            "_surface": {
+                "text": "Feii"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e677270": {
+            "_surface": {
+                "text": "Ngrp",
+                "unicode_name": "Ngrp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of validated measurements for each group"
+                    }
+                ]
+            }
+        },
+        "54636174": {
+            "_surface": {
+                "text": "Tcat",
+                "unicode_name": "Tcat"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Catalogue values of temperature"
+                    }
+                ]
+            }
+        },
+        "54656666": {
+            "_surface": {
+                "text": "Teff",
+                "unicode_name": "Teff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    }
+                ]
+            }
+        },
+        "56312f34": {
+            "_surface": {
+                "text": "V1/4",
+                "unicode_name": "V1/4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First quartile of the wavelength offset"
+                    }
+                ]
+            }
+        },
+        "56322f34": {
+            "_surface": {
+                "text": "V2/4",
+                "unicode_name": "V2/4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second quartile of the wavelength offset"
+                    }
+                ]
+            }
+        },
+        "56332f34": {
+            "_surface": {
+                "text": "V3/4",
+                "unicode_name": "V3/4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Third quartile of the wavelength offset"
+                    }
+                ]
+            }
+        },
+        "57312f34": {
+            "_surface": {
+                "text": "W1/4",
+                "unicode_name": "W1/4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First quartile of the FWHM"
+                    }
+                ]
+            }
+        },
+        "57322f34": {
+            "_surface": {
+                "text": "W2/4",
+                "unicode_name": "W2/4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second quartile of the FWHM"
+                    }
+                ]
+            }
+        },
+        "57332f34": {
+            "_surface": {
+                "text": "W3/4",
+                "unicode_name": "W3/4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Third quartile of the FWHM"
+                    }
+                ]
+            }
+        },
+        "656f626a": {
+            "_surface": {
+                "text": "eobj",
+                "unicode_name": "eobj"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in the object spectrum"
+                    }
+                ]
+            }
+        },
+        "6574656c": {
+            "_surface": {
+                "text": "etel",
+                "unicode_name": "etel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error in the telluric standard spectrum"
+                    }
+                ]
+            }
+        },
+        "68696768": {
+            "_surface": {
+                "text": "high"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c696e65": {
+            "_surface": {
+                "text": "line"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "70616972": {
+            "_surface": {
+                "text": "pair"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "70726f70": {
+            "_surface": {
+                "text": "prop"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Error propagated from the errors of Tj"
+                    }
+                ]
+            }
+        },
+        "ce94cebb": {
+            "_surface": {
+                "text": "Δλ",
+                "unicode_name": "Δλ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Wavelength separation of the paired lines"
+                    }
+                ]
+            }
+        },
+        "4e6c696e65": {
+            "_surface": {
+                "text": "Nline",
+                "unicode_name": "Nline"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of accepted measurements"
+                    }
+                ]
+            }
+        },
+        "6c6f672067": {
+            "_surface": {
+                "text": "log g",
+                "unicode_name": "log g"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of surface gravity"
+                    },
+                    {
+                        "affixes": [
+                            "_LDR"
+                        ],
+                        "arity": 0,
+                        "description": "Weighted means to estimate Logarithm of surface gravity"
+                    },
+                    {
+                        "affixes": [
+                            "_cat"
+                        ],
+                        "arity": 0,
+                        "description": "Catalogue values of surface gravity"
+                    }
+                ]
+            }
+        },
+        "6c6f672072": {
+            "_surface": {
+                "text": "log r",
+                "unicode_name": "log r"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of Line Depth Ratio (LDR)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of LDR"
+                    }
+                ]
+            }
+        },
+        "cf8354656666": {
+            "_surface": {
+                "text": "σTeff",
+                "unicode_name": "σTeff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scatter in effective temperature"
+                    }
+                ]
+            }
+        },
+        "6c6f67e2808967": {
+            "_surface": {
+                "text": "log g",
+                "unicode_name": "log g"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_LDR"
+                        ],
+                        "arity": 0,
+                        "description": "Weighted means to estimate Logarithm of surface gravity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surface gravity dependency represented by γ"
+                    }
+                ]
+            }
+        },
+        "6c6f67e2808972": {
+            "_surface": {
+                "text": "log r",
+                "unicode_name": "log r"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of Line Depth Ratio (LDR)"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167": {
+            "_surface": {
+                "text": "log⁡g",
+                "unicode_name": "log⁡g"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of surface gravity"
+                    }
+                ]
+            }
+        },
+        "6c6f672054656666": {
+            "_surface": {
+                "text": "log Teff",
+                "unicode_name": "log Teff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of effective temperature"
+                    }
+                ]
+            }
+        },
+        "cf836c6f67e281a167": {
+            "_surface": {
+                "text": "σlog⁡g",
+                "unicode_name": "σlog⁡g"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scatter in surface gravity"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167636174": {
+            "_surface": {
+                "text": "log⁡gcat",
+                "unicode_name": "log⁡gcat"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Catalogue values of surface gravity"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,4717 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[Fe/H]"
+                        ],
+                        "arity": 0,
+                        "description": "metallicity [Fe/H]=-0.06"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_tgt"
+                        ],
+                        "arity": 0,
+                        "description": "Airmass of the target"
+                    },
+                    {
+                        "affixes": [
+                            "_tgt"
+                        ],
+                        "arity": 0,
+                        "description": "A_tgt"
+                    },
+                    {
+                        "affixes": [
+                            "_std"
+                        ],
+                        "arity": 0,
+                        "description": "Airmass of the telluric standard star"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Flux of a continuum-normalized spectrum before telluric correction"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continuum-normalized spectrum"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric-corrected spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric correction function"
+                    },
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Flux of a continuum-normalized spectrum after telluric correction"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_tgt"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stellar spectrum"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target star"
+                    },
+                    {
+                        "affixes": [
+                            "'⁢(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target star at wavelength λ"
+                    },
+                    {
+                        "affixes": [
+                            "'⁢(λ)*P⁢(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Instrumentally smeared target spectrum at wavelength λ"
+                    },
+                    {
+                        "affixes": [
+                            "'⁢(λ)⋅T⁢(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target star multiplied by telluric absorption spectrum at wavelength λ"
+                    }
+                ]
+            }
+        },
+        "4a": {
+            "_surface": {
+                "text": "J",
+                "unicode_name": "LATIN CAPITAL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observed spectrum"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Continuum-normalized spectrum"
+                    },
+                    {
+                        "affixes": [
+                            "'⁢(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Continuum-normalized spectrum at wavelength λ"
+                    },
+                    {
+                        "affixes": [
+                            "'⁢(λ)=[I'⁢(λ)⋅T⁢(λ)]*P⁢(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Equation (1) for the observed continuum-normalized spectrum at wavelength λ"
+                    },
+                    {
+                        "affixes": [
+                            "'⁢(λ)∼[I'⁢(λ)*P⁢(λ)]⋅[T⁢(λ)*P⁢(λ)]"
+                        ],
+                        "arity": 0,
+                        "description": "Approximation of O'⁢(λ) as the product of [I'⁢(λ)*P⁢(λ)] and [T⁢(λ)*P⁢(λ)]"
+                    },
+                    {
+                        "affixes": [
+                            "'⁢(λ)/[T⁢(λ)*P⁢(λ)]"
+                        ],
+                        "arity": 0,
+                        "description": "Division of O'⁢(λ) by the factor [T⁢(λ)*P⁢(λ)]"
+                    },
+                    {
+                        "affixes": [
+                            "'⁢(λ) by the factor [T⁢(λ)*P⁢(λ)] derived from either the spectrum of the telluric standard star or a synthetic telluric spectrum"
+                        ],
+                        "arity": 0,
+                        "description": "Division of O'⁢(λ) by the factor derived from either the spectrum of the telluric standard star or a synthetic telluric spectrum"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Instrumental response function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instrumental profile"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instrumental response function"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Convolution"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Atmospheric transmission function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instrumental throughput"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Atmospheric transmission function"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference between the model and observation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolution"
+                    },
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Ratio of the observed spectrum to the synthetic telluric spectrum"
+                    },
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "R(λ)"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric absorption term"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum imprinted in the spectrum of the telluric standard star"
+                    },
+                    {
+                        "affixes": [
+                            "(λ;Atgt)"
+                        ],
+                        "arity": 0,
+                        "description": "Corrected telluric absorption spectrum for the target object"
+                    },
+                    {
+                        "affixes": [
+                            "(λ;A_tgt)"
+                        ],
+                        "arity": 0,
+                        "description": "Corrected telluric absorption spectrum for the target object"
+                    },
+                    {
+                        "affixes": [
+                            "(λ;A_tgt)"
+                        ],
+                        "arity": 0,
+                        "description": "S(λ;A_tgt)"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ;Astd)"
+                        ],
+                        "arity": 0,
+                        "description": "Telluric absorption correction function for a telluric standard star"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Synthetic telluric spectrum"
+                    },
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Atmospheric transmittance"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Continuum normalization"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a": {
+            "_surface": {
+                "text": "Z",
+                "unicode_name": "LATIN CAPITAL LETTER Z"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient"
+                    },
+                    {
+                        "affixes": [
+                            ", b, c"
+                        ],
+                        "arity": 0,
+                        "description": "Coefficients for multiple linear regression"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inclination angle"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "i"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rotational velocity"
+                    }
+                ]
+            }
+        },
+        "412d": {
+            "_surface": {
+                "text": "A-",
+                "unicode_name": "A-"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A-type"
+                    }
+                ]
+            }
+        },
+        "414d": {
+            "_surface": {
+                "text": "AM"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "467c": {
+            "_surface": {
+                "text": "F|",
+                "unicode_name": "F|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    }
+                ]
+            }
+        },
+        "477c": {
+            "_surface": {
+                "text": "G|",
+                "unicode_name": "G|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    }
+                ]
+            }
+        },
+        "497c": {
+            "_surface": {
+                "text": "I|",
+                "unicode_name": "I|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target star"
+                    }
+                ]
+            }
+        },
+        "4f32": {
+            "_surface": {
+                "text": "O2",
+                "unicode_name": "O2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Molecular oxygen absorption"
+                    }
+                ]
+            }
+        },
+        "4f7c": {
+            "_surface": {
+                "text": "O|",
+                "unicode_name": "O|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observed continuum-normalized spectrum"
+                    }
+                ]
+            }
+        },
+        "507c": {
+            "_surface": {
+                "text": "P|",
+                "unicode_name": "P|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Instrumental profile"
+                    }
+                ]
+            }
+        },
+        "527c": {
+            "_surface": {
+                "text": "R|",
+                "unicode_name": "R|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral resolution"
+                    }
+                ]
+            }
+        },
+        "547c": {
+            "_surface": {
+                "text": "T|",
+                "unicode_name": "T|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum"
+                    }
+                ]
+            }
+        },
+        "727c": {
+            "_surface": {
+                "text": "r|",
+                "unicode_name": "r|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(σ|50,H2O|,ΔAM||;|Δt||)"
+                        ],
+                        "arity": 0,
+                        "description": "Partial correlation coefficient between σ|50 and H2O| holding Δt| fixed"
+                    },
+                    {
+                        "affixes": [
+                            "(σ|50,O2|,ΔAM||;|Δt||)"
+                        ],
+                        "arity": 0,
+                        "description": "Partial correlation coefficient between σ|50 and O2| holding Δt| fixed"
+                    },
+                    {
+                        "affixes": [
+                            "(σ|50,H2O|,Δt||;|ΔAM||)"
+                        ],
+                        "arity": 0,
+                        "description": "Partial correlation coefficient between σ|50 and H2O| holding ΔAM| fixed"
+                    },
+                    {
+                        "affixes": [
+                            "(σ|50,O2|,Δt||;|ΔAM||)"
+                        ],
+                        "arity": 0,
+                        "description": "Partial correlation coefficient between σ|50 and O2| holding ΔAM| fixed"
+                    }
+                ]
+            }
+        },
+        "c385": {
+            "_surface": {
+                "text": "Å",
+                "unicode_name": "LATIN CAPITAL LETTER A WITH RING ABOVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Angstrom"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in airmass"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Residuals between the model and observation"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength shift between the target and the standard"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effects other than the airmass ratio"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference between the intrinsic and fitted spectra"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation"
+                    }
+                ]
+            }
+        },
+        "313034": {
+            "_surface": {
+                "text": "104",
+                "unicode_name": "104"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value of spectral resolution"
+                    }
+                ]
+            }
+        },
+        "313135": {
+            "_surface": {
+                "text": "115",
+                "unicode_name": "115"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "333839": {
+            "_surface": {
+                "text": "389",
+                "unicode_name": "389"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "343733": {
+            "_surface": {
+                "text": "473",
+                "unicode_name": "473"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "48324f": {
+            "_surface": {
+                "text": "H2O",
+                "unicode_name": "H2O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "H2O"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Water vapor absorption"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Water molecule"
+                    }
+                ]
+            }
+        },
+        "49444c": {
+            "_surface": {
+                "text": "IDL",
+                "unicode_name": "IDL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Interactive Data Language"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IDL"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Software package for astronomical image processing"
+                    }
+                ]
+            }
+        },
+        "4c6948": {
+            "_surface": {
+                "text": "LiH",
+                "unicode_name": "LiH"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Laboratory of Infrared High-resolution spectroscopy"
+                    }
+                ]
+            }
+        },
+        "4e4952": {
+            "_surface": {
+                "text": "NIR",
+                "unicode_name": "NIR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Near-infrared"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "NIR"
+                    }
+                ]
+            }
+        },
+        "534e52": {
+            "_surface": {
+                "text": "SNR",
+                "unicode_name": "SNR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Signal-to-noise ratio"
+                    }
+                ]
+            }
+        },
+        "656666": {
+            "_surface": {
+                "text": "eff"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "666974": {
+            "_surface": {
+                "text": "fit"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fitted intrinsic spectrum"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "73696e": {
+            "_surface": {
+                "text": "sin"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "737464": {
+            "_surface": {
+                "text": "std"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "746774": {
+            "_surface": {
+                "text": "tgt"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "c2a734": {
+            "_surface": {
+                "text": "§4",
+                "unicode_name": "§4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section 4"
+                    }
+                ]
+            }
+        },
+        "c2b56d": {
+            "_surface": {
+                "text": "µm",
+                "unicode_name": "µm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Micrometer"
+                    }
+                ]
+            }
+        },
+        "ce9474": {
+            "_surface": {
+                "text": "Δt",
+                "unicode_name": "Δt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in time"
+                    }
+                ]
+            }
+        },
+        "ceb27c": {
+            "_surface": {
+                "text": "β|",
+                "unicode_name": "β|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable in Eq. (6)"
+                    }
+                ]
+            }
+        },
+        "cebb7c": {
+            "_surface": {
+                "text": "λ|",
+                "unicode_name": "λ|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength"
+                    }
+                ]
+            }
+        },
+        "32303033": {
+            "_surface": {
+                "text": "2003",
+                "unicode_name": "2003"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "32303134": {
+            "_surface": {
+                "text": "2014",
+                "unicode_name": "2014"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "2014"
+                    }
+                ]
+            }
+        },
+        "32303138": {
+            "_surface": {
+                "text": "2018",
+                "unicode_name": "2018"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "34393933": {
+            "_surface": {
+                "text": "4993",
+                "unicode_name": "4993"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "41737464": {
+            "_surface": {
+                "text": "Astd",
+                "unicode_name": "Astd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric standard star"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Airmass of the telluric standard star"
+                    }
+                ]
+            }
+        },
+        "41746774": {
+            "_surface": {
+                "text": "Atgt",
+                "unicode_name": "Atgt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Airmass of the target object"
+                    }
+                ]
+            }
+        },
+        "4657484d": {
+            "_surface": {
+                "text": "FWHM",
+                "unicode_name": "FWHM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Full width at half maximum"
+                    }
+                ]
+            }
+        },
+        "49524146": {
+            "_surface": {
+                "text": "IRAF",
+                "unicode_name": "IRAF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Software package for astronomical image processing"
+                    }
+                ]
+            }
+        },
+        "49737464": {
+            "_surface": {
+                "text": "Istd",
+                "unicode_name": "Istd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of a telluric standard star"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the telluric standard star"
+                    }
+                ]
+            }
+        },
+        "4a415841": {
+            "_surface": {
+                "text": "JAXA",
+                "unicode_name": "JAXA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Acronym for Japan Aerospace Exploration Agency"
+                    }
+                ]
+            }
+        },
+        "4f737464": {
+            "_surface": {
+                "text": "Ostd",
+                "unicode_name": "Ostd"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Observed spectrum of a telluric standard star"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observed spectrum of the telluric standard star"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Normalized observed spectrum of the telluric standard star"
+                    }
+                ]
+            }
+        },
+        "50415350": {
+            "_surface": {
+                "text": "PASP",
+                "unicode_name": "PASP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "50e281a2": {
+            "_surface": {
+                "text": "P⁢",
+                "unicode_name": "P⁢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Instrumental profile at wavelength λ"
+                    }
+                ]
+            }
+        },
+        "54e281a2": {
+            "_surface": {
+                "text": "T⁢",
+                "unicode_name": "T⁢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum at wavelength λ"
+                    },
+                    {
+                        "affixes": [
+                            "(λ)*P⁢(λ)"
+                        ],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum multiplied by instrumental profile at wavelength λ"
+                    }
+                ]
+            }
+        },
+        "56656761": {
+            "_surface": {
+                "text": "Vega",
+                "unicode_name": "Vega"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star used as a standard for telluric correction"
+                    }
+                ]
+            }
+        },
+        "7ae280b2": {
+            "_surface": {
+                "text": "z′",
+                "unicode_name": "z′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",Y and J"
+                        ],
+                        "arity": 0,
+                        "description": "adjacent photometric bands (z′,Y and J)"
+                    }
+                ]
+            }
+        },
+        "ce94414d": {
+            "_surface": {
+                "text": "ΔAM",
+                "unicode_name": "ΔAM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in airmass"
+                    }
+                ]
+            }
+        },
+        "ce94cebb": {
+            "_surface": {
+                "text": "Δλ",
+                "unicode_name": "Δλ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Change in wavelength"
+                    }
+                ]
+            }
+        },
+        "cf87c2b2": {
+            "_surface": {
+                "text": "χ²",
+                "unicode_name": "χ²"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "χ²"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chi-squared values"
+                    }
+                ]
+            }
+        },
+        "372043616d": {
+            "_surface": {
+                "text": "7 Cam",
+                "unicode_name": "7 Cam"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Telluric standard star"
+                    }
+                ]
+            }
+        },
+        "412d206f72": {
+            "_surface": {
+                "text": "A- or",
+                "unicode_name": "A- or"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A- or"
+                    }
+                ]
+            }
+        },
+        "4265657220": {
+            "_surface": {
+                "text": "Beer ",
+                "unicode_name": "Beer "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1852)"
+                        ],
+                        "arity": 0,
+                        "description": "Beer (1852)"
+                    }
+                ]
+            }
+        },
+        "467ce281a2": {
+            "_surface": {
+                "text": "F|⁢",
+                "unicode_name": "F|⁢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ|)/G|⁢(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Ratio of functions"
+                    }
+                ]
+            }
+        },
+        "477ce281a2": {
+            "_surface": {
+                "text": "G|⁢",
+                "unicode_name": "G|⁢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ|)/G||model|⁢(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Ratio of functions"
+                    }
+                ]
+            }
+        },
+        "497ce280b2": {
+            "_surface": {
+                "text": "I|′",
+                "unicode_name": "I|′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target star"
+                    }
+                ]
+            }
+        },
+        "4b796f746f": {
+            "_surface": {
+                "text": "Kyoto",
+                "unicode_name": "Kyoto"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "City in Japan"
+                    }
+                ]
+            }
+        },
+        "4d4e524153": {
+            "_surface": {
+                "text": "MNRAS",
+                "unicode_name": "MNRAS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "4f73617761": {
+            "_surface": {
+                "text": "Osawa",
+                "unicode_name": "Osawa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Tokyo"
+                    }
+                ]
+            }
+        },
+        "4f7ce280b2": {
+            "_surface": {
+                "text": "O|′",
+                "unicode_name": "O|′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continuum-normalized spectrum"
+                    }
+                ]
+            }
+        },
+        "506120ceb2": {
+            "_surface": {
+                "text": "Pa β",
+                "unicode_name": "Pa β"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pa β"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hydrogen line in the spectrum"
+                    }
+                ]
+            }
+        },
+        "507ce280b2": {
+            "_surface": {
+                "text": "P|′",
+                "unicode_name": "P|′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Convolution"
+                    }
+                ]
+            }
+        },
+        "507ce281a2": {
+            "_surface": {
+                "text": "P|⁢",
+                "unicode_name": "P|⁢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Instrumental profile at wavelength λ|"
+                    }
+                ]
+            }
+        },
+        "546566667c": {
+            "_surface": {
+                "text": "Teff|",
+                "unicode_name": "Teff|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "effective temperature Teff|=5,398 K"
+                    }
+                ]
+            }
+        },
+        "547ce280b2": {
+            "_surface": {
+                "text": "T|′",
+                "unicode_name": "T|′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Continuum normalization"
+                    }
+                ]
+            }
+        },
+        "547ce281a2": {
+            "_surface": {
+                "text": "T|⁢",
+                "unicode_name": "T|⁢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum at wavelength λ|"
+                    },
+                    {
+                        "affixes": [
+                            "(λ|)*P|⁢(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Telluric absorption spectrum multiplied by instrumental profile at wavelength λ|"
+                    }
+                ]
+            }
+        },
+        "5661636361": {
+            "_surface": {
+                "text": "Vacca",
+                "unicode_name": "Vacca"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c": {
+            "_surface": {
+                "text": "model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representation of a physical system or process"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model spectrum"
+                    }
+                ]
+            }
+        },
+        "c2a7332e32": {
+            "_surface": {
+                "text": "§3.2",
+                "unicode_name": "§3.2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section 3.2"
+                    }
+                ]
+            }
+        },
+        "cf837c3530": {
+            "_surface": {
+                "text": "σ|50",
+                "unicode_name": "σ|50"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviations of the corrected flux at an"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation at 0.45<F|⁢(λ|)/G|⁢(λ|)<0.55"
+                    }
+                ]
+            }
+        },
+        "e289b33125": {
+            "_surface": {
+                "text": "≳1%",
+                "unicode_name": "≳1%"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greater than or equal to 1%"
+                    }
+                ]
+            }
+        },
+        "4130e2808956": {
+            "_surface": {
+                "text": "A0 V",
+                "unicode_name": "A0 V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A-type main-sequence star"
+                    }
+                ]
+            }
+        },
+        "4131e2808956": {
+            "_surface": {
+                "text": "A1 V",
+                "unicode_name": "A1 V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cam (A1 V)"
+                    }
+                ]
+            }
+        },
+        "4a616e203232": {
+            "_surface": {
+                "text": "Jan 22",
+                "unicode_name": "Jan 22"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jan 22"
+                    }
+                ]
+            }
+        },
+        "4a616e203233": {
+            "_surface": {
+                "text": "Jan 23",
+                "unicode_name": "Jan 23"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jan 23"
+                    }
+                ]
+            }
+        },
+        "4d6974616b61": {
+            "_surface": {
+                "text": "Mitaka",
+                "unicode_name": "Mitaka"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Tokyo"
+                    }
+                ]
+            }
+        },
+        "52454c434f4c": {
+            "_surface": {
+                "text": "RELCOL",
+                "unicode_name": "RELCOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_H2O"
+                        ],
+                        "arity": 0,
+                        "description": "Scaling factor for H2O molecules in molecfit"
+                    },
+                    {
+                        "affixes": [
+                            "_H2O"
+                        ],
+                        "arity": 0,
+                        "description": "RELCOL_H2O"
+                    }
+                ]
+            }
+        },
+        "5261796e6572": {
+            "_surface": {
+                "text": "Rayner",
+                "unicode_name": "Rayner"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "5350544f4f4c": {
+            "_surface": {
+                "text": "SPTOOL",
+                "unicode_name": "SPTOOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Software package"
+                    }
+                ]
+            }
+        },
+        "6574c2a0616c": {
+            "_surface": {
+                "text": "et al",
+                "unicode_name": "et al"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "74756e696e67": {
+            "_surface": {
+                "text": "tuning",
+                "unicode_name": "tuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adjusting parameters or settings to optimize performance"
+                    }
+                ]
+            }
+        },
+        "ceb5204c656f": {
+            "_surface": {
+                "text": "ε Leo",
+                "unicode_name": "ε Leo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "G-type giant star"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ε Leo"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star used for multiple linear regression"
+                    }
+                ]
+            }
+        },
+        "35c39731302d33": {
+            "_surface": {
+                "text": "5×10-3",
+                "unicode_name": "5×10-3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Significance level"
+                    }
+                ]
+            }
+        },
+        "4272e28089ceb3": {
+            "_surface": {
+                "text": "Br γ",
+                "unicode_name": "Br γ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hydrogen line in the spectrum"
+                    }
+                ]
+            }
+        },
+        "4368756f2d6b75": {
+            "_surface": {
+                "text": "Chuo-ku",
+                "unicode_name": "Chuo-ku"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Sagamihara"
+                    }
+                ]
+            }
+        },
+        "43757368696e67": {
+            "_surface": {
+                "text": "Cushing",
+                "unicode_name": "Cushing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "4b6974612d6b75": {
+            "_surface": {
+                "text": "Kita-ku",
+                "unicode_name": "Kita-ku"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Kyoto"
+                    }
+                ]
+            }
+        },
+        "4b757275637a20": {
+            "_surface": {
+                "text": "Kurucz ",
+                "unicode_name": "Kurucz "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1993)"
+                        ],
+                        "arity": 0,
+                        "description": "Kurucz (1993)"
+                    }
+                ]
+            }
+        },
+        "4f322d62616e64": {
+            "_surface": {
+                "text": "O2-band",
+                "unicode_name": "O2-band"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "O2-band region (1.245–1.280 µm)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Oxygen band"
+                    }
+                ]
+            }
+        },
+        "5061e28089ceb2": {
+            "_surface": {
+                "text": "Pa β",
+                "unicode_name": "Pa β"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hydrogen line in the spectrum"
+                    }
+                ]
+            }
+        },
+        "5061e28089ceb3": {
+            "_surface": {
+                "text": "Pa γ",
+                "unicode_name": "Pa γ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pa γ"
+                    }
+                ]
+            }
+        },
+        "50687973696373": {
+            "_surface": {
+                "text": "Physics",
+                "unicode_name": "Physics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Field of study"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 1"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table containing information about molecules"
+                    }
+                ]
+            }
+        },
+        "5461626c652032": {
+            "_surface": {
+                "text": "Table 2",
+                "unicode_name": "Table 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table containing information about HD 23180"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 2"
+                    }
+                ]
+            }
+        },
+        "5461626c652033": {
+            "_surface": {
+                "text": "Table 3",
+                "unicode_name": "Table 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table containing information about σ|50 values, ΔAM|, and Δt|"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 3"
+                    }
+                ]
+            }
+        },
+        "57494e45524544": {
+            "_surface": {
+                "text": "WINERED",
+                "unicode_name": "WINERED"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WINERED"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Name of the spectrograph"
+                    }
+                ]
+            }
+        },
+        "6169726d617373": {
+            "_surface": {
+                "text": "airmass",
+                "unicode_name": "airmass"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Path length of light through Earth's atmosphere"
+                    }
+                ]
+            }
+        },
+        "73696ee281a169": {
+            "_surface": {
+                "text": "sin⁡i",
+                "unicode_name": "sin⁡i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sine of inclination angle"
+                    }
+                ]
+            }
+        },
+        "ceb5204c656f20": {
+            "_surface": {
+                "text": "ε Leo ",
+                "unicode_name": "ε Leo "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(G1 IIIa)"
+                        ],
+                        "arity": 0,
+                        "description": "Name and spectral classification of the target object"
+                    },
+                    {
+                        "affixes": [
+                            "(G1 IIIa)"
+                        ],
+                        "arity": 0,
+                        "description": "ε Leo (G1 IIIa)"
+                    }
+                ]
+            }
+        },
+        "41302e35e2808956": {
+            "_surface": {
+                "text": "A0.5 V",
+                "unicode_name": "A0.5 V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "21 Lyn (A0.5 V)"
+                    }
+                ]
+            }
+        },
+        "4669677572652033": {
+            "_surface": {
+                "text": "Figure 3",
+                "unicode_name": "Figure 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 3"
+                    }
+                ]
+            }
+        },
+        "4669677572652036": {
+            "_surface": {
+                "text": "Figure 6",
+                "unicode_name": "Figure 6"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 6"
+                    }
+                ]
+            }
+        },
+        "4669677572652037": {
+            "_surface": {
+                "text": "Figure 7",
+                "unicode_name": "Figure 7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(c)"
+                        ],
+                        "arity": 0,
+                        "description": "Figure 7(c)"
+                    }
+                ]
+            }
+        },
+        "4669677572652038": {
+            "_surface": {
+                "text": "Figure 8",
+                "unicode_name": "Figure 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 8"
+                    }
+                ]
+            }
+        },
+        "4844203233313830": {
+            "_surface": {
+                "text": "HD 23180",
+                "unicode_name": "HD 23180"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target star"
+                    }
+                ]
+            }
+        },
+        "4844203337303232": {
+            "_surface": {
+                "text": "HD 37022",
+                "unicode_name": "HD 37022"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "HD 37022"
+                    }
+                ]
+            }
+        },
+        "497ce280b2e281a2": {
+            "_surface": {
+                "text": "I|′⁢",
+                "unicode_name": "I|′⁢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target star at wavelength λ|"
+                    },
+                    {
+                        "affixes": [
+                            "(λ|)*P|⁢(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Instrumentally smeared target spectrum at wavelength λ|"
+                    },
+                    {
+                        "affixes": [
+                            "(λ|)⋅T|⁢(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Intrinsic spectrum of the target star multiplied by telluric absorption spectrum at wavelength λ|"
+                    }
+                ]
+            }
+        },
+        "4b616d6967616d6f": {
+            "_surface": {
+                "text": "Kamigamo",
+                "unicode_name": "Kamigamo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Kyoto"
+                    }
+                ]
+            }
+        },
+        "4b616e6167617761": {
+            "_surface": {
+                "text": "Kanagawa",
+                "unicode_name": "Kanagawa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prefecture in Japan"
+                    }
+                ]
+            }
+        },
+        "4d6f746f79616d61": {
+            "_surface": {
+                "text": "Motoyama",
+                "unicode_name": "Motoyama"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Kyoto"
+                    }
+                ]
+            }
+        },
+        "4f42207374617273": {
+            "_surface": {
+                "text": "OB stars",
+                "unicode_name": "OB stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stars used for multiple linear regression"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "OB stars"
+                    }
+                ]
+            }
+        },
+        "4f7c322062616e64": {
+            "_surface": {
+                "text": "O|2 band",
+                "unicode_name": "O|2 band"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "O|2 band (1.25–1.28 µm)"
+                    }
+                ]
+            }
+        },
+        "4f7ce280b2e281a2": {
+            "_surface": {
+                "text": "O|′⁢",
+                "unicode_name": "O|′⁢"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Continuum-normalized spectrum at wavelength λ|"
+                    },
+                    {
+                        "affixes": [
+                            "(λ|)=[I|′⁢(λ|)⋅T|⁢(λ|)]*P|⁢(λ|)"
+                        ],
+                        "arity": 0,
+                        "description": "Equation (1) for the observed continuum-normalized spectrum at wavelength λ|"
+                    },
+                    {
+                        "affixes": [
+                            "(λ|)∼[I|′⁢(λ|)*P|⁢(λ|)]⋅[T|⁢(λ|)*P|⁢(λ|)]"
+                        ],
+                        "arity": 0,
+                        "description": "Approximation of O|′⁢(λ|) as the product of [I|′⁢(λ|)*P|⁢(λ|)] and [T|⁢(λ|)*P|⁢(λ|)]"
+                    },
+                    {
+                        "affixes": [
+                            "(λ|)/[T|⁢(λ|)*P|⁢(λ|)]"
+                        ],
+                        "arity": 0,
+                        "description": "Division of O|′⁢(λ|) by the factor [T|⁢(λ|)*P|⁢(λ|)]"
+                    },
+                    {
+                        "affixes": [
+                            "(λ|) by the factor [T|⁢(λ|)*P|⁢(λ|)] derived from either the spectrum of the telluric standard star or a synthetic telluric spectrum"
+                        ],
+                        "arity": 0,
+                        "description": "Division of O|′⁢(λ|) by the factor derived from either the spectrum of the telluric standard star or a synthetic telluric spectrum"
+                    }
+                ]
+            }
+        },
+        "53616b796f2d6b75": {
+            "_surface": {
+                "text": "Sakyo-ku",
+                "unicode_name": "Sakyo-ku"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Kyoto"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a1677c": {
+            "_surface": {
+                "text": "log⁡g|",
+                "unicode_name": "log⁡g|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "logarithm of the surface gravity log⁡g|=2.02"
+                    }
+                ]
+            }
+        },
+        "6d6f6c6563666974": {
+            "_surface": {
+                "text": "molecfit",
+                "unicode_name": "molecfit"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Software package for modeling and removal of telluric absorption"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "molecfit"
+                    }
+                ]
+            }
+        },
+        "707c2d76616c7565": {
+            "_surface": {
+                "text": "p|-value",
+                "unicode_name": "p|-value"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Significance level"
+                    }
+                ]
+            }
+        },
+        "312e33333020c2b56d": {
+            "_surface": {
+                "text": "1.330 µm",
+                "unicode_name": "1.330 µm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "wavelength ranges 1.330 µm"
+                    }
+                ]
+            }
+        },
+        "373620746f20383625": {
+            "_surface": {
+                "text": "76 to 86%",
+                "unicode_name": "76 to 86%"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "relative humidity changed from 76 to 86%"
+                    }
+                ]
+            }
+        },
+        "413020562073746172": {
+            "_surface": {
+                "text": "A0 V star",
+                "unicode_name": "A0 V star"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A-type main-sequence star"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A0 V star"
+                    }
+                ]
+            }
+        },
+        "466967757265203131": {
+            "_surface": {
+                "text": "Figure 11",
+                "unicode_name": "Figure 11"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 11"
+                    }
+                ]
+            }
+        },
+        "466967757265203132": {
+            "_surface": {
+                "text": "Figure 12",
+                "unicode_name": "Figure 12"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 12"
+                    }
+                ]
+            }
+        },
+        "466967757265203133": {
+            "_surface": {
+                "text": "Figure 13",
+                "unicode_name": "Figure 13"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 13"
+                    }
+                ]
+            }
+        },
+        "466967757265203134": {
+            "_surface": {
+                "text": "Figure 14",
+                "unicode_name": "Figure 14"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 14"
+                    }
+                ]
+            }
+        },
+        "466967757265203135": {
+            "_surface": {
+                "text": "Figure 15",
+                "unicode_name": "Figure 15"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 15"
+                    }
+                ]
+            }
+        },
+        "466967757265203136": {
+            "_surface": {
+                "text": "Figure 16",
+                "unicode_name": "Figure 16"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 16"
+                    }
+                ]
+            }
+        },
+        "477c7c6d6f64656c7c": {
+            "_surface": {
+                "text": "G||model|",
+                "unicode_name": "G||model|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function"
+                    }
+                ]
+            }
+        },
+        "4b65692046756b7565": {
+            "_surface": {
+                "text": "Kei Fukue",
+                "unicode_name": "Kei Fukue"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b6f62617961736869": {
+            "_surface": {
+                "text": "Kobayashi",
+                "unicode_name": "Kobayashi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "4d61726b7761726474": {
+            "_surface": {
+                "text": "Markwardt",
+                "unicode_name": "Markwardt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Markwardt"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of mpfit.pro script"
+                    }
+                ]
+            }
+        },
+        "4d617473756e616761": {
+            "_surface": {
+                "text": "Matsunaga",
+                "unicode_name": "Matsunaga"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "5350544f4f4c343434": {
+            "_surface": {
+                "text": "SPTOOL444",
+                "unicode_name": "SPTOOL444"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SPTOOL444"
+                    }
+                ]
+            }
+        },
+        "54616e696775636869": {
+            "_surface": {
+                "text": "Taniguchi",
+                "unicode_name": "Taniguchi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifier"
+                    }
+                ]
+            }
+        },
+        "636f6e74696e75756d": {
+            "_surface": {
+                "text": "continuum",
+                "unicode_name": "continuum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "continuum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Smooth curve representing the underlying trend of a dataset"
+                    }
+                ]
+            }
+        },
+        "6b6d2073e281bbc2b9": {
+            "_surface": {
+                "text": "km s⁻¹",
+                "unicode_name": "km s⁻¹"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "km s⁻¹"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kilometers per second"
+                    }
+                ]
+            }
+        },
+        "6d706669742e70726f": {
+            "_surface": {
+                "text": "mpfit.pro",
+                "unicode_name": "mpfit.pro"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IDL script for minimizing chi-squared values"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "mpfit.pro"
+                    }
+                ]
+            }
+        },
+        "e288bc33e280b32e30": {
+            "_surface": {
+                "text": "∼3″.0",
+                "unicode_name": "∼3″.0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "typical value of the site (∼3″.0)"
+                    }
+                ]
+            }
+        },
+        "36317374206f72646572": {
+            "_surface": {
+                "text": "61st order",
+                "unicode_name": "61st order"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "61st order"
+                    }
+                ]
+            }
+        },
+        "416b6972612041726169": {
+            "_surface": {
+                "text": "Akira Arai",
+                "unicode_name": "Akira Arai"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "41e28089562073746172": {
+            "_surface": {
+                "text": "A V star",
+                "unicode_name": "A V star"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A-type main-sequence star"
+                    }
+                ]
+            }
+        },
+        "46e28089562073746172": {
+            "_surface": {
+                "text": "F V star",
+                "unicode_name": "F V star"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "F-type main-sequence star"
+                    }
+                ]
+            }
+        },
+        "47e28089562073746172": {
+            "_surface": {
+                "text": "G V star",
+                "unicode_name": "G V star"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "G-type giant star"
+                    }
+                ]
+            }
+        },
+        "49444c20736372697074": {
+            "_surface": {
+                "text": "IDL script",
+                "unicode_name": "IDL script"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IDL script"
+                    }
+                ]
+            }
+        },
+        "4d61726b776172647420": {
+            "_surface": {
+                "text": "Markwardt ",
+                "unicode_name": "Markwardt "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Markwardt (2009)"
+                    }
+                ]
+            }
+        },
+        "536167616d6968617261": {
+            "_surface": {
+                "text": "Sagamihara",
+                "unicode_name": "Sagamihara"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "City in Kanagawa"
+                    }
+                ]
+            }
+        },
+        "596f7368696e6f646169": {
+            "_surface": {
+                "text": "Yoshinodai",
+                "unicode_name": "Yoshinodai"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Sagamihara"
+                    }
+                ]
+            }
+        },
+        "59756a6920496b656461": {
+            "_surface": {
+                "text": "Yuji Ikeda",
+                "unicode_name": "Yuji Ikeda"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "412d747970652073746172": {
+            "_surface": {
+                "text": "A-type star",
+                "unicode_name": "A-type star"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A-type main-sequence star"
+                    }
+                ]
+            }
+        },
+        "50686f746f636f64696e67": {
+            "_surface": {
+                "text": "Photocoding",
+                "unicode_name": "Photocoding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Company"
+                    }
+                ]
+            }
+        },
+        "536f686569204b6f6e646f": {
+            "_surface": {
+                "text": "Sohei Kondo",
+                "unicode_name": "Sohei Kondo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "6d6574616c206c696e6573": {
+            "_surface": {
+                "text": "metal lines",
+                "unicode_name": "metal lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectral lines of metallic elements"
+                    }
+                ]
+            }
+        },
+        "412d74797065207374617273": {
+            "_surface": {
+                "text": "A-type stars",
+                "unicode_name": "A-type stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A-type main-sequence stars"
+                    }
+                ]
+            }
+        },
+        "4130e2808956207374617273": {
+            "_surface": {
+                "text": "A0 V stars",
+                "unicode_name": "A0 V stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A0 V stars"
+                    }
+                ]
+            }
+        },
+        "4179616b6120576174617365": {
+            "_surface": {
+                "text": "Ayaka Watase",
+                "unicode_name": "Ayaka Watase"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "42656572e2809973206c6177": {
+            "_surface": {
+                "text": "Beer’s law",
+                "unicode_name": "Beer’s law"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Law describing the absorption of light by a substance"
+                    }
+                ]
+            }
+        },
+        "472d74797065207374617273": {
+            "_surface": {
+                "text": "G-type stars",
+                "unicode_name": "G-type stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "G-type stars"
+                    }
+                ]
+            }
+        },
+        "496b65646120657420616c2e": {
+            "_surface": {
+                "text": "Ikeda et al.",
+                "unicode_name": "Ikeda et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", in preparation"
+                        ],
+                        "arity": 0,
+                        "description": "Ikeda et al., in preparation"
+                    }
+                ]
+            }
+        },
+        "4f2d74797065207374617273": {
+            "_surface": {
+                "text": "O-type stars",
+                "unicode_name": "O-type stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "O-type stars"
+                    }
+                ]
+            }
+        },
+        "4f72696f6e204e6562756c61": {
+            "_surface": {
+                "text": "Orion Nebula",
+                "unicode_name": "Orion Nebula"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Orion Nebula"
+                    }
+                ]
+            }
+        },
+        "53686f676f204f747375626f": {
+            "_surface": {
+                "text": "Shogo Otsubo",
+                "unicode_name": "Shogo Otsubo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "6d65616e206169726d617373": {
+            "_surface": {
+                "text": "mean airmass",
+                "unicode_name": "mean airmass"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average airmass of the target"
+                    }
+                ]
+            }
+        },
+        "302e393330e28093302e393630": {
+            "_surface": {
+                "text": "0.930–0.960",
+                "unicode_name": "0.930–0.960"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "wavelength ranges 0.930–0.960"
+                    }
+                ]
+            }
+        },
+        "312e313135e28093312e313630": {
+            "_surface": {
+                "text": "1.115–1.160",
+                "unicode_name": "1.115–1.160"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "wavelength ranges 1.115–1.160"
+                    }
+                ]
+            }
+        },
+        "496b65646120657420616c2e20": {
+            "_surface": {
+                "text": "Ikeda et al. ",
+                "unicode_name": "Ikeda et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Ikeda et al. (2016)"
+                    }
+                ]
+            }
+        },
+        "6465636f6e766f6c7574696f6e": {
+            "_surface": {
+                "text": "deconvolution",
+                "unicode_name": "deconvolution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deconvolution of the observed spectrum with the instrumental profile"
+                    }
+                ]
+            }
+        },
+        "6761757373666f6c642e70726f": {
+            "_surface": {
+                "text": "gaussfold.pro",
+                "unicode_name": "gaussfold.pro"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IDL script for convolution"
+                    }
+                ]
+            }
+        },
+        "2b312e3520746f202d31e2889843": {
+            "_surface": {
+                "text": "+1.5 to -1∘C",
+                "unicode_name": "+1.5 to -1∘C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "air temperature outside the dome changed from +1.5 to -1∘C"
+                    }
+                ]
+            }
+        },
+        "436c6f75676820657420616c2e20": {
+            "_surface": {
+                "text": "Clough et al. ",
+                "unicode_name": "Clough et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2005)"
+                        ],
+                        "arity": 0,
+                        "description": "Clough et al. (2005)"
+                    }
+                ]
+            }
+        },
+        "436f74746f6e20657420616c2e20": {
+            "_surface": {
+                "text": "Cotton et al. ",
+                "unicode_name": "Cotton et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Cotton et al. (2014)"
+                    }
+                ]
+            }
+        },
+        "4731e28089494949206769616e74": {
+            "_surface": {
+                "text": "G1 III giant",
+                "unicode_name": "G1 III giant"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "G1 III giant ε Leo"
+                    }
+                ]
+            }
+        },
+        "476175737369616e206375727665": {
+            "_surface": {
+                "text": "Gaussian curve",
+                "unicode_name": "Gaussian curve"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gaussian curve"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution defined by a bell-shaped curve"
+                    }
+                ]
+            }
+        },
+        "48616d616e6f20657420616c2e20": {
+            "_surface": {
+                "text": "Hamano et al. ",
+                "unicode_name": "Hamano et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Hamano et al. (2015)"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Hamano et al. (2016)"
+                    }
+                ]
+            }
+        },
+        "48616e736f6e20657420616c2e20": {
+            "_surface": {
+                "text": "Hanson et al. ",
+                "unicode_name": "Hanson et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1996)"
+                        ],
+                        "arity": 0,
+                        "description": "Hanson et al. (1996)"
+                    }
+                ]
+            }
+        },
+        "4b617573636820657420616c2e20": {
+            "_surface": {
+                "text": "Kausch et al. ",
+                "unicode_name": "Kausch et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Kausch et al. (2015)"
+                    },
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a scientific paper"
+                    }
+                ]
+            }
+        },
+        "5275646f6c6620657420616c2e20": {
+            "_surface": {
+                "text": "Rudolf et al. ",
+                "unicode_name": "Rudolf et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Rudolf et al. (2016)"
+                    }
+                ]
+            }
+        },
+        "5361746f7368692048616d616e6f": {
+            "_surface": {
+                "text": "Satoshi Hamano",
+                "unicode_name": "Satoshi Hamano"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "536d6574746520657420616c2e20": {
+            "_surface": {
+                "text": "Smette et al. ",
+                "unicode_name": "Smette et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Smette et al. (2015)"
+                    },
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a scientific paper"
+                    }
+                ]
+            }
+        },
+        "312e3039e28093312e313120c2b56d": {
+            "_surface": {
+                "text": "1.09–1.11 µm",
+                "unicode_name": "1.09–1.11 µm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "1.09–1.11 µm"
+                    }
+                ]
+            }
+        },
+        "4265727461757820657420616c2e20": {
+            "_surface": {
+                "text": "Bertaux et al. ",
+                "unicode_name": "Bertaux et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Bertaux et al. (2014)"
+                    }
+                ]
+            }
+        },
+        "46696775726573203820616e642039": {
+            "_surface": {
+                "text": "Figures 8 and 9",
+                "unicode_name": "Figures 8 and 9"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figures 8 and 9"
+                    }
+                ]
+            }
+        },
+        "48696465796f204b6177616b697461": {
+            "_surface": {
+                "text": "Hideyo Kawakita",
+                "unicode_name": "Hideyo Kawakita"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6973616b69204d697a756d6f746f": {
+            "_surface": {
+                "text": "Misaki Mizumoto",
+                "unicode_name": "Misaki Mizumoto"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e616f746f204b6f62617961736869": {
+            "_surface": {
+                "text": "Naoto Kobayashi",
+                "unicode_name": "Naoto Kobayashi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "526f74686d616e20657420616c2e20": {
+            "_surface": {
+                "text": "Rothman et al. ",
+                "unicode_name": "Rothman et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Rothman et al. (2009)"
+                    }
+                ]
+            }
+        },
+        "6d6f6c6563666974206d616e75616c": {
+            "_surface": {
+                "text": "molecfit manual",
+                "unicode_name": "molecfit manual"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "molecfit manual"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Documentation for the molecfit software"
+                    }
+                ]
+            }
+        },
+        "74696d6520646966666572656e6365": {
+            "_surface": {
+                "text": "time difference",
+                "unicode_name": "time difference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference in time between observations"
+                    }
+                ]
+            }
+        },
+        "33e280b32e3320746f2034e280b32e34": {
+            "_surface": {
+                "text": "3″.3 to 4″.4",
+                "unicode_name": "3″.3 to 4″.4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seeing ranged from 3″.3 to 4″.4"
+                    }
+                ]
+            }
+        },
+        "4b6569696368692054616b656e616b61": {
+            "_surface": {
+                "text": "Keiichi Takenaka",
+                "unicode_name": "Keiichi Takenaka"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b69736f204f627365727661746f7279": {
+            "_surface": {
+                "text": "Kiso Observatory",
+                "unicode_name": "Kiso Observatory"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observatory"
+                    }
+                ]
+            }
+        },
+        "4c6f72656e747a69616e206375727665": {
+            "_surface": {
+                "text": "Lorentzian curve",
+                "unicode_name": "Lorentzian curve"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lorentzian curve"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution defined by a symmetric peak"
+                    }
+                ]
+            }
+        },
+        "4d61696f6c696e6f20657420616c2e20": {
+            "_surface": {
+                "text": "Maiolino et al. ",
+                "unicode_name": "Maiolino et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1996)"
+                        ],
+                        "arity": 0,
+                        "description": "Maiolino et al. (1996)"
+                    }
+                ]
+            }
+        },
+        "507275676e69656c20657420616c2e20": {
+            "_surface": {
+                "text": "Prugniel et al. ",
+                "unicode_name": "Prugniel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2011)"
+                        ],
+                        "arity": 0,
+                        "description": "Prugniel et al. (2011)"
+                    }
+                ]
+            }
+        },
+        "536569666168727420657420616c2e20": {
+            "_surface": {
+                "text": "Seifahrt et al. ",
+                "unicode_name": "Seifahrt et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2010)"
+                        ],
+                        "arity": 0,
+                        "description": "Seifahrt et al. (2010)"
+                    }
+                ]
+            }
+        },
+        "726f6f742d6d65616e2d737175617265": {
+            "_surface": {
+                "text": "root-mean-square",
+                "unicode_name": "root-mean-square"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Statistical measure of the difference between values predicted by a model and the values actually observed"
+                    }
+                ]
+            }
+        },
+        "736d656172696e672065666665637473": {
+            "_surface": {
+                "text": "smearing effects",
+                "unicode_name": "smearing effects"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation of the smearing effects"
+                    }
+                ]
+            }
+        },
+        "312e323435e28093312e32383020c2b56d": {
+            "_surface": {
+                "text": "1.245–1.280 µm",
+                "unicode_name": "1.245–1.280 µm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength range 1.245–1.280 µm"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength range"
+                    }
+                ]
+            }
+        },
+        "44616973756b652054616e696775636869": {
+            "_surface": {
+                "text": "Daisuke Taniguchi",
+                "unicode_name": "Daisuke Taniguchi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "47756c6c696b736f6e20657420616c2e20": {
+            "_surface": {
+                "text": "Gullikson et al. ",
+                "unicode_name": "Gullikson et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Gullikson et al. (2014)"
+                    }
+                ]
+            }
+        },
+        "4865206920cebbe281a2cebb3132373834": {
+            "_surface": {
+                "text": "He i λ⁢λ12784",
+                "unicode_name": "He i λ⁢λ12784"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 12790"
+                        ],
+                        "arity": 0,
+                        "description": "Helium lines in the spectrum"
+                    }
+                ]
+            }
+        },
+        "4869726f616b692053616d657368696d61": {
+            "_surface": {
+                "text": "Hiroaki Sameshima",
+                "unicode_name": "Hiroaki Sameshima"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4977616b7572612d4e616b616d61636869": {
+            "_surface": {
+                "text": "Iwakura-Nakamachi",
+                "unicode_name": "Iwakura-Nakamachi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location in Kyoto"
+                    }
+                ]
+            }
+        },
+        "507275676e69656c206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Prugniel et al. ",
+                "unicode_name": "Prugniel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2011)"
+                        ],
+                        "arity": 0,
+                        "description": "Prugniel et al. (2011)"
+                    }
+                ]
+            }
+        },
+        "5363686f6f6c206f6620536369656e6365": {
+            "_surface": {
+                "text": "School of Science",
+                "unicode_name": "School of Science"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "School"
+                    }
+                ]
+            }
+        },
+        "54616e69677563686920657420616c2e20": {
+            "_surface": {
+                "text": "Taniguchi et al. ",
+                "unicode_name": "Taniguchi et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Taniguchi et al. (2018)"
+                    }
+                ]
+            }
+        },
+        "6f6273657276656420737065637472756d": {
+            "_surface": {
+                "text": "observed spectrum",
+                "unicode_name": "observed spectrum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectrum obtained from observation"
+                    }
+                ]
+            }
+        },
+        "7472616e736d697474616e63652062696e": {
+            "_surface": {
+                "text": "transmittance bin",
+                "unicode_name": "transmittance bin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Group of data points with similar transmittance values"
+                    }
+                ]
+            }
+        },
+        "4e6f726979756b69204d617473756e616761": {
+            "_surface": {
+                "text": "Noriyuki Matsunaga",
+                "unicode_name": "Noriyuki Matsunaga"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "636f7272656374656420737065637472756d": {
+            "_surface": {
+                "text": "corrected spectrum",
+                "unicode_name": "corrected spectrum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectrum after applying correction"
+                    }
+                ]
+            }
+        },
+        "63756269632073706c696e65206375727665": {
+            "_surface": {
+                "text": "cubic spline curve",
+                "unicode_name": "cubic spline curve"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Curve defined by piecewise-defined polynomial functions"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "cubic spline curve"
+                    }
+                ]
+            }
+        },
+        "726570726f64756365642070726f66696c65": {
+            "_surface": {
+                "text": "reproduced profile",
+                "unicode_name": "reproduced profile"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reproduced profile"
+                    }
+                ]
+            }
+        },
+        "7369676d612d636c6970706564206d65616e": {
+            "_surface": {
+                "text": "sigma-clipped mean",
+                "unicode_name": "sigma-clipped mean"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean value after removing outliers"
+                    }
+                ]
+            }
+        },
+        "737065637472616c20726573696475616c73": {
+            "_surface": {
+                "text": "spectral residuals",
+                "unicode_name": "spectral residuals"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Remaining spectral features after correction"
+                    }
+                ]
+            }
+        },
+        "7374616e6461726420646576696174696f6e": {
+            "_surface": {
+                "text": "standard deviation",
+                "unicode_name": "standard deviation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of the amount of variation or dispersion in a set of values"
+                    }
+                ]
+            }
+        },
+        "43206920cebbe281a2cebbe281a23132363031": {
+            "_surface": {
+                "text": "C i λ⁢λ⁢12601",
+                "unicode_name": "C i λ⁢λ⁢12601"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",12614"
+                        ],
+                        "arity": 0,
+                        "description": "Absorption lines of C i at wavelengths 12601 and 12614"
+                    },
+                    {
+                        "affixes": [
+                            ",12614"
+                        ],
+                        "arity": 0,
+                        "description": "C i λ⁢λ⁢12601,12614"
+                    },
+                    {
+                        "affixes": [
+                            ",12614"
+                        ],
+                        "arity": 0,
+                        "description": "Weak metal lines in the spectrum"
+                    }
+                ]
+            }
+        },
+        "466163756c7479206f6620536369656e636573": {
+            "_surface": {
+                "text": "Faculty of Sciences",
+                "unicode_name": "Faculty of Sciences"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Faculty"
+                    }
+                ]
+            }
+        },
+        "4b2d62616e64207370656374726f73636f7079": {
+            "_surface": {
+                "text": "K-band spectroscopy",
+                "unicode_name": "K-band spectroscopy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectroscopy in the near-infrared K-band"
+                    }
+                ]
+            }
+        },
+        "74656c6c75726963206162736f727074696f6e": {
+            "_surface": {
+                "text": "telluric absorption",
+                "unicode_name": "telluric absorption"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption by Earth's atmosphere"
+                    }
+                ]
+            }
+        },
+        "74656c6c7572696320636f7272656374696f6e": {
+            "_surface": {
+                "text": "telluric correction",
+                "unicode_name": "telluric correction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Quantitative investigation of the spectrum after telluric correction"
+                    }
+                ]
+            }
+        },
+        "4c6567656e64726520706f6c796e6f6d69616c73": {
+            "_surface": {
+                "text": "Legendre polynomials",
+                "unicode_name": "Legendre polynomials"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Legendre polynomials"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Orthogonal polynomials used in approximation theory"
+                    }
+                ]
+            }
+        },
+        "74727565207374656c6c61722070726f66696c65": {
+            "_surface": {
+                "text": "true stellar profile",
+                "unicode_name": "true stellar profile"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "True stellar profile"
+                    }
+                ]
+            }
+        },
+        "312e332d6d204172616b692074656c6573636f7065": {
+            "_surface": {
+                "text": "1.3-m Araki telescope",
+                "unicode_name": "1.3-m Araki telescope"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "1.3-m Araki telescope"
+                    }
+                ]
+            }
+        },
+        "4865206920cebbe281a2cebbe281a231303939362e36": {
+            "_surface": {
+                "text": "He i λ⁢λ⁢10996.6",
+                "unicode_name": "He i λ⁢λ⁢10996.6"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",11013.1,11045.0"
+                        ],
+                        "arity": 0,
+                        "description": "He i λ⁢λ⁢10996.6,11013.1,11045.0"
+                    }
+                ]
+            }
+        },
+        "496e73746974757465206f6620417374726f6e6f6d79": {
+            "_surface": {
+                "text": "Institute of Astronomy",
+                "unicode_name": "Institute of Astronomy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Institute"
+                    }
+                ]
+            }
+        },
+        "74656c6c75726963207374616e646172642073746172": {
+            "_surface": {
+                "text": "telluric standard star",
+                "unicode_name": "telluric standard star"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star used as a standard for telluric correction"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star used to develop correction function"
+                    }
+                ]
+            }
+        },
+        "7761746572207661706f72206162736f727074696f6e": {
+            "_surface": {
+                "text": "water vapor absorption",
+                "unicode_name": "water vapor absorption"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption by water vapor"
+                    }
+                ]
+            }
+        },
+        "4b796f746f2053616e67796f20556e6976657273697479": {
+            "_surface": {
+                "text": "Kyoto Sangyo University",
+                "unicode_name": "Kyoto Sangyo University"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    }
+                ]
+            }
+        },
+        "54686520556e6976657273697479206f6620546f6b796f": {
+            "_surface": {
+                "text": "The University of Tokyo",
+                "unicode_name": "The University of Tokyo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    }
+                ]
+            }
+        },
+        "636f6e74696e75756d206e6f726d616c697a6174696f6e": {
+            "_surface": {
+                "text": "continuum normalization",
+                "unicode_name": "continuum normalization"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of normalizing the continuum of a spectrum"
+                    }
+                ]
+            }
+        },
+        "49444c20736372697074206761757373666f6c642e70726f": {
+            "_surface": {
+                "text": "IDL script gaussfold.pro",
+                "unicode_name": "IDL script gaussfold.pro"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IDL script for convolution"
+                    }
+                ]
+            }
+        },
+        "e288bc312e32373920616e6420e288bc312e32383220c2b56d": {
+            "_surface": {
+                "text": "∼1.279 and ∼1.282 µm",
+                "unicode_name": "∼1.279 and ∼1.282 µm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelengths corresponding to He i λ⁢λ12784, 12790 and Pa β"
+                    }
+                ]
+            }
+        },
+        "49444c2073637269707420666f7220636f6e766f6c7574696f6e": {
+            "_surface": {
+                "text": "IDL script for convolution",
+                "unicode_name": "IDL script for convolution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IDL script for convolution"
+                    }
+                ]
+            }
+        },
+        "4c6576656e626572672d4d6172717561726474206d6574686f64": {
+            "_surface": {
+                "text": "Levenberg-Marquardt method",
+                "unicode_name": "Levenberg-Marquardt method"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Levenberg-Marquardt method"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Algorithm for minimizing chi-squared values"
+                    }
+                ]
+            }
+        },
+        "73796e7468657469632074656c6c757269632073706563747261": {
+            "_surface": {
+                "text": "synthetic telluric spectra",
+                "unicode_name": "synthetic telluric spectra"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "synthetic telluric spectra"
+                    }
+                ]
+            }
+        },
+        "6d6f6c6563756c6172206f787967656e206162736f727074696f6e": {
+            "_surface": {
+                "text": "molecular oxygen absorption",
+                "unicode_name": "molecular oxygen absorption"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absorption by molecular oxygen"
+                    }
+                ]
+            }
+        },
+        "73796e7468657469632074656c6c7572696320737065637472756d": {
+            "_surface": {
+                "text": "synthetic telluric spectrum",
+                "unicode_name": "synthetic telluric spectrum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "synthetic telluric spectrum"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Artificial spectrum representing telluric absorption"
+                    }
+                ]
+            }
+        },
+        "4b6f79616d6120417374726f6e6f6d6963616c204f627365727661746f7279": {
+            "_surface": {
+                "text": "Koyama Astronomical Observatory",
+                "unicode_name": "Koyama Astronomical Observatory"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observatory"
+                    }
+                ]
+            }
+        },
+        "4657484d206f66206172746966696369616c207374656c6c6172206c696e6573": {
+            "_surface": {
+                "text": "FWHM of artificial stellar lines",
+                "unicode_name": "FWHM of artificial stellar lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Full width at half maximum of artificial stellar lines"
+                    }
+                ]
+            }
+        },
+        "74696d652d646570656e64656e74207765617468657220636f6e646974696f6e73": {
+            "_surface": {
+                "text": "time-dependent weather conditions",
+                "unicode_name": "time-dependent weather conditions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changes in weather conditions over time"
+                    }
+                ]
+            }
+        },
+        "4a6170616e204165726f7370616365204578706c6f726174696f6e204167656e6379": {
+            "_surface": {
+                "text": "Japan Aerospace Exploration Agency",
+                "unicode_name": "Japan Aerospace Exploration Agency"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Space agency"
+                    }
+                ]
+            }
+        },
+        "4e495220686967682d7265736f6c7574696f6e20616e6420686967682d534e522073706563747261": {
+            "_surface": {
+                "text": "NIR high-resolution and high-SNR spectra",
+                "unicode_name": "NIR high-resolution and high-SNR spectra"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "NIR high-resolution and high-SNR spectra"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Near-infrared high-resolution and high-SNR spectra"
+                    }
+                ]
+            }
+        },
+        "4e6174696f6e616c20417374726f6e6f6d6963616c204f627365727661746f7279206f66204a6170616e": {
+            "_surface": {
+                "text": "National Astronomical Observatory of Japan",
+                "unicode_name": "National Astronomical Observatory of Japan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observatory"
+                    }
+                ]
+            }
+        },
+        "436f7272656374696f6e206f66204e6561722d496e66726172656420486967682d5265736f6c7574696f6e205370656374726120666f722054656c6c75726963204162736f727074696f6e": {
+            "_surface": {
+                "text": "Correction of Near-Infrared High-Resolution Spectra for Telluric Absorption",
+                "unicode_name": "Correction of Near-Infrared High-Resolution Spectra for Telluric Absorption"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of the paper"
+                    }
+                ]
+            }
+        }
+    }
+}

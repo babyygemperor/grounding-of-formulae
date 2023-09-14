@@ -1,0 +1,4151 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Case"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable E"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation function"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable F"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable H"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kelvin"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable K"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of line pairs"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of stars"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable N"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Electron pressure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable P"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable R"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable S"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard deviation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable T"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable X"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slope"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intercept"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable c"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable d"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Delta"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Electron"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable e"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable g"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gravity"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable h"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable k"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation function"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable l"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable m"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable n"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Partition function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable u"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight"
+                    }
+                ]
+            }
+        },
+        "416c": {
+            "_surface": {
+                "text": "Al",
+                "unicode_name": "Al"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Aluminum"
+                    }
+                ]
+            }
+        },
+        "4361": {
+            "_surface": {
+                "text": "Ca",
+                "unicode_name": "Ca"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Calcium"
+                    }
+                ]
+            }
+        },
+        "436f": {
+            "_surface": {
+                "text": "Co",
+                "unicode_name": "Co"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cobalt"
+                    }
+                ]
+            }
+        },
+        "4372": {
+            "_surface": {
+                "text": "Cr",
+                "unicode_name": "Cr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chromium"
+                    }
+                ]
+            }
+        },
+        "4550": {
+            "_surface": {
+                "text": "EP",
+                "unicode_name": "EP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable EP"
+                    }
+                ]
+            }
+        },
+        "4637": {
+            "_surface": {
+                "text": "F7",
+                "unicode_name": "F7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable F7"
+                    }
+                ]
+            }
+        },
+        "4665": {
+            "_surface": {
+                "text": "Fe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Fe"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iron"
+                    }
+                ]
+            }
+        },
+        "4730": {
+            "_surface": {
+                "text": "G0",
+                "unicode_name": "G0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable G0"
+                    }
+                ]
+            }
+        },
+        "4b34": {
+            "_surface": {
+                "text": "K4",
+                "unicode_name": "K4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable K4"
+                    }
+                ]
+            }
+        },
+        "4b35": {
+            "_surface": {
+                "text": "K5",
+                "unicode_name": "K5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable K5"
+                    }
+                ]
+            }
+        },
+        "4d67": {
+            "_surface": {
+                "text": "Mg",
+                "unicode_name": "Mg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Mg"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnesium"
+                    }
+                ]
+            }
+        },
+        "4d6e": {
+            "_surface": {
+                "text": "Mn",
+                "unicode_name": "Mn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Manganese"
+                    }
+                ]
+            }
+        },
+        "4e61": {
+            "_surface": {
+                "text": "Na",
+                "unicode_name": "Na"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Na"
+                    }
+                ]
+            }
+        },
+        "4e69": {
+            "_surface": {
+                "text": "Ni",
+                "unicode_name": "Ni"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nickel"
+                    }
+                ]
+            }
+        },
+        "5369": {
+            "_surface": {
+                "text": "Si",
+                "unicode_name": "Si"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Silicon"
+                    }
+                ]
+            }
+        },
+        "5469": {
+            "_surface": {
+                "text": "Ti",
+                "unicode_name": "Ti"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Titanium"
+                    }
+                ]
+            }
+        },
+        "594a": {
+            "_surface": {
+                "text": "YJ",
+                "unicode_name": "YJ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "YJ band"
+                    }
+                ]
+            }
+        },
+        "6467": {
+            "_surface": {
+                "text": "dg",
+                "unicode_name": "dg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable dg"
+                    }
+                ]
+            }
+        },
+        "6473": {
+            "_surface": {
+                "text": "ds",
+                "unicode_name": "ds"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable ds"
+                    }
+                ]
+            }
+        },
+        "6556": {
+            "_surface": {
+                "text": "eV",
+                "unicode_name": "eV"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Electron volt"
+                    }
+                ]
+            }
+        },
+        "6773": {
+            "_surface": {
+                "text": "gs",
+                "unicode_name": "gs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable gs"
+                    }
+                ]
+            }
+        },
+        "c385": {
+            "_surface": {
+                "text": "Å",
+                "unicode_name": "LATIN CAPITAL LETTER A WITH RING ABOVE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of length"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Delta"
+                    }
+                ]
+            }
+        },
+        "ceba": {
+            "_surface": {
+                "text": "κ",
+                "unicode_name": "GREEK SMALL LETTER KAPPA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable κ"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wavelength separation"
+                    }
+                ]
+            }
+        },
+        "cebc": {
+            "_surface": {
+                "text": "μ",
+                "unicode_name": "GREEK SMALL LETTER MU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greek letter mu"
+                    }
+                ]
+            }
+        },
+        "cebd": {
+            "_surface": {
+                "text": "ν",
+                "unicode_name": "GREEK SMALL LETTER NU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable ν"
+                    }
+                ]
+            }
+        },
+        "cf80": {
+            "_surface": {
+                "text": "π",
+                "unicode_name": "GREEK SMALL LETTER PI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable π"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Residual"
+                    }
+                ]
+            }
+        },
+        "cf87": {
+            "_surface": {
+                "text": "χ",
+                "unicode_name": "GREEK SMALL LETTER CHI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ionization potential"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable χ"
+                    }
+                ]
+            }
+        },
+        "455073": {
+            "_surface": {
+                "text": "EPs",
+                "unicode_name": "EPs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Acronym"
+                    }
+                ]
+            }
+        },
+        "4b4f56": {
+            "_surface": {
+                "text": "KOV"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Catalogue temperatures"
+                    }
+                ]
+            }
+        },
+        "4c4452": {
+            "_surface": {
+                "text": "LDR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line depth ratio"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable LDR"
+                    }
+                ]
+            }
+        },
+        "4f626a": {
+            "_surface": {
+                "text": "Obj"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Obj"
+                    }
+                ]
+            }
+        },
+        "543138": {
+            "_surface": {
+                "text": "T18",
+                "unicode_name": "T18"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable T18"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line pair"
+                    }
+                ]
+            }
+        },
+        "543231": {
+            "_surface": {
+                "text": "T21",
+                "unicode_name": "T21"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line pair"
+                    }
+                ]
+            }
+        },
+        "543232": {
+            "_surface": {
+                "text": "T22",
+                "unicode_name": "T22"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Line pair"
+                    }
+                ]
+            }
+        },
+        "54656c": {
+            "_surface": {
+                "text": "Tel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Tel"
+                    }
+                ]
+            }
+        },
+        "616972": {
+            "_surface": {
+                "text": "air",
+                "unicode_name": "air"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable air"
+                    }
+                ]
+            }
+        },
+        "646578": {
+            "_surface": {
+                "text": "dex",
+                "unicode_name": "dex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of logarithmic scale"
+                    }
+                ]
+            }
+        },
+        "656666": {
+            "_surface": {
+                "text": "eff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effective temperature"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable eff"
+                    }
+                ]
+            }
+        },
+        "696f6e": {
+            "_surface": {
+                "text": "ion"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable ion"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable log"
+                    }
+                ]
+            }
+        },
+        "6c6f77": {
+            "_surface": {
+                "text": "low"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable low"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73796e": {
+            "_surface": {
+                "text": "syn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Synthesized"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable syn"
+                    }
+                ]
+            }
+        },
+        "4265616e": {
+            "_surface": {
+                "text": "Bean",
+                "unicode_name": "Bean"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "47726179": {
+            "_surface": {
+                "text": "Gray",
+                "unicode_name": "Gray"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a69616e": {
+            "_surface": {
+                "text": "Jian",
+                "unicode_name": "Jian"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c445273": {
+            "_surface": {
+                "text": "LDRs",
+                "unicode_name": "LDRs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable LDRs"
+                    }
+                ]
+            }
+        },
+        "4d4f4f47": {
+            "_surface": {
+                "text": "MOOG",
+                "unicode_name": "MOOG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Code"
+                    }
+                ]
+            }
+        },
+        "54656666": {
+            "_surface": {
+                "text": "Teff",
+                "unicode_name": "Teff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Teff"
+                    }
+                ]
+            }
+        },
+        "5a414d53": {
+            "_surface": {
+                "text": "ZAMS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zero-age main sequence"
+                    }
+                ]
+            }
+        },
+        "6473796e": {
+            "_surface": {
+                "text": "dsyn",
+                "unicode_name": "dsyn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable dsyn"
+                    }
+                ]
+            }
+        },
+        "666c7578": {
+            "_surface": {
+                "text": "flux",
+                "unicode_name": "flux"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable flux"
+                    }
+                ]
+            }
+        },
+        "68696768": {
+            "_surface": {
+                "text": "high"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable high"
+                    }
+                ]
+            }
+        },
+        "6c6f6767": {
+            "_surface": {
+                "text": "logg",
+                "unicode_name": "logg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable logg"
+                    }
+                ]
+            }
+        },
+        "70616972": {
+            "_surface": {
+                "text": "pair"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable pair"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of line pairs"
+                    }
+                ]
+            }
+        },
+        "ce94cf87": {
+            "_surface": {
+                "text": "Δχ",
+                "unicode_name": "Δχ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Δχ"
+                    }
+                ]
+            }
+        },
+        "42726f776e": {
+            "_surface": {
+                "text": "Brown",
+                "unicode_name": "Brown"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "46756b7565": {
+            "_surface": {
+                "text": "Fukue",
+                "unicode_name": "Fukue"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "486f6e676f": {
+            "_surface": {
+                "text": "Hongo",
+                "unicode_name": "Hongo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "496b656461": {
+            "_surface": {
+                "text": "Ikeda",
+                "unicode_name": "Ikeda"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4976616e73": {
+            "_surface": {
+                "text": "Ivans",
+                "unicode_name": "Ivans"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b796f746f": {
+            "_surface": {
+                "text": "Kyoto",
+                "unicode_name": "Kyoto"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "4c75636b20": {
+            "_surface": {
+                "text": "Luck ",
+                "unicode_name": "Luck "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4f73617761": {
+            "_surface": {
+                "text": "Osawa",
+                "unicode_name": "Osawa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "546f6b796f": {
+            "_surface": {
+                "text": "Tokyo",
+                "unicode_name": "Tokyo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "56414c4433": {
+            "_surface": {
+                "text": "VALD3",
+                "unicode_name": "VALD3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Atomic Line Database"
+                    }
+                ]
+            }
+        },
+        "626c656e64": {
+            "_surface": {
+                "text": "blend",
+                "unicode_name": "blend"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Verb"
+                    }
+                ]
+            }
+        },
+        "6465707468": {
+            "_surface": {
+                "text": "depth",
+                "unicode_name": "depth"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable depth"
+                    }
+                ]
+            }
+        },
+        "6477617266": {
+            "_surface": {
+                "text": "dwarf",
+                "unicode_name": "dwarf"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dwarf star"
+                    }
+                ]
+            }
+        },
+        "6572726f72": {
+            "_surface": {
+                "text": "error",
+                "unicode_name": "error"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable error"
+                    }
+                ]
+            }
+        },
+        "6c696e6573": {
+            "_surface": {
+                "text": "lines",
+                "unicode_name": "lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable lines"
+                    }
+                ]
+            }
+        },
+        "7061697273": {
+            "_surface": {
+                "text": "pairs",
+                "unicode_name": "pairs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable pairs"
+                    }
+                ]
+            }
+        },
+        "7374617273": {
+            "_surface": {
+                "text": "stars",
+                "unicode_name": "stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "746f74616c": {
+            "_surface": {
+                "text": "total"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable total"
+                    }
+                ]
+            }
+        },
+        "41504f474545": {
+            "_surface": {
+                "text": "APOGEE",
+                "unicode_name": "APOGEE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Acronym"
+                    }
+                ]
+            }
+        },
+        "415350414350": {
+            "_surface": {
+                "text": "ASPACP",
+                "unicode_name": "ASPACP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Acronym"
+                    }
+                ]
+            }
+        },
+        "41544c415339": {
+            "_surface": {
+                "text": "ATLAS9",
+                "unicode_name": "ATLAS9"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stellar models"
+                    }
+                ]
+            }
+        },
+        "4269617a7a6f": {
+            "_surface": {
+                "text": "Biazzo",
+                "unicode_name": "Biazzo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4669672e2037": {
+            "_surface": {
+                "text": "Fig. 7",
+                "unicode_name": "Fig. 7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 7"
+                    }
+                ]
+            }
+        },
+        "486569746572": {
+            "_surface": {
+                "text": "Heiter",
+                "unicode_name": "Heiter"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b757275637a": {
+            "_surface": {
+                "text": "Kurucz",
+                "unicode_name": "Kurucz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c6573746572": {
+            "_surface": {
+                "text": "Lester",
+                "unicode_name": "Lester"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d696c6f6e65": {
+            "_surface": {
+                "text": "Milone",
+                "unicode_name": "Milone"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6974616b61": {
+            "_surface": {
+                "text": "Mitaka",
+                "unicode_name": "Mitaka"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "4e6167616e6f": {
+            "_surface": {
+                "text": "Nagano",
+                "unicode_name": "Nagano"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "536e6564656e": {
+            "_surface": {
+                "text": "Sneden",
+                "unicode_name": "Sneden"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "536f6265636b": {
+            "_surface": {
+                "text": "Sobeck",
+                "unicode_name": "Sobeck"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5461796c6f72": {
+            "_surface": {
+                "text": "Taylor",
+                "unicode_name": "Taylor"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "647761726673": {
+            "_surface": {
+                "text": "dwarfs",
+                "unicode_name": "dwarfs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable dwarfs"
+                    }
+                ]
+            }
+        },
+        "656666656374": {
+            "_surface": {
+                "text": "effect",
+                "unicode_name": "effect"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable effect"
+                    }
+                ]
+            }
+        },
+        "6572726f7273": {
+            "_surface": {
+                "text": "errors",
+                "unicode_name": "errors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable errors"
+                    }
+                ]
+            }
+        },
+        "6769616e7473": {
+            "_surface": {
+                "text": "giants",
+                "unicode_name": "giants"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable giants"
+                    }
+                ]
+            }
+        },
+        "6c6f674c4452": {
+            "_surface": {
+                "text": "logLDR",
+                "unicode_name": "logLDR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm of line depth ratio"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable logLDR"
+                    }
+                ]
+            }
+        },
+        "7472656e6473": {
+            "_surface": {
+                "text": "trends",
+                "unicode_name": "trends"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable trends"
+                    }
+                ]
+            }
+        },
+        "4261726b6c656d": {
+            "_surface": {
+                "text": "Barklem",
+                "unicode_name": "Barklem"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b6974612d6b75": {
+            "_surface": {
+                "text": "Kita-ku",
+                "unicode_name": "Kita-ku"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "626c656e646564": {
+            "_surface": {
+                "text": "blended",
+                "unicode_name": "blended"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Verb"
+                    }
+                ]
+            }
+        },
+        "6469616772616d": {
+            "_surface": {
+                "text": "diagram",
+                "unicode_name": "diagram"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable diagram"
+                    }
+                ]
+            }
+        },
+        "66697474696e67": {
+            "_surface": {
+                "text": "fitting",
+                "unicode_name": "fitting"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable fitting"
+                    }
+                ]
+            }
+        },
+        "67726176697479": {
+            "_surface": {
+                "text": "gravity",
+                "unicode_name": "gravity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable gravity"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a167": {
+            "_surface": {
+                "text": "log⁡g",
+                "unicode_name": "log⁡g"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable log⁡g"
+                    }
+                ]
+            }
+        },
+        "6f666673657473": {
+            "_surface": {
+                "text": "offsets",
+                "unicode_name": "offsets"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable offsets"
+                    }
+                ]
+            }
+        },
+        "70756279656172": {
+            "_surface": {
+                "text": "pubyear",
+                "unicode_name": "pubyear"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable pubyear"
+                    }
+                ]
+            }
+        },
+        "4172637475727573": {
+            "_surface": {
+                "text": "Arcturus",
+                "unicode_name": "Arcturus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Arcturus"
+                    }
+                ]
+            }
+        },
+        "436174616c616e6f": {
+            "_surface": {
+                "text": "Catalano",
+                "unicode_name": "Catalano"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a6f68616e736f6e": {
+            "_surface": {
+                "text": "Johanson",
+                "unicode_name": "Johanson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b616d6967616d6f": {
+            "_surface": {
+                "text": "Kamigamo",
+                "unicode_name": "Kamigamo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b68": {
+            "_surface": {
+                "text": "Kovtyukh",
+                "unicode_name": "Kovtyukh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6f746f79616d61": {
+            "_surface": {
+                "text": "Motoyama",
+                "unicode_name": "Motoyama"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "50616b686f6d6f76": {
+            "_surface": {
+                "text": "Pakhomov",
+                "unicode_name": "Pakhomov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5069736b756e6f76": {
+            "_surface": {
+                "text": "Piskunov",
+                "unicode_name": "Piskunov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53616b796f2d6b75": {
+            "_surface": {
+                "text": "Sakyo-ku",
+                "unicode_name": "Sakyo-ku"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "53617373656c6f76": {
+            "_surface": {
+                "text": "Sasselov",
+                "unicode_name": "Sasselov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5363686f7264616e": {
+            "_surface": {
+                "text": "Schordan",
+                "unicode_name": "Schordan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5374656d70656c73": {
+            "_surface": {
+                "text": "Stempels",
+                "unicode_name": "Stempels"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "636f6e7374616e74": {
+            "_surface": {
+                "text": "constant"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "64612053696c7661": {
+            "_surface": {
+                "text": "da Silva",
+                "unicode_name": "da Silva"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "6574c2a0616c2e20": {
+            "_surface": {
+                "text": "et al. ",
+                "unicode_name": "et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "696e667261726564": {
+            "_surface": {
+                "text": "infrared",
+                "unicode_name": "infrared"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "70617261626f6c61": {
+            "_surface": {
+                "text": "parabola",
+                "unicode_name": "parabola"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mathematical function"
+                    }
+                ]
+            }
+        },
+        "7065722063656e74": {
+            "_surface": {
+                "text": "per cent",
+                "unicode_name": "per cent"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of percentage"
+                    }
+                ]
+            }
+        },
+        "7072656669786564": {
+            "_surface": {
+                "text": "prefixed",
+                "unicode_name": "prefixed"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Verb"
+                    }
+                ]
+            }
+        },
+        "42756e6b796f2d6b75": {
+            "_surface": {
+                "text": "Bunkyo-ku",
+                "unicode_name": "Bunkyo-ku"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "48ceb120696e646578": {
+            "_surface": {
+                "text": "Hα index",
+                "unicode_name": "Hα index"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "4b65692046756b7565": {
+            "_surface": {
+                "text": "Kei Fukue",
+                "unicode_name": "Kei Fukue"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b6820": {
+            "_surface": {
+                "text": "Kovtyukh ",
+                "unicode_name": "Kovtyukh "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c4452207061697273": {
+            "_surface": {
+                "text": "LDR pairs",
+                "unicode_name": "LDR pairs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable LDR pairs"
+                    }
+                ]
+            }
+        },
+        "4c75636174656c6c6f": {
+            "_surface": {
+                "text": "Lucatello",
+                "unicode_name": "Lucatello"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d617473756e616761": {
+            "_surface": {
+                "text": "Matsunaga",
+                "unicode_name": "Matsunaga"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53616d657368696d61": {
+            "_surface": {
+                "text": "Sameshima",
+                "unicode_name": "Sameshima"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "54616e696775636869": {
+            "_surface": {
+                "text": "Taniguchi",
+                "unicode_name": "Taniguchi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "636f6e74696e75756d": {
+            "_surface": {
+                "text": "continuum",
+                "unicode_name": "continuum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable continuum"
+                    }
+                ]
+            }
+        },
+        "6c696e652070616972": {
+            "_surface": {
+                "text": "line pair",
+                "unicode_name": "line pair"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable line pair"
+                    }
+                ]
+            }
+        },
+        "6c6f67e281a14c4452": {
+            "_surface": {
+                "text": "log⁡LDR",
+                "unicode_name": "log⁡LDR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable log⁡LDR"
+                    }
+                ]
+            }
+        },
+        "4162756e64616e636573": {
+            "_surface": {
+                "text": "Abundances",
+                "unicode_name": "Abundances"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "416b6972612041726169": {
+            "_surface": {
+                "text": "Akira Arai",
+                "unicode_name": "Akira Arai"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c4452e2809354656666": {
+            "_surface": {
+                "text": "LDR–Teff",
+                "unicode_name": "LDR–Teff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relation between Line depth ratio and Effective temperature"
+                    }
+                ]
+            }
+        },
+        "59756a6920496b656461": {
+            "_surface": {
+                "text": "Yuji Ikeda",
+                "unicode_name": "Yuji Ikeda"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "64697363757373696f6e": {
+            "_surface": {
+                "text": "discussion",
+                "unicode_name": "discussion"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable discussion"
+                    }
+                ]
+            }
+        },
+        "66696e616c2054656666": {
+            "_surface": {
+                "text": "final Teff",
+                "unicode_name": "final Teff"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable final Teff"
+                    }
+                ]
+            }
+        },
+        "6c696e65206465707468": {
+            "_surface": {
+                "text": "line depth",
+                "unicode_name": "line depth"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable line depth"
+                    }
+                ]
+            }
+        },
+        "6c696e65207061697273": {
+            "_surface": {
+                "text": "line pairs",
+                "unicode_name": "line pairs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable line pairs"
+                    }
+                ]
+            }
+        },
+        "71756164726174757265": {
+            "_surface": {
+                "text": "quadrature",
+                "unicode_name": "quadrature"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mathematical concept"
+                    }
+                ]
+            }
+        },
+        "73757065726769616e74": {
+            "_surface": {
+                "text": "supergiant",
+                "unicode_name": "supergiant"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Supergiant star"
+                    }
+                ]
+            }
+        },
+        "746563686e6971756573": {
+            "_surface": {
+                "text": "techniques",
+                "unicode_name": "techniques"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "c3856e67737472c3b66d": {
+            "_surface": {
+                "text": "Ångström",
+                "unicode_name": "Ångström"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of length"
+                    }
+                ]
+            }
+        },
+        "50686f746f636f64696e67": {
+            "_surface": {
+                "text": "Photocoding",
+                "unicode_name": "Photocoding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Photocoding"
+                    }
+                ]
+            }
+        },
+        "526f6368612d50696e746f": {
+            "_surface": {
+                "text": "Rocha-Pinto",
+                "unicode_name": "Rocha-Pinto"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "527961626368696b6f7661": {
+            "_surface": {
+                "text": "Ryabchikova",
+                "unicode_name": "Ryabchikova"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "536f686569204b6f6e646f": {
+            "_surface": {
+                "text": "Sohei Kondo",
+                "unicode_name": "Sohei Kondo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5374726173736d65696572": {
+            "_surface": {
+                "text": "Strassmeier",
+                "unicode_name": "Strassmeier"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "636f6d70617269736f6e73": {
+            "_surface": {
+                "text": "comparisons",
+                "unicode_name": "comparisons"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable comparisons"
+                    }
+                ]
+            }
+        },
+        "6c696e6520626c656e6473": {
+            "_surface": {
+                "text": "line blends",
+                "unicode_name": "line blends"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable line blends"
+                    }
+                ]
+            }
+        },
+        "6c696e652063656e747265": {
+            "_surface": {
+                "text": "line centre",
+                "unicode_name": "line centre"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable line centre"
+                    }
+                ]
+            }
+        },
+        "6c696e6520646570746873": {
+            "_surface": {
+                "text": "line depths",
+                "unicode_name": "line depths"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable line depths"
+                    }
+                ]
+            }
+        },
+        "6d6574616c6c6963697479": {
+            "_surface": {
+                "text": "metallicity",
+                "unicode_name": "metallicity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable metallicity"
+                    }
+                ]
+            }
+        },
+        "7369676e69666963616e74": {
+            "_surface": {
+                "text": "significant",
+                "unicode_name": "significant"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adjective"
+                    }
+                ]
+            }
+        },
+        "73757065726769616e7473": {
+            "_surface": {
+                "text": "supergiants",
+                "unicode_name": "supergiants"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable supergiants"
+                    }
+                ]
+            }
+        },
+        "ce946c6f67e281a14c4452": {
+            "_surface": {
+                "text": "Δlog⁡LDR",
+                "unicode_name": "Δlog⁡LDR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable Δlog⁡LDR"
+                    }
+                ]
+            }
+        },
+        "496e74726f64756374696f6e": {
+            "_surface": {
+                "text": "Introduction",
+                "unicode_name": "Introduction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "4c6565206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Lee et al. ",
+                "unicode_name": "Lee et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2011)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4c6975206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Liu et al. ",
+                "unicode_name": "Liu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4d696e676a6965204a69616e": {
+            "_surface": {
+                "text": "Mingjie Jian",
+                "unicode_name": "Mingjie Jian"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53686f676f204f747375626f": {
+            "_surface": {
+                "text": "Shogo Otsubo",
+                "unicode_name": "Shogo Otsubo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4368696b616b6f205961737569": {
+            "_surface": {
+                "text": "Chikako Yasui",
+                "unicode_name": "Chikako Yasui"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a6f6e657220262048696e747a": {
+            "_surface": {
+                "text": "Joner & Hintz",
+                "unicode_name": "Joner & Hintz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4c44522072656c6174696f6e73": {
+            "_surface": {
+                "text": "LDR relations",
+                "unicode_name": "LDR relations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable LDR relations"
+                    }
+                ]
+            }
+        },
+        "5061726b206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Park et al. ",
+                "unicode_name": "Park et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2013)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "646973747269627574696f6e73": {
+            "_surface": {
+                "text": "distributions",
+                "unicode_name": "distributions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable distributions"
+                    }
+                ]
+            }
+        },
+        "7370656374726f73636f706963": {
+            "_surface": {
+                "text": "spectroscopic",
+                "unicode_name": "spectroscopic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "426f676773202620526f67657273": {
+            "_surface": {
+                "text": "Boggs & Rogers",
+                "unicode_name": "Boggs & Rogers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4a6f6e657220262048696e747a20": {
+            "_surface": {
+                "text": "Joner & Hintz ",
+                "unicode_name": "Joner & Hintz "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "5361746f7368692048616d616e6f": {
+            "_surface": {
+                "text": "Satoshi Hamano",
+                "unicode_name": "Satoshi Hamano"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "6772617669747920656666656374": {
+            "_surface": {
+                "text": "gravity effect",
+                "unicode_name": "gravity effect"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable gravity effect"
+                    }
+                ]
+            }
+        },
+        "737065637472616c206c696e6573": {
+            "_surface": {
+                "text": "spectral lines",
+                "unicode_name": "spectral lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "7374656c6c6172206d6f64656c73": {
+            "_surface": {
+                "text": "stellar models",
+                "unicode_name": "stellar models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Models"
+                    }
+                ]
+            }
+        },
+        "4361e28089692031303334332e3832": {
+            "_surface": {
+                "text": "Ca i 10343.82",
+                "unicode_name": "Ca i 10343.82"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element and wavelength"
+                    }
+                ]
+            }
+        },
+        "4665e28089692031303334372e3937": {
+            "_surface": {
+                "text": "Fe i 10347.97",
+                "unicode_name": "Fe i 10347.97"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element and wavelength"
+                    }
+                ]
+            }
+        },
+        "4665e28089692031303432332e3033": {
+            "_surface": {
+                "text": "Fe i 10423.03",
+                "unicode_name": "Fe i 10423.03"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element and wavelength"
+                    }
+                ]
+            }
+        },
+        "48696465796f204b6177616b697461": {
+            "_surface": {
+                "text": "Hideyo Kawakita",
+                "unicode_name": "Hideyo Kawakita"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b6820657420616c2e": {
+            "_surface": {
+                "text": "Kovtyukh et al.",
+                "unicode_name": "Kovtyukh et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4d616a6577736b6920657420616c2e": {
+            "_surface": {
+                "text": "Majewski et al.",
+                "unicode_name": "Majewski et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4e616f746f204b6f62617961736869": {
+            "_surface": {
+                "text": "Naoto Kobayashi",
+                "unicode_name": "Naoto Kobayashi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5369e28089692031303337312e3236": {
+            "_surface": {
+                "text": "Si i 10371.26",
+                "unicode_name": "Si i 10371.26"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element and wavelength"
+                    }
+                ]
+            }
+        },
+        "6f626a65637420737065637472756d": {
+            "_surface": {
+                "text": "object spectrum",
+                "unicode_name": "object spectrum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable object spectrum"
+                    }
+                ]
+            }
+        },
+        "72656c6174697665206572726f7273": {
+            "_surface": {
+                "text": "relative errors",
+                "unicode_name": "relative errors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable relative errors"
+                    }
+                ]
+            }
+        },
+        "74696768742072656c6174696f6e73": {
+            "_surface": {
+                "text": "tight relations",
+                "unicode_name": "tight relations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Phrase"
+                    }
+                ]
+            }
+        },
+        "4b69736f204f627365727661746f7279": {
+            "_surface": {
+                "text": "Kiso Observatory",
+                "unicode_name": "Kiso Observatory"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observatory"
+                    }
+                ]
+            }
+        },
+        "4c616ec3a76f6e206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Lançon et al. ",
+                "unicode_name": "Lançon et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "6162736f727074696f6e206c696e6573": {
+            "_surface": {
+                "text": "absorption lines",
+                "unicode_name": "absorption lines"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lines"
+                    }
+                ]
+            }
+        },
+        "63616c6962726174696f6e2064617461": {
+            "_surface": {
+                "text": "calibration data",
+                "unicode_name": "calibration data"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data"
+                    }
+                ]
+            }
+        },
+        "6c756d696e6f7369747920636c617373": {
+            "_surface": {
+                "text": "luminosity class",
+                "unicode_name": "luminosity class"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classification"
+                    }
+                ]
+            }
+        },
+        "44616973756b652054616e696775636869": {
+            "_surface": {
+                "text": "Daisuke Taniguchi",
+                "unicode_name": "Daisuke Taniguchi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4869726f616b692053616d657368696d61": {
+            "_surface": {
+                "text": "Hiroaki Sameshima",
+                "unicode_name": "Hiroaki Sameshima"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4977616b7572612d4e616b616d61636869": {
+            "_surface": {
+                "text": "Iwakura-Nakamachi",
+                "unicode_name": "Iwakura-Nakamachi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "4b6c65696e6d616e6e20262048616c6c20": {
+            "_surface": {
+                "text": "Kleinmann & Hall ",
+                "unicode_name": "Kleinmann & Hall "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1986)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b68206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Kovtyukh et al. ",
+                "unicode_name": "Kovtyukh et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1998)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2003)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2004)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2006a)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2006b)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4d616a6577736b69206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Majewski et al. ",
+                "unicode_name": "Majewski et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4dc3a9737ac3a1726f7320657420616c2e": {
+            "_surface": {
+                "text": "Mészáros et al.",
+                "unicode_name": "Mészáros et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "507275676e69656c206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Prugniel et al. ",
+                "unicode_name": "Prugniel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2011)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "5363686f6f6c206f6620536369656e6365": {
+            "_surface": {
+                "text": "School of Science",
+                "unicode_name": "School of Science"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "School"
+                    }
+                ]
+            }
+        },
+        "63616c6962726174696e67207374617273": {
+            "_surface": {
+                "text": "calibrating stars",
+                "unicode_name": "calibrating stars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stars"
+                    }
+                ]
+            }
+        },
+        "6c696e652d646570746820726174696f73": {
+            "_surface": {
+                "text": "line-depth ratios",
+                "unicode_name": "line-depth ratios"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "6f6273657276656420737065637472756d": {
+            "_surface": {
+                "text": "observed spectrum",
+                "unicode_name": "observed spectrum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectrum"
+                    }
+                ]
+            }
+        },
+        "73797374656d61746963206572726f7273": {
+            "_surface": {
+                "text": "systematic errors",
+                "unicode_name": "systematic errors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Errors"
+                    }
+                ]
+            }
+        },
+        "74656c6c7572696320737065637472756d": {
+            "_surface": {
+                "text": "telluric spectrum",
+                "unicode_name": "telluric spectrum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable telluric spectrum"
+                    }
+                ]
+            }
+        },
+        "466163756c7479206f6620536369656e6365": {
+            "_surface": {
+                "text": "Faculty of Science",
+                "unicode_name": "Faculty of Science"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Faculty"
+                    }
+                ]
+            }
+        },
+        "4d617473756e616761206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Matsunaga et al. ",
+                "unicode_name": "Matsunaga et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4e6f726979756b69204d617473756e616761": {
+            "_surface": {
+                "text": "Noriyuki Matsunaga",
+                "unicode_name": "Noriyuki Matsunaga"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "527961626368696b6f766120657420616c2e": {
+            "_surface": {
+                "text": "Ryabchikova et al.",
+                "unicode_name": "Ryabchikova et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "73796e74686574696320737065637472756d": {
+            "_surface": {
+                "text": "synthetic spectrum",
+                "unicode_name": "synthetic spectrum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spectrum"
+                    }
+                ]
+            }
+        },
+        "4b6f767479756b68202620476f726c6f766120": {
+            "_surface": {
+                "text": "Kovtyukh & Gorlova ",
+                "unicode_name": "Kovtyukh & Gorlova "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2000)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4dc3a9737ac3a1726f73206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Mészáros et al. ",
+                "unicode_name": "Mészáros et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2012)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "656d7069726963616c2072656c6174696f6e73": {
+            "_surface": {
+                "text": "empirical relations",
+                "unicode_name": "empirical relations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "70686f746f6d657472696320636f6c6f757273": {
+            "_surface": {
+                "text": "photometric colours",
+                "unicode_name": "photometric colours"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "4c4452e28093546566662072656c6174696f6e73": {
+            "_surface": {
+                "text": "LDR–Teff relations",
+                "unicode_name": "LDR–Teff relations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "527961626368696b6f7661206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Ryabchikova et al. ",
+                "unicode_name": "Ryabchikova et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "47617263c3ad612050c3a972657a20657420616c2e": {
+            "_surface": {
+                "text": "García Pérez et al.",
+                "unicode_name": "García Pérez et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "65786369746174696f6e20706f74656e7469616c73": {
+            "_surface": {
+                "text": "excitation potentials",
+                "unicode_name": "excitation potentials"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "496e73746974757465206f6620417374726f6e6f6d79": {
+            "_surface": {
+                "text": "Institute of Astronomy",
+                "unicode_name": "Institute of Astronomy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Institute"
+                    }
+                ]
+            }
+        },
+        "66756e64616d656e74616c20706172616d6574657273": {
+            "_surface": {
+                "text": "fundamental parameters",
+                "unicode_name": "fundamental parameters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "4465706172746d656e74206f6620417374726f6e6f6d79": {
+            "_surface": {
+                "text": "Department of Astronomy",
+                "unicode_name": "Department of Astronomy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Department"
+                    }
+                ]
+            }
+        },
+        "4b796f746f2053616e67796f20556e6976657273697479": {
+            "_surface": {
+                "text": "Kyoto Sangyo University",
+                "unicode_name": "Kyoto Sangyo University"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    }
+                ]
+            }
+        },
+        "54686520556e6976657273697479206f6620546f6b796f": {
+            "_surface": {
+                "text": "The University of Tokyo",
+                "unicode_name": "The University of Tokyo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    }
+                ]
+            }
+        },
+        "44657465726d696e696e67207374656c6c617220706172616d6574657273": {
+            "_surface": {
+                "text": "Determining stellar parameters",
+                "unicode_name": "Determining stellar parameters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Topic"
+                    }
+                ]
+            }
+        },
+        "4b6f79616d6120417374726f6e6f6d6963616c204f627365727661746f7279": {
+            "_surface": {
+                "text": "Koyama Astronomical Observatory",
+                "unicode_name": "Koyama Astronomical Observatory"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observatory"
+                    }
+                ]
+            }
+        },
+        "63616c69627261746564204c4452e28093546566662072656c6174696f6e73": {
+            "_surface": {
+                "text": "calibrated LDR–Teff relations",
+                "unicode_name": "calibrated LDR–Teff relations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Keyword"
+                    }
+                ]
+            }
+        },
+        "4e6174696f6e616c20417374726f6e6f6d6963616c204f627365727661746f7279206f66204a6170616e": {
+            "_surface": {
+                "text": "National Astronomical Observatory of Japan",
+                "unicode_name": "National Astronomical Observatory of Japan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observatory"
+                    }
+                ]
+            }
+        },
+        "4465706172746d656e74206f6620417374726f7068797369637320616e642041746d6f7370686572696320536369656e636573": {
+            "_surface": {
+                "text": "Department of Astrophysics and Atmospheric Sciences",
+                "unicode_name": "Department of Astrophysics and Atmospheric Sciences"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Department"
+                    }
+                ]
+            }
+        },
+        "4c61626f7261746f7279206f6620496e66726172656420486967682d7265736f6c7574696f6e207370656374726f73636f707920": {
+            "_surface": {
+                "text": "Laboratory of Infrared High-resolution spectroscopy ",
+                "unicode_name": "Laboratory of Infrared High-resolution spectroscopy "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(LiH)"
+                        ],
+                        "arity": 0,
+                        "description": "Laboratory"
+                    }
+                ]
+            }
+        },
+        "41706163686520506f696e74204f627365727661746f72792047616c61637469632045766f6c7574696f6e204578706572696d656e74": {
+            "_surface": {
+                "text": "Apache Point Observatory Galactic Evolution Experiment",
+                "unicode_name": "Apache Point Observatory Galactic Evolution Experiment"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Experiment"
+                    }
+                ]
+            }
+        }
+    }
+}

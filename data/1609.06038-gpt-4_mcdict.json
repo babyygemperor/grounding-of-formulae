@@ -1,0 +1,976 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[1, …, ℓ_a]"
+                        ],
+                        "arity": 0,
+                        "description": "Range of the index i"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feed-forward neural network"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transpose of a matrix"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the weight matrix"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i_j"
+                        ],
+                        "arity": 0,
+                        "description": "Attention weight between ith word of the first sentence and jth word of the second sentence"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Parent node hidden vector at node t"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for the second sentence"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for summation"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the word embedding vector"
+                    }
+                ]
+            }
+        },
+        "6f": {
+            "_surface": {
+                "text": "o",
+                "unicode_name": "LATIN SMALL LETTER O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word position"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Label indicating the logic relationship between 𝐚 and 𝐛"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sigmoid function"
+                    }
+                ]
+            }
+        },
+        "657870": {
+            "_surface": {
+                "text": "exp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Exponential function"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum function"
+                    }
+                ]
+            }
+        },
+        "e28493": {
+            "_surface": {
+                "text": "ℓ",
+                "unicode_name": "SCRIPT SMALL L"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [
+                            "_a"
+                        ],
+                        "arity": 0,
+                        "description": "Length of the first sentence"
+                    },
+                    {
+                        "affixes": [
+                            "_b"
+                        ],
+                        "arity": 0,
+                        "description": "Length of the second sentence"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of real numbers"
+                    }
+                ]
+            }
+        },
+        "4542494d": {
+            "_surface": {
+                "text": "EBIM",
+                "unicode_name": "EBIM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Enhanced BiLSTM Inference Model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model used in the paper"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    }
+                ]
+            }
+        },
+        "f09d9094": {
+            "_surface": {
+                "text": "𝐔",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous hidden state for input gate"
+                    },
+                    {
+                        "affixes": [
+                            "_f"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous hidden state for forget gate"
+                    },
+                    {
+                        "affixes": [
+                            "_o"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous hidden state for output gate"
+                    },
+                    {
+                        "affixes": [
+                            "_c"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous hidden state for memory cell"
+                    },
+                    {
+                        "affixes": [
+                            "_iL"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous left hidden state for input gate"
+                    },
+                    {
+                        "affixes": [
+                            "_iR"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous right hidden state for input gate"
+                    },
+                    {
+                        "affixes": [
+                            "_fL"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous left hidden state for forget gate"
+                    },
+                    {
+                        "affixes": [
+                            "_fR"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous right hidden state for forget gate"
+                    },
+                    {
+                        "affixes": [
+                            "_oL"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous left hidden state for output gate"
+                    },
+                    {
+                        "affixes": [
+                            "_oR"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous right hidden state for output gate"
+                    },
+                    {
+                        "affixes": [
+                            "_cL"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous left hidden state for memory cell"
+                    },
+                    {
+                        "affixes": [
+                            "_cR"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for previous right hidden state for memory cell"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix for previous hidden state"
+                    }
+                ]
+            }
+        },
+        "f09d9096": {
+            "_surface": {
+                "text": "𝐖",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for input gate"
+                    },
+                    {
+                        "affixes": [
+                            "_f"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for forget gate"
+                    },
+                    {
+                        "affixes": [
+                            "_o"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for output gate"
+                    },
+                    {
+                        "affixes": [
+                            "_c"
+                        ],
+                        "arity": 0,
+                        "description": "Weight matrix for memory cell"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "f09d909a": {
+            "_surface": {
+                "text": "𝐚",
+                "unicode_name": "MATHEMATICAL BOLD SMALL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First sentence or premise"
+                    },
+                    {
+                        "affixes": [
+                            "_1"
+                        ],
+                        "arity": 0,
+                        "description": "First word of the first sentence"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "ith word of the first sentence"
+                    }
+                ]
+            }
+        },
+        "f09d909b": {
+            "_surface": {
+                "text": "𝐛",
+                "unicode_name": "MATHEMATICAL BOLD SMALL B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second sentence or hypothesis"
+                    },
+                    {
+                        "affixes": [
+                            "_1"
+                        ],
+                        "arity": 0,
+                        "description": "First word of the second sentence"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "jth word of the second sentence"
+                    }
+                ]
+            }
+        },
+        "f09d909c": {
+            "_surface": {
+                "text": "𝐜",
+                "unicode_name": "MATHEMATICAL BOLD SMALL C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Memory cell at node t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Memory cell at word position t"
+                    },
+                    {
+                        "affixes": [
+                            "_t-1L"
+                        ],
+                        "arity": 0,
+                        "description": "Cell vector of the left child at node t-1"
+                    },
+                    {
+                        "affixes": [
+                            "_t-1R"
+                        ],
+                        "arity": 0,
+                        "description": "Cell vector of the right child at node t-1"
+                    }
+                ]
+            }
+        },
+        "f09d909f": {
+            "_surface": {
+                "text": "𝐟",
+                "unicode_name": "MATHEMATICAL BOLD SMALL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Forget gate at word position t"
+                    },
+                    {
+                        "affixes": [
+                            "_tL"
+                        ],
+                        "arity": 0,
+                        "description": "Left forget gate at node t"
+                    },
+                    {
+                        "affixes": [
+                            "_tR"
+                        ],
+                        "arity": 0,
+                        "description": "Right forget gate at node t"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t-1"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden state at time t-1"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden state at word position t"
+                    },
+                    {
+                        "affixes": [
+                            "_t-1L"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden vector of the left child at node t-1"
+                    },
+                    {
+                        "affixes": [
+                            "_t-1R"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden vector of the right child at node t-1"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input gate at node t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input gate at word position t"
+                    }
+                ]
+            }
+        },
+        "f09d90a6": {
+            "_surface": {
+                "text": "𝐦",
+                "unicode_name": "MATHEMATICAL BOLD SMALL M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_a"
+                        ],
+                        "arity": 0,
+                        "description": "Matched vector for first sentence"
+                    },
+                    {
+                        "affixes": [
+                            "_b"
+                        ],
+                        "arity": 0,
+                        "description": "Matched vector for second sentence"
+                    }
+                ]
+            }
+        },
+        "f09d90a8": {
+            "_surface": {
+                "text": "𝐨",
+                "unicode_name": "MATHEMATICAL BOLD SMALL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Output gate at word position t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Output gate at node t"
+                    }
+                ]
+            }
+        },
+        "f09d90ae": {
+            "_surface": {
+                "text": "𝐮",
+                "unicode_name": "MATHEMATICAL BOLD SMALL U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Intermediate cell state at node t"
+                    }
+                ]
+            }
+        },
+        "f09d90af": {
+            "_surface": {
+                "text": "𝐯",
+                "unicode_name": "MATHEMATICAL BOLD SMALL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final fixed length vector"
+                    }
+                ]
+            }
+        },
+        "f09d90b1": {
+            "_surface": {
+                "text": "𝐱",
+                "unicode_name": "MATHEMATICAL BOLD SMALL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input at time t"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input vector at node t"
+                    }
+                ]
+            }
+        },
+        "f09d909a7e": {
+            "_surface": {
+                "text": "𝐚~",
+                "unicode_name": "𝐚~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Mimic vector for ith word of the first sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mimic vector for first sentence"
+                    }
+                ]
+            }
+        },
+        "f09d909b7e": {
+            "_surface": {
+                "text": "𝐛~",
+                "unicode_name": "𝐛~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Mimic vector for jth word of the second sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mimic vector for second sentence"
+                    }
+                ]
+            }
+        },
+        "f09d90af31": {
+            "_surface": {
+                "text": "𝐯1",
+                "unicode_name": "𝐯1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",_i"
+                        ],
+                        "arity": 0,
+                        "description": "BiLSTM hidden vector for ith matched vector of the first sentence"
+                    },
+                    {
+                        "affixes": [
+                            ",ave"
+                        ],
+                        "arity": 0,
+                        "description": "Average pooling of hidden vectors for first sentence"
+                    },
+                    {
+                        "affixes": [
+                            ",max"
+                        ],
+                        "arity": 0,
+                        "description": "Max pooling of hidden vectors for first sentence"
+                    }
+                ]
+            }
+        },
+        "f09d90af32": {
+            "_surface": {
+                "text": "𝐯2",
+                "unicode_name": "𝐯2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",_j"
+                        ],
+                        "arity": 0,
+                        "description": "BiLSTM hidden vector for jth matched vector of the second sentence"
+                    },
+                    {
+                        "affixes": [
+                            ",ave"
+                        ],
+                        "arity": 0,
+                        "description": "Average pooling of hidden vectors for second sentence"
+                    },
+                    {
+                        "affixes": [
+                            ",max"
+                        ],
+                        "arity": 0,
+                        "description": "Max pooling of hidden vectors for second sentence"
+                    }
+                ]
+            }
+        },
+        "42694c53544d": {
+            "_surface": {
+                "text": "BiLSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional Long Short-Term Memory function"
+                    }
+                ]
+            }
+        },
+        "f09d909ac2af": {
+            "_surface": {
+                "text": "𝐚¯",
+                "unicode_name": "𝐚¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "BiLSTM hidden vector for ith word of the first sentence"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Context of the ith word of the first sentence"
+                    }
+                ]
+            }
+        },
+        "f09d909bc2af": {
+            "_surface": {
+                "text": "𝐛¯",
+                "unicode_name": "𝐛¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "BiLSTM hidden vector for jth word of the second sentence"
+                    }
+                ]
+            }
+        },
+        "42694c53544d32": {
+            "_surface": {
+                "text": "BiLSTM2",
+                "unicode_name": "BiLSTM2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second layer of Bidirectional Long Short-Term Memory function"
+                    }
+                ]
+            }
+        }
+    }
+}

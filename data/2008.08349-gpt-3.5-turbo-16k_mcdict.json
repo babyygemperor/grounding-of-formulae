@@ -1,0 +1,2877 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1+x)|V2|"
+                        ],
+                        "arity": 0,
+                        "description": "(1+x) multiplied by the number of vertices in V2"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Anchor set"
+                    }
+                ]
+            }
+        },
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximal clique"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Clique"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Edges"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chordal graph"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intersection graph"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star graph"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Periphery set"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighbors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of vertices"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighborhood"
+                    },
+                    {
+                        "affixes": [
+                            "(G1∪G2)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of the disjoint union G1∪G2"
+                    },
+                    {
+                        "affixes": [
+                            "(G1)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G1"
+                    },
+                    {
+                        "affixes": [
+                            "(G2)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G2"
+                    },
+                    {
+                        "affixes": [
+                            "(G1+G2)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of the join G1+G2"
+                    },
+                    {
+                        "affixes": [
+                            "(G1∪G2)(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of the disjoint union G1∪G2 with variable x"
+                    },
+                    {
+                        "affixes": [
+                            "(G1)(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G1 with variable x"
+                    },
+                    {
+                        "affixes": [
+                            "(G2)(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G2 with variable x"
+                    },
+                    {
+                        "affixes": [
+                            "(G1+G2)(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of the join G1+G2 with variable x"
+                    },
+                    {
+                        "affixes": [
+                            "(G1∪G2)(x) - 1"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of the disjoint union G1∪G2 with variable x minus 1"
+                    },
+                    {
+                        "affixes": [
+                            "(G1∪G2)(x) - 1"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of the disjoint union G1∪G2 with variable x minus  1"
+                    },
+                    {
+                        "affixes": [
+                            "(G1+G2)(x) - N(G1)(x) * N(G2)(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of the join G1+G2 with variable x minus the product of the neighborhood polynomials of G1 and G2 with variable x"
+                    },
+                    {
+                        "affixes": [
+                            "(G)(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G with variable x"
+                    },
+                    {
+                        "affixes": [
+                            "(G∪(W))"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G union W"
+                    },
+                    {
+                        "affixes": [
+                            "(G∪(W)) = ⋂w∈W N(G)(w)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G union W is the intersection of the neighborhood polynomials of G for all w in W"
+                    },
+                    {
+                        "affixes": [
+                            "(G∪(W)) = ⋃w∈W N(G)(w)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G union W is the union of the neighborhood polynomials of G for all w in W"
+                    },
+                    {
+                        "affixes": [
+                            "(G∩(W))"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G intersection W"
+                    },
+                    {
+                        "affixes": [
+                            "(G∪(U▷v))(x)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G union (U▷v) with variable x"
+                    },
+                    {
+                        "affixes": [
+                            "(G)(x) + ∑W⊆U, W≠∅ ϕ(W) + ∑W⊆U, W≠∅ (-1)|W|+1 x(1+x)N(G)∩(W)"
+                        ],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial of G union (U▷v) with variable x"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Runtime complexity"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Path"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Periphery polynomial"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Periphery"
+                    },
+                    {
+                        "affixes": [
+                            "(G)+"
+                        ],
+                        "arity": 0,
+                        "description": "Periphery polynomial in G+"
+                    },
+                    {
+                        "affixes": [
+                            "(G)"
+                        ],
+                        "arity": 0,
+                        "description": "Periphery polynomial in G"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Split graph"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "55": {
+            "_surface": {
+                "text": "U",
+                "unicode_name": "LATIN CAPITAL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of vertices"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertices"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of vertices"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph W"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Common neighborhood"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Anchor width"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximal clique"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of vertices"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "7b": {
+            "_surface": {
+                "text": "{",
+                "unicode_name": "LEFT CURLY BRACKET"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "7c": {
+            "_surface": {
+                "text": "|",
+                "unicode_name": "VERTICAL LINE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cardinality symbol"
+                    }
+                ]
+            }
+        },
+        "326e": {
+            "_surface": {
+                "text": "2n",
+                "unicode_name": "2n"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "472b": {
+            "_surface": {
+                "text": "G+",
+                "unicode_name": "G+"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph with attached vertex"
+                    }
+                ]
+            }
+        },
+        "4731": {
+            "_surface": {
+                "text": "G1",
+                "unicode_name": "G1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph G1"
+                    }
+                ]
+            }
+        },
+        "4732": {
+            "_surface": {
+                "text": "G2",
+                "unicode_name": "G2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph G2"
+                    }
+                ]
+            }
+        },
+        "4b31": {
+            "_surface": {
+                "text": "K1",
+                "unicode_name": "K1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Star graph with one center vertex"
+                    }
+                ]
+            }
+        },
+        "6331": {
+            "_surface": {
+                "text": "c1",
+                "unicode_name": "c1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex"
+                    }
+                ]
+            }
+        },
+        "6366": {
+            "_surface": {
+                "text": "cf",
+                "unicode_name": "cf"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Compared to"
+                    }
+                ]
+            }
+        },
+        "7630": {
+            "_surface": {
+                "text": "v0",
+                "unicode_name": "v0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex"
+                    }
+                ]
+            }
+        },
+        "7631": {
+            "_surface": {
+                "text": "v1",
+                "unicode_name": "v1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex order 1"
+                    }
+                ]
+            }
+        },
+        "766e": {
+            "_surface": {
+                "text": "vn",
+                "unicode_name": "vn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vertex order n"
+                    }
+                ]
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(W)"
+                        ],
+                        "arity": 0,
+                        "description": "ϕ function for W"
+                    },
+                    {
+                        "affixes": [
+                            "(W) = x|W|, if N(G)∩(W) = ∅; 0, otherwise"
+                        ],
+                        "arity": 0,
+                        "description": "ϕ function for W is x multiplied by the cardinality of W if the intersection of the neighborhood polynomial of G and W is empty, 0 otherwise"
+                    }
+                ]
+            }
+        },
+        "4c696e": {
+            "_surface": {
+                "text": "Lin",
+                "unicode_name": "Lin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "55524c": {
+            "_surface": {
+                "text": "URL",
+                "unicode_name": "URL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Uniform Resource Locator"
+                    }
+                ]
+            }
+        },
+        "617267": {
+            "_surface": {
+                "text": "arg"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "63662e": {
+            "_surface": {
+                "text": "cf.",
+                "unicode_name": "cf."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Compared to"
+                    }
+                ]
+            }
+        },
+        "646567": {
+            "_surface": {
+                "text": "deg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Degree function"
+                    }
+                ]
+            }
+        },
+        "6a2d31": {
+            "_surface": {
+                "text": "j-1",
+                "unicode_name": "j-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "6d2b31": {
+            "_surface": {
+                "text": "m+1",
+                "unicode_name": "m+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "6d2d31": {
+            "_surface": {
+                "text": "m-1",
+                "unicode_name": "m-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e280a6": {
+            "_surface": {
+                "text": "…",
+                "unicode_name": "HORIZONTAL ELLIPSIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ellipsis"
+                    }
+                ]
+            }
+        },
+        "e280b2": {
+            "_surface": {
+                "text": "′",
+                "unicode_name": "PRIME"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prime symbol"
+                    }
+                ]
+            }
+        },
+        "e28493": {
+            "_surface": {
+                "text": "ℓ",
+                "unicode_name": "SCRIPT SMALL L"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leafage"
+                    }
+                ]
+            }
+        },
+        "e28495": {
+            "_surface": {
+                "text": "ℕ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of natural numbers"
+                    }
+                ]
+            }
+        },
+        "e284b1": {
+            "_surface": {
+                "text": "ℱ",
+                "unicode_name": "SCRIPT CAPITAL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of sets"
+                    }
+                ]
+            }
+        },
+        "e28885": {
+            "_surface": {
+                "text": "∅",
+                "unicode_name": "EMPTY SET"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Empty set"
+                    }
+                ]
+            }
+        },
+        "e2888e": {
+            "_surface": {
+                "text": "∎",
+                "unicode_name": "END OF PROOF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "End of proof symbol"
+                    }
+                ]
+            }
+        },
+        "e28891": {
+            "_surface": {
+                "text": "∑",
+                "unicode_name": "N-ARY SUMMATION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summation symbol"
+                    }
+                ]
+            }
+        },
+        "e288a9": {
+            "_surface": {
+                "text": "∩",
+                "unicode_name": "INTERSECTION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intersection symbol"
+                    }
+                ]
+            }
+        },
+        "e28a86": {
+            "_surface": {
+                "text": "⊆",
+                "unicode_name": "SUBSET OF OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset symbol"
+                    }
+                ]
+            }
+        },
+        "e28b82": {
+            "_surface": {
+                "text": "⋂",
+                "unicode_name": "N-ARY INTERSECTION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intersection symbol"
+                    }
+                ]
+            }
+        },
+        "e28b83": {
+            "_surface": {
+                "text": "⋃",
+                "unicode_name": "N-ARY UNION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Union symbol"
+                    }
+                ]
+            }
+        },
+        "e28b85": {
+            "_surface": {
+                "text": "⋅",
+                "unicode_name": "DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multiplication symbol"
+                    }
+                ]
+            }
+        },
+        "31393830": {
+            "_surface": {
+                "text": "1980",
+                "unicode_name": "1980"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year"
+                    }
+                ]
+            }
+        },
+        "31393835": {
+            "_surface": {
+                "text": "1985",
+                "unicode_name": "1985"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year"
+                    }
+                ]
+            }
+        },
+        "32303137": {
+            "_surface": {
+                "text": "2017",
+                "unicode_name": "2017"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publication year"
+                    }
+                ]
+            }
+        },
+        "326d2d31": {
+            "_surface": {
+                "text": "2m-1",
+                "unicode_name": "2m-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "44617920": {
+            "_surface": {
+                "text": "Day ",
+                "unicode_name": "Day "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "70617468": {
+            "_surface": {
+                "text": "path",
+                "unicode_name": "path"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of connected vertices"
+                    }
+                ]
+            }
+        },
+        "73697a65": {
+            "_surface": {
+                "text": "size",
+                "unicode_name": "size"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of elements in a set"
+                    }
+                ]
+            }
+        },
+        "f09d929c": {
+            "_surface": {
+                "text": "𝒜",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of anchor sets"
+                    },
+                    {
+                        "affixes": [
+                            "(G)+"
+                        ],
+                        "arity": 0,
+                        "description": "Family of anchor sets in G+"
+                    },
+                    {
+                        "affixes": [
+                            "(G)"
+                        ],
+                        "arity": 0,
+                        "description": "Family of anchor sets in G"
+                    }
+                ]
+            }
+        },
+        "f09d929f": {
+            "_surface": {
+                "text": "𝒟",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL D"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92a2": {
+            "_surface": {
+                "text": "𝒢",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighborhood complex"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighborhood polynomial"
+                    }
+                ]
+            }
+        },
+        "f09d92aa": {
+            "_surface": {
+                "text": "𝒪",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Big O notation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Runtime complexity"
+                    }
+                ]
+            }
+        },
+        "f09d92ab": {
+            "_surface": {
+                "text": "𝒫",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Family of periphery sets"
+                    }
+                ]
+            }
+        },
+        "f09d92b3": {
+            "_surface": {
+                "text": "𝒳",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neighborhood complex"
+                    }
+                ]
+            }
+        },
+        "4861626962": {
+            "_surface": {
+                "text": "Habib",
+                "unicode_name": "Habib"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "636c61696d": {
+            "_surface": {
+                "text": "claim",
+                "unicode_name": "claim"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Statement or assertion"
+                    }
+                ]
+            }
+        },
+        "70726f6f66": {
+            "_surface": {
+                "text": "proof",
+                "unicode_name": "proof"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evidence or reasoning to support a claim"
+                    }
+                ]
+            }
+        },
+        "7374756479": {
+            "_surface": {
+                "text": "study",
+                "unicode_name": "study"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Examine or analyze"
+                    }
+                ]
+            }
+        },
+        "7475706c65": {
+            "_surface": {
+                "text": "tuple",
+                "unicode_name": "tuple"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ordered list or sequence"
+                    }
+                ]
+            }
+        },
+        "756e696f6e": {
+            "_surface": {
+                "text": "union",
+                "unicode_name": "union"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Combining sets together"
+                    }
+                ]
+            }
+        },
+        "442e20446179": {
+            "_surface": {
+                "text": "D. Day",
+                "unicode_name": "D. Day"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "47617672696c": {
+            "_surface": {
+                "text": "Gavril",
+                "unicode_name": "Gavril"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "492e204c696e": {
+            "_surface": {
+                "text": "I. Lin",
+                "unicode_name": "I. Lin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", T. A. McKee, and D. B. West"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "53746163686f": {
+            "_surface": {
+                "text": "Stacho",
+                "unicode_name": "Stacho"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "636c69717565": {
+            "_surface": {
+                "text": "clique",
+                "unicode_name": "clique"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Complete subgraph"
+                    }
+                ]
+            }
+        },
+        "6c6561766573": {
+            "_surface": {
+                "text": "leaves",
+                "unicode_name": "leaves"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Terminal or end vertices"
+                    }
+                ]
+            }
+        },
+        "766572746578": {
+            "_surface": {
+                "text": "vertex",
+                "unicode_name": "vertex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A point or node in a graph"
+                    }
+                ]
+            }
+        },
+        "47617672696c20": {
+            "_surface": {
+                "text": "Gavril ",
+                "unicode_name": "Gavril "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1974)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(1974)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c656d6d612033": {
+            "_surface": {
+                "text": "Lemma 3",
+                "unicode_name": "Lemma 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lemma 3"
+                    }
+                ]
+            }
+        },
+        "63686f69636573": {
+            "_surface": {
+                "text": "choices",
+                "unicode_name": "choices"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Options or alternatives"
+                    }
+                ]
+            }
+        },
+        "6c656166616765": {
+            "_surface": {
+                "text": "leafage",
+                "unicode_name": "leafage"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of leaves in a graph"
+                    }
+                ]
+            }
+        },
+        "6d6178696d616c": {
+            "_surface": {
+                "text": "maximal",
+                "unicode_name": "maximal"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cannot be extended or enlarged"
+                    }
+                ]
+            }
+        },
+        "6f7074696d616c": {
+            "_surface": {
+                "text": "optimal",
+                "unicode_name": "optimal"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Best or most efficient"
+                    }
+                ]
+            }
+        },
+        "7468656f72656d": {
+            "_surface": {
+                "text": "theorem",
+                "unicode_name": "theorem"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Statement that has been proven to be true"
+                    }
+                ]
+            }
+        },
+        "4669677572652032": {
+            "_surface": {
+                "text": "Figure 2",
+                "unicode_name": "Figure 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Construction figure"
+                    }
+                ]
+            }
+        },
+        "4669677572652033": {
+            "_surface": {
+                "text": "Figure 3",
+                "unicode_name": "Figure 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Construction figure"
+                    }
+                ]
+            }
+        },
+        "476f6c756d626963": {
+            "_surface": {
+                "text": "Golumbic",
+                "unicode_name": "Golumbic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c6f76c3a1737a20": {
+            "_surface": {
+                "text": "Lovász ",
+                "unicode_name": "Lovász "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1978)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(1978)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "507269736e657220": {
+            "_surface": {
+                "text": "Prisner ",
+                "unicode_name": "Prisner "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1992)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(1992)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "696e637265617365": {
+            "_surface": {
+                "text": "increase",
+                "unicode_name": "increase"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Make larger or add more"
+                    }
+                ]
+            }
+        },
+        "7375627472656573": {
+            "_surface": {
+                "text": "subtrees",
+                "unicode_name": "subtrees"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trees within the host tree"
+                    }
+                ]
+            }
+        },
+        "7665727469636573": {
+            "_surface": {
+                "text": "vertices",
+                "unicode_name": "vertices"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Points or nodes in a graph"
+                    }
+                ]
+            }
+        },
+        "462e2047617672696c": {
+            "_surface": {
+                "text": "F. Gavril",
+                "unicode_name": "F. Gavril"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "476f6c756d62696320": {
+            "_surface": {
+                "text": "Golumbic ",
+                "unicode_name": "Golumbic "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1980)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(1980)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "686f73742074726565": {
+            "_surface": {
+                "text": "host tree",
+                "unicode_name": "host tree"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tree representing the graph"
+                    }
+                ]
+            }
+        },
+        "6d61676e6974756465": {
+            "_surface": {
+                "text": "magnitude",
+                "unicode_name": "magnitude"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size or extent of something"
+                    }
+                ]
+            }
+        },
+        "452e20507269736e6572": {
+            "_surface": {
+                "text": "E. Prisner",
+                "unicode_name": "E. Prisner"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c2e204c6f76c3a1737a": {
+            "_surface": {
+                "text": "L. Lovász",
+                "unicode_name": "L. Lovász"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "7265666572656e636573": {
+            "_surface": {
+                "text": "references",
+                "unicode_name": "references"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "List of sources used in the paper"
+                    }
+                ]
+            }
+        },
+        "4c696e20657420616c2e20": {
+            "_surface": {
+                "text": "Lin et al. ",
+                "unicode_name": "Lin et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1998)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(1998)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "616e63686f722073657473": {
+            "_surface": {
+                "text": "anchor sets",
+                "unicode_name": "anchor sets"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subsets of vertices in a clique"
+                    }
+                ]
+            }
+        },
+        "636f6e7472616374696e67": {
+            "_surface": {
+                "text": "contracting",
+                "unicode_name": "contracting"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reducing or collapsing"
+                    }
+                ]
+            }
+        },
+        "757070657220626f756e64": {
+            "_surface": {
+                "text": "upper bound",
+                "unicode_name": "upper bound"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum or highest possible value"
+                    }
+                ]
+            }
+        },
+        "616e63686f72207769647468": {
+            "_surface": {
+                "text": "anchor width",
+                "unicode_name": "anchor width"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of how spread out or connected the anchor sets are"
+                    }
+                ]
+            }
+        },
+        "696e74657273656374696e67": {
+            "_surface": {
+                "text": "intersecting",
+                "unicode_name": "intersecting"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sharing common vertices"
+                    }
+                ]
+            }
+        },
+        "73706c697420677261706873": {
+            "_surface": {
+                "text": "split graphs",
+                "unicode_name": "split graphs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graphs that can be partitioned into a clique and an independent set"
+                    }
+                ]
+            }
+        },
+        "4861737365206469616772616d": {
+            "_surface": {
+                "text": "Hasse diagram",
+                "unicode_name": "Hasse diagram"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diagram"
+                    }
+                ]
+            }
+        },
+        "63662e205468656f72656d2037": {
+            "_surface": {
+                "text": "cf. Theorem 7",
+                "unicode_name": "cf. Theorem 7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Compared to Theorem 7"
+                    }
+                ]
+            }
+        },
+        "63686f7264616c206772617068": {
+            "_surface": {
+                "text": "chordal graph",
+                "unicode_name": "chordal graph"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph where every cycle of length 4 or more has a chord"
+                    }
+                ]
+            }
+        },
+        "666f726d206120636c69717565": {
+            "_surface": {
+                "text": "form a clique",
+                "unicode_name": "form a clique"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Create a complete subgraph"
+                    }
+                ]
+            }
+        },
+        "4d2e20432e20476f6c756d626963": {
+            "_surface": {
+                "text": "M. C. Golumbic",
+                "unicode_name": "M. C. Golumbic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "63686f7264616c20677261706873": {
+            "_surface": {
+                "text": "chordal graphs",
+                "unicode_name": "chordal graphs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graphs where every cycle of length 4 or more has a chord"
+                    }
+                ]
+            }
+        },
+        "636f72726573706f6e64656e6365": {
+            "_surface": {
+                "text": "correspondence",
+                "unicode_name": "correspondence"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relationship or connection between two things"
+                    }
+                ]
+            }
+        },
+        "31302e313133372f30323134303635": {
+            "_surface": {
+                "text": "10.1137/0214065",
+                "unicode_name": "10.1137/0214065"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "696e66696e6974652066616d696c79": {
+            "_surface": {
+                "text": "infinite family",
+                "unicode_name": "infinite family"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unlimited or never-ending group of objects"
+                    }
+                ]
+            }
+        },
+        "696e74657276616c20677261706873": {
+            "_surface": {
+                "text": "interval graphs",
+                "unicode_name": "interval graphs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graphs where the vertices represent intervals on a line"
+                    }
+                ]
+            }
+        },
+        "6d6178696d616c20636c6971756573": {
+            "_surface": {
+                "text": "maximal cliques",
+                "unicode_name": "maximal cliques"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cliques that cannot be extended by adding more vertices"
+                    }
+                ]
+            }
+        },
+        "31302e313031362f303039352d38393536": {
+            "_surface": {
+                "text": "10.1016/0095-8956",
+                "unicode_name": "10.1016/0095-8956"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "31302e313031362f303039372d33313635": {
+            "_surface": {
+                "text": "10.1016/0097-3165",
+                "unicode_name": "10.1016/0097-3165"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(78)90022-5"
+                        ],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "31302e373135312f646d67742e31303631": {
+            "_surface": {
+                "text": "10.7151/dmgt.1061",
+                "unicode_name": "10.7151/dmgt.1061"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "486162696220616e642053746163686f20": {
+            "_surface": {
+                "text": "Habib and Stacho ",
+                "unicode_name": "Habib and Stacho "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4c75656b657220616e6420426f6f746820": {
+            "_surface": {
+                "text": "Lueker and Booth ",
+                "unicode_name": "Lueker and Booth "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1979)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(1979)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "61737465726f6964616c206e756d626572": {
+            "_surface": {
+                "text": "asteroidal number",
+                "unicode_name": "asteroidal number"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of how many asteroidal triples a graph has"
+                    }
+                ]
+            }
+        },
+        "67726170682069736f6d6f72706869736d": {
+            "_surface": {
+                "text": "graph isomorphism",
+                "unicode_name": "graph isomorphism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Problem of determining if two graphs are isomorphic"
+                    }
+                ]
+            }
+        },
+        "31302e313030372f42463032393431363136": {
+            "_surface": {
+                "text": "10.1007/BF02941616",
+                "unicode_name": "10.1007/BF02941616"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "4a6f75726e616c206f66207468652041434d": {
+            "_surface": {
+                "text": "Journal of the ACM",
+                "unicode_name": "Journal of the ACM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 26(2):183–195, 1979"
+                        ],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "706f6c796e6f6d69616c20736f6c7661626c65": {
+            "_surface": {
+                "text": "polynomial solvable",
+                "unicode_name": "polynomial solvable"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Problem that can be solved in polynomial time"
+                    }
+                ]
+            }
+        },
+        "31302e313134352f3332323132332e333232313235": {
+            "_surface": {
+                "text": "10.1145/322123.322125",
+                "unicode_name": "10.1145/322123.322125"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "4b6e65736572e280997320636f6e6a656374757265": {
+            "_surface": {
+                "text": "Kneser’s conjecture",
+                "unicode_name": "Kneser’s conjecture"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", chromatic number, and homotopy."
+                        ],
+                        "arity": 0,
+                        "description": "Article title"
+                    }
+                ]
+            }
+        },
+        "4865696e7269636820616e6420546974746d616e6e20": {
+            "_surface": {
+                "text": "Heinrich and Tittmann ",
+                "unicode_name": "Heinrich and Tittmann "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication year"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4953424e203937382d302d31322d3238393236302d38": {
+            "_surface": {
+                "text": "ISBN 978-0-12-289260-8",
+                "unicode_name": "ISBN 978-0-12-289260-8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ISBN"
+                    }
+                ]
+            }
+        },
+        "4d2e20486162696220616e64204a2e2053746163686f": {
+            "_surface": {
+                "text": "M. Habib and J. Stacho",
+                "unicode_name": "M. Habib and J. Stacho"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "6f7074696d616c20726570726573656e746174696f6e": {
+            "_surface": {
+                "text": "optimal representation",
+                "unicode_name": "optimal representation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Best or most efficient way of representing"
+                    }
+                ]
+            }
+        },
+        "31302e313031362f43323031332d302d31303733392d38": {
+            "_surface": {
+                "text": "10.1016/C2013-0-10739-8",
+                "unicode_name": "10.1016/C2013-0-10739-8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "47726170687320616e6420436f6d62696e61746f72696373": {
+            "_surface": {
+                "text": "Graphs and Combinatorics",
+                "unicode_name": "Graphs and Combinatorics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 34:1203–1216, 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "496e20416c676f726974686d73202d204553412032303039": {
+            "_surface": {
+                "text": "In Algorithms - ESA 2009",
+                "unicode_name": "In Algorithms - ESA 2009"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 17th Annual European Symposium, volume 5757 of LNCS, pages 290–300. Springer, 2009."
+                        ],
+                        "arity": 0,
+                        "description": "Conference paper"
+                    }
+                ]
+            }
+        },
+        "31302e313030372f3937382d332d3634322d30343132382d30": {
+            "_surface": {
+                "text": "10.1007/978-3-642-04128-0",
+                "unicode_name": "10.1007/978-3-642-04128-0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_27"
+                        ],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "31302e313030372f7330303337332d3031382d313936382d37": {
+            "_surface": {
+                "text": "10.1007/s00373-018-1968-7",
+                "unicode_name": "10.1007/s00373-018-1968-7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "DOI"
+                    }
+                ]
+            }
+        },
+        "4c61737420616363657373206f6e2032342f30342f32303232": {
+            "_surface": {
+                "text": "Last access on 24/04/2022",
+                "unicode_name": "Last access on 24/04/2022"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Access date"
+                    }
+                ]
+            }
+        },
+        "67726170682d69736f6d6f72706869736d2d636f6d706c657465": {
+            "_surface": {
+                "text": "graph-isomorphism-complete",
+                "unicode_name": "graph-isomorphism-complete"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class of problems that are at least as hard as graph isomorphism"
+                    }
+                ]
+            }
+        },
+        "492e204865696e7269636820616e6420502e20546974746d616e6e": {
+            "_surface": {
+                "text": "I. Heinrich and P. Tittmann",
+                "unicode_name": "I. Heinrich and P. Tittmann"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "472e20532e204c75656b657220616e64204b2e20532e20426f6f7468": {
+            "_surface": {
+                "text": "G. S. Lueker and K. S. Booth",
+                "unicode_name": "G. S. Lueker and K. S. Booth"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4a6f75726e616c206f6620436f6d62696e61746f7269616c205468656f7279": {
+            "_surface": {
+                "text": "Journal of Combinatorial Theory",
+                "unicode_name": "Journal of Combinatorial Theory"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Series B, 16(1):47–56, 1974"
+                        ],
+                        "arity": 0,
+                        "description": "Journal article"
+                    },
+                    {
+                        "affixes": [
+                            ", Series A, 25(3):319–324, 1978"
+                        ],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "546865206c656166616765206f6620612063686f7264616c2067726170682e": {
+            "_surface": {
+                "text": "The leafage of a chordal graph.",
+                "unicode_name": "The leafage of a chordal graph."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article title"
+                    }
+                ]
+            }
+        },
+        "44697363757373696f6e6573204d617468656d617469636165204772617068205468656f7279": {
+            "_surface": {
+                "text": "Discussiones Mathematicae Graph Theory",
+                "unicode_name": "Discussiones Mathematicae Graph Theory"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 18(1):23–48, 1998"
+                        ],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "526570726573656e74696e6720747269616e67756c617465642067726170687320696e2073746172732e": {
+            "_surface": {
+                "text": "Representing triangulated graphs in stars.",
+                "unicode_name": "Representing triangulated graphs in stars."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article title"
+                    }
+                ]
+            }
+        },
+        "416c676f726974686d6963204772617068205468656f727920616e642050657266656374204772617068732e": {
+            "_surface": {
+                "text": "Algorithmic Graph Theory and Perfect Graphs.",
+                "unicode_name": "Algorithmic Graph Theory and Perfect Graphs."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Book title"
+                    }
+                ]
+            }
+        },
+        "47656e657261746564206f6e20576564204e6f762033302032333a34383a34382032303232206279204c615465584d4c": {
+            "_surface": {
+                "text": "Generated on Wed Nov 30 23:48:48 2022 by LaTeXML",
+                "unicode_name": "Generated on Wed Nov 30 23:48:48 2022 by LaTeXML"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Generated statement"
+                    }
+                ]
+            }
+        },
+        "4e65696768626f72686f6f6420616e6420646f6d696e6174696f6e20706f6c796e6f6d69616c73206f66206772617068732e": {
+            "_surface": {
+                "text": "Neighborhood and domination polynomials of graphs.",
+                "unicode_name": "Neighborhood and domination polynomials of graphs."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article title"
+                    }
+                ]
+            }
+        },
+        "506f6c796e6f6d69616c2d74696d6520616c676f726974686d20666f7220746865206c656166616765206f662063686f7264616c206772617068732e": {
+            "_surface": {
+                "text": "Polynomial-time algorithm for the leafage of chordal graphs.",
+                "unicode_name": "Polynomial-time algorithm for the leafage of chordal graphs."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article title"
+                    }
+                ]
+            }
+        },
+        "41206c696e6561722074696d6520616c676f726974686d20666f72206465636964696e6720696e74657276616c2067726170682069736f6d6f72706869736d2e": {
+            "_surface": {
+                "text": "A linear time algorithm for deciding interval graph isomorphism.",
+                "unicode_name": "A linear time algorithm for deciding interval graph isomorphism."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article title"
+                    }
+                ]
+            }
+        },
+        "416268616e646c756e67656e206175732064656d204d617468656d617469736368656e2053656d696e61722064657220556e69766572736974c3a4742048616d62757267": {
+            "_surface": {
+                "text": "Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg",
+                "unicode_name": "Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 62:29–41, 1992"
+                        ],
+                        "arity": 0,
+                        "description": "Journal article"
+                    }
+                ]
+            }
+        },
+        "54686520696e74657273656374696f6e20677261706873206f6620737562747265657320696e207472656573206172652065786163746c79207468652063686f7264616c206772617068732e": {
+            "_surface": {
+                "text": "The intersection graphs of subtrees in trees are exactly the chordal graphs.",
+                "unicode_name": "The intersection graphs of subtrees in trees are exactly the chordal graphs."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article title"
+                    }
+                ]
+            }
+        },
+        "68747470733a2f2f64616c73706163652e6c6962726172792e64616c2e63612f62697473747265616d2f68616e646c652f31303232322f37323831362f4461792d44796c616e2d4d53632d4d4154482d4d617263682d323031372e706466": {
+            "_surface": {
+                "text": "https://dalspace.library.dal.ca/bitstream/handle/10222/72816/Day-Dylan-MSc-MATH-March-2017.pdf",
+                "unicode_name": "https://dalspace.library.dal.ca/bitstream/handle/10222/72816/Day-Dylan-MSc-MATH-March-2017.pdf"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "URL"
+                    }
+                ]
+            }
+        }
+    }
+}

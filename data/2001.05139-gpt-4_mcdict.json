@@ -1,0 +1,693 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Dataset i"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Token embedding of t-th token"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of sentences to be generated"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of generated sentences"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability function"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Positional embedding of t-th token"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Knowledge triple"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Beginning of a story"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "One-sentence story beginning as the leading context"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Following sentences in a story"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "K-sentence story to be generated with a reasonable plot"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Head concept"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of generated sentences"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Top-k sampling scheme parameter"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_s"
+                        ],
+                        "arity": 0,
+                        "description": "Indicates the correct dataset which the story is sampled from"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "N-gram overlap parameter in BLEU evaluation metric"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relation"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "t-th token in transformed sentence r"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Story"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token index"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utterance from the training corpus"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "t-th token in utterance u"
+                    }
+                ]
+            }
+        },
+        "4431": {
+            "_surface": {
+                "text": "D1",
+                "unicode_name": "D1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Type of story"
+                    }
+                ]
+            }
+        },
+        "4432": {
+            "_surface": {
+                "text": "D2",
+                "unicode_name": "D2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Type of fake stories with disordered logic"
+                    }
+                ]
+            }
+        },
+        "4433": {
+            "_surface": {
+                "text": "D3",
+                "unicode_name": "D3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Type of fake stories with unrelated topics"
+                    }
+                ]
+            }
+        },
+        "4434": {
+            "_surface": {
+                "text": "D4",
+                "unicode_name": "D4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Type of fake stories with repeated plots"
+                    }
+                ]
+            }
+        },
+        "4b47": {
+            "_surface": {
+                "text": "KG"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c4d": {
+            "_surface": {
+                "text": "LM"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5354": {
+            "_surface": {
+                "text": "ST"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "ceba": {
+            "_surface": {
+                "text": "κ",
+                "unicode_name": "GREEK SMALL LETTER KAPPA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fleiss’ kappa, a measure of inter-annotator agreement"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scale factor"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adjustable scale factor"
+                    }
+                ]
+            }
+        },
+        "434c53": {
+            "_surface": {
+                "text": "CLS"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "475054": {
+            "_surface": {
+                "text": "GPT"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm function"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_GPT"
+                        ],
+                        "arity": 0,
+                        "description": "Negative likelihood objective in GPT-2 model"
+                    },
+                    {
+                        "affixes": [
+                            "_KG"
+                        ],
+                        "arity": 0,
+                        "description": "Negative likelihood objective in knowledge graph model"
+                    },
+                    {
+                        "affixes": [
+                            "_ST"
+                        ],
+                        "arity": 0,
+                        "description": "Loss function of the full model"
+                    },
+                    {
+                        "affixes": [
+                            "_LM"
+                        ],
+                        "arity": 0,
+                        "description": "Language modeling loss"
+                    },
+                    {
+                        "affixes": [
+                            "_CLS"
+                        ],
+                        "arity": 0,
+                        "description": "Classification loss"
+                    }
+                ]
+            }
+        },
+        "4453524c": {
+            "_surface": {
+                "text": "DSRL",
+                "unicode_name": "DSRL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model that generates a predicate-argument structure and then generates a story by surface realization on top of the structure"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decomposed Model with Semantic Role Labeling"
+                    }
+                ]
+            }
+        },
+        "534b524c": {
+            "_surface": {
+                "text": "SKRL",
+                "unicode_name": "SKRL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Skeleton-based Model with Reinforcement Learning"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model that generates a compressed story and then generates a story conditioned upon the skeleton"
+                    }
+                ]
+            }
+        },
+        "f09d9087": {
+            "_surface": {
+                "text": "𝐇",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t_L"
+                        ],
+                        "arity": 0,
+                        "description": "L-th layer's output at t-th position in transformer block"
+                    },
+                    {
+                        "affixes": [
+                            "_t_l"
+                        ],
+                        "arity": 0,
+                        "description": "l-th layer's output at t-th position in transformer block"
+                    },
+                    {
+                        "affixes": [
+                            "_t_0"
+                        ],
+                        "arity": 0,
+                        "description": "Summation of token embedding E_t and positional embedding P_t for the t-th token"
+                    }
+                ]
+            }
+        },
+        "f09d9096": {
+            "_surface": {
+                "text": "𝐖",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    },
+                    {
+                        "affixes": [
+                            "_L"
+                        ],
+                        "arity": 0,
+                        "description": "Trainable parameters of the additional classifier"
+                    }
+                ]
+            }
+        },
+        "f09d909b": {
+            "_surface": {
+                "text": "𝐛",
+                "unicode_name": "MATHEMATICAL BOLD SMALL B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias vector"
+                    },
+                    {
+                        "affixes": [
+                            "_L"
+                        ],
+                        "arity": 0,
+                        "description": "Trainable parameters of the additional classifier"
+                    }
+                ]
+            }
+        },
+        "467573696f6e": {
+            "_surface": {
+                "text": "Fusion",
+                "unicode_name": "Fusion"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fusion Convolutional Seq2Seq Model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Story generation model"
+                    }
+                ]
+            }
+        },
+        "4750542d3220": {
+            "_surface": {
+                "text": "GPT-2 ",
+                "unicode_name": "GPT-2 "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(Scratch)"
+                        ],
+                        "arity": 0,
+                        "description": "Variant of GPT-2 model trained only on ROCStories without any pretrained parameters"
+                    },
+                    {
+                        "affixes": [
+                            "(Pretrain)"
+                        ],
+                        "arity": 0,
+                        "description": "Variant of GPT-2 model that directly uses the public checkpoint of pretrained parameters for story generation"
+                    },
+                    {
+                        "affixes": [
+                            "(Fine-tuning)"
+                        ],
+                        "arity": 0,
+                        "description": "Variant of GPT-2 model that is fine-tuned on the ROCStories corpus from the public checkpoint of pretrained parameters"
+                    }
+                ]
+            }
+        },
+        "506c616e265772697465": {
+            "_surface": {
+                "text": "Plan&Write",
+                "unicode_name": "Plan&Write"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model that generates a sequence of keywords as planning and generates a story based on the planned keywords"
+                    }
+                ]
+            }
+        },
+        "f09d9a8bf09d9a95f09d9a98f09d9a8cf09d9a94": {
+            "_surface": {
+                "text": "𝚋𝚕𝚘𝚌𝚔"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d90acf09d90a8f09d909ff09d90adf09d90a6f09d909af09d90b1": {
+            "_surface": {
+                "text": "𝐬𝐨𝐟𝐭𝐦𝐚𝐱"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        }
+    }
+}

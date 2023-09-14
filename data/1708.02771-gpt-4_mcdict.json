@@ -1,0 +1,998 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Avogadro constant"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Magnetic field"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameter in the model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Constant"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_k_st"
+                        ],
+                        "arity": 0,
+                        "description": "Elastic potential in a given phase"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kelvin, a unit of temperature"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of molecules in each layer"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of Monte Carlo steps"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_HS"
+                        ],
+                        "arity": 0,
+                        "description": "Radius of High Spin state molecules"
+                    },
+                    {
+                        "affixes": [
+                            "_LS"
+                        ],
+                        "arity": 0,
+                        "description": "Radius of Low Spin state molecules"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radius of molecules"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Radius of ith molecule"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Area of hexahedron"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Temperature"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Volume"
+                    },
+                    {
+                        "affixes": [
+                            "_st"
+                        ],
+                        "arity": 0,
+                        "description": "Volume of the three phases"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Enthalpy"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy levels"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Degeneracy factor"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Degree of degeneracy of the HS state against that of the LS state"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ith molecule"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "jth molecule"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Boltzmann constant"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic constant"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "lth hexahedron"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_HS"
+                        ],
+                        "arity": 0,
+                        "description": "HS fraction"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approximation"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pseudo spin degrees of freedom"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "x-coordinate"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "y-coordinate"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "z-coordinate"
+                    }
+                ]
+            }
+        },
+        "4430": {
+            "_surface": {
+                "text": "D0",
+                "unicode_name": "D0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Energy difference between the HS and LS levels"
+                    }
+                ]
+            }
+        },
+        "4530": {
+            "_surface": {
+                "text": "E0",
+                "unicode_name": "E0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_st"
+                        ],
+                        "arity": 0,
+                        "description": "Free energy of a single molecule"
+                    }
+                ]
+            }
+        },
+        "4665": {
+            "_surface": {
+                "text": "Fe",
+                "unicode_name": "Fe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(3-methylpyridine)2[Ni(CN)4]"
+                        ],
+                        "arity": 0,
+                        "description": "Chemical compound"
+                    }
+                ]
+            }
+        },
+        "4853": {
+            "_surface": {
+                "text": "HS"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4953": {
+            "_surface": {
+                "text": "IS"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c53": {
+            "_surface": {
+                "text": "LS"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5331": {
+            "_surface": {
+                "text": "S1",
+                "unicode_name": "S1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",l"
+                        ],
+                        "arity": 0,
+                        "description": "Area of the first face of the lth hexahedron"
+                    }
+                ]
+            }
+        },
+        "5332": {
+            "_surface": {
+                "text": "S2",
+                "unicode_name": "S2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",l"
+                        ],
+                        "arity": 0,
+                        "description": "Area of the second face of the lth hexahedron"
+                    }
+                ]
+            }
+        },
+        "5463": {
+            "_surface": {
+                "text": "Tc",
+                "unicode_name": "Tc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correction to be included"
+                    }
+                ]
+            }
+        },
+        "5630": {
+            "_surface": {
+                "text": "V0",
+                "unicode_name": "V0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sum of the independent molecular volumes"
+                    }
+                ]
+            }
+        },
+        "686c": {
+            "_surface": {
+                "text": "hl",
+                "unicode_name": "hl"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Height of the lth hexahedron"
+                    }
+                ]
+            }
+        },
+        "6b31": {
+            "_surface": {
+                "text": "k1",
+                "unicode_name": "k1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic constant for nearest neighbor interactions"
+                    }
+                ]
+            }
+        },
+        "6b32": {
+            "_surface": {
+                "text": "k2",
+                "unicode_name": "k2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elastic constant for next nearest neighbor interactions"
+                    }
+                ]
+            }
+        },
+        "6b42": {
+            "_surface": {
+                "text": "kB",
+                "unicode_name": "kB"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Boltzmann constant"
+                    }
+                ]
+            }
+        },
+        "6b4a": {
+            "_surface": {
+                "text": "kJ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kilojoules, a unit of energy"
+                    }
+                ]
+            }
+        },
+        "6c6e": {
+            "_surface": {
+                "text": "ln"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural logarithm"
+                    }
+                ]
+            }
+        },
+        "6e6d": {
+            "_surface": {
+                "text": "nm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nanometer, a unit of length"
+                    }
+                ]
+            }
+        },
+        "6e6e": {
+            "_surface": {
+                "text": "nn"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7369": {
+            "_surface": {
+                "text": "si",
+                "unicode_name": "si"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pseudo spin degrees of freedom"
+                    }
+                ]
+            }
+        },
+        "7374": {
+            "_surface": {
+                "text": "st"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Phase state"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Difference"
+                    }
+                ]
+            }
+        },
+        "4d5061": {
+            "_surface": {
+                "text": "MPa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Megapascal, a unit of pressure"
+                    }
+                ]
+            }
+        },
+        "502056": {
+            "_surface": {
+                "text": "P V",
+                "unicode_name": "P V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pressure volume term"
+                    }
+                ]
+            }
+        },
+        "524853": {
+            "_surface": {
+                "text": "RHS",
+                "unicode_name": "RHS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radius of High Spin state molecules"
+                    }
+                ]
+            }
+        },
+        "524c53": {
+            "_surface": {
+                "text": "RLS",
+                "unicode_name": "RLS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Radius of Low Spin state molecules"
+                    }
+                ]
+            }
+        },
+        "6b4254": {
+            "_surface": {
+                "text": "kBT",
+                "unicode_name": "kBT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product of Boltzmann constant and temperature"
+                    }
+                ]
+            }
+        },
+        "6d6f6c": {
+            "_surface": {
+                "text": "mol"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mole, a unit of substance"
+                    }
+                ]
+            }
+        },
+        "6e4853": {
+            "_surface": {
+                "text": "nHS",
+                "unicode_name": "nHS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "HS fraction"
+                    }
+                ]
+            }
+        },
+        "6e6e6e": {
+            "_surface": {
+                "text": "nnn"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "ce9465": {
+            "_surface": {
+                "text": "Δe",
+                "unicode_name": "Δe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Coefficient of si in ℋ0"
+                    }
+                ]
+            }
+        },
+        "e2848b": {
+            "_surface": {
+                "text": "ℋ",
+                "unicode_name": "SCRIPT CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "6c6e2067": {
+            "_surface": {
+                "text": "ln g",
+                "unicode_name": "ln g"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural logarithm of the degeneracy factor"
+                    }
+                ]
+            }
+        },
+        "e2848b30": {
+            "_surface": {
+                "text": "ℋ0",
+                "unicode_name": "ℋ0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First term of Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "f09d9293": {
+            "_surface": {
+                "text": "𝒓",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Position of molecules"
+                    }
+                ]
+            }
+        },
+        "e2848b6e6e": {
+            "_surface": {
+                "text": "ℋnn",
+                "unicode_name": "ℋnn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second term of Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "f09d929369": {
+            "_surface": {
+                "text": "𝒓i",
+                "unicode_name": "𝒓i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Position of ith molecule"
+                    }
+                ]
+            }
+        },
+        "e2848b6e6e6e": {
+            "_surface": {
+                "text": "ℋnnn",
+                "unicode_name": "ℋnnn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Third term of Hamiltonian"
+                    }
+                ]
+            }
+        },
+        "f09d9293692f6c": {
+            "_surface": {
+                "text": "𝒓i/l",
+                "unicode_name": "𝒓i/l"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized locations of molecules"
+                    }
+                ]
+            }
+        },
+        "f09d9293c2af69": {
+            "_surface": {
+                "text": "𝒓¯i",
+                "unicode_name": "𝒓¯i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shifted position of ith molecule"
+                    }
+                ]
+            }
+        }
+    }
+}

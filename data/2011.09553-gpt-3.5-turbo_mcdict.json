@@ -1,0 +1,5357 @@
+{
+    "_author": "gpt-3.5-turbo",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix A"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention matrix"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention weights of schema elements"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of utterance embeddings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema-attended utterance representations"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utterance-attended schema representations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of schema embeddings"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of intents"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of intents, slots, and categorical slot values"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Length of sequence of tokens"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability of sequence"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of slots"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token embeddings of schema element"
+                    }
+                ]
+            }
+        },
+        "55": {
+            "_surface": {
+                "text": "U",
+                "unicode_name": "LATIN CAPITAL LETTER U"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of categorical slot values"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of tokens"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of combined sequences of tokens"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention vector"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utterance embedding"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema embedding"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden state"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of utterance token embedding"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of schema embedding"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representation of item"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema context vector"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decode step"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utterance context vector"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in sequence of tokens"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Combined sequence of tokens"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pointer distribution"
+                    }
+                ]
+            }
+        },
+        "2334": {
+            "_surface": {
+                "text": "#4",
+                "unicode_name": "#4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", #6, etc"
+                        ],
+                        "arity": 0,
+                        "description": "Pointers"
+                    }
+                ]
+            }
+        },
+        "417e": {
+            "_surface": {
+                "text": "A~",
+                "unicode_name": "A~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized matrix A"
+                    }
+                ]
+            }
+        },
+        "4631": {
+            "_surface": {
+                "text": "F1",
+                "unicode_name": "F1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "F1 Score"
+                    }
+                ]
+            }
+        },
+        "4865": {
+            "_surface": {
+                "text": "He",
+                "unicode_name": "He"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c75": {
+            "_surface": {
+                "text": "Lu",
+                "unicode_name": "Lu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e69": {
+            "_surface": {
+                "text": "Ni",
+                "unicode_name": "Ni"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5531": {
+            "_surface": {
+                "text": "U1",
+                "unicode_name": "U1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "5532": {
+            "_surface": {
+                "text": "U2",
+                "unicode_name": "U2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "5731": {
+            "_surface": {
+                "text": "W1",
+                "unicode_name": "W1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "5732": {
+            "_surface": {
+                "text": "W2",
+                "unicode_name": "W2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "41c2af": {
+            "_surface": {
+                "text": "A¯",
+                "unicode_name": "A¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized matrix A"
+                    }
+                ]
+            }
+        },
+        "445354": {
+            "_surface": {
+                "text": "DST",
+                "unicode_name": "DST"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task of tracking the state of a dialogue system"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue State Tracking"
+                    }
+                ]
+            }
+        },
+        "4a696e": {
+            "_surface": {
+                "text": "Jin",
+                "unicode_name": "Jin"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b6169": {
+            "_surface": {
+                "text": "Kai",
+                "unicode_name": "Kai"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b616e": {
+            "_surface": {
+                "text": "Kan",
+                "unicode_name": "Kan"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c6569": {
+            "_surface": {
+                "text": "Lei",
+                "unicode_name": "Lei"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c6975": {
+            "_surface": {
+                "text": "Liu",
+                "unicode_name": "Liu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d324d": {
+            "_surface": {
+                "text": "M2M",
+                "unicode_name": "M2M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Setting where Seq2Seq-DU can handle non-categorical slots"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Many-to-Many"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset used for training"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for DST"
+                    }
+                ]
+            }
+        },
+        "4e4c47": {
+            "_surface": {
+                "text": "NLG",
+                "unicode_name": "NLG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural Language Generation"
+                    }
+                ]
+            }
+        },
+        "4e4c55": {
+            "_surface": {
+                "text": "NLU",
+                "unicode_name": "NLU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural Language Understanding"
+                    }
+                ]
+            }
+        },
+        "52656e": {
+            "_surface": {
+                "text": "Ren",
+                "unicode_name": "Ren"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "534744": {
+            "_surface": {
+                "text": "SGD",
+                "unicode_name": "SGD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue dataset with schema annotations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domain for which schemas are unseen in the test set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema-Guided Dialogue"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for DST"
+                    }
+                ]
+            }
+        },
+        "566573": {
+            "_surface": {
+                "text": "Ves",
+                "unicode_name": "Ves"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "57656e": {
+            "_surface": {
+                "text": "Wen",
+                "unicode_name": "Wen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e280a0": {
+            "_surface": {
+                "text": "†",
+                "unicode_name": "DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University"
+                    }
+                ]
+            }
+        },
+        "e280a1": {
+            "_surface": {
+                "text": "‡",
+                "unicode_name": "DOUBLE DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "AI Lab"
+                    }
+                ]
+            }
+        },
+        "e280a6": {
+            "_surface": {
+                "text": "…",
+                "unicode_name": "HORIZONTAL ELLIPSIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ellipsis"
+                    }
+                ]
+            }
+        },
+        "32303130": {
+            "_surface": {
+                "text": "2010",
+                "unicode_name": "2010"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303134": {
+            "_surface": {
+                "text": "2014",
+                "unicode_name": "2014"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303135": {
+            "_surface": {
+                "text": "2015",
+                "unicode_name": "2015"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303137": {
+            "_surface": {
+                "text": "2017",
+                "unicode_name": "2017"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303138": {
+            "_surface": {
+                "text": "2018",
+                "unicode_name": "2018"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303139": {
+            "_surface": {
+                "text": "2019",
+                "unicode_name": "2019"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303230": {
+            "_surface": {
+                "text": "2020",
+                "unicode_name": "2020"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "41535255": {
+            "_surface": {
+                "text": "ASRU",
+                "unicode_name": "ASRU"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "41544953": {
+            "_surface": {
+                "text": "ATIS",
+                "unicode_name": "ATIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Airline Travel Information System"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for NLU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset used for training"
+                    }
+                ]
+            }
+        },
+        "4164616d": {
+            "_surface": {
+                "text": "Adam",
+                "unicode_name": "Adam"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adam Optimization Algorithm"
+                    }
+                ]
+            }
+        },
+        "42415254": {
+            "_surface": {
+                "text": "BART",
+                "unicode_name": "BART"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional and Auto-Regressive Transformers"
+                    }
+                ]
+            }
+        },
+        "42455254": {
+            "_surface": {
+                "text": "BERT",
+                "unicode_name": "BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional Encoder Representations from Transformers"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Encoder"
+                    }
+                ]
+            }
+        },
+        "42617274": {
+            "_surface": {
+                "text": "Bart",
+                "unicode_name": "Bart"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4368656e": {
+            "_surface": {
+                "text": "Chen",
+                "unicode_name": "Chen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "474c4144": {
+            "_surface": {
+                "text": "GLAD",
+                "unicode_name": "GLAD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Generative Language Action Decoder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "4c616e65": {
+            "_surface": {
+                "text": "Lane",
+                "unicode_name": "Lane"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c657679": {
+            "_surface": {
+                "text": "Levy",
+                "unicode_name": "Levy"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c756b65": {
+            "_surface": {
+                "text": "Luke",
+                "unicode_name": "Luke"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4f6d6572": {
+            "_surface": {
+                "text": "Omer",
+                "unicode_name": "Omer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "53686168": {
+            "_surface": {
+                "text": "Shah",
+                "unicode_name": "Shah"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59616e67": {
+            "_surface": {
+                "text": "Yang",
+                "unicode_name": "Yang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a616e67": {
+            "_surface": {
+                "text": "Zang",
+                "unicode_name": "Zang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736c6f74": {
+            "_surface": {
+                "text": "slot"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slot"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d96a0": {
+            "_surface": {
+                "text": "𝖠",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator A"
+                    }
+                ]
+            }
+        },
+        "f09d96aa": {
+            "_surface": {
+                "text": "𝖪",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator K"
+                    }
+                ]
+            }
+        },
+        "434f4d4552": {
+            "_surface": {
+                "text": "COMER",
+                "unicode_name": "COMER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contextualized Memory for Dialogue State Tracking"
+                    }
+                ]
+            }
+        },
+        "4453544332": {
+            "_surface": {
+                "text": "DSTC2",
+                "unicode_name": "DSTC2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Competition focused on dialogue state tracking"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset used for training"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for DST"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue State Tracking Challenge 2"
+                    }
+                ]
+            }
+        },
+        "4461776569": {
+            "_surface": {
+                "text": "Dawei",
+                "unicode_name": "Dawei"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "454d4e4c50": {
+            "_surface": {
+                "text": "EMNLP",
+                "unicode_name": "EMNLP"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "476f79616c": {
+            "_surface": {
+                "text": "Goyal",
+                "unicode_name": "Goyal"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4775707461": {
+            "_surface": {
+                "text": "Gupta",
+                "unicode_name": "Gupta"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b61696765": {
+            "_surface": {
+                "text": "Kaige",
+                "unicode_name": "Kaige"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c65776973": {
+            "_surface": {
+                "text": "Lewis",
+                "unicode_name": "Lewis"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e616d616e": {
+            "_surface": {
+                "text": "Naman",
+                "unicode_name": "Naman"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "534e495053": {
+            "_surface": {
+                "text": "SNIPS",
+                "unicode_name": "SNIPS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset used for training"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for NLU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spoken Natural Language Inference for Parsing and Slot Filling"
+                    }
+                ]
+            }
+        },
+        "5374657665": {
+            "_surface": {
+                "text": "Steve",
+                "unicode_name": "Steve"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5452414445": {
+            "_surface": {
+                "text": "TRADE",
+                "unicode_name": "TRADE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transferable Dialogue State Generator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    }
+                ]
+            }
+        },
+        "586973656e": {
+            "_surface": {
+                "text": "Xisen",
+                "unicode_name": "Xisen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "596f756e67": {
+            "_surface": {
+                "text": "Young",
+                "unicode_name": "Young"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a68616e67": {
+            "_surface": {
+                "text": "Zhang",
+                "unicode_name": "Zhang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976": {
+            "_surface": {
+                "text": "arXiv",
+                "unicode_name": "arXiv"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6a6f696e74": {
+            "_surface": {
+                "text": "joint",
+                "unicode_name": "joint"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736c6f7473": {
+            "_surface": {
+                "text": "slots",
+                "unicode_name": "slots"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slots"
+                    }
+                ]
+            }
+        },
+        "7374617465": {
+            "_surface": {
+                "text": "state",
+                "unicode_name": "state"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "76616c7565": {
+            "_surface": {
+                "text": "value"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slot value"
+                    }
+                ]
+            }
+        },
+        "42694c53544d": {
+            "_surface": {
+                "text": "BiLSTM",
+                "unicode_name": "BiLSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bi-directional Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "426c61697365": {
+            "_surface": {
+                "text": "Blaise",
+                "unicode_name": "Blaise"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "44532d445354": {
+            "_surface": {
+                "text": "DS-DST",
+                "unicode_name": "DS-DST"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue State with Domain Slot Tracker"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    }
+                ]
+            }
+        },
+        "4453542b4c55": {
+            "_surface": {
+                "text": "DST+LU",
+                "unicode_name": "DST+LU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue State Tracking + Language Understanding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    }
+                ]
+            }
+        },
+        "486f74656c73": {
+            "_surface": {
+                "text": "Hotels",
+                "unicode_name": "Hotels"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domain with partially seen schemas"
+                    }
+                ]
+            }
+        },
+        "4a69616e6d6f": {
+            "_surface": {
+                "text": "Jianmo",
+                "unicode_name": "Jianmo"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a756c69616e": {
+            "_surface": {
+                "text": "Julian",
+                "unicode_name": "Julian"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b6169205975": {
+            "_surface": {
+                "text": "Kai Yu",
+                "unicode_name": "Kai Yu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d61726a616e": {
+            "_surface": {
+                "text": "Marjan",
+                "unicode_name": "Marjan"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d696c696361": {
+            "_surface": {
+                "text": "Milica",
+                "unicode_name": "Milica"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d6f76696573": {
+            "_surface": {
+                "text": "Movies",
+                "unicode_name": "Movies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domain with partially seen schemas"
+                    }
+                ]
+            }
+        },
+        "4e657572616c": {
+            "_surface": {
+                "text": "Neural",
+                "unicode_name": "Neural"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e696b6f6c61": {
+            "_surface": {
+                "text": "Nikola",
+                "unicode_name": "Nikola"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "50617765c582": {
+            "_surface": {
+                "text": "Paweł",
+                "unicode_name": "Paweł"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "506f6c696379": {
+            "_surface": {
+                "text": "Policy",
+                "unicode_name": "Policy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue Policy"
+                    }
+                ]
+            }
+        },
+        "5072616e6176": {
+            "_surface": {
+                "text": "Pranav",
+                "unicode_name": "Pranav"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5169c2a04875": {
+            "_surface": {
+                "text": "Qi Hu",
+                "unicode_name": "Qi Hu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5375205a6875": {
+            "_surface": {
+                "text": "Su Zhu",
+                "unicode_name": "Su Zhu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "546f6d61737a": {
+            "_surface": {
+                "text": "Tomasz",
+                "unicode_name": "Tomasz"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "574f5a322e30": {
+            "_surface": {
+                "text": "WOZ2.0",
+                "unicode_name": "WOZ2.0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wizard of Oz"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue dataset for dialogue state tracking"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset used for training"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wizard of Oz 2.0"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for DST"
+                    }
+                ]
+            }
+        },
+        "59696e68616e": {
+            "_surface": {
+                "text": "Yinhan",
+                "unicode_name": "Yinhan"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6167656e7473": {
+            "_surface": {
+                "text": "agents",
+                "unicode_name": "agents"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "617474656e64": {
+            "_surface": {
+                "text": "attend"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention function"
+                    }
+                ]
+            }
+        },
+        "62656c696566": {
+            "_surface": {
+                "text": "belief",
+                "unicode_name": "belief"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "696e74656e74": {
+            "_surface": {
+                "text": "intent"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intent"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c73": {
+            "_surface": {
+                "text": "models",
+                "unicode_name": "models"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e657572616c": {
+            "_surface": {
+                "text": "neural",
+                "unicode_name": "neural"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736368656d61": {
+            "_surface": {
+                "text": "schema",
+                "unicode_name": "schema"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domain Knowledge"
+                    }
+                ]
+            }
+        },
+        "416268696e6176": {
+            "_surface": {
+                "text": "Abhinav",
+                "unicode_name": "Abhinav"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "426f6572204c76": {
+            "_surface": {
+                "text": "Boer Lv",
+                "unicode_name": "Boer Lv"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "446f6e67205975": {
+            "_surface": {
+                "text": "Dong Yu",
+                "unicode_name": "Dong Yu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4576656c696e61": {
+            "_surface": {
+                "text": "Evelina",
+                "unicode_name": "Evelina"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "46617374534754": {
+            "_surface": {
+                "text": "FastSGT",
+                "unicode_name": "FastSGT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fast Sequence-to-Graph Transduction"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    }
+                ]
+            }
+        },
+        "4761c5a169c487": {
+            "_surface": {
+                "text": "Gašić",
+                "unicode_name": "Gašić"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "48616e67204c69": {
+            "_surface": {
+                "text": "Hang Li",
+                "unicode_name": "Hang Li"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a6f696e204741": {
+            "_surface": {
+                "text": "Join GA",
+                "unicode_name": "Join GA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for Seq2Seq-DU model"
+                    }
+                ]
+            }
+        },
+        "4b68616974616e": {
+            "_surface": {
+                "text": "Khaitan",
+                "unicode_name": "Khaitan"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b6f726e757461": {
+            "_surface": {
+                "text": "Kornuta",
+                "unicode_name": "Kornuta"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c692044656e67": {
+            "_surface": {
+                "text": "Li Deng",
+                "unicode_name": "Li Deng"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c696c69616e67": {
+            "_surface": {
+                "text": "Liliang",
+                "unicode_name": "Liliang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c75204368656e": {
+            "_surface": {
+                "text": "Lu Chen",
+                "unicode_name": "Lu Chen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6341756c6579": {
+            "_surface": {
+                "text": "McAuley",
+                "unicode_name": "McAuley"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d696e2d59656e": {
+            "_surface": {
+                "text": "Min-Yen",
+                "unicode_name": "Min-Yen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d6f68616d6564": {
+            "_surface": {
+                "text": "Mohamed",
+                "unicode_name": "Mohamed"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e6f726f6f7a69": {
+            "_surface": {
+                "text": "Noroozi",
+                "unicode_name": "Noroozi"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5169c2a05a6875": {
+            "_surface": {
+                "text": "Qi Zhu",
+                "unicode_name": "Qi Zhu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "52616d6164616e": {
+            "_surface": {
+                "text": "Ramadan",
+                "unicode_name": "Ramadan"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "526173746f6769": {
+            "_surface": {
+                "text": "Rastogi",
+                "unicode_name": "Rastogi"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5349474449414c": {
+            "_surface": {
+                "text": "SIGDIAL",
+                "unicode_name": "SIGDIAL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "536c6f74204631": {
+            "_surface": {
+                "text": "Slot F1",
+                "unicode_name": "Slot F1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for Seq2Seq-DU model"
+                    }
+                ]
+            }
+        },
+        "53756e6b617261": {
+            "_surface": {
+                "text": "Sunkara",
+                "unicode_name": "Sunkara"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5461626c652038": {
+            "_surface": {
+                "text": "Table 8",
+                "unicode_name": "Table 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table showing examples of user preferences"
+                    }
+                ]
+            }
+        },
+        "5461626c652039": {
+            "_surface": {
+                "text": "Table 9",
+                "unicode_name": "Table 9"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table showing accuracies of Seq2Seq-DU in different domains"
+                    }
+                ]
+            }
+        },
+        "54686f6d736f6e": {
+            "_surface": {
+                "text": "Thomson",
+                "unicode_name": "Thomson"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "546f7761726473": {
+            "_surface": {
+                "text": "Towards",
+                "unicode_name": "Towards"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5869616f787565": {
+            "_surface": {
+                "text": "Xiaoxue",
+                "unicode_name": "Xiaoxue"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59616f2057616e": {
+            "_surface": {
+                "text": "Yao Wan",
+                "unicode_name": "Yao Wan"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6574c2a0616c2e": {
+            "_surface": {
+                "text": "et al.",
+                "unicode_name": "et al."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "66696c6c696e67": {
+            "_surface": {
+                "text": "filling",
+                "unicode_name": "filling"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "696e74656e7473": {
+            "_surface": {
+                "text": "intents",
+                "unicode_name": "intents"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intents"
+                    }
+                ]
+            }
+        },
+        "6d6574686f6473": {
+            "_surface": {
+                "text": "methods",
+                "unicode_name": "methods"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Methods"
+                    }
+                ]
+            }
+        },
+        "6e61747572616c": {
+            "_surface": {
+                "text": "natural",
+                "unicode_name": "natural"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e6574776f726b": {
+            "_surface": {
+                "text": "network",
+                "unicode_name": "network"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73686172696e67": {
+            "_surface": {
+                "text": "sharing",
+                "unicode_name": "sharing"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "747261636b6572": {
+            "_surface": {
+                "text": "tracker",
+                "unicode_name": "tracker"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "424552542d445354": {
+            "_surface": {
+                "text": "BERT-DST",
+                "unicode_name": "BERT-DST"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline Model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional Encoder Representations from Transformers for Dialogue State Tracking"
+                    }
+                ]
+            }
+        },
+        "4368692057616e67": {
+            "_surface": {
+                "text": "Chi Wang",
+                "unicode_name": "Chi Wang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "446961726d756964": {
+            "_surface": {
+                "text": "Diarmuid",
+                "unicode_name": "Diarmuid"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "46656e672047616f": {
+            "_surface": {
+                "text": "Feng Gao",
+                "unicode_name": "Feng Gao"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4669677572652031": {
+            "_surface": {
+                "text": "Figure 1",
+                "unicode_name": "Figure 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Example of Dialogue State Tracking"
+                    }
+                ]
+            }
+        },
+        "4669677572652032": {
+            "_surface": {
+                "text": "Figure 2",
+                "unicode_name": "Figure 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Example of Seq2Seq-DU"
+                    }
+                ]
+            }
+        },
+        "4669677572652034": {
+            "_surface": {
+                "text": "Figure 4",
+                "unicode_name": "Figure 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph showing training losses of Seq2Seq-DU"
+                    }
+                ]
+            }
+        },
+        "4669677572652035": {
+            "_surface": {
+                "text": "Figure 5",
+                "unicode_name": "Figure 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graph showing accuracies of Seq2Seq-DU"
+                    }
+                ]
+            }
+        },
+        "496e742e20416363": {
+            "_surface": {
+                "text": "Int. Acc",
+                "unicode_name": "Int. Acc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intent Accuracy"
+                    }
+                ]
+            }
+        },
+        "4a696d6d79204261": {
+            "_surface": {
+                "text": "Jimmy Ba",
+                "unicode_name": "Jimmy Ba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a6f696e74204741": {
+            "_surface": {
+                "text": "Joint GA",
+                "unicode_name": "Joint GA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Joint Goal Accuracy"
+                    }
+                ]
+            }
+        },
+        "4d726bc5a169c487": {
+            "_surface": {
+                "text": "Mrkšić",
+                "unicode_name": "Mrkšić"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "524e4e2d4c53544d": {
+            "_surface": {
+                "text": "RNN-LSTM",
+                "unicode_name": "RNN-LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for NLU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Recurrent Neural Network with Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "5365727669636573": {
+            "_surface": {
+                "text": "Services",
+                "unicode_name": "Services"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domain with partially seen schemas"
+                    }
+                ]
+            }
+        },
+        "5372696e69766173": {
+            "_surface": {
+                "text": "Srinivas",
+                "unicode_name": "Srinivas"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "53746174654e6574": {
+            "_surface": {
+                "text": "StateNet",
+                "unicode_name": "StateNet"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State Transition Network"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    }
+                ]
+            }
+        },
+        "53746f79616e6f76": {
+            "_surface": {
+                "text": "Stoyanov",
+                "unicode_name": "Stoyanov"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5461626c65203130": {
+            "_surface": {
+                "text": "Table 10",
+                "unicode_name": "Table 10"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table showing accuracies of Seq2Seq-DU and baselines for categorical and non-categorical slots"
+                    }
+                ]
+            }
+        },
+        "57656e2057616e67": {
+            "_surface": {
+                "text": "Wen Wang",
+                "unicode_name": "Wen Wang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5869616e676e616e": {
+            "_surface": {
+                "text": "Xiangnan",
+                "unicode_name": "Xiangnan"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5975652046656e67": {
+            "_surface": {
+                "text": "Yue Feng",
+                "unicode_name": "Yue Feng"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5a68616f6368756e": {
+            "_surface": {
+                "text": "Zhaochun",
+                "unicode_name": "Zhaochun"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a6869204368656e": {
+            "_surface": {
+                "text": "Zhi Chen",
+                "unicode_name": "Zhi Chen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5a6875205a68756f": {
+            "_surface": {
+                "text": "Zhu Zhuo",
+                "unicode_name": "Zhu Zhuo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5a6968616e205875": {
+            "_surface": {
+                "text": "Zihan Xu",
+                "unicode_name": "Zihan Xu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "6465636f64696e67": {
+            "_surface": {
+                "text": "decoding",
+                "unicode_name": "decoding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inference"
+                    }
+                ]
+            }
+        },
+        "6469616c6f677565": {
+            "_surface": {
+                "text": "dialogue",
+                "unicode_name": "dialogue"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c616e6775616765": {
+            "_surface": {
+                "text": "language",
+                "unicode_name": "language"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6561726e696e67": {
+            "_surface": {
+                "text": "learning",
+                "unicode_name": "learning"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7072657072696e74": {
+            "_surface": {
+                "text": "preprint",
+                "unicode_name": "preprint"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7363616c61626c65": {
+            "_surface": {
+                "text": "scalable",
+                "unicode_name": "scalable"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "747261636b696e67": {
+            "_surface": {
+                "text": "tracking",
+                "unicode_name": "tracking"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "424552542d42617365": {
+            "_surface": {
+                "text": "BERT-Base",
+                "unicode_name": "BERT-Base"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Uncased"
+                        ],
+                        "arity": 0,
+                        "description": "Pre-trained BERT model"
+                    },
+                    {
+                        "affixes": [
+                            ", Uncased"
+                        ],
+                        "arity": 0,
+                        "description": "Base version, Uncased"
+                    }
+                ]
+            }
+        },
+        "426f77656e2054616e": {
+            "_surface": {
+                "text": "Bowen Tan",
+                "unicode_name": "Bowen Tan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "44617765692059696e": {
+            "_surface": {
+                "text": "Dawei Yin",
+                "unicode_name": "Dawei Yin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "44656e6f6973696e67": {
+            "_surface": {
+                "text": "Denoising",
+                "unicode_name": "Denoising"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4775616e672047616f": {
+            "_surface": {
+                "text": "Guang Gao",
+                "unicode_name": "Guang Gao"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d6573736167696e67": {
+            "_surface": {
+                "text": "Messaging",
+                "unicode_name": "Messaging"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domain with more unseen schemas"
+                    }
+                ]
+            }
+        },
+        "507579616e67205875": {
+            "_surface": {
+                "text": "Puyang Xu",
+                "unicode_name": "Puyang Xu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5169616e204368656e": {
+            "_surface": {
+                "text": "Qian Chen",
+                "unicode_name": "Qian Chen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "53c3a9616768646861": {
+            "_surface": {
+                "text": "Séaghdha",
+                "unicode_name": "Séaghdha"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "577520657420616c2e": {
+            "_surface": {
+                "text": "Wu et al.",
+                "unicode_name": "Wu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "587520616e64204875": {
+            "_surface": {
+                "text": "Xu and Hu",
+                "unicode_name": "Xu and Hu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "59616e672057616e67": {
+            "_surface": {
+                "text": "Yang Wang",
+                "unicode_name": "Yang Wang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "646574656374696f6e": {
+            "_surface": {
+                "text": "detection",
+                "unicode_name": "detection"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6b6e6f776c65646765": {
+            "_surface": {
+                "text": "knowledge",
+                "unicode_name": "knowledge"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "726563757272656e74": {
+            "_surface": {
+                "text": "recurrent",
+                "unicode_name": "recurrent"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "313931302e3133343631": {
+            "_surface": {
+                "text": "1910.13461",
+                "unicode_name": "1910.13461"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "416c6161205361616465": {
+            "_surface": {
+                "text": "Alaa Saade",
+                "unicode_name": "Alaa Saade"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "42616b68747572696e61": {
+            "_surface": {
+                "text": "Bakhturina",
+                "unicode_name": "Bakhturina"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "43617365207374756479": {
+            "_surface": {
+                "text": "Case study",
+                "unicode_name": "Case study"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Qualitative analysis of model results"
+                    }
+                ]
+            }
+        },
+        "476f6b68616e20547572": {
+            "_surface": {
+                "text": "Gokhan Tur",
+                "unicode_name": "Gokhan Tur"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "476f6f20657420616c2e": {
+            "_surface": {
+                "text": "Goo et al.",
+                "unicode_name": "Goo et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "4a6f696e742042455254": {
+            "_surface": {
+                "text": "Joint BERT",
+                "unicode_name": "Joint BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for NLU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Joint BERT Model"
+                    }
+                ]
+            }
+        },
+        "4b656e746f6e204c6565": {
+            "_surface": {
+                "text": "Kenton Lee",
+                "unicode_name": "Kenton Lee"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c61727279204865636b": {
+            "_surface": {
+                "text": "Larry Heck",
+                "unicode_name": "Larry Heck"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c656920657420616c2e": {
+            "_surface": {
+                "text": "Lei et al.",
+                "unicode_name": "Lei et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "4d756c74692d7461736b": {
+            "_surface": {
+                "text": "Multi-task",
+                "unicode_name": "Multi-task"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e656861204e6179616b": {
+            "_surface": {
+                "text": "Neha Nayak",
+                "unicode_name": "Neha Nayak"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5065692d48616f205375": {
+            "_surface": {
+                "text": "Pei-Hao Su",
+                "unicode_name": "Pei-Hao Su"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "52656e20657420616c2e": {
+            "_surface": {
+                "text": "Ren et al.",
+                "unicode_name": "Ren et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "52656e74616c43617273": {
+            "_surface": {
+                "text": "RentalCars",
+                "unicode_name": "RentalCars"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domain with more unseen schemas"
+                    }
+                ]
+            }
+        },
+        "536571325365712d4455": {
+            "_surface": {
+                "text": "Seq2Seq-DU",
+                "unicode_name": "Seq2Seq-DU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for dialogue understanding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approach to Dialogue State Tracking"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue state tracking model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence-to-sequence Dialogue Understanding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Approach for DST"
+                    }
+                ]
+            }
+        },
+        "536c6f742d4761746564": {
+            "_surface": {
+                "text": "Slot-Gated",
+                "unicode_name": "Slot-Gated"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for NLU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slot-Gated Model"
+                    }
+                ]
+            }
+        },
+        "587520616e6420487520": {
+            "_surface": {
+                "text": "Xu and Hu ",
+                "unicode_name": "Xu and Hu "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59616f20657420616c2e": {
+            "_surface": {
+                "text": "Yao et al.",
+                "unicode_name": "Yao et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "59652d59692057616e67": {
+            "_surface": {
+                "text": "Ye-Yi Wang",
+                "unicode_name": "Ye-Yi Wang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "65787472616374696f6e": {
+            "_surface": {
+                "text": "extraction",
+                "unicode_name": "extraction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Extraction"
+                    }
+                ]
+            }
+        },
+        "67656e65726174696f6e": {
+            "_surface": {
+                "text": "generation",
+                "unicode_name": "generation"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "686f74656c2d74797065": {
+            "_surface": {
+                "text": "hotel-type",
+                "unicode_name": "hotel-type"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relation representing the type of hotel"
+                    }
+                ]
+            }
+        },
+        "7574746572616e636573": {
+            "_surface": {
+                "text": "utterances",
+                "unicode_name": "utterances"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utterances"
+                    }
+                ]
+            }
+        },
+        "416264656c7261686d616e": {
+            "_surface": {
+                "text": "Abdelrahman",
+                "unicode_name": "Abdelrahman"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "41647269656e2042616c6c": {
+            "_surface": {
+                "text": "Adrien Ball",
+                "unicode_name": "Adrien Ball"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "416e6b7572204261706e61": {
+            "_surface": {
+                "text": "Ankur Bapna",
+                "unicode_name": "Ankur Bapna"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "42616f6c696e2050656e67": {
+            "_surface": {
+                "text": "Baolin Peng",
+                "unicode_name": "Baolin Peng"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4368656e20657420616c2e": {
+            "_surface": {
+                "text": "Chen et al.",
+                "unicode_name": "Chen et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2020a"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2020b"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "436869682d4c692048756f": {
+            "_surface": {
+                "text": "Chih-Li Huo",
+                "unicode_name": "Chih-Li Huo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "446174612d64726976656e": {
+            "_surface": {
+                "text": "Data-driven",
+                "unicode_name": "Data-driven"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4461766964204c65726f79": {
+            "_surface": {
+                "text": "David Leroy",
+                "unicode_name": "David Leroy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "476f6b68616e2054c3bc72": {
+            "_surface": {
+                "text": "Gokhan Tür",
+                "unicode_name": "Gokhan Tür"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "476f6f20657420616c2e20": {
+            "_surface": {
+                "text": "Goo et al. ",
+                "unicode_name": "Goo et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    }
+                ]
+            }
+        },
+        "48616b6b616e692d547572": {
+            "_surface": {
+                "text": "Hakkani-Tur",
+                "unicode_name": "Hakkani-Tur"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "494e544552535045454348": {
+            "_surface": {
+                "text": "INTERSPEECH",
+                "unicode_name": "INTERSPEECH"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c617267652d7363616c65": {
+            "_surface": {
+                "text": "Large-scale",
+                "unicode_name": "Large-scale"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c656920657420616c2e20": {
+            "_surface": {
+                "text": "Lei et al. ",
+                "unicode_name": "Lei et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    }
+                ]
+            }
+        },
+        "4d756c7469574f5a322e32": {
+            "_surface": {
+                "text": "MultiWOZ2.2",
+                "unicode_name": "MultiWOZ2.2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue dataset for multi-domain dialogue state tracking"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for DST"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multi-domain Wizard of Oz"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multi-domain Wizard of Oz 2.2"
+                    }
+                ]
+            }
+        },
+        "537465766520596f756e67": {
+            "_surface": {
+                "text": "Steve Young",
+                "unicode_name": "Steve Young"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5473756e672d487369656e": {
+            "_surface": {
+                "text": "Tsung-Hsien",
+                "unicode_name": "Tsung-Hsien"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5775206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Wu et al. ",
+                "unicode_name": "Wu et al. "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5869616f6c6f6e67204c69": {
+            "_surface": {
+                "text": "Xiaolong Li",
+                "unicode_name": "Xiaolong Li"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5869616f727569204c6975": {
+            "_surface": {
+                "text": "Xiaorui Liu",
+                "unicode_name": "Xiaorui Liu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5869616f79616e205a6875": {
+            "_surface": {
+                "text": "Xiaoyan Zhu",
+                "unicode_name": "Xiaoyan Zhu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "59616e62696e205a68616f": {
+            "_surface": {
+                "text": "Yanbin Zhao",
+                "unicode_name": "Yanbin Zhao"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "59756e2d4b616920487375": {
+            "_surface": {
+                "text": "Yun-Kai Hsu",
+                "unicode_name": "Yun-Kai Hsu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5a6574746c656d6f796572": {
+            "_surface": {
+                "text": "Zettlemoyer",
+                "unicode_name": "Zettlemoyer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a68656e67205a68616e67": {
+            "_surface": {
+                "text": "Zheng Zhang",
+                "unicode_name": "Zheng Zhang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7363616c6162696c697479": {
+            "_surface": {
+                "text": "scalability",
+                "unicode_name": "scalability"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scalability"
+                    }
+                ]
+            }
+        },
+        "736c6f742076616c756573": {
+            "_surface": {
+                "text": "slot values",
+                "unicode_name": "slot values"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slot Values"
+                    }
+                ]
+            }
+        },
+        "7472616e736c6174696f6e": {
+            "_surface": {
+                "text": "translation",
+                "unicode_name": "translation"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "416c69636520436f75636b65": {
+            "_surface": {
+                "text": "Alice Coucke",
+                "unicode_name": "Alice Coucke"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "417474656e2e2d4269524e4e": {
+            "_surface": {
+                "text": "Atten.-BiRNN",
+                "unicode_name": "Atten.-BiRNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for NLU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention-Based Bidirectional Recurrent Neural Network"
+                    }
+                ]
+            }
+        },
+        "4275647a69616e6f77736b69": {
+            "_surface": {
+                "text": "Budzianowski",
+                "unicode_name": "Budzianowski"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4368656e20657420616c2e20": {
+            "_surface": {
+                "text": "Chen et al. ",
+                "unicode_name": "Chen et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020a)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    },
+                    {
+                        "affixes": [
+                            "(2020b)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    }
+                ]
+            }
+        },
+        "436869682d57656e20476f6f": {
+            "_surface": {
+                "text": "Chih-Wen Goo",
+                "unicode_name": "Chih-Wen Goo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "47c3b66b68616e2054c3bc72": {
+            "_surface": {
+                "text": "Gökhan Tür",
+                "unicode_name": "Gökhan Tür"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4875616e6720657420616c2e": {
+            "_surface": {
+                "text": "Huang et al.",
+                "unicode_name": "Huang et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "496e74726f64756374696f6e": {
+            "_surface": {
+                "text": "Introduction",
+                "unicode_name": "Introduction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "4a61636f62204465766c696e": {
+            "_surface": {
+                "text": "Jacob Devlin",
+                "unicode_name": "Jacob Devlin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a69616e66656e672047616f": {
+            "_surface": {
+                "text": "Jianfeng Gao",
+                "unicode_name": "Jianfeng Gao"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a696c69616e672054616e67": {
+            "_surface": {
+                "text": "Jiliang Tang",
+                "unicode_name": "Jiliang Tang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a696e646f6e67204368656e": {
+            "_surface": {
+                "text": "Jindong Chen",
+                "unicode_name": "Jindong Chen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b61697368656e672059616f": {
+            "_surface": {
+                "text": "Kaisheng Yao",
+                "unicode_name": "Kaisheng Yao"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b656e672d57656920487375": {
+            "_surface": {
+                "text": "Keng-Wei Hsu",
+                "unicode_name": "Keng-Wei Hsu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c6577697320657420616c2e": {
+            "_surface": {
+                "text": "Lewis et al.",
+                "unicode_name": "Lewis et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a research paper"
+                    }
+                ]
+            }
+        },
+        "4c697520616e64204c616e65": {
+            "_surface": {
+                "text": "Liu and Lane",
+                "unicode_name": "Liu and Lane"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "4d696c696361204761736963": {
+            "_surface": {
+                "text": "Milica Gasic",
+                "unicode_name": "Milica Gasic"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d696e6c6965204875616e67": {
+            "_surface": {
+                "text": "Minlie Huang",
+                "unicode_name": "Minlie Huang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "506172617274682053686168": {
+            "_surface": {
+                "text": "Pararth Shah",
+                "unicode_name": "Pararth Shah"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "50617363616c652046756e67": {
+            "_surface": {
+                "text": "Pascale Fung",
+                "unicode_name": "Pascale Fung"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5068696c6970c2a053205975": {
+            "_surface": {
+                "text": "Philip S Yu",
+                "unicode_name": "Philip S Yu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "526167686176204775707461": {
+            "_surface": {
+                "text": "Raghav Gupta",
+                "unicode_name": "Raghav Gupta"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5347442d626173656c696e65": {
+            "_surface": {
+                "text": "SGD-baseline",
+                "unicode_name": "SGD-baseline"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline for Schema-Guided Dialogue"
+                    }
+                ]
+            }
+        },
+        "53746566616e20556c746573": {
+            "_surface": {
+                "text": "Stefan Ultes",
+                "unicode_name": "Stefan Ultes"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "547572206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Tur et al. ",
+                "unicode_name": "Tur et al. "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "566963746f72205a686f6e67": {
+            "_surface": {
+                "text": "Victor Zhong",
+                "unicode_name": "Victor Zhong"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "57656e206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Wen et al. ",
+                "unicode_name": "Wen et al. "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5869616f787565205a616e67": {
+            "_surface": {
+                "text": "Xiaoxue Zang",
+                "unicode_name": "Xiaoxue Zang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59616f206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Yao et al. ",
+                "unicode_name": "Yao et al. "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a68616e6720657420616c2e": {
+            "_surface": {
+                "text": "Zhang et al.",
+                "unicode_name": "Zhang et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "5a686f6e6720657420616c2e": {
+            "_surface": {
+                "text": "Zhong et al.",
+                "unicode_name": "Zhong et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "6465736372697074696f6e73": {
+            "_surface": {
+                "text": "descriptions",
+                "unicode_name": "descriptions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema Descriptions"
+                    }
+                ]
+            }
+        },
+        "6d756c74692d646f6d61696e": {
+            "_surface": {
+                "text": "multi-domain",
+                "unicode_name": "multi-domain"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7072652d747261696e696e67": {
+            "_surface": {
+                "text": "pre-training",
+                "unicode_name": "pre-training"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736c6f742d66696c6c696e67": {
+            "_surface": {
+                "text": "slot-filling",
+                "unicode_name": "slot-filling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slot Filling"
+                    }
+                ]
+            }
+        },
+        "4361696d696e672058696f6e67": {
+            "_surface": {
+                "text": "Caiming Xiong",
+                "unicode_name": "Caiming Xiong"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "44617669642056616e64796b65": {
+            "_surface": {
+                "text": "David Vandyke",
+                "unicode_name": "David Vandyke"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4465766c696e20657420616c2e": {
+            "_surface": {
+                "text": "Devlin et al.",
+                "unicode_name": "Devlin et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "BERT Paper"
+                    }
+                ]
+            }
+        },
+        "4768617a76696e696e656a6164": {
+            "_surface": {
+                "text": "Ghazvininejad",
+                "unicode_name": "Ghazvininejad"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "486f6e677368656e204368656e": {
+            "_surface": {
+                "text": "Hongshen Chen",
+                "unicode_name": "Hongshen Chen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4875616e6720657420616c2e20": {
+            "_surface": {
+                "text": "Huang et al. ",
+                "unicode_name": "Huang et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    }
+                ]
+            }
+        },
+        "4a69616e67756f205a68616e67": {
+            "_surface": {
+                "text": "Jianguo Zhang",
+                "unicode_name": "Jianguo Zhang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e696b6f6c61204d726b736963": {
+            "_surface": {
+                "text": "Nikola Mrksic",
+                "unicode_name": "Nikola Mrksic"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4f72696f6c2056696e79616c73": {
+            "_surface": {
+                "text": "Oriol Vinyals",
+                "unicode_name": "Oriol Vinyals"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59756e2d4e756e67204368656e": {
+            "_surface": {
+                "text": "Yun-Nung Chen",
+                "unicode_name": "Yun-Nung Chen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5a616e67206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Zang et al. ",
+                "unicode_name": "Zang et al. "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "636f6d70726568656e73696f6e": {
+            "_surface": {
+                "text": "comprehension",
+                "unicode_name": "comprehension"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736368656d612d677569646564": {
+            "_surface": {
+                "text": "schema-guided",
+                "unicode_name": "schema-guided"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7374617465206465636f646572": {
+            "_surface": {
+                "text": "state decoder",
+                "unicode_name": "state decoder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Component in Seq2Seq-DU"
+                    }
+                ]
+            }
+        },
+        "756e6465727374616e64696e67": {
+            "_surface": {
+                "text": "understanding",
+                "unicode_name": "understanding"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7b77616e6779616e672e313237": {
+            "_surface": {
+                "text": "{wangyang.127",
+                "unicode_name": "{wangyang.127"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", lihang.lh}@bytedance.com"
+                        ],
+                        "arity": 0,
+                        "description": "Author Emails"
+                    }
+                ]
+            }
+        },
+        "416e64726561204d61646f74746f": {
+            "_surface": {
+                "text": "Andrea Madotto",
+                "unicode_name": "Andrea Madotto"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "426c616973652054686f6d736f6e": {
+            "_surface": {
+                "text": "Blaise Thomson",
+                "unicode_name": "Blaise Thomson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "436869656e2d5368656e67205775": {
+            "_surface": {
+                "text": "Chien-Sheng Wu",
+                "unicode_name": "Chien-Sheng Wu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4465766c696e20657420616c2e20": {
+            "_surface": {
+                "text": "Devlin et al. ",
+                "unicode_name": "Devlin et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    }
+                ]
+            }
+        },
+        "47656f6666726579205a77656967": {
+            "_surface": {
+                "text": "Geoffrey Zweig",
+                "unicode_name": "Geoffrey Zweig"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a69616e2d47756f205a68616e67": {
+            "_surface": {
+                "text": "Jian-Guo Zhang",
+                "unicode_name": "Jian-Guo Zhang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b696e676d6120616e6420426120": {
+            "_surface": {
+                "text": "Kingma and Ba ",
+                "unicode_name": "Kingma and Ba "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    }
+                ]
+            }
+        },
+        "4d696e672d576569204368616e67": {
+            "_surface": {
+                "text": "Ming-Wei Chang",
+                "unicode_name": "Ming-Wei Chang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e617664656570204a6169746c79": {
+            "_surface": {
+                "text": "Navdeep Jaitly",
+                "unicode_name": "Navdeep Jaitly"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e6f726f6f7a6920657420616c2e": {
+            "_surface": {
+                "text": "Noroozi et al.",
+                "unicode_name": "Noroozi et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "52616d6164616e20657420616c2e": {
+            "_surface": {
+                "text": "Ramadan et al.",
+                "unicode_name": "Ramadan et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "526173746f676920657420616c2e": {
+            "_surface": {
+                "text": "Rastogi et al.",
+                "unicode_name": "Rastogi et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "5269636861726420536f63686572": {
+            "_surface": {
+                "text": "Richard Socher",
+                "unicode_name": "Richard Socher"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "54686962617574204c617672696c": {
+            "_surface": {
+                "text": "Thibaut Lavril",
+                "unicode_name": "Thibaut Lavril"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "56696e79616c7320657420616c2e": {
+            "_surface": {
+                "text": "Vinyals et al.",
+                "unicode_name": "Vinyals et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Pointer Network Paper"
+                    }
+                ]
+            }
+        },
+        "5a68616e67206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Zhang et al. ",
+                "unicode_name": "Zhang et al. "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a686f6e67206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Zhong et al. ",
+                "unicode_name": "Zhong et al. "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "636c617373696669636174696f6e": {
+            "_surface": {
+                "text": "classification",
+                "unicode_name": "classification"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classification"
+                    }
+                ]
+            }
+        },
+        "636f6e766572736174696f6e616c": {
+            "_surface": {
+                "text": "conversational",
+                "unicode_name": "conversational"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736368656d6120656e636f646572": {
+            "_surface": {
+                "text": "schema encoder",
+                "unicode_name": "schema encoder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Component in Seq2Seq-DU"
+                    }
+                ]
+            }
+        },
+        "73656d616e746963206672616d65": {
+            "_surface": {
+                "text": "semantic frame",
+                "unicode_name": "semantic frame"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representation"
+                    }
+                ]
+            }
+        },
+        "416268696e617620526173746f6769": {
+            "_surface": {
+                "text": "Abhinav Rastogi",
+                "unicode_name": "Abhinav Rastogi"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "417474656e74696f6e2d6261736564": {
+            "_surface": {
+                "text": "Attention-based",
+                "unicode_name": "Attention-based"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "42616864616e617520657420616c2e": {
+            "_surface": {
+                "text": "Bahdanau et al.",
+                "unicode_name": "Bahdanau et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "42656c69656620547261636b696e67": {
+            "_surface": {
+                "text": "Belief Tracking",
+                "unicode_name": "Belief Tracking"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Belief Tracking"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    }
+                ]
+            }
+        },
+        "4d6569726520466f7274756e61746f": {
+            "_surface": {
+                "text": "Meire Fortunato",
+                "unicode_name": "Meire Fortunato"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d726bc5a169c48720657420616c2e": {
+            "_surface": {
+                "text": "Mrkšić et al.",
+                "unicode_name": "Mrkšić et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "506f696e746572204e6574776f726b": {
+            "_surface": {
+                "text": "Pointer Network",
+                "unicode_name": "Pointer Network"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pointer Generation Mechanism"
+                    }
+                ]
+            }
+        },
+        "5473756e672d487369656e2057656e": {
+            "_surface": {
+                "text": "Tsung-Hsien Wen",
+                "unicode_name": "Tsung-Hsien Wen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73656d616e746963206672616d6573": {
+            "_surface": {
+                "text": "semantic frames",
+                "unicode_name": "semantic frames"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Semantic Frames"
+                    }
+                ]
+            }
+        },
+        "41736c692043656c696b79696c6d617a": {
+            "_surface": {
+                "text": "Asli Celikyilmaz",
+                "unicode_name": "Asli Celikyilmaz"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a61736f6e20442057696c6c69616d73": {
+            "_surface": {
+                "text": "Jason D Williams",
+                "unicode_name": "Jason D Williams"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4b617a756d612048617368696d6f746f": {
+            "_surface": {
+                "text": "Kazuma Hashimoto",
+                "unicode_name": "Kazuma Hashimoto"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "527975696368692054616b616e6f6275": {
+            "_surface": {
+                "text": "Ryuichi Takanobu",
+                "unicode_name": "Ryuichi Takanobu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5372696e697661732053756e6b617261": {
+            "_surface": {
+                "text": "Srinivas Sunkara",
+                "unicode_name": "Srinivas Sunkara"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5468c3a96f646f726520426c75636865": {
+            "_surface": {
+                "text": "Théodore Bluche",
+                "unicode_name": "Théodore Bluche"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5473756e672d4368696568204368656e": {
+            "_surface": {
+                "text": "Tsung-Chieh Chen",
+                "unicode_name": "Tsung-Chieh Chen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "56696e79616c73206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Vinyals et al. ",
+                "unicode_name": "Vinyals et al. "
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "574f5a322e3020616e64204453544332": {
+            "_surface": {
+                "text": "WOZ2.0 and DSTC2",
+                "unicode_name": "WOZ2.0 and DSTC2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Settings where Seq2Seq-DU can handle categorical slots"
+                    }
+                ]
+            }
+        },
+        "686f74656c2d707269636572616e6765": {
+            "_surface": {
+                "text": "hotel-pricerange",
+                "unicode_name": "hotel-pricerange"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relation representing the price range of hotels"
+                    }
+                ]
+            }
+        },
+        "f09d96aff09d978bf09d9788f09d9789": {
+            "_surface": {
+                "text": "𝖯𝗋𝗈𝗉",
+                "unicode_name": "𝖯𝗋𝗈𝗉"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of propositions"
+                    }
+                ]
+            }
+        },
+        "416c6578616e647265204361756c696572": {
+            "_surface": {
+                "text": "Alexandre Caulier",
+                "unicode_name": "Alexandre Caulier"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "436cc3a96d656e7420446f756d6f75726f": {
+            "_surface": {
+                "text": "Clément Doumouro",
+                "unicode_name": "Clément Doumouro"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "446965646572696b2050204b696e676d61": {
+            "_surface": {
+                "text": "Diederik P Kingma",
+                "unicode_name": "Diederik P Kingma"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "48656e646572736f6e20657420616c2e20": {
+            "_surface": {
+                "text": "Henderson et al. ",
+                "unicode_name": "Henderson et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    }
+                ]
+            }
+        },
+        "4d6174746865772048656e646572736f6e": {
+            "_surface": {
+                "text": "Matthew Henderson",
+                "unicode_name": "Matthew Henderson"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4f766572616c6c20617474656e74696f6e": {
+            "_surface": {
+                "text": "Overall attention",
+                "unicode_name": "Overall attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention across all tokens"
+                    }
+                ]
+            }
+        },
+        "63617465676f726963616c20736c6f7473": {
+            "_surface": {
+                "text": "categorical slots",
+                "unicode_name": "categorical slots"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slots with predefined categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Categorical Slots"
+                    }
+                ]
+            }
+        },
+        "7574746572616e636520656e636f646572": {
+            "_surface": {
+                "text": "utterance encoder",
+                "unicode_name": "utterance encoder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Component in Seq2Seq-DU"
+                    }
+                ]
+            }
+        },
+        "43726f73732d656e74726f7079206c6f7373": {
+            "_surface": {
+                "text": "Cross-entropy loss",
+                "unicode_name": "Cross-entropy loss"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    }
+                ]
+            }
+        },
+        "44696c656b2048616b6b616e692d54c3bc72": {
+            "_surface": {
+                "text": "Dilek Hakkani-Tür",
+                "unicode_name": "Dilek Hakkani-Tür"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "456873616e20486f737365696e692d41736c": {
+            "_surface": {
+                "text": "Ehsan Hosseini-Asl",
+                "unicode_name": "Ehsan Hosseini-Asl"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b72697374696e6120546f7574616e6f7661": {
+            "_surface": {
+                "text": "Kristina Toutanova",
+                "unicode_name": "Kristina Toutanova"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "506f696e7465722067656e65726174696f6e": {
+            "_surface": {
+                "text": "Pointer generation",
+                "unicode_name": "Pointer generation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mechanism for generating pointers in decoding process"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d4f766572616c6c": {
+            "_surface": {
+                "text": "Seq2Seq-DU-Overall",
+                "unicode_name": "Seq2Seq-DU-Overall"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variant of Seq2Seq-DU model"
+                    }
+                ]
+            }
+        },
+        "62656e63686d61726b206461746173657473": {
+            "_surface": {
+                "text": "benchmark datasets",
+                "unicode_name": "benchmark datasets"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard datasets for evaluation"
+                    }
+                ]
+            }
+        },
+        "7a65726f2d73686f74206c6561726e696e67": {
+            "_surface": {
+                "text": "zero-shot learning",
+                "unicode_name": "zero-shot learning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ability to learn without prior exposure to schemas"
+                    }
+                ]
+            }
+        },
+        "47726f756e6420747275746820737461746573": {
+            "_surface": {
+                "text": "Ground truth states",
+                "unicode_name": "Ground truth states"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Correct dialogue states"
+                    }
+                ]
+            }
+        },
+        "48616b6b616e692d54c3bc7220657420616c2e": {
+            "_surface": {
+                "text": "Hakkani-Tür et al.",
+                "unicode_name": "Hakkani-Tür et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "53474420616e64204d756c7469574f5a322e32": {
+            "_surface": {
+                "text": "SGD and MultiWOZ2.2",
+                "unicode_name": "SGD and MultiWOZ2.2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Settings where Seq2Seq-DU can leverage schema descriptions"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d5365714c6162656c": {
+            "_surface": {
+                "text": "Seq2Seq-DU-SeqLabel",
+                "unicode_name": "Seq2Seq-DU-SeqLabel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variant of Seq2Seq-DU model"
+                    }
+                ]
+            }
+        },
+        "7472616e736c6174696f6e2070726f626c656d": {
+            "_surface": {
+                "text": "translation problem",
+                "unicode_name": "translation problem"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Translation Problem"
+                    }
+                ]
+            }
+        },
+        "48616b6b616e692d54c3bc7220657420616c2e20": {
+            "_surface": {
+                "text": "Hakkani-Tür et al. ",
+                "unicode_name": "Hakkani-Tür et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Publication"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d772f6f536368656d61": {
+            "_surface": {
+                "text": "Seq2Seq-DU-w/oSchema",
+                "unicode_name": "Seq2Seq-DU-w/oSchema"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variant of Seq2Seq-DU model"
+                    }
+                ]
+            }
+        },
+        "73657175656e63652d746f2d73657175656e6365": {
+            "_surface": {
+                "text": "sequence-to-sequence",
+                "unicode_name": "sequence-to-sequence"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4672616e636573636f2043616c74616769726f6e65": {
+            "_surface": {
+                "text": "Francesco Caltagirone",
+                "unicode_name": "Francesco Caltagirone"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4e657572616c2042656c69656620547261636b6572": {
+            "_surface": {
+                "text": "Neural Belief Tracker",
+                "unicode_name": "Neural Belief Tracker"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Belief Tracker"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for DST"
+                    }
+                ]
+            }
+        },
+        "5468696261756c742047697373656c627265636874": {
+            "_surface": {
+                "text": "Thibault Gisselbrecht",
+                "unicode_name": "Thibault Gisselbrecht"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "546f6b656e2d6c6576656c20617474656e74696f6e": {
+            "_surface": {
+                "text": "Token-level attention",
+                "unicode_name": "Token-level attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention at the token level"
+                    }
+                ]
+            }
+        },
+        "696e74656e7420636c617373696669636174696f6e": {
+            "_surface": {
+                "text": "intent classification",
+                "unicode_name": "intent classification"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intent Classification"
+                    }
+                ]
+            }
+        },
+        "6e6f6e2d63617465676f726963616c20736c6f7473": {
+            "_surface": {
+                "text": "non-categorical slots",
+                "unicode_name": "non-categorical slots"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Non-Categorical Slots"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slots without predefined categories"
+                    }
+                ]
+            }
+        },
+        "7975652e66656e672e32304075636c2e61632e756b": {
+            "_surface": {
+                "text": "yue.feng.20@ucl.ac.uk",
+                "unicode_name": "yue.feng.20@ucl.ac.uk"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author Email"
+                    }
+                ]
+            }
+        },
+        "4c696e61c2a04d20526f6a61732d42617261686f6e61": {
+            "_surface": {
+                "text": "Lina M Rojas-Barahona",
+                "unicode_name": "Lina M Rojas-Barahona"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "736368656d612d677569646564206469616c6f677565": {
+            "_surface": {
+                "text": "schema-guided dialogue",
+                "unicode_name": "schema-guided dialogue"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Problem Formulation"
+                    }
+                ]
+            }
+        },
+        "73746174652d6f662d7468652d61727473206d6574686f6473": {
+            "_surface": {
+                "text": "state-of-the-arts methods",
+                "unicode_name": "state-of-the-arts methods"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Existing state-of-the-art models"
+                    }
+                ]
+            }
+        },
+        "7574746572616e636520736368656d6120617474656e646572": {
+            "_surface": {
+                "text": "utterance schema attender",
+                "unicode_name": "utterance schema attender"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Component in Seq2Seq-DU"
+                    }
+                ]
+            }
+        },
+        "73657175656e636520746f2073657175656e63652070726f626c656d": {
+            "_surface": {
+                "text": "sequence to sequence problem",
+                "unicode_name": "sequence to sequence problem"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence-to-Sequence Problem"
+                    }
+                ]
+            }
+        },
+        "536571325365712d4455207369676e69666963616e746c79206f7574706572666f726d73": {
+            "_surface": {
+                "text": "Seq2Seq-DU significantly outperforms",
+                "unicode_name": "Seq2Seq-DU significantly outperforms"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model performs better than"
+                    }
+                ]
+            }
+        },
+        "536571325365712d445520696e207465726d73206f66204a6f696e204741202f20536c6f74204631": {
+            "_surface": {
+                "text": "Seq2Seq-DU in terms of Join GA / Slot F1",
+                "unicode_name": "Seq2Seq-DU in terms of Join GA / Slot F1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Accuracy of Seq2Seq-DU model"
+                    }
+                ]
+            }
+        },
+        "43617365207374756479206f6e20536571325365712d445520616e64205347442d626173656c696e65": {
+            "_surface": {
+                "text": "Case study on Seq2Seq-DU and SGD-baseline",
+                "unicode_name": "Case study on Seq2Seq-DU and SGD-baseline"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Comparison of Seq2Seq-DU and SGD-baseline in case study"
+                    }
+                ]
+            }
+        }
+    }
+}

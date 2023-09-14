@@ -1,0 +1,3193 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention-based representation obtained by the i-th head and j-th sub-network"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average number of edges in a sub-network"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input representation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output representation collected by multiple sub-networks"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of key"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix representing a mask"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 1 if there is a connection from token i to token j"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 0 otherwise"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of tokens in each sentence"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output representation"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of query"
+                    }
+                ]
+            }
+        },
+        "52": {
+            "_surface": {
+                "text": "R",
+                "unicode_name": "LATIN CAPITAL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of value"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "W[i][V] represents the parameters for value projection"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "W[i][Q] represents the parameters for query projection"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameters for linear projections"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "W[i][K] represents the parameters for key projection"
+                    },
+                    {
+                        "affixes": [
+                            "_K"
+                        ],
+                        "arity": 0,
+                        "description": "Parameters in the feed-forward operations for key"
+                    },
+                    {
+                        "affixes": [
+                            "_V"
+                        ],
+                        "arity": 0,
+                        "description": "Parameters in the feed-forward operations for value"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of hidden dimension"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of tokens in the current sentence"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable query vector for task-specific embedding"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4475": {
+            "_surface": {
+                "text": "Du",
+                "unicode_name": "Du"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jingfei Du"
+                    }
+                ]
+            }
+        },
+        "484f": {
+            "_surface": {
+                "text": "HO",
+                "unicode_name": "HO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final text representation"
+                    }
+                ]
+            }
+        },
+        "4c69": {
+            "_surface": {
+                "text": "Li",
+                "unicode_name": "Li"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wei Li"
+                    }
+                ]
+            }
+        },
+        "4e67": {
+            "_surface": {
+                "text": "Ng",
+                "unicode_name": "Ng"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Andrew Y. Ng"
+                    }
+                ]
+            }
+        },
+        "5169": {
+            "_surface": {
+                "text": "Qi",
+                "unicode_name": "Qi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Peng Qi"
+                    }
+                ]
+            }
+        },
+        "5369": {
+            "_surface": {
+                "text": "Si",
+                "unicode_name": "Si"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shijing Si"
+                    }
+                ]
+            }
+        },
+        "5435": {
+            "_surface": {
+                "text": "T5",
+                "unicode_name": "T5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reforms all NLP tasks into a unified text-to-text format"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    }
+                ]
+            }
+        },
+        "5775": {
+            "_surface": {
+                "text": "Wu",
+                "unicode_name": "Wu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jean Wu"
+                    }
+                ]
+            }
+        },
+        "7468": {
+            "_surface": {
+                "text": "th"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax operator"
+                    }
+                ]
+            }
+        },
+        "47756f": {
+            "_surface": {
+                "text": "Guo",
+                "unicode_name": "Guo"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "486f69": {
+            "_surface": {
+                "text": "Hoi",
+                "unicode_name": "Hoi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Steven Hoi"
+                    }
+                ]
+            }
+        },
+        "4c6565": {
+            "_surface": {
+                "text": "Lee",
+                "unicode_name": "Lee"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Katherine Lee"
+                    }
+                ]
+            }
+        },
+        "4c696e": {
+            "_surface": {
+                "text": "Lin",
+                "unicode_name": "Lin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zhouhan Lin"
+                    }
+                ]
+            }
+        },
+        "4c6975": {
+            "_surface": {
+                "text": "Liu",
+                "unicode_name": "Liu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Peter J. Liu"
+                    }
+                ]
+            }
+        },
+        "4f7474": {
+            "_surface": {
+                "text": "Ott",
+                "unicode_name": "Ott"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Myle Ott"
+                    }
+                ]
+            }
+        },
+        "537072": {
+            "_surface": {
+                "text": "Spr",
+                "unicode_name": "Spr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spearman correlation"
+                    }
+                ]
+            }
+        },
+        "546169": {
+            "_surface": {
+                "text": "Tai",
+                "unicode_name": "Tai"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kai Sheng Tai"
+                    }
+                ]
+            }
+        },
+        "54616e": {
+            "_surface": {
+                "text": "Tan",
+                "unicode_name": "Tan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shawn Tan"
+                    }
+                ]
+            }
+        },
+        "e284b0": {
+            "_surface": {
+                "text": "ℰ",
+                "unicode_name": "SCRIPT CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Edge set in syntax tree"
+                    }
+                ]
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element-wise production operator"
+                    }
+                ]
+            }
+        },
+        "42455254": {
+            "_surface": {
+                "text": "BERT",
+                "unicode_name": "BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-training language model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained language model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trained on free text and fine-tuned on specific downstream tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained on Masked Language Model (MLM) and Next Sentence Prediction (NSP) tasks"
+                    }
+                ]
+            }
+        },
+        "4368656e": {
+            "_surface": {
+                "text": "Chen",
+                "unicode_name": "Chen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Danqi Chen"
+                    }
+                ]
+            }
+        },
+        "436f4c41": {
+            "_surface": {
+                "text": "CoLA",
+                "unicode_name": "CoLA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for examining if a sentence conforms to English grammar"
+                    }
+                ]
+            }
+        },
+        "474c5545": {
+            "_surface": {
+                "text": "GLUE",
+                "unicode_name": "GLUE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "General Language Understanding Evaluation"
+                    }
+                ]
+            }
+        },
+        "4a6f7479": {
+            "_surface": {
+                "text": "Joty",
+                "unicode_name": "Joty"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shafiq Joty"
+                    }
+                ]
+            }
+        },
+        "4c495341": {
+            "_surface": {
+                "text": "LISA",
+                "unicode_name": "LISA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model with syntax enhancement"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linguistically-Informed Self-Attention"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linguistically-informed self-attention"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Replaces one attention head in BERT-Base with a bi-affine attention head"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model that learns multi-head self-attention in a multi-task learning framework"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM",
+                "unicode_name": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "4c657679": {
+            "_surface": {
+                "text": "Levy",
+                "unicode_name": "Levy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Omer Levy"
+                    }
+                ]
+            }
+        },
+        "5368656e": {
+            "_surface": {
+                "text": "Shen",
+                "unicode_name": "Shen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dinghan Shen"
+                    }
+                ]
+            }
+        },
+        "55554153": {
+            "_surface": {
+                "text": "UUAS",
+                "unicode_name": "UUAS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Undirected attachment score"
+                    }
+                ]
+            }
+        },
+        "57616e67": {
+            "_surface": {
+                "text": "Wang",
+                "unicode_name": "Wang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Guoyin Wang"
+                    }
+                ]
+            }
+        },
+        "5a686f75": {
+            "_surface": {
+                "text": "Zhou",
+                "unicode_name": "Zhou"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yanqi Zhou"
+                    }
+                ]
+            }
+        },
+        "64617461": {
+            "_surface": {
+                "text": "data",
+                "unicode_name": "data"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input examples used for training and evaluation"
+                    }
+                ]
+            }
+        },
+        "64697374": {
+            "_surface": {
+                "text": "dist"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance between two nodes in a syntax tree"
+                    }
+                ]
+            }
+        },
+        "6d61736b": {
+            "_surface": {
+                "text": "mask",
+                "unicode_name": "mask"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Different categories of masks: parent mask, child mask, sibling mask, pairwise mask"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Masks used to guide the model in the self-attention layer"
+                    }
+                ]
+            }
+        },
+        "70616972": {
+            "_surface": {
+                "text": "pair"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7461736b": {
+            "_surface": {
+                "text": "task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task-specific embedding"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node set in syntax tree"
+                    }
+                ]
+            }
+        },
+        "416e646f72": {
+            "_surface": {
+                "text": "Andor",
+                "unicode_name": "Andor"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Daniel Andor"
+                    }
+                ]
+            }
+        },
+        "436172696e": {
+            "_surface": {
+                "text": "Carin",
+                "unicode_name": "Carin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lawrence Carin"
+                    }
+                ]
+            }
+        },
+        "4368696c64": {
+            "_surface": {
+                "text": "Child",
+                "unicode_name": "Child"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4765204c69": {
+            "_surface": {
+                "text": "Ge Li",
+                "unicode_name": "Ge Li"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "476f79616c": {
+            "_surface": {
+                "text": "Goyal",
+                "unicode_name": "Goyal"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Naman Goyal"
+                    }
+                ]
+            }
+        },
+        "4875616e67": {
+            "_surface": {
+                "text": "Huang",
+                "unicode_name": "Huang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chinwei Huang"
+                    }
+                ]
+            }
+        },
+        "4a6f736869": {
+            "_surface": {
+                "text": "Joshi",
+                "unicode_name": "Joshi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mandar Joshi"
+                    }
+                ]
+            }
+        },
+        "4b6c65696e": {
+            "_surface": {
+                "text": "Klein",
+                "unicode_name": "Klein"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dan Klein"
+                    }
+                ]
+            }
+        },
+        "4c65776973": {
+            "_surface": {
+                "text": "Lewis",
+                "unicode_name": "Lewis"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mike Lewis"
+                    }
+                ]
+            }
+        },
+        "506f747473": {
+            "_surface": {
+                "text": "Potts",
+                "unicode_name": "Potts"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Christopher Potts"
+                    }
+                ]
+            }
+        },
+        "5353542d32": {
+            "_surface": {
+                "text": "SST-2",
+                "unicode_name": "SST-2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for sentiment classification"
+                    }
+                ]
+            }
+        },
+        "5665726761": {
+            "_surface": {
+                "text": "Verga",
+                "unicode_name": "Verga"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pat Verga"
+                    }
+                ]
+            }
+        },
+        "5765697373": {
+            "_surface": {
+                "text": "Weiss",
+                "unicode_name": "Weiss"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "David Weiss"
+                    }
+                ]
+            }
+        },
+        "5a68616e67": {
+            "_surface": {
+                "text": "Zhang",
+                "unicode_name": "Zhang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Yuhao Zhang"
+                    }
+                ]
+            }
+        },
+        "717461736b": {
+            "_surface": {
+                "text": "qtask",
+                "unicode_name": "qtask"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task-related learnable query embedding vector"
+                    }
+                ]
+            }
+        },
+        "73636f7265": {
+            "_surface": {
+                "text": "score",
+                "unicode_name": "score"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance metric"
+                    }
+                ]
+            }
+        },
+        "436875616e67": {
+            "_surface": {
+                "text": "Chuang",
+                "unicode_name": "Chuang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jason Chuang"
+                    }
+                ]
+            }
+        },
+        "4d6174656e61": {
+            "_surface": {
+                "text": "Matena",
+                "unicode_name": "Matena"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Michael Matena"
+                    }
+                ]
+            }
+        },
+        "4e6172616e67": {
+            "_surface": {
+                "text": "Narang",
+                "unicode_name": "Narang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sharan Narang"
+                    }
+                ]
+            }
+        },
+        "4e677579656e": {
+            "_surface": {
+                "text": "Nguyen",
+                "unicode_name": "Nguyen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Xuan-Phi Nguyen"
+                    }
+                ]
+            }
+        },
+        "53616368616e": {
+            "_surface": {
+                "text": "Sachan",
+                "unicode_name": "Sachan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Devendra Singh Sachan"
+                    }
+                ]
+            }
+        },
+        "536f63686572": {
+            "_surface": {
+                "text": "Socher",
+                "unicode_name": "Socher"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Richard Socher"
+                    }
+                ]
+            }
+        },
+        "59616e205875": {
+            "_surface": {
+                "text": "Yan Xu",
+                "unicode_name": "Yan Xu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d616e6e696e67": {
+            "_surface": {
+                "text": "Manning",
+                "unicode_name": "Manning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Christopher D. Manning"
+                    }
+                ]
+            }
+        },
+        "4d61736b417474": {
+            "_surface": {
+                "text": "MaskAtt"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "526f4245525461": {
+            "_surface": {
+                "text": "RoBERTa",
+                "unicode_name": "RoBERTa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Improved variant of BERT"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "No NSP task, but considers full-sentence mechanism"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utilizes dynamic masks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Larger training data size compared to BERT"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    }
+                ]
+            }
+        },
+        "526f6265727473": {
+            "_surface": {
+                "text": "Roberts",
+                "unicode_name": "Roberts"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adam Roberts"
+                    }
+                ]
+            }
+        },
+        "5368617a656572": {
+            "_surface": {
+                "text": "Shazeer",
+                "unicode_name": "Shazeer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Noam Shazeer"
+                    }
+                ]
+            }
+        },
+        "536f72646f6e69": {
+            "_surface": {
+                "text": "Sordoni",
+                "unicode_name": "Sordoni"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alessandro Sordoni"
+                    }
+                ]
+            }
+        },
+        "56617377616e69": {
+            "_surface": {
+                "text": "Vaswani",
+                "unicode_name": "Vaswani"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ashish Vaswani"
+                    }
+                ]
+            }
+        },
+        "5a6869204a696e": {
+            "_surface": {
+                "text": "Zhi Jin",
+                "unicode_name": "Zhi Jin"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7369626c696e67": {
+            "_surface": {
+                "text": "sibling",
+                "unicode_name": "sibling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relationship in syntax trees"
+                    }
+                ]
+            }
+        },
+        "4669677572652031": {
+            "_surface": {
+                "text": "Figure 1",
+                "unicode_name": "Figure 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Overall Architecture of Syntax-BERT"
+                    }
+                ]
+            }
+        },
+        "4669677572652032": {
+            "_surface": {
+                "text": "Figure 2",
+                "unicode_name": "Figure 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(a)"
+                        ],
+                        "arity": 0,
+                        "description": "Visualization of the relationship between word pair ('anyone', '.')"
+                    }
+                ]
+            }
+        },
+        "48616d696c746f6e": {
+            "_surface": {
+                "text": "Hamilton",
+                "unicode_name": "Hamilton"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "William Hamilton"
+                    }
+                ]
+            }
+        },
+        "48616f2050656e67": {
+            "_surface": {
+                "text": "Hao Peng",
+                "unicode_name": "Hao Peng"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c696c69204d6f75": {
+            "_surface": {
+                "text": "Lili Mou",
+                "unicode_name": "Lili Mou"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d61726e65666665": {
+            "_surface": {
+                "text": "Marneffe",
+                "unicode_name": "Marneffe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Marie-Catherine de Marneffe"
+                    }
+                ]
+            }
+        },
+        "4d6343616c6c756d": {
+            "_surface": {
+                "text": "McCallum",
+                "unicode_name": "McCallum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Andrew McCallum"
+                    }
+                ]
+            }
+        },
+        "53746f79616e6f76": {
+            "_surface": {
+                "text": "Stoyanov",
+                "unicode_name": "Stoyanov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Veselin Stoyanov"
+                    }
+                ]
+            }
+        },
+        "5374727562656c6c": {
+            "_surface": {
+                "text": "Strubell",
+                "unicode_name": "Strubell"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Emma Strubell"
+                    }
+                ]
+            }
+        },
+        "54352d4c61726765": {
+            "_surface": {
+                "text": "T5-Large",
+                "unicode_name": "T5-Large"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Has more advanced performances"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    }
+                ]
+            }
+        },
+        "546f706963417474": {
+            "_surface": {
+                "text": "TopicAtt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fine-grained aggregation of representations from different sub-networks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Emphasizes task-oriented knowledge captured by sub-networks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Topical attention layer"
+                    }
+                ]
+            }
+        },
+        "616e636573746f72": {
+            "_surface": {
+                "text": "ancestor",
+                "unicode_name": "ancestor"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relationship in syntax trees"
+                    }
+                ]
+            }
+        },
+        "617070656e646978": {
+            "_surface": {
+                "text": "appendix",
+                "unicode_name": "appendix"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section containing a complete description"
+                    }
+                ]
+            }
+        },
+        "416c65782057616e67": {
+            "_surface": {
+                "text": "Alex Wang",
+                "unicode_name": "Alex Wang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "424552542d42617365": {
+            "_surface": {
+                "text": "BERT-Base",
+                "unicode_name": "BERT-Base"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Base model for Syntax-BERT-Base"
+                    }
+                ]
+            }
+        },
+        "436f757276696c6c65": {
+            "_surface": {
+                "text": "Courville",
+                "unicode_name": "Courville"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Aaron Courville"
+                    }
+                ]
+            }
+        },
+        "4d696e205a68616e67": {
+            "_surface": {
+                "text": "Min Zhang",
+                "unicode_name": "Min Zhang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d75687561205a6875": {
+            "_surface": {
+                "text": "Muhua Zhu",
+                "unicode_name": "Muhua Zhu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4f6d6572204c657679": {
+            "_surface": {
+                "text": "Omer Levy",
+                "unicode_name": "Omer Levy"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "506572656c7967696e": {
+            "_surface": {
+                "text": "Perelygin",
+                "unicode_name": "Perelygin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Alex Perelygin"
+                    }
+                ]
+            }
+        },
+        "5368756c6569204d61": {
+            "_surface": {
+                "text": "Shulei Ma",
+                "unicode_name": "Shulei Ma"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "547265652d4c53544d": {
+            "_surface": {
+                "text": "Tree-LSTM",
+                "unicode_name": "Tree-LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tree-structured network"
+                    }
+                ]
+            }
+        },
+        "597565205a68616e67": {
+            "_surface": {
+                "text": "Yue Zhang",
+                "unicode_name": "Yue Zhang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6f6666737072696e67": {
+            "_surface": {
+                "text": "offspring",
+                "unicode_name": "offspring"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relationship in syntax trees"
+                    }
+                ]
+            }
+        },
+        "46656c69782048696c6c": {
+            "_surface": {
+                "text": "Felix Hill",
+                "unicode_name": "Felix Hill"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "47756f20657420616c2e": {
+            "_surface": {
+                "text": "Guo et al.",
+                "unicode_name": "Guo et al."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a696e67626f205a6875": {
+            "_surface": {
+                "text": "Jingbo Zhu",
+                "unicode_name": "Jingbo Zhu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d6163436172746e6579": {
+            "_surface": {
+                "text": "MacCartney",
+                "unicode_name": "MacCartney"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bill MacCartney"
+                    }
+                ]
+            }
+        },
+        "50656e6e696e67746f6e": {
+            "_surface": {
+                "text": "Pennington",
+                "unicode_name": "Pennington"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jeffrey Pennington"
+                    }
+                ]
+            }
+        },
+        "5a687520657420616c2e": {
+            "_surface": {
+                "text": "Zhu et al.",
+                "unicode_name": "Zhu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2013"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of dependency trees paper"
+                    }
+                ]
+            }
+        },
+        "636865636b706f696e74": {
+            "_surface": {
+                "text": "checkpoint",
+                "unicode_name": "checkpoint"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    }
+                ]
+            }
+        },
+        "6368696c64206d61736b": {
+            "_surface": {
+                "text": "child mask",
+                "unicode_name": "child mask"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 1 if node i is the child or offspring of node j at a certain distance d"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mask reflecting the child or offspring relationship in a syntax tree"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 0 otherwise"
+                    }
+                ]
+            }
+        },
+        "706172616d6574657273": {
+            "_surface": {
+                "text": "parameters",
+                "unicode_name": "parameters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model parameters"
+                    }
+                ]
+            }
+        },
+        "47756f20657420616c2e20": {
+            "_surface": {
+                "text": "Guo et al. ",
+                "unicode_name": "Guo et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of Star-transformer"
+                    }
+                ]
+            }
+        },
+        "4c6c696f6e204a6f6e6573": {
+            "_surface": {
+                "text": "Llion Jones",
+                "unicode_name": "Llion Jones"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e696b69205061726d6172": {
+            "_surface": {
+                "text": "Niki Parmar",
+                "unicode_name": "Niki Parmar"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "53656374696f6e20332e31": {
+            "_surface": {
+                "text": "Section 3.1",
+                "unicode_name": "Section 3.1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Architecture of Syntax-BERT"
+                    }
+                ]
+            }
+        },
+        "53656374696f6e20332e32": {
+            "_surface": {
+                "text": "Section 3.2",
+                "unicode_name": "Section 3.2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Masks induced by syntax tree"
+                    }
+                ]
+            }
+        },
+        "53656374696f6e20332e33": {
+            "_surface": {
+                "text": "Section 3.3",
+                "unicode_name": "Section 3.3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Details of syntactic attention layers"
+                    }
+                ]
+            }
+        },
+        "53756272616d616e69616e": {
+            "_surface": {
+                "text": "Subramanian",
+                "unicode_name": "Subramanian"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vivek Subramanian"
+                    }
+                ]
+            }
+        },
+        "53796e7461782d42455254": {
+            "_surface": {
+                "text": "Syntax-BERT",
+                "unicode_name": "Syntax-BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shows generalization capability on smaller datasets"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model with syntax enhancement"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework for incorporating syntax trees into pre-trained Transformers"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework for incorporating syntax trees into pre-trained Transformer models"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changes flow of information in BERT network via syntax-aware self-attention mechanism"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variant of pre-trained Transformer models"
+                    }
+                ]
+            }
+        },
+        "5472616e73666f726d6572": {
+            "_surface": {
+                "text": "Transformer",
+                "unicode_name": "Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Architecture used in pre-trained models"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "More efficient than RNNs"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Architecture used in pre-training language models"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Based on self-attention mechanism"
+                    }
+                ]
+            }
+        },
+        "59756e68616920546f6e67": {
+            "_surface": {
+                "text": "Yunhai Tong",
+                "unicode_name": "Yunhai Tong"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59756e6c756e2059616e67": {
+            "_surface": {
+                "text": "Yunlun Yang",
+                "unicode_name": "Yunlun Yang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a6574746c656d6f796572": {
+            "_surface": {
+                "text": "Zettlemoyer",
+                "unicode_name": "Zettlemoyer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Luke Zettlemoyer"
+                    }
+                ]
+            }
+        },
+        "5a6875206574c2a0616c2e": {
+            "_surface": {
+                "text": "Zhu et al.",
+                "unicode_name": "Zhu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2013"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of dependency trees paper"
+                    }
+                ]
+            }
+        },
+        "6167677265676174696f6e": {
+            "_surface": {
+                "text": "aggregation",
+                "unicode_name": "aggregation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Combining multiple inputs into a single output"
+                    }
+                ]
+            }
+        },
+        "706172656e74206d61736b": {
+            "_surface": {
+                "text": "parent mask",
+                "unicode_name": "parent mask"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 1 if node i is the parent or ancestor of node j at a certain distance d"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 0 otherwise"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mask reflecting the parent or ancestor relationship in a syntax tree"
+                    }
+                ]
+            }
+        },
+        "7375622d6e6574776f726b": {
+            "_surface": {
+                "text": "sub-network",
+                "unicode_name": "sub-network"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntax-based sub-network typologies in the self-attention layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Shares model parameters with the global pre-trained self-attention layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reflects a specific aspect of the syntax tree"
+                    }
+                ]
+            }
+        },
+        "4368696c6420657420616c2e": {
+            "_surface": {
+                "text": "Child et al.",
+                "unicode_name": "Child et al."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e6f616d205368617a656572": {
+            "_surface": {
+                "text": "Noam Shazeer",
+                "unicode_name": "Noam Shazeer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "526f42455254612d42617365": {
+            "_surface": {
+                "text": "RoBERTa-Base",
+                "unicode_name": "RoBERTa-Base"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model for Syntax-RoBERTa-Base"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    }
+                ]
+            }
+        },
+        "53756e6461726172616d616e": {
+            "_surface": {
+                "text": "Sundararaman",
+                "unicode_name": "Sundararaman"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dhanasekar Sundararaman"
+                    }
+                ]
+            }
+        },
+        "7072652d747261696e696e67": {
+            "_surface": {
+                "text": "pre-training",
+                "unicode_name": "pre-training"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training a model on a large corpus of data before fine-tuning for specific tasks"
+                    }
+                ]
+            }
+        },
+        "7369626c696e67206d61736b": {
+            "_surface": {
+                "text": "sibling mask",
+                "unicode_name": "sibling mask"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mask reflecting the sibling relationship in a syntax tree"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 0 otherwise"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 1 if nodes i and j have a lowest common ancestor at a certain distance d"
+                    }
+                ]
+            }
+        },
+        "7375622d6e6574776f726b73": {
+            "_surface": {
+                "text": "sub-networks",
+                "unicode_name": "sub-networks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntax-Transformer sub-networks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decomposed self-attention networks"
+                    }
+                ]
+            }
+        },
+        "416964616e204e20476f6d657a": {
+            "_surface": {
+                "text": "Aidan N Gomez",
+                "unicode_name": "Aidan N Gomez"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4368696c6420657420616c2e20": {
+            "_surface": {
+                "text": "Child et al. ",
+                "unicode_name": "Child et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of generating long sequences with sparse transformers"
+                    }
+                ]
+            }
+        },
+        "47c3bc72656c20657420616c2e": {
+            "_surface": {
+                "text": "Gürel et al.",
+                "unicode_name": "Gürel et al."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a69616e6720657420616c2e20": {
+            "_surface": {
+                "text": "Jiang et al. ",
+                "unicode_name": "Jiang et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of supervised treebank conversion: data and approaches"
+                    }
+                ]
+            }
+        },
+        "4e677579656e20657420616c2e": {
+            "_surface": {
+                "text": "Nguyen et al.",
+                "unicode_name": "Nguyen et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of hierarchical accumulation approach paper"
+                    }
+                ]
+            }
+        },
+        "4e696b697461204e616e676961": {
+            "_surface": {
+                "text": "Nikita Nangia",
+                "unicode_name": "Nikita Nangia"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "53616368616e20657420616c2e": {
+            "_surface": {
+                "text": "Sachan et al.",
+                "unicode_name": "Sachan et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of paper investigating strategies for incorporating dependency structures into pre-trained language models"
+                    }
+                ]
+            }
+        },
+        "57656e6c69616e67204368656e": {
+            "_surface": {
+                "text": "Wenliang Chen",
+                "unicode_name": "Wenliang Chen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59756e636875616e204368656e": {
+            "_surface": {
+                "text": "Yunchuan Chen",
+                "unicode_name": "Yunchuan Chen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a68692d486f6e672044656e67": {
+            "_surface": {
+                "text": "Zhi-Hong Deng",
+                "unicode_name": "Zhi-Hong Deng"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7061697277697365206d61736b": {
+            "_surface": {
+                "text": "pairwise mask",
+                "unicode_name": "pairwise mask"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mask capturing the interaction of multiple sentences in a pairwise inference task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 1 if both nodes i and j are from different sentences"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value is 0 otherwise"
+                    }
+                ]
+            }
+        },
+        "4164696e612057696c6c69616d73": {
+            "_surface": {
+                "text": "Adina Williams",
+                "unicode_name": "Adina Williams"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4173686973682056617377616e69": {
+            "_surface": {
+                "text": "Ashish Vaswani",
+                "unicode_name": "Ashish Vaswani"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "426173656c696e65206d6f64656c": {
+            "_surface": {
+                "text": "Baseline model",
+                "unicode_name": "Baseline model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model without syntax enhancement"
+                    }
+                ]
+            }
+        },
+        "426f776d616e20657420616c2e20": {
+            "_surface": {
+                "text": "Bowman et al. ",
+                "unicode_name": "Bowman et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a large annotated corpus for learning natural language inference"
+                    }
+                ]
+            }
+        },
+        "4465766c696e20657420616c2e20": {
+            "_surface": {
+                "text": "Devlin et al. ",
+                "unicode_name": "Devlin et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of Bert: Pre-training of deep bidirectional transformers for language understanding"
+                    }
+                ]
+            }
+        },
+        "47c3bc72656c20657420616c2e20": {
+            "_surface": {
+                "text": "Gürel et al. ",
+                "unicode_name": "Gürel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of an anatomy of graph neural networks going deep via the lens of mutual information: exponential decay vs. full preservation"
+                    }
+                ]
+            }
+        },
+        "4a756c69616e204d69636861656c": {
+            "_surface": {
+                "text": "Julian Michael",
+                "unicode_name": "Julian Michael"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c4953412d424552542d42617365": {
+            "_surface": {
+                "text": "LISA-BERT-Base",
+                "unicode_name": "LISA-BERT-Base"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Replaces one attention head in BERT-Base with a bi-affine attention head"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model with syntax enhancement"
+                    }
+                ]
+            }
+        },
+        "4e677579656e206574c2a0616c2e": {
+            "_surface": {
+                "text": "Nguyen et al.",
+                "unicode_name": "Nguyen et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of hierarchical accumulation approach paper"
+                    }
+                ]
+            }
+        },
+        "53616368616e206574c2a0616c2e": {
+            "_surface": {
+                "text": "Sachan et al.",
+                "unicode_name": "Sachan et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of paper investigating strategies for incorporating dependency structures into pre-trained language models"
+                    }
+                ]
+            }
+        },
+        "61626c6174696f6e207374756479": {
+            "_surface": {
+                "text": "ablation study",
+                "unicode_name": "ablation study"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Experiment to analyze the impact of removing certain components"
+                    }
+                ]
+            }
+        },
+        "726570726573656e746174696f6e": {
+            "_surface": {
+                "text": "representation",
+                "unicode_name": "representation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Calculated output of the model"
+                    }
+                ]
+            }
+        },
+        "c581756b61737a204b6169736572": {
+            "_surface": {
+                "text": "Łukasz Kaiser",
+                "unicode_name": "Łukasz Kaiser"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "416d616e70726565742053696e6768": {
+            "_surface": {
+                "text": "Amanpreet Singh",
+                "unicode_name": "Amanpreet Singh"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a616b6f622055737a6b6f72656974": {
+            "_surface": {
+                "text": "Jakob Uszkoreit",
+                "unicode_name": "Jakob Uszkoreit"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a61776168617220657420616c2e20": {
+            "_surface": {
+                "text": "Jawahar et al. ",
+                "unicode_name": "Jawahar et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of What does BERT learn about the structure of language?"
+                    }
+                ]
+            }
+        },
+        "5374727562656c6c20657420616c2e": {
+            "_surface": {
+                "text": "Strubell et al.",
+                "unicode_name": "Strubell et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of LISA paper"
+                    }
+                ]
+            }
+        },
+        "54696d6520636f6d706c6578697479": {
+            "_surface": {
+                "text": "Time complexity",
+                "unicode_name": "Time complexity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Analysis"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Analysis of the time complexity of Syntax-BERT"
+                    }
+                ]
+            }
+        },
+        "4368656e20616e64204d616e6e696e67": {
+            "_surface": {
+                "text": "Chen and Manning",
+                "unicode_name": "Chen and Manning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of constituency trees paper"
+                    }
+                ]
+            }
+        },
+        "496c6c696120506f6c6f73756b68696e": {
+            "_surface": {
+                "text": "Illia Polosukhin",
+                "unicode_name": "Illia Polosukhin"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "53616d75656c20522e20426f776d616e": {
+            "_surface": {
+                "text": "Samuel R. Bowman",
+                "unicode_name": "Samuel R. Bowman"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "537061636520636f6d706c6578697479": {
+            "_surface": {
+                "text": "Space complexity",
+                "unicode_name": "Space complexity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Analysis"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Analysis of the space complexity of the models"
+                    }
+                ]
+            }
+        },
+        "5374727562656c6c206574c2a0616c2e": {
+            "_surface": {
+                "text": "Strubell et al.",
+                "unicode_name": "Strubell et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of LISA paper"
+                    }
+                ]
+            }
+        },
+        "5374727563747572616c2050726f6265": {
+            "_surface": {
+                "text": "Structural Probe",
+                "unicode_name": "Structural Probe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method to test if models capture syntactic information"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation method"
+                    }
+                ]
+            }
+        },
+        "4368656e20616e64204d616e6e696e6720": {
+            "_surface": {
+                "text": "Chen and Manning ",
+                "unicode_name": "Chen and Manning "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a fast and accurate dependency parser using neural networks"
+                    }
+                ]
+            }
+        },
+        "50656e6e696e67746f6e20657420616c2e": {
+            "_surface": {
+                "text": "Pennington et al.",
+                "unicode_name": "Pennington et al."
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "53796e7461782d42455254206d6f64656c": {
+            "_surface": {
+                "text": "Syntax-BERT model",
+                "unicode_name": "Syntax-BERT model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model with syntax enhancement"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    }
+                ]
+            }
+        },
+        "48657769747420616e64204d616e6e696e67": {
+            "_surface": {
+                "text": "Hewitt and Manning",
+                "unicode_name": "Hewitt and Manning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of paper designing probes to examine the syntactic information in a model"
+                    }
+                ]
+            }
+        },
+        "4b6c65696e20616e64204d616e6e696e6720": {
+            "_surface": {
+                "text": "Klein and Manning ",
+                "unicode_name": "Klein and Manning "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2003)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a generative constituent parser"
+                    }
+                ]
+            }
+        },
+        "53796e7461782d5472616e73666f726d6572": {
+            "_surface": {
+                "text": "Syntax-Transformer",
+                "unicode_name": "Syntax-Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model with syntax enhancement"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    }
+                ]
+            }
+        },
+        "48657769747420616e64204d616e6e696e6720": {
+            "_surface": {
+                "text": "Hewitt and Manning ",
+                "unicode_name": "Hewitt and Manning "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a structural probe for finding syntax in word representations"
+                    }
+                ]
+            }
+        },
+        "53756e6461726172616d616e20657420616c2e": {
+            "_surface": {
+                "text": "Sundararaman et al.",
+                "unicode_name": "Sundararaman et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of Syntax-Infused Transformer paper"
+                    }
+                ]
+            }
+        },
+        "53796e7461782d526f42455254612d42617365": {
+            "_surface": {
+                "text": "Syntax-RoBERTa-Base",
+                "unicode_name": "Syntax-RoBERTa-Base"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Achieves an average GLUE score of 82.1"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Improved variant of RoBERTa with syntax enhancement"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lifts 1.3 scores from a standard RoBERTa-Base"
+                    }
+                ]
+            }
+        },
+        "53796e7461782d6177617265206d6f64656c73": {
+            "_surface": {
+                "text": "Syntax-aware models",
+                "unicode_name": "Syntax-aware models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Models with syntax enhancement"
+                    }
+                ]
+            }
+        },
+        "56616e696c6c61205472616e73666f726d6572": {
+            "_surface": {
+                "text": "Vanilla Transformer",
+                "unicode_name": "Vanilla Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model without syntax enhancement"
+                    }
+                ]
+            }
+        },
+        "76616e696c6c61205472616e73666f726d6572": {
+            "_surface": {
+                "text": "vanilla Transformer",
+                "unicode_name": "vanilla Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline Transformer model"
+                    }
+                ]
+            }
+        },
+        "53756e6461726172616d616e206574c2a0616c2e": {
+            "_surface": {
+                "text": "Sundararaman et al.",
+                "unicode_name": "Sundararaman et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of Syntax-Infused Transformer paper"
+                    }
+                ]
+            }
+        },
+        "4c696e656172207472616e73666f726d6174696f6e": {
+            "_surface": {
+                "text": "Linear transformation",
+                "unicode_name": "Linear transformation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformation learned for the embedding space"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformation"
+                    }
+                ]
+            }
+        },
+        "546f706963616c20617474656e74696f6e206c61796572": {
+            "_surface": {
+                "text": "Topical attention layer",
+                "unicode_name": "Topical attention layer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer in Syntax-BERT"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer in Syntax-BERT that performs fine-grained aggregation"
+                    }
+                ]
+            }
+        },
+        "746f706963616c20617474656e74696f6e2073636f7265": {
+            "_surface": {
+                "text": "topical attention score",
+                "unicode_name": "topical attention score"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention score for the highlighted word pair in Syntax-Transformer"
+                    }
+                ]
+            }
+        },
+        "42692d616666696e6520617474656e74696f6e2068656164": {
+            "_surface": {
+                "text": "Bi-affine attention head",
+                "unicode_name": "Bi-affine attention head"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention mechanism"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention mechanism replacing one attention head in BERT-Base"
+                    }
+                ]
+            }
+        },
+        "73656e74696d656e7420636c617373696669636174696f6e": {
+            "_surface": {
+                "text": "sentiment classification",
+                "unicode_name": "sentiment classification"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task of classifying sentiment in text"
+                    }
+                ]
+            }
+        },
+        "53796e7461782d496e6675736564205472616e73666f726d6572": {
+            "_surface": {
+                "text": "Syntax-Infused Transformer",
+                "unicode_name": "Syntax-Infused Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model that feeds extra syntactic features into Transformer models explicitly"
+                    }
+                ]
+            }
+        },
+        "6e61747572616c206c616e677561676520696e666572656e6365": {
+            "_surface": {
+                "text": "natural language inference",
+                "unicode_name": "natural language inference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task of determining the logical relationship between two sentences"
+                    }
+                ]
+            }
+        },
+        "556e6469726563746564206174746163686d656e742073636f7265": {
+            "_surface": {
+                "text": "Undirected attachment score",
+                "unicode_name": "Undirected attachment score"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Percent of undirected edges placed correctly"
+                    }
+                ]
+            }
+        },
+        "4b6970657277617373657220616e642042616c6c65737465726f7320": {
+            "_surface": {
+                "text": "Kiperwasser and Ballesteros ",
+                "unicode_name": "Kiperwasser and Ballesteros "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of scheduled multi-task learning: from syntax to translation"
+                    }
+                ]
+            }
+        },
+        "5374616e666f726420446570656e64656e6369657320666f726d616c69736d": {
+            "_surface": {
+                "text": "Stanford Dependencies formalism",
+                "unicode_name": "Stanford Dependencies formalism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Formalism for representing syntactic knowledge"
+                    }
+                ]
+            }
+        }
+    }
+}

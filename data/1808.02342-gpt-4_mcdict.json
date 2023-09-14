@@ -1,0 +1,836 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the input vector"
+                    },
+                    {
+                        "affixes": [
+                            "_f"
+                        ],
+                        "arity": 0,
+                        "description": "f-divergence"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expectation operator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator used in M step of EM algorithm"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_p"
+                        ],
+                        "arity": 0,
+                        "description": "Generalization loss"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training loss"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model order"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Complexity of the specific model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of layers in a multi-layer network"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of occurrences of value in the data"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of training points"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of inputs in unsupervised learning tasks"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transposition operator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Discriminator function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Statistic in Neyman-Pearson sense"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrices used at the preceding layers"
+                    },
+                    {
+                        "affixes": [
+                            "_L"
+                        ],
+                        "arity": 0,
+                        "description": "Weights used at the last layer to linearly combine the features"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function used to define f-divergences"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Concave increasing function used in definition of f-divergences"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function used in design criterion of discriminator"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summation index"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of summation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of discriminative models"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameterized model distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "True joint distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Posterior distribution of hidden variables given observation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conditional distribution defining the decoder in an autoencoder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mapping that includes not only the encoder but also the communication channel in an autoencoder"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distribution over hidden variables in variational autoencoder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variational distribution over hidden variables"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distribution equal to posterior distribution of hidden variables given observation under the model parameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variational distribution with respect to which ELBO is maximized in M step of EM algorithm"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variational distribution over the hidden variables"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distribution for which ELBO is maximized in E step of EM algorithm"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Output variables"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Output variables, also known as dependent variables, labels, or responses"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Single example from the mini-batch"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Predicted output"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output distributed under the model"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Optimal predictor"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Predictor"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weights of the model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of learnable weights"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Input variables"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Inputs in unsupervised learning tasks"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Input variables, also known as covariates, domain points, or explanatory variables"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Single example from the mini-batch"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input message in an autoencoder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unobserved input"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Observation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input to the model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inputs in unsupervised learning tasks"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden or latent variables for each data point"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lower dimensional representation used for denoising the input signal"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Randomly selected latent variables from fixed variational distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transmitted codewords and received signals in an autoencoder"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variables randomly sampled from current distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden or latent variables"
+                    }
+                ],
+                "roman": []
+            }
+        },
+        "4b4c": {
+            "_surface": {
+                "text": "KL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kullback-Leibler (KL) divergence"
+                    }
+                ]
+            }
+        },
+        "6c6e": {
+            "_surface": {
+                "text": "ln"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural logarithm operator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator used in M step of EM algorithm"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learning rate"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Current iterate for model vector in EM algorithm"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model parameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value at which ELBO is tight"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learnable parameter vector"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vector parameterizing a family of probability distributions"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial value for model vector in EM algorithm"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sigmoid function"
+                    }
+                ]
+            }
+        },
+        "cf86": {
+            "_surface": {
+                "text": "φ",
+                "unicode_name": "GREEK SMALL LETTER PHI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variational parameters"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameter in discriminator function"
+                    }
+                ]
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fixed features of the input"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Fixed function of the input"
+                    }
+                ]
+            }
+        },
+        "657870": {
+            "_surface": {
+                "text": "exp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Exponential function"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Minimization operator"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function to be maximized in E and M steps of EM algorithm"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evidence Lower BOund (ELBO)"
+                    }
+                ]
+            }
+        },
+        "e28493": {
+            "_surface": {
+                "text": "ℓ",
+                "unicode_name": "SCRIPT SMALL L"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    }
+                ]
+            }
+        },
+        "e28887": {
+            "_surface": {
+                "text": "∇",
+                "unicode_name": "NABLA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gradient operator"
+                    }
+                ]
+            }
+        },
+        "f09d929f": {
+            "_surface": {
+                "text": "𝒟",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training set in unsupervised learning"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training set"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Empirical distribution or histogram of the data"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zero-mean Gaussian noise"
+                    }
+                ]
+            }
+        },
+        "6172676d6178": {
+            "_surface": {
+                "text": "argmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Argument of the maximum"
+                    }
+                ]
+            }
+        },
+        "6172676d696e": {
+            "_surface": {
+                "text": "argmin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Argument of the minimum"
+                    }
+                ]
+            }
+        },
+        "6d6178696d697a65": {
+            "_surface": {
+                "text": "maximize"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximization operator"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator used in E and M steps of EM algorithm"
+                    }
+                ]
+            }
+        }
+    }
+}

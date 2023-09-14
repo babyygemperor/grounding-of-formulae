@@ -1,0 +1,2334 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "32": {
+            "_surface": {
+                "text": "2",
+                "unicode_name": "DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of layers in the feedforward network"
+                    }
+                ]
+            }
+        },
+        "33": {
+            "_surface": {
+                "text": "3",
+                "unicode_name": "DIGIT THREE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kernel width"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Architecture"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information gain"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information gain"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Secondary learner"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Skip value"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Threshold parameter"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input text"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ordered sequence of tokens"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training dataset"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Action"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of tokens in the sequence"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Probability distribution over the next token"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Predicted value"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Estimation value"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Individual token in the sequence"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "3130": {
+            "_surface": {
+                "text": "10",
+                "unicode_name": "10"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",000"
+                        ],
+                        "arity": 0,
+                        "description": "Number of pairs in the dataset"
+                    }
+                ]
+            }
+        },
+        "3136": {
+            "_surface": {
+                "text": "16",
+                "unicode_name": "16"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Batch size"
+                    }
+                ]
+            }
+        },
+        "4947": {
+            "_surface": {
+                "text": "IG",
+                "unicode_name": "IG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information gain"
+                    }
+                ]
+            }
+        },
+        "4c4d": {
+            "_surface": {
+                "text": "LM",
+                "unicode_name": "LM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "707c": {
+            "_surface": {
+                "text": "p|",
+                "unicode_name": "p|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability"
+                    }
+                ]
+            }
+        },
+        "ce9b": {
+            "_surface": {
+                "text": "Λ",
+                "unicode_name": "GREEK CAPITAL LETTER LAMDA"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Perplexity of a given set of (sequence, next token) pairs"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pretrained model parameters"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameters of the language model"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Model parameters after one backpropagation step"
+                    }
+                ]
+            }
+        },
+        "cf80": {
+            "_surface": {
+                "text": "π",
+                "unicode_name": "GREEK SMALL LETTER PI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greedy policy"
+                    }
+                ]
+            }
+        },
+        "342e31": {
+            "_surface": {
+                "text": "4.1",
+                "unicode_name": "4.1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section in the research"
+                    }
+                ]
+            }
+        },
+        "343025": {
+            "_surface": {
+                "text": "40%",
+                "unicode_name": "40%"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Percentage of fewer batches"
+                    }
+                ]
+            }
+        },
+        "373638": {
+            "_surface": {
+                "text": "768",
+                "unicode_name": "768"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of GPT-2 byte-pair embeddings"
+                    }
+                ]
+            }
+        },
+        "434446": {
+            "_surface": {
+                "text": "CDF",
+                "unicode_name": "CDF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cumulative distribution function"
+                    }
+                ]
+            }
+        },
+        "494746": {
+            "_surface": {
+                "text": "IGF",
+                "unicode_name": "IGF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iterated information gain filtration"
+                    }
+                ]
+            }
+        },
+        "4d5345": {
+            "_surface": {
+                "text": "MSE",
+                "unicode_name": "MSE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean squared error"
+                    }
+                ]
+            }
+        },
+        "534744": {
+            "_surface": {
+                "text": "SGD",
+                "unicode_name": "SGD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stochastic gradient descent"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "70c2af": {
+            "_surface": {
+                "text": "p¯",
+                "unicode_name": "p¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "One-hot probability distribution"
+                    }
+                ]
+            }
+        },
+        "ceb231": {
+            "_surface": {
+                "text": "β1",
+                "unicode_name": "β1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "First momentum term for Adam optimizer"
+                    }
+                ]
+            }
+        },
+        "ceb232": {
+            "_surface": {
+                "text": "β2",
+                "unicode_name": "β2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second momentum term for Adam optimizer"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of formulas"
+                    }
+                ]
+            }
+        },
+        "31302d35": {
+            "_surface": {
+                "text": "10-5",
+                "unicode_name": "10-5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learning rate"
+                    }
+                ]
+            }
+        },
+        "4164616d": {
+            "_surface": {
+                "text": "Adam",
+                "unicode_name": "Adam"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A method for stochastic optimization"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimization algorithm"
+                    }
+                ]
+            }
+        },
+        "49494746": {
+            "_surface": {
+                "text": "IIGF",
+                "unicode_name": "IIGF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iterated information gain filtration"
+                    }
+                ]
+            }
+        },
+        "f09d9184": {
+            "_surface": {
+                "text": "𝑄",
+                "unicode_name": "MATHEMATICAL ITALIC CAPITAL Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Secondary learner"
+                    }
+                ]
+            }
+        },
+        "f09d929f": {
+            "_surface": {
+                "text": "𝒟",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training dataset"
+                    }
+                ]
+            }
+        },
+        "f09d92aa": {
+            "_surface": {
+                "text": "𝒪",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Objective set of training data"
+                    }
+                ]
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Test set of (sequence, next token) pairs"
+                    }
+                ]
+            }
+        },
+        "f09d96a0": {
+            "_surface": {
+                "text": "𝖠",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator A"
+                    }
+                ]
+            }
+        },
+        "f09d96aa": {
+            "_surface": {
+                "text": "𝖪",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator K"
+                    }
+                ]
+            }
+        },
+        "31302d367c": {
+            "_surface": {
+                "text": "10-6|",
+                "unicode_name": "10-6|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "10 to the power of -6"
+                    }
+                ]
+            }
+        },
+        "4172586976": {
+            "_surface": {
+                "text": "ArXiv",
+                "unicode_name": "ArXiv"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", abs/1910.03771"
+                        ],
+                        "arity": 0,
+                        "description": "Source and arXiv identifier of the research"
+                    }
+                ]
+            }
+        },
+        "426f6f6b73": {
+            "_surface": {
+                "text": "Books",
+                "unicode_name": "Books"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Corpus of books"
+                    }
+                ]
+            }
+        },
+        "ceb8e280b2": {
+            "_surface": {
+                "text": "θ′",
+                "unicode_name": "θ′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parameterization of the new language model after backpropagation"
+                    }
+                ]
+            }
+        },
+        "4e6174757265": {
+            "_surface": {
+                "text": "Nature",
+                "unicode_name": "Nature"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference to Huth et al. (2016)"
+                    }
+                ]
+            }
+        },
+        "35c39731302d35": {
+            "_surface": {
+                "text": "5×10-5",
+                "unicode_name": "5×10-5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learning rate"
+                    }
+                ]
+            }
+        },
+        "512d76616c7565": {
+            "_surface": {
+                "text": "Q-value",
+                "unicode_name": "Q-value"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized informativeness metric"
+                    }
+                ]
+            }
+        },
+        "636f6e74657874": {
+            "_surface": {
+                "text": "context",
+                "unicode_name": "context"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surrounding words or tokens"
+                    }
+                ]
+            }
+        },
+        "6c6561726e6572": {
+            "_surface": {
+                "text": "learner",
+                "unicode_name": "learner"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Secondary model used to decide whether to train on an example"
+                    }
+                ]
+            }
+        },
+        "4162737472616374": {
+            "_surface": {
+                "text": "Abstract",
+                "unicode_name": "Abstract"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summary of the research"
+                    }
+                ]
+            }
+        },
+        "4669677572652033": {
+            "_surface": {
+                "text": "Figure 3",
+                "unicode_name": "Figure 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure in the research"
+                    }
+                ]
+            }
+        },
+        "4669677572652034": {
+            "_surface": {
+                "text": "Figure 4",
+                "unicode_name": "Figure 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure in the research"
+                    }
+                ]
+            }
+        },
+        "4669677572652035": {
+            "_surface": {
+                "text": "Figure 5",
+                "unicode_name": "Figure 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure in the research"
+                    }
+                ]
+            }
+        },
+        "4669677572652036": {
+            "_surface": {
+                "text": "Figure 6",
+                "unicode_name": "Figure 6"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure in the research"
+                    }
+                ]
+            }
+        },
+        "4669677572652037": {
+            "_surface": {
+                "text": "Figure 7",
+                "unicode_name": "Figure 7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure in Appendix A"
+                    }
+                ]
+            }
+        },
+        "4669677572652038": {
+            "_surface": {
+                "text": "Figure 8",
+                "unicode_name": "Figure 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 8 in the research"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure in Appendix A"
+                    }
+                ]
+            }
+        },
+        "4669677572652039": {
+            "_surface": {
+                "text": "Figure 9",
+                "unicode_name": "Figure 9"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure in Appendix A"
+                    }
+                ]
+            }
+        },
+        "55542041757374696e": {
+            "_surface": {
+                "text": "UT Austin",
+                "unicode_name": "UT Austin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "University of Texas at Austin"
+                    }
+                ]
+            }
+        },
+        "59756b756e205a6875": {
+            "_surface": {
+                "text": "Yukun Zhu",
+                "unicode_name": "Yukun Zhu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Ryan Kiros, Richard Zemel, Ruslan Salakhutdinov, Raquel Urtasun, Antonio Torralba, and Sanja Fidler. 2015."
+                        ],
+                        "arity": 0,
+                        "description": "Authors and year of the research"
+                    }
+                ]
+            }
+        },
+        "737562646f6d61696e": {
+            "_surface": {
+                "text": "subdomain",
+                "unicode_name": "subdomain"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Specific domain or topic"
+                    }
+                ]
+            }
+        },
+        "417070656e6469782041": {
+            "_surface": {
+                "text": "Appendix A",
+                "unicode_name": "Appendix A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Appendix A of the research"
+                    }
+                ]
+            }
+        },
+        "5a687520657420616c2e": {
+            "_surface": {
+                "text": "Zhu et al.",
+                "unicode_name": "Zhu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of the Books dataset"
+                    }
+                ]
+            }
+        },
+        "66696e6574756e696e67": {
+            "_surface": {
+                "text": "finetuning",
+                "unicode_name": "finetuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of updating parameters of a pretrained model"
+                    }
+                ]
+            }
+        },
+        "706172616d6574657273": {
+            "_surface": {
+                "text": "parameters",
+                "unicode_name": "parameters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variables that define the behavior of a model"
+                    }
+                ]
+            }
+        },
+        "4875746820657420616c2e": {
+            "_surface": {
+                "text": "Huth et al.",
+                "unicode_name": "Huth et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of the Reddit comments dataset"
+                    }
+                ]
+            }
+        },
+        "4f70656e414920426c6f67": {
+            "_surface": {
+                "text": "OpenAI Blog",
+                "unicode_name": "OpenAI Blog"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1(8)"
+                        ],
+                        "arity": 0,
+                        "description": "Source and volume of the research"
+                    }
+                ]
+            }
+        },
+        "54686f6d617320576f6c66": {
+            "_surface": {
+                "text": "Thomas Wolf",
+                "unicode_name": "Thomas Wolf"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, R’emi Louf, Morgan Funtowicz, and Jamie Brew. 2019."
+                        ],
+                        "arity": 0,
+                        "description": "Authors and year of the research"
+                    }
+                ]
+            }
+        },
+        "576f6c6620657420616c2e": {
+            "_surface": {
+                "text": "Wolf et al.",
+                "unicode_name": "Wolf et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of the transformers package"
+                    }
+                ]
+            }
+        },
+        "5a687520657420616c2e20": {
+            "_surface": {
+                "text": "Zhu et al. ",
+                "unicode_name": "Zhu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of the research"
+                    }
+                ]
+            }
+        },
+        "6d6574612d6d6574686f64": {
+            "_surface": {
+                "text": "meta-method",
+                "unicode_name": "meta-method"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "General method"
+                    }
+                ]
+            }
+        },
+        "706572666f726d616e6365": {
+            "_surface": {
+                "text": "performance",
+                "unicode_name": "performance"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Quality of the language model"
+                    }
+                ]
+            }
+        },
+        "707265747261696e696e67": {
+            "_surface": {
+                "text": "pretraining",
+                "unicode_name": "pretraining"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training a generic language model on a general dataset"
+                    }
+                ]
+            }
+        },
+        "416c656320526164666f7264": {
+            "_surface": {
+                "text": "Alec Radford",
+                "unicode_name": "Alec Radford"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. 2019."
+                        ],
+                        "arity": 0,
+                        "description": "Authors and year of the research"
+                    }
+                ]
+            }
+        },
+        "426f6f6b7320636f72707573": {
+            "_surface": {
+                "text": "Books corpus",
+                "unicode_name": "Books corpus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Corpus of books"
+                    }
+                ]
+            }
+        },
+        "446f64676520657420616c2e": {
+            "_surface": {
+                "text": "Dodge et al.",
+                "unicode_name": "Dodge et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of the research"
+                    }
+                ]
+            }
+        },
+        "4a617669657220547572656b": {
+            "_surface": {
+                "text": "Javier Turek",
+                "unicode_name": "Javier Turek"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researcher at Intel Labs"
+                    }
+                ]
+            }
+        },
+        "4d6978656420636f72707573": {
+            "_surface": {
+                "text": "Mixed corpus",
+                "unicode_name": "Mixed corpus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Combined corpus of Reddit comments and books"
+                    }
+                ]
+            }
+        },
+        "4d6e696820657420616c2e20": {
+            "_surface": {
+                "text": "Mnih et al. ",
+                "unicode_name": "Mnih et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2013)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of the research"
+                    }
+                ]
+            }
+        },
+        "576f6c6620657420616c2e20": {
+            "_surface": {
+                "text": "Wolf et al. ",
+                "unicode_name": "Wolf et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of the research"
+                    }
+                ]
+            }
+        },
+        "72656475636564206c6f7373": {
+            "_surface": {
+                "text": "reduced loss",
+                "unicode_name": "reduced loss"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lower error or inaccuracy"
+                    }
+                ]
+            }
+        },
+        "746573742064617461736574": {
+            "_surface": {
+                "text": "test dataset",
+                "unicode_name": "test dataset"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data used for evaluation"
+                    }
+                ]
+            }
+        },
+        "456d6d61205374727562656c6c": {
+            "_surface": {
+                "text": "Emma Strubell",
+                "unicode_name": "Emma Strubell"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Ananya Ganesh, and Andrew McCallum. 2019."
+                        ],
+                        "arity": 0,
+                        "description": "Authors and year of the research"
+                    }
+                ]
+            }
+        },
+        "4b696e676d6120616e64204261": {
+            "_surface": {
+                "text": "Kingma and Ba",
+                "unicode_name": "Kingma and Ba"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors of the Adam optimization algorithm"
+                    }
+                ]
+            }
+        },
+        "52656464697420636f72707573": {
+            "_surface": {
+                "text": "Reddit corpus",
+                "unicode_name": "Reddit corpus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Corpus of Reddit comments"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset from the Reddit website"
+                    }
+                ]
+            }
+        },
+        "626f6f6b732064617461736574": {
+            "_surface": {
+                "text": "books dataset",
+                "unicode_name": "books dataset"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset used for evaluation"
+                    }
+                ]
+            }
+        },
+        "63726f737320656e74726f7079": {
+            "_surface": {
+                "text": "cross entropy",
+                "unicode_name": "cross entropy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function used in language modeling"
+                    }
+                ]
+            }
+        },
+        "64617461206f72646572696e67": {
+            "_surface": {
+                "text": "data ordering",
+                "unicode_name": "data ordering"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Arrangement of training data"
+                    }
+                ]
+            }
+        },
+        "657175616c207175616c697479": {
+            "_surface": {
+                "text": "equal quality",
+                "unicode_name": "equal quality"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Similar performance or effectiveness"
+                    }
+                ]
+            }
+        },
+        "416c6578616e6465722048757468": {
+            "_surface": {
+                "text": "Alexander Huth",
+                "unicode_name": "Alexander Huth"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Researcher at UT Austin"
+                    }
+                ]
+            }
+        },
+        "4173686973682056617377616e69": {
+            "_surface": {
+                "text": "Ashish Vaswani",
+                "unicode_name": "Ashish Vaswani"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017."
+                        ],
+                        "arity": 0,
+                        "description": "Authors and year of the research"
+                    }
+                ]
+            }
+        },
+        "566f6c6f64796d7972204d6e6968": {
+            "_surface": {
+                "text": "Volodymyr Mnih",
+                "unicode_name": "Volodymyr Mnih"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, and Martin Riedmiller. 2013."
+                        ],
+                        "arity": 0,
+                        "description": "Authors and year of the research"
+                    }
+                ]
+            }
+        },
+        "736372616d626c65642074657874": {
+            "_surface": {
+                "text": "scrambled text",
+                "unicode_name": "scrambled text"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rearranged or shuffled words"
+                    }
+                ]
+            }
+        },
+        "526164666f726420657420616c2e20": {
+            "_surface": {
+                "text": "Radford et al. ",
+                "unicode_name": "Radford et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of the research"
+                    }
+                ]
+            }
+        },
+        "52656464697420636f6d6d656e7473": {
+            "_surface": {
+                "text": "Reddit comments",
+                "unicode_name": "Reddit comments"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Corpus of Reddit comments"
+                    }
+                ]
+            }
+        },
+        "56617377616e6920657420616c2e20": {
+            "_surface": {
+                "text": "Vaswani et al. ",
+                "unicode_name": "Vaswani et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of the research"
+                    }
+                ]
+            }
+        },
+        "61725869763a313331322e35363032": {
+            "_surface": {
+                "text": "arXiv:1312.5602",
+                "unicode_name": "arXiv:1312.5602"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313431322e36393830": {
+            "_surface": {
+                "text": "arXiv:1412.6980",
+                "unicode_name": "arXiv:1412.6980"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint"
+                    }
+                ]
+            }
+        },
+        "6261636b70726f7061676174696f6e": {
+            "_surface": {
+                "text": "backpropagation",
+                "unicode_name": "backpropagation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Algorithm used to update model parameters"
+                    }
+                ]
+            }
+        },
+        "4e4c50206c6f7373206d657472696373": {
+            "_surface": {
+                "text": "NLP loss metrics",
+                "unicode_name": "NLP loss metrics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metrics for natural language processing"
+                    }
+                ]
+            }
+        },
+        "5374727562656c6c20657420616c2e20": {
+            "_surface": {
+                "text": "Strubell et al. ",
+                "unicode_name": "Strubell et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of the research"
+                    }
+                ]
+            }
+        },
+        "61725869763a313830312e3036313436": {
+            "_surface": {
+                "text": "arXiv:1801.06146",
+                "unicode_name": "arXiv:1801.06146"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference to Howard and Ruder (2018)"
+                    }
+                ]
+            }
+        },
+        "61725869763a313831302e3034383035": {
+            "_surface": {
+                "text": "arXiv:1810.04805",
+                "unicode_name": "arXiv:1810.04805"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reference to Devlin et al. (2018)"
+                    }
+                ]
+            }
+        },
+        "61725869763a313930362e3032323433": {
+            "_surface": {
+                "text": "arXiv:1906.02243",
+                "unicode_name": "arXiv:1906.02243"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint"
+                    }
+                ]
+            }
+        },
+        "646f776e73747265616d207461736b73": {
+            "_surface": {
+                "text": "downstream tasks",
+                "unicode_name": "downstream tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tasks related to the pretrained model's specific application"
+                    }
+                ]
+            }
+        },
+        "7374796c6520616e642073796e746178": {
+            "_surface": {
+                "text": "style and syntax",
+                "unicode_name": "style and syntax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Writing characteristics of a specific domain"
+                    }
+                ]
+            }
+        },
+        "6c616e6775616765206d6f64656c696e67": {
+            "_surface": {
+                "text": "language modeling",
+                "unicode_name": "language modeling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task of generating language from context"
+                    }
+                ]
+            }
+        },
+        "6d656469616e20706572706c6578697479": {
+            "_surface": {
+                "text": "median perplexity",
+                "unicode_name": "median perplexity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of how well the model predicts the next word"
+                    }
+                ]
+            }
+        },
+        "5374616e6461726420426f6f6b732072756e": {
+            "_surface": {
+                "text": "Standard Books run",
+                "unicode_name": "Standard Books run"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Standard finetuning on books corpus"
+                    }
+                ]
+            }
+        },
+        "687574684063732e7574657861732e656475": {
+            "_surface": {
+                "text": "huth@cs.utexas.edu",
+                "unicode_name": "huth@cs.utexas.edu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email address"
+                    }
+                ]
+            }
+        },
+        "5374616e646172642066696e6574756e696e67": {
+            "_surface": {
+                "text": "Standard finetuning",
+                "unicode_name": "Standard finetuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Traditional method of updating a language model"
+                    }
+                ]
+            }
+        },
+        "6175746f72656772657373697665207461736b": {
+            "_surface": {
+                "text": "autoregressive task",
+                "unicode_name": "autoregressive task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task of predicting the next word based on previous tokens"
+                    }
+                ]
+            }
+        },
+        "6e657572616c20617263686974656374757265": {
+            "_surface": {
+                "text": "neural architecture",
+                "unicode_name": "neural architecture"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Structure of the language model"
+                    }
+                ]
+            }
+        },
+        "7374616e646172642066696e6574756e696e67": {
+            "_surface": {
+                "text": "standard finetuning",
+                "unicode_name": "standard finetuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Traditional method of updating a language model"
+                    }
+                ]
+            }
+        },
+        "747261696e696e6720656666696369656e6379": {
+            "_surface": {
+                "text": "training efficiency",
+                "unicode_name": "training efficiency"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Effectiveness of the training process"
+                    }
+                ]
+            }
+        },
+        "4750542d32206c616e6775616765206d6f64656c": {
+            "_surface": {
+                "text": "GPT-2 language model",
+                "unicode_name": "GPT-2 language model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Specific language model architecture"
+                    }
+                ]
+            }
+        },
+        "7472616e73666f726d657273207061636b616765": {
+            "_surface": {
+                "text": "transformers package",
+                "unicode_name": "transformers package"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Package for working with transformer models"
+                    }
+                ]
+            }
+        },
+        "6261636b70726f7061676174696f6e207374657073": {
+            "_surface": {
+                "text": "backpropagation steps",
+                "unicode_name": "backpropagation steps"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iterations of the backpropagation algorithm"
+                    }
+                ]
+            }
+        },
+        "656e657267792d696e74656e736976652047505573": {
+            "_surface": {
+                "text": "energy-intensive GPUs",
+                "unicode_name": "energy-intensive GPUs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graphics processing units that consume a lot of energy"
+                    }
+                ]
+            }
+        },
+        "6e6f76656c206c6561726e696e6720726573756c74": {
+            "_surface": {
+                "text": "novel learning result",
+                "unicode_name": "novel learning result"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "New finding or discovery"
+                    }
+                ]
+            }
+        },
+        "6a61766965722e747572656b40696e74656c2e636f6d": {
+            "_surface": {
+                "text": "javier.turek@intel.com",
+                "unicode_name": "javier.turek@intel.com"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email address"
+                    }
+                ]
+            }
+        },
+        "726a616e746f6e656c6c6f407574657861732e656475": {
+            "_surface": {
+                "text": "rjantonello@utexas.edu",
+                "unicode_name": "rjantonello@utexas.edu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email address"
+                    }
+                ]
+            }
+        },
+        "766172696162696c697479206265747765656e2072756e73": {
+            "_surface": {
+                "text": "variability between runs",
+                "unicode_name": "variability between runs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Differences in model performance across different runs"
+                    }
+                ]
+            }
+        },
+        "417474656e74696f6e20697320616c6c20796f75206e656564": {
+            "_surface": {
+                "text": "Attention is all you need",
+                "unicode_name": "Attention is all you need"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of the research"
+                    }
+                ]
+            }
+        },
+        "756e69666f726d20776f72642070726f626162696c6974696573": {
+            "_surface": {
+                "text": "uniform word probabilities",
+                "unicode_name": "uniform word probabilities"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Equal likelihood of each word"
+                    }
+                ]
+            }
+        },
+        "696e666f726d6174696f6e206761696e2066696c74726174696f6e": {
+            "_surface": {
+                "text": "information gain filtration",
+                "unicode_name": "information gain filtration"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for quantifying the benefit of finetuning"
+                    }
+                ]
+            }
+        },
+        "696e666f726d617469766520747261696e696e67206578616d706c6573": {
+            "_surface": {
+                "text": "informative training examples",
+                "unicode_name": "informative training examples"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Examples that capture important statistics of the corpus"
+                    }
+                ]
+            }
+        },
+        "494746207769746820616c7465726e6174696e67207468726573686f6c64": {
+            "_surface": {
+                "text": "IGF with alternating threshold",
+                "unicode_name": "IGF with alternating threshold"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Iterated information gain filtration with alternating threshold"
+                    }
+                ]
+            }
+        },
+        "756e696772616d206672657175656e637920646973747269627574696f6e": {
+            "_surface": {
+                "text": "unigram frequency distribution",
+                "unicode_name": "unigram frequency distribution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distribution of single words in a language model"
+                    }
+                ]
+            }
+        },
+        "49474620616761696e73742072616e646f6d20736565642074657374696e67": {
+            "_surface": {
+                "text": "IGF against random seed testing",
+                "unicode_name": "IGF against random seed testing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Comparison of computational efficiency"
+                    }
+                ]
+            }
+        },
+        "726f627573746e657373206f662074686520747261696e696e672070726f636564757265": {
+            "_surface": {
+                "text": "robustness of the training procedure",
+                "unicode_name": "robustness of the training procedure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stability and reliability of the training process"
+                    }
+                ]
+            }
+        },
+        "746f6b656e20756e696772616d20616e642062696772616d206672657175656e63696573": {
+            "_surface": {
+                "text": "token unigram and bigram frequencies",
+                "unicode_name": "token unigram and bigram frequencies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Occurrences of single words and pairs of words"
+                    }
+                ]
+            }
+        },
+        "657374696d6174696e67207468652075736566756c6e657373206f662066696e6574756e696e67": {
+            "_surface": {
+                "text": "estimating the usefulness of finetuning",
+                "unicode_name": "estimating the usefulness of finetuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Determining the benefit of updating the model"
+                    }
+                ]
+            }
+        },
+        "73637265656e696e6720666f7220696e666f726d617469766520747261696e696e67206578616d706c6573": {
+            "_surface": {
+                "text": "screening for informative training examples",
+                "unicode_name": "screening for informative training examples"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identifying examples that provide useful information"
+                    }
+                ]
+            }
+        },
+        "506c6179696e6720617461726920776974682064656570207265696e666f7263656d656e74206c6561726e696e67": {
+            "_surface": {
+                "text": "Playing atari with deep reinforcement learning",
+                "unicode_name": "Playing atari with deep reinforcement learning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of the research"
+                    }
+                ]
+            }
+        },
+        "4c616e6775616765206d6f64656c732061726520756e73757065727669736564206d756c74697461736b206c6561726e657273": {
+            "_surface": {
+                "text": "Language models are unsupervised multitask learners",
+                "unicode_name": "Language models are unsupervised multitask learners"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of the research"
+                    }
+                ]
+            }
+        },
+        "496e20416476616e63657320696e206e657572616c20696e666f726d6174696f6e2070726f63657373696e672073797374656d73": {
+            "_surface": {
+                "text": "In Advances in neural information processing systems",
+                "unicode_name": "In Advances in neural information processing systems"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", pages 5998–6008"
+                        ],
+                        "arity": 0,
+                        "description": "Conference and page range of the research"
+                    }
+                ]
+            }
+        },
+        "6d697469676174652074686520656e6572677920696d70616374206f662064656570206c616e6775616765206d6f64656c696e67": {
+            "_surface": {
+                "text": "mitigate the energy impact of deep language modeling",
+                "unicode_name": "mitigate the energy impact of deep language modeling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reduce the energy consumption of training"
+                    }
+                ]
+            }
+        },
+        "456e6572677920616e6420706f6c69637920636f6e73696465726174696f6e7320666f722064656570206c6561726e696e6720696e206e6c70": {
+            "_surface": {
+                "text": "Energy and policy considerations for deep learning in nlp",
+                "unicode_name": "Energy and policy considerations for deep learning in nlp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of the research"
+                    }
+                ]
+            }
+        },
+        "6c6561726e696e67206c6f772d6c6576656c206672657175656e63792d626173656420646973747269627574696f6e616c2073746174697374696373": {
+            "_surface": {
+                "text": "learning low-level frequency-based distributional statistics",
+                "unicode_name": "learning low-level frequency-based distributional statistics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Understanding the occurrence of words in the corpus"
+                    }
+                ]
+            }
+        },
+        "48756767696e6766616365e2809973207472616e73666f726d6572733a2053746174652d6f662d7468652d617274206e61747572616c206c616e67756167652070726f63657373696e67": {
+            "_surface": {
+                "text": "Huggingface’s transformers: State-of-the-art natural language processing",
+                "unicode_name": "Huggingface’s transformers: State-of-the-art natural language processing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of the research"
+                    }
+                ]
+            }
+        },
+        "416c69676e696e6720626f6f6b7320616e64206d6f766965733a20546f77617264732073746f72792d6c696b652076697375616c206578706c616e6174696f6e73206279207761746368696e67206d6f7669657320616e642072656164696e6720626f6f6b73": {
+            "_surface": {
+                "text": "Aligning books and movies: Towards story-like visual explanations by watching movies and reading books",
+                "unicode_name": "Aligning books and movies: Towards story-like visual explanations by watching movies and reading books"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title of the research"
+                    }
+                ]
+            }
+        },
+        "41726368697465637475726520496e76617269616e63653a20546865206d6574686f6420706572666f726d732073696d696c61726c79207265676172646c657373206f662074686520636f6e766f6c7574696f6e616c207365747570206f6620746865206d6f64656c2e20416c6c6f77696e67207468652044514e20746f20626520696e666f726d6564206279206869676865722d6f72646572206672657175656e636965732073756368206173207472696772616d20616e642031302d6772616d20646f206e6f74207369676e69666963616e746c792061666665637420706572666f726d616e63652e": {
+            "_surface": {
+                "text": "Architecture Invariance: The method performs similarly regardless of the convolutional setup of the model. Allowing the DQN to be informed by higher-order frequencies such as trigram and 10-gram do not significantly affect performance.",
+                "unicode_name": "Architecture Invariance: The method performs similarly regardless of the convolutional setup of the model. Allowing the DQN to be informed by higher-order frequencies such as trigram and 10-gram do not significantly affect performance."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Description of Figure 8"
+                    }
+                ]
+            }
+        },
+        "496d70726f7665642046696e6574756e696e6720456666696369656e6379204f766572205374616e646172642046696e6574756e696e673a20576520706c6f7420746865206e756d626572206f6620626174636865732069742074616b657320666f722065616368207468726573686f6c64207363686564756c6520746f206578636565642074686520706572706c6578697479206f66207374616e64617264206174206561636820737465702e2054686973207365727665732061732061206261726f6d6574657220666f7220636f6d706172696e67207468652072656c617469766520656666696369656e6379206f662066696e6574756e696e672e20496e20746865206561726c7920737461676573206f662066696e6574756e696e67": {
+            "_surface": {
+                "text": "Improved Finetuning Efficiency Over Standard Finetuning: We plot the number of batches it takes for each threshold schedule to exceed the perplexity of standard at each step. This serves as a barometer for comparing the relative efficiency of finetuning. In the early stages of finetuning",
+                "unicode_name": "Improved Finetuning Efficiency Over Standard Finetuning: We plot the number of batches it takes for each threshold schedule to exceed the perplexity of standard at each step. This serves as a barometer for comparing the relative efficiency of finetuning. In the early stages of finetuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", we can see that IGF requires 30%-40% fewer backpropagation steps over standard finetuning. This suggests that IGF could be used as a more energy efficient alternative to standard language model finetuning. Note that since IGF converges to a lower final value than standard finetuning, these values asymptote to a fixed value."
+                        ],
+                        "arity": 0,
+                        "description": "Description of Figure 9"
+                    }
+                ]
+            }
+        },
+        "434446206f66205072656469637465642051e28099733a2043444673206f662074686520646174617365747320616761696e73742074686520426f6f6b73206f626a656374697665207365742e204e6f746520746861742061207468726573686f6c64206f6620536b69703d2d3120616c6d6f737420656e746972656c79206578636c7564657320636f6e746578747320696e20746865204d6978656420636f727075732074686174206f726967696e617465642066726f6d207468652052656464697420636f727075732e205468697320616c6c6f7773204947462077697468206120636f6e7374616e74207468726573686f6c64206f66202d31206f6e20746865204d69786564206461746173657420746f20706572666f726d20616c6d6f7374206964656e746963616c6c7920746f207374616e646172642066696e6574756e696e67206f6e206a7573742074686520426f6f6b7320636f727075732e": {
+            "_surface": {
+                "text": "CDF of Predicted Q’s: CDFs of the datasets against the Books objective set. Note that a threshold of Skip=-1 almost entirely excludes contexts in the Mixed corpus that originated from the Reddit corpus. This allows IGF with a constant threshold of -1 on the Mixed dataset to perform almost identically to standard finetuning on just the Books corpus.",
+                "unicode_name": "CDF of Predicted Q’s: CDFs of the datasets against the Books objective set. Note that a threshold of Skip=-1 almost entirely excludes contexts in the Mixed corpus that originated from the Reddit corpus. This allows IGF with a constant threshold of -1 on the Mixed dataset to perform almost identically to standard finetuning on just the Books corpus."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Description of Figure 7"
+                    }
+                ]
+            }
+        }
+    }
+}

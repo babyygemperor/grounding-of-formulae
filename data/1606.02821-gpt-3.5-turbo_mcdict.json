@@ -1,0 +1,2047 @@
+{
+    "_author": "gpt-3.5-turbo",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[Kintsch, 2000]"
+                        ],
+                        "arity": 0,
+                        "description": "Walter Kintsch"
+                    },
+                    {
+                        "affixes": [
+                            "[Kulkarni et al., 2014]"
+                        ],
+                        "arity": 0,
+                        "description": "Vivek Kulkarni, Rami Al-Rfou, Bryan Perozzi, and Steven Skiena"
+                    },
+                    {
+                        "affixes": [
+                            "[Lin et al., 2012]"
+                        ],
+                        "arity": 0,
+                        "description": "Yuri Lin, Jean-Baptiste Michel, Erez Lieberman Aiden, Jon Orwant, Will Brockman, and Slav Petrov"
+                    },
+                    {
+                        "affixes": [
+                            "[McCulloch and Neuhaus, 2001]"
+                        ],
+                        "arity": 0,
+                        "description": "Charles E McCulloch and John M Neuhaus"
+                    },
+                    {
+                        "affixes": [
+                            "[Mikolov et al., 2013]"
+                        ],
+                        "arity": 0,
+                        "description": "Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg S. Corrado, and Jeff Dean"
+                    },
+                    {
+                        "affixes": [
+                            "[Rodda et al., 2016]"
+                        ],
+                        "arity": 0,
+                        "description": "Martina Rodda, Marco Senaldi, and Alessandro Lenci"
+                    },
+                    {
+                        "affixes": [
+                            "[Schutze and Pedersen, 1993]"
+                        ],
+                        "arity": 0,
+                        "description": "Hinrich Schutze and Jan Pedersen"
+                    },
+                    {
+                        "affixes": [
+                            "[Traugott and Dasher, 2001]"
+                        ],
+                        "arity": 0,
+                        "description": "Elizabeth Closs Traugott and Richard B Dasher"
+                    },
+                    {
+                        "affixes": [
+                            "[Turney and Pantel, 2010]"
+                        ],
+                        "arity": 0,
+                        "description": "Peter D. Turney and Patrick Pantel"
+                    },
+                    {
+                        "affixes": [
+                            "[Xu and Kemp, 2015]"
+                        ],
+                        "arity": 0,
+                        "description": "Yang Xu and Charles Kemp"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Global measure"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decade"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index for neighbor word"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of nearest neighbors"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word"
+                    }
+                ]
+            }
+        },
+        "6447": {
+            "_surface": {
+                "text": "dG",
+                "unicode_name": "dG"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Global measure function"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Global d values"
+                    },
+                    {
+                        "affixes": [
+                            "(wi(t), wi(t+1))"
+                        ],
+                        "arity": 0,
+                        "description": "Global measure formula"
+                    }
+                ]
+            }
+        },
+        "644c": {
+            "_surface": {
+                "text": "dL",
+                "unicode_name": "dL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Local neighborhood d values"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Local neighborhood measure function"
+                    },
+                    {
+                        "affixes": [
+                            "(wi(t), wi(t+1))"
+                        ],
+                        "arity": 0,
+                        "description": "Local neighborhood measure"
+                    }
+                ]
+            }
+        },
+        "445673": {
+            "_surface": {
+                "text": "DVs",
+                "unicode_name": "DVs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dependent variables"
+                    }
+                ]
+            }
+        },
+        "536369": {
+            "_surface": {
+                "text": "Sci",
+                "unicode_name": "Sci"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Science"
+                    }
+                ]
+            }
+        },
+        "536f63": {
+            "_surface": {
+                "text": "Soc",
+                "unicode_name": "Soc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Society"
+                    }
+                ]
+            }
+        },
+        "676179": {
+            "_surface": {
+                "text": "gay",
+                "unicode_name": "gay"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word related to homosexuality"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_{𝖪𝖠}"
+                        ],
+                        "arity": 0,
+                        "description": "Set of formulas"
+                    }
+                ]
+            }
+        },
+        "e28692": {
+            "_surface": {
+                "text": "→",
+                "unicode_name": "RIGHTWARDS ARROW"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function or implication operator"
+                    }
+                ]
+            }
+        },
+        "e28888": {
+            "_surface": {
+                "text": "∈",
+                "unicode_name": "ELEMENT OF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of a set"
+                    }
+                ]
+            }
+        },
+        "e28a86": {
+            "_surface": {
+                "text": "⊆",
+                "unicode_name": "SUBSET OF OR EQUAL TO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of a set"
+                    }
+                ]
+            }
+        },
+        "434f4841": {
+            "_surface": {
+                "text": "COHA",
+                "unicode_name": "COHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Corpus of Historical American English"
+                    }
+                ]
+            }
+        },
+        "436f676e": {
+            "_surface": {
+                "text": "Cogn",
+                "unicode_name": "Cogn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cognitive"
+                    }
+                ]
+            }
+        },
+        "436f6e66": {
+            "_surface": {
+                "text": "Conf",
+                "unicode_name": "Conf"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference"
+                    }
+                ]
+            }
+        },
+        "50726f63": {
+            "_surface": {
+                "text": "Proc",
+                "unicode_name": "Proc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proceedings"
+                    }
+                ]
+            }
+        },
+        "63656c6c": {
+            "_surface": {
+                "text": "cell",
+                "unicode_name": "cell"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Basic unit of life"
+                    }
+                ]
+            }
+        },
+        "68746d6c": {
+            "_surface": {
+                "text": "html",
+                "unicode_name": "html"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hypertext Markup Language"
+                    }
+                ]
+            }
+        },
+        "6e6f756e": {
+            "_surface": {
+                "text": "noun",
+                "unicode_name": "noun"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word category (e.g., person, place, thing)"
+                    }
+                ]
+            }
+        },
+        "76657262": {
+            "_surface": {
+                "text": "verb",
+                "unicode_name": "verb"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word category (e.g., action, state)"
+                    }
+                ]
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(t)"
+                        ],
+                        "arity": 0,
+                        "description": "Second-order similarity vector"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word vector"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d96a0": {
+            "_surface": {
+                "text": "𝖠",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator A"
+                    }
+                ]
+            }
+        },
+        "f09d96aa": {
+            "_surface": {
+                "text": "𝖪",
+                "unicode_name": "MATHEMATICAL SANS-SERIF CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator K"
+                    }
+                ]
+            }
+        },
+        "3138353073": {
+            "_surface": {
+                "text": "1850s",
+                "unicode_name": "1850s"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decade in the 19th century"
+                    }
+                ]
+            }
+        },
+        "3139393073": {
+            "_surface": {
+                "text": "1990s",
+                "unicode_name": "1990s"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decade in the 20th century"
+                    }
+                ]
+            }
+        },
+        "3934333035": {
+            "_surface": {
+                "text": "94305",
+                "unicode_name": "94305"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Zip code"
+                    }
+                ]
+            }
+        },
+        "7669727573": {
+            "_surface": {
+                "text": "virus",
+                "unicode_name": "virus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infectious agent"
+                    }
+                ]
+            }
+        },
+        "f09d92a96b": {
+            "_surface": {
+                "text": "𝒩k",
+                "unicode_name": "𝒩k"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(wi(t))"
+                        ],
+                        "arity": 0,
+                        "description": "Set of k nearest neighbors for word wi(t)"
+                    }
+                ]
+            }
+        },
+        "426f65696e67": {
+            "_surface": {
+                "text": "Boeing",
+                "unicode_name": "Boeing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Support from Boeing"
+                    }
+                ]
+            }
+        },
+        "4b696e74736368": {
+            "_surface": {
+                "text": "Kintsch",
+                "unicode_name": "Kintsch"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2000"
+                        ],
+                        "arity": 0,
+                        "description": "Author of a paper"
+                    }
+                ]
+            }
+        },
+        "4c615465584d4c": {
+            "_surface": {
+                "text": "LaTeXML",
+                "unicode_name": "LaTeXML"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "LaTeXML software"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table in the document"
+                    }
+                ]
+            }
+        },
+        "5461626c652032": {
+            "_surface": {
+                "text": "Table 2",
+                "unicode_name": "Table 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table 2"
+                    }
+                ]
+            }
+        },
+        "636f732d73696d": {
+            "_surface": {
+                "text": "cos-sim",
+                "unicode_name": "cos-sim"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine similarity"
+                    }
+                ]
+            }
+        },
+        "70726f6d697365": {
+            "_surface": {
+                "text": "promise",
+                "unicode_name": "promise"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Commitment to do something"
+                    }
+                ]
+            }
+        },
+        "41524f204d555249": {
+            "_surface": {
+                "text": "ARO MURI",
+                "unicode_name": "ARO MURI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Army Research Office grant"
+                    }
+                ]
+            }
+        },
+        "4162737472616374": {
+            "_surface": {
+                "text": "Abstract",
+                "unicode_name": "Abstract"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summary of the document"
+                    }
+                ]
+            }
+        },
+        "4669677572652031": {
+            "_surface": {
+                "text": "Figure 1",
+                "unicode_name": "Figure 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 1"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure in the document"
+                    }
+                ]
+            }
+        },
+        "4669677572652032": {
+            "_surface": {
+                "text": "Figure 2",
+                "unicode_name": "Figure 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 2"
+                    }
+                ]
+            }
+        },
+        "4669677572652033": {
+            "_surface": {
+                "text": "Figure 3",
+                "unicode_name": "Figure 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 3"
+                    }
+                ]
+            }
+        },
+        "4e4948204244324b": {
+            "_surface": {
+                "text": "NIH BD2K",
+                "unicode_name": "NIH BD2K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "National Institutes of Health grant"
+                    }
+                ]
+            }
+        },
+        "636f732d64697374": {
+            "_surface": {
+                "text": "cos-dist",
+                "unicode_name": "cos-dist"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine distance"
+                    }
+                ]
+            }
+        },
+        "f09d96aaf09d96a0": {
+            "_surface": {
+                "text": "𝖪𝖠",
+                "unicode_name": "𝖪𝖠"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal logic"
+                    }
+                ]
+            }
+        },
+        "3337746820416e6e75": {
+            "_surface": {
+                "text": "37th Annu",
+                "unicode_name": "37th Annu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "37th Annual"
+                    }
+                ]
+            }
+        },
+        "4c696768747370656564": {
+            "_surface": {
+                "text": "Lightspeed",
+                "unicode_name": "Lightspeed"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Support from Lightspeed"
+                    }
+                ]
+            }
+        },
+        "566f6c6b73776167656e": {
+            "_surface": {
+                "text": "Volkswagen",
+                "unicode_name": "Volkswagen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Support from Volkswagen"
+                    }
+                ]
+            }
+        },
+        "63656c6c2070686f6e65": {
+            "_surface": {
+                "text": "cell phone",
+                "unicode_name": "cell phone"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mobile phone"
+                    }
+                ]
+            }
+        },
+        "4441525041205844415441": {
+            "_surface": {
+                "text": "DARPA XDATA",
+                "unicode_name": "DARPA XDATA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Defense Advanced Research Projects Agency grant"
+                    }
+                ]
+            }
+        },
+        "4949532d31313439383337": {
+            "_surface": {
+                "text": "IIS-1149837",
+                "unicode_name": "IIS-1149837"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "National Science Foundation grant"
+                    }
+                ]
+            }
+        },
+        "4949532d31353134323638": {
+            "_surface": {
+                "text": "IIS-1514268",
+                "unicode_name": "IIS-1514268"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "National Science Foundation grant"
+                    }
+                ]
+            }
+        },
+        "4e53455243205047532d44": {
+            "_surface": {
+                "text": "NSERC PGS-D",
+                "unicode_name": "NSERC PGS-D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural Sciences and Engineering Research Council of Canada grant"
+                    }
+                ]
+            }
+        },
+        "5374616e666f7264204341": {
+            "_surface": {
+                "text": "Stanford CA",
+                "unicode_name": "Stanford CA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Location"
+                    }
+                ]
+            }
+        },
+        "587520616e64204b656d70": {
+            "_surface": {
+                "text": "Xu and Kemp",
+                "unicode_name": "Xu and Kemp"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "707269736f6e2063656c6c": {
+            "_surface": {
+                "text": "prison cell",
+                "unicode_name": "prison cell"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Small room in a prison"
+                    }
+                ]
+            }
+        },
+        "44616e204a75726166736b79": {
+            "_surface": {
+                "text": "Dan Jurafsky",
+                "unicode_name": "Dan Jurafsky"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the document"
+                    }
+                ]
+            }
+        },
+        "496e74726f64756374696f6e": {
+            "_surface": {
+                "text": "Introduction",
+                "unicode_name": "Introduction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section of the document"
+                    }
+                ]
+            }
+        },
+        "526f64646120657420616c2e": {
+            "_surface": {
+                "text": "Rodda et al.",
+                "unicode_name": "Rodda et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "44415250412053494d504c4558": {
+            "_surface": {
+                "text": "DARPA SIMPLEX",
+                "unicode_name": "DARPA SIMPLEX"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Defense Advanced Research Projects Agency grant"
+                    }
+                ]
+            }
+        },
+        "4a757265204c65736b6f766563": {
+            "_surface": {
+                "text": "Jure Leskovec",
+                "unicode_name": "Jure Leskovec"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the document"
+                    }
+                ]
+            }
+        },
+        "646973656e74616e676c696e67": {
+            "_surface": {
+                "text": "disentangling",
+                "unicode_name": "disentangling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Separating or distinguishing"
+                    }
+                ]
+            }
+        },
+        "4a61746f777420616e6420447568": {
+            "_surface": {
+                "text": "Jatowt and Duh",
+                "unicode_name": "Jatowt and Duh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4d696b6f6c6f7620657420616c2e": {
+            "_surface": {
+                "text": "Mikolov et al.",
+                "unicode_name": "Mikolov et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2013"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "6e6f6d696e616c20646f6d61696e": {
+            "_surface": {
+                "text": "nominal domain",
+                "unicode_name": "nominal domain"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Domain of nouns"
+                    }
+                ]
+            }
+        },
+        "72617465206f66206368616e6765": {
+            "_surface": {
+                "text": "rate of change",
+                "unicode_name": "rate of change"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Speed at which something changes"
+                    }
+                ]
+            }
+        },
+        "73656d616e746963206472696674": {
+            "_surface": {
+                "text": "semantic drift",
+                "unicode_name": "semantic drift"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Change in meaning over time"
+                    }
+                ]
+            }
+        },
+        "73656d616e746963207370616365": {
+            "_surface": {
+                "text": "semantic space",
+                "unicode_name": "semantic space"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Space of word meanings"
+                    }
+                ]
+            }
+        },
+        "4567657220616e64204d65686c6572": {
+            "_surface": {
+                "text": "Eger and Mehler",
+                "unicode_name": "Eger and Mehler"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "48616d696c746f6e20657420616c2e": {
+            "_surface": {
+                "text": "Hamilton et al.",
+                "unicode_name": "Hamilton et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Hamilton et al., 2016"
+                    }
+                ]
+            }
+        },
+        "4b756c6b61726e6920657420616c2e": {
+            "_surface": {
+                "text": "Kulkarni et al.",
+                "unicode_name": "Kulkarni et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2014"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "4e534620434e532d31303130393231": {
+            "_surface": {
+                "text": "NSF CNS-1010921",
+                "unicode_name": "NSF CNS-1010921"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "National Science Foundation grant"
+                    }
+                ]
+            }
+        },
+        "61725869763a313430352e33353135": {
+            "_surface": {
+                "text": "arXiv:1405.3515",
+                "unicode_name": "arXiv:1405.3515"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint"
+                    }
+                ]
+            }
+        },
+        "63756c747572616c20736869667473": {
+            "_surface": {
+                "text": "cultural shifts",
+                "unicode_name": "cultural shifts"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changes in culture"
+                    }
+                ]
+            }
+        },
+        "656d62656464696e6720776f726473": {
+            "_surface": {
+                "text": "embedding words",
+                "unicode_name": "embedding words"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representing words in vector spaces"
+                    }
+                ]
+            }
+        },
+        "73656d616e746963206368616e6765": {
+            "_surface": {
+                "text": "semantic change",
+                "unicode_name": "semantic change"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Change in meaning of words"
+                    }
+                ]
+            }
+        },
+        "73656d616e74696320737061636573": {
+            "_surface": {
+                "text": "semantic spaces",
+                "unicode_name": "semantic spaces"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spaces of word meanings"
+                    }
+                ]
+            }
+        },
+        "63756c747572616c20666163746f7273": {
+            "_surface": {
+                "text": "cultural factors",
+                "unicode_name": "cultural factors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Factors related to culture"
+                    }
+                ]
+            }
+        },
+        "6e657720746563686e6f6c6f67696573": {
+            "_surface": {
+                "text": "new technologies",
+                "unicode_name": "new technologies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Advancements in technology"
+                    }
+                ]
+            }
+        },
+        "7375626a656374696669636174696f6e": {
+            "_surface": {
+                "text": "subjectification",
+                "unicode_name": "subjectification"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of becoming subjective"
+                    }
+                ]
+            }
+        },
+        "f09d96aff09d978bf09d9788f09d9789": {
+            "_surface": {
+                "text": "𝖯𝗋𝗈𝗉",
+                "unicode_name": "𝖯𝗋𝗈𝗉"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of propositions"
+                    }
+                ]
+            }
+        },
+        "5475726e657920616e642050616e74656c": {
+            "_surface": {
+                "text": "Turney and Pantel",
+                "unicode_name": "Turney and Pantel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2010"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "6c696e6775697374696320736869667473": {
+            "_surface": {
+                "text": "linguistic shifts",
+                "unicode_name": "linguistic shifts"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changes in language"
+                    }
+                ]
+            }
+        },
+        "47656e746e657220616e64204672616e6365": {
+            "_surface": {
+                "text": "Gentner and France",
+                "unicode_name": "Gentner and France"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1988"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "6469676974616c2068756d616e6974696573": {
+            "_surface": {
+                "text": "digital humanities",
+                "unicode_name": "digital humanities"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intersection of computing and humanities"
+                    }
+                ]
+            }
+        },
+        "6772616d6d61746963616c697a6174696f6e": {
+            "_surface": {
+                "text": "grammaticalization",
+                "unicode_name": "grammaticalization"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of becoming more grammatical"
+                    }
+                ]
+            }
+        },
+        "686973746f726963616c20636f72706f7261": {
+            "_surface": {
+                "text": "historical corpora",
+                "unicode_name": "historical corpora"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Collections of historical texts"
+                    }
+                ]
+            }
+        },
+        "456e676c69736820476f6f676c652064617461": {
+            "_surface": {
+                "text": "English Google data",
+                "unicode_name": "English Google data"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data from Google in English language"
+                    }
+                ]
+            }
+        },
+        "486f7070657220616e642054726175676f7474": {
+            "_surface": {
+                "text": "Hopper and Traugott",
+                "unicode_name": "Hopper and Traugott"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2003"
+                        ],
+                        "arity": 0,
+                        "description": "Hopper and Traugott, 2003"
+                    }
+                ]
+            }
+        },
+        "5374616e666f726420556e6976657273697479": {
+            "_surface": {
+                "text": "Stanford University",
+                "unicode_name": "Stanford University"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Educational institution"
+                    }
+                ]
+            }
+        },
+        "54726175676f747420616e6420446173686572": {
+            "_surface": {
+                "text": "Traugott and Dasher",
+                "unicode_name": "Traugott and Dasher"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2001"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    },
+                    {
+                        "affixes": [
+                            ", 2001"
+                        ],
+                        "arity": 0,
+                        "description": "Traugott and Dasher, 2001"
+                    }
+                ]
+            }
+        },
+        "57696c6c69616d204c2e2048616d696c746f6e": {
+            "_surface": {
+                "text": "William L. Hamilton",
+                "unicode_name": "William L. Hamilton"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author of the document"
+                    }
+                ]
+            }
+        },
+        "636f6e73656375746976652064656361646573": {
+            "_surface": {
+                "text": "consecutive decades",
+                "unicode_name": "consecutive decades"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Successive periods of ten years"
+                    }
+                ]
+            }
+        },
+        "47756c6f726461766120616e64204261726f6e69": {
+            "_surface": {
+                "text": "Gulordava and Baroni",
+                "unicode_name": "Gulordava and Baroni"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2011"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "53636875747a6520616e6420506564657273656e": {
+            "_surface": {
+                "text": "Schutze and Pedersen",
+                "unicode_name": "Schutze and Pedersen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 1993"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "6469616368726f6e69632073656d616e74696373": {
+            "_surface": {
+                "text": "diachronic semantics",
+                "unicode_name": "diachronic semantics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Semantics over time"
+                    }
+                ]
+            }
+        },
+        "6c696e677569737469632070726f636573736573": {
+            "_surface": {
+                "text": "linguistic processes",
+                "unicode_name": "linguistic processes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Processes related to language"
+                    }
+                ]
+            }
+        },
+        "4d6343756c6c6f636820616e64204e657568617573": {
+            "_surface": {
+                "text": "McCulloch and Neuhaus",
+                "unicode_name": "McCulloch and Neuhaus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2001"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "65766f6c7574696f6e206f66206c616e6775616765": {
+            "_surface": {
+                "text": "evolution of language",
+                "unicode_name": "evolution of language"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Changes in language over time"
+                    }
+                ]
+            }
+        },
+        "646973747269627574696f6e616c206d6574686f6473": {
+            "_surface": {
+                "text": "distributional methods",
+                "unicode_name": "distributional methods"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Methods related to distribution"
+                    }
+                ]
+            }
+        },
+        "646c6d662e6e6973742e676f762f4c615465584d4c2f": {
+            "_surface": {
+                "text": "dlmf.nist.gov/LaTeXML/",
+                "unicode_name": "dlmf.nist.gov/LaTeXML/"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "LaTeXML website"
+                    }
+                ]
+            }
+        },
+        "686973746f726963616c206c696e6775697374696373": {
+            "_surface": {
+                "text": "historical linguistics",
+                "unicode_name": "historical linguistics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Study of language change over time"
+                    }
+                ]
+            }
+        },
+        "646973747269627574696f6e616c206d65617375726573": {
+            "_surface": {
+                "text": "distributional measures",
+                "unicode_name": "distributional measures"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measures related to distribution"
+                    }
+                ]
+            }
+        },
+        "73656d616e7469632067656e6572616c697a6174696f6e": {
+            "_surface": {
+                "text": "semantic generalization",
+                "unicode_name": "semantic generalization"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Broadening of meaning"
+                    }
+                ]
+            }
+        },
+        "636f2d6f6363757272656e63652073746174697374696373": {
+            "_surface": {
+                "text": "co-occurrence statistics",
+                "unicode_name": "co-occurrence statistics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Statistics of word co-occurrence"
+                    }
+                ]
+            }
+        },
+        "676c6f62616c206d656173757265206f66206368616e6765": {
+            "_surface": {
+                "text": "global measure of change",
+                "unicode_name": "global measure of change"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of change in a word's semantics"
+                    }
+                ]
+            }
+        },
+        "6972726567756c61722063756c747572616c20736869667473": {
+            "_surface": {
+                "text": "irregular cultural shifts",
+                "unicode_name": "irregular cultural shifts"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unpredictable changes in culture"
+                    }
+                ]
+            }
+        },
+        "746563686e6f6c6f676963616c20616476616e63656d656e7473": {
+            "_surface": {
+                "text": "technological advancements",
+                "unicode_name": "technological advancements"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Advancements in technology"
+                    }
+                ]
+            }
+        },
+        "6c6f63616c2073656d616e746963206e65696768626f72686f6f64": {
+            "_surface": {
+                "text": "local semantic neighborhood",
+                "unicode_name": "local semantic neighborhood"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Words closest in meaning"
+                    }
+                ]
+            }
+        },
+        "64656c20507261646fc2a04d617274696e20616e64204272656e64656c": {
+            "_surface": {
+                "text": "del Prado Martin and Brendel",
+                "unicode_name": "del Prado Martin and Brendel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2016"
+                        ],
+                        "arity": 0,
+                        "description": "Authors of a paper"
+                    }
+                ]
+            }
+        },
+        "64697374616e6365206265747765656e20776f726420766563746f7273": {
+            "_surface": {
+                "text": "distance between word vectors",
+                "unicode_name": "distance between word vectors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of similarity between words"
+                    }
+                ]
+            }
+        },
+        "6c617267652d7363616c6520737461746973746963616c207374756479": {
+            "_surface": {
+                "text": "large-scale statistical study",
+                "unicode_name": "large-scale statistical study"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Study with a large amount of data"
+                    }
+                ]
+            }
+        },
+        "4465706172746d656e74206f6620436f6d707574657220536369656e6365": {
+            "_surface": {
+                "text": "Department of Computer Science",
+                "unicode_name": "Department of Computer Science"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Academic department"
+                    }
+                ]
+            }
+        },
+        "6469616368726f6e696320776f72643276656320656d62656464696e6773": {
+            "_surface": {
+                "text": "diachronic word2vec embeddings",
+                "unicode_name": "diachronic word2vec embeddings"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word representations over time"
+                    }
+                ]
+            }
+        },
+        "534150205374616e666f72642047726164756174652046656c6c6f7773686970": {
+            "_surface": {
+                "text": "SAP Stanford Graduate Fellowship",
+                "unicode_name": "SAP Stanford Graduate Fellowship"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fellowship from SAP and Stanford University"
+                    }
+                ]
+            }
+        },
+        "5374616e666f7264204461746120536369656e636520496e6974696174697665": {
+            "_surface": {
+                "text": "Stanford Data Science Initiative",
+                "unicode_name": "Stanford Data Science Initiative"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stanford University initiative"
+                    }
+                ]
+            }
+        },
+        "736b69702d6772616d2077697468206e656761746976652073616d706c696e6720": {
+            "_surface": {
+                "text": "skip-gram with negative sampling ",
+                "unicode_name": "skip-gram with negative sampling "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(SGNS) algorithm"
+                        ],
+                        "arity": 0,
+                        "description": "Word embedding algorithm"
+                    }
+                ]
+            }
+        },
+        "747261646974696f6e616c20676c6f62616c206e6f74696f6e206f66206368616e6765": {
+            "_surface": {
+                "text": "traditional global notion of change",
+                "unicode_name": "traditional global notion of change"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conventional measure of change"
+                    }
+                ]
+            }
+        },
+        "6c6f63616c206e65696768626f72686f6f64206d656173757265206f66206368616e6765": {
+            "_surface": {
+                "text": "local neighborhood measure of change",
+                "unicode_name": "local neighborhood measure of change"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of change in a word's nearest semantic neighbors"
+                    }
+                ]
+            }
+        },
+        "726567756c61722070726f636573736573206f662073656d616e746963206368616e6765": {
+            "_surface": {
+                "text": "regular processes of semantic change",
+                "unicode_name": "regular processes of semantic change"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Regular changes in meaning"
+                    }
+                ]
+            }
+        }
+    }
+}

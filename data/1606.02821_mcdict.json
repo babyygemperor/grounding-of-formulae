@@ -1,0 +1,214 @@
+{
+    "_author": "Aamin Dev",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "global"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "local neighbourhood"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "superscript",
+                            "open parenthesis",
+                            "comma",
+                            "close parenthesis"
+                        ],
+                        "arity": 2,
+                        "description": "global measure"
+                    },
+                    {
+                        "affixes": [
+                            "superscript",
+                            "open parenthesis",
+                            "comma",
+                            "close parenthesis"
+                        ],
+                        "arity": 2,
+                        "description": "local neighbourhood measure"
+                    },
+                    {
+                        "affixes": [
+                            "superscript"
+                        ],
+                        "arity": 0,
+                        "description": "global value"
+                    },
+                    {
+                        "affixes": [
+                            "superscript"
+                        ],
+                        "arity": 0,
+                        "description": "local neighbourhood value"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "number of nearest neighbours"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "time point"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "word"
+                    },
+                    {
+                        "affixes": [
+                            "superscript",
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "word at a time point"
+                    }
+                ]
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "superscript"
+                        ],
+                        "arity": 1,
+                        "description": "second-order similarity vector"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "superscript"
+                        ],
+                        "arity": 0,
+                        "description": "word vector representation"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ordered set of nearest neighbours"
+                    }
+                ]
+            }
+        }
+    }
+}

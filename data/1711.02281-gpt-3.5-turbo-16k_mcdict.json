@@ -1,0 +1,2855 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expectation operator"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimal translation"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Key"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conditional distribution for target sequence length"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classifier layer"
+                    }
+                ]
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Query"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target sequence length"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Length of source sentence"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target sentence"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_model"
+                        ],
+                        "arity": 0,
+                        "description": "Model hidden size"
+                    },
+                    {
+                        "affixes": [
+                            "_hidden"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden size"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fertility value"
+                    },
+                    {
+                        "affixes": [
+                            "^t'"
+                        ],
+                        "arity": 0,
+                        "description": "Argmax of fertility"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Timestep index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel index"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_layer"
+                        ],
+                        "arity": 0,
+                        "description": "Number of layers"
+                    },
+                    {
+                        "affixes": [
+                            "_head"
+                        ],
+                        "arity": 0,
+                        "description": "Number of heads"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conditional distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fertility neural network model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Positional encoding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Translation model"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proposal distribution"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time step"
+                    },
+                    {
+                        "affixes": [
+                            "_warmup"
+                        ],
+                        "arity": 0,
+                        "description": "Warmup steps"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source sentence"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target sentence"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Latent variable"
+                    }
+                ]
+            }
+        },
+        "4152": {
+            "_surface": {
+                "text": "AR",
+                "unicode_name": "AR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Autoregressive Transformer"
+                    }
+                ]
+            }
+        },
+        "4250": {
+            "_surface": {
+                "text": "BP"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4654": {
+            "_surface": {
+                "text": "FT"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b44": {
+            "_surface": {
+                "text": "KD"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d4c": {
+            "_surface": {
+                "text": "ML"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "524c": {
+            "_surface": {
+                "text": "RL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7046": {
+            "_surface": {
+                "text": "pF",
+                "unicode_name": "pF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fertility prediction"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fertility distribution"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model parameters"
+                    }
+                ]
+            }
+        },
+        "cebb": {
+            "_surface": {
+                "text": "λ",
+                "unicode_name": "GREEK SMALL LETTER LAMDA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighting factor"
+                    }
+                ]
+            }
+        },
+        "41434c": {
+            "_surface": {
+                "text": "ACL",
+                "unicode_name": "ACL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference"
+                    }
+                ]
+            }
+        },
+        "425045": {
+            "_surface": {
+                "text": "BPE",
+                "unicode_name": "BPE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Byte-pair encoding"
+                    }
+                ]
+            }
+        },
+        "4d4c50": {
+            "_surface": {
+                "text": "MLP",
+                "unicode_name": "MLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feed-forward network"
+                    }
+                ]
+            }
+        },
+        "4e4154": {
+            "_surface": {
+                "text": "NAT",
+                "unicode_name": "NAT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Non-Autoregressive Transformer"
+                    }
+                ]
+            }
+        },
+        "4e4d54": {
+            "_surface": {
+                "text": "NMT",
+                "unicode_name": "NMT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Machine Translation"
+                    }
+                ]
+            }
+        },
+        "4e5044": {
+            "_surface": {
+                "text": "NPD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Noisy parallel decoding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Noisy Parallel Decoding"
+                    }
+                ]
+            }
+        },
+        "524b4c": {
+            "_surface": {
+                "text": "RKL"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "524e4e": {
+            "_surface": {
+                "text": "RNN",
+                "unicode_name": "RNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Recurrent Neural Network"
+                    }
+                ]
+            }
+        },
+        "636f73": {
+            "_surface": {
+                "text": "cos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cosine function"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm function"
+                    }
+                ]
+            }
+        },
+        "73696e": {
+            "_surface": {
+                "text": "sin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sine function"
+                    }
+                ]
+            }
+        },
+        "e2848b": {
+            "_surface": {
+                "text": "ℋ",
+                "unicode_name": "SCRIPT CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entropy"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss function"
+                    }
+                ]
+            }
+        },
+        "e284a4": {
+            "_surface": {
+                "text": "ℤ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL Z"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e284b1": {
+            "_surface": {
+                "text": "ℱ",
+                "unicode_name": "SCRIPT CAPITAL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of fertility sequences"
+                    }
+                ]
+            }
+        },
+        "e284b3": {
+            "_surface": {
+                "text": "ℳ",
+                "unicode_name": "SCRIPT CAPITAL M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    }
+                ]
+            }
+        },
+        "e28888": {
+            "_surface": {
+                "text": "∈",
+                "unicode_name": "ELEMENT OF"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of a set"
+                    }
+                ]
+            }
+        },
+        "e2888f": {
+            "_surface": {
+                "text": "∏",
+                "unicode_name": "N-ARY PRODUCT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Product operator"
+                    }
+                ]
+            }
+        },
+        "e28891": {
+            "_surface": {
+                "text": "∑",
+                "unicode_name": "N-ARY SUMMATION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summation operator"
+                    }
+                ]
+            }
+        },
+        "e28b85": {
+            "_surface": {
+                "text": "⋅",
+                "unicode_name": "DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multiplication operator"
+                    }
+                ]
+            }
+        },
+        "31393933": {
+            "_surface": {
+                "text": "1993",
+                "unicode_name": "1993"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "32303130": {
+            "_surface": {
+                "text": "2010",
+                "unicode_name": "2010"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "32303133": {
+            "_surface": {
+                "text": "2013",
+                "unicode_name": "2013"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "32303134": {
+            "_surface": {
+                "text": "2014",
+                "unicode_name": "2014"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "32303135": {
+            "_surface": {
+                "text": "2015",
+                "unicode_name": "2015"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "32303136": {
+            "_surface": {
+                "text": "2016",
+                "unicode_name": "2016"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "32303137": {
+            "_surface": {
+                "text": "2017",
+                "unicode_name": "2017"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "424c4555": {
+            "_surface": {
+                "text": "BLEU",
+                "unicode_name": "BLEU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BLEU score"
+                    }
+                ]
+            }
+        },
+        "426c6575": {
+            "_surface": {
+                "text": "Bleu",
+                "unicode_name": "Bleu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation Metric"
+                    }
+                ]
+            }
+        },
+        "43686f20": {
+            "_surface": {
+                "text": "Cho ",
+                "unicode_name": "Cho "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a paper"
+                    }
+                ]
+            }
+        },
+        "47505573": {
+            "_surface": {
+                "text": "GPUs",
+                "unicode_name": "GPUs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "GPUs"
+                    }
+                ]
+            }
+        },
+        "49434c52": {
+            "_surface": {
+                "text": "ICLR",
+                "unicode_name": "ICLR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ICLR conference"
+                    }
+                ]
+            }
+        },
+        "4e495053": {
+            "_surface": {
+                "text": "NIPS",
+                "unicode_name": "NIPS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference"
+                    }
+                ]
+            }
+        },
+        "66313a54": {
+            "_surface": {
+                "text": "f1:T",
+                "unicode_name": "f1:T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Fertility sequence"
+                    }
+                ]
+            }
+        },
+        "66617374": {
+            "_surface": {
+                "text": "fast",
+                "unicode_name": "fast"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_align"
+                        ],
+                        "arity": 0,
+                        "description": "Fast_align implementation of IBM Model 2"
+                    }
+                ]
+            }
+        },
+        "68656164": {
+            "_surface": {
+                "text": "head"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d94bc": {
+            "_surface": {
+                "text": "𝔼",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expectation operator"
+                    }
+                ]
+            }
+        },
+        "313939332e": {
+            "_surface": {
+                "text": "1993.",
+                "unicode_name": "1993."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "323031362e": {
+            "_surface": {
+                "text": "2016.",
+                "unicode_name": "2016."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "323031372e": {
+            "_surface": {
+                "text": "2017.",
+                "unicode_name": "2017."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Year"
+                    }
+                ]
+            }
+        },
+        "454d4e4c50": {
+            "_surface": {
+                "text": "EMNLP",
+                "unicode_name": "EMNLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference"
+                    }
+                ]
+            }
+        },
+        "4957534c54": {
+            "_surface": {
+                "text": "IWSLT",
+                "unicode_name": "IWSLT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IWSLT dataset"
+                    }
+                ]
+            }
+        },
+        "4e4141434c": {
+            "_surface": {
+                "text": "NAACL",
+                "unicode_name": "NAACL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference"
+                    }
+                ]
+            }
+        },
+        "526f756e64": {
+            "_surface": {
+                "text": "Round"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rounding function"
+                    }
+                ]
+            }
+        },
+        "574d543134": {
+            "_surface": {
+                "text": "WMT14",
+                "unicode_name": "WMT14"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WMT14 En–De Dataset"
+                    }
+                ]
+            }
+        },
+        "574d543136": {
+            "_surface": {
+                "text": "WMT16",
+                "unicode_name": "WMT16"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WMT16 En–Ro Dataset"
+                    }
+                ]
+            }
+        },
+        "6c61796572": {
+            "_surface": {
+                "text": "layer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d6f64656c": {
+            "_surface": {
+                "text": "model"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7041e2849b": {
+            "_surface": {
+                "text": "pAℛ",
+                "unicode_name": "pAℛ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proposal distribution"
+                    }
+                ]
+            }
+        },
+        "e284924250": {
+            "_surface": {
+                "text": "ℒBP",
+                "unicode_name": "ℒBP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backpropagation"
+                    }
+                ]
+            }
+        },
+        "e284924654": {
+            "_surface": {
+                "text": "ℒFT",
+                "unicode_name": "ℒFT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fine-tuning loss"
+                    }
+                ]
+            }
+        },
+        "e284924b44": {
+            "_surface": {
+                "text": "ℒKD",
+                "unicode_name": "ℒKD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Knowledge distillation loss"
+                    }
+                ]
+            }
+        },
+        "e284924d4c": {
+            "_surface": {
+                "text": "ℒML",
+                "unicode_name": "ℒML"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum likelihood loss"
+                    }
+                ]
+            }
+        },
+        "e28492524c": {
+            "_surface": {
+                "text": "ℒRL",
+                "unicode_name": "ℒRL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "REINFORCE"
+                    }
+                ]
+            }
+        },
+        "4669672e2031": {
+            "_surface": {
+                "text": "Fig. 1",
+                "unicode_name": "Fig. 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 1"
+                    }
+                ]
+            }
+        },
+        "4669672e2032": {
+            "_surface": {
+                "text": "Fig. 2",
+                "unicode_name": "Fig. 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 2"
+                    }
+                ]
+            }
+        },
+        "6172676d6178": {
+            "_surface": {
+                "text": "argmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Argmax decoding"
+                    }
+                ]
+            }
+        },
+        "66c2af313a54": {
+            "_surface": {
+                "text": "f¯1:T",
+                "unicode_name": "f¯1:T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Average fertility"
+                    }
+                ]
+            }
+        },
+        "68696464656e": {
+            "_surface": {
+                "text": "hidden"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7761726d7570": {
+            "_surface": {
+                "text": "warmup"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e28492524b4c": {
+            "_surface": {
+                "text": "ℒRKL",
+                "unicode_name": "ℒRKL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reverse K-L divergence loss"
+                    }
+                ]
+            }
+        },
+        "4957534c543136": {
+            "_surface": {
+                "text": "IWSLT16",
+                "unicode_name": "IWSLT16"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IWSLT16 En–De Dataset"
+                    }
+                ]
+            }
+        },
+        "616c69676e6572": {
+            "_surface": {
+                "text": "aligner",
+                "unicode_name": "aligner"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Aligner"
+                    }
+                ]
+            }
+        },
+        "61766572616765": {
+            "_surface": {
+                "text": "average"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Average decoding"
+                    }
+                ]
+            }
+        },
+        "656e636f646572": {
+            "_surface": {
+                "text": "encoder",
+                "unicode_name": "encoder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Encoder"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "74656163686572": {
+            "_surface": {
+                "text": "teacher",
+                "unicode_name": "teacher"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Teacher model"
+                    }
+                ]
+            }
+        },
+        "77656967687473": {
+            "_surface": {
+                "text": "weights",
+                "unicode_name": "weights"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weights"
+                    }
+                ]
+            }
+        },
+        "f09d929ce2849b": {
+            "_surface": {
+                "text": "𝒜ℛ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all translations"
+                    }
+                ]
+            }
+        },
+        "4162737472616374": {
+            "_surface": {
+                "text": "Abstract",
+                "unicode_name": "Abstract"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "4669677572652033": {
+            "_surface": {
+                "text": "Figure 3",
+                "unicode_name": "Figure 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 3"
+                    }
+                ]
+            }
+        },
+        "4669677572652034": {
+            "_surface": {
+                "text": "Figure 4",
+                "unicode_name": "Figure 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 4"
+                    }
+                ]
+            }
+        },
+        "4669677572652035": {
+            "_surface": {
+                "text": "Figure 5",
+                "unicode_name": "Figure 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 5"
+                    }
+                ]
+            }
+        },
+        "4669677572652036": {
+            "_surface": {
+                "text": "Figure 6",
+                "unicode_name": "Figure 6"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The schematic structure of training and inference for the NAT. The “distilled data” contains target sentences decoded by the autoregressive model and ground-truth source sentences."
+                    }
+                ]
+            }
+        },
+        "4669677572652037": {
+            "_surface": {
+                "text": "Figure 7",
+                "unicode_name": "Figure 7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The translation latency, computed as the time to decode a single sentence without minibatching, for each sentence in the IWSLT development set as a function of its length. The autoregressive model has latency linear in the decoding length, while the latency of the NAT is nearly constant for typical lengths, even with NPD with sample size 10. When using NPD with sample size 100, the level of parallelism is enough to more than saturate the GPU, leading again to linear latencies."
+                    }
+                ]
+            }
+        },
+        "4669677572652038": {
+            "_surface": {
+                "text": "Figure 8",
+                "unicode_name": "Figure 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learning curves for training and fine-tuning of the NAT on IWSLT. BLEU scores are on the development set."
+                    }
+                ]
+            }
+        },
+        "f09d92a9f09d929c": {
+            "_surface": {
+                "text": "𝒩𝒜"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d94bc66313a54": {
+            "_surface": {
+                "text": "𝔼f1:T",
+                "unicode_name": "𝔼f1:T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Expectation over predicted fertility distribution"
+                    }
+                ]
+            }
+        },
+        "417474656e74696f6e": {
+            "_surface": {
+                "text": "Attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multi-head attention module"
+                    }
+                ]
+            }
+        },
+        "436f676e6974696f6e": {
+            "_surface": {
+                "text": "Cognition",
+                "unicode_name": "Cognition"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "4a696174616f204775": {
+            "_surface": {
+                "text": "Jiatao Gu",
+                "unicode_name": "Jiatao Gu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "57696c6c69616d7320": {
+            "_surface": {
+                "text": "Williams ",
+                "unicode_name": "Williams "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1992)"
+                        ],
+                        "arity": 0,
+                        "description": "Ronald Williams"
+                    }
+                ]
+            }
+        },
+        "6c6174656e63696573": {
+            "_surface": {
+                "text": "latencies",
+                "unicode_name": "latencies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Latencies"
+                    }
+                ]
+            }
+        },
+        "70f09d92a9f09d929c": {
+            "_surface": {
+                "text": "p𝒩𝒜",
+                "unicode_name": "p𝒩𝒜"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conditional distribution for target tokens"
+                    }
+                ]
+            }
+        },
+        "4261636b67726f756e64": {
+            "_surface": {
+                "text": "Background",
+                "unicode_name": "Background"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "424c455520706f696e7473": {
+            "_surface": {
+                "text": "BLEU points",
+                "unicode_name": "BLEU points"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BLEU points"
+                    }
+                ]
+            }
+        },
+        "424c45552073636f726573": {
+            "_surface": {
+                "text": "BLEU scores",
+                "unicode_name": "BLEU scores"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BLEU scores"
+                    }
+                ]
+            }
+        },
+        "4479657220657420616c2e": {
+            "_surface": {
+                "text": "Dyer et al.",
+                "unicode_name": "Dyer et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2013"
+                        ],
+                        "arity": 0,
+                        "description": "Dyer et al., 2013"
+                    }
+                ]
+            }
+        },
+        "49424d204d6f64656c2032": {
+            "_surface": {
+                "text": "IBM Model 2",
+                "unicode_name": "IBM Model 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IBM Model 2"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Statistical Machine Translation Model"
+                    }
+                ]
+            }
+        },
+        "5472616e73666f726d6572": {
+            "_surface": {
+                "text": "Transformer",
+                "unicode_name": "Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer network"
+                    }
+                ]
+            }
+        },
+        "5775206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Wu et al. ",
+                "unicode_name": "Wu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Y. Wu, M. Schuster, Z. Chen, Q. V. Le, M. Norouzi, W. Macherey, M. Krikun, Y. Cao, Q. Gao, K. Macherey, J. Klingner, A. Shah, M. Johnson, X. Liu, Ł. Kaiser, S. Gouws, Y. Kato, T. Kudo, H. Kazawa, K. Stevens, G. Kurian, N. Patil, W. Wang, C. Young, J. Smith, J. Riesa, A. Rudnick, O. Vinyals, G. Corrado, M. Hughes, and J. Dean"
+                    }
+                ]
+            }
+        },
+        "6265616d20736561726368": {
+            "_surface": {
+                "text": "beam search",
+                "unicode_name": "beam search"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Beam search"
+                    }
+                ]
+            }
+        },
+        "66696e652d74756e696e67": {
+            "_surface": {
+                "text": "fine-tuning",
+                "unicode_name": "fine-tuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fine-tuning"
+                    }
+                ]
+            }
+        },
+        "73616d706c652073697a65": {
+            "_surface": {
+                "text": "sample size",
+                "unicode_name": "sample size"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sample size"
+                    }
+                ]
+            }
+        },
+        "496e74726f64756374696f6e": {
+            "_surface": {
+                "text": "Introduction",
+                "unicode_name": "Introduction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "4e41542077697468204e5044": {
+            "_surface": {
+                "text": "NAT with NPD",
+                "unicode_name": "NAT with NPD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Non-Autoregressive Transformer with Noisy Parallel Decoding"
+                    }
+                ]
+            }
+        },
+        "574d54206461746173657473": {
+            "_surface": {
+                "text": "WMT datasets",
+                "unicode_name": "WMT datasets"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "WMT datasets"
+                    }
+                ]
+            }
+        },
+        "67726f756e64207472757468": {
+            "_surface": {
+                "text": "ground truth",
+                "unicode_name": "ground truth"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ground truth"
+                    }
+                ]
+            }
+        },
+        "7472616e736c6174696f6e73": {
+            "_surface": {
+                "text": "translations",
+                "unicode_name": "translations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Translations"
+                    }
+                ]
+            }
+        },
+        "4361696d696e672058696f6e67": {
+            "_surface": {
+                "text": "Caiming Xiong",
+                "unicode_name": "Caiming Xiong"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "46657274696c697479204c6f7373": {
+            "_surface": {
+                "text": "Fertility Loss",
+                "unicode_name": "Fertility Loss"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss for fertility"
+                    }
+                ]
+            }
+        },
+        "47656872696e6720657420616c2e": {
+            "_surface": {
+                "text": "Gehring et al.",
+                "unicode_name": "Gehring et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "Gehring et al., 2017"
+                    }
+                ]
+            }
+        },
+        "4a616d6573204272616462757279": {
+            "_surface": {
+                "text": "James Bradbury",
+                "unicode_name": "James Bradbury"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5269636861726420536f63686572": {
+            "_surface": {
+                "text": "Richard Socher",
+                "unicode_name": "Richard Socher"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "56617377616e6920657420616c2e": {
+            "_surface": {
+                "text": "Vaswani et al.",
+                "unicode_name": "Vaswani et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "Vaswani et al., 2017"
+                    }
+                ]
+            }
+        },
+        "566963746f72204f2e4b2e204c69": {
+            "_surface": {
+                "text": "Victor O.K. Li",
+                "unicode_name": "Victor O.K. Li"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "61626c6174696f6e207374756479": {
+            "_surface": {
+                "text": "ablation study",
+                "unicode_name": "ablation study"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ablation study"
+                    }
+                ]
+            }
+        },
+        "6175746f72656772657373697665": {
+            "_surface": {
+                "text": "autoregressive",
+                "unicode_name": "autoregressive"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Autoregressive model"
+                    }
+                ]
+            }
+        },
+        "42616864616e617520657420616c2e": {
+            "_surface": {
+                "text": "Bahdanau et al.",
+                "unicode_name": "Bahdanau et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Bahdanau et al., 2015"
+                    }
+                ]
+            }
+        },
+        "506170696e656e6920657420616c2e": {
+            "_surface": {
+                "text": "Papineni et al.",
+                "unicode_name": "Papineni et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2002"
+                        ],
+                        "arity": 0,
+                        "description": "Papineni et al., 2002"
+                    }
+                ]
+            }
+        },
+        "53656e6e7269636820657420616c2e": {
+            "_surface": {
+                "text": "Sennrich et al.",
+                "unicode_name": "Sennrich et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2015"
+                        ],
+                        "arity": 0,
+                        "description": "Reference to a paper"
+                    }
+                ]
+            }
+        },
+        "6879706572706172616d6574657273": {
+            "_surface": {
+                "text": "hyperparameters",
+                "unicode_name": "hyperparameters"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperparameters"
+                    }
+                ]
+            }
+        },
+        "756e69666f726d20636f7079696e67": {
+            "_surface": {
+                "text": "uniform copying",
+                "unicode_name": "uniform copying"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Uniform copying"
+                    }
+                ]
+            }
+        },
+        "4d616368696e65204c6561726e696e67": {
+            "_surface": {
+                "text": "Machine Learning",
+                "unicode_name": "Machine Learning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 8(3-4):229–256, 1992"
+                        ],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "5472616e736c6174696f6e204c6f7373": {
+            "_surface": {
+                "text": "Translation Loss",
+                "unicode_name": "Translation Loss"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Loss for translation"
+                    }
+                ]
+            }
+        },
+        "61725869763a313530382e3037393039": {
+            "_surface": {
+                "text": "arXiv:1508.07909",
+                "unicode_name": "arXiv:1508.07909"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv Preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313630352e3033383335": {
+            "_surface": {
+                "text": "arXiv:1605.03835",
+                "unicode_name": "arXiv:1605.03835"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv Preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313630392e3038313434": {
+            "_surface": {
+                "text": "arXiv:1609.08144",
+                "unicode_name": "arXiv:1609.08144"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv Preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313631302e3130303939": {
+            "_surface": {
+                "text": "arXiv:1610.10099",
+                "unicode_name": "arXiv:1610.10099"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv Preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313730352e3033313232": {
+            "_surface": {
+                "text": "arXiv:1705.03122",
+                "unicode_name": "arXiv:1705.03122"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv Preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313730362e3033303539": {
+            "_surface": {
+                "text": "arXiv:1706.03059",
+                "unicode_name": "arXiv:1706.03059"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv Preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313730362e3033373632": {
+            "_surface": {
+                "text": "arXiv:1706.03762",
+                "unicode_name": "arXiv:1706.03762"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv Preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313730362e3033383732": {
+            "_surface": {
+                "text": "arXiv:1706.03872",
+                "unicode_name": "arXiv:1706.03872"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv Preprint"
+                    }
+                ]
+            }
+        },
+        "5472616e73666f726d6572206d6f64656c": {
+            "_surface": {
+                "text": "Transformer model",
+                "unicode_name": "Transformer model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer model"
+                    }
+                ]
+            }
+        },
+        "66696e652d74756e696e67207465726d73": {
+            "_surface": {
+                "text": "fine-tuning terms",
+                "unicode_name": "fine-tuning terms"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fine-tuning terms"
+                    }
+                ]
+            }
+        },
+        "6e6f6e2d6175746f72656772657373697665": {
+            "_surface": {
+                "text": "non-autoregressive",
+                "unicode_name": "non-autoregressive"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Non-Autoregressive model"
+                    }
+                ]
+            }
+        },
+        "53616c6573666f726365205265736561726368": {
+            "_surface": {
+                "text": "Salesforce Research",
+                "unicode_name": "Salesforce Research"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation"
+                    }
+                ]
+            }
+        },
+        "64697374696c6c6174696f6e20636f72707573": {
+            "_surface": {
+                "text": "distillation corpus",
+                "unicode_name": "distillation corpus"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distillation corpus"
+                    }
+                ]
+            }
+        },
+        "4957534c5420646576656c6f706d656e7420736574": {
+            "_surface": {
+                "text": "IWSLT development set",
+                "unicode_name": "IWSLT development set"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "IWSLT development set"
+                    }
+                ]
+            }
+        },
+        "66657274696c6974792070726564696374696f6e73": {
+            "_surface": {
+                "text": "fertility predictions",
+                "unicode_name": "fertility predictions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fertility predictions"
+                    }
+                ]
+            }
+        },
+        "6c6174656e74207661726961626c65206d6f64656c": {
+            "_surface": {
+                "text": "latent variable model",
+                "unicode_name": "latent variable model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Latent variable model"
+                    }
+                ]
+            }
+        },
+        "706f736974696f6e616c20656d62656464696e6773": {
+            "_surface": {
+                "text": "positional embeddings",
+                "unicode_name": "positional embeddings"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Positional embeddings"
+                    }
+                ]
+            }
+        },
+        "746f6b656e697a656420424c45552073636f726573": {
+            "_surface": {
+                "text": "tokenized BLEU scores",
+                "unicode_name": "tokenized BLEU scores"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tokenized BLEU scores"
+                    }
+                ]
+            }
+        },
+        "5079546f72636820696d706c656d656e746174696f6e": {
+            "_surface": {
+                "text": "PyTorch implementation",
+                "unicode_name": "PyTorch implementation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "PyTorch implementation"
+                    }
+                ]
+            }
+        },
+        "436f6d7075746174696f6e616c204c696e6775697374696373": {
+            "_surface": {
+                "text": "Computational Linguistics",
+                "unicode_name": "Computational Linguistics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "4d6178696d756d204c696b656c69686f6f6420747261696e696e67": {
+            "_surface": {
+                "text": "Maximum Likelihood training",
+                "unicode_name": "Maximum Likelihood training"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subsection"
+                    }
+                ]
+            }
+        },
+        "4e6f6e2d4175746f72656772657373697665204465636f64696e67": {
+            "_surface": {
+                "text": "Non-Autoregressive Decoding",
+                "unicode_name": "Non-Autoregressive Decoding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subsection"
+                    }
+                ]
+            }
+        },
+        "54686520556e6976657273697479206f6620486f6e67204b6f6e67": {
+            "_surface": {
+                "text": "The University of Hong Kong",
+                "unicode_name": "The University of Hong Kong"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation"
+                    }
+                ]
+            }
+        },
+        "476976656e206120736f757263652073656e74656e636520583d7b7831": {
+            "_surface": {
+                "text": "Given a source sentence X={x1",
+                "unicode_name": "Given a source sentence X={x1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",…,x′T}, a neural machine translation model factors the distribution over possible output sentences Y={y1,…,yT} into a chain of conditional probabilities with a left-to-right causal structure: p𝒜ℛ(Y|X;θ)=∏t=1T+1p(yt|y0:t−1,x1:T′;θ), where the special tokens y0 (e.g. ⟨bos⟩) and yT+1 (e.g. ⟨eos⟩) are used to represent the beginning and end of all target sentences. These conditional probabilities are parameterized using a neural network. Typically, an encoder-decoder architecture (Sutskever et al., 2014) with a unidirectional RNN-based decoder is used to capture the causal structure of the output distribution."
+                        ],
+                        "arity": 0,
+                        "description": "Description"
+                    }
+                ]
+            }
+        },
+        "677265656479206175746f72656772657373697665206465636f64696e67": {
+            "_surface": {
+                "text": "greedy autoregressive decoding",
+                "unicode_name": "greedy autoregressive decoding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Greedy autoregressive decoding"
+                    }
+                ]
+            }
+        },
+        "4175746f72656772657373697665204e4d5420776974686f757420524e4e73": {
+            "_surface": {
+                "text": "Autoregressive NMT without RNNs",
+                "unicode_name": "Autoregressive NMT without RNNs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subsection"
+                    }
+                ]
+            }
+        },
+        "53657175656e63652d6c6576656c206b6e6f776c656467652064697374696c6c6174696f6e": {
+            "_surface": {
+                "text": "Sequence-level knowledge distillation",
+                "unicode_name": "Sequence-level knowledge distillation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Knowledge Distillation Technique"
+                    }
+                ]
+            }
+        },
+        "4175746f72656772657373697665204e657572616c204d616368696e65205472616e736c6174696f6e": {
+            "_surface": {
+                "text": "Autoregressive Neural Machine Translation",
+                "unicode_name": "Autoregressive Neural Machine Translation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subsection"
+                    }
+                ]
+            }
+        },
+        "4e657572616c206d616368696e65207472616e736c6174696f6e20696e206c696e6561722074696d65": {
+            "_surface": {
+                "text": "Neural machine translation in linear time",
+                "unicode_name": "Neural machine translation in linear time"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Network Model"
+                    }
+                ]
+            }
+        },
+        "436f6e766f6c7574696f6e616c2073657175656e636520746f2073657175656e6365206c6561726e696e67": {
+            "_surface": {
+                "text": "Convolutional sequence to sequence learning",
+                "unicode_name": "Convolutional sequence to sequence learning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Network Model"
+                    }
+                ]
+            }
+        },
+        "536978206368616c6c656e67657320666f72206e657572616c206d616368696e65207472616e736c6174696f6e": {
+            "_surface": {
+                "text": "Six challenges for neural machine translation",
+                "unicode_name": "Six challenges for neural machine translation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "53657175656e636520746f2073657175656e6365206c6561726e696e672077697468206e657572616c206e6574776f726b73": {
+            "_surface": {
+                "text": "Sequence to sequence learning with neural networks",
+                "unicode_name": "Sequence to sequence learning with neural networks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Network Model"
+                    }
+                ]
+            }
+        },
+        "537461746973746963616c206d616368696e65207472616e736c6174696f6e3a20506172616d6574657220657374696d6174696f6e": {
+            "_surface": {
+                "text": "Statistical machine translation: Parameter estimation",
+                "unicode_name": "Statistical machine translation: Parameter estimation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "4e657572616c206d616368696e65207472616e736c6174696f6e206f66207261726520776f726473207769746820737562776f726420756e697473": {
+            "_surface": {
+                "text": "Neural machine translation of rare words with subword units",
+                "unicode_name": "Neural machine translation of rare words with subword units"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Network Model"
+                    }
+                ]
+            }
+        },
+        "53696e63652074686520656e7469726520746172676574207472616e736c6174696f6e206973206b6e6f776e20617420747261696e696e672074696d65": {
+            "_surface": {
+                "text": "Since the entire target translation is known at training time",
+                "unicode_name": "Since the entire target translation is known at training time"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", the calculation of later conditional probabilities (and their corresponding losses) does not depend on the output words chosen during earlier decoding steps. Even though decoding must remain entirely sequential during inference, models can take advantage of this parallelism during training. One such approach replaces recurrent layers in the decoder with masked convolution layers (Kalchbrenner et al., 2016; Gehring et al., 2017) that provide the causal structure required by the autoregressive factorization. A recently introduced option which reduces sequential computation still further is to construct the decoder layers out of self-attention computations that have been causally masked in an analogous way. The state-of-the-art Transformer network takes this approach, which allows information to flow in the decoder across arbitrarily long distances in a constant number of operations, asymptotically fewer than required by convolutional architectures (Vaswani et al., 2017)."
+                        ],
+                        "arity": 0,
+                        "description": "Description"
+                    }
+                ]
+            }
+        },
+        "44657074687769736520736570617261626c6520636f6e766f6c7574696f6e7320666f72206e657572616c206d616368696e65207472616e736c6174696f6e": {
+            "_surface": {
+                "text": "Depthwise separable convolutions for neural machine translation",
+                "unicode_name": "Depthwise separable convolutions for neural machine translation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Network Model"
+                    }
+                ]
+            }
+        },
+        "45666665637469766520617070726f616368657320746f20617474656e74696f6e2d6261736564206e657572616c206d616368696e65207472616e736c6174696f6e": {
+            "_surface": {
+                "text": "Effective approaches to attention-based neural machine translation",
+                "unicode_name": "Effective approaches to attention-based neural machine translation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Network Model"
+                    }
+                ]
+            }
+        },
+        "4e6f69737920706172616c6c656c20617070726f78696d617465206465636f64696e6720666f7220636f6e646974696f6e616c20726563757272656e74206c616e6775616765206d6f64656c": {
+            "_surface": {
+                "text": "Noisy parallel approximate decoding for conditional recurrent language model",
+                "unicode_name": "Noisy parallel approximate decoding for conditional recurrent language model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Neural Network Model"
+                    }
+                ]
+            }
+        },
+        "506c616e6e696e6720696e2073656e74656e63652070726f64756374696f6e3a2045766964656e636520666f72207468652070687261736520617320612064656661756c7420706c616e6e696e672073636f7065": {
+            "_surface": {
+                "text": "Planning in sentence production: Evidence for the phrase as a default planning scope",
+                "unicode_name": "Planning in sentence production: Evidence for the phrase as a default planning scope"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Research Paper"
+                    }
+                ]
+            }
+        },
+        "576520696e74726f647563652061206e6f6e2d6175746f72656772657373697665207472616e736c6174696f6e206d6f64656c206261736564206f6e20746865205472616e73666f726d6572206e6574776f726b20": {
+            "_surface": {
+                "text": "We introduce a non-autoregressive translation model based on the Transformer network ",
+                "unicode_name": "We introduce a non-autoregressive translation model based on the Transformer network "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(Vaswani et al., 2017). We modify the encoder of the original Transformer network by adding a module that predicts fertilities, sequences of numbers that form an important component of many traditional machine translation models (Brown et al., 1993). These fertilities are supervised during training and provide the decoder at inference time with a globally consistent plan on which to condition its simultaneously computed outputs."
+                        ],
+                        "arity": 0,
+                        "description": "Description"
+                    }
+                ]
+            }
+        },
+        "4e657572616c206e6574776f726b206261736564206d6f64656c73206f7574706572666f726d20747261646974696f6e616c20737461746973746963616c206d6f64656c7320666f72206d616368696e65207472616e736c6174696f6e20": {
+            "_surface": {
+                "text": "Neural network based models outperform traditional statistical models for machine translation ",
+                "unicode_name": "Neural network based models outperform traditional statistical models for machine translation "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(MT) (Bahdanau et al., 2015; Luong et al., 2015). However, state-of-the-art neural models are much slower than statistical MT approaches at inference time (Wu et al., 2016). Both model families use autoregressive decoders that operate one step at a time: they generate each token conditioned on the sequence of tokens previously generated. This process is not parallelizable, and, in the case of neural MT models, it is particularly slow because a computationally intensive neural network is used to generate each token."
+                        ],
+                        "arity": 0,
+                        "description": "Description"
+                    }
+                ]
+            }
+        },
+        "5768696c65207365766572616c20726563656e746c792070726f706f736564206d6f64656c732061766f696420726563757272656e636520617420747261696e2074696d65206279206c657665726167696e6720636f6e766f6c7574696f6e7320": {
+            "_surface": {
+                "text": "While several recently proposed models avoid recurrence at train time by leveraging convolutions ",
+                "unicode_name": "While several recently proposed models avoid recurrence at train time by leveraging convolutions "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(Kalchbrenner et al., 2016; Gehring et al., 2017; Kaiser et al., 2017) or self-attention (Vaswani et al., 2017) as more-parallelizable alternatives to recurrent neural networks (RNNs), use of autoregressive decoding makes it impossible to take full advantage of parallelism during inference."
+                        ],
+                        "arity": 0,
+                        "description": "Description"
+                    }
+                ]
+            }
+        },
+        "4578697374696e6720617070726f616368657320746f206e657572616c206d616368696e65207472616e736c6174696f6e20636f6e646974696f6e2065616368206f757470757420776f7264206f6e2070726576696f75736c792067656e657261746564206f7574707574732e20576520696e74726f647563652061206d6f64656c20746861742061766f6964732074686973206175746f726567726573736976652070726f706572747920616e642070726f647563657320697473206f75747075747320696e20706172616c6c656c": {
+            "_surface": {
+                "text": "Existing approaches to neural machine translation condition each output word on previously generated outputs. We introduce a model that avoids this autoregressive property and produces its outputs in parallel",
+                "unicode_name": "Existing approaches to neural machine translation condition each output word on previously generated outputs. We introduce a model that avoids this autoregressive property and produces its outputs in parallel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", allowing an order of magnitude lower latency during inference. Through knowledge distillation, the use of input token fertilities as a latent variable, and policy gradient fine-tuning, we achieve this at a cost of as little as 2.0 BLEU points relative to the autoregressive Transformer network used as a teacher. We demonstrate substantial cumulative improvements associated with each of the three aspects of our training strategy, and validate our approach on IWSLT 2016 English–German and two WMT language pairs. By sampling fertilities in parallel at inference time, our non-autoregressive model achieves near-state-of-the-art performance of 29.8 BLEU on WMT 2016 English–Romanian."
+                        ],
+                        "arity": 0,
+                        "description": "Description"
+                    }
+                ]
+            }
+        },
+        "43686f6f73696e6720746f20666163746f72697a6520746865206d616368696e65207472616e736c6174696f6e206f757470757420646973747269627574696f6e206175746f726567726573736976656c7920656e61626c6573207374726169676874666f7277617264206d6178696d756d206c696b656c69686f6f6420747261696e696e67207769746820612063726f73732d656e74726f7079206c6f7373206170706c6965642061742065616368206465636f64696e6720737465703a20e284924d4c3d6c6f6770f09d929ce2849b": {
+            "_surface": {
+                "text": "Choosing to factorize the machine translation output distribution autoregressively enables straightforward maximum likelihood training with a cross-entropy loss applied at each decoding step: ℒML=logp𝒜ℛ",
+                "unicode_name": "Choosing to factorize the machine translation output distribution autoregressively enables straightforward maximum likelihood training with a cross-entropy loss applied at each decoding step: ℒML=logp𝒜ℛ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(Y|X;θ)=∑t=1T+1logp(yt|y0:t−1,x1:T′;θ). This loss provides direct supervision for each conditional probability prediction."
+                        ],
+                        "arity": 0,
+                        "description": "Description"
+                    }
+                ]
+            }
+        }
+    }
+}

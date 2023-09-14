@@ -1,0 +1,3843 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[MATH]"
+                        ],
+                        "arity": 0,
+                        "description": "Special symbol"
+                    }
+                ]
+            }
+        },
+        "31": {
+            "_surface": {
+                "text": "1",
+                "unicode_name": "DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author affiliation"
+                    }
+                ]
+            }
+        },
+        "32": {
+            "_surface": {
+                "text": "2",
+                "unicode_name": "DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author affiliation"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance matrix"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer normalization operation"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of transformer layers"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of tokens on the dependency tree"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer block"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntactic distance"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer block"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "CosmosQA"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "TACRED"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Open Entity"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer block"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden state dimension"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entity typing, question answering, and relation classification tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token index"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer block"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer of the model"
+                    }
+                ]
+            }
+        },
+        "6f": {
+            "_surface": {
+                "text": "o",
+                "unicode_name": "LATIN SMALL LETTER O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer block"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer block"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer block"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token on the dependency tree"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token on the dependency tree"
+                    }
+                ]
+            }
+        },
+        "4450": {
+            "_surface": {
+                "text": "DP",
+                "unicode_name": "DP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dependency prediction task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntax-aware pre-training task (dependency prediction task)"
+                    }
+                ]
+            }
+        },
+        "447e": {
+            "_surface": {
+                "text": "D~",
+                "unicode_name": "D~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized correlation strength matrix"
+                    }
+                ]
+            }
+        },
+        "454d": {
+            "_surface": {
+                "text": "EM",
+                "unicode_name": "EM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for open-domain QA task"
+                    }
+                ]
+            }
+        },
+        "4631": {
+            "_surface": {
+                "text": "F1",
+                "unicode_name": "F1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for relation classification task"
+                    }
+                ]
+            }
+        },
+        "4850": {
+            "_surface": {
+                "text": "HP",
+                "unicode_name": "HP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dependency head prediction task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntax-aware pre-training task (head prediction task)"
+                    }
+                ]
+            }
+        },
+        "4d7c": {
+            "_surface": {
+                "text": "M|",
+                "unicode_name": "M|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Threefold contribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contribution of the paper"
+                    }
+                ]
+            }
+        },
+        "5141": {
+            "_surface": {
+                "text": "QA",
+                "unicode_name": "QA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Commonsense QA task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Open-domain question answering task"
+                    }
+                ]
+            }
+        },
+        "527c": {
+            "_surface": {
+                "text": "R|",
+                "unicode_name": "R|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Superior performance over downstream tasks"
+                    }
+                ]
+            }
+        },
+        "587c": {
+            "_surface": {
+                "text": "X|",
+                "unicode_name": "X|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    }
+                ]
+            }
+        },
+        "767c": {
+            "_surface": {
+                "text": "v|",
+                "unicode_name": "v|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Automatically produced dependency structures"
+                    }
+                ]
+            }
+        },
+        "787c": {
+            "_surface": {
+                "text": "x|",
+                "unicode_name": "x|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    }
+                ]
+            }
+        },
+        "797c": {
+            "_surface": {
+                "text": "y|",
+                "unicode_name": "y|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Point in X"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learnable variable"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Activation function"
+                    }
+                ]
+            }
+        },
+        "41434c": {
+            "_surface": {
+                "text": "ACL",
+                "unicode_name": "ACL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", pages 1736–1745"
+                        ],
+                        "arity": 0,
+                        "description": "Denoising distantly supervised open-domain question answering"
+                    }
+                ]
+            }
+        },
+        "46464e": {
+            "_surface": {
+                "text": "FFN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feed forward layer"
+                    }
+                ]
+            }
+        },
+        "475054": {
+            "_surface": {
+                "text": "GPT",
+                "unicode_name": "GPT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    }
+                ]
+            }
+        },
+        "4d4c4d": {
+            "_surface": {
+                "text": "MLM",
+                "unicode_name": "MLM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dynamic masked language model"
+                    }
+                ]
+            }
+        },
+        "c3977c": {
+            "_surface": {
+                "text": "×|",
+                "unicode_name": "×|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cartesian product operator"
+                    }
+                ]
+            }
+        },
+        "cf867c": {
+            "_surface": {
+                "text": "φ|",
+                "unicode_name": "φ|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Formula in 𝖪𝖠"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of real numbers"
+                    }
+                ]
+            }
+        },
+        "31e280a0": {
+            "_surface": {
+                "text": "1†",
+                "unicode_name": "1†"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author affiliation"
+                    }
+                ]
+            }
+        },
+        "31e281a3": {
+            "_surface": {
+                "text": "1⁣",
+                "unicode_name": "1⁣"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Author affiliation"
+                    }
+                ]
+            }
+        },
+        "42455254": {
+            "_surface": {
+                "text": "BERT",
+                "unicode_name": "BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional Encoder Representations from Transformers"
+                    }
+                ]
+            }
+        },
+        "486e2d31": {
+            "_surface": {
+                "text": "Hn-1",
+                "unicode_name": "Hn-1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Input to the transformer block"
+                    }
+                ]
+            }
+        },
+        "5441434c": {
+            "_surface": {
+                "text": "TACL",
+                "unicode_name": "TACL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 3:315–328"
+                        ],
+                        "arity": 0,
+                        "description": "Design challenges for entity linking"
+                    }
+                ]
+            }
+        },
+        "574b4c4d": {
+            "_surface": {
+                "text": "WKLM",
+                "unicode_name": "WKLM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word Knowledge-Enhanced Language Model"
+                    }
+                ]
+            }
+        },
+        "e286927c": {
+            "_surface": {
+                "text": "→|",
+                "unicode_name": "→|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function or implication operator"
+                    }
+                ]
+            }
+        },
+        "e287947c": {
+            "_surface": {
+                "text": "⇔|",
+                "unicode_name": "⇔|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "If and only if operator"
+                    }
+                ]
+            }
+        },
+        "e288887c": {
+            "_surface": {
+                "text": "∈|",
+                "unicode_name": "∈|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element of a set"
+                    }
+                ]
+            }
+        },
+        "e28a867c": {
+            "_surface": {
+                "text": "⊆|",
+                "unicode_name": "⊆|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subset of a set"
+                    }
+                ]
+            }
+        },
+        "e28aa87c": {
+            "_surface": {
+                "text": "⊨|",
+                "unicode_name": "⊨|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Satisfaction relation"
+                    }
+                ]
+            }
+        },
+        "f09d91ab": {
+            "_surface": {
+                "text": "𝑫",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91ae": {
+            "_surface": {
+                "text": "𝑮",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d91af": {
+            "_surface": {
+                "text": "𝑯",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contextual representation"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Syntax-aware representation"
+                    },
+                    {
+                        "affixes": [
+                            "^n"
+                        ],
+                        "arity": 0,
+                        "description": "Syntax-aware representation"
+                    }
+                ]
+            }
+        },
+        "f09d91b0": {
+            "_surface": {
+                "text": "𝑰",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Identity matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91be": {
+            "_surface": {
+                "text": "𝑾",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "^n1"
+                        ],
+                        "arity": 0,
+                        "description": "Model parameter"
+                    },
+                    {
+                        "affixes": [
+                            "^n2"
+                        ],
+                        "arity": 0,
+                        "description": "Model parameter"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model parameter"
+                    }
+                ]
+            }
+        },
+        "4172586976": {
+            "_surface": {
+                "text": "ArXiv",
+                "unicode_name": "ArXiv"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", abs/1909.01066"
+                        ],
+                        "arity": 0,
+                        "description": "Language models as knowledge bases?"
+                    },
+                    {
+                        "affixes": [
+                            ", abs/1911.03681"
+                        ],
+                        "arity": 0,
+                        "description": "Bert is not a knowledge base (yet): Factual knowledge vs. name-based reasoning in unsupervised qa"
+                    }
+                ]
+            }
+        },
+        "432d47434e": {
+            "_surface": {
+                "text": "C-GCN",
+                "unicode_name": "C-GCN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "454d4e4c50": {
+            "_surface": {
+                "text": "EMNLP",
+                "unicode_name": "EMNLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", pages 2391–2401"
+                        ],
+                        "arity": 0,
+                        "description": "Cosmos QA: Machine reading comprehension with contextual commonsense reasoning"
+                    },
+                    {
+                        "affixes": [
+                            ", pages 43–54"
+                        ],
+                        "arity": 0,
+                        "description": "Knowledge enhanced contextual word representations"
+                    }
+                ]
+            }
+        },
+        "45524e4945": {
+            "_surface": {
+                "text": "ERNIE",
+                "unicode_name": "ERNIE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Enhanced Representation through kNowledge IntEgration"
+                    }
+                ]
+            }
+        },
+        "4649474552": {
+            "_surface": {
+                "text": "FIGER",
+                "unicode_name": "FIGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entity typing dataset"
+                    }
+                ]
+            }
+        },
+        "4669672032": {
+            "_surface": {
+                "text": "Fig 2",
+                "unicode_name": "Fig 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure"
+                    }
+                ]
+            }
+        },
+        "4669672033": {
+            "_surface": {
+                "text": "Fig 3",
+                "unicode_name": "Fig 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure"
+                    }
+                ]
+            }
+        },
+        "4e46474543": {
+            "_surface": {
+                "text": "NFGEC",
+                "unicode_name": "NFGEC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "f09d91ab69": {
+            "_surface": {
+                "text": "𝑫i",
+                "unicode_name": "𝑫i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ",j"
+                        ],
+                        "arity": 0,
+                        "description": "Element of distance matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91ab7e": {
+            "_surface": {
+                "text": "𝑫~",
+                "unicode_name": "𝑫~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized distance matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91ae6e": {
+            "_surface": {
+                "text": "𝑮n",
+                "unicode_name": "𝑮n"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Output of the transformer block"
+                    }
+                ]
+            }
+        },
+        "f09d91af30": {
+            "_surface": {
+                "text": "𝑯0",
+                "unicode_name": "𝑯0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embeddings of the sequence input X"
+                    }
+                ]
+            }
+        },
+        "f09d96a07c": {
+            "_surface": {
+                "text": "𝖠|",
+                "unicode_name": "𝖠|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator A"
+                    }
+                ]
+            }
+        },
+        "f09d96aa7c": {
+            "_surface": {
+                "text": "𝖪|",
+                "unicode_name": "𝖪|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Modal operator K"
+                    }
+                ]
+            }
+        },
+        "4b45504c4552": {
+            "_surface": {
+                "text": "KEPLER",
+                "unicode_name": "KEPLER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "53455052454d": {
+            "_surface": {
+                "text": "SEPREM",
+                "unicode_name": "SEPREM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proposed model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntax-Enhanced PRE-trained Model"
+                    }
+                ]
+            }
+        },
+        "5374616e7a61": {
+            "_surface": {
+                "text": "Stanza",
+                "unicode_name": "Stanza"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dependency parser"
+                    }
+                ]
+            }
+        },
+        "544143524544": {
+            "_surface": {
+                "text": "TACRED",
+                "unicode_name": "TACRED"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Relation classification dataset"
+                    }
+                ]
+            }
+        },
+        "726563616c6c": {
+            "_surface": {
+                "text": "recall",
+                "unicode_name": "recall"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for relation classification task"
+                    }
+                ]
+            }
+        },
+        "51756173617254": {
+            "_surface": {
+                "text": "QuasarT",
+                "unicode_name": "QuasarT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for open-domain QA task"
+                    }
+                ]
+            }
+        },
+        "526f4245525461": {
+            "_surface": {
+                "text": "RoBERTa",
+                "unicode_name": "RoBERTa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pre-trained model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Robustly Optimized BERT"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table"
+                    }
+                ]
+            }
+        },
+        "5461626c652032": {
+            "_surface": {
+                "text": "Table 2",
+                "unicode_name": "Table 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table"
+                    }
+                ]
+            }
+        },
+        "5461626c652033": {
+            "_surface": {
+                "text": "Table 3",
+                "unicode_name": "Table 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table"
+                    }
+                ]
+            }
+        },
+        "5461626c652034": {
+            "_surface": {
+                "text": "Table 4",
+                "unicode_name": "Table 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table"
+                    }
+                ]
+            }
+        },
+        "5461626c652035": {
+            "_surface": {
+                "text": "Table 5",
+                "unicode_name": "Table 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table"
+                    }
+                ]
+            }
+        },
+        "5461626c652036": {
+            "_surface": {
+                "text": "Table 6",
+                "unicode_name": "Table 6"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table"
+                    }
+                ]
+            }
+        },
+        "666f7220616c6c": {
+            "_surface": {
+                "text": "for all",
+                "unicode_name": "for all"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Universal quantifier"
+                    }
+                ]
+            }
+        },
+        "4162737472616374": {
+            "_surface": {
+                "text": "Abstract",
+                "unicode_name": "Abstract"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "424552542b4d5442": {
+            "_surface": {
+                "text": "BERT+MTB",
+                "unicode_name": "BERT+MTB"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "436f736d6f735141": {
+            "_surface": {
+                "text": "CosmosQA",
+                "unicode_name": "CosmosQA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Question answering dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for commonsense QA task"
+                    }
+                ]
+            }
+        },
+        "446179612047756f": {
+            "_surface": {
+                "text": "Daya Guo",
+                "unicode_name": "Daya Guo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: guody5@mail2.sysu.edu.cn"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4669677572652031": {
+            "_surface": {
+                "text": "Figure 1",
+                "unicode_name": "Figure 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure"
+                    }
+                ]
+            }
+        },
+        "4669677572652032": {
+            "_surface": {
+                "text": "Figure 2",
+                "unicode_name": "Figure 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure"
+                    }
+                ]
+            }
+        },
+        "4669677572652033": {
+            "_surface": {
+                "text": "Figure 3",
+                "unicode_name": "Figure 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure"
+                    }
+                ]
+            }
+        },
+        "4b6e6f7742455254": {
+            "_surface": {
+                "text": "KnowBERT",
+                "unicode_name": "KnowBERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Knowledge-enhanced BERT"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "4e616e204475616e": {
+            "_surface": {
+                "text": "Nan Duan",
+                "unicode_name": "Nan Duan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: nanduan@microsoft.com"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5175617361722d54": {
+            "_surface": {
+                "text": "Quasar-T",
+                "unicode_name": "Quasar-T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Question answering dataset"
+                    }
+                ]
+            }
+        },
+        "5365617263685141": {
+            "_surface": {
+                "text": "SearchQA",
+                "unicode_name": "SearchQA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Q&A Dataset Augmented with Context from a Search Engine"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset for open-domain QA task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Question answering dataset"
+                    }
+                ]
+            }
+        },
+        "5a656e616e205875": {
+            "_surface": {
+                "text": "Zenan Xu",
+                "unicode_name": "Zenan Xu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: xuzn@mail2.sysu.edu.cn"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "424552542d62617365": {
+            "_surface": {
+                "text": "BERT-base",
+                "unicode_name": "BERT-base"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "447579752054616e67": {
+            "_surface": {
+                "text": "Duyu Tang",
+                "unicode_name": "Duyu Tang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: dutang@microsoft.com"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4a75726166736b7920": {
+            "_surface": {
+                "text": "Jurafsky ",
+                "unicode_name": "Jurafsky "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2000)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            "(2000)"
+                        ],
+                        "arity": 0,
+                        "description": "Dan Jurafsky. 2000."
+                    }
+                ]
+            }
+        },
+        "4b2d41646170746572": {
+            "_surface": {
+                "text": "K-Adapter",
+                "unicode_name": "K-Adapter"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "4b2d61646170746572": {
+            "_surface": {
+                "text": "K-adapter",
+                "unicode_name": "K-adapter"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Knowledge Adapter"
+                    }
+                ]
+            }
+        },
+        "4d696e6720476f6e67": {
+            "_surface": {
+                "text": "Ming Gong",
+                "unicode_name": "Ming Gong"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: migon@microsoft.com"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4d756c74694174746e": {
+            "_surface": {
+                "text": "MultiAttn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multi-headed self-attention"
+                    }
+                ]
+            }
+        },
+        "516920657420616c2e": {
+            "_surface": {
+                "text": "Qi et al.",
+                "unicode_name": "Qi et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "587c7cc3977c7c587c": {
+            "_surface": {
+                "text": "X||×||X|",
+                "unicode_name": "X||×||X|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binary relation on X"
+                    }
+                ]
+            }
+        },
+        "424552542d6c61726765": {
+            "_surface": {
+                "text": "BERT-large",
+                "unicode_name": "BERT-large"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "47757520657420616c2e": {
+            "_surface": {
+                "text": "Guu et al.",
+                "unicode_name": "Guu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4c696e20657420616c2e": {
+            "_surface": {
+                "text": "Lin et al.",
+                "unicode_name": "Lin et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4c697520657420616c2e": {
+            "_surface": {
+                "text": "Liu et al.",
+                "unicode_name": "Liu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "446178696e204a69616e67": {
+            "_surface": {
+                "text": "Daxin Jiang",
+                "unicode_name": "Daxin Jiang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: djiang@microsoft.com"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "4c696e6a756e2053686f75": {
+            "_surface": {
+                "text": "Linjun Shou",
+                "unicode_name": "Linjun Shou"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: lisho@microsoft.com"
+                    }
+                ]
+            }
+        },
+        "4f70656e20456e74697479": {
+            "_surface": {
+                "text": "Open Entity",
+                "unicode_name": "Open Entity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entity typing dataset"
+                    }
+                ]
+            }
+        },
+        "51696e6c69616e67205375": {
+            "_surface": {
+                "text": "Qinliang Su",
+                "unicode_name": "Qinliang Su"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: suqliang@mail.sysu.edu.cn"
+                    }
+                ]
+            }
+        },
+        "5472616e73666f726d6572": {
+            "_surface": {
+                "text": "Transformer",
+                "unicode_name": "Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model architecture"
+                    }
+                ]
+            }
+        },
+        "57616e6720657420616c2e": {
+            "_surface": {
+                "text": "Wang et al.",
+                "unicode_name": "Wang et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2017b"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4875616e6720657420616c2e": {
+            "_surface": {
+                "text": "Huang et al.",
+                "unicode_name": "Huang et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "53656f206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Seo et al. ",
+                "unicode_name": "Seo et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Aniruddha Kembhavi"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Min Joon Seo"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Hannaneh Hajishirzi"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Ali Farhadi"
+                    }
+                ]
+            }
+        },
+        "57616e6720657420616c2e20": {
+            "_surface": {
+                "text": "Wang et al. ",
+                "unicode_name": "Wang et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "57616e6a756e205a686f6e67": {
+            "_surface": {
+                "text": "Wanjun Zhong",
+                "unicode_name": "Wanjun Zhong"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: zhongwj25@mail2.sysu.edu.cn"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5869616f6a756e205175616e": {
+            "_surface": {
+                "text": "Xiaojun Quan",
+                "unicode_name": "Xiaojun Quan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email: quanxj3@mail.sysu.edu.cn"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5a68616e6720657420616c2e": {
+            "_surface": {
+                "text": "Zhang et al.",
+                "unicode_name": "Zhang et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "31e280a0e280a07468616e6b73": {
+            "_surface": {
+                "text": "1††thanks",
+                "unicode_name": "1††thanks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Acknowledgement"
+                    }
+                ]
+            }
+        },
+        "32e280a0e280a07468616e6b73": {
+            "_surface": {
+                "text": "2††thanks",
+                "unicode_name": "2††thanks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Acknowledgement"
+                    }
+                ]
+            }
+        },
+        "34204d6574686f646f6c6f6779": {
+            "_surface": {
+                "text": "4 Methodology",
+                "unicode_name": "4 Methodology"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "4465766c696e20657420616c2e": {
+            "_surface": {
+                "text": "Devlin et al.",
+                "unicode_name": "Devlin et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "4e677579656e20657420616c2e": {
+            "_surface": {
+                "text": "Nguyen et al.",
+                "unicode_name": "Nguyen et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "50657465727320657420616c2e": {
+            "_surface": {
+                "text": "Peters et al.",
+                "unicode_name": "Peters et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "51692065745c786130616c2e20": {
+            "_surface": {
+                "text": "Qi et\\xa0al. ",
+                "unicode_name": "Qi et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton, and Christopher\\xa0D. Manning. 2020."
+                    }
+                ]
+            }
+        },
+        "526f42455254612d6c61726765": {
+            "_surface": {
+                "text": "RoBERTa-large",
+                "unicode_name": "RoBERTa-large"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "53616368616e20657420616c2e": {
+            "_surface": {
+                "text": "Sachan et al.",
+                "unicode_name": "Sachan et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2020"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "5374616e7a6120706172736572": {
+            "_surface": {
+                "text": "Stanza parser",
+                "unicode_name": "Stanza parser"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dependency parser"
+                    }
+                ]
+            }
+        },
+        "57616e67206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Wang et al. ",
+                "unicode_name": "Wang et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Cuihong Cao"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Daxin Jiang"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Ming Zhou"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Zhongyu Wei"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Xuanjing Huang"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Ruize Wang"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Nan Duan"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Duyu Tang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Mo Yu"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Gerald Tesauro"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Shuohang Wang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Bowen Zhou"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Tim Klinger"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Shiyu Chang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Xiaoxiao Guo"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Wei Zhang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Jing Jiang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017a)"
+                        ],
+                        "arity": 0,
+                        "description": "Zhiguo Wang"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Mo Yu"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Gerald Tesauro"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Shuohang Wang"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Murray Campbell"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Tim Klinger"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Shiyu Chang"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Xiaoxiao Guo"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Wei Zhang"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Jing Jiang"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Zhiguo Wang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017b)"
+                        ],
+                        "arity": 0,
+                        "description": "Baobao Chang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017b)"
+                        ],
+                        "arity": 0,
+                        "description": "Nan Yang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017b)"
+                        ],
+                        "arity": 0,
+                        "description": "Ming Zhou"
+                    },
+                    {
+                        "affixes": [
+                            "(2017b)"
+                        ],
+                        "arity": 0,
+                        "description": "Wenhui Wang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017b)"
+                        ],
+                        "arity": 0,
+                        "description": "Furu Wei"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Juanzi Li"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Xiaozhi Wang"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Jian Tang"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Tianyu Gao"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Zhaocheng Zhu"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Zhiyuan Liu"
+                    }
+                ]
+            }
+        },
+        "576f6c66206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Wolf et al. ",
+                "unicode_name": "Wolf et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Thomas Wolf"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Anthony Moi"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Morgan Funtowicz"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Tim Rault"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Victor Sanh"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Lysandre Debut"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Clement Delangue"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Julien Chaumond"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Rémi Louf"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Pierric Cistac"
+                    }
+                ]
+            }
+        },
+        "5a68616e6720657420616c2e20": {
+            "_surface": {
+                "text": "Zhang et al. ",
+                "unicode_name": "Zhang et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "656e7469747920747970696e67": {
+            "_surface": {
+                "text": "entity typing",
+                "unicode_name": "entity typing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task for classifying entities"
+                    }
+                ]
+            }
+        },
+        "322052656c6174656420576f726b": {
+            "_surface": {
+                "text": "2 Related Work",
+                "unicode_name": "2 Related Work"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "4775752065745c786130616c2e20": {
+            "_surface": {
+                "text": "Guu et\\xa0al. ",
+                "unicode_name": "Guu et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. 2020."
+                    }
+                ]
+            }
+        },
+        "4c696e2065745c786130616c2e20": {
+            "_surface": {
+                "text": "Lin et\\xa0al. ",
+                "unicode_name": "Lin et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Yankai Lin, Haozhe Ji, Zhiyuan Liu, and Maosong Sun. 2018."
+                    }
+                ]
+            }
+        },
+        "4c69752065745c786130616c2e20": {
+            "_surface": {
+                "text": "Liu et\\xa0al. ",
+                "unicode_name": "Liu et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019."
+                    }
+                ]
+            }
+        },
+        "4e677579656e20657420616c2e20": {
+            "_surface": {
+                "text": "Nguyen et al. ",
+                "unicode_name": "Nguyen et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "526164666f726420657420616c2e": {
+            "_surface": {
+                "text": "Radford et al.",
+                "unicode_name": "Radford et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2018"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "53616368616e20657420616c2e20": {
+            "_surface": {
+                "text": "Sachan et al. ",
+                "unicode_name": "Sachan et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "54616c6d6f7220657420616c2e20": {
+            "_surface": {
+                "text": "Talmor et al. ",
+                "unicode_name": "Talmor et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "56617377616e6920657420616c2e": {
+            "_surface": {
+                "text": "Vaswani et al.",
+                "unicode_name": "Vaswani et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "58696f6e67206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Xiong et al. ",
+                "unicode_name": "Xiong et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Veselin Stoyanov"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Jingfei Du"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "William Yang Wang"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Wenhan Xiong"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "2020"
+                    }
+                ]
+            }
+        },
+        "5a68616e67206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Zhang et al. ",
+                "unicode_name": "Zhang et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Christopher D. Manning"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Yuhao Zhang"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "2018"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Peng Qi"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Christopher D. Manning"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Yuhao Zhang"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Victor Zhong"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "2017"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Danqi Chen"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Gabor Angeli"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Xin Jiang"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Xu Han"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "2019"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Qun Liu"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Zhengyan Zhang"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Maosong Sun"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Zhiyuan Liu"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Zhuosheng Zhang"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Yuwei Wu"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Sufeng Duan"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Junru Zhou"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "2020"
+                    }
+                ]
+            }
+        },
+        "4c696e672065745c786130616c2e20": {
+            "_surface": {
+                "text": "Ling et\\xa0al. ",
+                "unicode_name": "Ling et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2015)"
+                        ],
+                        "arity": 0,
+                        "description": "Xiao Ling, Sameer Singh, and Daniel\\xa0S. Weld. 2015."
+                    }
+                ]
+            }
+        },
+        "4d6963726f2d707265636973696f6e": {
+            "_surface": {
+                "text": "Micro-precision",
+                "unicode_name": "Micro-precision"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for relation classification task"
+                    }
+                ]
+            }
+        },
+        "506574726f6e6920657420616c2e20": {
+            "_surface": {
+                "text": "Petroni et al. ",
+                "unicode_name": "Petroni et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "506f65726e657220657420616c2e20": {
+            "_surface": {
+                "text": "Poerner et al. ",
+                "unicode_name": "Poerner et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "53616368616e206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Sachan et al. ",
+                "unicode_name": "Sachan et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "William Hamilton"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Yuhao Zhang"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Devendra Singh Sachan"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Peng Qi"
+                    }
+                ]
+            }
+        },
+        "54616c6d6f72206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Talmor et al. ",
+                "unicode_name": "Talmor et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Yanai Elazar"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Alon Talmor"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Yoav Goldberg"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Jonathan Berant"
+                    }
+                ]
+            }
+        },
+        "5a656c6c65727320657420616c2e20": {
+            "_surface": {
+                "text": "Zellers et al. ",
+                "unicode_name": "Zellers et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "61636375726163792073636f726573": {
+            "_surface": {
+                "text": "accuracy scores",
+                "unicode_name": "accuracy scores"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric for commonsense QA task"
+                    }
+                ]
+            }
+        },
+        "4875616e672065745c786130616c2e20": {
+            "_surface": {
+                "text": "Huang et\\xa0al. ",
+                "unicode_name": "Huang et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Lifu Huang, Ronan\\xa0Le Bras, Chandra Bhagavatula, and Yejin Choi. 2019."
+                    }
+                ]
+            }
+        },
+        "526164666f7264206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Radford et al. ",
+                "unicode_name": "Radford et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Karthik Narasimhan"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Ilya Sutskever"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Alec Radford"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Tim Salimans"
+                    }
+                ]
+            }
+        },
+        "56617377616e69206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Vaswani et al. ",
+                "unicode_name": "Vaswani et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Aidan N Gomez"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Llion Jones"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Ashish Vaswani"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Niki Parmar"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Łukasz Kaiser"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Illia Polosukhin"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Jakob Uszkoreit"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Noam Shazeer"
+                    }
+                ]
+            }
+        },
+        "596175736869616e20657420616c2e20": {
+            "_surface": {
+                "text": "Yaushian et al. ",
+                "unicode_name": "Yaushian et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "5a656c6c657273206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Zellers et al. ",
+                "unicode_name": "Zellers et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "2019"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Yejin Choi"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Ali Farhadi"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Hannah Rashkin"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Yonatan Bisk"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Franziska Roesner"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Ari Holtzman"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Rowan Zellers"
+                    }
+                ]
+            }
+        },
+        "61725869763a313730342e3035313739": {
+            "_surface": {
+                "text": "arXiv:1704.05179",
+                "unicode_name": "arXiv:1704.05179"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ArXiv preprint"
+                    }
+                ]
+            }
+        },
+        "61725869763a313930372e3131363932": {
+            "_surface": {
+                "text": "arXiv:1907.11692",
+                "unicode_name": "arXiv:1907.11692"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Roberta: A robustly optimized bert pretraining approach"
+                    }
+                ]
+            }
+        },
+        "61725869763a323030322e3038393039": {
+            "_surface": {
+                "text": "arXiv:2002.08909",
+                "unicode_name": "arXiv:2002.08909"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Realm: Retrieval-augmented language model pre-training"
+                    }
+                ]
+            }
+        },
+        "4e677579656e2065745c786130616c2e20": {
+            "_surface": {
+                "text": "Nguyen et\\xa0al. ",
+                "unicode_name": "Nguyen et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Xuan-Phi Nguyen, Shafiq Joty, Steven Hoi, and Richard Socher. 2020."
+                    }
+                ]
+            }
+        },
+        "5065746572732065745c786130616c2e20": {
+            "_surface": {
+                "text": "Peters et\\xa0al. ",
+                "unicode_name": "Peters et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Matthew\\xa0E Peters, Mark Neumann, IV\\xa0Logan, L\\xa0Robert, Roy Schwartz, Vidur Joshi, Sameer Singh, and Noah\\xa0A Smith. 2019."
+                    }
+                ]
+            }
+        },
+        "5368696d616f6b61206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Shimaoka et al. ",
+                "unicode_name": "Shimaoka et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Pontus Stenetorp"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Kentaro Inui"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Sonse Shimaoka"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Sebastian Riedel"
+                    }
+                ]
+            }
+        },
+        "596175736869616e206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Yaushian et al. ",
+                "unicode_name": "Yaushian et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Lee Hung-Yi"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Wang Yaushian"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Chen Yun-Nung"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "2019"
+                    }
+                ]
+            }
+        },
+        "506574726f6e692065745c786130616c2e20": {
+            "_surface": {
+                "text": "Petroni et\\xa0al. ",
+                "unicode_name": "Petroni et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "F.\\xa0Petroni, Tim Rocktäschel, Patrick Lewis, A.\\xa0Bakhtin, Y.\\xa0Wu, Alexander\\xa0H. Miller, and S.\\xa0Riedel. 2019."
+                    }
+                ]
+            }
+        },
+        "506f65726e65722065745c786130616c2e20": {
+            "_surface": {
+                "text": "Poerner et\\xa0al. ",
+                "unicode_name": "Poerner et\\xa0al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Nina Poerner, Ulli Waltinger, and Hinrich Schütze. 2019."
+                    }
+                ]
+            }
+        },
+        "48657769747420616e64204d616e6e696e6720": {
+            "_surface": {
+                "text": "Hewitt and Manning ",
+                "unicode_name": "Hewitt and Manning "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "John Hewitt and Christopher\\xa0D Manning. 2019."
+                    }
+                ]
+            }
+        },
+        "6d756c74692d636c617373696669636174696f6e": {
+            "_surface": {
+                "text": "multi-classification",
+                "unicode_name": "multi-classification"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task for fine-tuning the model"
+                    }
+                ]
+            }
+        },
+        "42616c64696e6920536f6172657320657420616c2e": {
+            "_surface": {
+                "text": "Baldini Soares et al.",
+                "unicode_name": "Baldini Soares et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2019"
+                        ],
+                        "arity": 0,
+                        "description": "Reference"
+                    }
+                ]
+            }
+        },
+        "767c3af09d96aff09d978bf09d9788f09d97897ce2869232587c": {
+            "_surface": {
+                "text": "v|:𝖯𝗋𝗈𝗉|→2X|",
+                "unicode_name": "v|:𝖯𝗋𝗈𝗉|→2X|"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Valuation function"
+                    }
+                ]
+            }
+        },
+        "48756767696e6766616365e2809973207472616e73666f726d657273": {
+            "_surface": {
+                "text": "Huggingface’s transformers",
+                "unicode_name": "Huggingface’s transformers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "State-of-the-art natural language processing"
+                    }
+                ]
+            }
+        },
+        "5370656563682026206c616e67756167652070726f63657373696e67": {
+            "_surface": {
+                "text": "Speech & language processing",
+                "unicode_name": "Speech & language processing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pearson Education India"
+                    }
+                ]
+            }
+        },
+        "696e666f726d6174696f6e2072657472696576616c2073797374656d": {
+            "_surface": {
+                "text": "information retrieval system",
+                "unicode_name": "information retrieval system"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "System for retrieving related paragraphs"
+                    }
+                ]
+            }
+        },
+        "72656c6174696f6e20636c617373696669636174696f6e207461736b": {
+            "_surface": {
+                "text": "relation classification task",
+                "unicode_name": "relation classification task"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task for predicting relation between entities"
+                    }
+                ]
+            }
+        },
+        "322e312050726f62696e67205072652d747261696e6564204d6f64656c73": {
+            "_surface": {
+                "text": "2.1 Probing Pre-trained Models",
+                "unicode_name": "2.1 Probing Pre-trained Models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "322e3220496e746567726174696e672053796e74617820696e746f205072652d747261696e6564204d6f64656c73": {
+            "_surface": {
+                "text": "2.2 Integrating Syntax into Pre-trained Models",
+                "unicode_name": "2.2 Integrating Syntax into Pre-trained Models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "496e7465726e6174696f6e616c20436f6e666572656e6365206f6e204c6561726e696e6720526570726573656e746174696f6e73": {
+            "_surface": {
+                "text": "International Conference on Learning Representations",
+                "unicode_name": "International Conference on Learning Representations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tree-structured attention with hierarchical accumulation"
+                    }
+                ]
+            }
+        },
+        "50726f63656564696e6773206f6620746865203538746820416e6e75616c204d656574696e67206f6620746865204173736f63696174696f6e20666f7220436f6d7075746174696f6e616c204c696e67756973746963733a2053797374656d2044656d6f6e7374726174696f6e732e": {
+            "_surface": {
+                "text": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations.",
+                "unicode_name": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stanza: A Python natural language processing toolkit for many human languages"
+                    }
+                ]
+            }
+        },
+        "50726f63656564696e6773206f6620746865203230313920436f6e666572656e6365206f6620746865204e6f72746820416d65726963616e2043686170746572206f6620746865204173736f63696174696f6e20666f7220436f6d7075746174696f6e616c204c696e67756973746963733a2048756d616e204c616e677561676520546563686e6f6c6f67696573": {
+            "_surface": {
+                "text": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+                "unicode_name": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Volume 1 (Long and Short Papers), pages 4129–4138"
+                        ],
+                        "arity": 0,
+                        "description": "A structural probe for finding syntax in word representations"
+                    }
+                ]
+            }
+        }
+    }
+}

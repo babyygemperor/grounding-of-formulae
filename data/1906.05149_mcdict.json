@@ -1,0 +1,482 @@
+{
+    "_author": "Aamin Dev",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "the number of hidden layers"
+                    },
+                    {
+                        "affixes": [
+                            "open parenthesis",
+                            "comma",
+                            "comma",
+                            "close parenthesis"
+                        ],
+                        "arity": 3,
+                        "description": "Loss function"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "superscript",
+                            "open parenthesis",
+                            "comma",
+                            "close parenthesis"
+                        ],
+                        "arity": 2,
+                        "description": "Long Short Term Memory Network"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "average of word embeddings"
+                    }
+                ]
+            }
+        },
+        "62": {
+            "_surface": {
+                "text": "b",
+                "unicode_name": "LATIN SMALL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The bias vector"
+                    }
+                ]
+            }
+        },
+        "636f73": {
+            "_surface": {
+                "text": "cos"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "open parenthesis",
+                            "comma",
+                            "close parenthesis"
+                        ],
+                        "arity": 2,
+                        "description": "cosine similarity"
+                    }
+                ]
+            }
+        },
+        "63747874": {
+            "_surface": {
+                "text": "ctxt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "context"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "open parenthesis",
+                            "close parenthesis"
+                        ],
+                        "arity": 1,
+                        "description": "function"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "average of word embeddings"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "index"
+                    }
+                ]
+            }
+        },
+        "6d617267696e": {
+            "_surface": {
+                "text": "margin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "margin"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "open parenthesis",
+                            "comma",
+                            "close parenthesis"
+                        ],
+                        "arity": 2,
+                        "description": "maximum function"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "hat"
+                        ],
+                        "arity": 0,
+                        "description": "Resulting output vector"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "resulting target vector"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "open parenthesis",
+                            "close parenthesis"
+                        ],
+                        "arity": 1,
+                        "description": "softmax function"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "timestep"
+                    }
+                ]
+            }
+        },
+        "7461686e": {
+            "_surface": {
+                "text": "tahn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "hyperbolic tangent"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "open parenthesis",
+                            "close parenthesis"
+                        ],
+                        "arity": 1,
+                        "description": "Hyperbolic tangent"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "average of word embeddings"
+                    }
+                ]
+            }
+        },
+        "cf81": {
+            "_surface": {
+                "text": "ρ",
+                "unicode_name": "GREEK SMALL LETTER RHO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "pearson's correlation coefficient"
+                    }
+                ]
+            }
+        },
+        "f09d90a1": {
+            "_surface": {
+                "text": "𝐡",
+                "unicode_name": "MATHEMATICAL BOLD SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "superscript",
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "hidden layer of LSTM at timestamp t"
+                    },
+                    {
+                        "affixes": [
+                            "over right arrow",
+                            "superscript",
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "hidden layer of LSTM at timestamp t"
+                    },
+                    {
+                        "affixes": [
+                            "over left arrow",
+                            "superscript",
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "hidden layer of LSTM at timestamp t"
+                    },
+                    {
+                        "affixes": [
+                            "superscript",
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "current state of the hidden layer of LSTM at timestamp t"
+                    }
+                ]
+            }
+        },
+        "f09d90a2": {
+            "_surface": {
+                "text": "𝐢",
+                "unicode_name": "MATHEMATICAL BOLD SMALL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "input vector"
+                    }
+                ]
+            }
+        },
+        "f09d90a8": {
+            "_surface": {
+                "text": "𝐨",
+                "unicode_name": "MATHEMATICAL BOLD SMALL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "output weights at timestamp t"
+                    }
+                ]
+            }
+        },
+        "f09d90ab": {
+            "_surface": {
+                "text": "𝐫",
+                "unicode_name": "MATHEMATICAL BOLD SMALL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "hat"
+                        ],
+                        "arity": 0,
+                        "description": "output vector embedding"
+                    }
+                ]
+            }
+        },
+        "f09d90ac": {
+            "_surface": {
+                "text": "𝐬",
+                "unicode_name": "MATHEMATICAL BOLD SMALL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "the average embedding of the substitute words"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "average embedding of the union of the target word"
+                    },
+                    {
+                        "affixes": [
+                            "hat"
+                        ],
+                        "arity": 0,
+                        "description": "output vector embedding of a substitution"
+                    }
+                ]
+            }
+        },
+        "f09d90b0": {
+            "_surface": {
+                "text": "𝐰",
+                "unicode_name": "MATHEMATICAL BOLD SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "subscript"
+                        ],
+                        "arity": 0,
+                        "description": "word embedding at timestep 1"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "average embedding of the union of the substitute words"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "target word embedding"
+                    },
+                    {
+                        "affixes": [
+                            "hat"
+                        ],
+                        "arity": 0,
+                        "description": "output vector embedding of a word"
+                    }
+                ]
+            }
+        }
+    }
+}

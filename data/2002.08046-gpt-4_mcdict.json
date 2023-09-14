@@ -1,0 +1,1757 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[∙;∙]"
+                        ],
+                        "arity": 0,
+                        "description": "Concatenation operation"
+                    }
+                ]
+            }
+        },
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embedding size"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of leaves from the leftmost leaf up to xjℒ of the xi𝒩-rooted subtree"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of sentence pairs"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of nonterminal nodes"
+                    }
+                ]
+            }
+        },
+        "4f": {
+            "_surface": {
+                "text": "O",
+                "unicode_name": "LATIN CAPITAL LETTER O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "51": {
+            "_surface": {
+                "text": "Q",
+                "unicode_name": "LATIN CAPITAL LETTER Q"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the target-side query matrix"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of xjℒ’s ancestors up to xi𝒩"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input text"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sentence"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Child node"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node in the subtree rooted at g"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the real space"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node in the subtree rooted at g and h"
+                    },
+                    {
+                        "affixes": [
+                            "_{ffn}"
+                        ],
+                        "arity": 0,
+                        "description": "Feed-forward dimension"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node in the subtree rooted at g and h"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Query position in Subtree Masking"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nonterminal node in figure 1"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Nonterminal node in figure 1"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index used in the decoder self-attention layers of the Transformer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of word in the input text"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Row index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index used in the decoder self-attention layers of the Transformer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Column index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of word in the input text"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Word in the input text"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of nonterminal nodes"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Length of a sentence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of terminal nodes"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dimension of the target-side query matrix"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of children a node has"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node in 𝒩"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node in the tree"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ancestor of a node"
+                    }
+                ]
+            }
+        },
+        "4c4e": {
+            "_surface": {
+                "text": "LN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer normalization"
+                    }
+                ]
+            }
+        },
+        "ce94": {
+            "_surface": {
+                "text": "Δ",
+                "unicode_name": "GREEK CAPITAL LETTER DELTA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(ℒ, 𝒩, ℛ)"
+                        ],
+                        "arity": 0,
+                        "description": "Tensor representation of the parse tree"
+                    }
+                ]
+            }
+        },
+        "cebc": {
+            "_surface": {
+                "text": "μ",
+                "unicode_name": "GREEK SMALL LETTER MU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Masking function"
+                    }
+                ]
+            }
+        },
+        "cf81": {
+            "_surface": {
+                "text": "ρ",
+                "unicode_name": "GREEK SMALL LETTER RHO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parent of a node"
+                    }
+                ]
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Typical serial computations of a Transformer layer"
+                    }
+                ]
+            }
+        },
+        "417474": {
+            "_surface": {
+                "text": "Att"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(𝑸, 𝑲, 𝑽)"
+                        ],
+                        "arity": 0,
+                        "description": "Attention vectors"
+                    }
+                ]
+            }
+        },
+        "46464e": {
+            "_surface": {
+                "text": "FFN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feed-forward layers"
+                    }
+                ]
+            }
+        },
+        "61696a": {
+            "_surface": {
+                "text": "aij",
+                "unicode_name": "aij"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affinity value between a node/leaf-query and a node/leaf-key"
+                    }
+                ]
+            }
+        },
+        "66666e": {
+            "_surface": {
+                "text": "ffn"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm function"
+                    }
+                ]
+            }
+        },
+        "e2848b": {
+            "_surface": {
+                "text": "ℋ",
+                "unicode_name": "SCRIPT CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Legitimate transformation of the parse tree"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformation"
+                    }
+                ]
+            }
+        },
+        "e28490": {
+            "_surface": {
+                "text": "ℐ",
+                "unicode_name": "SCRIPT CAPITAL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inverse-transformation"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of leaf-keys"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of leaf nodes"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ordered sequence of n terminal nodes (or leaves) of the tree"
+                    }
+                ]
+            }
+        },
+        "e2849b": {
+            "_surface": {
+                "text": "ℛ",
+                "unicode_name": "SCRIPT CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of rules indexed by the nonterminal nodes"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of rules indexed by the nonterminal nodes in 𝒩"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Real number space"
+                    }
+                ]
+            }
+        },
+        "e284b1": {
+            "_surface": {
+                "text": "ℱ",
+                "unicode_name": "SCRIPT CAPITAL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Interpolation function"
+                    }
+                ]
+            }
+        },
+        "e2889e": {
+            "_surface": {
+                "text": "∞",
+                "unicode_name": "INFINITY"
+            },
+            "identifiers": {
+                "roman": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Infinitely negative value"
+                    }
+                ]
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element-wise multiplication operator"
+                    }
+                ]
+            }
+        },
+        "4174744c": {
+            "_surface": {
+                "text": "AttL",
+                "unicode_name": "AttL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final attention for the leaves"
+                    }
+                ]
+            }
+        },
+        "4174744e": {
+            "_surface": {
+                "text": "AttN",
+                "unicode_name": "AttN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final attention for the nodes"
+                    }
+                ]
+            }
+        },
+        "f09d91a8": {
+            "_surface": {
+                "text": "𝑨",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affinity scores (attention scores) between queries and keys"
+                    }
+                ]
+            }
+        },
+        "f09d91ac": {
+            "_surface": {
+                "text": "𝑬",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tensor of hierarchical embeddings"
+                    }
+                ]
+            }
+        },
+        "f09d91b2": {
+            "_surface": {
+                "text": "𝑲",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of key vectors"
+                    }
+                ]
+            }
+        },
+        "f09d91b3": {
+            "_surface": {
+                "text": "𝑳",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leaf representations that a Transformer encoder layer receives"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden representations of the leaves 𝒍"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Output representations of the leaf"
+                    }
+                ]
+            }
+        },
+        "f09d91b5": {
+            "_surface": {
+                "text": "𝑵",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden representations of the nodes 𝒏"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node representations that a Transformer encoder layer receives"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Output representations of the node"
+                    }
+                ]
+            }
+        },
+        "f09d91b6": {
+            "_surface": {
+                "text": "𝑶",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output of each attention sub-layer"
+                    }
+                ]
+            }
+        },
+        "f09d91b8": {
+            "_surface": {
+                "text": "𝑸",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Target-side query matrix"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of query vectors"
+                    }
+                ]
+            }
+        },
+        "f09d91ba": {
+            "_surface": {
+                "text": "𝑺",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tensor"
+                    }
+                ]
+            }
+        },
+        "f09d91bd": {
+            "_surface": {
+                "text": "𝑽",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix of value vectors"
+                    }
+                ]
+            }
+        },
+        "f09d91be": {
+            "_surface": {
+                "text": "𝑾",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_Q"
+                        ],
+                        "arity": 0,
+                        "description": "Associated trainable weight matrix for Q"
+                    },
+                    {
+                        "affixes": [
+                            "_K"
+                        ],
+                        "arity": 0,
+                        "description": "Associated trainable weight matrix for K"
+                    },
+                    {
+                        "affixes": [
+                            "_V"
+                        ],
+                        "arity": 0,
+                        "description": "Associated trainable weight matrix for V"
+                    },
+                    {
+                        "affixes": [
+                            "_O"
+                        ],
+                        "arity": 0,
+                        "description": "Associated trainable weight matrix for O"
+                    }
+                ]
+            }
+        },
+        "f09d9286": {
+            "_surface": {
+                "text": "𝒆",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embedding vector"
+                    }
+                ]
+            }
+        },
+        "f09d928c": {
+            "_surface": {
+                "text": "𝒌",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL K"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d928d": {
+            "_surface": {
+                "text": "𝒍",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leaf in X"
+                    }
+                ]
+            }
+        },
+        "f09d928f": {
+            "_surface": {
+                "text": "𝒏",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node in X"
+                    }
+                ]
+            }
+        },
+        "f09d9292": {
+            "_surface": {
+                "text": "𝒒",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL Q"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d9296": {
+            "_surface": {
+                "text": "𝒖",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL U"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d9297": {
+            "_surface": {
+                "text": "𝒗",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL V"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d9298": {
+            "_surface": {
+                "text": "𝒘",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weighting vector"
+                    }
+                ]
+            }
+        },
+        "f09d92a2": {
+            "_surface": {
+                "text": "𝒢",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(X)"
+                        ],
+                        "arity": 0,
+                        "description": "Directed spanning tree which represents the parse tree of X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parse tree"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Directed spanning tree which represents the parse tree of X"
+                    }
+                ]
+            }
+        },
+        "f09d92a9": {
+            "_surface": {
+                "text": "𝒩",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of nonterminal nodes"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of m nonterminal nodes (or simply nodes)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of node-keys"
+                    }
+                ]
+            }
+        },
+        "f09d92aa": {
+            "_surface": {
+                "text": "𝒪",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Order of"
+                    }
+                ]
+            }
+        },
+        "f09d92ab": {
+            "_surface": {
+                "text": "𝒫",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all ancestors of a node"
+                    }
+                ]
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(X)"
+                        ],
+                        "arity": 0,
+                        "description": "Transformed parse tree of X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformed parse tree of X"
+                    }
+                ]
+            }
+        },
+        "f09d92b0": {
+            "_surface": {
+                "text": "𝒰",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Upward cumulative-average operation"
+                    }
+                ]
+            }
+        },
+        "f09d92b1": {
+            "_surface": {
+                "text": "𝒱",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Aggregation function"
+                    }
+                ]
+            }
+        },
+        "6b6ae28492": {
+            "_surface": {
+                "text": "kjℒ",
+                "unicode_name": "kjℒ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leaf-keys in the context of tree-based attentions"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c": {
+            "_surface": {
+                "text": "model"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7169e28492": {
+            "_surface": {
+                "text": "qiℒ",
+                "unicode_name": "qiℒ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leaf-query in the context of tree-based attentions"
+                    }
+                ]
+            }
+        },
+        "f09d91ac68": {
+            "_surface": {
+                "text": "𝑬h",
+                "unicode_name": "𝑬h"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable horizontal embedding matrices"
+                    }
+                ]
+            }
+        },
+        "f09d91ac76": {
+            "_surface": {
+                "text": "𝑬v",
+                "unicode_name": "𝑬v"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable vertical embedding matrices"
+                    }
+                ]
+            }
+        },
+        "f09d91be4b": {
+            "_surface": {
+                "text": "𝑾K",
+                "unicode_name": "𝑾K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix for K"
+                    }
+                ]
+            }
+        },
+        "f09d91be4f": {
+            "_surface": {
+                "text": "𝑾O",
+                "unicode_name": "𝑾O"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix for O"
+                    }
+                ]
+            }
+        },
+        "f09d91be51": {
+            "_surface": {
+                "text": "𝑾Q",
+                "unicode_name": "𝑾Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix for Q"
+                    }
+                ]
+            }
+        },
+        "f09d91be56": {
+            "_surface": {
+                "text": "𝑾V",
+                "unicode_name": "𝑾V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix for V"
+                    }
+                ]
+            }
+        },
+        "f09d928c31": {
+            "_surface": {
+                "text": "𝒌1",
+                "unicode_name": "𝒌1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", …, 𝒌lk"
+                        ],
+                        "arity": 0,
+                        "description": "Key vectors"
+                    }
+                ]
+            }
+        },
+        "f09d928c6a": {
+            "_surface": {
+                "text": "𝒌j",
+                "unicode_name": "𝒌j"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "jth key vector"
+                    }
+                ]
+            }
+        },
+        "f09d929231": {
+            "_surface": {
+                "text": "𝒒1",
+                "unicode_name": "𝒒1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", …, 𝒒lq"
+                        ],
+                        "arity": 0,
+                        "description": "Query vectors"
+                    }
+                ]
+            }
+        },
+        "f09d929269": {
+            "_surface": {
+                "text": "𝒒i",
+                "unicode_name": "𝒒i"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ith query vector"
+                    }
+                ]
+            }
+        },
+        "f09d929663": {
+            "_surface": {
+                "text": "𝒖c",
+                "unicode_name": "𝒖c"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable vector"
+                    }
+                ]
+            }
+        },
+        "f09d929673": {
+            "_surface": {
+                "text": "𝒖s",
+                "unicode_name": "𝒖s"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable vector"
+                    }
+                ]
+            }
+        },
+        "f09d929731": {
+            "_surface": {
+                "text": "𝒗1",
+                "unicode_name": "𝒗1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", …, 𝒗lk"
+                        ],
+                        "arity": 0,
+                        "description": "Value vectors"
+                    }
+                ]
+            }
+        },
+        "6b6af09d92a9": {
+            "_surface": {
+                "text": "kj𝒩",
+                "unicode_name": "kj𝒩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node-keys in the context of tree-based attentions"
+                    }
+                ]
+            }
+        },
+        "7169f09d92a9": {
+            "_surface": {
+                "text": "qi𝒩",
+                "unicode_name": "qi𝒩"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node-query in the context of tree-based attentions"
+                    }
+                ]
+            }
+        },
+        "f09d91b5c2af": {
+            "_surface": {
+                "text": "𝑵¯",
+                "unicode_name": "𝑵¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Final node representations"
+                    }
+                ]
+            }
+        },
+        "f09d928fc2af": {
+            "_surface": {
+                "text": "𝒏¯",
+                "unicode_name": "𝒏¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Single vector encapsulating all the elements in the subtree rooted by 𝒏"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "e2849d6c6bc39764": {
+            "_surface": {
+                "text": "ℝlk×d",
+                "unicode_name": "ℝlk×d"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Real space of dimension lk x d"
+                    }
+                ]
+            }
+        },
+        "e2849d6c71c39764": {
+            "_surface": {
+                "text": "ℝlq×d",
+                "unicode_name": "ℝlq×d"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Real space of dimension lq x d"
+                    }
+                ]
+            }
+        },
+        "f09d91a84ce281a24c": {
+            "_surface": {
+                "text": "𝑨L⁢L",
+                "unicode_name": "𝑨L⁢L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leaf-leaf affinity matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91a84ce281a24e": {
+            "_surface": {
+                "text": "𝑨L⁢N",
+                "unicode_name": "𝑨L⁢N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leaf-node affinity matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91a84ee281a24c": {
+            "_surface": {
+                "text": "𝑨N⁢L",
+                "unicode_name": "𝑨N⁢L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node-leaf affinity matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91a84ee281a24e": {
+            "_surface": {
+                "text": "𝑨N⁢N",
+                "unicode_name": "𝑨N⁢N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node-node affinity matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91a851e281a24c": {
+            "_surface": {
+                "text": "𝑨Q⁢L",
+                "unicode_name": "𝑨Q⁢L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affinity scores for leaf"
+                    }
+                ]
+            }
+        },
+        "f09d91a851e281a24e": {
+            "_surface": {
+                "text": "𝑨Q⁢N",
+                "unicode_name": "𝑨Q⁢N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affinity scores for node"
+                    }
+                ]
+            }
+        },
+        "f09d91b3f09d91be4b": {
+            "_surface": {
+                "text": "𝑳𝑾K",
+                "unicode_name": "𝑳𝑾K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leaf representation as the key"
+                    }
+                ]
+            }
+        },
+        "f09d91b3f09d91be51": {
+            "_surface": {
+                "text": "𝑳𝑾Q",
+                "unicode_name": "𝑳𝑾Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Leaf representation as the query"
+                    }
+                ]
+            }
+        },
+        "f09d91b3f09d91be56": {
+            "_surface": {
+                "text": "𝑳𝑾V",
+                "unicode_name": "𝑳𝑾V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value representation of the leaves"
+                    }
+                ]
+            }
+        },
+        "f09d91b5c2afe280b2": {
+            "_surface": {
+                "text": "𝑵¯′",
+                "unicode_name": "𝑵¯′"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Resulting node representations after hierarchical encoding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value representation of the nodes encoded with tree structure"
+                    }
+                ]
+            }
+        },
+        "f09d91b5f09d91be4b": {
+            "_surface": {
+                "text": "𝑵𝑾K",
+                "unicode_name": "𝑵𝑾K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node representation as the key"
+                    }
+                ]
+            }
+        },
+        "f09d91b5f09d91be51": {
+            "_surface": {
+                "text": "𝑵𝑾Q",
+                "unicode_name": "𝑵𝑾Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Node representation as the query"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,1277 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[CLS]"
+                        ],
+                        "arity": 0,
+                        "description": "Start token of a combined sequence"
+                    },
+                    {
+                        "affixes": [
+                            "[SEP]"
+                        ],
+                        "arity": 0,
+                        "description": "Separator token in a combined sequence"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention matrix"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of embeddings"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of schema embeddings"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of intents"
+                    }
+                ]
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sum of intents, slots, and slot values"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Length of the sequence of tokens"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pointer distribution"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of slots"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token embeddings of a schema element"
+                    }
+                ]
+            }
+        },
+        "55": {
+            "_surface": {
+                "text": "U",
+                "unicode_name": "LATIN CAPITAL LETTER U"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of categorical slot values"
+                    }
+                ]
+            }
+        },
+        "57": {
+            "_surface": {
+                "text": "W",
+                "unicode_name": "LATIN CAPITAL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of tokens"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of combined sequences of tokens"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utterance token embedding"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema embedding"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hidden state"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of an utterance token"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of a schema embedding"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representation of an item"
+                    }
+                ]
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema context vector"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decode step"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utterance context vector"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embedding of the previous token"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the sequence"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Score of a pointer"
+                    }
+                ]
+            }
+        },
+        "2377": {
+            "_surface": {
+                "text": "#w",
+                "unicode_name": "#w"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pointer of an item"
+                    }
+                ]
+            }
+        },
+        "4461": {
+            "_surface": {
+                "text": "Da",
+                "unicode_name": "Da"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema-attended utterance representations"
+                    }
+                ]
+            }
+        },
+        "4561": {
+            "_surface": {
+                "text": "Ea",
+                "unicode_name": "Ea"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Utterance-attended schema representations"
+                    }
+                ]
+            }
+        },
+        "5531": {
+            "_surface": {
+                "text": "U1",
+                "unicode_name": "U1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "5532": {
+            "_surface": {
+                "text": "U2",
+                "unicode_name": "U2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "5731": {
+            "_surface": {
+                "text": "W1",
+                "unicode_name": "W1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "5732": {
+            "_surface": {
+                "text": "W2",
+                "unicode_name": "W2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Trainable parameter"
+                    }
+                ]
+            }
+        },
+        "6431": {
+            "_surface": {
+                "text": "d1",
+                "unicode_name": "d1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", …, dN"
+                        ],
+                        "arity": 0,
+                        "description": "Embeddings in the sequence"
+                    }
+                ]
+            }
+        },
+        "7831": {
+            "_surface": {
+                "text": "x1",
+                "unicode_name": "x1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", …, xN"
+                        ],
+                        "arity": 0,
+                        "description": "Tokens in the sequence"
+                    }
+                ]
+            }
+        },
+        "445354": {
+            "_surface": {
+                "text": "DST",
+                "unicode_name": "DST"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue State Tracking"
+                    }
+                ]
+            }
+        },
+        "4d324d": {
+            "_surface": {
+                "text": "M2M",
+                "unicode_name": "M2M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Machine-to-Machine, a benchmark dataset"
+                    }
+                ]
+            }
+        },
+        "4e4c55": {
+            "_surface": {
+                "text": "NLU",
+                "unicode_name": "NLU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural Language Understanding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural Language Understanding, a module of a dialogue system"
+                    }
+                ]
+            }
+        },
+        "534744": {
+            "_surface": {
+                "text": "SGD",
+                "unicode_name": "SGD"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Schema-Guided Dialogue, a benchmark dataset"
+                    }
+                ]
+            }
+        },
+        "e280a0": {
+            "_surface": {
+                "text": "†",
+                "unicode_name": "DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol indicating author's affiliation to University College London"
+                    }
+                ]
+            }
+        },
+        "e280a1": {
+            "_surface": {
+                "text": "‡",
+                "unicode_name": "DOUBLE DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Symbol indicating author's affiliation to ByteDance AI Lab"
+                    }
+                ]
+            }
+        },
+        "41544953": {
+            "_surface": {
+                "text": "ATIS",
+                "unicode_name": "ATIS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Airline Travel Information Systems, a benchmark dataset"
+                    }
+                ]
+            }
+        },
+        "4164616d": {
+            "_surface": {
+                "text": "Adam",
+                "unicode_name": "Adam"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimization algorithm used"
+                    }
+                ]
+            }
+        },
+        "42455254": {
+            "_surface": {
+                "text": "BERT",
+                "unicode_name": "BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bidirectional Encoder Representations from Transformers, a transformer-based machine learning technique for natural language processing"
+                    }
+                ]
+            }
+        },
+        "4c53544d": {
+            "_surface": {
+                "text": "LSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Long Short-Term Memory"
+                    }
+                ]
+            }
+        },
+        "736c6f74": {
+            "_surface": {
+                "text": "slot"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Slot in a semantic frame"
+                    }
+                ]
+            }
+        },
+        "74616e68": {
+            "_surface": {
+                "text": "tanh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperbolic tangent function"
+                    }
+                ]
+            }
+        },
+        "4453544332": {
+            "_surface": {
+                "text": "DSTC2",
+                "unicode_name": "DSTC2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dialogue State Tracking Challenge 2, a benchmark dataset"
+                    }
+                ]
+            }
+        },
+        "534e495053": {
+            "_surface": {
+                "text": "SNIPS",
+                "unicode_name": "SNIPS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spoken Natural Language Interaction for Personal Systems, a benchmark dataset"
+                    }
+                ]
+            }
+        },
+        "76616c7565": {
+            "_surface": {
+                "text": "value"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Value in a semantic frame"
+                    }
+                ]
+            }
+        },
+        "42694c53544d": {
+            "_surface": {
+                "text": "BiLSTM",
+                "unicode_name": "BiLSTM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bi-directional LSTM"
+                    }
+                ]
+            }
+        },
+        "574f5a322e30": {
+            "_surface": {
+                "text": "WOZ2.0",
+                "unicode_name": "WOZ2.0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wizard-of-Oz dataset version 2.0, a benchmark dataset"
+                    }
+                ]
+            }
+        },
+        "617474656e64": {
+            "_surface": {
+                "text": "attend"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Attention function"
+                    }
+                ]
+            }
+        },
+        "696e74656e74": {
+            "_surface": {
+                "text": "intent"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intent in a semantic frame"
+                    }
+                ]
+            }
+        },
+        "536c6f74204631": {
+            "_surface": {
+                "text": "Slot F1",
+                "unicode_name": "Slot F1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "F1 score to evaluate accuracy of slot sequence labeling"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "496e742e20416363": {
+            "_surface": {
+                "text": "Int. Acc",
+                "unicode_name": "Int. Acc"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Intent Accuracy"
+                    }
+                ]
+            }
+        },
+        "4a6f696e74204741": {
+            "_surface": {
+                "text": "Joint GA",
+                "unicode_name": "Joint GA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Joint Goal Accuracy"
+                    }
+                ]
+            }
+        },
+        "424552542d42617365": {
+            "_surface": {
+                "text": "BERT-Base",
+                "unicode_name": "BERT-Base"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Uncased"
+                        ],
+                        "arity": 0,
+                        "description": "Pre-trained BERT model with 12 hidden layers of 768 units and 12 self-attention heads"
+                    }
+                ]
+            }
+        },
+        "6265616d2073697a65": {
+            "_surface": {
+                "text": "beam size",
+                "unicode_name": "beam size"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of sequences kept at each level of expansion in beam search"
+                    }
+                ]
+            }
+        },
+        "4a6f696e742042657274": {
+            "_surface": {
+                "text": "Joint Bert",
+                "unicode_name": "Joint Bert"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model"
+                    }
+                ]
+            }
+        },
+        "536571325365712d4455": {
+            "_surface": {
+                "text": "Seq2Seq-DU",
+                "unicode_name": "Seq2Seq-DU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence-to-Sequence Approach to Dialogue State Tracking, a new approach proposed in the paper"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence-to-Sequence Approach to Dialogue State Tracking"
+                    }
+                ]
+            }
+        },
+        "62617463682073697a65": {
+            "_surface": {
+                "text": "batch size",
+                "unicode_name": "batch size"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of training examples used in one iteration"
+                    }
+                ]
+            }
+        },
+        "4d756c7469574f5a322e32": {
+            "_surface": {
+                "text": "MultiWOZ2.2",
+                "unicode_name": "MultiWOZ2.2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multi-Domain Wizard-of-Oz dataset version 2.2, a benchmark dataset"
+                    }
+                ]
+            }
+        },
+        "6265616d20736561726368": {
+            "_surface": {
+                "text": "beam search",
+                "unicode_name": "beam search"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Search algorithm used for decoding"
+                    }
+                ]
+            }
+        },
+        "5347442d626173656c696e65": {
+            "_surface": {
+                "text": "SGD-baseline",
+                "unicode_name": "SGD-baseline"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model for SGD dataset"
+                    }
+                ]
+            }
+        },
+        "77616e6779616e672e313237": {
+            "_surface": {
+                "text": "wangyang.127",
+                "unicode_name": "wangyang.127"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", lihang.lh}@bytedance.com"
+                        ],
+                        "arity": 0,
+                        "description": "Email addresses of Yang Wang and Hang Li"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d546f6b656e": {
+            "_surface": {
+                "text": "Seq2Seq-DU-Token",
+                "unicode_name": "Seq2Seq-DU-Token"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model with token-level attention"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d4f766572616c6c": {
+            "_surface": {
+                "text": "Seq2Seq-DU-Overall",
+                "unicode_name": "Seq2Seq-DU-Overall"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model with all components"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d772f6f42657274": {
+            "_surface": {
+                "text": "Seq2Seq-DU-w/oBert",
+                "unicode_name": "Seq2Seq-DU-w/oBert"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model without BERT"
+                    }
+                ]
+            }
+        },
+        "4a6f696e7420476f616c204163637572616379": {
+            "_surface": {
+                "text": "Joint Goal Accuracy",
+                "unicode_name": "Joint Goal Accuracy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Percentage of turns for which all the slots are correctly identified"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d5365714c6162656c": {
+            "_surface": {
+                "text": "Seq2Seq-DU-SeqLabel",
+                "unicode_name": "Seq2Seq-DU-SeqLabel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model for sequence labeling"
+                    }
+                ]
+            }
+        },
+        "64726f706f75742070726f626162696c697479": {
+            "_surface": {
+                "text": "dropout probability",
+                "unicode_name": "dropout probability"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability of dropping out a neuron during training"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d772f6f536368656d61": {
+            "_surface": {
+                "text": "Seq2Seq-DU-w/oSchema",
+                "unicode_name": "Seq2Seq-DU-w/oSchema"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model without schema"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d772f6f506f696e746572": {
+            "_surface": {
+                "text": "Seq2Seq-DU-w/oPointer",
+                "unicode_name": "Seq2Seq-DU-w/oPointer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model without pointer generation"
+                    }
+                ]
+            }
+        },
+        "696e697469616c206c6561726e696e672072617465": {
+            "_surface": {
+                "text": "initial learning rate",
+                "unicode_name": "initial learning rate"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Starting learning rate for the optimizer"
+                    }
+                ]
+            }
+        },
+        "7975652e66656e672e32304075636c2e61632e756b": {
+            "_surface": {
+                "text": "yue.feng.20@ucl.ac.uk",
+                "unicode_name": "yue.feng.20@ucl.ac.uk"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email address of Yue Feng"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d772f536368656d61417474": {
+            "_surface": {
+                "text": "Seq2Seq-DU-w/SchemaAtt",
+                "unicode_name": "Seq2Seq-DU-w/SchemaAtt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model with only utterance-attended schema representations"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d772f6f417474656e74696f6e": {
+            "_surface": {
+                "text": "Seq2Seq-DU-w/oAttention",
+                "unicode_name": "Seq2Seq-DU-w/oAttention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model without attention"
+                    }
+                ]
+            }
+        },
+        "536571325365712d44552d772f5574746572616e6365417474": {
+            "_surface": {
+                "text": "Seq2Seq-DU-w/UtteranceAtt",
+                "unicode_name": "Seq2Seq-DU-w/UtteranceAtt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Seq2Seq-DU model with only schema-attended utterance representations"
+                    }
+                ]
+            }
+        }
+    }
+}

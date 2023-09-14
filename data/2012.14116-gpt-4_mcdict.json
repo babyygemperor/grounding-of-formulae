@@ -1,0 +1,600 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "23": {
+            "_surface": {
+                "text": "#",
+                "unicode_name": "NUMBER SIGN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Special token before and after the second entity"
+                    }
+                ]
+            }
+        },
+        "31": {
+            "_surface": {
+                "text": "1",
+                "unicode_name": "DIGIT ONE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors' affiliation number"
+                    }
+                ]
+            }
+        },
+        "32": {
+            "_surface": {
+                "text": "2",
+                "unicode_name": "DIGIT TWO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors' affiliation number"
+                    }
+                ]
+            }
+        },
+        "40": {
+            "_surface": {
+                "text": "@",
+                "unicode_name": "COMMERCIAL AT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Special token before and after the first entity"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance matrix to encode the tree structure"
+                    }
+                ]
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Output of the transformer block"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntax-aware representation"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_N"
+                        ],
+                        "arity": 0,
+                        "description": "Layer normalization operation"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of transformer layers"
+                    }
+                ]
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of all tokens on the dependency tree"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence input"
+                    }
+                ]
+            }
+        },
+        "61": {
+            "_surface": {
+                "text": "a",
+                "unicode_name": "LATIN SMALL LETTER A"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance function between two tokens in the syntactic tree"
+                    },
+                    {
+                        "affixes": [
+                            "_h"
+                        ],
+                        "arity": 0,
+                        "description": "Dimension of the hidden states in the model"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entity typing, question answering and relation classification tasks under the different corresponding benchmarks"
+                    }
+                ]
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entity typing, question answering and relation classification tasks under the different corresponding benchmarks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token i"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token j"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Denotes the nth layer of the model"
+                    }
+                ]
+            }
+        },
+        "6f": {
+            "_surface": {
+                "text": "o",
+                "unicode_name": "LATIN SMALL LETTER O"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the syntactic tree"
+                    }
+                ]
+            }
+        },
+        "76": {
+            "_surface": {
+                "text": "v",
+                "unicode_name": "LATIN SMALL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token in the syntactic tree"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Token i on the dependency tree"
+                    },
+                    {
+                        "affixes": [
+                            "_j"
+                        ],
+                        "arity": 0,
+                        "description": "Token j on the dependency tree"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable used in normalization of D"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variable that controls the proportion of integration between contextual and syntax-aware representation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learnable variable that controls the proportion of integration between contextual and syntax-aware representation"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Activation function"
+                    }
+                ]
+            }
+        },
+        "46464e": {
+            "_surface": {
+                "text": "FFN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feed forward layer"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of real numbers"
+                    }
+                ]
+            }
+        },
+        "4d415448": {
+            "_surface": {
+                "text": "MATH",
+                "unicode_name": "MATH"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Special symbol to split two kinds of data types"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Special token in front of two segments"
+                    }
+                ]
+            }
+        },
+        "f09d91ab": {
+            "_surface": {
+                "text": "𝑫",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_i,j"
+                        ],
+                        "arity": 0,
+                        "description": "Element of distance matrix D in i-th row and j-th column"
+                    },
+                    {
+                        "affixes": [
+                            "_i,j"
+                        ],
+                        "arity": 0,
+                        "description": "Normalized correlation strength matrix"
+                    }
+                ]
+            }
+        },
+        "f09d91ae": {
+            "_surface": {
+                "text": "𝑮",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Intermediate computation in transformer block"
+                    }
+                ]
+            }
+        },
+        "f09d91af": {
+            "_surface": {
+                "text": "𝑯",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Embeddings of the sequence input X"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Syntax-aware representation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Contextual representation"
+                    }
+                ]
+            }
+        },
+        "f09d91be": {
+            "_surface": {
+                "text": "𝑾",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC CAPITAL W"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_n1"
+                        ],
+                        "arity": 0,
+                        "description": "Model parameter"
+                    },
+                    {
+                        "affixes": [
+                            "_n2"
+                        ],
+                        "arity": 0,
+                        "description": "Model parameter"
+                    }
+                ]
+            }
+        },
+        "4d756c74694174746e": {
+            "_surface": {
+                "text": "MultiAttn"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multi-headed self-attention"
+                    }
+                ]
+            }
+        },
+        "7472616e73666f726d6572": {
+            "_surface": {
+                "text": "transformer",
+                "unicode_name": "transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Transformer layer n"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Architecturally identical transformer block"
+                    }
+                ]
+            }
+        }
+    }
+}

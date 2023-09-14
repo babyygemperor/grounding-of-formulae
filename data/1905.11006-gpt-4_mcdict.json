@@ -1,0 +1,1226 @@
+{
+    "_author": "gpt-4",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix for deletion classifier"
+                    }
+                ]
+            }
+        },
+        "42": {
+            "_surface": {
+                "text": "B",
+                "unicode_name": "LATIN CAPITAL LETTER B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix for placeholder classifier"
+                    }
+                ]
+            }
+        },
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Matrix for token classifier"
+                    }
+                ]
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token embeddings"
+                    }
+                ]
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_dec"
+                        ],
+                        "arity": 0,
+                        "description": "Average number of decoder iterations"
+                    }
+                ]
+            }
+        },
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_max"
+                        ],
+                        "arity": 0,
+                        "description": "Maximum number of tokens to be inserted"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_max"
+                        ],
+                        "arity": 0,
+                        "description": "Maximum length"
+                    }
+                ]
+            }
+        },
+        "50": {
+            "_surface": {
+                "text": "P",
+                "unicode_name": "LATIN CAPITAL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probability distribution"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Position embeddings"
+                    }
+                ]
+            }
+        },
+        "64": {
+            "_surface": {
+                "text": "d",
+                "unicode_name": "LATIN SMALL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Binary decision"
+                    },
+                    {
+                        "affixes": [
+                            "_model"
+                        ],
+                        "arity": 0,
+                        "description": "Model dimension"
+                    },
+                    {
+                        "affixes": [
+                            "_i*"
+                        ],
+                        "arity": 0,
+                        "description": "Oracle decision at i-th position"
+                    },
+                    {
+                        "affixes": [
+                            "_hidden"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden layer dimension"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index of block"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of blocks for deletion"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Length of sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of blocks for placeholder prediction"
+                    },
+                    {
+                        "affixes": [
+                            "_heads"
+                        ],
+                        "arity": 0,
+                        "description": "Number of attention heads"
+                    },
+                    {
+                        "affixes": [
+                            "_layers"
+                        ],
+                        "arity": 0,
+                        "description": "Number of layers"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Possibility of adding placeholders"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reward"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Special token"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token"
+                    },
+                    {
+                        "affixes": [
+                            "_i*"
+                        ],
+                        "arity": 0,
+                        "description": "Oracle token at i-th position"
+                    }
+                ]
+            }
+        },
+        "75": {
+            "_surface": {
+                "text": "u",
+                "unicode_name": "LATIN SMALL LETTER U"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Uniformly distributed random variable"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token"
+                    }
+                ]
+            }
+        },
+        "6172": {
+            "_surface": {
+                "text": "ar"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "6c72": {
+            "_surface": {
+                "text": "lr"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_max"
+                        ],
+                        "arity": 0,
+                        "description": "Maximum learning rate"
+                    }
+                ]
+            }
+        },
+        "ceb1": {
+            "_surface": {
+                "text": "α",
+                "unicode_name": "GREEK SMALL LETTER ALPHA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mixture factor"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mixture factor for insertion"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Penalty term subtracted from the logits of 0"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model parameters"
+                    }
+                ]
+            }
+        },
+        "cf80": {
+            "_surface": {
+                "text": "π",
+                "unicode_name": "GREEK SMALL LETTER PI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Policy"
+                    },
+                    {
+                        "affixes": [
+                            "_rnd"
+                        ],
+                        "arity": 0,
+                        "description": "Random policy"
+                    },
+                    {
+                        "affixes": [
+                            "_θ"
+                        ],
+                        "arity": 0,
+                        "description": "Mixing of the model in Equation (6)"
+                    }
+                ]
+            }
+        },
+        "504c48": {
+            "_surface": {
+                "text": "PLH",
+                "unicode_name": "PLH"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Placeholder token"
+                    }
+                ]
+            }
+        },
+        "64656c": {
+            "_surface": {
+                "text": "del"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deletion classifier"
+                    }
+                ]
+            }
+        },
+        "696e73": {
+            "_surface": {
+                "text": "ins"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "706c68": {
+            "_surface": {
+                "text": "plh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Placeholder classifier"
+                    }
+                ]
+            }
+        },
+        "726e64": {
+            "_surface": {
+                "text": "rnd"
+            },
+            "identifiers": {
+                "roman": []
+            }
+        },
+        "746f6b": {
+            "_surface": {
+                "text": "tok"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token classifier"
+                    }
+                ]
+            }
+        },
+        "e280a0": {
+            "_surface": {
+                "text": "†",
+                "unicode_name": "DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation symbol, indicating authors' affiliation to Facebook AI Research"
+                    }
+                ]
+            }
+        },
+        "e280a1": {
+            "_surface": {
+                "text": "‡",
+                "unicode_name": "DOUBLE DAGGER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation symbol, indicating authors' affiliation to New York University"
+                    }
+                ]
+            }
+        },
+        "e2849b": {
+            "_surface": {
+                "text": "ℛ",
+                "unicode_name": "SCRIPT CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Reward function"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Real numbers"
+                    }
+                ]
+            }
+        },
+        "e284b0": {
+            "_surface": {
+                "text": "ℰ",
+                "unicode_name": "SCRIPT CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Environment"
+                    }
+                ]
+            }
+        },
+        "e28b84": {
+            "_surface": {
+                "text": "⋄",
+                "unicode_name": "DIAMOND OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation symbol, indicating authors' affiliation to Tigerobo Inc."
+                    }
+                ]
+            }
+        },
+        "4e6d6178": {
+            "_surface": {
+                "text": "Nmax",
+                "unicode_name": "Nmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum length"
+                    }
+                ]
+            }
+        },
+        "f09d9282": {
+            "_surface": {
+                "text": "𝒂",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Action"
+                    }
+                ]
+            }
+        },
+        "f09d9285": {
+            "_surface": {
+                "text": "𝒅",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Action of deletion"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Oracle deletion"
+                    },
+                    {
+                        "affixes": [
+                            "_π~_del"
+                        ],
+                        "arity": 0,
+                        "description": "State distribution induced by roll-in policy π~_del"
+                    },
+                    {
+                        "affixes": [
+                            "_π~_ins"
+                        ],
+                        "arity": 0,
+                        "description": "State distribution induced by roll-in policy π~_ins"
+                    }
+                ]
+            }
+        },
+        "f09d9289": {
+            "_surface": {
+                "text": "𝒉",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "States from the l-th block"
+                    }
+                ]
+            }
+        },
+        "f09d9291": {
+            "_surface": {
+                "text": "𝒑",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Placeholder"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Oracle insertion"
+                    },
+                    {
+                        "affixes": [
+                            "_i*"
+                        ],
+                        "arity": 0,
+                        "description": "Oracle placeholder at i-th position"
+                    }
+                ]
+            }
+        },
+        "f09d9295": {
+            "_surface": {
+                "text": "𝒕",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Actual tokens in the vocabulary"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Oracle tokens"
+                    }
+                ]
+            }
+        },
+        "f09d9299": {
+            "_surface": {
+                "text": "𝒙",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Source included in each TransformerBlock"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input of source information"
+                    }
+                ]
+            }
+        },
+        "f09d929a": {
+            "_surface": {
+                "text": "𝒚",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial sequence"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input sequence"
+                    },
+                    {
+                        "affixes": [
+                            "'"
+                        ],
+                        "arity": 0,
+                        "description": "Modified sequence after deletion"
+                    },
+                    {
+                        "affixes": [
+                            "''"
+                        ],
+                        "arity": 0,
+                        "description": "Modified sequence after placeholder insertion"
+                    },
+                    {
+                        "affixes": [
+                            "*"
+                        ],
+                        "arity": 0,
+                        "description": "Ground-truth sequence"
+                    },
+                    {
+                        "affixes": [
+                            "_ar"
+                        ],
+                        "arity": 0,
+                        "description": "Beam-search result of the teacher model"
+                    },
+                    {
+                        "affixes": [
+                            "_del"
+                        ],
+                        "arity": 0,
+                        "description": "Output after deletion"
+                    },
+                    {
+                        "affixes": [
+                            "_ins"
+                        ],
+                        "arity": 0,
+                        "description": "Output after insertion"
+                    },
+                    {
+                        "affixes": [
+                            "_ins'"
+                        ],
+                        "arity": 0,
+                        "description": "Output after inserting placeholders 𝒑* upon 𝒚_ins"
+                    }
+                ]
+            }
+        },
+        "f09d929c": {
+            "_surface": {
+                "text": "𝒜",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of actions"
+                    }
+                ]
+            }
+        },
+        "f09d929f": {
+            "_surface": {
+                "text": "𝒟",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distance measurement"
+                    }
+                ]
+            }
+        },
+        "f09d92b1": {
+            "_surface": {
+                "text": "𝒱",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Vocabulary of symbols"
+                    }
+                ]
+            }
+        },
+        "f09d92b4": {
+            "_surface": {
+                "text": "𝒴",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of discrete sequences"
+                    }
+                ]
+            }
+        },
+        "f09d94bc": {
+            "_surface": {
+                "text": "𝔼",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6865616473": {
+            "_surface": {
+                "text": "heads"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d6f64656c": {
+            "_surface": {
+                "text": "model"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "cf8064656c": {
+            "_surface": {
+                "text": "πdel",
+                "unicode_name": "πdel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deletion policy"
+                    }
+                ]
+            }
+        },
+        "cf80706c68": {
+            "_surface": {
+                "text": "πplh",
+                "unicode_name": "πplh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Placeholder prediction policy"
+                    }
+                ]
+            }
+        },
+        "cf80746f6b": {
+            "_surface": {
+                "text": "πtok",
+                "unicode_name": "πtok"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token prediction policy"
+                    }
+                ]
+            }
+        },
+        "f09d92857e": {
+            "_surface": {
+                "text": "𝒅~",
+                "unicode_name": "𝒅~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decision obtained by sampling"
+                    }
+                ]
+            }
+        },
+        "f09d92957e": {
+            "_surface": {
+                "text": "𝒕~",
+                "unicode_name": "𝒕~"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Token obtained by sampling"
+                    }
+                ]
+            }
+        },
+        "f09d929a30": {
+            "_surface": {
+                "text": "𝒚0",
+                "unicode_name": "𝒚0"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial sequence"
+                    }
+                ]
+            }
+        },
+        "f09d929a6b": {
+            "_surface": {
+                "text": "𝒚k",
+                "unicode_name": "𝒚k"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subsequence"
+                    }
+                ]
+            }
+        },
+        "6172676d696e": {
+            "_surface": {
+                "text": "argmin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Argument of the minimum"
+                    }
+                ]
+            }
+        },
+        "636f6e636174": {
+            "_surface": {
+                "text": "concat",
+                "unicode_name": "concat"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Concatenation function"
+                    }
+                ]
+            }
+        },
+        "68696464656e": {
+            "_surface": {
+                "text": "hidden"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c6179657273": {
+            "_surface": {
+                "text": "layers"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "7761726d7570": {
+            "_surface": {
+                "text": "warmup"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Warmup steps"
+                    }
+                ]
+            }
+        },
+        "64726f706f7574": {
+            "_surface": {
+                "text": "dropout"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dropout rate"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Softmax function"
+                    }
+                ]
+            }
+        },
+        "f09d92826b2b31": {
+            "_surface": {
+                "text": "𝒂k+1",
+                "unicode_name": "𝒂k+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Action at k+1 iteration"
+                    }
+                ]
+            }
+        },
+        "f09d929a6b2b31": {
+            "_surface": {
+                "text": "𝒚k+1",
+                "unicode_name": "𝒚k+1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subsequence at k+1 iteration"
+                    }
+                ]
+            }
+        },
+        "f09d929af09d9f8e": {
+            "_surface": {
+                "text": "𝒚𝟎",
+                "unicode_name": "𝒚𝟎"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Initial sequence"
+                    }
+                ]
+            }
+        },
+        "6c6162656c2d736d6f6f7468": {
+            "_surface": {
+                "text": "label-smooth"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Label smoothing"
+                    }
+                ]
+            }
+        },
+        "5472616e73666f726d6572426c6f636b": {
+            "_surface": {
+                "text": "TransformerBlock"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer block"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,5374 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "4b": {
+            "_surface": {
+                "text": "K",
+                "unicode_name": "LATIN CAPITAL LETTER K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of labels"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_online"
+                        ],
+                        "arity": 0,
+                        "description": "Online codelength"
+                    },
+                    {
+                        "affixes": [
+                            "_data"
+                        ],
+                        "arity": 0,
+                        "description": "Data codelength"
+                    },
+                    {
+                        "affixes": [
+                            "_model"
+                        ],
+                        "arity": 0,
+                        "description": "Model codelength"
+                    }
+                ]
+            }
+        },
+        "53": {
+            "_surface": {
+                "text": "S",
+                "unicode_name": "LATIN CAPITAL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "66": {
+            "_surface": {
+                "text": "f",
+                "unicode_name": "LATIN SMALL LETTER F"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Portion index"
+                    }
+                ]
+            }
+        },
+        "6b": {
+            "_surface": {
+                "text": "k",
+                "unicode_name": "LATIN SMALL LETTER K"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of data portions"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Uniform prior"
+                    },
+                    {
+                        "affixes": [
+                            "(θi)"
+                        ],
+                        "arity": 0,
+                        "description": "Probability of parameters θi"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of examples"
+                    }
+                ]
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input data"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Labels"
+                    }
+                ]
+            }
+        },
+        "3142": {
+            "_surface": {
+                "text": "1B",
+                "unicode_name": "1B"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "314d": {
+            "_surface": {
+                "text": "1M",
+                "unicode_name": "1M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "4342": {
+            "_surface": {
+                "text": "CB",
+                "unicode_name": "CB"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "5342": {
+            "_surface": {
+                "text": "SB",
+                "unicode_name": "SB"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "5435": {
+            "_surface": {
+                "text": "T5",
+                "unicode_name": "T5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    }
+                ]
+            }
+        },
+        "ceb8": {
+            "_surface": {
+                "text": "θ",
+                "unicode_name": "GREEK SMALL LETTER THETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "MLP parameters"
+                    }
+                ]
+            }
+        },
+        "31304d": {
+            "_surface": {
+                "text": "10M",
+                "unicode_name": "10M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "4d444c": {
+            "_surface": {
+                "text": "MDL",
+                "unicode_name": "MDL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Minimum Description Length"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "MDL probing"
+                    }
+                ]
+            }
+        },
+        "4d4c4d": {
+            "_surface": {
+                "text": "MLM",
+                "unicode_name": "MLM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Scoring method"
+                    }
+                ]
+            }
+        },
+        "4d4c50": {
+            "_surface": {
+                "text": "MLP",
+                "unicode_name": "MLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multilayer Perceptron"
+                    }
+                ]
+            }
+        },
+        "4e4c50": {
+            "_surface": {
+                "text": "NLP",
+                "unicode_name": "NLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "4e4c55": {
+            "_surface": {
+                "text": "NLU",
+                "unicode_name": "NLU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language understanding tasks"
+                    }
+                ]
+            }
+        },
+        "525445": {
+            "_surface": {
+                "text": "RTE",
+                "unicode_name": "RTE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "53524c": {
+            "_surface": {
+                "text": "SRL",
+                "unicode_name": "SRL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "576943": {
+            "_surface": {
+                "text": "WiC",
+                "unicode_name": "WiC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Logarithm function"
+                    }
+                ]
+            }
+        },
+        "3130304d": {
+            "_surface": {
+                "text": "100M",
+                "unicode_name": "100M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "42415345": {
+            "_surface": {
+                "text": "BASE",
+                "unicode_name": "BASE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model size"
+                    }
+                ]
+            }
+        },
+        "42455254": {
+            "_surface": {
+                "text": "BERT",
+                "unicode_name": "BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pretrained model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "434f5041": {
+            "_surface": {
+                "text": "COPA",
+                "unicode_name": "COPA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "4e6f6e65": {
+            "_surface": {
+                "text": "None",
+                "unicode_name": "None"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Global minimum"
+                    }
+                ]
+            }
+        },
+        "6c6f6732": {
+            "_surface": {
+                "text": "log2",
+                "unicode_name": "log2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Base-2 logarithm function"
+                    }
+                ]
+            }
+        },
+        "424c694d50": {
+            "_surface": {
+                "text": "BLiMP",
+                "unicode_name": "BLiMP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BLiMP results"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark"
+                    }
+                ]
+            }
+        },
+        "426f6f6c51": {
+            "_surface": {
+                "text": "BoolQ",
+                "unicode_name": "BoolQ"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "4750542d32": {
+            "_surface": {
+                "text": "GPT-2",
+                "unicode_name": "GPT-2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pretrained model"
+                    }
+                ]
+            }
+        },
+        "4c41524745": {
+            "_surface": {
+                "text": "LARGE",
+                "unicode_name": "LARGE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model size"
+                    }
+                ]
+            }
+        },
+        "496e74756974": {
+            "_surface": {
+                "text": "Intuit",
+                "unicode_name": "Intuit"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Inc."
+                        ],
+                        "arity": 0,
+                        "description": "Financial support"
+                    }
+                ]
+            }
+        },
+        "4d696c6c6572": {
+            "_surface": {
+                "text": "Miller",
+                "unicode_name": "Miller"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "50415343414c": {
+            "_surface": {
+                "text": "PASCAL",
+                "unicode_name": "PASCAL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Challenge"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Fifth PASCAL Recognizing Textual Entailment Challenge"
+                    }
+                ]
+            }
+        },
+        "626f776d616e": {
+            "_surface": {
+                "text": "bowman",
+                "unicode_name": "bowman"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "6f6e6c696e65": {
+            "_surface": {
+                "text": "online"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "786c33313139": {
+            "_surface": {
+                "text": "xl3119",
+                "unicode_name": "xl3119"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "4d696c6c657220": {
+            "_surface": {
+                "text": "Miller ",
+                "unicode_name": "Miller "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1995)"
+                        ],
+                        "arity": 0,
+                        "description": "George A Miller"
+                    },
+                    {
+                        "affixes": [
+                            "(1995)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "526f4245525461": {
+            "_surface": {
+                "text": "RoBERTa",
+                "unicode_name": "RoBERTa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pretrained model"
+                    }
+                ]
+            }
+        },
+        "526f6265727461": {
+            "_surface": {
+                "text": "Roberta",
+                "unicode_name": "Roberta"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Robustly optimized bert pretraining approach"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language model"
+                    }
+                ]
+            }
+        },
+        "536368756c6572": {
+            "_surface": {
+                "text": "Schuler",
+                "unicode_name": "Schuler"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "5461626c652031": {
+            "_surface": {
+                "text": "Table 1",
+                "unicode_name": "Table 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyperparameter search ranges for the SuperGLUE tasks"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pruksachatkun et al. (2020)"
+                    }
+                ]
+            }
+        },
+        "5461626c652032": {
+            "_surface": {
+                "text": "Table 2",
+                "unicode_name": "Table 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BLiMP results"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Warstadt et al. (2020a), Salazar et al. (2020)"
+                    }
+                ]
+            }
+        },
+        "576f72644e6574": {
+            "_surface": {
+                "text": "WordNet",
+                "unicode_name": "WordNet"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Lexical database for English"
+                    }
+                ]
+            }
+        },
+        "737562706c6f74": {
+            "_surface": {
+                "text": "subplot",
+                "unicode_name": "subplot"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Subplot in a figure"
+                    }
+                ]
+            }
+        },
+        "4162737472616374": {
+            "_surface": {
+                "text": "Abstract",
+                "unicode_name": "Abstract"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "456e746974696573": {
+            "_surface": {
+                "text": "Entities",
+                "unicode_name": "Entities"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "457474696e676572": {
+            "_surface": {
+                "text": "Ettinger",
+                "unicode_name": "Ettinger"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Allyson Ettinger"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author"
+                    }
+                ]
+            }
+        },
+        "46312073636f7265": {
+            "_surface": {
+                "text": "F1 score",
+                "unicode_name": "F1 score"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of classification performance"
+                    }
+                ]
+            }
+        },
+        "4669677572652031": {
+            "_surface": {
+                "text": "Figure 1",
+                "unicode_name": "Figure 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 1"
+                    }
+                ]
+            }
+        },
+        "4669677572652032": {
+            "_surface": {
+                "text": "Figure 2",
+                "unicode_name": "Figure 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "4669677572652033": {
+            "_surface": {
+                "text": "Figure 3",
+                "unicode_name": "Figure 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "4669677572652034": {
+            "_surface": {
+                "text": "Figure 4",
+                "unicode_name": "Figure 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure 4"
+                    }
+                ]
+            }
+        },
+        "4669677572652037": {
+            "_surface": {
+                "text": "Figure 7",
+                "unicode_name": "Figure 7"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BERT LARGE test set results from Tenney et al. (2019b)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absolute edge probing dev set results (not normalized)"
+                    }
+                ]
+            }
+        },
+        "4669677572652038": {
+            "_surface": {
+                "text": "Figure 8",
+                "unicode_name": "Figure 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Absolute SuperGLUE results (not normalized)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "RoBERTa LARGE results from Liu et al. (2019)"
+                    }
+                ]
+            }
+        },
+        "536368756c657220": {
+            "_surface": {
+                "text": "Schuler ",
+                "unicode_name": "Schuler "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2005)"
+                        ],
+                        "arity": 0,
+                        "description": "Author"
+                    },
+                    {
+                        "affixes": [
+                            "(2005)"
+                        ],
+                        "arity": 0,
+                        "description": "Karin Kipper Schuler"
+                    }
+                ]
+            }
+        },
+        "73656d616e746963": {
+            "_surface": {
+                "text": "semantic",
+                "unicode_name": "semantic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "7761727374616474": {
+            "_surface": {
+                "text": "warstadt",
+                "unicode_name": "warstadt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "43616d656d42455254": {
+            "_surface": {
+                "text": "CamemBERT",
+                "unicode_name": "CamemBERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "French language model"
+                    }
+                ]
+            }
+        },
+        "487520657420616c2e": {
+            "_surface": {
+                "text": "Hu et al.",
+                "unicode_name": "Hu et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hu et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "49646f20446167616e": {
+            "_surface": {
+                "text": "Ido Dagan",
+                "unicode_name": "Ido Dagan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "4d696e694245525461": {
+            "_surface": {
+                "text": "MiniBERTa",
+                "unicode_name": "MiniBERTa"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    }
+                ]
+            }
+        },
+        "4f666572204c617669": {
+            "_surface": {
+                "text": "Ofer Lavi",
+                "unicode_name": "Ofer Lavi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "5375706572474c5545": {
+            "_surface": {
+                "text": "SuperGLUE",
+                "unicode_name": "SuperGLUE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark suite"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Benchmark"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "SuperGLUE results"
+                    }
+                ]
+            }
+        },
+        "596f73736920416469": {
+            "_surface": {
+                "text": "Yossi Adi",
+                "unicode_name": "Yossi Adi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "726564756374696f6e": {
+            "_surface": {
+                "text": "reduction",
+                "unicode_name": "reduction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decrease or reduction"
+                    }
+                ]
+            }
+        },
+        "73796e746163746963": {
+            "_surface": {
+                "text": "syntactic",
+                "unicode_name": "syntactic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "41646920657420616c2e": {
+            "_surface": {
+                "text": "Adi et al.",
+                "unicode_name": "Adi et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Adi et al. (2017)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "424552547c4c41524745": {
+            "_surface": {
+                "text": "BERT|LARGE",
+                "unicode_name": "BERT|LARGE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "42696c6c20446f6c616e": {
+            "_surface": {
+                "text": "Bill Dolan",
+                "unicode_name": "Bill Dolan"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "436f6e636c7573696f6e": {
+            "_surface": {
+                "text": "Conclusion",
+                "unicode_name": "Conclusion"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conclusion"
+                    }
+                ]
+            }
+        },
+        "4672656e6368204d4c4d": {
+            "_surface": {
+                "text": "French MLM",
+                "unicode_name": "French MLM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pretrained model"
+                    }
+                ]
+            }
+        },
+        "48616f6b756e204c6975": {
+            "_surface": {
+                "text": "Haokun Liu",
+                "unicode_name": "Haokun Liu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "49616e2054656e6e6579": {
+            "_surface": {
+                "text": "Ian Tenney",
+                "unicode_name": "Ian Tenney"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "4c69736120466572726f": {
+            "_surface": {
+                "text": "Lisa Ferro",
+                "unicode_name": "Lisa Ferro"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "4d696e69424552546173": {
+            "_surface": {
+                "text": "MiniBERTas",
+                "unicode_name": "MiniBERTas"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of 12 RoBERTa models pretrained from scratch"
+                    }
+                ]
+            }
+        },
+        "5265666572656e636573": {
+            "_surface": {
+                "text": "References",
+                "unicode_name": "References"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "References"
+                    }
+                ]
+            }
+        },
+        "52656c6174696f6e7320": {
+            "_surface": {
+                "text": "Relations ",
+                "unicode_name": "Relations "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(SemEval)"
+                        ],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "5969616e205a68616e67": {
+            "_surface": {
+                "text": "Yian Zhang",
+                "unicode_name": "Yian Zhang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "*"
+                    }
+                ]
+            }
+        },
+        "62617463682073697a65": {
+            "_surface": {
+                "text": "batch size",
+                "unicode_name": "batch size"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Size of each batch"
+                    }
+                ]
+            }
+        },
+        "636c6173736966696572": {
+            "_surface": {
+                "text": "classifier",
+                "unicode_name": "classifier"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "MLP classifier"
+                    }
+                ]
+            }
+        },
+        "6879706f746865736973": {
+            "_surface": {
+                "text": "hypothesis",
+                "unicode_name": "hypothesis"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hypothesis"
+                    }
+                ]
+            }
+        },
+        "6c696e67756973746963": {
+            "_surface": {
+                "text": "linguistic",
+                "unicode_name": "linguistic"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "7969616e2e7a68616e67": {
+            "_surface": {
+                "text": "yian.zhang",
+                "unicode_name": "yian.zhang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "424c694d50207375697465": {
+            "_surface": {
+                "text": "BLiMP suite",
+                "unicode_name": "BLiMP suite"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "456c656e6120566f697461": {
+            "_surface": {
+                "text": "Elena Voita",
+                "unicode_name": "Elena Voita"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "4875206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Hu et al. ",
+                "unicode_name": "Hu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Jennifer Hu, Jon Gauthier, Peng Qian, Ethan Wilcox, and Roger Levy"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "50726f63656564696e6773": {
+            "_surface": {
+                "text": "Proceedings",
+                "unicode_name": "Proceedings"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Second PASCAL Challenges Workshop on Recognising Textual Entailment"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Workshop"
+                    }
+                ]
+            }
+        },
+        "57616e6720657420616c2e": {
+            "_surface": {
+                "text": "Wang et al.",
+                "unicode_name": "Wang et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Wang et al. (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "636f7265666572656e6365": {
+            "_surface": {
+                "text": "coreference",
+                "unicode_name": "coreference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linguistic feature"
+                    }
+                ]
+            }
+        },
+        "6772616d6d61746963616c": {
+            "_surface": {
+                "text": "grammatical",
+                "unicode_name": "grammatical"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "746f6b656e207370616e73": {
+            "_surface": {
+                "text": "token spans",
+                "unicode_name": "token spans"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Spans of tokens"
+                    }
+                ]
+            }
+        },
+        "436c61726b20657420616c2e": {
+            "_surface": {
+                "text": "Clark et al.",
+                "unicode_name": "Clark et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Clark et al. (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "436f6e7374697475656e7473": {
+            "_surface": {
+                "text": "Constituents",
+                "unicode_name": "Constituents"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "446167616e20657420616c2e": {
+            "_surface": {
+                "text": "Dagan et al.",
+                "unicode_name": "Dagan et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dagan et al. (2006)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "446570656e64656e63696573": {
+            "_surface": {
+                "text": "Dependencies",
+                "unicode_name": "Dependencies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "486161752d53696e67204c69": {
+            "_surface": {
+                "text": "Haau-Sing Li",
+                "unicode_name": "Haau-Sing Li"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "4c6975206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Liu et al. ",
+                "unicode_name": "Liu et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "526f42455254614c41524745": {
+            "_surface": {
+                "text": "RoBERTaLARGE",
+                "unicode_name": "RoBERTaLARGE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pretrained model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Salazar et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "RoBERTaLARGE performance"
+                    }
+                ]
+            }
+        },
+        "526f42455254617c42415345": {
+            "_surface": {
+                "text": "RoBERTa|BASE",
+                "unicode_name": "RoBERTa|BASE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Publicly available RoBERTa model pretrained on about 30B words"
+                    }
+                ]
+            }
+        },
+        "526f7920426172204861696d": {
+            "_surface": {
+                "text": "Roy Bar Haim",
+                "unicode_name": "Roy Bar Haim"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "57616e6720657420616c2e20": {
+            "_surface": {
+                "text": "Wang et al. ",
+                "unicode_name": "Wang et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "57616e67206574c2a0616c2e": {
+            "_surface": {
+                "text": "Wang et al.",
+                "unicode_name": "Wang et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "656467652070726f62696e67": {
+            "_surface": {
+                "text": "edge probing",
+                "unicode_name": "edge probing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probing tasks"
+                    }
+                ]
+            }
+        },
+        "72656c6174656420776f726b": {
+            "_surface": {
+                "text": "related work",
+                "unicode_name": "related work"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Related work"
+                    }
+                ]
+            }
+        },
+        "416c6578205761727374616474": {
+            "_surface": {
+                "text": "Alex Warstadt",
+                "unicode_name": "Alex Warstadt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "*"
+                    }
+                ]
+            }
+        },
+        "42726f776e20657420616c2e20": {
+            "_surface": {
+                "text": "Brown et al. ",
+                "unicode_name": "Brown et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "436869616e6720657420616c2e": {
+            "_surface": {
+                "text": "Chiang et al.",
+                "unicode_name": "Chiang et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Chiang et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "436c61726b20657420616c2e20": {
+            "_surface": {
+                "text": "Clark et al. ",
+                "unicode_name": "Clark et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Christopher Clark, Kenton Lee, Ming-Wei Chang, Tom Kwiatkowski, Michael Collins, and Kristina Toutanova"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "446167616e20657420616c2e20": {
+            "_surface": {
+                "text": "Dagan et al. ",
+                "unicode_name": "Dagan et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Ido Dagan, Oren Glickman, and Bernardo Magnini"
+                    },
+                    {
+                        "affixes": [
+                            "(2006)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4465766c696e20657420616c2e": {
+            "_surface": {
+                "text": "Devlin et al.",
+                "unicode_name": "Devlin et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Devlin et al. (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "45696e6174204b65726d616e79": {
+            "_surface": {
+                "text": "Einat Kermany",
+                "unicode_name": "Einat Kermany"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "456c617a617220657420616c2e": {
+            "_surface": {
+                "text": "Elazar et al.",
+                "unicode_name": "Elazar et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Elazar et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4964616e20537a70656b746f72": {
+            "_surface": {
+                "text": "Idan Szpektor",
+                "unicode_name": "Idan Szpektor"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "4d617274696e20657420616c2e": {
+            "_surface": {
+                "text": "Martin et al.",
+                "unicode_name": "Martin et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Martin et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "52616666656c20657420616c2e": {
+            "_surface": {
+                "text": "Raffel et al.",
+                "unicode_name": "Raffel et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Raffel et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "526f6765727320657420616c2e": {
+            "_surface": {
+                "text": "Rogers et al.",
+                "unicode_name": "Rogers et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rogers et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "54656e6e657920657420616c2e": {
+            "_surface": {
+                "text": "Tenney et al.",
+                "unicode_name": "Tenney et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tenney et al. (2019b)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "576869746520657420616c2e20": {
+            "_surface": {
+                "text": "White et al. ",
+                "unicode_name": "White et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Aaron Steven White, Pushpendre Rastogi, Kevin Duh, and Benjamin Van Durme"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "596f617620476f6c6462657267": {
+            "_surface": {
+                "text": "Yoav Goldberg",
+                "unicode_name": "Yoav Goldberg"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "6c6561726e696e672072617465": {
+            "_surface": {
+                "text": "learning rate",
+                "unicode_name": "learning rate"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Rate of learning"
+                    }
+                ]
+            }
+        },
+        "70726f62696e67207461736b73": {
+            "_surface": {
+                "text": "probing tasks",
+                "unicode_name": "probing tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tasks in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "4164616d206f7074696d697a6572": {
+            "_surface": {
+                "text": "Adam optimizer",
+                "unicode_name": "Adam optimizer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimization algorithm"
+                    }
+                ]
+            }
+        },
+        "436869616e6720657420616c2e20": {
+            "_surface": {
+                "text": "Chiang et al. ",
+                "unicode_name": "Chiang et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "David C Chiang, Sung-Feng Huang, and Hung-yi Lee"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4465766c696e20657420616c2e20": {
+            "_surface": {
+                "text": "Devlin et al. ",
+                "unicode_name": "Devlin et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "456c617a617220657420616c2e20": {
+            "_surface": {
+                "text": "Elazar et al. ",
+                "unicode_name": "Elazar et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Yanai Elazar, Shauli Ravfogel, Alon Jacovi, and Yoav Goldberg"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4b696e676d6120616e6420426120": {
+            "_surface": {
+                "text": "Kingma and Ba ",
+                "unicode_name": "Kingma and Ba "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Diederik P. Kingma and Jimmy Ba"
+                    },
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4d4c4d20706572706c6578697479": {
+            "_surface": {
+                "text": "MLM perplexity",
+                "unicode_name": "MLM perplexity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Perplexity of Masked Language Modeling"
+                    }
+                ]
+            }
+        },
+        "4d617274696e20657420616c2e20": {
+            "_surface": {
+                "text": "Martin et al. ",
+                "unicode_name": "Martin et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Louis Martin, Benjamin Muller, Pedro Javier Ortiz Suarez, Yoann Dupont, Laurent Romary, Eric de la Clergerie, Djame Seddah, Benoit Sagot"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4d696368656c6920657420616c2e": {
+            "_surface": {
+                "text": "Micheli et al.",
+                "unicode_name": "Micheli et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Micheli et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "506172742d6f662d537065656368": {
+            "_surface": {
+                "text": "Part-of-Speech",
+                "unicode_name": "Part-of-Speech"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "52616666656c20657420616c2e20": {
+            "_surface": {
+                "text": "Raffel et al. ",
+                "unicode_name": "Raffel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "5261686d616e20616e64204e6720": {
+            "_surface": {
+                "text": "Rahman and Ng ",
+                "unicode_name": "Rahman and Ng "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2012)"
+                        ],
+                        "arity": 0,
+                        "description": "Altaf Rahman, Vincent Ng"
+                    },
+                    {
+                        "affixes": [
+                            "(2012)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "576869746e657920657420616c2e": {
+            "_surface": {
+                "text": "Whitney et al.",
+                "unicode_name": "Whitney et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Whitney et al. (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "57696e6f6772616420636f726566": {
+            "_surface": {
+                "text": "Winograd coref",
+                "unicode_name": "Winograd coref"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "706172742d6f662d737065656368": {
+            "_surface": {
+                "text": "part-of-speech",
+                "unicode_name": "part-of-speech"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linguistic feature"
+                    }
+                ]
+            }
+        },
+        "41636b6e6f776c6564676d656e7473": {
+            "_surface": {
+                "text": "Acknowledgments",
+                "unicode_name": "Acknowledgments"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Acknowledgments"
+                    }
+                ]
+            }
+        },
+        "426172204861696d20657420616c2e": {
+            "_surface": {
+                "text": "Bar Haim et al.",
+                "unicode_name": "Bar Haim et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bar Haim et al. (2006)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4d696368656c6920657420616c2e20": {
+            "_surface": {
+                "text": "Micheli et al. ",
+                "unicode_name": "Micheli et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Vincent Micheli, Martin d'Hoffschmidt, Francois Fleuret"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "50696d656e74656c20657420616c2e": {
+            "_surface": {
+                "text": "Pimentel et al.",
+                "unicode_name": "Pimentel et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pimentel et al. (2020b)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "526f656d6d656c6520657420616c2e": {
+            "_surface": {
+                "text": "Roemmele et al.",
+                "unicode_name": "Roemmele et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Roemmele et al. (2011)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "526f67657273206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Rogers et al. ",
+                "unicode_name": "Rogers et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Anna Rogers, Olga Kovaleva, and Anna Rumshisky"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "5363686d6964742046757475726573": {
+            "_surface": {
+                "text": "Schmidt Futures",
+                "unicode_name": "Schmidt Futures"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Program"
+                    }
+                ]
+            }
+        },
+        "54656e6e6579206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Tenney et al. ",
+                "unicode_name": "Tenney et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019a)"
+                        ],
+                        "arity": 0,
+                        "description": "Ian Tenney, Dipanjan Das, and Ellie Pavlick"
+                    },
+                    {
+                        "affixes": [
+                            "(2019a)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2019b)"
+                        ],
+                        "arity": 0,
+                        "description": "Ian Tenney, Patrick Xia, Berlin Chen, Alex Wang, Adam Poliak, R. Thomas McCoy, Najoung Kim, Benjamin Van Durme, Samuel R Bowman, Dipanjan Das, et al."
+                    },
+                    {
+                        "affixes": [
+                            "(2019b)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "5472616e73666f726d6572204c4d73": {
+            "_surface": {
+                "text": "Transformer LMs",
+                "unicode_name": "Transformer LMs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer language models"
+                    }
+                ]
+            }
+        },
+        "566f69746120616e64205469746f76": {
+            "_surface": {
+                "text": "Voita and Titov",
+                "unicode_name": "Voita and Titov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Voita and Titov (2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "576172737461647420657420616c2e": {
+            "_surface": {
+                "text": "Warstadt et al.",
+                "unicode_name": "Warstadt et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Warstadt et al. (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Warstadt et al. (2020a)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "576869746e657920657420616c2e20": {
+            "_surface": {
+                "text": "Whitney et al. ",
+                "unicode_name": "Whitney et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "William F Whitney, Min Jae Song, David Brandfonbrener, Jaan Altosaar, and Kyunghyun Cho"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "57696e6f6772616420436f7265662e": {
+            "_surface": {
+                "text": "Winograd Coref.",
+                "unicode_name": "Winograd Coref."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Winograd coreference task"
+                    }
+                ]
+            }
+        },
+        "57696e6f6772616420636f7265662e": {
+            "_surface": {
+                "text": "Winograd coref.",
+                "unicode_name": "Winograd coref."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "616d6e657369632070726f62696e67": {
+            "_surface": {
+                "text": "amnesic probing",
+                "unicode_name": "amnesic probing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "amnesic probing (Elazar et al., 2020)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Causal probing method"
+                    }
+                ]
+            }
+        },
+        "6461746120636f64656c656e677468": {
+            "_surface": {
+                "text": "data codelength",
+                "unicode_name": "data codelength"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Data codelength"
+                    }
+                ]
+            }
+        },
+        "6461746120726567756c6172697479": {
+            "_surface": {
+                "text": "data regularity",
+                "unicode_name": "data regularity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Regularization of data"
+                    }
+                ]
+            }
+        },
+        "6c6561726e696e6720637572766573": {
+            "_surface": {
+                "text": "learning curves",
+                "unicode_name": "learning curves"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learning curves"
+                    }
+                ]
+            }
+        },
+        "70726f62696e67206d6574686f6473": {
+            "_surface": {
+                "text": "probing methods",
+                "unicode_name": "probing methods"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probing methods"
+                    }
+                ]
+            }
+        },
+        "747261696e6564206465636f646572": {
+            "_surface": {
+                "text": "trained decoder",
+                "unicode_name": "trained decoder"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Decoder model"
+                    }
+                ]
+            }
+        },
+        "33302062696c6c696f6e20776f726473": {
+            "_surface": {
+                "text": "30 billion words",
+                "unicode_name": "30 billion words"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "4265726e6172646f204d61676e696e69": {
+            "_surface": {
+                "text": "Bernardo Magnini",
+                "unicode_name": "Bernardo Magnini"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "436f68656e20616e64204b7269666b61": {
+            "_surface": {
+                "text": "Cohen and Krifka",
+                "unicode_name": "Cohen and Krifka"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Cohen and Krifka (2014)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4861727420616e64205269736c657920": {
+            "_surface": {
+                "text": "Hart and Risley ",
+                "unicode_name": "Hart and Risley "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1992)"
+                        ],
+                        "arity": 0,
+                        "description": "Betty Hart and Todd R. Risley"
+                    },
+                    {
+                        "affixes": [
+                            "(1992)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "48657769747420616e64204c69616e67": {
+            "_surface": {
+                "text": "Hewitt and Liang",
+                "unicode_name": "Hewitt and Liang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hewitt and Liang (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4f6e746f4e6f74657320636f7265662e": {
+            "_surface": {
+                "text": "OntoNotes coref.",
+                "unicode_name": "OntoNotes coref."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "50696d656e74656c20657420616c2e20": {
+            "_surface": {
+                "text": "Pimentel et al. ",
+                "unicode_name": "Pimentel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020a)"
+                        ],
+                        "arity": 0,
+                        "description": "Tiago Pimentel, Naomi Saphra, Adina Williams, Ryan Cotterell"
+                    },
+                    {
+                        "affixes": [
+                            "(2020a)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2020b)"
+                        ],
+                        "arity": 0,
+                        "description": "Tiago Pimentel, Josef Valvoda, Rowan Hall Maudslay, Ran Zmigrod, Adina Williams, Ryan Cotterell"
+                    },
+                    {
+                        "affixes": [
+                            "(2020b)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "526f656d6d656c6520657420616c2e20": {
+            "_surface": {
+                "text": "Roemmele et al. ",
+                "unicode_name": "Roemmele et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2011)"
+                        ],
+                        "arity": 0,
+                        "description": "Melissa Roemmele, Cosmin Adrian Bejan, Andrew S. Gordon"
+                    },
+                    {
+                        "affixes": [
+                            "(2011)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "53616c617a6172206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Salazar et al. ",
+                "unicode_name": "Salazar et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Julian Salazar, Davis Liang, Toan Q. Nguyen, and Katrin Kirchhoff"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "53616d73756e67205265736561726368": {
+            "_surface": {
+                "text": "Samsung Research",
+                "unicode_name": "Samsung Research"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Financial support"
+                    }
+                ]
+            }
+        },
+        "53616d75656c20522e20426f776d616e": {
+            "_surface": {
+                "text": "Samuel R. Bowman",
+                "unicode_name": "Samuel R. Bowman"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "53617068726120616e64204c6f70657a": {
+            "_surface": {
+                "text": "Saphra and Lopez",
+                "unicode_name": "Saphra and Lopez"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Saphra and Lopez (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "566f69746120616e64205469746f7620": {
+            "_surface": {
+                "text": "Voita and Titov ",
+                "unicode_name": "Voita and Titov "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Elena Voita and Ivan Titov"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "576172737461647420657420616c2e20": {
+            "_surface": {
+                "text": "Warstadt et al. ",
+                "unicode_name": "Warstadt et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Alex Warstadt, Yu Cao, Ioana Grosu, Wei Peng, Hagen Blix, Yining Nie, Anna Alsop, Shikha Bordia, Haokun Liu, Alicia Parrish, Sheng-Fu Wang, Jason Phang, Anhad Mohananey, Phu Mon Htut, Paloma Jeretič, and Samuel R. Bowman"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2020a)"
+                        ],
+                        "arity": 0,
+                        "description": "Alex Warstadt, Alicia Parrish, Haokun Liu, Anhad Mohananey, Wei Peng, Sheng-Fu Wang, and Samuel R. Bowman"
+                    },
+                    {
+                        "affixes": [
+                            "(2020a)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    },
+                    {
+                        "affixes": [
+                            "(2020b)"
+                        ],
+                        "arity": 0,
+                        "description": "Alex Warstadt, Yian Zhang, Haau-Sing Li, Haokun Liu, and Samuel R Bowman"
+                    },
+                    {
+                        "affixes": [
+                            "(2020b)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "596f6e6174616e2042656c696e6b6f76": {
+            "_surface": {
+                "text": "Yonatan Belinkov",
+                "unicode_name": "Yonatan Belinkov"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "61725869763a313930372e3131363932": {
+            "_surface": {
+                "text": "arXiv:1907.11692",
+                "unicode_name": "arXiv:1907.11692"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preprint"
+                    }
+                ]
+            }
+        },
+        "696e6475637469766520626961736573": {
+            "_surface": {
+                "text": "inductive biases",
+                "unicode_name": "inductive biases"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inductive biases"
+                    }
+                ]
+            }
+        },
+        "6c6162656c2065787472616374696f6e": {
+            "_surface": {
+                "text": "label extraction",
+                "unicode_name": "label extraction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Extraction of labels from representations"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c20636f64656c656e677468": {
+            "_surface": {
+                "text": "model codelength",
+                "unicode_name": "model codelength"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model codelength"
+                    }
+                ]
+            }
+        },
+        "73757266616365206665617475726573": {
+            "_surface": {
+                "text": "surface features",
+                "unicode_name": "surface features"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Surface features"
+                    }
+                ]
+            }
+        },
+        "31304d20746f203130304d20776f726473": {
+            "_surface": {
+                "text": "10M to 100M words",
+                "unicode_name": "10M to 100M words"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "42656e7469766f676c6920657420616c2e": {
+            "_surface": {
+                "text": "Bentivogli et al.",
+                "unicode_name": "Bentivogli et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bentivogli et al. (2009)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "436f68656e20616e64204b7269666b6120": {
+            "_surface": {
+                "text": "Cohen and Krifka ",
+                "unicode_name": "Cohen and Krifka "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Ariel Cohen and Manfred Krifka"
+                    },
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "457474696e676572206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Ettinger et al. ",
+                "unicode_name": "Ettinger et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Allyson Ettinger, Ahmed Elgohary, and Philip Resnik"
+                    },
+                    {
+                        "affixes": [
+                            "(2016)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4865696d20616e64204b7261747a657220": {
+            "_surface": {
+                "text": "Heim and Kratzer ",
+                "unicode_name": "Heim and Kratzer "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(1998)"
+                        ],
+                        "arity": 0,
+                        "description": "Irene Heim and Angelika Kratzer"
+                    },
+                    {
+                        "affixes": [
+                            "(1998)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "48657769747420616e64204c69616e6720": {
+            "_surface": {
+                "text": "Hewitt and Liang ",
+                "unicode_name": "Hewitt and Liang "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "John Hewitt and Percy Liang"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4d444c2070726f62696e67206375727665": {
+            "_surface": {
+                "text": "MDL probing curve",
+                "unicode_name": "MDL probing curve"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "MDL probing curve"
+                    }
+                ]
+            }
+        },
+        "527564696e676572206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Rudinger et al. ",
+                "unicode_name": "Rudinger et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Rachel Rudinger, Adam Teichert, Ryan Culkin, Sheng Zhang, and Benjamin Van Durme"
+                    },
+                    {
+                        "affixes": [
+                            "(2018)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "53617068726120616e64204c6f70657a20": {
+            "_surface": {
+                "text": "Saphra and Lopez ",
+                "unicode_name": "Saphra and Lopez "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Naomi Saphra and Adam Lopez"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "53656d2e2050726f746f20526f6c652031": {
+            "_surface": {
+                "text": "Sem. Proto Role 1",
+                "unicode_name": "Sem. Proto Role 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "53656d2e2050726f746f20526f6c652032": {
+            "_surface": {
+                "text": "Sem. Proto Role 2",
+                "unicode_name": "Sem. Proto Role 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task in the edge probing suite"
+                    }
+                ]
+            }
+        },
+        "53696c7665697261206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Silveira et al. ",
+                "unicode_name": "Silveira et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Natalia Silveira, Timothy Dozat, Marie-Catherine de Marneffe, Samuel Bowman, Miriam Connor, John Bauer, and Chris Manning"
+                    },
+                    {
+                        "affixes": [
+                            "(2014)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "5465696368657274206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Teichert et al. ",
+                "unicode_name": "Teichert et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Adam Teichert, Adam Poliak, Benjamin Van Durme, and Matthew Gormley"
+                    },
+                    {
+                        "affixes": [
+                            "(2017)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "42656c696e6b6f7620616e6420476c617373": {
+            "_surface": {
+                "text": "Belinkov and Glass",
+                "unicode_name": "Belinkov and Glass"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Belinkov and Glass (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "42656e7469766f676c6920657420616c2e20": {
+            "_surface": {
+                "text": "Bentivogli et al. ",
+                "unicode_name": "Bentivogli et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Luisa Bentivogli, Ido Dagan, Hoa Trang Dang, Danilo Giampiccolo, and Bernardo Magnini"
+                    },
+                    {
+                        "affixes": [
+                            "(2009)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "44616e696c6f204769616d706963636f6c6f": {
+            "_surface": {
+                "text": "Danilo Giampiccolo",
+                "unicode_name": "Danilo Giampiccolo"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "4465204d61726e6566666520657420616c2e": {
+            "_surface": {
+                "text": "De Marneffe et al.",
+                "unicode_name": "De Marneffe et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "De Marneffe et al. (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4769616d706963636f6c6f20657420616c2e": {
+            "_surface": {
+                "text": "Giampiccolo et al.",
+                "unicode_name": "Giampiccolo et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Giampiccolo et al. (2007)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4865617468636f7465206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Heathcote et al. ",
+                "unicode_name": "Heathcote et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2000)"
+                        ],
+                        "arity": 0,
+                        "description": "Andrew Heathcote, Scott Brown, and Douglas JK Mewhort"
+                    },
+                    {
+                        "affixes": [
+                            "(2000)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "48656e647269636b78206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Hendrickx et al. ",
+                "unicode_name": "Hendrickx et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2010)"
+                        ],
+                        "arity": 0,
+                        "description": "Iris Hendrickx, Su Nam Kim, Zornitsa Kozareva, Preslav Nakov, Diarmuid Ó Séaghdha, Sebastian Padó, Marco Pennacchiotti, Lorenza Romano, and Stan Szpakowicz"
+                    },
+                    {
+                        "affixes": [
+                            "(2010)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "48657769747420616e64204d616e6e696e67": {
+            "_surface": {
+                "text": "Hewitt and Manning",
+                "unicode_name": "Hewitt and Manning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hewitt and Manning (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "496e7665737469676174696e672042455254": {
+            "_surface": {
+                "text": "Investigating BERT",
+                "unicode_name": "Investigating BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "'s knowledge of language: Five analysis methods with NPIs"
+                        ],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [
+                            "'s knowledge of language: Five analysis methods with NPIs"
+                        ],
+                        "arity": 0,
+                        "description": "EMNLP-IJCNLP"
+                    }
+                ]
+            }
+        },
+        "5765697363686564656c20657420616c2e20": {
+            "_surface": {
+                "text": "Weischedel et al. ",
+                "unicode_name": "Weischedel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2013)"
+                        ],
+                        "arity": 0,
+                        "description": "Ralph Weischedel, Martha Palmer, Marcus Mitchell, Eduard Hovy, Sameer Pradhan, Lance Ramshaw, Nianwen Xue, Ann Taylor, Jeff Kaufman, Michelle Franchini, Mohammed El-Bachouti, Robert Belvin, and Ann Houston"
+                    },
+                    {
+                        "affixes": [
+                            "(2013)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "636c61737369666965722070726f62696e67": {
+            "_surface": {
+                "text": "classifier probing",
+                "unicode_name": "classifier probing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classifier probing"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probing approach to test linguistic features encoded in MiniBERTa representations"
+                    }
+                ]
+            }
+        },
+        "656467652070726f62696e67207375697465": {
+            "_surface": {
+                "text": "edge probing suite",
+                "unicode_name": "edge probing suite"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Suite of probing tasks"
+                    }
+                ]
+            }
+        },
+        "6578706572696d656e7420726573756c7473": {
+            "_surface": {
+                "text": "experiment results",
+                "unicode_name": "experiment results"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Results of the experiments"
+                    }
+                ]
+            }
+        },
+        "6665617475726520636f64656c656e677468": {
+            "_surface": {
+                "text": "feature codelength",
+                "unicode_name": "feature codelength"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Codelength of features"
+                    }
+                ]
+            }
+        },
+        "6c696e65617220636f6d62696e6174696f6e": {
+            "_surface": {
+                "text": "linear combination",
+                "unicode_name": "linear combination"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Combination of RoBERTa's layer activations"
+                    }
+                ]
+            }
+        },
+        "70726f62696e6720636c6173736966696572": {
+            "_surface": {
+                "text": "probing classifier",
+                "unicode_name": "probing classifier"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "MLP classifier used in classifier probing"
+                    }
+                ]
+            }
+        },
+        "73796e746163746963206665617475726573": {
+            "_surface": {
+                "text": "syntactic features",
+                "unicode_name": "syntactic features"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Features related to syntax"
+                    }
+                ]
+            }
+        },
+        "42656c696e6b6f7620616e6420476c61737320": {
+            "_surface": {
+                "text": "Belinkov and Glass ",
+                "unicode_name": "Belinkov and Glass "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Yonatan Belinkov and James R. Glass"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "4465204d61726e6566666520657420616c2e20": {
+            "_surface": {
+                "text": "De Marneffe et al. ",
+                "unicode_name": "De Marneffe et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Marie-Catherine De Marneffe, Mandy Simons, and Judith Tonhauser"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "48657769747420616e64204d616e6e696e6720": {
+            "_surface": {
+                "text": "Hewitt and Manning ",
+                "unicode_name": "Hewitt and Manning "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "John Hewitt and Christopher D Manning"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "526f42455254617c42415345206d6f64656c73": {
+            "_surface": {
+                "text": "RoBERTa|BASE models",
+                "unicode_name": "RoBERTa|BASE models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "3 RoBERTa models with randomly initialized parameters"
+                    }
+                ]
+            }
+        },
+        "6665617475726520696e666f726d6174696f6e": {
+            "_surface": {
+                "text": "feature information",
+                "unicode_name": "feature information"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Information about features"
+                    }
+                ]
+            }
+        },
+        "6c696e67756973746963206665617475726573": {
+            "_surface": {
+                "text": "linguistic features",
+                "unicode_name": "linguistic features"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linguistic features"
+                    }
+                ]
+            }
+        },
+        "76616c69646174696f6e20696e74657276616c": {
+            "_surface": {
+                "text": "validation interval",
+                "unicode_name": "validation interval"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Interval for validation"
+                    }
+                ]
+            }
+        },
+        "446570742e206f66204c696e6775697374696373": {
+            "_surface": {
+                "text": "Dept. of Linguistics",
+                "unicode_name": "Dept. of Linguistics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "2"
+                    }
+                ]
+            }
+        },
+        "4631206576616c756174696f6e206d6574726963": {
+            "_surface": {
+                "text": "F1 evaluation metric",
+                "unicode_name": "F1 evaluation metric"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluation metric used in classifier probing"
+                    }
+                ]
+            }
+        },
+        "4769616d706963636f6c6f206574c2a0616c2e20": {
+            "_surface": {
+                "text": "Giampiccolo et al. ",
+                "unicode_name": "Giampiccolo et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Danilo Giampiccolo, Bernardo Magnini, Ido Dagan, and Bill Dolan"
+                    },
+                    {
+                        "affixes": [
+                            "(2007)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "76616e20536368696a6e64656c20657420616c2e": {
+            "_surface": {
+                "text": "van Schijndel et al.",
+                "unicode_name": "van Schijndel et al."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "van Schijndel et al. (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "5072756b7361636861746b756e20657420616c2e20": {
+            "_surface": {
+                "text": "Pruksachatkun et al. ",
+                "unicode_name": "Pruksachatkun et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Yada Pruksachatkun, Jason Phang, Haokun Liu, Phu Mon Htut, Xiaoyi Zhang, Richard Yuanzhe Pang, Clara Vania, Katharina Kann, Samuel R. Bowman"
+                    },
+                    {
+                        "affixes": [
+                            "(2020)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "62696e61727920636c617373696669636174696f6e": {
+            "_surface": {
+                "text": "binary classification",
+                "unicode_name": "binary classification"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classification task with two possible labels"
+                    }
+                ]
+            }
+        },
+        "646f776e73747265616d20636c6173736966696572": {
+            "_surface": {
+                "text": "downstream classifier",
+                "unicode_name": "downstream classifier"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classifier trained on representations"
+                    }
+                ]
+            }
+        },
+        "66656174757265206163636573736962696c697479": {
+            "_surface": {
+                "text": "feature accessibility",
+                "unicode_name": "feature accessibility"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Accessibility of features"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feature accessibility"
+                    }
+                ]
+            }
+        },
+        "4572696320616e642057656e6479205363686d696474": {
+            "_surface": {
+                "text": "Eric and Wendy Schmidt",
+                "unicode_name": "Eric and Wendy Schmidt"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Financial support"
+                    }
+                ]
+            }
+        },
+        "63617573616c2070726f62696e67206d6574686f6473": {
+            "_surface": {
+                "text": "causal probing methods",
+                "unicode_name": "causal probing methods"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Causal probing methods"
+                    }
+                ]
+            }
+        },
+        "6c6561726e696e6720726174652070617469656e6365": {
+            "_surface": {
+                "text": "learning rate patience",
+                "unicode_name": "learning rate patience"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Patience for learning rate"
+                    }
+                ]
+            }
+        },
+        "76616e20536368696a6e64656c206574c2a0616c2e20": {
+            "_surface": {
+                "text": "van Schijndel et al. ",
+                "unicode_name": "van Schijndel et al. "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Marten van Schijndel, Aaron Mueller, and Tal Linzen"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "43656e74657220666f72204461746120536369656e6365": {
+            "_surface": {
+                "text": "Center for Data Science",
+                "unicode_name": "Center for Data Science"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "3"
+                    }
+                ]
+            }
+        },
+        "6561726c792073746f7070696e672070617469656e6365": {
+            "_surface": {
+                "text": "early stopping patience",
+                "unicode_name": "early stopping patience"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Patience for early stopping"
+                    }
+                ]
+            }
+        },
+        "446576656c6f706d656e74616c2050737963686f6c6f6779": {
+            "_surface": {
+                "text": "Developmental Psychology",
+                "unicode_name": "Developmental Psychology"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "636c61737369666965722070726f62696e67206375727665": {
+            "_surface": {
+                "text": "classifier probing curve",
+                "unicode_name": "classifier probing curve"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Classifier probing curve"
+                    }
+                ]
+            }
+        },
+        "656467652d70726f62696e6720706572666f726d616e6365": {
+            "_surface": {
+                "text": "edge-probing performance",
+                "unicode_name": "edge-probing performance"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance on the edge-probing tasks"
+                    }
+                ]
+            }
+        },
+        "436f6d6d756e69636174696f6e73206f66207468652041434d": {
+            "_surface": {
+                "text": "Communications of the ACM",
+                "unicode_name": "Communications of the ACM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "446570742e206f6620436f6d707574657220536369656e6365": {
+            "_surface": {
+                "text": "Dept. of Computer Science",
+                "unicode_name": "Dept. of Computer Science"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "1"
+                    }
+                ]
+            }
+        },
+        "6172586976207072657072696e7420323030352e3134313635": {
+            "_surface": {
+                "text": "arXiv preprint 2005.14165",
+                "unicode_name": "arXiv preprint 2005.14165"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preprint"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint 2005.14165"
+                    }
+                ]
+            }
+        },
+        "6172586976207072657072696e7420323030362e3030393935": {
+            "_surface": {
+                "text": "arXiv preprint 2006.00995",
+                "unicode_name": "arXiv preprint 2006.00995"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preprint"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint 2006.00995"
+                    }
+                ]
+            }
+        },
+        "4c696e677569737469637320616e64205068696c6f736f706879": {
+            "_surface": {
+                "text": "Linguistics and Philosophy",
+                "unicode_name": "Linguistics and Philosophy"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linguistics and Philosophy"
+                    }
+                ]
+            }
+        },
+        "4e6174696f6e616c20536369656e636520466f756e646174696f6e": {
+            "_surface": {
+                "text": "National Science Foundation",
+                "unicode_name": "National Science Foundation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Funding organization"
+                    }
+                ]
+            }
+        },
+        "617474656e74696f6e20706f6f6c696e672066756e6374696f6e73": {
+            "_surface": {
+                "text": "attention pooling functions",
+                "unicode_name": "attention pooling functions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Functions used to pool attention"
+                    }
+                ]
+            }
+        },
+        "72616e646f6d6c7920696e697469616c697a6564206d6f64656c73": {
+            "_surface": {
+                "text": "randomly initialized models",
+                "unicode_name": "randomly initialized models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Models with randomly initialized parameters"
+                    }
+                ]
+            }
+        },
+        "5465787475616c20416e616c7973697320436f6e666572656e636520": {
+            "_surface": {
+                "text": "Textual Analysis Conference ",
+                "unicode_name": "Textual Analysis Conference "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(TAC)"
+                        ],
+                        "arity": 0,
+                        "description": "Conference"
+                    },
+                    {
+                        "affixes": [
+                            "(TAC)"
+                        ],
+                        "arity": 0,
+                        "description": "Textual Analysis Conference (TAC)"
+                    }
+                ]
+            }
+        },
+        "50696c656876617220616e642043616d6163686f2d436f6c6c61646f73": {
+            "_surface": {
+                "text": "Pilehvar and Camacho-Collados",
+                "unicode_name": "Pilehvar and Camacho-Collados"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pilehvar and Camacho-Collados (2019)"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "50737963686f6e6f6d69632062756c6c6574696e202620726576696577": {
+            "_surface": {
+                "text": "Psychonomic bulletin & review",
+                "unicode_name": "Psychonomic bulletin & review"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    }
+                ]
+            }
+        },
+        "50696c656876617220616e642043616d6163686f2d436f6c6c61646f7320": {
+            "_surface": {
+                "text": "Pilehvar and Camacho-Collados ",
+                "unicode_name": "Pilehvar and Camacho-Collados "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Mohammad Taher Pilehvar, Jose Camacho-Collados"
+                    },
+                    {
+                        "affixes": [
+                            "(2019)"
+                        ],
+                        "arity": 0,
+                        "description": "Authors"
+                    }
+                ]
+            }
+        },
+        "53656d616e7469637320696e2067656e65726174697665206772616d6d6172": {
+            "_surface": {
+                "text": "Semantics in generative grammar",
+                "unicode_name": "Semantics in generative grammar"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Book"
+                    }
+                ]
+            }
+        },
+        "6172586976207072657072696e742061725869763a323031302e3032343830": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:2010.02480",
+                "unicode_name": "arXiv preprint arXiv:2010.02480"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "arXiv preprint arXiv:2010.02480"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preprint"
+                    }
+                ]
+            }
+        },
+        "4f6e746f4e6f7465732072656c6561736520352e30204c444332303133543139": {
+            "_surface": {
+                "text": "OntoNotes release 5.0 LDC2013T19",
+                "unicode_name": "OntoNotes release 5.0 LDC2013T19"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linguistic Data Consortium"
+                    }
+                ]
+            }
+        },
+        "70726f63656564696e6773206f662053696e6e20756e6420426564657574756e67": {
+            "_surface": {
+                "text": "proceedings of Sinn und Bedeutung",
+                "unicode_name": "proceedings of Sinn und Bedeutung"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", volume 23"
+                        ],
+                        "arity": 0,
+                        "description": "proceedings of Sinn und Bedeutung, volume 23"
+                    },
+                    {
+                        "affixes": [
+                            ", volume 23"
+                        ],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    }
+                ]
+            }
+        },
+        "6d696e696d756d206465736372697074696f6e206c656e6774682070726f62696e67": {
+            "_surface": {
+                "text": "minimum description length probing",
+                "unicode_name": "minimum description length probing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Probing method to quantify probe complexity"
+                    }
+                ]
+            }
+        },
+        "72616e646f6d6c7920696e697469616c697a656420626173656c696e65206d6f64656c": {
+            "_surface": {
+                "text": "randomly initialized baseline model",
+                "unicode_name": "randomly initialized baseline model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Baseline model with random representations"
+                    }
+                ]
+            }
+        },
+        "4c616e6775616765206d6f64656c7320617265206665772d73686f74206c6561726e657273": {
+            "_surface": {
+                "text": "Language models are few-shot learners",
+                "unicode_name": "Language models are few-shot learners"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Language models are few-shot learners"
+                    }
+                ]
+            }
+        },
+        "4e595520486967682d506572666f726d616e636520436f6d707574696e672043656e746572": {
+            "_surface": {
+                "text": "NYU High-Performance Computing Center",
+                "unicode_name": "NYU High-Performance Computing Center"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "In-kind support"
+                    }
+                ]
+            }
+        },
+        "756e73757065727669736564206772616d6d61746963616c697479206a756467656d656e74": {
+            "_surface": {
+                "text": "unsupervised grammaticality judgement",
+                "unicode_name": "unsupervised grammaticality judgement"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task related to grammaticality judgement"
+                    }
+                ]
+            }
+        },
+        "4164616d3a2041206d6574686f6420666f722073746f63686173746963206f7074696d697a6174696f6e": {
+            "_surface": {
+                "text": "Adam: A method for stochastic optimization",
+                "unicode_name": "Adam: A method for stochastic optimization"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "53757065726c6174697665207175616e7469666965727320616e64206d6574612d7370656563682061637473": {
+            "_surface": {
+                "text": "Superlative quantifiers and meta-speech acts",
+                "unicode_name": "Superlative quantifiers and meta-speech acts"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Superlative quantifiers and meta-speech acts"
+                    }
+                ]
+            }
+        },
+        "416e616c79736973206d6574686f647320696e206e657572616c206c616e67756167652070726f63657373696e67": {
+            "_surface": {
+                "text": "Analysis methods in neural language processing",
+                "unicode_name": "Analysis methods in neural language processing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Analysis methods in neural language processing: A survey"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Survey"
+                    }
+                ]
+            }
+        },
+        "47656e657261746564206f6e205475652044656320382032333a31303a35372032303230206279204c615465584d4c": {
+            "_surface": {
+                "text": "Generated on Tue Dec 8 23:10:57 2020 by LaTeXML",
+                "unicode_name": "Generated on Tue Dec 8 23:10:57 2020 by LaTeXML"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Generated information"
+                    }
+                ]
+            }
+        },
+        "50617265746f2070726f62696e673a2054726164696e67206f666620616363757261637920666f7220636f6d706c6578697479": {
+            "_surface": {
+                "text": "Pareto probing: Trading off accuracy for complexity",
+                "unicode_name": "Pareto probing: Trading off accuracy for complexity"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Preprint"
+                    }
+                ]
+            }
+        },
+        "44657369676e696e6720616e6420696e74657270726574696e672070726f626573207769746820636f6e74726f6c207461736b73": {
+            "_surface": {
+                "text": "Designing and interpreting probes with control tasks",
+                "unicode_name": "Designing and interpreting probes with control tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "496e666f726d6174696f6e2d7468656f72657469632070726f62696e6720666f72206c696e6775697374696320737472756374757265": {
+            "_surface": {
+                "text": "Information-theoretic probing for linguistic structure",
+                "unicode_name": "Information-theoretic probing for linguistic structure"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Online"
+                    }
+                ]
+            }
+        },
+        "3333726420436f6e666572656e6365206f6e204e657572616c20496e666f726d6174696f6e2050726f63657373696e672053797374656d73": {
+            "_surface": {
+                "text": "33rd Conference on Neural Information Processing Systems",
+                "unicode_name": "33rd Conference on Neural Information Processing Systems"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference"
+                    }
+                ]
+            }
+        },
+        "507265747261696e6564206c616e6775616765206d6f64656c20656d6272796f6c6f67793a20546865206269727468206f6620414c42455254": {
+            "_surface": {
+                "text": "Pretrained language model embryology: The birth of ALBERT",
+                "unicode_name": "Pretrained language model embryology: The birth of ALBERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pretrained language model embryology: The birth of ALBERT"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "5468652074686972642050415343414c207265636f676e697a696e67207465787475616c20656e7461696c6d656e74206368616c6c656e6765": {
+            "_surface": {
+                "text": "The third PASCAL recognizing textual entailment challenge",
+                "unicode_name": "The third PASCAL recognizing textual entailment challenge"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "426c696d703a205468652062656e63686d61726b206f66206c696e67756973746963206d696e696d616c20706169727320666f7220656e676c697368": {
+            "_surface": {
+                "text": "Blimp: The benchmark of linguistic minimal pairs for english",
+                "unicode_name": "Blimp: The benchmark of linguistic minimal pairs for english"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transactions of the Association for Computational Linguistics"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "8:377–392"
+                    }
+                ]
+            }
+        },
+        "41207374727563747572616c2070726f626520666f722066696e64696e672073796e74617820696e20776f726420726570726573656e746174696f6e73": {
+            "_surface": {
+                "text": "A structural probe for finding syntax in word representations",
+                "unicode_name": "A structural probe for finding syntax in word representations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "5472616e73616374696f6e73206f6620746865204173736f63696174696f6e20666f7220436f6d7075746174696f6e616c204c696e6775697374696373": {
+            "_surface": {
+                "text": "Transactions of the Association for Computational Linguistics",
+                "unicode_name": "Transactions of the Association for Computational Linguistics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transactions of the Association for Computational Linguistics"
+                    }
+                ]
+            }
+        },
+        "436f6e666572656e6365206f6e20456d7069726963616c204d6574686f647320696e204e61747572616c204c616e67756167652050726f63657373696e67": {
+            "_surface": {
+                "text": "Conference on Empirical Methods in Natural Language Processing",
+                "unicode_name": "Conference on Empirical Methods in Natural Language Processing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference"
+                    }
+                ]
+            }
+        },
+        "4d616368696e65204c6561726e696e67204368616c6c656e6765732e204576616c756174696e67205072656469637469766520556e6365727461696e7479": {
+            "_surface": {
+                "text": "Machine Learning Challenges. Evaluating Predictive Uncertainty",
+                "unicode_name": "Machine Learning Challenges. Evaluating Predictive Uncertainty"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Visual Object Classification, and Recognising Textual Entailment"
+                        ],
+                        "arity": 0,
+                        "description": "Book"
+                    },
+                    {
+                        "affixes": [
+                            ", Visual Object Classification, and Recognising Textual Entailment"
+                        ],
+                        "arity": 0,
+                        "description": "Machine Learning Challenges. Evaluating Predictive Uncertainty, Visual Object Classification, and Recognising Textual Entailment"
+                    }
+                ]
+            }
+        },
+        "54686520706f776572206c61772072657065616c65643a20546865206361736520666f7220616e206578706f6e656e7469616c206c6177206f66207072616374696365": {
+            "_surface": {
+                "text": "The power law repealed: The case for an exponential law of practice",
+                "unicode_name": "The power law repealed: The case for an exponential law of practice"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "3230323020436f6e666572656e6365206f6e20456d7069726963616c204d6574686f647320696e204e61747572616c204c616e67756167652050726f63657373696e6720": {
+            "_surface": {
+                "text": "2020 Conference on Empirical Methods in Natural Language Processing ",
+                "unicode_name": "2020 Conference on Empirical Methods in Natural Language Processing "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(EMNLP)"
+                        ],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [
+                            "(EMNLP)"
+                        ],
+                        "arity": 0,
+                        "description": "Online"
+                    }
+                ]
+            }
+        },
+        "3538746820416e6e75616c204d656574696e67206f6620746865204173736f63696174696f6e20666f7220436f6d7075746174696f6e616c204c696e6775697374696373": {
+            "_surface": {
+                "text": "58th Annual Meeting of the Association for Computational Linguistics",
+                "unicode_name": "58th Annual Meeting of the Association for Computational Linguistics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Online"
+                    }
+                ]
+            }
+        },
+        "426f6f6c713a204578706c6f72696e67207468652073757270726973696e6720646966666963756c7479206f66206e61747572616c207965732f6e6f207175657374696f6e73": {
+            "_surface": {
+                "text": "Boolq: Exploring the surprising difficulty of natural yes/no questions",
+                "unicode_name": "Boolq: Exploring the surprising difficulty of natural yes/no questions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Boolq: Exploring the surprising difficulty of natural yes/no questions"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "5265736f6c76696e6720636f6d706c6578206361736573206f6620646566696e6974652070726f6e6f756e733a205468652057696e6f6772616420736368656d61206368616c6c656e6765": {
+            "_surface": {
+                "text": "Resolving complex cases of definite pronouns: The Winograd schema challenge",
+                "unicode_name": "Resolving complex cases of definite pronouns: The Winograd schema challenge"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Jeju Island, Korea"
+                    }
+                ]
+            }
+        },
+        "412073797374656d61746963206173736573736d656e74206f662073796e7461637469632067656e6572616c697a6174696f6e20696e206e657572616c206c616e6775616765206d6f64656c73": {
+            "_surface": {
+                "text": "A systematic assessment of syntactic generalization in neural language models",
+                "unicode_name": "A systematic assessment of syntactic generalization in neural language models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "54686520636f6d6d69746d656e7462616e6b3a20496e7665737469676174696e672070726f6a656374696f6e20696e206e61747572616c6c79206f6363757272696e6720646973636f75727365": {
+            "_surface": {
+                "text": "The commitmentbank: Investigating projection in naturally occurring discourse",
+                "unicode_name": "The commitmentbank: Investigating projection in naturally occurring discourse"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The commitmentbank: Investigating projection in naturally occurring discourse"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "43686f696365206f6620706c61757369626c6520616c7465726e6174697665733a20416e206576616c756174696f6e206f6620636f6d6d6f6e73656e73652063617573616c20726561736f6e696e67": {
+            "_surface": {
+                "text": "Choice of plausible alternatives: An evaluation of commonsense causal reasoning",
+                "unicode_name": "Choice of plausible alternatives: An evaluation of commonsense causal reasoning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "2011 AAAI Spring Symposium Series"
+                    }
+                ]
+            }
+        },
+        "424552543a205072652d747261696e696e67206f662064656570206269646972656374696f6e616c207472616e73666f726d65727320666f72206c616e677561676520756e6465727374616e64696e67": {
+            "_surface": {
+                "text": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+                "unicode_name": "BERT: Pre-training of deep bidirectional transformers for language understanding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "BERT: Pre-training of deep bidirectional transformers for language understanding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "496e2050726f63656564696e6773206f66207468652041434c2d50415343414c20576f726b73686f70206f6e205465787475616c20456e7461696c6d656e7420616e6420506172617068726173696e67": {
+            "_surface": {
+                "text": "In Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing",
+                "unicode_name": "In Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    }
+                ]
+            }
+        },
+        "4578706c6f72696e6720746865206c696d697473206f66207472616e73666572206c6561726e696e672077697468206120756e696669656420746578742d746f2d74657874207472616e73666f726d6572": {
+            "_surface": {
+                "text": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+                "unicode_name": "Exploring the limits of transfer learning with a unified text-to-text transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Journal of Machine Learning Research"
+                    }
+                ]
+            }
+        },
+        "50726f63656564696e6773206f66207468652031737420576f726b73686f70206f6e204576616c756174696e6720566563746f722d537061636520526570726573656e746174696f6e7320666f72204e4c50": {
+            "_surface": {
+                "text": "Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for NLP",
+                "unicode_name": "Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for NLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    }
+                ]
+            }
+        },
+        "50726f62696e6720666f722073656d616e7469632065766964656e6365206f6620636f6d706f736974696f6e206279206d65616e73206f662073696d706c6520636c617373696669636174696f6e207461736b73": {
+            "_surface": {
+                "text": "Probing for semantic evidence of composition by means of simple classification tasks",
+                "unicode_name": "Probing for semantic evidence of composition by means of simple classification tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "50726f63656564696e6773206f6620746865203538746820416e6e75616c204d656574696e67206f6620746865204173736f63696174696f6e20666f7220436f6d7075746174696f6e616c204c696e6775697374696373": {
+            "_surface": {
+                "text": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+                "unicode_name": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    }
+                ]
+            }
+        },
+        "496e666572656e63652069732065766572797468696e673a20526563617374696e672073656d616e746963207265736f757263657320696e746f206120756e6966696564206576616c756174696f6e206672616d65776f726b": {
+            "_surface": {
+                "text": "Inference is everything: Recasting semantic resources into a unified evaluation framework",
+                "unicode_name": "Inference is everything: Recasting semantic resources into a unified evaluation framework"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)"
+                    }
+                ]
+            }
+        },
+        "5769433a2054686520776f72642d696e2d636f6e74657874206461746173657420666f72206576616c756174696e6720636f6e746578742d73656e736974697665206d65616e696e6720726570726573656e746174696f6e73": {
+            "_surface": {
+                "text": "WiC: The word-in-context dataset for evaluating context-sensitive meaning representations",
+                "unicode_name": "WiC: The word-in-context dataset for evaluating context-sensitive meaning representations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "NAACL-HLT"
+                    }
+                ]
+            }
+        },
+        "5768656e204245525420666f726765747320686f7720746f20504f533a20416d6e657369632070726f62696e67206f66206c696e677569737469632070726f7065727469657320616e64204d4c4d2070726564696374696f6e73": {
+            "_surface": {
+                "text": "When BERT forgets how to POS: Amnesic probing of linguistic properties and MLM predictions",
+                "unicode_name": "When BERT forgets how to POS: Amnesic probing of linguistic properties and MLM predictions"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "When BERT forgets how to POS: Amnesic probing of linguistic properties and MLM predictions"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "4c6561726e696e67207768696368206665617475726573206d61747465723a20526f6265727461206163717569726573206120707265666572656e636520666f72206c696e677569737469632067656e6572616c697a6174696f6e7320": {
+            "_surface": {
+                "text": "Learning which features matter: Roberta acquires a preference for linguistic generalizations ",
+                "unicode_name": "Learning which features matter: Roberta acquires a preference for linguistic generalizations "
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(eventually)"
+                        ],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [
+                            "(eventually)"
+                        ],
+                        "arity": 0,
+                        "description": "2020 Conference on Empirical Methods in Natural Language Processing, Punta Cana, Dominican Republic"
+                    }
+                ]
+            }
+        },
+        "53656d4576616c2d32303130207461736b20383a204d756c74692d77617920636c617373696669636174696f6e206f662073656d616e7469632072656c6174696f6e73206265747765656e207061697273206f66206e6f6d696e616c73": {
+            "_surface": {
+                "text": "SemEval-2010 task 8: Multi-way classification of semantic relations between pairs of nominals",
+                "unicode_name": "SemEval-2010 task 8: Multi-way classification of semantic relations between pairs of nominals"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    }
+                ]
+            }
+        },
+        "496e7465726d6564696174652d7461736b207472616e73666572206c6561726e696e67207769746820707265747261696e6564206c616e6775616765206d6f64656c733a205768656e20616e642077687920646f657320697420776f726b3f": {
+            "_surface": {
+                "text": "Intermediate-task transfer learning with pretrained language models: When and why does it work?",
+                "unicode_name": "Intermediate-task transfer learning with pretrained language models: When and why does it work?"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Online"
+                    }
+                ]
+            }
+        },
+        "416d65726963616e20706172656e74696e67206f66206c616e67756167652d6c6561726e696e67206368696c6472656e3a2050657273697374696e6720646966666572656e63657320696e2066616d696c792d6368696c6420696e746572616374696f6e73206f6273657276656420696e206e61747572616c20686f6d6520656e7669726f6e6d656e7473": {
+            "_surface": {
+                "text": "American parenting of language-learning children: Persisting differences in family-child interactions observed in natural home environments",
+                "unicode_name": "American parenting of language-learning children: Persisting differences in family-child interactions observed in natural home environments"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Article"
+                    }
+                ]
+            }
+        },
+        "50726f63656564696e6773206f6620746865203230313920436f6e666572656e6365206f6620746865204e6f72746820416d65726963616e2043686170746572206f6620746865204173736f63696174696f6e20666f7220436f6d7075746174696f6e616c204c696e67756973746963733a2048756d616e204c616e677561676520546563686e6f6c6f67696573": {
+            "_surface": {
+                "text": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+                "unicode_name": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Volume 1 (Long and Short Papers)"
+                        ],
+                        "arity": 0,
+                        "description": "Conference Proceedings"
+                    },
+                    {
+                        "affixes": [
+                            ", Volume 1 (Long and Short Papers)"
+                        ],
+                        "arity": 0,
+                        "description": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)"
+                    }
+                ]
+            }
+        }
+    }
+}

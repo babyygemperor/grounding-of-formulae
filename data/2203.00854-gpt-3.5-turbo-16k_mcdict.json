@@ -1,0 +1,5135 @@
+{
+    "_author": "gpt-3.5-turbo-16k",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "": {
+            "_surface": {
+                "text": "",
+                "unicode_name": ""
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "__shfl_xor_sync"
+                        ],
+                        "arity": 0,
+                        "description": "Warp-level primitive used to implement WarpAllReduce"
+                    }
+                ]
+            }
+        },
+        "41": {
+            "_surface": {
+                "text": "A",
+                "unicode_name": "LATIN CAPITAL LETTER A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight matrix"
+                    }
+                ]
+            }
+        },
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "45": {
+            "_surface": {
+                "text": "E",
+                "unicode_name": "LATIN CAPITAL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expectation operator"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "48": {
+            "_surface": {
+                "text": "H",
+                "unicode_name": "LATIN CAPITAL LETTER H"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_m"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden dim for MSA representation"
+                    },
+                    {
+                        "affixes": [
+                            "_z"
+                        ],
+                        "arity": 0,
+                        "description": "Hidden dim for pair representation"
+                    }
+                ]
+            }
+        },
+        "4a": {
+            "_surface": {
+                "text": "J",
+                "unicode_name": "LATIN CAPITAL LETTER J"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d": {
+            "_surface": {
+                "text": "M",
+                "unicode_name": "LATIN CAPITAL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Running mean"
+                    }
+                ]
+            }
+        },
+        "4e": {
+            "_surface": {
+                "text": "N",
+                "unicode_name": "LATIN CAPITAL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of residues in the input"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of devices"
+                    },
+                    {
+                        "affixes": [
+                            "_s"
+                        ],
+                        "arity": 0,
+                        "description": "Number of sequences processed in the MSA stack"
+                    }
+                ]
+            }
+        },
+        "54": {
+            "_surface": {
+                "text": "T",
+                "unicode_name": "LATIN CAPITAL LETTER T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "56": {
+            "_surface": {
+                "text": "V",
+                "unicode_name": "LATIN CAPITAL LETTER V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evaluations"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input vectors"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input data"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output vectors"
+                    }
+                ]
+            }
+        },
+        "65": {
+            "_surface": {
+                "text": "e",
+                "unicode_name": "LATIN SMALL LETTER E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Exponential value"
+                    }
+                ]
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of samples"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index variable"
+                    }
+                ]
+            }
+        },
+        "72": {
+            "_surface": {
+                "text": "r",
+                "unicode_name": "LATIN SMALL LETTER R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of residues in the input"
+                    }
+                ]
+            }
+        },
+        "73": {
+            "_surface": {
+                "text": "s",
+                "unicode_name": "LATIN SMALL LETTER S"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input data"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output data"
+                    }
+                ]
+            }
+        },
+        "7a": {
+            "_surface": {
+                "text": "z",
+                "unicode_name": "LATIN SMALL LETTER Z"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "314b": {
+            "_surface": {
+                "text": "1K",
+                "unicode_name": "1K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Amino acid sequences of length 1K"
+                    }
+                ]
+            }
+        },
+        "3331": {
+            "_surface": {
+                "text": "31",
+                "unicode_name": "31"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4356": {
+            "_surface": {
+                "text": "CV",
+                "unicode_name": "CV"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Computer Vision"
+                    }
+                ]
+            }
+        },
+        "486f": {
+            "_surface": {
+                "text": "Ho",
+                "unicode_name": "Ho"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4949": {
+            "_surface": {
+                "text": "II",
+                "unicode_name": "II"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Background"
+                    }
+                ]
+            }
+        },
+        "ceb2": {
+            "_surface": {
+                "text": "β",
+                "unicode_name": "GREEK SMALL LETTER BETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element-wise bias parameter"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Element-wise scale parameter"
+                    }
+                ]
+            }
+        },
+        "cf83": {
+            "_surface": {
+                "text": "σ",
+                "unicode_name": "GREEK SMALL LETTER SIGMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variance"
+                    }
+                ]
+            }
+        },
+        "cfb5": {
+            "_surface": {
+                "text": "ϵ",
+                "unicode_name": "GREEK LUNATE EPSILON SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Small constant for numerical stability"
+                    }
+                ]
+            }
+        },
+        "416c6c": {
+            "_surface": {
+                "text": "All",
+                "unicode_name": "All"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_to_All"
+                        ],
+                        "arity": 0,
+                        "description": "Communication operation"
+                    }
+                ]
+            }
+        },
+        "434e4e": {
+            "_surface": {
+                "text": "CNN",
+                "unicode_name": "CNN"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Convolutional Neural Networks"
+                    }
+                ]
+            }
+        },
+        "444150": {
+            "_surface": {
+                "text": "DAP",
+                "unicode_name": "DAP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Abbreviation for Dynamic Axial Parallelism"
+                    }
+                ]
+            }
+        },
+        "475054": {
+            "_surface": {
+                "text": "GPT",
+                "unicode_name": "GPT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model structure used in NLP/CV field"
+                    }
+                ]
+            }
+        },
+        "475055": {
+            "_surface": {
+                "text": "GPU",
+                "unicode_name": "GPU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graphics processing unit"
+                    }
+                ]
+            }
+        },
+        "494949": {
+            "_surface": {
+                "text": "III",
+                "unicode_name": "III"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "In-depth Analysis of Evoformer"
+                    }
+                ]
+            }
+        },
+        "4a4158": {
+            "_surface": {
+                "text": "JAX",
+                "unicode_name": "JAX"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework used by AlphaFold for inference"
+                    }
+                ]
+            }
+        },
+        "4a4954": {
+            "_surface": {
+                "text": "JIT",
+                "unicode_name": "JIT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Just-In-Time compilation"
+                    }
+                ]
+            }
+        },
+        "4d4b4c": {
+            "_surface": {
+                "text": "MKL",
+                "unicode_name": "MKL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Math Kernel Library"
+                    }
+                ]
+            }
+        },
+        "4e4c50": {
+            "_surface": {
+                "text": "NLP",
+                "unicode_name": "NLP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Natural Language Processing"
+                    }
+                ]
+            }
+        },
+        "4e5553": {
+            "_surface": {
+                "text": "NUS",
+                "unicode_name": "NUS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "National University of Singapore"
+                    }
+                ]
+            }
+        },
+        "514b56": {
+            "_surface": {
+                "text": "QKV",
+                "unicode_name": "QKV"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Linear layer in Multi-head Attention"
+                    }
+                ]
+            }
+        },
+        "53756e": {
+            "_surface": {
+                "text": "Sun",
+                "unicode_name": "Sun"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "562d41": {
+            "_surface": {
+                "text": "V-A",
+                "unicode_name": "V-A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Evoformer Performance"
+                    }
+                ]
+            }
+        },
+        "566172": {
+            "_surface": {
+                "text": "Var"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Variance operator"
+                    }
+                ]
+            }
+        },
+        "566954": {
+            "_surface": {
+                "text": "ViT",
+                "unicode_name": "ViT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model structure used in NLP/CV field"
+                    }
+                ]
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum value"
+                    }
+                ]
+            }
+        },
+        "78c2af": {
+            "_surface": {
+                "text": "x¯",
+                "unicode_name": "x¯"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean of input data"
+                    }
+                ]
+            }
+        },
+        "e28891": {
+            "_surface": {
+                "text": "∑",
+                "unicode_name": "N-ARY SUMMATION"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summation operator"
+                    }
+                ]
+            }
+        },
+        "322e354b": {
+            "_surface": {
+                "text": "2.5K",
+                "unicode_name": "2.5K"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Amino acid sequences of length 2.5K"
+                    }
+                ]
+            }
+        },
+        "32303138": {
+            "_surface": {
+                "text": "2018",
+                "unicode_name": "2018"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303139": {
+            "_surface": {
+                "text": "2019",
+                "unicode_name": "2019"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303230": {
+            "_surface": {
+                "text": "2020",
+                "unicode_name": "2020"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303231": {
+            "_surface": {
+                "text": "2021",
+                "unicode_name": "2021"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "32303232": {
+            "_surface": {
+                "text": "2022",
+                "unicode_name": "2022"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "41706578": {
+            "_surface": {
+                "text": "Apex",
+                "unicode_name": "Apex"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "42455254": {
+            "_surface": {
+                "text": "BERT",
+                "unicode_name": "BERT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model structure used in NLP/CV field"
+                    }
+                ]
+            }
+        },
+        "424c4153": {
+            "_surface": {
+                "text": "BLAS",
+                "unicode_name": "BLAS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Basic Linear Algebra Subprograms"
+                    }
+                ]
+            }
+        },
+        "43415350": {
+            "_surface": {
+                "text": "CASP",
+                "unicode_name": "CASP"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Critical Assessment of Protein Structure Prediction Challenge"
+                    }
+                ]
+            }
+        },
+        "47454d4d": {
+            "_surface": {
+                "text": "GEMM",
+                "unicode_name": "GEMM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "General Matrix Multiplication"
+                    }
+                ]
+            }
+        },
+        "49454545": {
+            "_surface": {
+                "text": "IEEE",
+                "unicode_name": "IEEE"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "49492d41": {
+            "_surface": {
+                "text": "II-A",
+                "unicode_name": "II-A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Overview of AlphaFold"
+                    }
+                ]
+            }
+        },
+        "49562d43": {
+            "_surface": {
+                "text": "IV-C",
+                "unicode_name": "IV-C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section discussing communication optimization"
+                    }
+                ]
+            }
+        },
+        "4c414d42": {
+            "_surface": {
+                "text": "LAMB",
+                "unicode_name": "LAMB"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Strategy for large batch training"
+                    }
+                ]
+            }
+        },
+        "4c415253": {
+            "_surface": {
+                "text": "LARS",
+                "unicode_name": "LARS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Strategy for large batch training"
+                    }
+                ]
+            }
+        },
+        "4d65616e": {
+            "_surface": {
+                "text": "Mean"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68656164": {
+            "_surface": {
+                "text": "head"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "31e2809339": {
+            "_surface": {
+                "text": "1–9",
+                "unicode_name": "1–9"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "41726e6162": {
+            "_surface": {
+                "text": "Arnab",
+                "unicode_name": "Arnab"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "482e204d61": {
+            "_surface": {
+                "text": "H. Ma",
+                "unicode_name": "H. Ma"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4949492d41": {
+            "_surface": {
+                "text": "III-A",
+                "unicode_name": "III-A"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Differences between Evoformer and Transformer"
+                    }
+                ]
+            }
+        },
+        "4a2e204c69": {
+            "_surface": {
+                "text": "J. Li",
+                "unicode_name": "J. Li"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c2e204c69": {
+            "_surface": {
+                "text": "L. Li",
+                "unicode_name": "L. Li"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "582e205375": {
+            "_surface": {
+                "text": "X. Su",
+                "unicode_name": "X. Su"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "592e204865": {
+            "_surface": {
+                "text": "Y. He",
+                "unicode_name": "Y. He"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4669672e2031": {
+            "_surface": {
+                "text": "Fig. 1",
+                "unicode_name": "Fig. 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The Architecture of AlphaFold Model"
+                    }
+                ]
+            }
+        },
+        "4669672e2032": {
+            "_surface": {
+                "text": "Fig. 2",
+                "unicode_name": "Fig. 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Two mainstream approaches for Model Parallelism"
+                    }
+                ]
+            }
+        },
+        "4669672e2033": {
+            "_surface": {
+                "text": "Fig. 3",
+                "unicode_name": "Fig. 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diagram showing Attention of Evoformer"
+                    }
+                ]
+            }
+        },
+        "4669672e2038": {
+            "_surface": {
+                "text": "Fig. 8",
+                "unicode_name": "Fig. 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure showing Fused Softmax performance on NVIDIA Tesla A100"
+                    }
+                ]
+            }
+        },
+        "4669672e2039": {
+            "_surface": {
+                "text": "Fig. 9",
+                "unicode_name": "Fig. 9"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "LayerNorm Performance on NVIDIA Telsa A100"
+                    }
+                ]
+            }
+        },
+        "4a2e204c696e": {
+            "_surface": {
+                "text": "J. Lin",
+                "unicode_name": "J. Lin"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a2e204c6975": {
+            "_surface": {
+                "text": "J. Liu",
+                "unicode_name": "J. Liu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d2e2057656e": {
+            "_surface": {
+                "text": "M. Wen",
+                "unicode_name": "M. Wen"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4e6174757265": {
+            "_surface": {
+                "text": "Nature",
+                "unicode_name": "Nature"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", vol. 596, no. 7873"
+                        ],
+                        "arity": 0,
+                        "description": "Highly accurate protein structure prediction with alphafold"
+                    }
+                ]
+            }
+        },
+        "522e2052616f": {
+            "_surface": {
+                "text": "R. Rao",
+                "unicode_name": "R. Rao"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "532e205a756f": {
+            "_surface": {
+                "text": "S. Zuo",
+                "unicode_name": "S. Zuo"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5363686d6964": {
+            "_surface": {
+                "text": "Schmid",
+                "unicode_name": "Schmid"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "592e20576569": {
+            "_surface": {
+                "text": "Y. Wei",
+                "unicode_name": "Y. Wei"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "592e20596f75": {
+            "_surface": {
+                "text": "Y. You",
+                "unicode_name": "Y. You"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6375424c4153": {
+            "_surface": {
+                "text": "cuBLAS",
+                "unicode_name": "cuBLAS"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "NVIDIA CUDA implementation of BLAS"
+                    }
+                ]
+            }
+        },
+        "73697a656f66": {
+            "_surface": {
+                "text": "sizeof"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "31312032303231": {
+            "_surface": {
+                "text": "11 2021",
+                "unicode_name": "11 2021"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "31312064617973": {
+            "_surface": {
+                "text": "11 days",
+                "unicode_name": "11 days"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Duration of complete training time of AlphaFold"
+                    }
+                ]
+            }
+        },
+        "3233e280933234": {
+            "_surface": {
+                "text": "23–24",
+                "unicode_name": "23–24"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "412e2047616e65": {
+            "_surface": {
+                "text": "A. Gane",
+                "unicode_name": "A. Gane"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "482e2046616e67": {
+            "_surface": {
+                "text": "H. Fang",
+                "unicode_name": "H. Fang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "486569676f6c64": {
+            "_surface": {
+                "text": "Heigold",
+                "unicode_name": "Heigold"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "48656c69786f6e": {
+            "_surface": {
+                "text": "Helixon",
+                "unicode_name": "Helixon"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Organization"
+                    }
+                ]
+            }
+        },
+        "4a2e2048736575": {
+            "_surface": {
+                "text": "J. Hseu",
+                "unicode_name": "J. Hseu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a2e2057616e67": {
+            "_surface": {
+                "text": "J. Wang",
+                "unicode_name": "J. Wang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c2e20486f6e67": {
+            "_surface": {
+                "text": "L. Hong",
+                "unicode_name": "L. Hong"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c75c48d69c487": {
+            "_surface": {
+                "text": "Lučić",
+                "unicode_name": "Lučić"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d2e204261656b": {
+            "_surface": {
+                "text": "M. Baek",
+                "unicode_name": "M. Baek"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d2e2057616e67": {
+            "_surface": {
+                "text": "M. Wang",
+                "unicode_name": "M. Wang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5079546f726368": {
+            "_surface": {
+                "text": "PyTorch",
+                "unicode_name": "PyTorch"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deep learning framework"
+                    }
+                ]
+            }
+        },
+        "512e20436f6e67": {
+            "_surface": {
+                "text": "Q. Cong",
+                "unicode_name": "Q. Cong"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "532e2057616e67": {
+            "_surface": {
+                "text": "S. Wang",
+                "unicode_name": "S. Wang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "536f66746d6178": {
+            "_surface": {
+                "text": "Softmax",
+                "unicode_name": "Softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function used for normalization"
+                    }
+                ]
+            }
+        },
+        "5461626c652033": {
+            "_surface": {
+                "text": "Table 3",
+                "unicode_name": "Table 3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table showing Out of Memory (OOM) occurrence for AlphaFold and OpenFold"
+                    }
+                ]
+            }
+        },
+        "5461626c652049": {
+            "_surface": {
+                "text": "Table I",
+                "unicode_name": "Table I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Details of AlphaFold model training"
+                    }
+                ]
+            }
+        },
+        "5461626c652056": {
+            "_surface": {
+                "text": "Table V",
+                "unicode_name": "Table V"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table showing inference latency for extremely long sequences"
+                    }
+                ]
+            }
+        },
+        "582e205169616e": {
+            "_surface": {
+                "text": "X. Qian",
+                "unicode_name": "X. Qian"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "582e20536f6e67": {
+            "_surface": {
+                "text": "X. Song",
+                "unicode_name": "X. Song"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "582e2057616e67": {
+            "_surface": {
+                "text": "X. Wang",
+                "unicode_name": "X. Wang"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "62696f52786976": {
+            "_surface": {
+                "text": "bioRxiv",
+                "unicode_name": "bioRxiv"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "64726f706f7574": {
+            "_surface": {
+                "text": "dropout",
+                "unicode_name": "dropout"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator in Element-wise Operators category"
+                    }
+                ]
+            }
+        },
+        "6d696e75746573": {
+            "_surface": {
+                "text": "minutes",
+                "unicode_name": "minutes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Unit of time"
+                    }
+                ]
+            }
+        },
+        "7363616c696e67": {
+            "_surface": {
+                "text": "scaling",
+                "unicode_name": "scaling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Multiplication operation"
+                    }
+                ]
+            }
+        },
+        "736f66746d6178": {
+            "_surface": {
+                "text": "softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function used for normalization"
+                    }
+                ]
+            }
+        },
+        "766f6c2e203330": {
+            "_surface": {
+                "text": "vol. 30",
+                "unicode_name": "vol. 30"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Volume 30"
+                    }
+                ]
+            }
+        },
+        "766f6c2e203333": {
+            "_surface": {
+                "text": "vol. 33",
+                "unicode_name": "vol. 33"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Volume 33"
+                    }
+                ]
+            }
+        },
+        "412e205269766573": {
+            "_surface": {
+                "text": "A. Rives",
+                "unicode_name": "A. Rives"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4162737472616374": {
+            "_surface": {
+                "text": "Abstract",
+                "unicode_name": "Abstract"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Summary of the paper"
+                    }
+                ]
+            }
+        },
+        "422e205a2e204c69": {
+            "_surface": {
+                "text": "B. Z. Li",
+                "unicode_name": "B. Z. Li"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "422e205a686f6e67": {
+            "_surface": {
+                "text": "B. Zhong",
+                "unicode_name": "B. Zhong"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "42466c6f61743136": {
+            "_surface": {
+                "text": "BFloat16"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "42666c6f61743136": {
+            "_surface": {
+                "text": "Bfloat16",
+                "unicode_name": "Bfloat16"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Precision used in AlphaFold training"
+                    }
+                ]
+            }
+        },
+        "432e204c65617279": {
+            "_surface": {
+                "text": "C. Leary",
+                "unicode_name": "C. Leary"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "442e20446f68616e": {
+            "_surface": {
+                "text": "D. Dohan",
+                "unicode_name": "D. Dohan"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4465686768616e69": {
+            "_surface": {
+                "text": "Dehghani",
+                "unicode_name": "Dehghani"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "46617374466f6c64": {
+            "_surface": {
+                "text": "FastFold",
+                "unicode_name": "FastFold"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Highly efficient implementation of protein structure prediction model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inference performance"
+                    }
+                ]
+            }
+        },
+        "4669677572652031": {
+            "_surface": {
+                "text": "Figure 1",
+                "unicode_name": "Figure 1"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "The Architecture of AlphaFold Model"
+                    }
+                ]
+            }
+        },
+        "4669677572652034": {
+            "_surface": {
+                "text": "Figure 4",
+                "unicode_name": "Figure 4"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diagram showing Triangular Updates Module in Evoformer"
+                    }
+                ]
+            }
+        },
+        "4669677572652035": {
+            "_surface": {
+                "text": "Figure 5",
+                "unicode_name": "Figure 5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diagram showing implementation of Softmax Kernel in FastFold"
+                    }
+                ]
+            }
+        },
+        "4669677572652038": {
+            "_surface": {
+                "text": "Figure 8",
+                "unicode_name": "Figure 8"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(a)"
+                        ],
+                        "arity": 0,
+                        "description": "Performance comparisons of Fused Softmax"
+                    }
+                ]
+            }
+        },
+        "4669677572652039": {
+            "_surface": {
+                "text": "Figure 9",
+                "unicode_name": "Figure 9"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "(a)"
+                        ],
+                        "arity": 0,
+                        "description": "Performance comparisons of LayerNorm"
+                    }
+                ]
+            }
+        },
+        "4a2e204461766973": {
+            "_surface": {
+                "text": "J. Davis",
+                "unicode_name": "J. Davis"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a2e204d65696572": {
+            "_surface": {
+                "text": "J. Meier",
+                "unicode_name": "J. Meier"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c69676874536571": {
+            "_surface": {
+                "text": "LightSeq",
+                "unicode_name": "LightSeq"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimization technique for the Transformer model"
+                    }
+                ]
+            }
+        },
+        "4f70656e466f6c64": {
+            "_surface": {
+                "text": "OpenFold",
+                "unicode_name": "OpenFold"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Protein structure prediction model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inference performance"
+                    }
+                ]
+            }
+        },
+        "50617261466f6c64": {
+            "_surface": {
+                "text": "ParaFold",
+                "unicode_name": "ParaFold"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimized system for AlphaFold inference on heterogeneous platforms"
+                    }
+                ]
+            }
+        },
+        "506572666f726d65": {
+            "_surface": {
+                "text": "Performe",
+                "unicode_name": "Performe"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for reducing the complexity of attention computation"
+                    }
+                ]
+            }
+        },
+        "5265666f726d6572": {
+            "_surface": {
+                "text": "Reformer",
+                "unicode_name": "Reformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for reducing the complexity of attention computation"
+                    }
+                ]
+            }
+        },
+        "532e204b756d6172": {
+            "_surface": {
+                "text": "S. Kumar",
+                "unicode_name": "S. Kumar"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "532e205265646469": {
+            "_surface": {
+                "text": "S. Reddi",
+                "unicode_name": "S. Reddi"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "53616c696d616e73": {
+            "_surface": {
+                "text": "Salimans",
+                "unicode_name": "Salimans"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "542e205365726375": {
+            "_surface": {
+                "text": "T. Sercu",
+                "unicode_name": "T. Sercu"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5441424c45204956": {
+            "_surface": {
+                "text": "TABLE IV",
+                "unicode_name": "TABLE IV"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Resource and Time Cost Compare"
+                    }
+                ]
+            }
+        },
+        "5461626c65204949": {
+            "_surface": {
+                "text": "Table II",
+                "unicode_name": "Table II"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Different Setting of Evoformer in AlphaFold and Transformer in ViT and GPT"
+                    }
+                ]
+            }
+        },
+        "592e2058696f6e67": {
+            "_surface": {
+                "text": "Y. Xiong",
+                "unicode_name": "Y. Xiong"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "59616e6720596f75": {
+            "_surface": {
+                "text": "Yang You",
+                "unicode_name": "Yang You"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "6164642062696173": {
+            "_surface": {
+                "text": "add bias",
+                "unicode_name": "add bias"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Addition operation"
+                    }
+                ]
+            }
+        },
+        "416c6c476174686572": {
+            "_surface": {
+                "text": "AllGather",
+                "unicode_name": "AllGather"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Communication operation"
+                    }
+                ]
+            }
+        },
+        "416c6c526564756365": {
+            "_surface": {
+                "text": "AllReduce",
+                "unicode_name": "AllReduce"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Communication operation"
+                    }
+                ]
+            }
+        },
+        "416c706861466f6c64": {
+            "_surface": {
+                "text": "AlphaFold",
+                "unicode_name": "AlphaFold"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model used in AlphaFold training"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Protein structure prediction model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inference performance"
+                    }
+                ]
+            }
+        },
+        "42696e727569204c69": {
+            "_surface": {
+                "text": "Binrui Li",
+                "unicode_name": "Binrui Li"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "456d62656464696e67": {
+            "_surface": {
+                "text": "Embedding",
+                "unicode_name": "Embedding"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of AlphaFold architecture"
+                    }
+                ]
+            }
+        },
+        "45766f666f726d6572": {
+            "_surface": {
+                "text": "Evoformer",
+                "unicode_name": "Evoformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model architecture"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of AlphaFold architecture"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Backbone structure of AlphaFold"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence processing model"
+                    }
+                ]
+            }
+        },
+        "462e2044694d61696f": {
+            "_surface": {
+                "text": "F. DiMaio",
+                "unicode_name": "F. DiMaio"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "466967757265203130": {
+            "_surface": {
+                "text": "Figure 10",
+                "unicode_name": "Figure 10"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallel Efficiency on Model Parallelism Intra-node"
+                    }
+                ]
+            }
+        },
+        "466967757265203131": {
+            "_surface": {
+                "text": "Figure 11",
+                "unicode_name": "Figure 11"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallel Efficiency on Data Parallelism Inter-node"
+                    }
+                ]
+            }
+        },
+        "466967757265203132": {
+            "_surface": {
+                "text": "Figure 12",
+                "unicode_name": "Figure 12"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Comparison of inference latency for short sequences"
+                    }
+                ]
+            }
+        },
+        "466967757265203133": {
+            "_surface": {
+                "text": "Figure 13",
+                "unicode_name": "Figure 13"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure showing comparison of inference performance for long sequences"
+                    }
+                ]
+            }
+        },
+        "466967757265203134": {
+            "_surface": {
+                "text": "Figure 14",
+                "unicode_name": "Figure 14"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Figure showing protein structure prediction results of AlphaFold and FastFold"
+                    }
+                ]
+            }
+        },
+        "472e20522e204c6565": {
+            "_surface": {
+                "text": "G. R. Lee",
+                "unicode_name": "G. R. Lee"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "492e204769746d616e": {
+            "_surface": {
+                "text": "I. Gitman",
+                "unicode_name": "I. Gitman"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a2e2044656d6d656c": {
+            "_surface": {
+                "text": "J. Demmel",
+                "unicode_name": "J. Demmel"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a2e205261736c6579": {
+            "_surface": {
+                "text": "J. Rasley",
+                "unicode_name": "J. Rasley"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a69616e2050656e67": {
+            "_surface": {
+                "text": "Jian Peng",
+                "unicode_name": "Jian Peng"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "4c2e204b6169736572": {
+            "_surface": {
+                "text": "L. Kaiser",
+                "unicode_name": "L. Kaiser"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c617965724e6f726d": {
+            "_surface": {
+                "text": "LayerNorm",
+                "unicode_name": "LayerNorm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer Normalization operation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator in Batch Reduction category"
+                    }
+                ]
+            }
+        },
+        "4c696e666f726d6572": {
+            "_surface": {
+                "text": "Linformer",
+                "unicode_name": "Linformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for reducing the complexity of attention computation"
+                    }
+                ]
+            }
+        },
+        "4d2e204b6861627361": {
+            "_surface": {
+                "text": "M. Khabsa",
+                "unicode_name": "M. Khabsa"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d534120537461636b": {
+            "_surface": {
+                "text": "MSA Stack",
+                "unicode_name": "MSA Stack"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer architecture"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer block"
+                    }
+                ]
+            }
+        },
+        "4e2064657669636573": {
+            "_surface": {
+                "text": "N devices",
+                "unicode_name": "N devices"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of devices used in parallelism"
+                    }
+                ]
+            }
+        },
+        "4e2e204b6974616576": {
+            "_surface": {
+                "text": "N. Kitaev",
+                "unicode_name": "N. Kitaev"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4f2e20527577617365": {
+            "_surface": {
+                "text": "O. Ruwase",
+                "unicode_name": "O. Ruwase"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "502e2041626265656c": {
+            "_surface": {
+                "text": "P. Abbeel",
+                "unicode_name": "P. Abbeel"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "50657461464c4f5073": {
+            "_surface": {
+                "text": "PetaFLOPs",
+                "unicode_name": "PetaFLOPs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Measure of computing speed"
+                    }
+                ]
+            }
+        },
+        "542e205361726c6f73": {
+            "_surface": {
+                "text": "T. Sarlos",
+                "unicode_name": "T. Sarlos"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5461626c6520494949": {
+            "_surface": {
+                "text": "Table III",
+                "unicode_name": "Table III"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Table comparing communication overhead"
+                    }
+                ]
+            }
+        },
+        "696e666572656e6365": {
+            "_surface": {
+                "text": "inference",
+                "unicode_name": "inference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of predicting protein structures"
+                    }
+                ]
+            }
+        },
+        "706169722062696173": {
+            "_surface": {
+                "text": "pair bias",
+                "unicode_name": "pair bias"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bias added to Attention Score in Evoformer Attention"
+                    }
+                ]
+            }
+        },
+        "707265636973696f6e": {
+            "_surface": {
+                "text": "precision",
+                "unicode_name": "precision"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Accuracy and correctness of computation"
+                    }
+                ]
+            }
+        },
+        "72656379636c696e67": {
+            "_surface": {
+                "text": "recycling",
+                "unicode_name": "recycling"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Technique used to improve model prediction accuracy"
+                    }
+                ]
+            }
+        },
+        "3130206d696e75746573": {
+            "_surface": {
+                "text": "10 minutes",
+                "unicode_name": "10 minutes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Inference latency for sequences of up to 4K in length"
+                    }
+                ]
+            }
+        },
+        "476c6f62616c204d6178": {
+            "_surface": {
+                "text": "Global Max",
+                "unicode_name": "Global Max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum value among threads"
+                    }
+                ]
+            }
+        },
+        "476c6f62616c2053756d": {
+            "_surface": {
+                "text": "Global Sum",
+                "unicode_name": "Global Sum"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sum of values among threads"
+                    }
+                ]
+            }
+        },
+        "476f6f676c6520545055": {
+            "_surface": {
+                "text": "Google TPU",
+                "unicode_name": "Google TPU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hardware platform optimized for JAX"
+                    }
+                ]
+            }
+        },
+        "4b2e204b6575747a6572": {
+            "_surface": {
+                "text": "K. Keutzer",
+                "unicode_name": "K. Keutzer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "502e204861776b696e73": {
+            "_surface": {
+                "text": "P. Hawkins",
+                "unicode_name": "P. Hawkins"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5061697220537461636b": {
+            "_surface": {
+                "text": "Pair Stack",
+                "unicode_name": "Pair Stack"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer architecture"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer block"
+                    }
+                ]
+            }
+        },
+        "522e2046726f73746967": {
+            "_surface": {
+                "text": "R. Frostig",
+                "unicode_name": "R. Frostig"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "522e205665726b75696c": {
+            "_surface": {
+                "text": "R. Verkuil",
+                "unicode_name": "R. Verkuil"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5265666572656e636573": {
+            "_surface": {
+                "text": "References",
+                "unicode_name": "References"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section of the paper listing references"
+                    }
+                ]
+            }
+        },
+        "527569646f6e67205775": {
+            "_surface": {
+                "text": "Ruidong Wu",
+                "unicode_name": "Ruidong Wu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "5472616e736974696f6e": {
+            "_surface": {
+                "text": "Transition",
+                "unicode_name": "Transition"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of MSA representation processing"
+                    }
+                ]
+            }
+        },
+        "6d696e692d6261746368": {
+            "_surface": {
+                "text": "mini-batch",
+                "unicode_name": "mini-batch"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Smaller batch size used in Pipeline Parallelism"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training data size"
+                    }
+                ]
+            }
+        },
+        "70702e2031e280933132": {
+            "_surface": {
+                "text": "pp. 1–12",
+                "unicode_name": "pp. 1–12"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pages 1–12"
+                    }
+                ]
+            }
+        },
+        "76616c69646174696f6e": {
+            "_surface": {
+                "text": "validation",
+                "unicode_name": "validation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of confirming the correctness of FastFold"
+                    }
+                ]
+            }
+        },
+        "c5812e204b6169736572": {
+            "_surface": {
+                "text": "Ł. Kaiser",
+                "unicode_name": "Ł. Kaiser"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "3132382064657669636573": {
+            "_surface": {
+                "text": "128 devices",
+                "unicode_name": "128 devices"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of devices used in AlphaFold training"
+                    }
+                ]
+            }
+        },
+        "372e35e288bc392e35c397": {
+            "_surface": {
+                "text": "7.5∼9.5×",
+                "unicode_name": "7.5∼9.5×"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio of inference time reduction for FastFold compared to OpenFold"
+                    }
+                ]
+            }
+        },
+        "412e204c6576736b617961": {
+            "_surface": {
+                "text": "A. Levskaya",
+                "unicode_name": "A. Levskaya"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "416c706861466f6c642032": {
+            "_surface": {
+                "text": "AlphaFold 2",
+                "unicode_name": "AlphaFold 2"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Transformer-based AlphaFold 2 model"
+                    }
+                ]
+            }
+        },
+        "422e2047696e7362757267": {
+            "_surface": {
+                "text": "B. Ginsburg",
+                "unicode_name": "B. Ginsburg"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "432e2d4a2e204873696568": {
+            "_surface": {
+                "text": "C.-J. Hsieh",
+                "unicode_name": "C.-J. Hsieh"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "43554441204b65726e656c": {
+            "_surface": {
+                "text": "CUDA Kernel",
+                "unicode_name": "CUDA Kernel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function executed on the GPU"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimized implementation of CUDA functions"
+                    }
+                ]
+            }
+        },
+        "46656564466f7277617264": {
+            "_surface": {
+                "text": "FeedForward",
+                "unicode_name": "FeedForward"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer architecture"
+                    }
+                ]
+            }
+        },
+        "46696e652d74756e696e67": {
+            "_surface": {
+                "text": "Fine-tuning",
+                "unicode_name": "Fine-tuning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of AlphaFold training process"
+                    }
+                ]
+            }
+        },
+        "4a2e204461757061726173": {
+            "_surface": {
+                "text": "J. Dauparas",
+                "unicode_name": "J. Dauparas"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4a2e20462e2043616e6e79": {
+            "_surface": {
+                "text": "J. F. Canny",
+                "unicode_name": "J. F. Canny"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c2e204e2e204b696e6368": {
+            "_surface": {
+                "text": "L. N. Kinch",
+                "unicode_name": "L. N. Kinch"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4d65676174726f6e2d4c4d": {
+            "_surface": {
+                "text": "Megatron-LM",
+                "unicode_name": "Megatron-LM"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for scaling the model to more GPUs for training"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Example of a model using multiple parallel approaches"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model proposing column parallelism and row parallelism"
+                    },
+                    {
+                        "affixes": [
+                            "[10]"
+                        ],
+                        "arity": 0,
+                        "description": "Model architecture"
+                    }
+                ]
+            }
+        },
+        "5079546f726368204a4954": {
+            "_surface": {
+                "text": "PyTorch JIT",
+                "unicode_name": "PyTorch JIT"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Just-In-Time compilation in PyTorch"
+                    }
+                ]
+            }
+        },
+        "526f7365545441466f6c64": {
+            "_surface": {
+                "text": "RoseTTAFold",
+                "unicode_name": "RoseTTAFold"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Protein structure prediction model"
+                    }
+                ]
+            }
+        },
+        "54656e736f7220436f7265": {
+            "_surface": {
+                "text": "Tensor Core",
+                "unicode_name": "Tensor Core"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hardware component in NVIDIA Tesla GPU"
+                    }
+                ]
+            }
+        },
+        "5472616e73666f726d6572": {
+            "_surface": {
+                "text": "Transformer",
+                "unicode_name": "Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model structure used in NLP/CV field"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model architecture"
+                    }
+                ]
+            }
+        },
+        "5765697373656e626f726e": {
+            "_surface": {
+                "text": "Weissenborn",
+                "unicode_name": "Weissenborn"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "586977656e205a68616e67": {
+            "_surface": {
+                "text": "Xiwen Zhang",
+                "unicode_name": "Xiwen Zhang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "61637469766174696f6e73": {
+            "_surface": {
+                "text": "activations",
+                "unicode_name": "activations"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator in Element-wise Operators category"
+                    }
+                ]
+            }
+        },
+        "323536c39741e281a2313030": {
+            "_surface": {
+                "text": "256×A⁢100",
+                "unicode_name": "256×A⁢100"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training parameter setting for Initial Training"
+                    }
+                ]
+            }
+        },
+        "353132c39741e281a2313030": {
+            "_surface": {
+                "text": "512×A⁢100",
+                "unicode_name": "512×A⁢100"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training parameter setting for Fine-tuning"
+                    }
+                ]
+            }
+        },
+        "392e33e288bc31312e36c397": {
+            "_surface": {
+                "text": "9.3∼11.6×",
+                "unicode_name": "9.3∼11.6×"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Ratio of inference time reduction for FastFold compared to AlphaFold"
+                    }
+                ]
+            }
+        },
+        "412e204d6f6869756464696e": {
+            "_surface": {
+                "text": "A. Mohiuddin",
+                "unicode_name": "A. Mohiuddin"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "43554441204b65726e656c73": {
+            "_surface": {
+                "text": "CUDA Kernels",
+                "unicode_name": "CUDA Kernels"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Functions executed on the GPU"
+                    }
+                ]
+            }
+        },
+        "435544412073747265616d73": {
+            "_surface": {
+                "text": "CUDA streams",
+                "unicode_name": "CUDA streams"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallel execution streams in CUDA"
+                    }
+                ]
+            }
+        },
+        "466565642d466f7277617264": {
+            "_surface": {
+                "text": "Feed-Forward",
+                "unicode_name": "Feed-Forward"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer architecture"
+                    }
+                ]
+            }
+        },
+        "4b616c63686272656e6e6572": {
+            "_surface": {
+                "text": "Kalchbrenner",
+                "unicode_name": "Kalchbrenner"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c696e656172204c61796572": {
+            "_surface": {
+                "text": "Linear Layer",
+                "unicode_name": "Linear Layer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer performing matrix multiplication"
+                    }
+                ]
+            }
+        },
+        "4c696e656172206c61796572": {
+            "_surface": {
+                "text": "Linear layer",
+                "unicode_name": "Linear layer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer performing matrix multiplication"
+                    }
+                ]
+            }
+        },
+        "5a686f6e676d696e67205975": {
+            "_surface": {
+                "text": "Zhongming Yu",
+                "unicode_name": "Zhongming Yu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Person"
+                    }
+                ]
+            }
+        },
+        "436f6d6d756e69636174696f6e": {
+            "_surface": {
+                "text": "Communication",
+                "unicode_name": "Communication"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer block"
+                    }
+                ]
+            }
+        },
+        "4465657053706565642d4d6f45": {
+            "_surface": {
+                "text": "DeepSpeed-MoE",
+                "unicode_name": "DeepSpeed-MoE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "[15]"
+                        ],
+                        "arity": 0,
+                        "description": "Model architecture"
+                    }
+                ]
+            }
+        },
+        "467573656420536f66746d6178": {
+            "_surface": {
+                "text": "Fused Softmax",
+                "unicode_name": "Fused Softmax"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimized implementation of Softmax"
+                    }
+                ]
+            }
+        },
+        "4d2e204a2e204a6f686e736f6e": {
+            "_surface": {
+                "text": "M. J. Johnson",
+                "unicode_name": "M. J. Johnson"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "526f7720417474656e74696f6e": {
+            "_surface": {
+                "text": "Row Attention",
+                "unicode_name": "Row Attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer architecture"
+                    }
+                ]
+            }
+        },
+        "546563686e6f6d657472696373": {
+            "_surface": {
+                "text": "Technometrics",
+                "unicode_name": "Technometrics"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", vol. 4, no. 3"
+                        ],
+                        "arity": 0,
+                        "description": "Note on a method for calculating corrected sums of squares and products"
+                    }
+                ]
+            }
+        },
+        "57617270416c6c526564756365": {
+            "_surface": {
+                "text": "WarpAllReduce",
+                "unicode_name": "WarpAllReduce"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operation to perform Global Max and Global Sum within Warp"
+                    }
+                ]
+            }
+        },
+        "6d6963726f2d62617463686573": {
+            "_surface": {
+                "text": "micro-batches",
+                "unicode_name": "micro-batches"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Even smaller batches used in Pipeline Parallelism"
+                    }
+                ]
+            }
+        },
+        "70702e20333839e28093343032": {
+            "_surface": {
+                "text": "pp. 389–402",
+                "unicode_name": "pp. 389–402"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pages 389–402"
+                    }
+                ]
+            }
+        },
+        "70702e20343139e28093343230": {
+            "_surface": {
+                "text": "pp. 419–420",
+                "unicode_name": "pp. 419–420"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pages 419–420"
+                    }
+                ]
+            }
+        },
+        "70702e20353833e28093353839": {
+            "_surface": {
+                "text": "pp. 583–589",
+                "unicode_name": "pp. 583–589"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pages 583–589"
+                    }
+                ]
+            }
+        },
+        "747261696e696e672074696d65": {
+            "_surface": {
+                "text": "training time",
+                "unicode_name": "training time"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time taken for model training"
+                    }
+                ]
+            }
+        },
+        "76697375616c697a6174696f6e": {
+            "_surface": {
+                "text": "visualization",
+                "unicode_name": "visualization"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Representation of data in a visual form"
+                    }
+                ]
+            }
+        },
+        "446565705370656564205a65524f": {
+            "_surface": {
+                "text": "DeepSpeed ZeRO",
+                "unicode_name": "DeepSpeed ZeRO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Memory-efficient optimizer for large-scale training"
+                    }
+                ]
+            }
+        },
+        "4920496e74726f64756374696f6e": {
+            "_surface": {
+                "text": "I Introduction",
+                "unicode_name": "I Introduction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Introduction section of the paper"
+                    }
+                ]
+            }
+        },
+        "492e20416e6973686368656e6b6f": {
+            "_surface": {
+                "text": "I. Anishchenko",
+                "unicode_name": "I. Anishchenko"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4b2e2043686f726f6d616e736b69": {
+            "_surface": {
+                "text": "K. Choromanski",
+                "unicode_name": "K. Choromanski"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "532e204f766368696e6e696b6f76": {
+            "_surface": {
+                "text": "S. Ovchinnikov",
+                "unicode_name": "S. Ovchinnikov"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "532e2052616a6268616e64617269": {
+            "_surface": {
+                "text": "S. Rajbhandari",
+                "unicode_name": "S. Rajbhandari"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5368656e6767616e204368656e67": {
+            "_surface": {
+                "text": "Shenggan Cheng",
+                "unicode_name": "Shenggan Cheng"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Employee of HPC-AI Technology Inc."
+                    }
+                ]
+            }
+        },
+        "536f66746d6178206b65726e656c": {
+            "_surface": {
+                "text": "Softmax kernel",
+                "unicode_name": "Softmax kernel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kernel for Softmax function"
+                    }
+                ]
+            }
+        },
+        "56494920436f6e636c7573696f6e": {
+            "_surface": {
+                "text": "VII Conclusion",
+                "unicode_name": "VII Conclusion"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Conclusion section of the paper"
+                    }
+                ]
+            }
+        },
+        "696e666572656e63652074696d65": {
+            "_surface": {
+                "text": "inference time",
+                "unicode_name": "inference time"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time taken for inference"
+                    }
+                ]
+            }
+        },
+        "3132382054505576332d636f726573": {
+            "_surface": {
+                "text": "128 TPUv3-cores",
+                "unicode_name": "128 TPUv3-cores"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Computational resources used in AlphaFold training"
+                    }
+                ]
+            }
+        },
+        "426174636820526564756374696f6e": {
+            "_surface": {
+                "text": "Batch Reduction",
+                "unicode_name": "Batch Reduction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Category of operators in Evoformer"
+                    }
+                ]
+            }
+        },
+        "4d5341205472616e73666f726d6572": {
+            "_surface": {
+                "text": "MSA Transformer",
+                "unicode_name": "MSA Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Protein structure prediction model"
+                    }
+                ]
+            }
+        },
+        "4d7361207472616e73666f726d6572": {
+            "_surface": {
+                "text": "Msa transformer",
+                "unicode_name": "Msa transformer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "522e20442e20536368616566666572": {
+            "_surface": {
+                "text": "R. D. Schaeffer",
+                "unicode_name": "R. D. Schaeffer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "526170746f72582d436f6e74616374": {
+            "_surface": {
+                "text": "RaptorX-Contact",
+                "unicode_name": "RaptorX-Contact"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for protein structure prediction"
+                    }
+                ]
+            }
+        },
+        "532e2042686f6a616e6170616c6c69": {
+            "_surface": {
+                "text": "S. Bhojanapalli",
+                "unicode_name": "S. Bhojanapalli"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "696e666572656e63652074696d6573": {
+            "_surface": {
+                "text": "inference times",
+                "unicode_name": "inference times"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time taken for inference"
+                    }
+                ]
+            }
+        },
+        "6f6e652d70617373206d6574686f64": {
+            "_surface": {
+                "text": "one-pass method",
+                "unicode_name": "one-pass method"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method to calculate variance using one pass"
+                    }
+                ]
+            }
+        },
+        "70702e2031383737e2809331393031": {
+            "_surface": {
+                "text": "pp. 1877–1901",
+                "unicode_name": "pp. 1877–1901"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pages 1877–1901"
+                    }
+                ]
+            }
+        },
+        "726f7720706172616c6c656c69736d": {
+            "_surface": {
+                "text": "row parallelism",
+                "unicode_name": "row parallelism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallelism technique dividing weight matrix and input vectors column-wise"
+                    }
+                ]
+            }
+        },
+        "74656e73206f66206d696e75746573": {
+            "_surface": {
+                "text": "tens of minutes",
+                "unicode_name": "tens of minutes"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time taken for inference in the range of tens of minutes"
+                    }
+                ]
+            }
+        },
+        "74776f2d70617373206d6574686f64": {
+            "_surface": {
+                "text": "two-pass method",
+                "unicode_name": "two-pass method"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method to calculate variance using two passes"
+                    }
+                ]
+            }
+        },
+        "436f6c756d6e20417474656e74696f6e": {
+            "_surface": {
+                "text": "Column Attention",
+                "unicode_name": "Column Attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer architecture"
+                    }
+                ]
+            }
+        },
+        "4461746120506172616c6c656c69736d": {
+            "_surface": {
+                "text": "Data Parallelism",
+                "unicode_name": "Data Parallelism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallel method using complete set of model parameters"
+                    }
+                ]
+            }
+        },
+        "496e697469616c20547261696e696e67": {
+            "_surface": {
+                "text": "Initial Training",
+                "unicode_name": "Initial Training"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of AlphaFold training process"
+                    }
+                ]
+            }
+        },
+        "4c617965724e6f726d206b65726e656c": {
+            "_surface": {
+                "text": "LayerNorm kernel",
+                "unicode_name": "LayerNorm kernel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kernel for LayerNorm operation"
+                    }
+                ]
+            }
+        },
+        "4e564944494120413130302047505573": {
+            "_surface": {
+                "text": "NVIDIA A100 GPUs",
+                "unicode_name": "NVIDIA A100 GPUs"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graphics processing units"
+                    }
+                ]
+            }
+        },
+        "4e5649444941205465736c6120475055": {
+            "_surface": {
+                "text": "NVIDIA Tesla GPU",
+                "unicode_name": "NVIDIA Tesla GPU"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Graphics processing unit"
+                    }
+                ]
+            }
+        },
+        "537472756374757265204d6f64756c65": {
+            "_surface": {
+                "text": "Structure Module",
+                "unicode_name": "Structure Module"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of AlphaFold architecture"
+                    }
+                ]
+            }
+        },
+        "547572626f5472616e73666f726d6572": {
+            "_surface": {
+                "text": "TurboTransformer",
+                "unicode_name": "TurboTransformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimized implementation of the Transformer model"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimized implementation of Transformer"
+                    }
+                ]
+            }
+        },
+        "562e204c696b686f7368657273746f76": {
+            "_surface": {
+                "text": "V. Likhosherstov",
+                "unicode_name": "V. Likhosherstov"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "61725869763a313630342e3036313734": {
+            "_surface": {
+                "text": "arXiv:1604.06174",
+                "unicode_name": "arXiv:1604.06174"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training deep nets with sublinear memory cost"
+                    }
+                ]
+            }
+        },
+        "61725869763a313831302e3034383035": {
+            "_surface": {
+                "text": "arXiv:1810.04805",
+                "unicode_name": "arXiv:1810.04805"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Bert: Pre-training of deep bidirectional transformers for language understanding"
+                    }
+                ]
+            }
+        },
+        "61725869763a313930352e3132333232": {
+            "_surface": {
+                "text": "arXiv:1905.12322",
+                "unicode_name": "arXiv:1905.12322"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "A study of bfloat16 for deep learning training"
+                    }
+                ]
+            }
+        },
+        "61725869763a323031302e3131393239": {
+            "_surface": {
+                "text": "arXiv:2010.11929",
+                "unicode_name": "arXiv:2010.11929"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "An image is worth 16x16 words: Transformers for image recognition at scale"
+                    }
+                ]
+            }
+        },
+        "61725869763a323230312e3035353936": {
+            "_surface": {
+                "text": "arXiv:2201.05596",
+                "unicode_name": "arXiv:2201.05596"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Deepspeed-moe: Advancing mixture-of-experts inference and training to power next-generation ai scale"
+                    }
+                ]
+            }
+        },
+        "676174696e67206d656368616e69736d": {
+            "_surface": {
+                "text": "gating mechanism",
+                "unicode_name": "gating mechanism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mechanism used in Evoformer Attention"
+                    }
+                ]
+            }
+        },
+        "707265636973696f6e206572726f7273": {
+            "_surface": {
+                "text": "precision errors",
+                "unicode_name": "precision errors"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Errors in numerical precision"
+                    }
+                ]
+            }
+        },
+        "736f66746d61782066756e6374696f6e": {
+            "_surface": {
+                "text": "softmax function",
+                "unicode_name": "softmax function"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Function used for normalization"
+                    }
+                ]
+            }
+        },
+        "417474656e74696f6e2042696173696e67": {
+            "_surface": {
+                "text": "Attention Biasing",
+                "unicode_name": "Attention Biasing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of communication between representations"
+                    }
+                ]
+            }
+        },
+        "417474656e74696f6e20436f6e74657874": {
+            "_surface": {
+                "text": "Attention Context",
+                "unicode_name": "Attention Context"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Context used in Evoformer Attention"
+                    }
+                ]
+            }
+        },
+        "4175746f676172642046756e6374696f6e": {
+            "_surface": {
+                "text": "Autogard Function",
+                "unicode_name": "Autogard Function"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "PyTorch automatic differentiation package"
+                    }
+                ]
+            }
+        },
+        "4d6f64656c20506172616c6c656c69736d": {
+            "_surface": {
+                "text": "Model Parallelism",
+                "unicode_name": "Model Parallelism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallel method distributing model parameters"
+                    }
+                ]
+            }
+        },
+        "5472616e73666f726d6572206d6f64656c": {
+            "_surface": {
+                "text": "Transformer model",
+                "unicode_name": "Transformer model"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model architecture"
+                    }
+                ]
+            }
+        },
+        "57656c666f726420616c676f726974686d": {
+            "_surface": {
+                "text": "Welford algorithm",
+                "unicode_name": "Welford algorithm"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method to calculate variance with good numerical stability"
+                    }
+                ]
+            }
+        },
+        "676c6f62616c2062617463682073697a65": {
+            "_surface": {
+                "text": "global batch size",
+                "unicode_name": "global batch size"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of samples in a batch"
+                    }
+                ]
+            }
+        },
+        "6d6f64656c20706172616c6c656c69736d": {
+            "_surface": {
+                "text": "model parallelism",
+                "unicode_name": "model parallelism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallelism technique distributing model parameters"
+                    }
+                ]
+            }
+        },
+        "436f6d7075746174696f6e2053747265616d": {
+            "_surface": {
+                "text": "Computation Stream",
+                "unicode_name": "Computation Stream"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stream for computation"
+                    }
+                ]
+            }
+        },
+        "4d534120726570726573656e746174696f6e": {
+            "_surface": {
+                "text": "MSA representation",
+                "unicode_name": "MSA representation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input representation for Evoformer"
+                    }
+                ]
+            }
+        },
+        "4f757465722050726f64756374204d65616e": {
+            "_surface": {
+                "text": "Outer Product Mean",
+                "unicode_name": "Outer Product Mean"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of communication between representations"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for computing update in Evoformer"
+                    }
+                ]
+            }
+        },
+        "506172616c6c656c2045766f666f726d6572": {
+            "_surface": {
+                "text": "Parallel Evoformer",
+                "unicode_name": "Parallel Evoformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallel implementation of Evoformer"
+                    }
+                ]
+            }
+        },
+        "526f772d7769736520417474656e74696f6e": {
+            "_surface": {
+                "text": "Row-wise Attention",
+                "unicode_name": "Row-wise Attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of MSA representation processing"
+                    }
+                ]
+            }
+        },
+        "54656e736f7220506172616c6c656c69736d": {
+            "_surface": {
+                "text": "Tensor Parallelism",
+                "unicode_name": "Tensor Parallelism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallelism technique for AlphaFold training"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model parallel method dividing model parameters into different devices"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallelism technique distributing matrix multiplication to different devices"
+                    }
+                ]
+            }
+        },
+        "6368756e6b696e6720746563686e69717565": {
+            "_surface": {
+                "text": "chunking technique",
+                "unicode_name": "chunking technique"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Technique for dividing sequences into chunks for computation"
+                    }
+                ]
+            }
+        },
+        "636f6c756d6e20706172616c6c656c69736d": {
+            "_surface": {
+                "text": "column parallelism",
+                "unicode_name": "column parallelism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallelism technique dividing weight matrix column-wise"
+                    }
+                ]
+            }
+        },
+        "70726f7465696e2073747275637475726573": {
+            "_surface": {
+                "text": "protein structures",
+                "unicode_name": "protein structures"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Three-dimensional structures of proteins"
+                    }
+                ]
+            }
+        },
+        "7363616c696e6720656666696369656e6379": {
+            "_surface": {
+                "text": "scaling efficiency",
+                "unicode_name": "scaling efficiency"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Efficiency of scaling to more GPUs"
+                    }
+                ]
+            }
+        },
+        "34382045766f666f726d657220626c6f636b73": {
+            "_surface": {
+                "text": "48 Evoformer blocks",
+                "unicode_name": "48 Evoformer blocks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Main trunk of the network"
+                    }
+                ]
+            }
+        },
+        "5061697220726570726573656e746174696f6e": {
+            "_surface": {
+                "text": "Pair representation",
+                "unicode_name": "Pair representation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input representation for Evoformer"
+                    }
+                ]
+            }
+        },
+        "616d696e6f20616369642073657175656e6365": {
+            "_surface": {
+                "text": "amino acid sequence",
+                "unicode_name": "amino acid sequence"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sequence of amino acids"
+                    }
+                ]
+            }
+        },
+        "6772616469656e7420616363756d756c617465": {
+            "_surface": {
+                "text": "gradient accumulate",
+                "unicode_name": "gradient accumulate"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Technique to accumulate gradients over multiple mini-batches"
+                    }
+                ]
+            }
+        },
+        "6e756d65726963616c2073746162696c697479": {
+            "_surface": {
+                "text": "numerical stability",
+                "unicode_name": "numerical stability"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Property of numerical calculations"
+                    }
+                ]
+            }
+        },
+        "7061697220726570726573656e746174696f6e": {
+            "_surface": {
+                "text": "pair representation",
+                "unicode_name": "pair representation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input representation for Evoformer"
+                    }
+                ]
+            }
+        },
+        "736f66746d61782063616c63756c6174696f6e": {
+            "_surface": {
+                "text": "softmax calculation",
+                "unicode_name": "softmax calculation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of calculating softmax function"
+                    }
+                ]
+            }
+        },
+        "436f6d6d756e69636174696f6e2053747265616d": {
+            "_surface": {
+                "text": "Communication Stream",
+                "unicode_name": "Communication Stream"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Stream for communication"
+                    }
+                ]
+            }
+        },
+        "456c656d656e742d776973652070726f64756374": {
+            "_surface": {
+                "text": "Element-wise product",
+                "unicode_name": "Element-wise product"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator in Element-wise Operators category"
+                    }
+                ]
+            }
+        },
+        "4d756c74692d6865616420417474656e74696f6e": {
+            "_surface": {
+                "text": "Multi-head Attention",
+                "unicode_name": "Multi-head Attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer architecture"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Performance improvement technique for sequence modelling"
+                    }
+                ]
+            }
+        },
+        "506970656c696e6520506172616c6c656c69736d": {
+            "_surface": {
+                "text": "Pipeline Parallelism",
+                "unicode_name": "Pipeline Parallelism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model parallel method splitting model vertically among multiple devices"
+                    }
+                ]
+            }
+        },
+        "6f6666696369616c206578706572696d656e7473": {
+            "_surface": {
+                "text": "official experiments",
+                "unicode_name": "official experiments"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Experiments conducted by the authors of the paper"
+                    }
+                ]
+            }
+        },
+        "7468656f7265746963616c20616e616c79736973": {
+            "_surface": {
+                "text": "theoretical analysis",
+                "unicode_name": "theoretical analysis"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Analysis based on theory and principles"
+                    }
+                ]
+            }
+        },
+        "756c7472612d6c6f6e672073657175656e636573": {
+            "_surface": {
+                "text": "ultra-long sequences",
+                "unicode_name": "ultra-long sequences"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Amino acid sequences of very long length"
+                    }
+                ]
+            }
+        },
+        "436f6c756d6e2d7769736520417474656e74696f6e": {
+            "_surface": {
+                "text": "Column-wise Attention",
+                "unicode_name": "Column-wise Attention"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of MSA representation processing"
+                    }
+                ]
+            }
+        },
+        "456c656d656e742d77697365206164646974696f6e": {
+            "_surface": {
+                "text": "Element-wise addition",
+                "unicode_name": "Element-wise addition"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operator in Element-wise Operators category"
+                    }
+                ]
+            }
+        },
+        "4d6174726978206d756c7469706c69636174696f6e": {
+            "_surface": {
+                "text": "Matrix multiplication",
+                "unicode_name": "Matrix multiplication"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Operation to multiply matrices"
+                    }
+                ]
+            }
+        },
+        "5079546f726368206e6174697665206b65726e656c": {
+            "_surface": {
+                "text": "PyTorch native kernel",
+                "unicode_name": "PyTorch native kernel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kernel for Fused Softmax"
+                    }
+                ]
+            }
+        },
+        "45696e737465696e2d6e6f746174696f6e2073756d73": {
+            "_surface": {
+                "text": "Einstein-notation sums",
+                "unicode_name": "Einstein-notation sums"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Notation used for core computation of Outer Product Mean"
+                    }
+                ]
+            }
+        },
+        "456c656d656e742d77697365204f70657261746f7273": {
+            "_surface": {
+                "text": "Element-wise Operators",
+                "unicode_name": "Element-wise Operators"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Category of operators in Evoformer"
+                    }
+                ]
+            }
+        },
+        "4850432d414920546563686e6f6c6f677920496e632e": {
+            "_surface": {
+                "text": "HPC-AI Technology Inc.",
+                "unicode_name": "HPC-AI Technology Inc."
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Organization"
+                    }
+                ]
+            }
+        },
+        "4475616c697479204173796e63204f7065726174696f6e": {
+            "_surface": {
+                "text": "Duality Async Operation",
+                "unicode_name": "Duality Async Operation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Communication and computation overlap technique"
+                    }
+                ]
+            }
+        },
+        "6f6666696369616c20696d706c656d656e746174696f6e": {
+            "_surface": {
+                "text": "official implementation",
+                "unicode_name": "official implementation"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Officially provided implementation of AlphaFold by Google DeepMind"
+                    }
+                ]
+            }
+        },
+        "506172616c6c656c69736d20666f7220547261696e696e67": {
+            "_surface": {
+                "text": "Parallelism for Training",
+                "unicode_name": "Parallelism for Training"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section discussing parallel methods in training"
+                    }
+                ]
+            }
+        },
+        "566964656f20566973696f6e205472616e73666f726d6572": {
+            "_surface": {
+                "text": "Video Vision Transformer",
+                "unicode_name": "Video Vision Transformer"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Model for processing video data"
+                    }
+                ]
+            }
+        },
+        "636f6d6d756e69636174696f6e207072696d697469766573": {
+            "_surface": {
+                "text": "communication primitives",
+                "unicode_name": "communication primitives"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Methods for communication between registers and warps"
+                    }
+                ]
+            }
+        },
+        "65787472656d656c79206c6f6e672073657175656e636573": {
+            "_surface": {
+                "text": "extremely long sequences",
+                "unicode_name": "extremely long sequences"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Amino acid sequences of length over 3k"
+                    }
+                ]
+            }
+        },
+        "6d656d6f72792063617061636974792070726f626c656d73": {
+            "_surface": {
+                "text": "memory capacity problems",
+                "unicode_name": "memory capacity problems"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Issues related to limited memory for inference"
+                    }
+                ]
+            }
+        },
+        "766563746f72697a6564206d656d6f727920616363657373": {
+            "_surface": {
+                "text": "vectorized memory access",
+                "unicode_name": "vectorized memory access"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Accessing memory in a vectorized manner"
+                    }
+                ]
+            }
+        },
+        "44796e616d696320417869616c20506172616c6c656c69736d": {
+            "_surface": {
+                "text": "Dynamic Axial Parallelism",
+                "unicode_name": "Dynamic Axial Parallelism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallelism technique used in FastFold"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Parallelism technique for Evoformer"
+                    }
+                ]
+            }
+        },
+        "46617374466f6c64206f7074696d697a6564206b65726e656c": {
+            "_surface": {
+                "text": "FastFold optimized kernel",
+                "unicode_name": "FastFold optimized kernel"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimized kernel for Fused Softmax"
+                    }
+                ]
+            }
+        },
+        "547269616e67756c61722055706461746573204d6f64756c65": {
+            "_surface": {
+                "text": "Triangular Updates Module",
+                "unicode_name": "Triangular Updates Module"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Pair Stack in Evoformer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of Evoformer architecture"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Part of pair representation processing"
+                    }
+                ]
+            }
+        },
+        "6d656d6f727920636170616369747920726571756972656d656e74": {
+            "_surface": {
+                "text": "memory capacity requirement",
+                "unicode_name": "memory capacity requirement"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Amount of memory needed for inference"
+                    }
+                ]
+            }
+        },
+        "50726f7465696e207374727563747572652070726564696374696f6e": {
+            "_surface": {
+                "text": "Protein structure prediction",
+                "unicode_name": "Protein structure prediction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method for understanding gene translation and protein function"
+                    }
+                ]
+            }
+        },
+        "53797374656d7320666f72204d616368696e65204c6561726e696e67": {
+            "_surface": {
+                "text": "Systems for Machine Learning",
+                "unicode_name": "Systems for Machine Learning"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "646973747269627574656420696e666572656e6365206d6574686f64": {
+            "_surface": {
+                "text": "distributed inference method",
+                "unicode_name": "distributed inference method"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Method of performing inference using distributed computing"
+                    }
+                ]
+            }
+        },
+        "70726f7465696e207374727563747572652070726564696374696f6e": {
+            "_surface": {
+                "text": "protein structure prediction",
+                "unicode_name": "protein structure prediction"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Process of predicting the structure of proteins"
+                    }
+                ]
+            }
+        },
+        "4d756c746964696d656e73696f6e616c205472616e73666f726d657273": {
+            "_surface": {
+                "text": "Multidimensional Transformers",
+                "unicode_name": "Multidimensional Transformers"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Models for processing multidimensional data"
+                    }
+                ]
+            }
+        },
+        "5368616e67686169204a69616f20546f6e6720556e6976657273697479": {
+            "_surface": {
+                "text": "Shanghai Jiao Tong University",
+                "unicode_name": "Shanghai Jiao Tong University"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Organization"
+                    }
+                ]
+            }
+        },
+        "6172586976207072657072696e742061725869763a313730382e3033383838": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:1708.03888",
+                "unicode_name": "arXiv preprint arXiv:1708.03888"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976207072657072696e742061725869763a313930342e3030393632": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:1904.00962",
+                "unicode_name": "arXiv preprint arXiv:1904.00962"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976207072657072696e742061725869763a313931322e3132313830": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:1912.12180",
+                "unicode_name": "arXiv preprint arXiv:1912.12180"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976207072657072696e742061725869763a323030312e3034343531": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:2001.04451",
+                "unicode_name": "arXiv preprint arXiv:2001.04451"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976207072657072696e742061725869763a323030362e3034373638": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:2006.04768",
+                "unicode_name": "arXiv preprint arXiv:2006.04768"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976207072657072696e742061725869763a323030392e3134373934": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:2009.14794",
+                "unicode_name": "arXiv preprint arXiv:2009.14794"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976207072657072696e742061725869763a323031302e3133383837": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:2010.13887",
+                "unicode_name": "arXiv preprint arXiv:2010.13887"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976207072657072696e742061725869763a323130332e3135363931": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:2103.15691",
+                "unicode_name": "arXiv preprint arXiv:2103.15691"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6172586976207072657072696e742061725869763a323131302e3035373232": {
+            "_surface": {
+                "text": "arXiv preprint arXiv:2110.05722",
+                "unicode_name": "arXiv preprint arXiv:2110.05722"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c617965724e6f726d206b65726e656c2066726f6d204e56494449412041706578": {
+            "_surface": {
+                "text": "LayerNorm kernel from NVIDIA Apex",
+                "unicode_name": "LayerNorm kernel from NVIDIA Apex"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimized kernel for LayerNorm"
+                    }
+                ]
+            }
+        },
+        "56697669743a204120766964656f20766973696f6e207472616e73666f726d6572": {
+            "_surface": {
+                "text": "Vivit: A video vision transformer",
+                "unicode_name": "Vivit: A video vision transformer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "636f6d7075746174696f6e2d636f6d6d756e69636174696f6e206f7665726c6170": {
+            "_surface": {
+                "text": "computation-communication overlap",
+                "unicode_name": "computation-communication overlap"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Optimization technique"
+                    }
+                ]
+            }
+        },
+        "4173736f63696174696f6e20666f7220436f6d707574696e67204d616368696e657279": {
+            "_surface": {
+                "text": "Association for Computing Machinery",
+                "unicode_name": "Association for Computing Machinery"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5265666f726d65723a2054686520656666696369656e74207472616e73666f726d6572": {
+            "_surface": {
+                "text": "Reformer: The efficient transformer",
+                "unicode_name": "Reformer: The efficient transformer"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "52657468696e6b696e6720617474656e74696f6e207769746820706572666f726d657273": {
+            "_surface": {
+                "text": "Rethinking attention with performers",
+                "unicode_name": "Rethinking attention with performers"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68747470733a2f2f7079746f7263682e6f72672f646f63732f737461626c652f6a69742e68746d6c": {
+            "_surface": {
+                "text": "https://pytorch.org/docs/stable/jit.html",
+                "unicode_name": "https://pytorch.org/docs/stable/jit.html"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pytorch jit"
+                    }
+                ]
+            }
+        },
+        "4c6172676520626174636820747261696e696e67206f6620636f6e766f6c7574696f6e616c206e6574776f726b73": {
+            "_surface": {
+                "text": "Large batch training of convolutional networks",
+                "unicode_name": "Large batch training of convolutional networks"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "417869616c20617474656e74696f6e20696e206d756c746964696d656e73696f6e616c207472616e73666f726d657273": {
+            "_surface": {
+                "text": "Axial attention in multidimensional transformers",
+                "unicode_name": "Axial attention in multidimensional transformers"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c696e666f726d65723a2053656c662d617474656e74696f6e2077697468206c696e65617220636f6d706c6578697479": {
+            "_surface": {
+                "text": "Linformer: Self-attention with linear complexity",
+                "unicode_name": "Linformer: Self-attention with linear complexity"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "70726f7465696e207374727563747572652070726564696374696f6e206d6f64656c20747261696e696e6720616e6420696e666572656e6365": {
+            "_surface": {
+                "text": "protein structure prediction model training and inference",
+                "unicode_name": "protein structure prediction model training and inference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Training and inference processes for protein structure prediction models"
+                    }
+                ]
+            }
+        },
+        "436f6d70696c696e67206d616368696e65206c6561726e696e672070726f6772616d732076696120686967682d6c6576656c2074726163696e67": {
+            "_surface": {
+                "text": "Compiling machine learning programs via high-level tracing",
+                "unicode_name": "Compiling machine learning programs via high-level tracing"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "50617261666f6c643a20506172616c6c656c696e6720616c706861666f6c6420666f72206c617267652d7363616c652070726564696374696f6e73": {
+            "_surface": {
+                "text": "Parafold: Paralleling alphafold for large-scale predictions",
+                "unicode_name": "Parafold: Paralleling alphafold for large-scale predictions"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "68747470733a2f2f7777772e62696f727869762e6f72672f636f6e74656e742f31302e313130312f323032312e30322e31322e3433303835387631": {
+            "_surface": {
+                "text": "https://www.biorxiv.org/content/10.1101/2021.02.12.430858v1",
+                "unicode_name": "https://www.biorxiv.org/content/10.1101/2021.02.12.430858v1"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6c617267652d7363616c6520686967682d7468726f7567687075742070726f7465696e207374727563747572652070726564696374696f6e207461736b73": {
+            "_surface": {
+                "text": "large-scale high-throughput protein structure prediction tasks",
+                "unicode_name": "large-scale high-throughput protein structure prediction tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Tasks involving prediction of protein structures on a large scale"
+                    }
+                ]
+            }
+        },
+        "4c696768747365713a2041206869676820706572666f726d616e636520696e666572656e6365206c69627261727920666f72207472616e73666f726d657273": {
+            "_surface": {
+                "text": "Lightseq: A high performance inference library for transformers",
+                "unicode_name": "Lightseq: A high performance inference library for transformers"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "696e20534332303a20496e7465726e6174696f6e616c20436f6e666572656e636520666f72204869676820506572666f726d616e636520436f6d707574696e67": {
+            "_surface": {
+                "text": "in SC20: International Conference for High Performance Computing",
+                "unicode_name": "in SC20: International Conference for High Performance Computing"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c69676874736571323a20416363656c65726174656420747261696e696e6720666f72207472616e73666f726d65722d6261736564206d6f64656c73206f6e2067707573": {
+            "_surface": {
+                "text": "Lightseq2: Accelerated training for transformer-based models on gpus",
+                "unicode_name": "Lightseq2: Accelerated training for transformer-based models on gpus"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "5a65726f3a204d656d6f7279206f7074696d697a6174696f6e7320746f7761726420747261696e696e67207472696c6c696f6e20706172616d65746572206d6f64656c73": {
+            "_surface": {
+                "text": "Zero: Memory optimizations toward training trillion parameter models",
+                "unicode_name": "Zero: Memory optimizations toward training trillion parameter models"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "4c61726765206261746368206f7074696d697a6174696f6e20666f722064656570206c6561726e696e673a20547261696e696e67206265727420696e203736206d696e75746573": {
+            "_surface": {
+                "text": "Large batch optimization for deep learning: Training bert in 76 minutes",
+                "unicode_name": "Large batch optimization for deep learning: Training bert in 76 minutes"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6f7074696d697a6174696f6e206f662070726f7465696e207374727563747572652070726564696374696f6e206d6f64656c20747261696e696e6720616e6420696e666572656e6365": {
+            "_surface": {
+                "text": "optimization of protein structure prediction model training and inference",
+                "unicode_name": "optimization of protein structure prediction model training and inference"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Improvement of the efficiency of training and inference processes for protein structure prediction models"
+                    }
+                ]
+            }
+        },
+        "50726f63656564696e6773206f662074686520496e7465726e6174696f6e616c20436f6e666572656e636520666f72204869676820506572666f726d616e636520436f6d707574696e67": {
+            "_surface": {
+                "text": "Proceedings of the International Conference for High Performance Computing",
+                "unicode_name": "Proceedings of the International Conference for High Performance Computing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Networking, Storage and Analysis, ser. SC ’21"
+                        ],
+                        "arity": 0,
+                        "description": "Efficient large-scale language model training on gpu clusters using megatron-lm"
+                    }
+                ]
+            }
+        },
+        "5a65726f2d696e66696e6974793a20427265616b696e672074686520677075206d656d6f72792077616c6c20666f722065787472656d65207363616c652064656570206c6561726e696e67": {
+            "_surface": {
+                "text": "Zero-infinity: Breaking the gpu memory wall for extreme scale deep learning",
+                "unicode_name": "Zero-infinity: Breaking the gpu memory wall for extreme scale deep learning"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "696e2050726f63656564696e6773206f662074686520496e7465726e6174696f6e616c20436f6e666572656e636520666f72204869676820506572666f726d616e636520436f6d707574696e67": {
+            "_surface": {
+                "text": "in Proceedings of the International Conference for High Performance Computing",
+                "unicode_name": "in Proceedings of the International Conference for High Performance Computing"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", Networking, Storage and Analysis, ser. SC ’21"
+                        ],
+                        "arity": 0,
+                        "description": "Efficient large-scale language model training on gpu clusters using megatron-lm"
+                    }
+                ]
+            }
+        },
+        "50726f63656564696e6773206f6620746865203434746820616e6e75616c20696e7465726e6174696f6e616c2073796d706f7369756d206f6e20636f6d707574657220617263686974656374757265": {
+            "_surface": {
+                "text": "Proceedings of the 44th annual international symposium on computer architecture",
+                "unicode_name": "Proceedings of the 44th annual international symposium on computer architecture"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2017"
+                        ],
+                        "arity": 0,
+                        "description": "In-datacenter performance analysis of a tensor processing unit"
+                    }
+                ]
+            }
+        },
+        "41636375726174652070726564696374696f6e206f662070726f7465696e207374727563747572657320616e6420696e746572616374696f6e73207573696e67206120332d747261636b206e6574776f726b": {
+            "_surface": {
+                "text": "Accurate prediction of protein structures and interactions using a 3-track network",
+                "unicode_name": "Accurate prediction of protein structures and interactions using a 3-track network"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "496e7465726e6174696f6e616c20436f6e666572656e6365206f6e204869676820506572666f726d616e636520436f6d707574696e6720696e20417369612d5061636966696320526567696f6e20576f726b73686f7073": {
+            "_surface": {
+                "text": "International Conference on High Performance Computing in Asia-Pacific Region Workshops",
+                "unicode_name": "International Conference on High Performance Computing in Asia-Pacific Region Workshops"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "696e2050726f63656564696e6773206f662074686520323674682041434d20534947504c414e2053796d706f7369756d206f6e205072696e6369706c657320616e64205072616374696365206f6620506172616c6c656c2050726f6772616d6d696e67": {
+            "_surface": {
+                "text": "in Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+                "unicode_name": "in Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", 2021"
+                        ],
+                        "arity": 0,
+                        "description": "Turbotransformers: an efficient gpu serving system for transformer models"
+                    }
+                ]
+            }
+        }
+    }
+}

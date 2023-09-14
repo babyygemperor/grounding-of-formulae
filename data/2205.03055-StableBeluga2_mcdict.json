@@ -1,0 +1,1724 @@
+{
+    "_author": "TheBloke/StableBeluga2-70B-GPTQ",
+    "_mcdict_version": "1.0",
+    "concepts": {
+        "43": {
+            "_surface": {
+                "text": "C",
+                "unicode_name": "LATIN CAPITAL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Recognized categories for the tth task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Categories"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Category"
+                    }
+                ]
+            }
+        },
+        "44": {
+            "_surface": {
+                "text": "D",
+                "unicode_name": "LATIN CAPITAL LETTER D"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Dataset for the tth task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Distribution"
+                    }
+                ]
+            }
+        },
+        "46": {
+            "_surface": {
+                "text": "F",
+                "unicode_name": "LATIN CAPITAL LETTER F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Discretized binary gates"
+                    }
+                ]
+            }
+        },
+        "47": {
+            "_surface": {
+                "text": "G",
+                "unicode_name": "LATIN CAPITAL LETTER G"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "49": {
+            "_surface": {
+                "text": "I",
+                "unicode_name": "LATIN CAPITAL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Indicator function"
+                    }
+                ]
+            }
+        },
+        "4c": {
+            "_surface": {
+                "text": "L",
+                "unicode_name": "LATIN CAPITAL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of layers"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Length"
+                    }
+                ]
+            }
+        },
+        "58": {
+            "_surface": {
+                "text": "X",
+                "unicode_name": "LATIN CAPITAL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Input images for the tth task"
+                    }
+                ]
+            }
+        },
+        "59": {
+            "_surface": {
+                "text": "Y",
+                "unicode_name": "LATIN CAPITAL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Annotations for the tth task"
+                    }
+                ]
+            }
+        },
+        "63": {
+            "_surface": {
+                "text": "c",
+                "unicode_name": "LATIN SMALL LETTER C"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Number of classes"
+                    }
+                ]
+            }
+        },
+        "67": {
+            "_surface": {
+                "text": "g",
+                "unicode_name": "LATIN SMALL LETTER G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel gates"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Soft gates"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Activated channel weights"
+                    },
+                    {
+                        "affixes": [
+                            "^"
+                        ],
+                        "arity": 0,
+                        "description": "Static binary gate"
+                    }
+                ]
+            }
+        },
+        "68": {
+            "_surface": {
+                "text": "h",
+                "unicode_name": "LATIN SMALL LETTER H"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "69": {
+            "_surface": {
+                "text": "i",
+                "unicode_name": "LATIN SMALL LETTER I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6a": {
+            "_surface": {
+                "text": "j",
+                "unicode_name": "LATIN SMALL LETTER J"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Index"
+                    }
+                ]
+            }
+        },
+        "6c": {
+            "_surface": {
+                "text": "l",
+                "unicode_name": "LATIN SMALL LETTER L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Layer"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Label"
+                    }
+                ]
+            }
+        },
+        "6d": {
+            "_surface": {
+                "text": "m",
+                "unicode_name": "LATIN SMALL LETTER M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Total number of previously inactivated channels"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "6e": {
+            "_surface": {
+                "text": "n",
+                "unicode_name": "LATIN SMALL LETTER N"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    }
+                ]
+            }
+        },
+        "70": {
+            "_surface": {
+                "text": "p",
+                "unicode_name": "LATIN SMALL LETTER P"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "71": {
+            "_surface": {
+                "text": "q",
+                "unicode_name": "LATIN SMALL LETTER Q"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Estimated ratio of newly activated gates"
+                    }
+                ]
+            }
+        },
+        "74": {
+            "_surface": {
+                "text": "t",
+                "unicode_name": "LATIN SMALL LETTER T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Time"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task t"
+                    },
+                    {
+                        "affixes": [
+                            "_1"
+                        ],
+                        "arity": 0,
+                        "description": "Task t_1"
+                    }
+                ]
+            }
+        },
+        "77": {
+            "_surface": {
+                "text": "w",
+                "unicode_name": "LATIN SMALL LETTER W"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "78": {
+            "_surface": {
+                "text": "x",
+                "unicode_name": "LATIN SMALL LETTER X"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input"
+                    }
+                ]
+            }
+        },
+        "79": {
+            "_surface": {
+                "text": "y",
+                "unicode_name": "LATIN SMALL LETTER Y"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output"
+                    }
+                ]
+            }
+        },
+        "ceb3": {
+            "_surface": {
+                "text": "γ",
+                "unicode_name": "GREEK SMALL LETTER GAMMA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Threshold"
+                    }
+                ]
+            }
+        },
+        "ceb7": {
+            "_surface": {
+                "text": "η",
+                "unicode_name": "GREEK SMALL LETTER ETA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Hyper-parameter threshold"
+                    }
+                ]
+            }
+        },
+        "cf95": {
+            "_surface": {
+                "text": "ϕ",
+                "unicode_name": "GREEK PHI SYMBOL"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Weight function"
+                    }
+                ]
+            }
+        },
+        "474443": {
+            "_surface": {
+                "text": "GDC",
+                "unicode_name": "GDC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task correlation guided Gating Diversity Controller"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating diversity controller"
+                    }
+                ]
+            }
+        },
+        "4d5345": {
+            "_surface": {
+                "text": "MSE"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Mean square error"
+                    }
+                ]
+            }
+        },
+        "564f43": {
+            "_surface": {
+                "text": "VOC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "VOC dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Visual Object Classes"
+                    }
+                ]
+            }
+        },
+        "6c6f67": {
+            "_surface": {
+                "text": "log"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "6d6178": {
+            "_surface": {
+                "text": "max"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Maximum operator"
+                    }
+                ]
+            }
+        },
+        "6d696e": {
+            "_surface": {
+                "text": "min"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "76616c": {
+            "_surface": {
+                "text": "val",
+                "unicode_name": "val"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Validation set"
+                    }
+                ]
+            }
+        },
+        "e28492": {
+            "_surface": {
+                "text": "ℒ",
+                "unicode_name": "SCRIPT CAPITAL L"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Entropy"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diversity"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task correlation"
+                    }
+                ]
+            }
+        },
+        "e2849b": {
+            "_surface": {
+                "text": "ℛ",
+                "unicode_name": "SCRIPT CAPITAL R"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class-to-task correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prototypical task correlation"
+                    }
+                ]
+            }
+        },
+        "e2849d": {
+            "_surface": {
+                "text": "ℝ",
+                "unicode_name": "DOUBLE-STRUCK CAPITAL R"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "e28a99": {
+            "_surface": {
+                "text": "⊙",
+                "unicode_name": "CIRCLED DOT OPERATOR"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel-wise multiplication"
+                    }
+                ]
+            }
+        },
+        "434f434f": {
+            "_surface": {
+                "text": "COCO",
+                "unicode_name": "COCO"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "COCO dataset"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Microsoft Common Objects in Context"
+                    }
+                ]
+            }
+        },
+        "f09d908c": {
+            "_surface": {
+                "text": "𝐌",
+                "unicode_name": "MATHEMATICAL BOLD CAPITAL M"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class-to-class prototypical correlation matrix"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class-to-task correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Normalized prototypical correlation matrix of VOC→KITTI"
+                    }
+                ]
+            }
+        },
+        "f09d9286": {
+            "_surface": {
+                "text": "𝒆",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class embeddings"
+                    }
+                ]
+            }
+        },
+        "f09d9287": {
+            "_surface": {
+                "text": "𝒇",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL F"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input feature map"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gated output feature for inference time"
+                    }
+                ]
+            }
+        },
+        "f09d9288": {
+            "_surface": {
+                "text": "𝒈",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL G"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Activated channel weights"
+                    }
+                ]
+            }
+        },
+        "f09d9291": {
+            "_surface": {
+                "text": "𝒑",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL P"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prototype of the ith class"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Prototype of the jth class"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class-to-task correlation"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task"
+                    },
+                    {
+                        "affixes": [
+                            "_n"
+                        ],
+                        "arity": 0,
+                        "description": "Task n"
+                    },
+                    {
+                        "affixes": [
+                            "_m"
+                        ],
+                        "arity": 0,
+                        "description": "Task m"
+                    },
+                    {
+                        "affixes": [
+                            "_t"
+                        ],
+                        "arity": 0,
+                        "description": "Task at time t"
+                    },
+                    {
+                        "affixes": [
+                            "_i"
+                        ],
+                        "arity": 0,
+                        "description": "Task i"
+                    }
+                ]
+            }
+        },
+        "f09d9295": {
+            "_surface": {
+                "text": "𝒕",
+                "unicode_name": "MATHEMATICAL BOLD ITALIC SMALL T"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92af": {
+            "_surface": {
+                "text": "𝒯",
+                "unicode_name": "MATHEMATICAL SCRIPT CAPITAL T"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Set of tasks"
+                    }
+                ]
+            }
+        },
+        "f09d94bc": {
+            "_surface": {
+                "text": "𝔼",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL E"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Expected value"
+                    }
+                ]
+            }
+        },
+        "f09d9580": {
+            "_surface": {
+                "text": "𝕀",
+                "unicode_name": "MATHEMATICAL DOUBLE-STRUCK CAPITAL I"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Indicator function"
+                    }
+                ]
+            }
+        },
+        "4b49545449": {
+            "_surface": {
+                "text": "KITTI"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KITTI dataset"
+                    }
+                ]
+            }
+        },
+        "52654c4552": {
+            "_surface": {
+                "text": "ReLER",
+                "unicode_name": "ReLER"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [
+                            ", AAII, UTS"
+                        ],
+                        "arity": 0,
+                        "description": "Affiliation 3"
+                    }
+                ]
+            }
+        },
+        "433c7c747c3e": {
+            "_surface": {
+                "text": "C<|t|>",
+                "unicode_name": "C<|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Class embeddings"
+                    }
+                ]
+            }
+        },
+        "687368696163": {
+            "_surface": {
+                "text": "hshiac",
+                "unicode_name": "hshiac"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 2"
+                    }
+                ]
+            }
+        },
+        "48616e20536869": {
+            "_surface": {
+                "text": "Han Shi",
+                "unicode_name": "Han Shi"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 2"
+                    }
+                ]
+            }
+        },
+        "48616e67205875": {
+            "_surface": {
+                "text": "Hang Xu",
+                "unicode_name": "Hang Xu"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 4"
+                    }
+                ]
+            }
+        },
+        "4b69746368656e": {
+            "_surface": {
+                "text": "Kitchen",
+                "unicode_name": "Kitchen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Kitchen dataset"
+                    }
+                ]
+            }
+        },
+        "524f5345545441": {
+            "_surface": {
+                "text": "ROSETTA",
+                "unicode_name": "ROSETTA"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Proposed method for continual object detection"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "ROSETTA dataset"
+                    }
+                ]
+            }
+        },
+        "79616e67626233": {
+            "_surface": {
+                "text": "yangbb3",
+                "unicode_name": "yangbb3"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 1"
+                    }
+                ]
+            }
+        },
+        "4162737472616374": {
+            "_surface": {
+                "text": "Abstract",
+                "unicode_name": "Abstract"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Section"
+                    }
+                ]
+            }
+        },
+        "434f434f2d564f43": {
+            "_surface": {
+                "text": "COCO-VOC",
+                "unicode_name": "COCO-VOC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "COCO-VOC dataset"
+                    }
+                ]
+            }
+        },
+        "64656e6778636835": {
+            "_surface": {
+                "text": "dengxch5",
+                "unicode_name": "dengxch5"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 1"
+                    }
+                ]
+            }
+        },
+        "6c696e6c69616e67": {
+            "_surface": {
+                "text": "linliang",
+                "unicode_name": "linliang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 4"
+                    }
+                ]
+            }
+        },
+        "7a67776461766964": {
+            "_surface": {
+                "text": "zgwdavid",
+                "unicode_name": "zgwdavid"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 3"
+                    }
+                ]
+            }
+        },
+        "7a68616f73683335": {
+            "_surface": {
+                "text": "zhaosh35",
+                "unicode_name": "zhaosh35"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 1"
+                    }
+                ]
+            }
+        },
+        "f09d9198f09d9191": {
+            "_surface": {
+                "text": "𝑘𝑑"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Knowledge distillation"
+                    }
+                ]
+            }
+        },
+        "4c69616e67204c696e": {
+            "_surface": {
+                "text": "Liang Lin",
+                "unicode_name": "Liang Lin"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 1"
+                    }
+                ]
+            }
+        },
+        "5368656e205a68616f": {
+            "_surface": {
+                "text": "Shen Zhao",
+                "unicode_name": "Shen Zhao"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 1"
+                    }
+                ]
+            }
+        },
+        "f09d92863c7c747c3e": {
+            "_surface": {
+                "text": "𝒆<|t|>",
+                "unicode_name": "𝒆<|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task embedding"
+                    }
+                ]
+            }
+        },
+        "f09d92873c7c6c7c3e": {
+            "_surface": {
+                "text": "𝒇<|l|>",
+                "unicode_name": "𝒇<|l|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input feature map"
+                    }
+                ]
+            }
+        },
+        "467ef09d9299f09d9295": {
+            "_surface": {
+                "text": "F~𝒙𝒕",
+                "unicode_name": "F~𝒙𝒕"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Traditional convolutional operation without gated module"
+                    }
+                ]
+            }
+        },
+        "50617363616c20564f43": {
+            "_surface": {
+                "text": "Pascal VOC",
+                "unicode_name": "Pascal VOC"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pascal VOC dataset"
+                    }
+                ]
+            }
+        },
+        "5375622d6d6f64656c73": {
+            "_surface": {
+                "text": "Sub-models",
+                "unicode_name": "Sub-models"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework"
+                    }
+                ]
+            }
+        },
+        "78646c69616e67333238": {
+            "_surface": {
+                "text": "xdliang328",
+                "unicode_name": "xdliang328"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 3"
+                    }
+                ]
+            }
+        },
+        "42696e62696e2059616e67": {
+            "_surface": {
+                "text": "Binbin Yang",
+                "unicode_name": "Binbin Yang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 1"
+                    }
+                ]
+            }
+        },
+        "4368616e676c696e204c69": {
+            "_surface": {
+                "text": "Changlin Li",
+                "unicode_name": "Changlin Li"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 3"
+                    }
+                ]
+            }
+        },
+        "463c7c6c7c3e3c7c747c3e": {
+            "_surface": {
+                "text": "F<|l|><|t|>",
+                "unicode_name": "F<|l|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output of convolution"
+                    }
+                ]
+            }
+        },
+        "473c7c6c7c3e3c7c747c3e": {
+            "_surface": {
+                "text": "G<|l|><|t|>",
+                "unicode_name": "G<|l|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel gates of the lth layer"
+                    }
+                ]
+            }
+        },
+        "58696e6368692044656e67": {
+            "_surface": {
+                "text": "Xinchi Deng",
+                "unicode_name": "Xinchi Deng"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 1"
+                    }
+                ]
+            }
+        },
+        "6368726f6d6578626a7868": {
+            "_surface": {
+                "text": "chromexbjxh",
+                "unicode_name": "chromexbjxh"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 3"
+                    }
+                ]
+            }
+        },
+        "673c7c6c7c3e633c7c747c3e": {
+            "_surface": {
+                "text": "g<|l|>c<|t|>",
+                "unicode_name": "g<|l|>c<|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Channel gate of the lth layer"
+                    }
+                ]
+            }
+        },
+        "f09d91a3f09d918ef09d9199": {
+            "_surface": {
+                "text": "𝑣𝑎𝑙"
+            },
+            "identifiers": {
+                "default": []
+            }
+        },
+        "f09d92863c7cf09d92957c3e": {
+            "_surface": {
+                "text": "𝒆<|𝒕|>",
+                "unicode_name": "𝒆<|𝒕|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Learnable task embedding"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Task embedding"
+                    }
+                ]
+            }
+        },
+        "47656e67776569205a68616e67": {
+            "_surface": {
+                "text": "Gengwei Zhang",
+                "unicode_name": "Gengwei Zhang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 1"
+                    }
+                ]
+            }
+        },
+        "4b495454492d4b69746368656e": {
+            "_surface": {
+                "text": "KITTI-Kitchen",
+                "unicode_name": "KITTI-Kitchen"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KITTI-Kitchen dataset"
+                    }
+                ]
+            }
+        },
+        "5869616f64616e204c69616e67": {
+            "_surface": {
+                "text": "Xiaodan Liang",
+                "unicode_name": "Xiaodan Liang"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author 1"
+                    }
+                ]
+            }
+        },
+        "6368616e676c696e6c692e6169": {
+            "_surface": {
+                "text": "changlinli.ai",
+                "unicode_name": "changlinli.ai"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Email 3"
+                    }
+                ]
+            }
+        },
+        "f09d92877ef09d9299f09d9295": {
+            "_surface": {
+                "text": "𝒇~𝒙𝒕",
+                "unicode_name": "𝒇~𝒙𝒕"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Feature map of teacher model"
+                    }
+                ]
+            }
+        },
+        "5370656369666963207461736b73": {
+            "_surface": {
+                "text": "Specific tasks",
+                "unicode_name": "Specific tasks"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework"
+                    }
+                ]
+            }
+        },
+        "f09d92873c7c6c7c3e3c7c747c3e": {
+            "_surface": {
+                "text": "𝒇<|l|><|t|>",
+                "unicode_name": "𝒇<|l|><|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Input feature map"
+                    }
+                ]
+            }
+        },
+        "50617363616c20564f432032303037": {
+            "_surface": {
+                "text": "Pascal VOC 2007",
+                "unicode_name": "Pascal VOC 2007"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Pascal VOC 2007 dataset"
+                    }
+                ]
+            }
+        },
+        "5461736b2d6177617265206761746573": {
+            "_surface": {
+                "text": "Task-aware gates",
+                "unicode_name": "Task-aware gates"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework"
+                    }
+                ]
+            }
+        },
+        "f09d92873c7c6c7c3e2b313c7c747c3e": {
+            "_surface": {
+                "text": "𝒇<|l|>+1<|t|>",
+                "unicode_name": "𝒇<|l|>+1<|t|>"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output feature map"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Output feature map of gated convolution"
+                    }
+                ]
+            }
+        },
+        "556e6966696564206672616d65776f726b": {
+            "_surface": {
+                "text": "Unified framework",
+                "unicode_name": "Unified framework"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Framework"
+                    }
+                ]
+            }
+        },
+        "436f6e74696e75616c206c6561726e696e67": {
+            "_surface": {
+                "text": "Continual learning",
+                "unicode_name": "Continual learning"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Topic"
+                    }
+                ]
+            }
+        },
+        "457175616c20636f6e747269627574696f6e": {
+            "_surface": {
+                "text": "Equal contribution",
+                "unicode_name": "Equal contribution"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author contribution"
+                    }
+                ]
+            }
+        },
+        "436f72726573706f6e64696e6720617574686f72": {
+            "_surface": {
+                "text": "Corresponding author",
+                "unicode_name": "Corresponding author"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Author contribution"
+                    }
+                ]
+            }
+        },
+        "f09d9a9df09d9a8af09d9a9cf09d9a94f09d9fb7": {
+            "_surface": {
+                "text": "𝚝𝚊𝚜𝚔𝟷",
+                "unicode_name": "𝚝𝚊𝚜𝚔𝟷"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "COCO-VOC"
+                    }
+                ]
+            }
+        },
+        "53756e205961742d73656e20556e6976657273697479": {
+            "_surface": {
+                "text": "Sun Yat-sen University",
+                "unicode_name": "Sun Yat-sen University"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation 1"
+                    }
+                ]
+            }
+        },
+        "436174617374726f7068696320466f7267657474696e67": {
+            "_surface": {
+                "text": "Catastrophic Forgetting",
+                "unicode_name": "Catastrophic Forgetting"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Phenomenon of rapid performance degradation on previously learned tasks"
+                    }
+                ]
+            }
+        },
+        "487561776569204e6f6168e28099732041726b204c6162": {
+            "_surface": {
+                "text": "Huawei Noah’s Ark Lab",
+                "unicode_name": "Huawei Noah’s Ark Lab"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation 4"
+                    }
+                ]
+            }
+        },
+        "436f6e74696e75616c20636c617373696669636174696f6e": {
+            "_surface": {
+                "text": "Continual classification",
+                "unicode_name": "Continual classification"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Topic"
+                    }
+                ]
+            }
+        },
+        "436f6e74696e75616c204f626a65637420446574656374696f6e": {
+            "_surface": {
+                "text": "Continual Object Detection",
+                "unicode_name": "Continual Object Detection"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title"
+                    }
+                ]
+            }
+        },
+        "436f6e74696e75616c206f626a65637420646574656374696f6e": {
+            "_surface": {
+                "text": "Continual object detection",
+                "unicode_name": "Continual object detection"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Topic"
+                    }
+                ]
+            }
+        },
+        "f09d91a0f09d919df09d918ef09d919ff09d91a0f09d9196f09d91a1f09d91a6": {
+            "_surface": {
+                "text": "𝑠𝑝𝑎𝑟𝑠𝑖𝑡𝑦"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Sparsity"
+                    }
+                ]
+            }
+        },
+        "f09d9191f09d9196f09d91a3f09d9192f09d919ff09d91a0f09d9196f09d91a1f09d91a6": {
+            "_surface": {
+                "text": "𝑑𝑖𝑣𝑒𝑟𝑠𝑖𝑡𝑦"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Gating diversity loss"
+                    },
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Diversity"
+                    }
+                ]
+            }
+        },
+        "54686520486f6e67204b6f6e6720556e6976657273697479206f6620536369656e636520616e6420546563686e6f6c6f6779": {
+            "_surface": {
+                "text": "The Hong Kong University of Science and Technology",
+                "unicode_name": "The Hong Kong University of Science and Technology"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Affiliation 2"
+                    }
+                ]
+            }
+        },
+        "efbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbdefbfbd": {
+            "_surface": {
+                "text": "�����������������",
+                "unicode_name": "�����������������"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "KITTI-Kitchen"
+                    }
+                ]
+            }
+        },
+        "50726f746f7479706963616c205461736b20436f7272656c6174696f6e2047756964656420476174696e67204d656368616e69736d": {
+            "_surface": {
+                "text": "Prototypical Task Correlation Guided Gating Mechanism",
+                "unicode_name": "Prototypical Task Correlation Guided Gating Mechanism"
+            },
+            "identifiers": {
+                "default": [
+                    {
+                        "affixes": [],
+                        "arity": 0,
+                        "description": "Title"
+                    }
+                ]
+            }
+        }
+    }
+}

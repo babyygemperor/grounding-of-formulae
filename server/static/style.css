@@ -1,0 +1,164 @@
+/*
+
+Style for MioGatto
+
+Author: Takuto ASAKURA <takuto at is.s.u-tokyo.ac.jp>
+Version: 2021-10-31
+
+*/
+
+.main {
+    display: block;
+    width: 660px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main mi {
+    cursor: pointer;
+}
+
+.main img {
+    max-width: 100%;
+}
+
+.sidebar {
+    width: 350px;
+    padding: 5px;
+    height: 98vh;
+    position: sticky;
+    top: 5px;
+    bottom: 5px;
+}
+
+.sidebar-tabs {
+    padding: 10px;
+    height: 95%;
+    overflow: auto;
+    position: sticky;
+    top: 10px;
+    bottom: 10px;
+}
+
+.sidebar-tab input.tab-title {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.sidebar-tab label.tab-title {
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 3;
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    cursor: pointer;
+    margin: 0 0 1px 0;
+    color: #fff;
+    background: #da3c41;
+}
+
+.sidebar-tab .tab-content {
+    overflow: hidden;
+    word-break: break-word;
+    max-height: 0;
+    -webkit-transition: max-height 0.35s;
+    transition: max-height 0.35s;
+    color: #333333;
+    background: #f1c6c6;
+}
+
+.sidebar-tab .tab-content p {
+    margin: 1em;
+}
+
+/* checked */
+.sidebar-tab input.tab-title:checked ~ .tab-content {
+	max-height: none;
+}
+
+/* icon */
+.sidebar-tab label.tab-title::after {
+    line-height: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    text-align: center;
+}
+
+.sidebar-tab input.tab-title[type=checkbox] + label.tab-title::after {
+    content: '+';
+}
+
+.sidebar-tab input.tab-title[type=checkbox]:checked + label.tab-title::after {
+    transform: rotate(315deg);
+}
+
+.sidebar-tab .tab-content form {
+    padding: 10px 10px 0px 10px;
+}
+
+.sidebar-tab div.keep input {
+    display: block;
+    float: left;
+}
+
+.sidebar-tab div.keep span.keep {
+    display: block;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1060px;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.sog-menu {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    /* color: #5d627b; */
+    background: #fff;
+    border: solid 2px;
+    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); */
+    display: none;
+    list-style: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.sog-menu-wrap {
+    display: flex;
+    flex-flow: column;
+}
+
+.sog-menu input.sog-del:hover {
+    background: #ff0000;
+    color: #ffffff;
+}
+
+.concept-dialog, .sog-type-dialog, .error-dialog {
+    display: none;
+    list-style: none;
+}
+
+.error-dialog .ui-dialog-titlebar {
+    color: white;
+    background: red;
+}
+
+table[class*="ltx_eqn_table"]  {
+    display: block;
+    overflow-x: scroll;
+}
+
+table[class*="ltx_eqn_table"] td  {
+    padding-bottom: 12px;
+}
