@@ -71,6 +71,21 @@ python -m tools.preprocess path/to/file.html -d data
 
 In order to generate the html from tex, use the command from line 139 of this README file. (Preparing data with `latexmlc`) 
 
+Note: The annotation tool `extra.annotate.annotator-open` is experimental. It has never been tested. To see the functionings, please see `./notebooks` folder.
+
+### Files in this repository
+
+All the components of MioGatto is included in this repository:
+
+* `client/` contains the node.js files for the client.
+* `data/` contains all the json files, i.e, mcdict (dictionary) and anno (annotations) of the papers.
+* `extra/` contains the implementation of the LLM based automation for annotations.
+* `lib/` contains the project library.
+* `notebooks/` contains the various jupyter notebooks used while experimenting with Open Source LLMs.
+* `server/` contains the implementation of the server.
+* `static/` contains the static files for the client.
+* `tools/` contains our utility Python scripts.
+
 Below is the exact same README.md of MioGatto for further reference
 
 # MioGatto: Math Identifier-oriented Grounding Annotation Tool
