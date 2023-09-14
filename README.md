@@ -1,6 +1,6 @@
 # grounding-of-formulae
 
-This source code is a hard copy of the current working projects of [MioGatto](https://github.com/babyygemperor/MioGatto), a fork of [MioGatto](https://github.com/babyygemperor/MioGatto). 
+This source code is a hard copy of the current working projects of [MioGatto](https://github.com/babyygemperor/MioGatto), a fork of [MioGatto](https://github.com/babyygemperor/MioGatto) in support of [my bachelor's thesis](https://github.com/babyygemperor/bachelors-thesis). The results of this thesis are availabe on [Google Sheets](https://docs.google.com/spreadsheets/d/1v0t9q5V2j4phjZxXQFIH3b06vl8UBNrFDZlz6ajPAac/edit?usp=sharing).
 
 There is a docker image added for help.
 
