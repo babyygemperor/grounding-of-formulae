@@ -27,7 +27,7 @@ You can find the paper ID from the folder of ./sources; do not include the exten
 docker run -p 4100:4100 -d ghcr.io/babyygemperor/miogatto:latest python -m server 1906.05149-StableBeluga2
 ```
 
-In order to run the gpt annotation tool, use the following commands.
+In order to run the tool to generate GPT generated annotations, use the following commands.
 
 ```sh
 $ export OPENAI_API_KEY=...
